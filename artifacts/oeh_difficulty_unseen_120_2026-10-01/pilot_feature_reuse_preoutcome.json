@@ -1,0 +1,10 @@
+{
+  "status": "preoutcome_resume_completed_pilot_features",
+  "reason": "Previous preparation completed all 600 pilot groups before the resolved-kernel fingerprint check stopped it",
+  "rows": 1800,
+  "mdps": 120,
+  "pilot_features_sha256": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be",
+  "protocol_sha256": "1e3016320038066ca18e593e8927a6f54bcf187e62f33f3ad50b7f77c0987839",
+  "dataset_manifest_sha256": "987587680846dda5aeed3569fb77f7d9af92a42b77aca6aed981e141d4eaa780",
+  "learner_outcomes_observed": 0
+}

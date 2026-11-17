@@ -1,0 +1,9 @@
+{
+  "sealed_at_utc": "2026-09-30T15:57:57.373355+00:00",
+  "protocol_sha256": "77d92d8de37d3872d0ad176aa790d67ee4c2c535199644a297edf63c085c931f",
+  "artifact_sha256": {
+    "predictions_preoutcome.csv": "25d001c6a7d7b6eaaf325d98799fdf7c52ab62fe9f93eb3bffb4a04200022bb1",
+    "oracle_preoutcome.csv": "f943697387abbde9f46688a5bebe9d8ac06f93a2fc68ac469e2ad538ca5d6a1e"
+  },
+  "validation_outcomes_observed": 0
+}

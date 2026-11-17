@@ -1,0 +1,7 @@
+method,censor_AUC,censor_brier,finite_cond_logloss,finite_spearman,finite_MAE_levels,finite_exact,finite_within1,finite_mean_P6,finite_ibs,finite_ll
+b2_matched,0.855,0.155,1.88,0.39,1.443,0.269,0.527,0.329,0.253,2.449
+b2_plus_eh_oracle_matched,0.849,0.161,2.022,0.379,1.467,0.252,0.517,0.312,0.25,2.545
+b2_plus_eri,0.881,0.138,1.836,0.413,1.402,0.279,0.524,0.292,0.226,2.34
+oeh_final,0.915,0.109,2.005,0.497,1.399,0.279,0.524,0.303,0.25,2.517
+prior_oeh_matched,0.903,0.127,1.659,0.506,1.278,0.293,0.622,0.24,0.186,2.0
+train_frequency,0.724,0.172,2.071,0.186,1.827,0.133,0.473,0.602,0.455,3.122

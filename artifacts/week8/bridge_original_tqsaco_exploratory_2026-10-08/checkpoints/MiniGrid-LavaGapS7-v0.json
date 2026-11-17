@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-LavaGapS7-v0",
+  "seed": 1271679325,
+  "states": 481,
+  "actions": 6,
+  "transitions": 28860,
+  "online_reference_max_return": 0.1,
+  "online_reference_unique_pairs": 1632,
+  "online_reference_evaluations": 506,
+  "random_reference_mean_return": 0.009259259259259259,
+  "tq_denominator": 0.09074074074074075,
+  "source_mdp_sha256": "53114b71a2d3426584de905121c321cf9e66191792fe1e67c447008b28916327",
+  "pilot_sha256": {
+    "ae64b420fe97942cc0ca47a8.npz": "be500e3558f27ef353ead190d9b3657256f9271856dee986eb57d956af62473e",
+    "21820f4b5399e150810000f1.npz": "26b8a2c5ff3328b2e27d1af4f08edd479b33816c1b738b25e1c4355dc19fb4cc",
+    "659b8e95448a85059151ff22.npz": "692abcad378d074050a46cbcd727c34a2c1a30ef72703382a7ffa5fc24113d85",
+    "15b9b52034547ca13374a090.npz": "4573a50c7a6703785b70d565f593984bfa8f224eb50507f714841375f009a17d",
+    "16631d35bd0273051c5c1d86.npz": "f1a0606a1243a3a6418991aa64490aab8e710bd891367581e7673e156362bc84"
+  },
+  "runtime_seconds": 319.0826857999782,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-LavaGapS7-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": 0.031136321598125658,
+      "tq_defined": true,
+      "saco_original": 1.4803921568627452,
+      "pilot_mean_return": 0.012084592145015106,
+      "pilot_pairs": 2416
+    },
+    {
+      "mdp_id": "MiniGrid-LavaGapS7-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": -0.1020408163265306,
+      "tq_defined": true,
+      "saco_original": 0.27205882352941174,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 444
+    },
+    {
+      "mdp_id": "MiniGrid-LavaGapS7-v0",
+      "policy_family": "structured_random",
+      "tq_original": -0.03443095029422811,
+      "tq_defined": true,
+      "saco_original": 0.8094362745098039,
+      "pilot_mean_return": 0.006134969325153374,
+      "pilot_pairs": 1321
+    },
+    {
+      "mdp_id": "MiniGrid-LavaGapS7-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": -0.050902031346181154,
+      "tq_defined": true,
+      "saco_original": 0.34620098039215685,
+      "pilot_mean_return": 0.004640371229698376,
+      "pilot_pairs": 565
+    },
+    {
+      "mdp_id": "MiniGrid-LavaGapS7-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": 10.792329798252394,
+      "tq_defined": true,
+      "saco_original": 0.633578431372549,
+      "pilot_mean_return": 0.9885632594710507,
+      "pilot_pairs": 1034
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "phase":  "COMPLETE",
+    "detail":  "Direct recovery from frozen inputs after monitor Python launch failure; prelabel seal, 75 labels and analysis manifest complete",
+    "updated_local":  "2026-10-08T20:28:33.4275495+07:00",
+    "oehb_groups":  25,
+    "horizon_groups":  25,
+    "total_groups":  25,
+    "labels_opened":  true,
+    "analysis_complete":  true,
+    "monitor_launch_failure":  "benchmarks.bridge.fresh_preoutcome_full_forecast exited with -1073741790"
+}

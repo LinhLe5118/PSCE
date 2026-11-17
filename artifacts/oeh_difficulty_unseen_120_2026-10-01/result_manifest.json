@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-01T11:48:30.211054+00:00",
+  "protocol_sha256": "1e3016320038066ca18e593e8927a6f54bcf187e62f33f3ad50b7f77c0987839",
+  "preoutcome_seal_sha256": "2f145f1566154e633ad5ec1aea6e0e69e4a8c28ec206a359362189d4c2961d61",
+  "execution_plan_sha256": "9db43ca30fa1058724cc353dbbb8044badb2d507c3b7d525a3ac0a18b9f8ac4d",
+  "jobs": 108000,
+  "mdps": 120,
+  "stochastic_primary_mdps": 84,
+  "simultaneous_critical_value": 2.489522799526188,
+  "difficulty_gate": "NO-GO",
+  "scope": "EH is a full-MDP oracle descriptor transfer to offline difficulty, not the original online theorem; data-quality comparators are tabular adaptations, not exact original implementations",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "f8e45c56b2de293f992f52ccf1ad55c13d68849edfc8190916c412133a8899b5",
+    "labels.csv": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575",
+    "scored_predictions.csv": "9aca6ed08d38678c4339007b53f98a25f37e9c3f06cc47acb004cc55801e01d1",
+    "mdp_scores.csv": "19f6d7d03bb3ed3e299457a7163c36189c3fdd13f9272c979f8222e4c47d6980",
+    "summary.csv": "ae2fb00efeb90fb3c027baa8c2fb2500203a14b687ccdcaea5df0d79559872c4",
+    "contrasts.csv": "8381819eb230db374ed77dc215b00340282c139397c3bb41ac34d95c696287a0"
+  }
+}

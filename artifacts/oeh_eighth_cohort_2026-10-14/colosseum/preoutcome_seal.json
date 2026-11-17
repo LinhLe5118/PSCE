@@ -1,0 +1,24 @@
+{
+  "panel": "colosseum",
+  "protocol_sha256": "9d60e2629b8fc5a01994cd4a024b6c10dfe1ae64b2abf1e7cde3bd39045c6595",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-14T14:01:50.007494+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "a375770c4c7170ab76b84b82a6792f66f7d722bc97414c71afe052b449f37323",
+    "published_preoutcome.csv": "19f8a3d529ea937623f611b50ba5b781e7e05f5dc5f8cc59e1b9e59fcc998e73",
+    "horizon_preoutcome.csv": "f12e31df1fc52173adb95b82fd7a2a542caf420177494b4203754cde32b2943e",
+    "curve_preoutcome.csv": "4a170bc79227bd17527e3b1c1e80dac8f909d74e47e3cbe4a66b4546002ecefc",
+    "query_preoutcome.csv.gz": "ad02c856e1321da7f00f78f986213d09eb24d7ce06b2db00609f718d7b3298fa",
+    "predictions_preoutcome.csv": "6905d03dec7e3d9b2631ba6caadeb063917b96aa0c4bbb6d6795f239b26e5e2b",
+    "forecast_tuning_preoutcome.json": "fe4f6398d8b8556aa662dfaf7e6490df26f32e830f80aa90744234804573cfc5"
+  },
+  "oeh_b_groups": 360,
+  "oeh_b_groups_sha256": "58a95478dd5619f314d5b997cef828c89ba9cc62c976cf3d4aea1037e7c1922e",
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "xgboost": "3.3.0"
+  }
+}

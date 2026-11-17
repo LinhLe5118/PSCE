@@ -1,0 +1,27 @@
+{
+  "amendment": 1,
+  "recorded_at_utc": "2026-10-14T16:31:05.324512+00:00",
+  "status": "pre-outcome",
+  "panel": "forest",
+  "problem": "mdptoolbox.example.forest returns rewards up to r1 = 16; the pilot statistics require rewards in the public bound [0, 1] of the project's MDP contract (oeh_certificate_adapter: 'Reward outside the public bound').",
+  "detected": "when pilot features of the forest panel were computed, the first step after its data generation",
+  "state_at_detection": {
+    "forest": "kernels and buffers generated (dataset_seal below); no pilot feature, OEH-B group, forecast or learner outcome",
+    "other panels": "nothing generated"
+  },
+  "change": "forest rewards divided by their maximum (R / max R) before the kernel is written; a positive scaling keeps the optimal policies and the normalized return that defines the labels",
+  "selection_effect": "the dynamic-range filter is applied to the scaled kernels; a seed-1 development draw of 80 candidates passes 80/80 after scaling as before",
+  "action": "the unscaled forest dataset, kernels and dataset_seal.json were deleted and regenerated with the amended runner",
+  "deleted_dataset_seal_sha256": "8455afc57af44758ddaf3fc392d39b19cf791e5d4089e68f88bcbb61b51323b7",
+  "deleted_dataset_seal_summary": {
+    "sealed_at_utc": "2026-10-14T16:29:39.202616+00:00",
+    "instances": 48,
+    "buffers": 2640,
+    "learner_outcomes_observed": 0
+  },
+  "runner_sha256": {
+    "before": "3cebd657fa6819aa8cc8889e8064bb8727618c45438218f9f579c732cdb1b062",
+    "after": "2c7ae96aac72a6eca5af71c2d838c3cbbfbf7305e571722f739ab0f432d5ddb4"
+  },
+  "protocol_sha256": "17019f87923754b7d125c48b7ac29dca580a1026ec272f33e3e92dcd0823bdec"
+}

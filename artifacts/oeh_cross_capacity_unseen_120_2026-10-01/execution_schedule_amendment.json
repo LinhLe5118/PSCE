@@ -1,0 +1,14 @@
+{
+  "schema": "execution_schedule_amendment_v1",
+  "reason": "Execute disjoint sealed learner jobs on eight CPU shards",
+  "created_at_utc": "2026-10-01T15:35:00.211815+00:00",
+  "shards": 8,
+  "learner_outcomes_observed": 0,
+  "protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "preoutcome_seal_sha256": "8a7c465435af2c7fe04ddc747202dcdc5d8053fac49ca1500a4b6f875640e588",
+  "execution_plan_sha256": "1602973aa4bb029095007ec2c1505d466eddfd18ce75890e0f2dbc4f835c1764",
+  "plan_builder_sha256": "e986fa600a2abad737e007d47783056f9b81bac3c4225239dc24b5665a1bf4e8",
+  "shard_worker_sha256": "b6e746a3072de7658d2eca7be34e6645693b87f769b0719cc9b66a255c19ef87",
+  "method_data_forecasts_and_decision_rule_changed": false,
+  "final_verification": "Original runner evaluate --resume checks all 108000 jobs against frozen plan before analysis"
+}

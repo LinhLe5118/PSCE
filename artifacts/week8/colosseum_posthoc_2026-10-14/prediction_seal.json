@@ -1,0 +1,27 @@
+{
+  "namespace": "week8-colosseum-posthoc-v1-20261014",
+  "sealed_at_utc": "2026-10-14T09:49:57.200347+00:00",
+  "labels_read": false,
+  "prediction_sha256": "7a3777fbc447499d621fc5562f7662b0f358854c9d433a6bf5cb02bdbf9091b7",
+  "plan_sha256": "20a291599bbf4bd4f98c554cb3b95448909356796a2ad2421ff7c6a46be37f2a",
+  "input_inventory_sha256": "5f8e77c5dbfc85b5e6bce0ababf89d3664ed664a646333e30cab89450451165d",
+  "reproduction_max_abs_diff": {
+    "oeh_full_108": 1.1713292624726535e-07,
+    "b2_matched": 4.286983260048949e-08,
+    "xgboost_cf_18_cohort7": 1.1102230246251565e-16,
+    "xgboost_cf_108_cohort7": 1.1102230246251565e-16
+  },
+  "tolerance": 1e-06,
+  "meta_training": {
+    "rows": 10800,
+    "mdps": 720
+  },
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "xgboost": "3.3.0"
+  },
+  "total_prelabel_seconds": 566.4162658000132
+}

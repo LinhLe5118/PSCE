@@ -1,0 +1,46 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T5 nested LOPO of the v2 selection procedure",
+  "created_utc": "2026-10-15T07:03:05.095731+00:00",
+  "summary": {
+    "reproduces_recorded_selection": true,
+    "recorded": {
+      "q_oeh": "finite_only_head",
+      "q_robust": "legacy_finite",
+      "lambda_max": 1.0,
+      "eps_max": 0.02,
+      "d0": "3.0"
+    },
+    "external_outer_score_mean": -0.05547398685042201,
+    "external_single_fit_score_mean": -0.06552371899625185,
+    "external_inner_score_mean": -0.06913960474007895,
+    "optimism_inner_minus_outer": -0.013665617889656943,
+    "optimism_single_fit_minus_outer": -0.010049732145829847,
+    "internal_outer_rel": {
+      "cohort7": [
+        0.004929276792311255,
+        0.018051342608216503
+      ],
+      "cohort8": [
+        0.0017583710224335913,
+        0.006903086127489022
+      ]
+    }
+  },
+  "note": "scores are relative to OEH current (the full head), negative = better; M2/M3 rejected by their own rules, not re-run",
+  "inputs_sha256": {
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/predictions.csv.gz": "1037f28d0fb68f00a1bf076cbc3c636c55db2176a5a12237d7ca9c44998afe70",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/distances.csv": "3415f3969e542891ac132f880a0a31f31526799f0133f66c3a31284c53952cda",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/fit_manifest.json": "718b823bc516edd6179c14874ed45620604e8205d8f2fbbb97719cbfd2a18597",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/rules.json": "8fc00959c61a0ff387a6481ba28640950adfb786505c32ce265fb01b7821928d",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/selection.json": "8cf815fc2b167c0645e0f3445253d6264e7be45918a778cfd9731eb2e659c4b3"
+  },
+  "outputs_sha256": {
+    "outer_folds.csv": "7a0c6d358ca8b9f1cd672e154274ebef14cba5c81b490fb5321443d942881356",
+    "development_log.csv": "a2eb365234774d4052ff1059c570c6c11efa9e9bd6004c5941d59f9f69ed800b"
+  },
+  "source_sha256": {
+    "scripts/analysis/nested_lopo_v2_selection.py": "7aebe6935bd8b8ea18cd4dc3dfdd42a6711a3d1be049496aa59a60e951e3679a",
+    "scripts/analysis/develop_oeh_v2_heads_20261014.py": "ed80349323362d7c06d67dd075bfd71ae85d0b70c40eef2601ae9e965159cf24"
+  }
+}

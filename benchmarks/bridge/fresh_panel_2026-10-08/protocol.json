@@ -1,0 +1,107 @@
+{
+  "status": "FRESH_BRIDGE_PROTOCOL_FROZEN_BEFORE_LABELS",
+  "evaluation_tasks": [
+    "atlantis_10_fs30",
+    "atlantis_20_fs30",
+    "breakout_10_fs30",
+    "freeway_10_fs30",
+    "qbert_10_fs30"
+  ],
+  "excluded_candidates": [
+    "fruitbot_easy_l0_40_fs8",
+    "fruitbot_easy_l2_40_fs8",
+    "pong_20_fs30"
+  ],
+  "environment_source": "Published BRIDGE v1.1.1 base Atari MDPs, sticky probability 0.25; group-created offline trajectories and labels",
+  "state": "BFS-reachable (base_state, previous_executed_action), terminal absorbing; reset sentinel",
+  "episode_horizon": {
+    "atlantis_10_fs30": 10,
+    "atlantis_20_fs30": 20,
+    "breakout_10_fs30": 10,
+    "freeway_10_fs30": 10,
+    "qbert_10_fs30": 10
+  },
+  "reward": "Divide raw public MDP rewards by each task's positive published maximum; no shift; same normalized-return endpoint",
+  "behavior_families_per_task": 5,
+  "pilot": "Independent x10*S*A transition stream per behavior; fixed hash-derived seed; generated before labels",
+  "label_training": "Independent x50*S*A natural streams with nested x1,x2,x5,x10,x20,x50 prefixes, ten seeds, BC/CFQI/IQL; 8/10 sustained suffix",
+  "learner_names": [
+    "BC",
+    "CFQI",
+    "IQL"
+  ],
+  "requirement_budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "requirement_categories": [
+    "x1",
+    "x2",
+    "x5",
+    "x10",
+    "x20",
+    "x50",
+    ">x50"
+  ],
+  "tau": 0.95,
+  "gamma": 0.99,
+  "posterior": {
+    "draws": 64,
+    "seeds": 10,
+    "minimum_dynamic_range": 0.2,
+    "structure": {
+      "reward_prior": "unseen_zero",
+      "transition_base": "uniform",
+      "behavior_prior": "mixture"
+    },
+    "simulated_training_horizon": "task-specific published H",
+    "exact_return_horizon": "task-specific published H"
+  },
+  "methods_primary": [
+    "oeh_full_108"
+  ],
+  "controlled_internal_diagnostic": [
+    "B2_matched"
+  ],
+  "published_original_secondary_rank_only": [
+    "EH_true_MDP_privileged",
+    "ERI_when_applicable",
+    "TQ",
+    "SACo"
+  ],
+  "comparison_rule": "Same task-behavior-learner rows, no new tuning from these labels; original published scores rank against E_l only and do not output its seven-class law",
+  "primary_metrics": [
+    "Brier",
+    "log_loss",
+    "paired_task_delta",
+    "task_cluster_bootstrap_95pct_CI",
+    "censoring",
+    "runtime"
+  ],
+  "bootstrap": {
+    "unit": "task",
+    "replicates": 10000,
+    "seed": 20261008
+  },
+  "seal_gate": "All 75 full OEH forecasts (5 tasks x 5 behaviors x 3 learners), internal diagnostic and original scores must be hashed before any label run",
+  "test_labels_read": false,
+  "source_sha256": {
+    "manifest.json": "ec03adf29a7802117cab06f3be178d5c6c704b34dc0ee8fc44856a5520942cf4",
+    "candidate_registry.csv": "fa8942d18cf1e712571b75f995d1112b38cfa4b269bcb03af596d7a68c14c742",
+    "download_manifest.json": "339d2202b9c5e1ecf4ecaf84f5c92690ff426737ff1d0fff6734c5d6bbe2a10d",
+    "reward_gate.json": "7d4ff31a49ffcf9e3bdb4268a22c524470e369c7aecf91a8af387b2e525efa15",
+    "adapter_preflight.json": "d6975f89101946791d22a837b1b4a1bde3fb07e86bdf931c99117e3d17fbbeb6",
+    "bridge_fast_backend_parity_dev_2026-10-08.json": "a9f7a8b4d640a27eba2833deeeccb7d17767b2d468b58cef2955944493c242a2",
+    "bridge_transfer_range_addendum_2026-10-07.json": "a62beda43bbb7183e9a88c5d97f815f8204e21d4882d9249c4eb5d44541d3038"
+  },
+  "limits": [
+    "Five reward-compatible tasks only; small cross-family panel.",
+    "These are published MDPs, not published offline logs/requirement labels.",
+    "Original EH/ERI/TQ/SACo do not yield the seven-class learner-specific requirement distribution.",
+    "A numerical optimization changes only the fresh-run implementation after development parity tests; it does not revise historical sealed outputs."
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "status": "PREFLIGHT_SPLIT_FROZEN_NOT_BENCHMARK_GO",
+  "selection_rule": "Smallest and largest six-action candidate by published sticky state count",
+  "development_tasks": [
+    "MiniGrid-LavaGapS5-v0",
+    "MiniGrid-SimpleCrossingS9N1-v0"
+  ],
+  "candidate_test_tasks": [
+    "MiniGrid-Empty-5x5-v0",
+    "MiniGrid-Empty-6x6-v0",
+    "MiniGrid-Empty-8x8-v0",
+    "MiniGrid-KeyCorridorS3R1-v0",
+    "MiniGrid-LavaCrossingS11N5-v0",
+    "MiniGrid-LavaCrossingS9N1-v0",
+    "MiniGrid-LavaCrossingS9N2-v0",
+    "MiniGrid-LavaCrossingS9N3-v0",
+    "MiniGrid-LavaGapS6-v0",
+    "MiniGrid-LavaGapS7-v0",
+    "MiniGrid-MultiRoom-N2-S4-v0",
+    "MiniGrid-SimpleCrossingS11N5-v0",
+    "MiniGrid-SimpleCrossingS9N2-v0",
+    "MiniGrid-SimpleCrossingS9N3-v0"
+  ],
+  "source": "BRIDGE v1.1.1 published MDP arrays; group-generated offline logs and labels",
+  "pilot_multiplier": 10,
+  "pilot_training_independent_seed_namespace": true,
+  "budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "training_seeds": 10,
+  "sustained_minimum": 8,
+  "success_threshold": 0.95,
+  "horizon": 100,
+  "gamma": 0.99,
+  "budget_state_count": "reachable states of the group adapter, including reset sentinel and directly reachable terminal slots",
+  "primary_learners": [
+    "BC",
+    "CFQI",
+    "IQL"
+  ],
+  "primary_forecasters": [
+    "B2 matched",
+    "OEH full 108"
+  ],
+  "other_internal_arms": [
+    "B2+ERI adaptation",
+    "B2+BWD adaptation",
+    "OEH without direct OEH-B",
+    "OEH without OEH-H/risk",
+    "OEH without legacy diagnostics"
+  ],
+  "score_only_original_formulas": [
+    "ERI",
+    "TQ privileged",
+    "SACo privileged"
+  ],
+  "decision_quantile": 0.8,
+  "test_label_read_rule": "No candidate test labels before complete preoutcome predictions and final test protocol seal",
+  "source_sha256": {
+    "benchmarks/bridge/adapter.py": "b3fdc826fbb37081dab4ad7a5540d21e5557709c6a3aecab8df1ab2a44cbef3e",
+    "benchmarks/bridge/finite_horizon.py": "701469b5c09872f8401e77bf53b96071eaf74070d38179f18dacb43f9684b2d8",
+    "benchmarks/bridge/labels.py": "d6093573f0e977b1091a202aba05da7a098aae1a8e3090f13e7f4eb61701d29f",
+    "code/oeh/predictive.py": "5f28afb97c8292f0998f2f273b528ea3190a89ce034b1e7fa3ae9a134a579c46",
+    "scripts/analysis/oeh_final_forecast.py": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76"
+  },
+  "registry_sha256": "bded023a336a5da6cc83fc11d8954f369217178c1770eac0200f40e6c3f7192a"
+}

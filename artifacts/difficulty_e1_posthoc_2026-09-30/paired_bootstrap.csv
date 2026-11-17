@@ -1,0 +1,3 @@
+panel,contrast,mean_brier_improvement,conditional_mdp_bootstrap_95_low,conditional_mdp_bootstrap_95_high,mdps,draws
+primary,xgboost_aft_b2_minus_xgboost_aft_b2_oeh,0.011340607657856815,0.0045299537598130785,0.018665762064517883,84,2000
+control,xgboost_aft_b2_minus_xgboost_aft_b2_oeh,0.00018195987012932518,-0.002716511945759147,0.0029265080467644733,36,2000

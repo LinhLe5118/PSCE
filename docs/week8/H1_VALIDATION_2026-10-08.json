@@ -1,0 +1,76 @@
+{
+  "schema": "oeh-h1-writing-validation-v1",
+  "date": "2026-10-08",
+  "owner": "Do Trong Hung",
+  "branch": "docs/h1-week8-theory-glossary",
+  "baseline_commit": "a0a0d13",
+  "scope": "Theory, glossary, formula-to-code traceability, Method/Related Work, and proposed block-ablation review",
+  "scientific_algorithm_changed": false,
+  "sealed_protocol_changed": false,
+  "data_or_result_changed": false,
+  "ablation_executed": false,
+  "human_approval_claimed": false,
+  "handover_status": "READY_FOR_TEAM_REVIEW",
+  "checks": {
+    "baseline_full_suite": {"passed": 140, "exit_code": 0},
+    "h1_targeted_tests": {"passed": 15, "exit_code": 0},
+    "final_full_suite": {"passed": 155, "skipped": 0, "exit_code": 0},
+    "branch_aware_coverage": {"reported_rounded_percent": 95, "required_percent": 82, "exit_code": 0},
+    "verify_oeh": {
+      "exit_code": 0,
+      "published_evidence_verified": true,
+      "scientific_changes": false,
+      "full_original_inputs_verified": false,
+      "original_inputs_available": 5,
+      "original_input_count": 17,
+      "scope_note": "This verifier audits the historical router bundle; its confirmation=false is not a verdict on the current forecasting cohort."
+    },
+    "export_paper_tables_check": {"exit_code": 0},
+    "export_difficulty_table_check": {"exit_code": 0},
+    "export_unseen_difficulty_table_check": {"exit_code": 0},
+    "git_diff_check": {"exit_code": 0},
+    "method_source_lint": {
+      "passed": true,
+      "checks": ["local document links", "22 formula-map IDs and source symbols", "BibTeX citation keys", "LaTeX labels/references", "balanced edited environments/braces", "108-column partition"]
+    },
+    "latex_build": {"status": "NOT_RUN", "reason": "pdflatex, bibtex and latexmk unavailable on PATH"},
+    "paper_page_budget": {"status": "NOT_CHECKED", "limit_pages": 8},
+    "checked_in_pdf": {"replaced": false}
+  },
+  "local_environment": {
+    "python": "3.13.9",
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pytest": "8.4.2",
+    "temporary_check_dependencies": {"coverage": "7.10.6", "xgboost": "3.3.0"},
+    "note": "Temporary dependencies were installed into an isolated OS-temp target, not the global environment or repository. This is not the pinned Python 3.12 CI environment; CI remains required."
+  },
+  "reproduction_commands": [
+    "python -m pytest tests/test_h1_theory_glossary.py -q",
+    "python -m coverage run -m scripts.testing.run_full_tests",
+    "python -m coverage report",
+    "python -m scripts.analysis.verify_oeh",
+    "python -m scripts.analysis.export_paper_tables --check",
+    "python -m scripts.analysis.export_difficulty_table --check",
+    "python -m scripts.analysis.export_unseen_difficulty_table --check",
+    "git diff --check"
+  ],
+  "sha256": {
+    "docs/week8/H1_THEORY_GLOSSARY_2026-10-08.md": "d9b10f2527d23340f92ed219f5c35046778d5632f8f052bd4cb9f2307edc8280",
+    "docs/week8/H1_FORMULA_CODE_MAP_2026-10-08.md": "4d1ee4b7ccbe8eab32dbcf3f946aebaba41824b599b857db68af1d6082ed60a0",
+    "docs/week8/H1_ABLATION_REVIEW_2026-10-08.md": "3ce9566b2281e2b067f6f9a0bac1f1a22ccf1657cbc62a53c00d169fc8415be4",
+    "docs/week8/H1_B1_REVIEW_2026-10-08.md": "58fabacd8e1f54393846123aba9656bb1354145b21b5f21bbed6bb993e468b58",
+    "paper/sections/02_related_work.tex": "ba14d6a265ebf101c7c79b41a57be154fcc6540eba68a5d0b24b9fd826b86f23",
+    "paper/sections/03_difficulty.tex": "359726d84926771dd7cde656eae5ba308855ca2eb312ace235c5c060926cc0ef",
+    "paper/references.bib": "cf2aebedf768a52b4b97c44ee57e162925e64bd40ea6ddf81191a1b1b11e9080",
+    "tests/test_h1_theory_glossary.py": "d0d50a7ae8ed2b7fab827a6c5c80ae9f0b94f6234774266ae827649d432351db",
+    "artifacts/oeh_confirmatory_unseen_120_2026-10-04/protocol.json": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18"
+  },
+  "checksum_scope": "Handover integrity only, not a new scientific freeze; this manifest and navigation READMEs are excluded from its own hash list.",
+  "follow_up": [
+    "Hung reviews and acknowledges the handover; Linh reviews paper integration.",
+    "Build paper with an operational LaTeX installation or CI, inspect layout, and enforce the eight-page budget before merging/submission.",
+    "Team approves or revises the proposed block definitions and freezes an ablation protocol before execution.",
+    "Review the actual Week 8 B1 handover when supplied; this does not block H1's own writing handover."
+  ]
+}

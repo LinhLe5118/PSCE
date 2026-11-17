@@ -1,0 +1,15 @@
+{
+  "status": "PRELABEL_EXACT_TABULAR_PAIR_ACCELERATION_FROZEN",
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "reason": "The generated original-score runner materialized full one-hot pilot matrices and counted stringified rows. On these larger MDPs, replace only that count with unique integer (state, action) pairs; the tabular observations are exact one-hot, so the count is identical.",
+  "scope": "Runtime-only exact equivalence for SACo pair counts in the online DQN reference buffer and five offline pilots; reward, policy, TQ, ERI, EH and all learner outcomes are unchanged.",
+  "accelerated_source_sha256": "91defecc34c73810e933f9104f21200a58826220dfcdaf452666cd3eef5d68b5",
+  "parity_test_sha256": "a509065a2144e13daeebf9a860e2ea103d2881094b05ae861de8163f1dd213ae",
+  "parity_test_result": "1 passed in 0.66s on three seeded one-hot tabular fixtures; both one-hot and integer input paths equal the author string-set count",
+  "prelabel_seal_source_sha256": "046eec7c82459bc8ae9e55b20b6aa9c3a9dc6f27153ac1c9e176db9e9b936dcc",
+  "label_runner_source_sha256": "389536121541f66f6b73f47b84cdf6a37a01988084b8cc22e69f09d2ffeb17ec",
+  "score_script_sha256": "03dde9a1e1046ee2e5d01f5376b6c0d8a1a5a4e33d72590af0e1d7ebe69283be",
+  "score_script_note": "Expanded report naming was corrected from Atari-only to Atari/MiniGrid/Procgen and an additional five-task aggregated rank diagnostic was added; prediction and label generation are unchanged.",
+  "generated_pipeline_note": "This implementation addendum supersedes the initially generated source hashes for the amended expanded modules only; the statistical protocol and task selection are unchanged.",
+  "test_labels_read": false
+}

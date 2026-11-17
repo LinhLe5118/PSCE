@@ -1,0 +1,20 @@
+{
+ "amendment_sha256": "e420e4aee2fcbb923ef7d073d66035cef04d0001a2759ec6423f6bdc95f0566b",
+ "pending_comparators": [
+  "b2_plus_tq_saco_original",
+  "published_metrics_only"
+ ],
+ "joint_contrasts": 18,
+ "critical": 2.246045001361676,
+ "mdps": 72,
+ "verdict": {
+  "tier1": "NO-GO",
+  "tier2_available": "GO",
+  "all_available": "NO-GO"
+ },
+ "reproduces_sealed_max_abs_diff": {
+  "oeh_final": 1.1102230246251565e-16,
+  "b2_matched": 1.1102230246251565e-16
+ },
+ "predictions_sha256": "00baae82e05c09a45e5d850d4e1fdd911c1d747a55b6fb4fa7d3376003e3431a"
+}

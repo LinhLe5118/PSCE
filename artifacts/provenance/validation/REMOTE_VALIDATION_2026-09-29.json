@@ -1,0 +1,43 @@
+{
+  "audited_commit": "7d38cad1ef0ce7a858a7329bfc9059463ce0dc42",
+  "date": "2026-09-29",
+  "pr": "https://github.com/LinhLe5118/Devoted/pull/44",
+  "platform": "GitHub Actions ubuntu-latest, Python 3.12",
+  "checks": [
+    {
+      "name": "benchmark-dataset",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/LinhLe5118/Devoted/actions/runs/36528824747/job/109277675370",
+      "head_sha": "7d38cad1ef0ce7a858a7329bfc9059463ce0dc42"
+    },
+    {
+      "name": "benchmark-dataset",
+      "status": "completed",
+      "conclusion": "success",
+      "html_url": "https://github.com/LinhLe5118/Devoted/actions/runs/36528787458/job/109277562117",
+      "head_sha": "7d38cad1ef0ce7a858a7329bfc9059463ce0dc42"
+    }
+  ],
+  "full_suite": {
+    "passed": 872,
+    "subtests_passed": 355,
+    "skipped": 0
+  },
+  "coverage": {
+    "rounded_percent": 83,
+    "fail_under": 82
+  },
+  "smoke": {
+    "environments": 14,
+    "behavior_families": 5,
+    "passed": true
+  },
+  "source_sha256": "070070a21252a48f641a74805d5c8ac89bd07654b7d8094c18171f3b7530f81c",
+  "original_e1_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "logs_sha256": {
+    "r34_push_ci.log": "f39fe4d23d4a8c13ab0cd5fdd5fbe0ff25b9cda2d09edf0ef828de18fb23eeca",
+    "r34_pr_ci.log": "898b559494cf55a086c8616fdf3ee12ee2518dbaf4c8b5fd9ecc29f68b230b1a"
+  },
+  "note": "This record documents the completed source-revision checks; later documentation-only commits require their own PR head checks. No scientific source, input or outcome changes."
+}

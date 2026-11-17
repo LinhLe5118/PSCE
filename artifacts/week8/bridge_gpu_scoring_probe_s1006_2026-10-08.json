@@ -1,0 +1,18 @@
+{
+  "states": 1006,
+  "policies": 30,
+  "horizon": 100,
+  "cpu_float64_seconds": 4.469130900048185,
+  "torch": "2.9.1+cu126",
+  "cuda_device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "torch.float32": {
+    "seconds_including_transfer": 0.33004009997239336,
+    "max_abs_error_vs_cpu_float64": 1.5242806405524334e-05,
+    "gpu_peak_allocated_bytes": 156556800
+  },
+  "torch.float64": {
+    "seconds_including_transfer": 0.23787589999847114,
+    "max_abs_error_vs_cpu_float64": 3.552713678800501e-14,
+    "gpu_peak_allocated_bytes": 424054272
+  }
+}

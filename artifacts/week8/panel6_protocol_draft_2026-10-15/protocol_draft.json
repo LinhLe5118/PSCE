@@ -1,0 +1,213 @@
+{
+  "schema": "oeh-panel6-v1-draft",
+  "status": "DRAFT for checkpoint H1: not frozen, no panel data generated, no learner run on any candidate family",
+  "namespace": "oeh-panel6-v1-<freeze date> (set at freeze)",
+  "method": "OEH final method = oeh_v2_spec.json via scripts/analysis/oeh_pipeline.py (unchanged since the four-panel test)",
+  "oeh_spec_sha256": "6f78edec6e8ba74dd0151f6739b52b90f9d65c49802aefc1efd2a82600bfc4d7",
+  "families": {
+    "mdpp": {
+      "source": "MDP Playground 1.0.0 (Rajan et al., 2021), RLToyEnv discrete: sequence_length 1, delay 0, maximally_connected, reward_noise 0, reward_scale 1",
+      "parameters": "A in {2,3,4,5,6,8}; diameter d uniform on the integers with 8 <= d*A <= 64 and d*A*A <= 256; transition_noise ~ U(0, 0.3); reward_density ~ U(0.1, 0.5); terminal_state_density in {0, 0.25}",
+      "mdps": 96,
+      "candidates": 150,
+      "candidate_seed": 20301115,
+      "data_seed_base": 30000000,
+      "development_eligible_rate": 1.0,
+      "library": "mdp-playground==1.0.0 (Apache-2.0)"
+    },
+    "labmaze": {
+      "source": "labmaze 1.0.6 RandomMaze (DeepMind Lab text-maze generator), simplify=False, one spawn and one object per room; four-way moves",
+      "parameters": "height, width in {9, 11}; max_rooms in {1, 2, 3}; room_min_size 3; room_max_size in {3, 4}; extra_connection_probability ~ U(0, 0.2); success ~ U(0.7, 0.95)",
+      "mdps": 96,
+      "candidates": 150,
+      "candidate_seed": 20301116,
+      "data_seed_base": 31000000,
+      "development_eligible_rate": 1.0,
+      "library": "labmaze==1.0.6 (Apache-2.0)"
+    }
+  },
+  "kernel_source": "isolated venv (scripts/panel6/export_kernels.py); the project environment keeps Gymnasium 1.0.0",
+  "conversion": "episodic to continuing: terminal states restart from the initial distribution; reward kept on entry; rewards in [0, 1]",
+  "selection": "first `mdps` candidates in list order with |S||A| <= 256 that pass the project's dynamic-range filter, whose exact fingerprint is not in run_oeh_final_120.seen_kernels and whose relabelling-invariant signature matches no earlier external kernel and no earlier candidate (scripts/analysis/panel6_families.py)",
+  "data": {
+    "behaviors": 5,
+    "pilot_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "budgets": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200
+    ],
+    "training_seeds": 10,
+    "learners": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular"
+    ],
+    "primary_label": "first six budgets (sustained 8/10 seeds at NR >= 0.95), seven classes (unchanged)"
+  },
+  "questions": {
+    "Q1": "Does OEH forecast better than the strongest pilot-extrapolation baseline (B2 + prefix/FQE, task card T2) on the budgets the x10 pilot cannot reach (extrapolation endpoint, task card T1)?",
+    "Q2": "Same endpoint against B2.",
+    "Q3": "Does the OEH forecast lead to lower decision regret (tau = 0.8, lambda = 100) than either comparator?"
+  },
+  "endpoints": {
+    "ibs_ge": "integrated Brier over the thresholds x10, x20, x50 (scripts/analysis/extrapolation_endpoint.py)",
+    "ll_ext": "log loss of the coarsened law {<= x10, x20, x50, > x50}, floor 1e-12",
+    "regret": "colosseum_posthoc_20261014.decision_costs(cdf, event, tau=0.8, lam=100).regret"
+  },
+  "gates": {
+    "order": "fixed sequence F1 -> F2 -> F3; a family is tested only if every earlier family is GO",
+    "unit": "MDP (pooled over both families, equal weight); per-MDP mean over the 5 behaviors x 3 learners",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 20261216,
+      "rule": "max-t with the original standard error (one-sided)"
+    },
+    "F1": {
+      "contrasts": [
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "ibs_ge"
+        ],
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "ll_ext"
+        ]
+      ],
+      "go": "both simultaneous lower bounds > 0"
+    },
+    "F2": {
+      "contrasts": [
+        [
+          "b2_matched",
+          "oeh",
+          "ibs_ge"
+        ],
+        [
+          "b2_matched",
+          "oeh",
+          "ll_ext"
+        ]
+      ],
+      "go": "both simultaneous lower bounds > 0"
+    },
+    "F3": {
+      "contrasts": [
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "regret"
+        ],
+        [
+          "b2_matched",
+          "oeh",
+          "regret"
+        ]
+      ],
+      "go": "both simultaneous lower bounds > 0"
+    }
+  },
+  "not_tested": [
+    "OEH vs B2 + diagnostics (robust head): the panel-5 contrast is not re-tested; reported only descriptively",
+    "full-endpoint IBS and LL: reported descriptively for every method"
+  ],
+  "sample_size": {
+    "rule": "smallest total in [48, 72, 96, 120, 144, 192] with power >= 0.9 for gate family F1 when the opened-panel mean effects are scaled by 0.75, under the worst leave-one-external-panel-out proxy; at least 36 MDPs per family",
+    "reached_target": true,
+    "mdps_per_family": 96,
+    "total_mdps": 192,
+    "simulated_power_worst_proxy": {
+      "F1_vs_prefix_fqe|shrink=0.5": 0.624,
+      "F1_vs_prefix_fqe|shrink=0.75": 0.921,
+      "F1_vs_prefix_fqe|shrink=1.0": 0.992,
+      "F2_vs_b2|shrink=0.5": 0.729,
+      "F2_vs_b2|shrink=0.75": 0.971,
+      "F2_vs_b2|shrink=1.0": 1.0,
+      "F3_regret|shrink=0.5": 0.193,
+      "F3_regret|shrink=0.75": 0.496,
+      "F3_regret|shrink=1.0": 0.807
+    },
+    "source": "artifacts/week8/panel6_power_2026-10-15/power.csv"
+  },
+  "descriptive": {
+    "methods": {
+      "oeh": "OEH (final method)",
+      "oeh_full_head": "OEH-F, full 108-field head",
+      "robust": "B2 + diagnostics",
+      "b2_matched": "B2",
+      "xgboost_cf_18": "XGBoost-CF on B2",
+      "xgboost_cf_108": "XGBoost-CF on the 108 fields",
+      "prefix_fqe_raw": "prefix + FQE, zero-shot law (T2)",
+      "b2_plus_prefix_fqe": "B2 + prefix/FQE (T2)",
+      "lce_raw": "LCE",
+      "b2_plus_lce": "B2 + LCE",
+      "knn_analog": "k-NN analog on B2",
+      "logistic": "logistic regression on B2",
+      "s4": "T4 candidate S4 (B2 + P + D, one head, gated); descriptive only, no registration",
+      "oeh_without_horizon": "OEH without the OEH-H block"
+    },
+    "conditional_methods": {
+      "lc_pfn": "only if the T3 licence decision is taken before freeze",
+      "tabpfn": "only if the T3 licence decision is taken before freeze (token and terms are a human step)"
+    },
+    "also": [
+      "full endpoint IBS/LL",
+      "per family",
+      "per learner",
+      "gain by distance",
+      "Murphy decomposition",
+      "label variant tau = 0.99 (task card T6), descriptive",
+      "decision regret of every method"
+    ]
+  },
+  "disclosures": [
+    "Feasibility only: development candidates drawn with numpy seed 1 (never the panel seeds) were exported, converted and passed through the size cap and the dynamic-range filter (artifacts/week8/panel6_feasibility_2026-10-15); no learner was run on any MDP Playground or labmaze MDP.",
+    "The extrapolation endpoint (T1) and the prefix + FQE baseline (T2) were defined and run post hoc on opened panels; panel 6 registers them prospectively.",
+    "The sample size uses per-MDP effects of opened panels (artifacts/week8/panel6_power_2026-10-15).",
+    "Seed ranges are checked against every earlier dataset manifest at freeze."
+  ],
+  "open_decisions_for_H1": [
+    "Families: approve MDP Playground + labmaze (two new sources), or the one-source fallback (MDP Playground split by diameter: d = 1 vs d >= 2), or other families.",
+    "labmaze dynamics: the generator gives the layout only; slip model and goal reward are ours (as for FrozenLake's conversion). Approve or change.",
+    "Primary family F1 (vs B2 + prefix/FQE) and the order F1 -> F2 -> F3.",
+    "Sample size rule (power target, shrink factor) and the resulting MDPs per family.",
+    "F3 (decision regret) is underpowered (simulated 0.50 at 0.75 x the opened-panel effect, worst proxy): keep it as the last gate family or make it descriptive.",
+    "Label degeneracy: development kernels have large dynamic ranges (MDP Playground 7.4-16.6, labmaze 2.2-8.3; threshold 0.2), so labels may pile up at x1, as FrozenLake piled up at > x50. Accept the risk, or allow a disclosed learner dry run on development draws (seed 1) before freeze.",
+    "Whether LC-PFN/TabPFN enter (needs the T3 licence decision first).",
+    "Whether S4 is listed (descriptive only; T4 recommends no registration)."
+  ],
+  "inputs_sha256": {
+    "artifacts/week8/panel6_feasibility_2026-10-15/summary.csv": "fd5da204c684e7ef02a2c6bd999a179ecaea7c28d783df4776339202e8a24338",
+    "artifacts/week8/panel6_feasibility_2026-10-15/manifest.json": "a310c45dd084fea8449b9789a847deddcac9fba121aea562cfeeff2f115c21a7",
+    "artifacts/week8/panel6_power_2026-10-15/power.csv": "14b5f224b2b946971f26433f00eda9d1d0a5cce00291546da285beea1d0a3bbd",
+    "artifacts/week8/panel6_power_2026-10-15/manifest.json": "dc3bab14891323629f5ca6bd688646e783923b912c796308b51d4311c4e370ae",
+    "feasibility_versions": {
+      "mdpp": {
+        "python": "3.12.7",
+        "numpy": "2.5.4",
+        "mdp_playground": "1.0.0",
+        "labmaze": "1.0.6",
+        "gymnasium": "1.4.0"
+      },
+      "labmaze": {
+        "python": "3.12.7",
+        "numpy": "2.5.4",
+        "mdp_playground": "1.0.0",
+        "labmaze": "1.0.6",
+        "gymnasium": "1.4.0"
+      }
+    }
+  },
+  "created_utc": "2026-10-15T13:14:06.588360+00:00"
+}

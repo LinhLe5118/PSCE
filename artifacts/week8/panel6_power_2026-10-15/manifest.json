@@ -1,0 +1,26 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T8 panel-6 sample size from opened panels",
+  "created_utc": "2026-10-15T09:18:27.057062+00:00",
+  "tau": 0.8,
+  "lambda": 100.0,
+  "simulation": {
+    "sims": 1000,
+    "bootstrap_draws": 1000,
+    "seed": 20261016,
+    "rule": "max-t with the original standard error"
+  },
+  "b2_plus_prefix_fqe_reproduction_max_abs_diff": 8.881784197001252e-16,
+  "inputs_sha256": {
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/scores_rows.csv.gz": "f84af77e93fd4a81422b9b7080156468b1367b2e69773ea423d10e54668611b9",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/manifest.json": "829d598460f2e7fc3701febc260b57f4a4267fac63b5bf9c7b550c0067ec634d"
+  },
+  "outputs_sha256": {
+    "effects_by_mdp.csv": "1658bf745c61db3dbb3fd6e652823f51764f6b7c61e1dcabd74be6bbcca14aa5",
+    "effect_sd.csv": "4e9cb0c7a278a6ee63516114bf93a53ed818f55513e024d7b40a3de9f3767a51",
+    "power.csv": "14b5f224b2b946971f26433f00eda9d1d0a5cce00291546da285beea1d0a3bbd"
+  },
+  "source_sha256": {
+    "scripts/analysis/panel6_power.py": "ffbed10bb59552283241a8d31fab7cb4c23163c3a92fb47e4360642f8813c1a3"
+  }
+}

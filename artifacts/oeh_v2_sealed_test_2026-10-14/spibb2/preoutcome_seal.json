@@ -1,0 +1,17 @@
+{
+  "panel": "spibb2",
+  "protocol_sha256": "17019f87923754b7d125c48b7ac29dca580a1026ec272f33e3e92dcd0823bdec",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-14T17:07:34.232564+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "fe29189e04de33f71a24bf4559d4ba11d12c8d054edf22c272aab7421e9d3276",
+    "published_preoutcome.csv": "adc7470fee7e21b8f35fd41d996729359d43ce22dfc1b19dc3d25265b8150326",
+    "horizon_preoutcome.csv": "a9d629c039c70088331b782d4b8d783da6b73b211ee7f1853a89d8a71780633b",
+    "curve_preoutcome.csv": "de13f1824c8b95517e0954322f86a36db10307f96107329741f7eedfb888c28b",
+    "query_preoutcome.csv.gz": "416fe7c42490da4ae0d1d2316c756f8d4af05551898859a8a0171a510338cf00",
+    "predictions_preoutcome.csv": "ff88c7eebc7538d3056ad343c6e1488fd752eda5638ce8f18804060416374387",
+    "forecast_tuning_preoutcome.json": "092f24aa6ccd32e1466f200a1666d8dae906e547dc11c0e444ce7df088e71802"
+  },
+  "oeh_b_groups": 108,
+  "oeh_b_groups_sha256": "0856160b22092ddf3ba33384df9ee695e98773c25535e9b22dff5bcda523830e"
+}

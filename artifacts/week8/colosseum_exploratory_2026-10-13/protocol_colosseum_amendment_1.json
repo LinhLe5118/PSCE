@@ -1,0 +1,16 @@
+{
+ "amendment": 1,
+ "recorded_at_utc": "2026-10-13T17:40:39.980003+00:00",
+ "learner_outcomes_observed": 0,
+ "protocol_sha256_before": "cae7c17911fca3a46849b998f68d61ad30dc3fb469d05c33fed5b873fe1ae649",
+ "change": "fit on the team's sealed seven-cohort meta-training panel (e1, first60, second60, first120, second120, third120, opened fourth120) via the cohort-7 runner's expanded_meta, using the A2 OEH-B/horizon/curve/ceiling/published files published in commit d7134ad; replaces the recomputed six-cohort panel",
+ "reason": "the team published the missing frozen inputs; this reproduces the sealed OEH current forecaster exactly instead of approximating it",
+ "unchanged": [
+  "Colosseum MDP selection",
+  "metrics",
+  "aggregation",
+  "inference",
+  "gate",
+  "comparators"
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "behavior_cloning_tabular": {
+    "fit_predict_seconds": 3.345684599946253,
+    "training_rows": 2520,
+    "expanded_rows": 17640
+  },
+  "cfqi_tabular": {
+    "fit_predict_seconds": 1.888627199921757,
+    "training_rows": 2520,
+    "expanded_rows": 17640
+  },
+  "iql_tabular": {
+    "fit_predict_seconds": 1.8293602999765426,
+    "training_rows": 2520,
+    "expanded_rows": 17640
+  }
+}

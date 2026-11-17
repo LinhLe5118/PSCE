@@ -1,0 +1,96 @@
+panel,behavior,n,censored_pct
+E1,perturbed_reward,252,71.82539682539682
+E1,q_star_softmax,252,41.269841269841265
+E1,shifted_dynamics,252,67.06349206349206
+E1,structured_random,252,85.71428571428571
+E1,two_policy_mixture,252,85.31746031746032
+Validation-60 (1st),perturbed_reward,126,76.98412698412699
+Validation-60 (1st),q_star_softmax,126,36.507936507936506
+Validation-60 (1st),shifted_dynamics,126,72.22222222222221
+Validation-60 (1st),structured_random,126,88.88888888888889
+Validation-60 (1st),two_policy_mixture,126,85.71428571428571
+Validation-60 (2nd),perturbed_reward,126,73.80952380952381
+Validation-60 (2nd),q_star_softmax,126,42.857142857142854
+Validation-60 (2nd),shifted_dynamics,126,66.66666666666666
+Validation-60 (2nd),structured_random,126,86.5079365079365
+Validation-60 (2nd),two_policy_mixture,126,87.3015873015873
+Cohort 1,perturbed_reward,252,75.0
+Cohort 1,q_star_softmax,252,42.46031746031746
+Cohort 1,shifted_dynamics,252,67.85714285714286
+Cohort 1,structured_random,252,88.88888888888889
+Cohort 1,two_policy_mixture,252,86.90476190476191
+Cohort 2,perturbed_reward,252,72.22222222222221
+Cohort 2,q_star_softmax,252,41.66666666666667
+Cohort 2,shifted_dynamics,252,67.85714285714286
+Cohort 2,structured_random,252,87.6984126984127
+Cohort 2,two_policy_mixture,252,87.6984126984127
+Cohort 3,perturbed_reward,252,75.79365079365078
+Cohort 3,q_star_softmax,252,43.65079365079365
+Cohort 3,shifted_dynamics,252,65.87301587301587
+Cohort 3,structured_random,252,88.09523809523809
+Cohort 3,two_policy_mixture,252,87.3015873015873
+Cohort 4,perturbed_reward,252,70.63492063492063
+Cohort 4,q_star_softmax,252,38.88888888888889
+Cohort 4,shifted_dynamics,252,65.07936507936508
+Cohort 4,structured_random,252,83.33333333333334
+Cohort 4,two_policy_mixture,252,84.92063492063492
+Cohort 7,perturbed_reward,252,73.4126984126984
+Cohort 7,q_star_softmax,252,41.269841269841265
+Cohort 7,shifted_dynamics,252,69.04761904761905
+Cohort 7,structured_random,252,84.92063492063492
+Cohort 7,two_policy_mixture,252,88.4920634920635
+Cohort 8,perturbed_reward,504,74.40476190476191
+Cohort 8,q_star_softmax,504,43.452380952380956
+Cohort 8,shifted_dynamics,504,68.05555555555556
+Cohort 8,structured_random,504,88.4920634920635
+Cohort 8,two_policy_mixture,504,88.69047619047619
+Colosseum 2027,perturbed_reward,216,69.9074074074074
+Colosseum 2027,q_star_softmax,216,46.2962962962963
+Colosseum 2027,shifted_dynamics,216,70.83333333333334
+Colosseum 2027,structured_random,216,87.03703703703704
+Colosseum 2027,two_policy_mixture,216,89.81481481481481
+Colosseum 2028,perturbed_reward,216,71.29629629629629
+Colosseum 2028,q_star_softmax,216,46.75925925925926
+Colosseum 2028,shifted_dynamics,216,71.29629629629629
+Colosseum 2028,structured_random,216,87.03703703703704
+Colosseum 2028,two_policy_mixture,216,86.57407407407408
+SPIBB,spibb_baseline,324,69.1358024691358
+Behavior cohort (M3),epsilon_star,504,68.05555555555556
+Behavior cohort (M3),random_mixture,504,75.1984126984127
+Behavior cohort (M3),ratio_baseline,504,70.03968253968253
+Final internal,perturbed_reward,504,72.81746031746032
+Final internal,q_star_softmax,504,43.84920634920635
+Final internal,shifted_dynamics,504,67.65873015873017
+Final internal,structured_random,504,87.5
+Final internal,two_policy_mixture,504,88.69047619047619
+Colosseum 2029,perturbed_reward,216,68.98148148148148
+Colosseum 2029,q_star_softmax,216,44.907407407407405
+Colosseum 2029,shifted_dynamics,216,73.14814814814815
+Colosseum 2029,structured_random,216,87.03703703703704
+Colosseum 2029,two_policy_mixture,216,90.74074074074075
+SPIBB-2,spibb_baseline,324,69.44444444444444
+Forest,perturbed_reward,144,60.416666666666664
+Forest,q_star_softmax,144,33.33333333333333
+Forest,shifted_dynamics,144,61.80555555555556
+Forest,structured_random,144,69.44444444444444
+Forest,two_policy_mixture,144,72.91666666666666
+FrozenLake,perturbed_reward,108,100.0
+FrozenLake,q_star_softmax,108,100.0
+FrozenLake,shifted_dynamics,108,100.0
+FrozenLake,structured_random,108,100.0
+FrozenLake,two_policy_mixture,108,100.0
+Gambler,perturbed_reward,108,75.92592592592592
+Gambler,q_star_softmax,108,60.18518518518518
+Gambler,shifted_dynamics,108,71.29629629629629
+Gambler,structured_random,108,90.74074074074075
+Gambler,two_policy_mixture,108,94.44444444444444
+MDP Playground,perturbed_reward,288,39.23611111111111
+MDP Playground,q_star_softmax,288,6.25
+MDP Playground,shifted_dynamics,288,37.15277777777778
+MDP Playground,structured_random,288,76.73611111111111
+MDP Playground,two_policy_mixture,288,92.70833333333334
+labmaze,perturbed_reward,288,51.736111111111114
+labmaze,q_star_softmax,288,23.26388888888889
+labmaze,shifted_dynamics,288,47.91666666666667
+labmaze,structured_random,288,77.43055555555556
+labmaze,two_policy_mixture,288,99.30555555555556

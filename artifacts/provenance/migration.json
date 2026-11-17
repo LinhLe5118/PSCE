@@ -1,0 +1,219 @@
+{
+  "excluded_runtime": "Historical runners, baselines and tests archived only when their original bytes are sealed by retained evidence",
+  "original_bundle_manifests": {
+    "artifacts/week7/oeh_v5_e1_reuse_r34_2026-09-29/manifest.json": "f6d76cda58fed97200930e931682661ae8a6e4f86c57bb794a67a396b82e0c8c",
+    "artifacts/week7/oeh_v5_e1_reuse_r44_2026-09-29/manifest.json": "356d045754da2669d2e804d2a464b65e0be2d2e7e194cbd745c61e8e372b72a9"
+  },
+  "original_e1_inputs_published": false,
+  "original_sources": {
+    "code/oeh_interaction_gains.py": {
+      "archived_path": "artifacts/provenance/sources/code/oeh_interaction_gains.py",
+      "sha256": "070070a21252a48f641a74805d5c8ac89bd07654b7d8094c18171f3b7530f81c"
+    },
+    "code/oeh_library_gains.py": {
+      "archived_path": "artifacts/provenance/sources/code/oeh_library_gains.py",
+      "sha256": "fbdc6a2096af31aeb87cfa532cad1ba2b0e5977d0202ef5c99d630cc0cd3d121"
+    },
+    "code/return_selection.py": {
+      "archived_path": "artifacts/provenance/sources/code/return_selection.py",
+      "sha256": "ec7b4713f08d28c43762e44e338e648012d2642895b02c3968839b2a337fe70c"
+    },
+    "code/stochastic_evaluation.py": {
+      "archived_path": "artifacts/provenance/sources/code/stochastic_evaluation.py",
+      "sha256": "0caf3d0687da6d2ee0d09be0a585be6b2d2071f0ec680cd7709897a59bfbc1d9"
+    },
+    "config/protocol_config.py": {
+      "archived_path": "artifacts/provenance/sources/config/protocol_config.py",
+      "sha256": "4c0e722045ca671cb4a7a062647bc028da5a25ab4379945b0b2059bfa3d257ff"
+    },
+    "docs/protocol/OEH_LIBRARY_GAINS_R44_2026-09-29.json": {
+      "archived_path": "artifacts/provenance/sources/docs/protocol/OEH_LIBRARY_GAINS_R44_2026-09-29.json",
+      "sha256": "ba06d8e4ce433006d7d2b5380d56a6bbfc2c95085c20d0247b2ceef7562721a6"
+    },
+    "docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json": {
+      "archived_path": "artifacts/provenance/sources/docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json",
+      "sha256": "316b144afb951d04984c976d9c575756da154b4baa3b0020500684ffe3a8eca6"
+    },
+    "docs\\protocol\\OEH_INTERACTION_GAINS_R34_2026-09-29.json": {
+      "archived_path": "artifacts/provenance/sources/docs/protocol/OEH_INTERACTION_GAINS_R34_2026-09-29.json",
+      "sha256": "05c22f8e59c711b77987843e7317233325bb90cb22db74101acfc79dd7ccd195"
+    },
+    "evaluation/aggregation/folds.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/aggregation/folds.py",
+      "sha256": "080252afe9485d5abbb491c41f3b4e6cbb19873ae44c8bbc6c1490b9680abad9"
+    },
+    "evaluation/e1_reuse.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/e1_reuse.py",
+      "sha256": "c8da1c6d4f702aa98e2bc70fddcefde6ebeb9aa256135e2cb170c067ccd1d28e"
+    },
+    "evaluation/e1_routing.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/e1_routing.py",
+      "sha256": "43b9c734e3117cda0ef33cd7caf8051962f2eb1e0fcb3dc12e6521293adfa2da"
+    },
+    "evaluation/e1_upgrade.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/e1_upgrade.py",
+      "sha256": "5be699e556564099b5fb8c56471565b8c9f3d5c44c3f7f5dfbdc9d1d2dcb4414"
+    },
+    "evaluation/io.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/io.py",
+      "sha256": "5c31157a8df80d490164d322b36ce234a0615c7f95b8d0c0123d44917d7e0cda"
+    },
+    "evaluation/withdrawal.py": {
+      "archived_path": "artifacts/provenance/sources/evaluation/withdrawal.py",
+      "sha256": "422d5c424b5625b23eabc8535086cc112b40eae11a05ce6fbaba9d2b4e6c7042"
+    },
+    "protocol_config.json": {
+      "archived_path": "artifacts/provenance/sources/protocol_config.json",
+      "sha256": "12b278f73693d38a2e3e558362d6c0c46cce367153ee2d24bdbe40c5a5331bec"
+    },
+    "scripts/analysis/export_oeh_upgrade.py": {
+      "archived_path": "artifacts/provenance/sources/scripts/analysis/export_oeh_upgrade.py",
+      "sha256": "a7ee0bd05e76c3368f95ea6055acb626ebfca8b75b928d1f177b5e94840d6dde"
+    },
+    "scripts/analysis/run_oeh_e1_reuse.py": {
+      "archived_path": "artifacts/provenance/sources/scripts/analysis/run_oeh_e1_reuse.py",
+      "sha256": "c72ff7b7ee16068952f394d8f07a3cc088ad114cb7a8d0438eae8c0052410b6f"
+    },
+    "scripts/analysis/run_oeh_upgrade.py": {
+      "archived_path": "artifacts/provenance/sources/scripts/analysis/run_oeh_upgrade.py",
+      "sha256": "dcff73da4bd14f78c092bb14d6551a11ebd80631e7fa3cd587f1668d2c2d1100"
+    },
+    "scripts/training/run_empirical_requirement.py": {
+      "archived_path": "artifacts/provenance/sources/scripts/training/run_empirical_requirement.py",
+      "sha256": "2f869d03376b4ebcc7cbe6c499780eefce20db3b87e374181a283d3cb391c985"
+    },
+    "tests/test_e1_reuse.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_e1_reuse.py",
+      "sha256": "d55d6f5672dd1834ddf114a31becc0d90e980558eb50e2da35b3f8542497ef7e"
+    },
+    "tests/test_e1_reuse_runner.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_e1_reuse_runner.py",
+      "sha256": "002ef0214a3a2307892668773c8935de4a8c629cd32195518dc3a374269ffa5e"
+    },
+    "tests/test_e1_reuse_seals.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_e1_reuse_seals.py",
+      "sha256": "3875bec599469cda0ab3925c8e0bcfad0891f54e483ce41c621c97b970c1d524"
+    },
+    "tests/test_e1_routing.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_e1_routing.py",
+      "sha256": "9919435da48cbf491db4fb4523b599e2862e978de0d4b9f8911d36f99c29a289"
+    },
+    "tests/test_e1_upgrade.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_e1_upgrade.py",
+      "sha256": "e871cd82d0230d6594ceffdc3a7d077b166f1c0ce5ec7c4ded1d743f51fb5ad1"
+    },
+    "tests/test_oeh_interaction_gains.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_oeh_interaction_gains.py",
+      "sha256": "18c438efa47d468198a8531174c2cdfba615e226c073ac60e94a37af9810119e"
+    },
+    "tests/test_oeh_library_gains.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_oeh_library_gains.py",
+      "sha256": "14e88d65224c4f11e73ad39ccb119ee89ba7f51c355a04f51f44fa14892f7677"
+    },
+    "tests/test_oeh_withdrawal.py": {
+      "archived_path": "artifacts/provenance/sources/tests/test_oeh_withdrawal.py",
+      "sha256": "f6084a6a207b210a1621d14bf96b87dd9e378293b8c1f87b06a38b04667fae34"
+    }
+  },
+  "prior_git_commit": "e715e3c3e8e0565ef4d747e74326c807a5cec0d5",
+  "public_method_name": "OEH",
+  "public_name_changes_scientific_results": false,
+  "schema_version": 1,
+  "scientific_changes": false,
+  "scientific_revision": "OEH-v5 R44",
+  "selection_history_sha256": {
+    "artifacts/provenance/selection_history/r12.json": "002fcdbb550998cac4982a6876034c5269842d78e24a84ca5efc3040fa2e8691",
+    "artifacts/provenance/selection_history/r13.json": "9b2e124f14f23d9be058480a33dc715a52b1e047767e9f59bafaa8e6a8deea26",
+    "artifacts/provenance/selection_history/r14.json": "e14139cbbe5ad283d2a18ea0367cfad07f74348229a24d09615282f435b7a479",
+    "artifacts/provenance/selection_history/r15.json": "2b65606834eb090cbe04443fa125756b5774b478f3365bf682fcc57c46638613",
+    "artifacts/provenance/selection_history/r16.json": "220f314a92d87ef07473d36bc7feacf18e333fd4eb0a79323d6f08458a09af8a",
+    "artifacts/provenance/selection_history/r17.json": "18ff830926f3a73b147cd4f09f7d0ddcf6fe0a7eba055a48c1264d5e64715987",
+    "artifacts/provenance/selection_history/r18.json": "dcc23f9d38567bbc038821167696c4bd29925bebdaa3ce0eb355ab5ee2f13a83",
+    "artifacts/provenance/selection_history/r19.json": "a9b62636f1c72442b6105fd5862fb17ac686aa539715ec90c3b6e6cae7de42c3",
+    "artifacts/provenance/selection_history/r20.json": "a32e85507c16ba363a65d1db1e74f3dc26813bbc33c5e9164ea65fd531402316",
+    "artifacts/provenance/selection_history/r21.json": "7a02035651b0de6517861ffce6d885259a263df8d0a7f5583d54b572f0eaaa9e",
+    "artifacts/provenance/selection_history/r22.json": "a212a36eb71536338d7b0e0581645754000fde2970d6f4f65e5f9761095d35e2",
+    "artifacts/provenance/selection_history/r23.json": "8606c5fe763b3537a06463622cb7c755000edbb91235ac1b4afab581e5037cb0",
+    "artifacts/provenance/selection_history/r24.json": "c5364346fe18b7322ce6f95040cc83869ac79d551b4af4b1b8a52c437f819aa7",
+    "artifacts/provenance/selection_history/r25.json": "df2cdd9e9844ab1ca27f1d59ad62ed63e16de069a85353a553605aaf612ab61d",
+    "artifacts/provenance/selection_history/r26.json": "5496efa17916a8e597b5503d1fd6ffd2af721ad7947b78f33d4c0b961cfe6cf8",
+    "artifacts/provenance/selection_history/r27.json": "134b7b8c65267993c8f4ea5867fd89c5612b2dd801326eb05de4590e77a2c310",
+    "artifacts/provenance/selection_history/r28.json": "9cb17a92cbee5e8fc9d499e169ec27282b1f055b6b55dc5cbd2af9b595dd1969",
+    "artifacts/provenance/selection_history/r29.json": "863ab849848eb4f49f5fa65fe60adf17842270a17831ebe1098391a6ba5f4e45",
+    "artifacts/provenance/selection_history/r30.json": "73f7704ad6413f1905970870fbb5438f72b77bcecb6488c85772d6bc63582f55",
+    "artifacts/provenance/selection_history/r31.json": "58d3b8238efa8ccb830e7ea458a13571c1503c6707e9ca6b70fa84fb7e3a8925",
+    "artifacts/provenance/selection_history/r32.json": "08e41981a8bcf49490fb62335d82afe546c37856fca050e356be097aa7d7b58f",
+    "artifacts/provenance/selection_history/r33.json": "4c0bbaed5663ed5b2a09dd53180784c8df6db76dbde5138216c9c494c9c83320",
+    "artifacts/provenance/selection_history/r34.json": "0a15cf8af2b5f1f3ca941558c815aa93182a897a975d6f4fdcd24fcf070d223d",
+    "artifacts/provenance/selection_history/r35.json": "ce0deb07b842ec87a1cee85f4db8c9164b50376747513da8465f56c57c044c27",
+    "artifacts/provenance/selection_history/r36.json": "9eccbac2e173a5b465725bcc4e81baaa1b2cbca4103f693dafc5aa06e01ced53",
+    "artifacts/provenance/selection_history/r37.json": "68f674880d6e3842ac92a1dfd9d300170ec6335b88622c61bcf8bb9e6efafe41",
+    "artifacts/provenance/selection_history/r38.json": "67625f0505f1ae44aaebabf7262e6497ca9cc121c8af41a2f7ef58848546a9a6",
+    "artifacts/provenance/selection_history/r39.json": "404bb4c4d4a1dc8df7edd94ca819b1ee629a1863b4812df55f309f13fa033424",
+    "artifacts/provenance/selection_history/r40.json": "827a25de8154e4bdae776d55b981396cf7c6654d172ed5054503904def3641a8",
+    "artifacts/provenance/selection_history/r41.json": "250dc839bbac587e76e390a5a8d87cd00d0a826246fc6aaac2d43d6deaddb5f6",
+    "artifacts/provenance/selection_history/r42.json": "fbad14f5c4d22365df941e1fc91bf938ffc39e089c23c91ab0c0e3c29d622507",
+    "artifacts/provenance/selection_history/r43.json": "7aeaae41b5b225ae90ad86c61bce1862c9d3a5d5f5b1894845fd3b4c3f72ee8b",
+    "artifacts/provenance/selection_history/r44.json": "38395a22b08988ffebee11825a786553f9432d8f964054e5a517e07b8c2f5ab4",
+    "artifacts/provenance/selection_history/retired_before_r12.json": "ac5d61a8f0a961553d7e0b2a44750d2827ca82899510507d5d9f0bf23a5e0e53"
+  },
+  "unchanged_definitions": [
+    {
+      "definitions": [
+        "deterministic_balanced_folds",
+        "fit_standardizer",
+        "transform_standardized"
+      ],
+      "destination": "code/oeh/numerics.py",
+      "original": "code/stochastic_evaluation.py"
+    },
+    {
+      "definitions": [
+        "ReturnInstance",
+        "_matrix",
+        "_fit_ridge",
+        "tune_return_ridge"
+      ],
+      "destination": "code/oeh/reference.py",
+      "original": "code/return_selection.py"
+    },
+    {
+      "definitions": [
+        "grouped_split",
+        "original_routes",
+        "score_routes"
+      ],
+      "destination": "code/oeh/reference.py",
+      "original": "evaluation/e1_routing.py"
+    },
+    {
+      "definitions": [
+        "simplex",
+        "kernel_predictions",
+        "paired_targets",
+        "forecast_block",
+        "joint_routes",
+        "fit_routes"
+      ],
+      "destination": "code/oeh/core.py",
+      "original": "code/oeh_interaction_gains.py"
+    },
+    {
+      "definitions": [
+        "attach_results",
+        "score_routes",
+        "fit_routes"
+      ],
+      "destination": "code/oeh/router.py",
+      "original": "code/oeh_library_gains.py"
+    },
+    {
+      "definitions": [
+        "figures"
+      ],
+      "destination": "scripts/analysis/render_oeh.py",
+      "original": "scripts/analysis/export_oeh_upgrade.py",
+      "presentation_only": true
+    }
+  ]
+}

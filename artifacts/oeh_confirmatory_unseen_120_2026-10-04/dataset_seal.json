@@ -1,0 +1,10 @@
+{
+  "protocol_sha256": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+  "sealed_at_utc": "2026-10-03T20:09:20.396866+00:00",
+  "sha256": {
+    "datasets/oeh_confirmatory_unseen_120_2026-10-04/manifest.json": "a4ff88179641f426cfeeb71d86f5d31e5d1963baf57674b8292423406cd24426",
+    "datasets/oeh_confirmatory_unseen_120_2026-10-04/data_only_index.json": "2a09254842b48dc80cbb13f6f02342a926cf807ab43c6cacc0630a2b1cf205fc"
+  },
+  "preoutcome_meta_id_correction": true,
+  "preoutcome_selector_id_correction": true
+}

@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "date": "2026-09-22",
+  "owner": "Do Trong Hung",
+  "implementation_baseline": "8861511",
+  "statistical_version": "1.1.0",
+  "status": "formula_theory_handover_for_independent_review",
+  "specification": "docs/week6/H1_FORMULA_THEORY_FREEZE_v1.0.0.md",
+  "feature_order_authority": "docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json",
+  "feature_dimensions": {
+    "B0": 2, "B1": 10, "B2": 18, "B2_OEH3": 22,
+    "B2_OEH3_LC_PMS": 26, "B2_OEH3_LCOEH4": 30
+  },
+  "oeh3": {
+    "estimand": "pilot_observed_action_support",
+    "gamma": 0.95, "reward_bound": 1.0, "epsilon": 0.05,
+    "k_max": 100, "qvi_index_offset": 1, "compute_budget": null,
+    "seed": 20260920, "sample_units": "future_total_transitions",
+    "planning_tie_tolerance": 1e-12,
+    "gap_skip_tolerance": 1e-15, "range_zero_tolerance": 1e-15,
+    "regret_denominator_floor": 1e-15,
+    "variance_floor": "1/(4*(n+1))", "variance_ddof": 1,
+    "target_clipping": false, "risk_feature_clipping": [0, 1],
+    "inversion_sum_clipping": false, "inversion_cap": 1e18,
+    "bisection_steps": 100, "exponent_floor": -745.0,
+    "numerical_zero_requirement": 1e-12,
+    "selection": "min_requirement_then_smallest_qvi_index",
+    "one_trajectory_instability": 1.0,
+    "no_profile_encoding": ["log1p(10*max_nonmissing_requirement_default_1)", 1, 1, 1],
+    "finite_sample_certificate": false
+  },
+  "lc": {
+    "prefixes": [2, 5, 10], "gamma": 0.95, "epsilon": 0.05,
+    "folds": 5, "single_trajectory_mode": "two_contiguous_time_blocks",
+    "single_trajectory_independence_fraction": 0.2,
+    "zero_range_tolerance": 1e-12, "zero_range_score": 0.5,
+    "z_nominal_lower_score": 1.6448536269514722,
+    "risk_clip": [1e-8, 1], "rate_clip": [0, 1],
+    "zero_rate_tolerance": 1e-12,
+    "crossing": "first_observed_pilot_crossing_not_full_suffix",
+    "censor_flag": "no_pilot_crossing_even_if_extrapolation_finite",
+    "zero_rate_log_placeholder": "log1p(last_pilot_size)",
+    "confidence_coverage_claim": false
+  },
+  "base_features": {
+    "bootstrap_replicates": 200, "low_count_threshold": 3,
+    "rare_count_maximum": 2, "stochastic_minimum_count": 2,
+    "low_count_denominator": "all_state_action_cells", "seed_key": "dataset_id"
+  },
+  "learners": {
+    "order": ["cfqi_tabular", "iql_tabular", "behavior_cloning_tabular"],
+    "iterations": 100, "tolerance": 1e-10,
+    "iql_expectile": 0.7, "iql_inverse_temperature": 3.0
+  },
+  "selector": {
+    "components": ["B2_OEH3", "B2_OEH3_LCOEH4"], "weights": [0.5, 0.5],
+    "tie": "first_in_learner_order_exact",
+    "fallback": "whole_group_outer_training_best_fixed",
+    "partial_component_renormalization": false, "prediction_clipping": false,
+    "ridge_tie": "largest", "intercept_penalized": false,
+    "return_ridges": [0.0001, 0.001, 0.01, 0.1, 1, 10, 100],
+    "standardization_ddof": 0, "constant_scale_tolerance": 1e-12
+  },
+  "survival": {
+    "features": "B2_OEH3_LC_PMS", "ridge_tie": "smallest",
+    "interval_intercepts_penalized": false,
+    "max_newton_steps": 50, "hessian_floor": 1e-9, "step_tolerance": 1e-10
+  },
+  "execution_go": false,
+  "independent_b2_review_complete": false,
+  "sealed_runner_validated_by_h1": false,
+  "evaluation_data_read": false,
+  "new_development_data_generated": false
+}

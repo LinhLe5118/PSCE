@@ -1,0 +1,3 @@
+# Optional standalone figure generation; keep core scientific pins unchanged.
+-r requirements.txt
+matplotlib==3.11.2

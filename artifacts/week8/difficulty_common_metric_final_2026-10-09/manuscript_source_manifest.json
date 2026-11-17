@@ -1,0 +1,25 @@
+{
+  "status": "MANUSCRIPT_SOURCES_GENERATED",
+  "common_metric_manifest_sha256": "b5b8552793e56a5ca9133f731a74d02c7ca2c9fa82f3e80f3a723c74942a34ab",
+  "results_packet_sha256": "a760c9434039a2dfd6da5b009a8ed5288945e72201568e8e2fd863150ce38339",
+  "panels": [
+    "bridge_expanded_prospective_5",
+    "bridge_opened_minigrid_14_exploratory"
+  ],
+  "prospective_oehb_manifest_sha256": "10969f59f32891c891d8c8c34c37ae9630ab3c57f6a6bf4b40b01d41c264f9d7",
+  "posterior_draw_coverage": {
+    "groups": 25,
+    "shortfall_groups": 4,
+    "zero_draw_groups": 4
+  },
+  "generated_source_sha256": {
+    "paper_results": "68cba32f602cf2f180c1748152f1503d1daeca546f768272d31c32941be0a04a",
+    "paper_supplement": "6e65dc74e672b85787bafe10708fb00f751904a4b43ad27db77a13787826b563",
+    "paper_discussion": "efab7a3b5cd04027473675d400e5e7bf0ec2603b582b86614a5c0b131087851f",
+    "paper_abstract": "1c8c7f1fe509254aea5def4fe35f50c3db38cb8aa6eb74c2adb49234460914ec",
+    "thesis_results": "a760c9434039a2dfd6da5b009a8ed5288945e72201568e8e2fd863150ce38339",
+    "thesis_discussion": "8590ad2cbdd8542e45686ceaa0fcbb73ed2c74af75661b1d4c712ad73eabd343",
+    "thesis_conclusion": "ae42e34add151d81f81348d49e9e66d8e645380e2e5fb7b8711f2b655b33d5c0",
+    "thesis_abstract": "84020d9b65462156ef6e8ba1535842e483ad166191e245eabcac72bf08c92f7b"
+  }
+}

@@ -1,0 +1,1470 @@
+{
+  "schema": "oeh-unseen-120-difficulty-v1",
+  "status": "frozen_before_dataset_buffers_or_learner_outcomes",
+  "namespace": "oeh-confirmatory-seventh-new-120-v1-20261004",
+  "requested_specs": [
+    {
+      "instance_id": "oehfinal120_uniform_garnet_000",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 913808859,
+      "ordinal": 2,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_001",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 332161093,
+      "ordinal": 6,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_002",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 747472294,
+      "ordinal": 9,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_003",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 676364565,
+      "ordinal": 13,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_004",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 959518111,
+      "ordinal": 17,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_005",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 154685784,
+      "ordinal": 22,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_006",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 446767135,
+      "ordinal": 26,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_007",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 116656157,
+      "ordinal": 29,
+      "family_ordinal": 7
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_008",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 242612006,
+      "ordinal": 33,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_009",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 917491705,
+      "ordinal": 37,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_010",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 739903036,
+      "ordinal": 42,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_011",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 854366054,
+      "ordinal": 46,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_012",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1027061219,
+      "ordinal": 49,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_013",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 931808049,
+      "ordinal": 53,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_014",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 439622187,
+      "ordinal": 57,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_015",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 520141644,
+      "ordinal": 62,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_016",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 392606822,
+      "ordinal": 66,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_017",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 522673841,
+      "ordinal": 69,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_018",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 746685810,
+      "ordinal": 73,
+      "family_ordinal": 18
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_019",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1056677603,
+      "ordinal": 77,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_020",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 697448764,
+      "ordinal": 82,
+      "family_ordinal": 20
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_021",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1080423605,
+      "ordinal": 86,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_022",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 456354191,
+      "ordinal": 89,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_023",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 511023790,
+      "ordinal": 93,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_024",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 943743096,
+      "ordinal": 97,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_025",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 569091155,
+      "ordinal": 102,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_026",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 725411249,
+      "ordinal": 106,
+      "family_ordinal": 26
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_027",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 714242824,
+      "ordinal": 109,
+      "family_ordinal": 27
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_028",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 607638836,
+      "ordinal": 113,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "oehfinal120_uniform_garnet_029",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 983298178,
+      "ordinal": 117,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_000",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 859935994,
+      "ordinal": 0,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_001",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 199692079,
+      "ordinal": 4,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_002",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 636616375,
+      "ordinal": 7,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_003",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 476400335,
+      "ordinal": 11,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_004",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 578769578,
+      "ordinal": 14,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_005",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 106595004,
+      "ordinal": 18,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_006",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 465759426,
+      "ordinal": 20,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_007",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 110652553,
+      "ordinal": 24,
+      "family_ordinal": 7
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_008",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 604459562,
+      "ordinal": 27,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_009",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 228378981,
+      "ordinal": 31,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_010",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 662878514,
+      "ordinal": 34,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_011",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 312212052,
+      "ordinal": 38,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_012",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 987922928,
+      "ordinal": 40,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_013",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 926296446,
+      "ordinal": 44,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_014",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 886566071,
+      "ordinal": 47,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_015",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 267277128,
+      "ordinal": 51,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_016",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 306891120,
+      "ordinal": 54,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_017",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 467092672,
+      "ordinal": 58,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_018",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 597319978,
+      "ordinal": 60,
+      "family_ordinal": 18
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_019",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 441076034,
+      "ordinal": 64,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_020",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 964507012,
+      "ordinal": 67,
+      "family_ordinal": 20
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_021",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 500084098,
+      "ordinal": 71,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_022",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1013665070,
+      "ordinal": 74,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_023",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1023770051,
+      "ordinal": 78,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_024",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1066432855,
+      "ordinal": 80,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_025",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 269223763,
+      "ordinal": 84,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_026",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 343225715,
+      "ordinal": 87,
+      "family_ordinal": 26
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_027",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 711982154,
+      "ordinal": 91,
+      "family_ordinal": 27
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_028",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 470379036,
+      "ordinal": 94,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_029",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 596610296,
+      "ordinal": 98,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_030",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 662623747,
+      "ordinal": 100,
+      "family_ordinal": 30
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_031",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 518451576,
+      "ordinal": 104,
+      "family_ordinal": 31
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_032",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 366744141,
+      "ordinal": 107,
+      "family_ordinal": 32
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_033",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 367108194,
+      "ordinal": 111,
+      "family_ordinal": 33
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_034",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 387850921,
+      "ordinal": 114,
+      "family_ordinal": 34
+    },
+    {
+      "instance_id": "oehfinal120_forward_layered_035",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 978753227,
+      "ordinal": 118,
+      "family_ordinal": 35
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_000",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 304722468,
+      "ordinal": 3,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_001",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 169481899,
+      "ordinal": 10,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_002",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 494476308,
+      "ordinal": 16,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_003",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 376964017,
+      "ordinal": 23,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_004",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 122734006,
+      "ordinal": 30,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_005",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 458570759,
+      "ordinal": 36,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_006",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 380372708,
+      "ordinal": 43,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_007",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 924254641,
+      "ordinal": 50,
+      "family_ordinal": 7
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_008",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 228351193,
+      "ordinal": 56,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_009",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 702905979,
+      "ordinal": 63,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_010",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 142258798,
+      "ordinal": 70,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_011",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 141919694,
+      "ordinal": 76,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_012",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 844513771,
+      "ordinal": 83,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_013",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 903453525,
+      "ordinal": 90,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_014",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 825665567,
+      "ordinal": 96,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_015",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 359331436,
+      "ordinal": 103,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_016",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 175706214,
+      "ordinal": 110,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "oehfinal120_bottleneck_017",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 864191261,
+      "ordinal": 116,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_000",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 450995065,
+      "ordinal": 1,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_001",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 934860908,
+      "ordinal": 5,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_002",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 881061890,
+      "ordinal": 8,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_003",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 979813595,
+      "ordinal": 12,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_004",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 481587544,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_005",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 331766355,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_006",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 178303856,
+      "ordinal": 21,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_007",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 113783995,
+      "ordinal": 25,
+      "family_ordinal": 7
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_008",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 550902221,
+      "ordinal": 28,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_009",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 580423574,
+      "ordinal": 32,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_010",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 305003115,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_011",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 229737070,
+      "ordinal": 39,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_012",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 636822505,
+      "ordinal": 41,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_013",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 177224794,
+      "ordinal": 45,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_014",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 271385873,
+      "ordinal": 48,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_015",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 103631681,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_016",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1023796654,
+      "ordinal": 55,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_017",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 114787129,
+      "ordinal": 59,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_018",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 488234261,
+      "ordinal": 61,
+      "family_ordinal": 18
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_019",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 528773904,
+      "ordinal": 65,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_020",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1030303034,
+      "ordinal": 68,
+      "family_ordinal": 20
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_021",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 339637733,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_022",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 749835868,
+      "ordinal": 75,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_023",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 192889758,
+      "ordinal": 79,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_024",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1083430278,
+      "ordinal": 81,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_025",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1070688300,
+      "ordinal": 85,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_026",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 788550210,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_027",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 248989823,
+      "ordinal": 92,
+      "family_ordinal": 27
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_028",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 517031809,
+      "ordinal": 95,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_029",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 643685117,
+      "ordinal": 99,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_030",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 791325278,
+      "ordinal": 101,
+      "family_ordinal": 30
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_031",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 276000128,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_032",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 699273260,
+      "ordinal": 108,
+      "family_ordinal": 32
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_033",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 325222962,
+      "ordinal": 112,
+      "family_ordinal": 33
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_034",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 366954411,
+      "ordinal": 115,
+      "family_ordinal": 34
+    },
+    {
+      "instance_id": "oehfinal120_lock_structured_035",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 446071260,
+      "ordinal": 119,
+      "family_ordinal": 35
+    }
+  ],
+  "kernel_fingerprints": {
+    "oehfinal120_uniform_garnet_000": "48ca5ead9b3d1273b97d43836dd5f75988da51ce521e8dee138ab30386527c2d",
+    "oehfinal120_uniform_garnet_001": "f6b65a263e00587374c44445d77d3fd677ee337d0a43f6f742659009a370c02e",
+    "oehfinal120_uniform_garnet_002": "7abdfce42bb29a81d0013d6441b8ac10f00001ea2298831e31b84625facbac76",
+    "oehfinal120_uniform_garnet_003": "c21567b069d2a1c98e7c2244f8c86ac681e318e853ceff93c199f00b93fbe418",
+    "oehfinal120_uniform_garnet_004": "0c1219ace980ed20a613f984f0f204240b86c6a57bf2079309448305b5ddb711",
+    "oehfinal120_uniform_garnet_005": "b5bfaef96329f45d56fca8d7481fef57c4d4f29f3252146d62389c9dfd90a41a",
+    "oehfinal120_uniform_garnet_006": "100af31ce245ab0f9a87113e397d8adf60acd13f0352971e8e512d2a6e36587d",
+    "oehfinal120_uniform_garnet_007": "e1079ea226d2ac4b224d8969402fe04fc1d25c047d850986d234013294c27e51",
+    "oehfinal120_uniform_garnet_008": "c96eae50e0660f52e531677f506793b900d7739af71fea25108bbfedc86acf7b",
+    "oehfinal120_uniform_garnet_009": "cc28d2c81b5ccdab7f2d30e86d9fa4dcef2cbc3cc4b6c75df4c194050d53e1ad",
+    "oehfinal120_uniform_garnet_010": "efc660991e26d31fdeb4df77889a2ab2c470f96de9f902b9f6ab8eb1888e5b59",
+    "oehfinal120_uniform_garnet_011": "a0bc25ab1d4f96e508d11b81281b0a3a257a6f9aa55b377f84271edd23fc1633",
+    "oehfinal120_uniform_garnet_012": "2db8ad19e058b256ca1cb5308e66bd317bafe6ee1f16e35e51bb31f91de84661",
+    "oehfinal120_uniform_garnet_013": "782bc4053fadd0a7673a44dda18ed50dc5a7e4336f1501be3dfebf8a96add0c8",
+    "oehfinal120_uniform_garnet_014": "87054b077ef50bbf7e852498e77209124804980222d65025f00dd93a20df3d31",
+    "oehfinal120_uniform_garnet_015": "8d88b68a589f4533d20ceeb6be95dbc41063679b4dd56764cacb39d8a15b2953",
+    "oehfinal120_uniform_garnet_016": "6095ce2277d228da32644ad78e4a01dd6fef10ae1afd20c4d819f06b540ab26d",
+    "oehfinal120_uniform_garnet_017": "2d34c2ee02eabf1c92e81b664290ec221c77164c9d1506e34fca46890016ebb7",
+    "oehfinal120_uniform_garnet_018": "5fa4d0213e6ba15b35f7586cddecd12b4cb2a191d7966eb3699097449f07edc0",
+    "oehfinal120_uniform_garnet_019": "1853dda51d81adb40b033124d86df40bdc3d18506e7b444ac074701080a3464f",
+    "oehfinal120_uniform_garnet_020": "ce0136b07cd2b086b0478e296f7ad790d930fa131f30699fa9cafe2f4c459665",
+    "oehfinal120_uniform_garnet_021": "1eb1deaba2fa92da66be49004bfbbfbd818be92004d88fa357dcba297bff084a",
+    "oehfinal120_uniform_garnet_022": "0439f3daba588a8dd32a45c391b2095ba888e5bce7b12807742a688f52682759",
+    "oehfinal120_uniform_garnet_023": "08a165776f7fc62b21479b0c5ed0a67e923f1cfe1c85118dedbe44d535eb836f",
+    "oehfinal120_uniform_garnet_024": "998dbee331dfa1504073b90a8f53a45693bcf44620a492068014e655e884cd16",
+    "oehfinal120_uniform_garnet_025": "3b0743903a32fdb043c6d46c9d5d964575f6ace38d808827e71746eb14d50f2f",
+    "oehfinal120_uniform_garnet_026": "23e1cad533a507cc62e9e3f83117dd2821a3ace83fffdc8bb6ae137e558328dd",
+    "oehfinal120_uniform_garnet_027": "f8cd8f8cec37e1895d6468e95881eb0cee6d43d923ae0fe8ef0f03e4ebc91945",
+    "oehfinal120_uniform_garnet_028": "f9cf7d7fbcb4a3fccab5fbb67f515ea416d91745b3aa3132dce3140bbb96ca42",
+    "oehfinal120_uniform_garnet_029": "418a8abfe637c4ffec0e6ca3a4876df91b73dba8e260d8f7c4ac1cc33019b186",
+    "oehfinal120_forward_layered_000": "933b69da293ffcb15b0ecdbcd07c8110b2a8c5c901fabeaf0c1098f91900c112",
+    "oehfinal120_forward_layered_001": "168498fae8e2336d2921fd2328b03b0593e46c1841bcb52dae496dd0082b055e",
+    "oehfinal120_forward_layered_002": "a45138bb503e41d8e427c58f80d32e3ef6e30b5d70a436776e393a8db715035f",
+    "oehfinal120_forward_layered_003": "cec372da143229de946cb9d4a80a9bc9e81c9061c617b09c87dfd6a35305f421",
+    "oehfinal120_forward_layered_004": "ba0cda2f700462d1e502f8fc4a2af4ca97a76c6630cbfda97186ee8cf0cdb28e",
+    "oehfinal120_forward_layered_005": "3a518e9ab609b010e4cb83b67c7d5ec964102ecedac70bf6bbe1acbdebe5dbf7",
+    "oehfinal120_forward_layered_006": "d494386420628440ab2f6dcff805b3506c54ae8cdf82ea26299958c8e1b025b9",
+    "oehfinal120_forward_layered_007": "5901680ac8252a5142eb8eeb794841757101a6b919b093d952b6495b641dd1d4",
+    "oehfinal120_forward_layered_008": "33836a93081df04c2de1c629aaf0f1e54b0f887aa310bef11b75351d521079aa",
+    "oehfinal120_forward_layered_009": "2432ba2c1849c7111f162235a028a6215c8add886836cd4841b7c16ae3ee7d28",
+    "oehfinal120_forward_layered_010": "cd7052b57d857e0087a9cf8e187b430f2613214b2df9e10f9536299fee644737",
+    "oehfinal120_forward_layered_011": "5a31c7362e7e766919162f37b6a960efdf173e267b02fcf5053f5c90a1cde5d9",
+    "oehfinal120_forward_layered_012": "eb156f0528731f2454ed50b4dcb3b2bce2068d2b70ae43ff8896f1d0c1c25f8f",
+    "oehfinal120_forward_layered_013": "ffa3c0ddbe29677a54e94a3f3b45c3c4b7c3543ef8271944cef49270cc7b1ead",
+    "oehfinal120_forward_layered_014": "9385e6b44ba6761957a729aadc083b1f74d7d51de6f728fc80eaa0ec6d31f1b7",
+    "oehfinal120_forward_layered_015": "a517a47be88091bb2af89922b47619e1a574baacd28633ac85cda7a632fb82ae",
+    "oehfinal120_forward_layered_016": "05386c5c1fb119570626816d5cc794d66d323ee98a42a085fdf64a227673f2e5",
+    "oehfinal120_forward_layered_017": "bb49ecebf11613b40916b788fc3aa5c5182812b715a50173a5818d8a64882d18",
+    "oehfinal120_forward_layered_018": "09d0d9327f18f19f30469320b36bcd460dad95be836f84778771a846505560e1",
+    "oehfinal120_forward_layered_019": "0fb3a8386000319224910cb7b41abdea2e5f98df1aa7b05690f21e4e625d5819",
+    "oehfinal120_forward_layered_020": "7bee2a5100879ebccd0f71250aa40760b7e56579018637e2149140a9c38ba9e5",
+    "oehfinal120_forward_layered_021": "21b5e8689a325315deb180cb0bd015522816daf45f1d7e4760fb6c4afcce123c",
+    "oehfinal120_forward_layered_022": "3bb5e9efb2a548d9a8e27b12743b3956f08b38d73ba10d88ececd7723c014764",
+    "oehfinal120_forward_layered_023": "3f313e6b35f21fe64fdc96fdc33754a91a96940b71d8bd182ba62945b3b8883a",
+    "oehfinal120_forward_layered_024": "9e9595e80775dbc547995f173ac552f993bee46351d2a2e3f45679b9b7f467a1",
+    "oehfinal120_forward_layered_025": "4047071c3d92501e5770045f6f8a821512e6fb177a9fa4df067bfbc4e9795285",
+    "oehfinal120_forward_layered_026": "dece28337f4dfd54ca6ea077a58f417d884ef533c076e7235fa6cc28931185a6",
+    "oehfinal120_forward_layered_027": "145b1f9d111d3f84355eeb336a88a2bcca8be5371bfffe742beac143e59d3a49",
+    "oehfinal120_forward_layered_028": "ee66daee4259091876878ae229d97100c65311789501a4fb2eea8579003da452",
+    "oehfinal120_forward_layered_029": "e254d3405e2ad097f960d9f3fc3f47a6dd5ef2c748c425280d78c5be690945d7",
+    "oehfinal120_forward_layered_030": "2c3c0a5953538320e4f03620c7a0d46437baec4d01cd82b542f8787a77086cd5",
+    "oehfinal120_forward_layered_031": "3164aa73101731e6f4554aa32954040810b00b6f9c189bb2b067f302d904158f",
+    "oehfinal120_forward_layered_032": "2cff668de02cfd810322a1d0ace57e2d2b712a8c4744a6394bd63b22c8bfb19c",
+    "oehfinal120_forward_layered_033": "8aac736e871458b98f0c2d44f16479285e48aecc4f1d006019ae3486c3e02aaa",
+    "oehfinal120_forward_layered_034": "f1037ca57d027007163bcafcb054739d7da97cf3b4b06ec1f601e48ad7c3d79d",
+    "oehfinal120_forward_layered_035": "01e3513356601ea5ce37c38977c6c693d73ab3a745e8661b5ac236acdf253ecf",
+    "oehfinal120_bottleneck_000": "0150d2e534f2b265f4bfbb7a39a8a64e445aa3df12084aba3e60fea2686b08fa",
+    "oehfinal120_bottleneck_001": "aaef8d225af97e016c132c25bb7617788db550b9a06494c7e049a275470d6842",
+    "oehfinal120_bottleneck_002": "da1cc096a6e281cf89b4a9a66a3c5558ff59ea1fa9e150a23f28ede1ddafa7e9",
+    "oehfinal120_bottleneck_003": "8cb96d5e599e15cbc4252538a928687a1b09d59456d80f974870d34dd8238f71",
+    "oehfinal120_bottleneck_004": "9e956a8e61ab61c0626cb04a2f30f46bf784f0ca1978c69252b01feb6ca389e6",
+    "oehfinal120_bottleneck_005": "a13f5ed7cdcb2c485cc8e8b9a5c3d799963e99dad3955c0dd291ddf534eeac96",
+    "oehfinal120_bottleneck_006": "8f989054fbf1da4b11f1277015fafa7a1a5c490297d23203e0bfcaf3da085d59",
+    "oehfinal120_bottleneck_007": "914fb0bc475eaecf982f78d462ec32a4b8a97e0aebeaf4de5b7eabec7df7cbbc",
+    "oehfinal120_bottleneck_008": "883db43580e63174157d391686a75b54a704a8edaacfb0fd1196a1ae75e000e0",
+    "oehfinal120_bottleneck_009": "352c6a62b384113eef54cbf7aedfa03b641532a9c2c073c69cc40e26f652e672",
+    "oehfinal120_bottleneck_010": "8238fc7ee5c809d23c2efc452f7b4fbab86e8df853cfeeef6785eca7778da294",
+    "oehfinal120_bottleneck_011": "c9a63d6459f3f158245f62923a8b55eada4465a1e1c4eef99548b704f73b1b56",
+    "oehfinal120_bottleneck_012": "bcf782ee4c49121bf2e3bd9b20c7a3a748f9fc1742fa5fa24df1515371bd375f",
+    "oehfinal120_bottleneck_013": "7a7f50e80715d6cd9686215b38aaf97cdb7ccc625b5799a23118a4a36bbad4e8",
+    "oehfinal120_bottleneck_014": "db8b09e5835ac78a40e39c2ec14e9869a267610f3d116f40e3121883ba279e63",
+    "oehfinal120_bottleneck_015": "69f95db72282de798808d1036d90dd75750f8f6c3d3e7111fe24acd9e0a9723b",
+    "oehfinal120_bottleneck_016": "f170facb709c204867c28b9f82485e31a9c0015935648493b2ef2375d2d0a5b0",
+    "oehfinal120_bottleneck_017": "cc9d5c80cd428efb22f52566015497b622508eb0c9fe6854ba35cfc7a94524c5",
+    "oehfinal120_lock_structured_000": "9d648aba1bf607219a3094a90b925910e32f8687acea46abae8c7162bde5e8cf",
+    "oehfinal120_lock_structured_001": "bb58a6a89f8fa290e8c7f337bd3f33448eb0963ac4f2d2dc3266a61c9b8564c2",
+    "oehfinal120_lock_structured_002": "b7c87b961bbb2da9779230aa928c5c05ee3d24975560a5b82714f5cd7ed3e686",
+    "oehfinal120_lock_structured_003": "bb9ff215f02211077ed7ae662d950453dc1190cfb3074070925dbf44ac0aff5a",
+    "oehfinal120_lock_structured_004": "f696bb03c647ff7b6a7057d9d4c73c21944dbf39070249c24a6da2041e96782c",
+    "oehfinal120_lock_structured_005": "b9910a66c212ac61d844944403fa4384b3d3287560c5ebbd44959c56c0d1fc6e",
+    "oehfinal120_lock_structured_006": "3e03fdb1ddfda33c4202074fef2c8405aa95e2875adfca4d31649d448b454796",
+    "oehfinal120_lock_structured_007": "1c2a2b52cf040fdc3192cc052a10437d7508024a46e073a75060e7b1868d8617",
+    "oehfinal120_lock_structured_008": "c36fe090a417135ff21a1540463924c97f202d6bf5fffe56fc8bcdd8abb006ef",
+    "oehfinal120_lock_structured_009": "cc552a896bb747afa57d3621faffc546a3c442fe317883054625c0ba5f1a4715",
+    "oehfinal120_lock_structured_010": "c2bf815e4b4914aacf66c9d51d623427367429a3245f585a6a15263727c85b35",
+    "oehfinal120_lock_structured_011": "64fa15ccc6e15ceecfba7fdf78bfe0743a266c5a04455d22d0d7495e389e600b",
+    "oehfinal120_lock_structured_012": "d12a1bcc59446f99626b5290373e47c9103314c347beafcca6fa9a28f00ceba5",
+    "oehfinal120_lock_structured_013": "2886f2c26d4a8f2ee290fd6623fb7f4f2614d21b8db94a1a66e96b6973484ac5",
+    "oehfinal120_lock_structured_014": "d2dbef8a9c5ad6c862ac0862fe45fdb0a3a7b1bb3b8e0f694d0de6ab8aa28b82",
+    "oehfinal120_lock_structured_015": "2a55186e7750df80eeeef3084f29c5b87d8f64739786036836ad29a0142415ae",
+    "oehfinal120_lock_structured_016": "68325fdf05ba4df6c3fc1d0b8c935706e8698133b55712a03909ebe673d54f72",
+    "oehfinal120_lock_structured_017": "0005e121d9ab3ee705e768294ecd2c5a5ced7b6f93e2cc0e75cdcc1629a0b1bb",
+    "oehfinal120_lock_structured_018": "9a5bd725fa8a16dfd3fab40d759d26a78f888eed9c88b955d80f8205b1018899",
+    "oehfinal120_lock_structured_019": "2f1a1f12c07691c27f344825403d77d0750ce3c730d69cf599cca6a393139697",
+    "oehfinal120_lock_structured_020": "8ec2dcf071552d8cfa9befeaf391aa3866c25c0a279504fe5f8d296fbd890f78",
+    "oehfinal120_lock_structured_021": "f98ceb53e1daa9701ca7efa7e34ef8b72097d9fb0cb6cd9ce3c9ef6c5a258068",
+    "oehfinal120_lock_structured_022": "59f9b55e79d13ba5eef78b95a6ada4125f29d2ac07c184bd4af1b499abce08b1",
+    "oehfinal120_lock_structured_023": "b2a6dc428e87f11379d257174925530187e287b76a66d6547730cf7ef80a6c3c",
+    "oehfinal120_lock_structured_024": "56dde796ac251dcda8dcbd89267bebac86935a2602bc6ee2d54199280a3867bf",
+    "oehfinal120_lock_structured_025": "5e021bb807a4b488012fbda8467e7486db8c9a896bc3aaa4cf96f97e5aa5dee4",
+    "oehfinal120_lock_structured_026": "032ace49d79bc9efcdf69b4cb353c24b438116c0371690a1d33f0a4c1c6b6257",
+    "oehfinal120_lock_structured_027": "c533406d33f09f8dcbe220efb67319d10adacd2a7feac2c55fda513e82ec66d0",
+    "oehfinal120_lock_structured_028": "b5f8a57d05d385e9ca7b00c7029b543eb5c073db65ff9640b302a54ebd61fe32",
+    "oehfinal120_lock_structured_029": "884de70c6ce67a2c1a56779921d8df60d3380f605f87593f2a3c8d5cb2016ea3",
+    "oehfinal120_lock_structured_030": "1d47ff327a5a34efa32a44e90883fc9b3f4c56a916eacafb1978228d17769b34",
+    "oehfinal120_lock_structured_031": "74ffe9306e3e3b985bf755daa37300a3c2976e99db5db6f4d683511a12156232",
+    "oehfinal120_lock_structured_032": "f25f906e92750e6d14765f84cd2d928b60e4106401a9dc85fe9d8b10f1157499",
+    "oehfinal120_lock_structured_033": "61f993e98078f1c04253871618ada92c894f036ae79c62325a413394ccd6c257",
+    "oehfinal120_lock_structured_034": "deef08bdd3af4b7b14dc3a3837829356ddc2170e1c35ed156a1bc1c8aef3a302",
+    "oehfinal120_lock_structured_035": "22bbe3b9b256c89251a958156a6969591e2a1326ce9475e1135aff5fc4a99950"
+  },
+  "family_counts": {
+    "uniform_garnet": 30,
+    "forward_layered": 36,
+    "bottleneck": 18,
+    "lock_structured": 36
+  },
+  "control_recipe_substitutions": {
+    "oehfinal120_lock_structured_005": {
+      "template": "evaluation_lock_structured_019",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    },
+    "oehfinal120_lock_structured_010": {
+      "template": "evaluation_lock_structured_035",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    },
+    "oehfinal120_lock_structured_015": {
+      "template": "evaluation_lock_structured_052",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    },
+    "oehfinal120_lock_structured_021": {
+      "template": "evaluation_lock_structured_072",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    },
+    "oehfinal120_lock_structured_026": {
+      "template": "evaluation_lock_structured_088",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    },
+    "oehfinal120_lock_structured_031": {
+      "template": "evaluation_lock_structured_105",
+      "states": 6,
+      "substitute_template": "evaluation_lock_structured_015",
+      "substitute_states": 8
+    }
+  },
+  "stochastic_primary_mdps": 84,
+  "control_mdps": 36,
+  "pilot_multipliers": [
+    2,
+    5,
+    10
+  ],
+  "budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "training_seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "behavior_families": 5,
+  "core_learners": [
+    "behavior_cloning_tabular",
+    "cfqi_tabular",
+    "iql_tabular"
+  ],
+  "expected_jobs": 108000,
+  "target": "first complete suffix with >=8/10 seeds normalized return >=0.95; else >x50",
+  "candidate": "oeh_final",
+  "comparators": [
+    "b2_matched",
+    "b2_plus_eri",
+    "b2_plus_bwd",
+    "train_frequency",
+    "coverage_adaptation",
+    "quality_adaptation",
+    "coverage_quality_adaptation",
+    "b2_generic",
+    "b2_plus_eh_oracle_matched",
+    "b2_plus_tq_saco_original",
+    "published_metrics_only"
+  ],
+  "reported_unfitted": [
+    "oeh_b_raw",
+    "prior_oeh_matched"
+  ],
+  "oeh_final": {
+    "structure": {
+      "reward_prior": "unseen_zero",
+      "transition_base": "uniform",
+      "behavior_prior": "mixture"
+    },
+    "structure_tag": "A2",
+    "candidate_variant": "plus_prior_profile",
+    "candidate_law": false,
+    "select_capacity": false,
+    "requirement_draws": 64,
+    "selection_draws": 16,
+    "fields": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oehb_cdf_0",
+      "oehb_cdf_1",
+      "oehb_cdf_2",
+      "oehb_cdf_3",
+      "oehb_cdf_4",
+      "oehb_cdf_5",
+      "oehb_success_x1",
+      "oehb_success_x2",
+      "oehb_success_x5",
+      "oehb_success_x10",
+      "oehb_success_x20",
+      "oehb_success_x50",
+      "oehb_return_x1",
+      "oehb_return_x2",
+      "oehb_return_x5",
+      "oehb_return_x10",
+      "oehb_return_x20",
+      "oehb_return_x50",
+      "oehh_value",
+      "oehh_identified",
+      "oehh_trap",
+      "oehh_statistical",
+      "oehh_coverage",
+      "oehh_depth_fraction",
+      "oehh_log_concentrability",
+      "oehh_log_clipped_concentrability",
+      "oehh_log_intrinsic_bound",
+      "oehh_behavior_ceiling",
+      "oehh_support_ceiling",
+      "oehb_log_transition_concentration",
+      "oehb_log_behavior_concentration",
+      "other_behavior_cloning_tabular_oehb_cdf_0",
+      "other_behavior_cloning_tabular_oehb_cdf_1",
+      "other_behavior_cloning_tabular_oehb_cdf_2",
+      "other_behavior_cloning_tabular_oehb_cdf_3",
+      "other_behavior_cloning_tabular_oehb_cdf_4",
+      "other_behavior_cloning_tabular_oehb_cdf_5",
+      "other_cfqi_tabular_oehb_cdf_0",
+      "other_cfqi_tabular_oehb_cdf_1",
+      "other_cfqi_tabular_oehb_cdf_2",
+      "other_cfqi_tabular_oehb_cdf_3",
+      "other_cfqi_tabular_oehb_cdf_4",
+      "other_cfqi_tabular_oehb_cdf_5",
+      "other_iql_tabular_oehb_cdf_0",
+      "other_iql_tabular_oehb_cdf_1",
+      "other_iql_tabular_oehb_cdf_2",
+      "other_iql_tabular_oehb_cdf_3",
+      "other_iql_tabular_oehb_cdf_4",
+      "other_iql_tabular_oehb_cdf_5",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction",
+      "other_behavior_cloning_tabular_lcoeh4_risk_at_pilot",
+      "other_behavior_cloning_tabular_lcoeh4_contraction_rate",
+      "other_behavior_cloning_tabular_lcoeh4_pessimistic_return",
+      "other_behavior_cloning_tabular_lcoeh4_return_se",
+      "other_behavior_cloning_tabular_lcoeh4_validation_support_mass",
+      "other_behavior_cloning_tabular_lcoeh4_trajectory_independence_fraction",
+      "other_cfqi_tabular_lcoeh4_risk_at_pilot",
+      "other_cfqi_tabular_lcoeh4_contraction_rate",
+      "other_cfqi_tabular_lcoeh4_pessimistic_return",
+      "other_cfqi_tabular_lcoeh4_return_se",
+      "other_cfqi_tabular_lcoeh4_validation_support_mass",
+      "other_cfqi_tabular_lcoeh4_trajectory_independence_fraction",
+      "other_iql_tabular_lcoeh4_risk_at_pilot",
+      "other_iql_tabular_lcoeh4_contraction_rate",
+      "other_iql_tabular_lcoeh4_pessimistic_return",
+      "other_iql_tabular_lcoeh4_return_se",
+      "other_iql_tabular_lcoeh4_validation_support_mass",
+      "other_iql_tabular_lcoeh4_trajectory_independence_fraction",
+      "oehh_risk_x1",
+      "oehh_risk_x2",
+      "oehh_risk_x5",
+      "oehh_risk_x10",
+      "oehh_risk_x20",
+      "oehh_risk_x50",
+      "oehh_miss_x1",
+      "oehh_miss_x2",
+      "oehh_miss_x5",
+      "oehh_miss_x10",
+      "oehh_miss_x20",
+      "oehh_miss_x50",
+      "oehh_risk_slack"
+    ],
+    "meta_training_cohorts": [
+      "e1",
+      "first60",
+      "second60",
+      "first120",
+      "second120",
+      "third120",
+      "fourth120"
+    ],
+    "forecaster": "matched AFT/direct/depth3_200 multiclass with OOF-log-loss convex weights, identical for every fitted comparator"
+  },
+  "decision_rule": "84 stochastic MDP-cluster units; OEH vs tier-1 shared-information baselines and vs original TQ/SACo reported separately; paired integrated Brier and seven-class log-loss gains; simultaneous one-sided 95% lower bounds must be strictly positive; no minimum point gain",
+  "tiers": {
+    "tier1_primary_claim": [
+      "b2_matched",
+      "b2_plus_eri",
+      "b2_plus_bwd",
+      "train_frequency",
+      "coverage_adaptation",
+      "quality_adaptation",
+      "coverage_quality_adaptation",
+      "b2_generic"
+    ],
+    "tier2_privileged_information": [
+      "b2_plus_eh_oracle_matched",
+      "b2_plus_tq_saco_original",
+      "published_metrics_only"
+    ],
+    "verdicts": [
+      "tier1 (primary claim of superiority over the published state of the art with the same information)",
+      "tier2 (privileged-information comparators, same rule)",
+      "all comparators (tier1 and tier2, strict)"
+    ],
+    "reported_without_gate": [
+      "oeh_b_raw",
+      "prior_oeh_matched"
+    ],
+    "reason": "team audit PUBLISHED_DIFFICULTY_METHOD_AUDIT_2026-10-01 requires reference-dependent and oracle scores in separate tables; tiering was decided after the development results and is recorded as such"
+  },
+  "comparator_sources": {
+    "tq_saco_original": "authors' code ml-jku/OfflineRL commit 8cc8eec (online DQN replay reference, exact unique-pair count, max online return); evaluation reproduced bit-for-bit",
+    "bwd": "no public code; reproduced from the paper's equations with exact tabular SARSA fixed point and exact (epsilon -> 0) transport; one-hot actions, uniform reference",
+    "eri": "exact formula of Swazinna et al. on eligible datasets",
+    "eh": "port of the published definitions; the authors' Julia code accepts only deterministic transition tables",
+    "learners": "author SPIBB, VI-LCB port, author discrete BCQ, pinned d3rlpy CQL; registered tabular CFQI/IQL/BC"
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "seed": 20261004,
+    "joint_contrasts": 22
+  },
+  "control_rule": "report 36 control MDPs separately; never select candidate on them",
+  "selection_study": {
+    "panel": "84 stochastic primary MDPs (420 groups), budget x10, ten training seeds",
+    "library": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular",
+      "pib_spibb_n10_author",
+      "vi_lcb_cb005_author_empirical",
+      "discrete_bcq_author",
+      "discrete_cql_d3rlpy"
+    ],
+    "rule": "ExtraTrees 150 trees, leaf 7, max_features 0.8; predict success + 0.15 normalized return; switch from fixed CFQI only when advantage >0.1",
+    "comparators": [
+      "best fixed learner on the new panel, selected by predefined tie order",
+      "fixed CFQI tabular"
+    ],
+    "endpoints": [
+      "mean normalized return",
+      "seed success rate"
+    ],
+    "decision_rule": "simultaneous one-sided 95% MDP-cluster lower bounds >0 for success and return against fixed CFQI; best fixed learner reported separately"
+  },
+  "horizon_study": {
+    "metric": "oracle OEH-H on the true MDP and behavior (DP form)",
+    "comparators": [
+      "stationary gap-bound EH",
+      "published stochastic EH descriptors",
+      "size reference log(S*A)"
+    ],
+    "target": "CFQI requirement event; also the minimum event over core learners",
+    "statistic": "Spearman rank correlation with censored events ranked last; 10000 MDP-cluster bootstrap of the paired difference"
+  },
+  "scope": "120 unique untouched kernels; seven opened cohorts for fitting; independent published data are a separate transfer stress test",
+  "original_generator_sha256": "f66b0b2fd00a15bdc76bc3076bc1c74ec93a19cee49e39f1d881756f1ec04f7c",
+  "source_sha256": {
+    "scripts/analysis/run_oeh_final_120.py": "ce244a3d21d936400f3d3ad5d16993cb239ed40a1fee07ddda5db6135fd783e5",
+    "scripts/analysis/run_oeh_120_unseen.py": "ac9cff341900bd858b61e7a0fdf737462a34b4e9210f7593f26c93fbf2f14242",
+    "scripts/analysis/run_oeh_120_cross_capacity.py": "bbf18ae43b71ead7f2720bfbae48e2ac0635a83113a727ce3ebd0315c8d04d18",
+    "scripts/analysis/oeh_final_forecast.py": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+    "scripts/analysis/oeh_final_gpu.py": "0e74994932181fd32c8997428b7c63df2076e4ee4ce2b4bff64aa145a067d2b1",
+    "scripts/analysis/oeh_final_learners.py": "467a7f4da0e864558b938ffe5a6807eee26fd884f3b347de9b105079c8591e3a",
+    "scripts/analysis/develop_oeh_horizon.py": "c8fdcfd07d7c6f2c87c4ab252f5c1abe515930d17a9059f14bd7d5f3ee47e0eb",
+    "code/oeh/tabular.py": "448f7ea913a7e432b99b04c914510f3201544d85be407630dc61dd6a1dd04331",
+    "code/oeh/posterior.py": "cb3f189cfbfad81df0e945f13e048f4a0d7259f72d1d2abb75128b43f0b4ccb5",
+    "code/oeh/predictive.py": "5f28afb97c8292f0998f2f273b528ea3190a89ce034b1e7fa3ae9a134a579c46",
+    "code/oeh/horizon.py": "84b981e871a946e89d0ce641f460bf5b84072014e503c9df1b7481559480f432",
+    "code/oeh/selection.py": "f49f9e8111839b91f91e41786e48eb6057a2c7098a9a9631252a80f63ed69422",
+    "code/oeh/unseen.py": "fd02a4ae55917321f3393771c28ab54d3a4a85e81e31470e8aa211d6953f38fc",
+    "artifacts/oeh_final_development_2026-10-01/registry.jsonl": "83175e51221386a4aa2d76599e4d8b73893ac53b59fde381a5a4c0717be2bd83",
+    "artifacts/oeh_final_development_2026-10-01/selection.json": "18ee72a8e0ccbb9a7af2e27f8db213a6f33af2538c1e64ca64252da6b7e4c8bb",
+    "tmp/oeh_development_2026-09-30/evaluation/e1_pipeline.py": "6c89d5c545197aa7bff068f67c22ae858d28d5103042b5f3dbef6a6f2ca1ae2c",
+    "tmp/oeh_development_2026-09-30/evaluation/e1_external.py": "50c52afa764ba5423b958973910eb4253651035d18afa7c3200676947c97f5eb",
+    "tmp/oeh_development_2026-09-30/scripts/data/generate_offline_datasets.py": "6925435939b13496c313859837f49ec4a80996dbdacb01c5dc3b796b311ffbe3",
+    "tmp/oeh_development_2026-09-30/environments/benchmark_environments.py": "d874582eb2131647379654c9856e1dfb0e0c978625e692fe58e86a554c5e7296",
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/e1_oracle_qvi_posthoc_2026-09-30/oracle_diagnostics.csv": "e96934928568bdfb60cdc6062c175beb03821353ce35d9afa3c8ad7ddab1d8f6",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/independent_difficulty_2026-09-30/oracle_preoutcome.csv": "f943697387abbde9f46688a5bebe9d8ac06f93a2fc68ac469e2ad538ca5d6a1e",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_b2_eh_oracle_second_development_2026-10-01/oracle_descriptors.csv": "c2acdc77530289fc1df97bf4af794bcc1809207955a9279a0f67af881f23ff42",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/labels.csv": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/pilot_features.csv": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "56e0cfda77f4b795770bcd7156fea31cc732f9b871d03e1e6ccdfc3535ccc5cb",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/labels.csv": "b1be3f633b076bd6c1c5e5b97680145b7ff710907a5e21483328c4d4543d5f9e",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/pilot_features.csv": "1c7cd1f325d2c6f0f41cc21d04f4c7bb65f435c54091cb698030348d95c29c37",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "4f4dc1cd505a9808b76092f3624dd486f52c01dd3f8fc1687dbc6cfbc557d292",
+    "artifacts/oeh_cross_capacity_unseen_120_2026-10-01/labels.csv": "493c54784275b34d25805fd81c0cc3fabadb5119f6dba63f5cd9d8ba92db795c",
+    "artifacts/oeh_cross_capacity_unseen_120_2026-10-01/pilot_features.csv": "6c3f0ab31eb34dcf4a6b744462dc5878216a462bed4cdf61ce40076cf2fab522",
+    "artifacts/oeh_cross_capacity_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "2202da6f94f624745db2373f088512ae09fa170f7b78dac16227aaf69c639ed2",
+    "artifacts/oeh_final_unseen_120_2026-10-02/labels.csv": "735061c4b39558522a9fc96a409417016eb16a6ca5e14aeea557acd153c6a8b6",
+    "artifacts/oeh_final_unseen_120_2026-10-02/pilot_features.csv": "5b1ed75d6095b72bee67fde43f79512ebfbd5076982905339e609b4a8156e121",
+    "artifacts/oeh_final_unseen_120_2026-10-02/oracle_descriptors_preoutcome.csv": "1d2383d4063958f47f573cefa11cee732ed156524d7af4ac2a402f1f21929e4b",
+    "scripts/analysis/run_oeh_confirmatory_20261004.py": "df25ede70557d343a5895efd8a5ba427e1d5b8b95309b682d51b43d8653e0a7e",
+    "scripts/analysis/develop_fixed_selector_20261004.py": "dc115baf6d570254b201d4b93bca4d6244f40d69138cb36d7f8a0a5f0218dd7f",
+    "scripts/analysis/oeh_confirmatory_helpers.py": "b3a0577dbc603b19f7e15f5ab3ee3bc1a8449776bf274020cf560cf9d8a16a83"
+  },
+  "external_dataset": {
+    "name": "D4RL/minigrid/fourrooms-random-v0",
+    "publisher": "Farama Minari",
+    "status": "published offline trajectories; independent transfer stress test; partial observations, outside the tabular MDP claim",
+    "source": "https://minari.farama.org/datasets/D4RL/minigrid/fourrooms-random-v0/"
+  },
+  "confirmatory_schema": "oeh-seventh-one-shot-v1",
+  "preoutcome_schema_correction": {
+    "reason": "base verifier requires its original schema token",
+    "dataset_buffers_created": 0,
+    "learner_outcomes_observed": 0
+  },
+  "preoutcome_resolved_kernel_amendment": {
+    "changed": {
+      "oehfinal120_bottleneck_005": [
+        "c5c67b08bdaa8af90c12347c274c7b0e5e1feda46390b0d6d30ed8dce35256bd",
+        "a13f5ed7cdcb2c485cc8e8b9a5c3d799963e99dad3955c0dd291ddf534eeac96"
+      ],
+      "oehfinal120_bottleneck_011": [
+        "b05b80219f447638de1d797274fe22d9765484df2b0d77b1d642abcfcb574c63",
+        "c9a63d6459f3f158245f62923a8b55eada4465a1e1c4eef99548b704f73b1b56"
+      ],
+      "oehfinal120_bottleneck_016": [
+        "f98b3bc154432322ec4ef4c27bbbc22cf1ce22f00b0306056316deb719457ea2",
+        "f170facb709c204867c28b9f82485e31a9c0015935648493b2ef2375d2d0a5b0"
+      ]
+    },
+    "old_protocol_sha256": "3264eb6238382c6b7d311c3f081adc5bd758c3b28f979835abe70c53e422e672",
+    "learner_outcomes_observed": 0,
+    "recorded_at_utc": "2026-10-03T20:09:20.372088+00:00"
+  }
+}

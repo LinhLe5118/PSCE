@@ -1,0 +1,9 @@
+{
+  "status": "posthoc_opened_failed_cohort_not_independent_confirmation",
+  "successor_protocol_sha256_before_this_diagnostic": "c78ba456b413087982862e45fa4a2d29bdd3d89dba966acd75f91e16614d82cb",
+  "first_result_manifest_sha256": "dec0ea5bb9d7d29bf6b9a72178889f96479b88b88a4e978535813954450e8a94",
+  "artifact_sha256": {
+    "scored.csv": "335717055185ea963b41ae68281970cdd477743ba6c0cf651f7cd2a70f53799b",
+    "summary.csv": "61682df4137b49a4ce7479852b0b2277354d91837b94d380b91fe1834ed44617"
+  }
+}

@@ -1,0 +1,156 @@
+% status: checked
+% Task card T7 (agent kit, kept outside the repository). Checked by a human at checkpoint H5 (Linh, 15 October 2026).
+% No step is left as TODO(proof): what is not proved is stated as an assumption or as outside the claim.
+% Numerical checks:
+% scripts/analysis/theory_checks_t7.py -> artifacts/week8/theory_checks_2026-10-15/.
+\documentclass[10pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=2.5cm]{geometry}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{remark}{Remark}
+\newtheorem{assumption}{Assumption}
+\newtheorem{corollary}{Corollary}
+\title{Theory appendix of OEH}
+\date{15 October 2026}
+\begin{document}
+\maketitle
+
+\noindent\textbf{Status: checked} at checkpoint H5 (15 October 2026). The statements below may be cited with the assumptions and scope remarks given here; in particular, OEH is not claimed to be consistent (Section~2).
+
+\section*{Notation}
+A learner $l$, a finite MDP $\theta=(P,r,\beta)$ with $S$ states and $A$ actions, the budget grid $b=(1,2,5,10,20,50)$, the requirement class $E\in\{0,\dots,6\}$ (class 6: $>x50$). A forecast is a vector $F=(F_0,\dots,F_5)$ of cumulative probabilities $F_j=\Pr(E\le j)$, non-decreasing in $j$. The integrated Brier score of $F$ on outcome $E$ is $\mathrm{IBS}(F,E)=\frac16\sum_{j=0}^5(F_j-\mathbf 1\{E\le j\})^2$.
+
+\section{T3: from probability scores to decisions (priority)}
+
+\paragraph{Decision problem.} Before collecting data a practitioner either collects the budget $b_a$ for some $a\in\{0,\dots,5\}$ and trains the learner, or skips it. Collecting $a$ costs $b_a$ plus a penalty $\lambda>0$ if the requirement is not met ($E>a$); skipping costs $\lambda$ if the requirement was finite ($E\le5$). This is the cost of the registered decision analysis (\texttt{colosseum\_posthoc\_20261014.decision\_costs}). For a cumulative forecast $F$ the expected cost under $F$ is
+\begin{equation}
+C(a;F)=b_a+\lambda(1-F_a)\ (a\le5),\qquad C(\mathrm{skip};F)=\lambda F_5 .
+\end{equation}
+The \emph{plug-in Bayes rule} of $F$ is $a(F)\in\arg\min_a C(a;F)$ (any tie-breaking).
+
+\begin{assumption}[Reference law]\label{as:ref}
+Let $\mathcal G$ be any information set that contains the information used by the forecaster $F$ (for example the pilot, or the true MDP and behavior), and let $F^\star_j=\Pr(E\le j\mid\mathcal G)$. $F$ is $\mathcal G$-measurable.
+\end{assumption}
+
+\begin{theorem}[Regret from scoring; draft]\label{thm:t3}
+Under Assumption~\ref{as:ref}, for every row,
+\begin{equation}
+C(a(F);F^\star)-C(a(F^\star);F^\star)\;\le\;2\lambda\max_{0\le j\le5}|F_j-F^\star_j| .
+\label{eq:t3-row}
+\end{equation}
+Consequently, with $\Delta(F)=\mathbb E[\mathrm{IBS}(F,E)]-\mathbb E[\mathrm{IBS}(F^\star,E)]\ge0$,
+\begin{equation}
+\mathbb E\bigl[C(a(F);F^\star)-C(a(F^\star);F^\star)\bigr]\;\le\;2\lambda\,\mathbb E\max_j|F_j-F^\star_j|\;\le\;2\lambda\sqrt{6\,\Delta(F)} .
+\label{eq:t3-mean}
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+For every action $a$, $|C(a;F)-C(a;F^\star)|=\lambda|F_a-F^\star_a|$ (collect) or $\lambda|F_5-F^\star_5|$ (skip), hence $\le\lambda\|F-F^\star\|_\infty$. Write $\hat a=a(F)$ and $a^\star=a(F^\star)$. Then
+$C(\hat a;F^\star)-C(a^\star;F^\star)=[C(\hat a;F^\star)-C(\hat a;F)]+[C(\hat a;F)-C(a^\star;F)]+[C(a^\star;F)-C(a^\star;F^\star)]$; the middle term is $\le0$ because $\hat a$ minimizes $C(\cdot;F)$, and each outer term is $\le\lambda\|F-F^\star\|_\infty$. This gives \eqref{eq:t3-row}. For \eqref{eq:t3-mean}, take expectations, then use $\max_j|x_j|\le\|x\|_2$ and Jensen: $\mathbb E\|F-F^\star\|_2\le(\mathbb E\|F-F^\star\|_2^2)^{1/2}$. Finally, for each $j$, $\mathbb E[(F_j-\mathbf 1\{E\le j\})^2]=\mathbb E[(F_j-F^\star_j)^2]+\mathbb E[(F^\star_j-\mathbf 1\{E\le j\})^2]$, because the cross term $\mathbb E[(F_j-F^\star_j)(F^\star_j-\mathbf 1\{E\le j\})]$ vanishes by conditioning on $\mathcal G$ (both $F_j$ and $F^\star_j$ are $\mathcal G$-measurable and $\mathbb E[\mathbf 1\{E\le j\}\mid\mathcal G]=F^\star_j$). Summing over $j$ gives $\mathbb E\|F-F^\star\|_2^2=6\,\Delta(F)$.
+\end{proof}
+
+\begin{remark}[Scope]
+(i) The theorem bounds the regret of the plug-in Bayes rule relative to the same rule applied to $F^\star$, not relative to an outcome oracle. (ii) The registered $\tau$-rule is not the plug-in Bayes rule of this cost; Proposition~\ref{prop:tau} bounds its regret. (iii) The bound is loose. On the four final panels, with the plug-in law of the ten training seeds as $F^\star$ and $\lambda=100$, the plug-in Bayes regrets are $4$--$36$ budget units, the intermediate $L_\infty$ form of \eqref{eq:t3-mean} gives $24$--$101$ and the IBS form $51$--$234$; the bounds hold on every panel and their order across forecasters follows the excess IBS (\texttt{artifacts/week8/theory\_checks\_2026-10-15}). The theorem therefore explains why a lower Brier score cannot hurt the plug-in decision by more than a known amount, not the size of the regret. On the same panels, the regret of the registered $\tau$-rule ($\tau=0.8$) against the $\tau$-rule under $F^\star$ is $4$--$34$; the event form of Proposition~\ref{prop:tau}, minimized over $m$, gives $55$--$127$; its Markov form gives $86$ or more, close to the trivial bound $b_5+\lambda=150$. Corollary~\ref{cor:ll} gives $62$--$155$. (iv) The identity in the last step holds for the IBS, a proper score that is quadratic in $F$; for the log loss, Corollary~\ref{cor:ll} gives the corresponding bound.
+\end{remark}
+
+\begin{proposition}[Margin bound of the $\tau$-rule]\label{prop:tau}
+Let $a_\tau(F)$ be the smallest $a\le5$ with $F_a\ge\tau$, and $a_\tau(F)=\mathrm{skip}$ if there is none. Under Assumption~\ref{as:ref}, for every $m\in(0,1]$,
+\begin{equation}
+\mathbb E\bigl[C(a_\tau(F);F^\star)-C(a_\tau(F^\star);F^\star)\bigr]\;\le\;(b_5+\lambda)\Bigl[\Pr\bigl(\|F-F^\star\|_\infty\ge m\bigr)+\Pr\bigl(\min_j|F^\star_j-\tau|<m\bigr)\Bigr]
+\;\le\;(b_5+\lambda)\Bigl[\frac{6\,\Delta(F)}{m^2}+\Pr\bigl(\min_j|F^\star_j-\tau|<m\bigr)\Bigr].
+\label{eq:tau}
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+The rule $a_\tau(F)$ depends on $F$ only through the indicators $\mathbf 1\{F_j\ge\tau\}$, $j=0,\dots,5$. Suppose $\|F-F^\star\|_\infty<m$ and $\min_j|F^\star_j-\tau|\ge m$. Then $|F_j-F^\star_j|<|F^\star_j-\tau|$ for every $j$, so $F_j$ and $F^\star_j$ lie on the same side of $\tau$, the indicators coincide and $a_\tau(F)=a_\tau(F^\star)$. The two rules therefore differ only on the union of the two events in \eqref{eq:tau}.
+
+Every expected cost under $F^\star$ lies in $[0,b_5+\lambda]$: collecting $a$ costs $b_a+\lambda(1-F^\star_a)$ and skipping costs $\lambda F^\star_5$. So the difference is at most $b_5+\lambda$ on that union and $0$ elsewhere, which gives the first inequality.
+
+For the second, Markov's inequality gives $\Pr(\|F-F^\star\|_\infty\ge m)\le\mathbb E\|F-F^\star\|_\infty^2/m^2\le\mathbb E\|F-F^\star\|_2^2/m^2$. The proof of Theorem~\ref{thm:t3} shows $\mathbb E\|F-F^\star\|_2^2=6\,\Delta(F)$.
+\end{proof}
+
+\noindent The difference in \eqref{eq:tau} can be negative, because the $\tau$-rule is not optimal under $F^\star$; the proposition is an upper bound only. Its second term is a margin condition. A small forecast error can change the decision only on rows whose reference law lies close to $\tau$ at some budget.
+
+\begin{corollary}[Log-loss form]\label{cor:ll}
+Let $p$ and $p^\star$ be the seven-class laws of $F$ and $F^\star$, with $p_k>0$ for every $k$. Let $\Delta_{\mathrm{LL}}(F)=\mathbb E[-\log p_E]-\mathbb E[-\log p^\star_E]$ (natural logarithm, no floor). Under Assumption~\ref{as:ref}, $\Delta_{\mathrm{LL}}(F)=\mathbb E\,\mathrm{KL}(p^\star\|p)$ and
+\begin{equation}
+\mathbb E\bigl[C(a(F);F^\star)-C(a(F^\star);F^\star)\bigr]\;\le\;\lambda\sqrt{2\,\Delta_{\mathrm{LL}}(F)} .
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+Conditionally on $\mathcal G$, $E$ has law $p^\star$ and $p$ is fixed. Hence $\mathbb E[\log p^\star_E-\log p_E\mid\mathcal G]=\sum_kp^\star_k\log(p^\star_k/p_k)=\mathrm{KL}(p^\star\|p)$; taking expectations gives the identity.
+
+For every $j$, $|F_j-F^\star_j|=|\sum_{k\le j}(p_k-p^\star_k)|\le\mathrm{TV}(p,p^\star)$. Pinsker's inequality gives $\mathrm{TV}(p,p^\star)\le\sqrt{\mathrm{KL}(p^\star\|p)/2}$. Combining \eqref{eq:t3-mean} with Jensen's inequality, $2\lambda\,\mathbb E\|F-F^\star\|_\infty\le2\lambda\,\mathbb E\sqrt{\mathrm{KL}/2}\le2\lambda\sqrt{\Delta_{\mathrm{LL}}/2}=\lambda\sqrt{2\Delta_{\mathrm{LL}}}$.
+\end{proof}
+
+\noindent The scored log loss floors probabilities at $10^{-12}$. The identity holds for the unfloored law, which differs from the scored value only on rows where the forecast gives the realized class less than $10^{-12}$.
+
+\section{T1: what the fitted forecaster converges to}
+
+\paragraph{Regime.} A pilot of $n$ transitions is drawn from a fixed $\theta_0$ with behavior $\beta_0$. It takes the place of the x10 stream in every column computed from the full pilot.
+
+Let $\phi_n$ be the \emph{encoded} feature vector fed to the heads: after the cross-learner context columns and the encoding \texttt{nan}$\mapsto0$, $\pm\infty\mapsto\pm10^6$ of \texttt{oeh\_final\_forecast.\_matrix}.
+
+The heads are \emph{fixed}, fitted once on the meta panel: the full head $h$, its finite-class version $h^{\mathrm{fin}}$ and the robust head $h_R$. The OEH law is $g(h(\phi_n),h^{\mathrm{fin}}(\phi_n),h_R(\phi_n),d_n)$. Here $g$ is the shift gate (Eq.~(7) of the main text) and $d_n$ is the mean distance to the 10 nearest meta-training rows in standardized B2 statistics.
+
+\begin{assumption}[Limits in the extended reals]\label{as:feat}
+Each coordinate of $\phi_n$ converges almost surely in $[-\infty,\infty]$; write $\phi^\star$ for the limit. No finite coordinate of $\phi^\star$ equals a split threshold of a tree of $h$, $h^{\mathrm{fin}}$ or $h_R$, or a float32 rounding boundary.
+\end{assumption}
+
+\begin{proposition}[Local constancy and the limit of the gated law]\label{prop:t1}
+Under Assumption~\ref{as:feat}, almost surely, for all large $n$, $h(\phi_n)=h(\phi^\star)$, $h^{\mathrm{fin}}(\phi_n)=h^{\mathrm{fin}}(\phi^\star)$ and $h_R(\phi_n)=h_R(\phi^\star)$. A tree evaluated at an infinite coordinate takes the leaf beyond all its thresholds on that side.
+
+If moreover $d_n\to d^\star\in[0,\infty]$, the OEH law converges to $g(h(\phi^\star),h^{\mathrm{fin}}(\phi^\star),h_R(\phi^\star),d^\star)$, with $\lambda(\infty)=1$ and $\varepsilon(\infty)=\varepsilon_{\max}$.
+\end{proposition}
+
+\begin{proof}
+Every head is a fixed convex combination, per stratum (panel, learner), of three components. Each component is a deterministic function of the raw outputs of boosted trees evaluated at $\phi_n$, cast to float32:
+\begin{itemize}
+\item the AFT component: the XGBoost AFT median, then a log-normal CDF with scale $1.2$ on the budget grid;
+\item the threshold component: six binary XGBoost models, then the CDF-to-class map;
+\item the multiclass component: XGBoost softprob.
+\end{itemize}
+The finite-class head uses the same components fitted on the rows with $E<6$, renormalized on the six finite classes (code: \texttt{oeh\_final\_forecast.matched\_forecast}, \texttt{develop\_eh\_oracle\_three\_way.aft\_probabilities}, \texttt{develop\_oeh\_difficulty.fit\_thresholds}, \texttt{develop\_tree\_capacity.multiclass}).
+
+Each tree node compares one coordinate with one threshold. Along $\phi_n\to\phi^\star$, the comparison is eventually constant: for a finite limit coordinate because it is off every threshold and rounding boundary, and for an infinite limit because the coordinate eventually exceeds (or falls below) every threshold. Hence every tree selects the same leaf for all large $n$. Every raw output is then eventually constant, and so is every deterministic function of them, including the convex combination, whose weights are fixed.
+
+The gate $g$ is continuous in $d$ on $[0,\infty]$, because $\lambda(d)=\min(1,d/3)$ and $\varepsilon(d)=\varepsilon_{\max}\min(1,d/3)$ are constant for $d\ge3$. It is also continuous in the head outputs, which are eventually constant.
+\end{proof}
+
+\begin{remark}[Consequence: the gate saturates]
+Two of the 18 B2 statistics grow without bound with the pilot: \texttt{log\_pilot\_transitions}, and \texttt{log1p\_min\_positive\_sa\_count} (the latter under Assumption~(A1) of Proposition~1 of the supplement). Their standardized values diverge, so $d_n\to\infty$ and the OEH law converges to
+$(1-\varepsilon_{\max})\bigl[(1-p_6)\,h_R^{\mathrm{fin}},\,p_6\bigr]+\varepsilon_{\max}\pi_l$,
+where $p_6$ is the full head's censoring probability at $\phi^\star$. For pilots far larger than those of the meta panel, OEH therefore defers to the robust head, as the gate was designed to do outside the training support.
+
+Proposition~\ref{prop:t1} is \emph{not} a consistency result for the true requirement law. Boosted trees extrapolate as constants, so the limit is the heads' output at the boundary of the training range.
+\end{remark}
+
+\begin{remark}[Which feature blocks satisfy Assumption~\ref{as:feat}]
+The block structure follows \texttt{scripts/analysis/m1\_feature\_lineage.py}.
+\begin{itemize}
+\item \emph{G1, B2 (18 columns).} Under (A1), empirical frequencies converge by the law of large numbers. The count columns diverge to $+\infty$, which the assumption allows. The bootstrap columns (200 seeded replicates) converge because the bootstrap variance vanishes.
+\item \emph{G4--G5, OEH-H and risk profile (24 columns, computed on the posterior-mean model).} Under (A1)--(A3) the posterior mean converges to $\theta_0$ almost surely (Proposition~1, step~1), and optimal values are continuous in the model. If the optimal action is unique in every state at $\theta_0$, greedy policies are eventually equal to $\pi^\star(\theta_0)$. The risk values, continuous in the model for a fixed policy, then converge. Integer-valued columns (planning depths) are eventually constant if the continuous quantity that defines them is not exactly at its threshold at $\theta_0$. These two genericity conditions (no ties, no exact threshold hit) are part of the assumption.
+\item \emph{G2 and G6, OEH-B (36 columns).} These are Monte Carlo averages over $K=64$ posterior draws from a seeded generator. The number of uniforms the generator consumes depends on the posterior (Dirichlet sampling, and the dynamic-range rejection of \texttt{sample\_mdps}). The finite-$K$ columns therefore have no almost-sure limit; we claim none, and only their limit in distribution is meaningful. For the idealized columns ($K\to\infty$, exact posterior-predictive expectations), Proposition~1 of the supplement gives convergence to the oracle raw law under (A1)--(A4). The summary columns then converge by the continuous-mapping theorem wherever they are continuous functions of the raw law.
+\item \emph{G3, posterior concentration (2 columns).} These are empirical-Bayes estimates. Their convergence in $[-\infty,\infty]$ is assumed, not proved.
+\item \emph{G7--G8, pilot diagnostics D (28 columns, \texttt{lcoeh\_v4} and \texttt{oeh\_risk\_v3}).} LC-OEH-v4 trains each learner on nested prefixes of fixed size $2SA$ and $5SA$ and on the full pilot. Its rate and requirement summaries combine a fixed prefix with the growing one; for example, a log-log slope between $5SA$ and $n$ tends to $0$ or diverges. These columns can satisfy the assumption, but this is not shown, and the robust head uses them.
+\end{itemize}
+
+In summary, Proposition~\ref{prop:t1} itself is proved. Its premise is established for G1 and, under the stated genericity conditions, for G4--G5. It is assumed for G3 and G7--G8, and holds for G2/G6 only in the idealized $K\to\infty$ form. The paper may state that the fitted heads are locally constant and that the gate saturates for large pilots; it may \emph{not} state that OEH is consistent.
+\end{remark}
+
+\section{T2: the LOPO selection bound is vacuous at this scale}
+
+\begin{remark}[Finite-candidate selection; stated only to show it is vacuous]
+Suppose $P$ panels are drawn i.i.d.\ from a distribution of environments, each candidate's panel loss lies in $[0,B]$, and the selected candidate $\hat c$ minimizes the mean loss over the $P$ panels among $K$ candidates. Hoeffding's inequality and a union bound give, with probability at least $1-\delta$,
+$L(\hat c)\le\min_c L(c)+2B\sqrt{\log(2K/\delta)/(2P)}$.
+For the selection of OEH, $K=2\cdot2\cdot5\cdot5\cdot5=500$, $P=3$ external panels and $\delta=0.05$ give a slack of $2.57B$, larger than the loss range; a slack of $0.1B$ would need $P\ge1981$ panels. The panels are also not i.i.d.\ draws (two come from the same Colosseum sampler). We therefore do \emph{not} present this bound as a guarantee. The empirical substitute is the nested leave-one-panel-out estimate of the whole selection procedure (task T5): an outer-fold external score of $-5.6\%$ against $-6.6\%$ for the single fit.
+\end{remark}
+
+\section{Safety guarantee of the shift gate (Proposition 2, restated)}
+Proposition~2 of the supplement (the OEH forecast is a mixture of three forecasters with weights depending only on $d$; its loss is at most the $d$-weighted average of the components' losses, and its log loss is at most $-\log(\varepsilon(d)\pi_{l,y})$) is a direct consequence of convexity (Jensen's inequality). It is a \emph{safety guarantee of the combination}, not a theoretical contribution, and should be presented as such.
+
+\end{document}

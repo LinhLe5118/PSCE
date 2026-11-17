@@ -1,0 +1,18 @@
+{
+  "status": "exploratory_development_gate_not_independent_confirmation",
+  "mdps": 168,
+  "bootstrap_draws": 10000,
+  "simultaneous_critical": 1.962180634579285,
+  "development_gate": "GO",
+  "candidate": "OEH cross-learner context with depth-3 multiclass component",
+  "matched_comparators": [
+    "B2 same training/architecture/capacity",
+    "B2+full-MDP-oracle-EH same training/architecture/capacity"
+  ],
+  "input_sha256": {
+    "artifacts/oeh_tree_capacity_development_2026-10-01/scored.csv": "ec1fdddf7c83e7850162fab59b4a81f17105e92596950d1f0eaddf1a7aab7fb1",
+    "artifacts/oeh_oracle_cross_capacity_development_2026-10-01/scored.csv": "9976bfb5dd77aba0f32b30048ec69ba57b72f5a4e3127274cf805a7a4ad17a02"
+  },
+  "script_sha256": "9c7e56756504e2f6295d17c1bde54d437570242c917f0291824d5f0112fe9ee3",
+  "contrasts_sha256": "321a19d318a2e829c763ef2ed6dbb1d15cdff981d44aa3c145e00b96e7cb18c6"
+}

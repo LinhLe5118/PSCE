@@ -1,0 +1,17 @@
+{
+  "schema": "oeh-difficulty-acceptance-amendment-v1",
+  "recorded_at_utc": "2026-09-30T19:34:14Z",
+  "timing": "Added after execution began but before the analyst inspected any confirmation learner outcome or scored result; original protocol and forecasts are unchanged. This is not a claim of full pre-outcome preregistration.",
+  "reason": "User required at least 5 percent superiority over original published tabular difficulty methods before any new original-E1 comparison.",
+  "original_protocol_sha256": "b5bc0ecc0fc5917c902d181ebba87e1331b3b85d4f3a0893e8e550d3d6bca272",
+  "preoutcome_seal_sha256": "3fa86f25a9b3270a51ac9f01461a18b2f0d06703ccb0ee3d25de0db8c8381f4f",
+  "relative_improvement_definition": "(baseline_mean_score - oeh_mean_score) / baseline_mean_score, lower score is better",
+  "minimum_relative_improvement": 0.05,
+  "scores": ["integrated_brier", "seven_class_log_loss"],
+  "assessment_unit": "MDP-cluster mean in the predeclared 42-stochastic-MDP primary panel",
+  "numerical_requirement": "At least 5 percent lower in both scores than the strongest score-specific eligible comparator; retain original 10-contrast simultaneous one-sided 95 percent lower-bound gate as well.",
+  "published_original_requirement": "For each claimed published-method win, audit author formula/implementation, exact input access, prediction target, and whether its native output can be scored without modifying the method. Adaptations and oracle-access methods stay in separate tiers. No blanket 'all published methods' claim from a finite search.",
+  "e1_policy": "Withhold the new 120-MDP E1 comparison until both the 5 percent numerical requirement and an exact, scoped original-method comparison are evidenced; E1 remains descriptive because it was used in development.",
+  "candidate_or_training_changes": false,
+  "confirmation_outcomes_inspected_for_amendment": false
+}

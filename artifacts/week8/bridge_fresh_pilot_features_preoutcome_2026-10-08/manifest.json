@@ -1,0 +1,13 @@
+{
+  "status": "SEALED_FRESH_30_COLUMN_PILOT_FEATURES_NO_TEST_LABELS",
+  "pilot_manifest_sha256": "3fc5614ac220edf56c780c003adbdc8bf88509d0a15fcb8bfbf2b41d28e70a8b",
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "source_script_sha256": "c49a345b3f92a7b1c78146a7443bbcb1e3f5a283a8394b2830b6ad3da10ab81c",
+  "feature_formula_sha256": "bbce7e17e15adc7019a91affb0db396640aa1103745047885ef3cb9e9268c15d",
+  "groups": 25,
+  "rows": 75,
+  "feature_columns": 30,
+  "features_sha256": "e02e8ab4214dad574ef6d2a72e12a90a533de44dceb9ab61839e1b55af5836ca",
+  "test_labels_read": false,
+  "legacy_depth_note": "The frozen legacy OEH3 diagnostic retains k_max=100 as in the trained feature map; the primary OEH-H block uses task-specific horizon separately."
+}

@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-09-30T23:57:15.441213+00:00",
+  "protocol_sha256": "c94dd18a711eab92cc9317309d00c4be036ff27a54507cfb43ff4bde5af899b0",
+  "dataset_manifest_sha256": "e60f90af79174943bc00f6f58e1aba25de343f3835a07043386b6be13044f416",
+  "choices_seal_sha256": "66afe163e7e8f88c4cf00c66b8cf1752274ad35212d873986fb94c3a10aa4d4a",
+  "execution_plan_sha256": "8020ce83ceb3306d501a5280fbcc823008dabd55770bdcd442bfd5fd64bfa68c",
+  "method_seed_jobs": 21000,
+  "oeh_selected_seed_outcomes": 3000,
+  "mdp_count": 60,
+  "primary_mdps": 42,
+  "simultaneous_bootstrap_critical": 0.09124051715972833,
+  "superiority_gate": "NO-GO",
+  "descriptive_targets_met": false,
+  "scope": "Independent new seeds/MDPs under the same generator families; E1-trained router vs seven fixed learners, not proof of literature-wide SOTA",
+  "artifact_sha256": {
+    "all_method_seed_outcomes.csv": "696957717854611749749973bd13610364b7d4d0aab731728737fc6c63ad5251",
+    "mdp_metrics.csv": "a2ae2969047daec48471dd516eb1149c41d02e0f1e63bf709e365eced98f9021",
+    "summary.csv": "2ad67a13e2220f3f5dc7e868e187b3532ab40c2071e745be955c9860b66fff10",
+    "contrasts.csv": "a0a8cf87f328846457e381420a5c77aa0da0b206b2b46830ebb133a5400db060"
+  }
+}

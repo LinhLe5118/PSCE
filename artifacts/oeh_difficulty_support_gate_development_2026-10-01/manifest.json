@@ -1,0 +1,25 @@
+{
+  "status": "development_only_two_opened_cohorts_not_confirmation",
+  "features": [
+    "observed_sa_fraction",
+    "lcoeh4_validation_support_mass",
+    "oeh3_risk_at_pilot"
+  ],
+  "regularization": 0.01,
+  "fit_cohort": "first_open_stochastic_primary",
+  "score_cohort": "second_open_stochastic_primary",
+  "beta": [
+    1.878978425520119,
+    0.0331005250980419,
+    -0.061051127671527934,
+    0.05791931363707952
+  ],
+  "optimizer_success": true,
+  "fit_objective": 0.657399443795341,
+  "source_sha256": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957",
+  "feature_sha256": {
+    "first_open": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "second_open": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b"
+  },
+  "script_sha256": "7573ef5519674391fe16b9568e16feb4b610953c34be85dcba0b7b036f76cc30"
+}

@@ -1,0 +1,25 @@
+\section{Colosseum confirmation panel in detail}
+\label{supp:colosseum}
+The first Colosseum panel drew 72 MDPs with the authors' sampler of the Colosseum benchmark~\cite{conserva2022hardness} (seed 2027; RiverSwim, DeepSea, FrozenLake and SimpleGrid, 18 each; $16\le SA\le256$; mean rewards; $\gamma=0.95$), excluding the kernels of an earlier 32-MDP exploratory run. Its protocol registered two contrasts: B2 matched and B2 plus Colosseum's own hardness measures (diameter, value norm and gaps, which read the true MDP). \OEH{} improved on them by 24.8\%/9.3\% and 29.0\%/12.9\% (IBS/LL); with the team's max-$t$ rule the bounds against B2 are $+0.0151$ and $+0.0003$. Table~\ref{tab:colosseum} adds comparators computed after the outcomes. The pilot bundle was later regenerated from the sampler (all 360 pilot hashes equal the sealed ones), which made the authors' TQ/SACo code~\cite{schweighofer2022dataset} and the learning-curve inputs computable. With all eleven cohort-7 comparators, Tier~1 and Tier~2 are NO-GO: B2 plus ERI is not beaten (IBS $-0.0059$, LL $-0.0952$ bounds), and the privileged B2 plus TQ/SACo is slightly better than \OEH{}. \OEH{} detects requirements beyond $x50$ best (AUC 0.915 vs 0.855 for B2), while the B2 + D arm places finite requirements best (62\% within one level vs 52\%). On RiverSwim the horizon block, computed on the posterior-mean model with zero reward for unseen keys, worsens LL (Shapley $-0.151$ $[-0.262,-0.040]$). Forty-two of 360 pairs accepted no posterior draw; their labels were almost all censored, so the fallback did not cause the RiverSwim failure.
+
+\begin{table}[h]
+\centering
+\caption{First Colosseum panel (72 MDPs, 1{,}080 rows, sealed forecasts). $^{*}$: registered; other rows were computed after outcomes. LL with the $10^{-12}$ floor.}
+\label{tab:colosseum}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+Forecast inputs & IBS & LL & BC / CFQI / IQL IBS\\
+\midrule
+B2 matched$^{*}$ & .1342 & .9815 & .095 / .171 / .137\\
+B2 + Colosseum hardness$^{*}$ & .1422 & 1.023 & .104 / .176 / .146\\
+B2 + ERI adapt. & .1198 & .9198 & .088 / .165 / .107\\
+B2 + TQ/SACo (privileged) & \textbf{.1002} & .8751 & ---\\
+XGBoost-CF, 18 inputs & .1405 & 1.507 & .103 / .173 / .146\\
+XGBoost-CF, 108 \OEH{} inputs & .1029 & 1.202 & .057 / .145 / .107\\
+B2 + D (robust head) & .1048 & \textbf{.8431} & .068 / \textbf{.136} / .110\\
+\OEH{} (108 columns)$^{*}$ & .1010 & .8903 & \textbf{.050} / .153 / \textbf{.100}\\
+\bottomrule
+\end{tabular}
+\end{table}

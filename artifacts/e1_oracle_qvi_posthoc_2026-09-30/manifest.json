@@ -1,0 +1,24 @@
+{
+  "status": "posthoc_original_E1_adaptively_reused_not_confirmation",
+  "identity": "120 regenerated in memory; sealed manifest, all instance metadata and oracle audits match; original kernel byte hashes unavailable",
+  "source_hash": "f66b0b2fd00a15bdc76bc3076bc1c74ec93a19cee49e39f1d881756f1ec04f7c",
+  "manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "e1_generator_sha256": "0475ae895711727902e82b0d636617e10dc764f5d701b251c3c05730933d2303",
+  "labels_sha256": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+  "mdps": 120,
+  "stochastic_primary": 84,
+  "control": 36,
+  "information_access": "true P,R,initial distribution, terminal states (oracle only)",
+  "metric_status": "Stochastic EH and EPW use the published finite-horizon QVI definitions with E1 gamma=0.95 and T=100; covering length is the published occupancy upper bound, not exact L. All are oracle online-RL descriptors, not calibrated offline CFQI/IQL/BC requirements. Additional discounted-infinite-horizon QVI/occupancy adaptations are labeled separately.",
+  "stochastic_eh_definition": "finite T=100; Q^1=Q_random; every Q^k-greedy action must be Q*-optimal at all states/timesteps; min over k of k+log_A(1/Delta_k^2); gamma=0.95; ties at 1e-10",
+  "infinite_qvi_adaptation": "min k<=100 such that every Q^k-greedy action is Q*-optimal at structurally reachable nonterminal states; Q^1=Q_random; gamma=0.95",
+  "occupancy_adaptation": "minimum 100-step expected visits of a state-action pair under uniform random policy across structurally reachable nonterminal states",
+  "covering_bound_rank_policy": "infinite bounds retained as tied hardest ranks in the full 120-MDP comparison; finite-only rows are separately labeled sensitivity analyses",
+  "outcome": "fraction of 15 behavior-policy/learner groups per MDP with sustained success by x50",
+  "published_reference": "https://github.com/cassidylaidlaw/effective-horizon",
+  "script_sha256": "30ada13ddd441fddabf668b1041e6f31b3ea5471e76d64260f9a79c51fc6e088",
+  "output_hashes": {
+    "oracle_diagnostics.csv": "e96934928568bdfb60cdc6062c175beb03821353ce35d9afa3c8ad7ddab1d8f6",
+    "rank_comparison.csv": "bd91581a7fe01ffd31d959bdde9f4fa8d1c5df29abbf9dbb05cfebe1e8fdb2eb"
+  }
+}

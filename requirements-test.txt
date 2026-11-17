@@ -1,0 +1,4 @@
+-r requirements-figures.txt
+coverage==7.10.6
+pytest==9.1.1
+gymnasium==1.0.0  # fifth-panel FrozenLake kernels (tests/test_oeh_pipeline.py)

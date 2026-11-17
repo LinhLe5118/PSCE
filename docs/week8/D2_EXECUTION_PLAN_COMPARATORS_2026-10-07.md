@@ -1,0 +1,71 @@
+# D2 — Kế hoạch chạy đối chứng difficulty-aware và thời gian trên máy hiện tại
+
+> **Cập nhật phạm vi 08/10:** [T1 v1.3.0](T1_COMPARATOR_DECISION_v1.3.0_2026-10-08.md) loại BWD khỏi đối chứng đang sử dụng. Các dòng BWD phía dưới là kế hoạch lịch sử, không còn là hạng mục sẽ chạy hoặc đưa vào bảng chính. Kết quả đã chạy và NO-GO nằm ở [E2](E2_ORIGINAL_COMPARATORS_EXECUTION_2026-10-08.md).
+
+**Lập 07/10/2026. Trạng thái:** kế hoạch thực thi; chưa có kết quả đối chứng mới. Dùng [T1 v1.1.0](T1_DIFFICULTY_AWARE_PROTOCOL_v1.1.0_2026-10-05.md), [addendum v1.2.0](T1_COMPARATOR_ADDENDUM_v1.2.0_2026-10-07.md), [audit bài gốc](D1_ORIGINAL_METHODS_AUDIT_AND_RUN_PLAN_2026-10-07.md), [rà tài liệu lần hai](D1_SECOND_PASS_LITERATURE_2026-10-07.md), [runbook](RUNBOOK_LOCAL_EXPERIMENTS_2026-10-07.md) và [số đo/ETA](LOCAL_EXPERIMENT_ETA_2026-10-07.md). Không thay nhãn, verdict hoặc artifact của cohort niêm phong.
+
+## 0. Trục chính: difficulty-aware được kiểm bằng gì?
+
+**Difficulty trong đề tài là nhu cầu dữ liệu thực nghiệm `E_l(M, β, τ)`**, phụ thuộc MDP `M`, behavior `β`, learner `l` và ngưỡng return `τ=0,95`; không phải một thuộc tính vô hướng cố hữu của MDP. OEH nhận pilot `D0`, dự báo phân phối trên sáu budget và lớp `>x50`. Do đó câu hỏi nghiên cứu chính không chỉ là “Brier của OEH thấp hơn?”, mà là **từ pilot có nhận ra bài toán nào/learner nào cần thêm dữ liệu, định lượng bất định và đưa ra quyết định budget hợp lý hay không?**
+
+Các phép kiểm tối thiểu dưới đây dùng cùng nhãn và split đã khóa, không sửa estimand:
+
+| Câu hỏi difficulty-aware | Phép đo dự kiến | Lưu ý diễn giải |
+|---|---|---|
+| **Nhận ra độ khó có điều kiện** | Phân bố `E_l` theo learner, behavior và họ MDP; tỷ lệ `>x50`; chênh lệch giữa learner trên cùng MDP–behavior. Dự báo được chấm Brier tích lũy, log loss và calibration của sáu xác suất `Pr(E_l≤x_k)`, báo theo learner và budget bên cạnh trung bình chung. | Không gộp bảy lớp thành nhãn “dễ/khó” mới hay chỉ trưng một trung bình tổng. Nhóm theo nhãn outcome để *mô tả* được, không dùng outcome để chọn mô hình hoặc task test. |
+| **Xếp hạng nơi cần thêm dữ liệu** | `-E[E_l]` của OEH và score công bố hợp lệ: Spearman có dấu/concordance với `E_l` trên cùng rows; báo ties ở `>x50`, undefined và số MDP/behavior. Với OEH, kiểm thêm khả năng phân biệt `E_l≤x10`, `≤x20`, `≤x50` bằng AUC hoặc phân tầng dự báo đã khóa. | `E_l>x50` là censored, nên giá trị kỳ vọng theo mã lớp 0–6 chỉ là *ordinal proxy*, không phải số transition thực vượt x50. AUC/rank không thay Brier/log loss. |
+| **OEH có ý thức về difficulty nhờ khối nào?** | Ablation matched bỏ OEH-B trực tiếp, bỏ OEH-H/risk, bỏ diagnostics bổ sung; paired Δ Brier/log loss theo MDP, calibration theo budget, runtime. Kiểm các tầng `E_l` thấp/cao/censored như phân tích mô tả; giữ cả kết quả âm. | Nếu bỏ khối không làm giảm kết quả, không quy công cho khối đó. OEH-H vẫn dùng posterior nên “bỏ OEH-B trực tiếp” không phải bỏ mọi posterior. |
+| **Dự báo có giúp quyết định thu thập data?** | Phân tích quyết định đã đăng ký trước outcome: chỉ xét budget khả dụng **từ `x10` trở lên**; với mỗi hàng chọn budget nhỏ nhất trong `{x10,x20,x50}` sao cho dự báo `Pr(E_l≤b)≥q`, mặc định `q=0,8`, nếu không có thì ghi “chưa đủ bằng chứng tới x50”. Báo tỷ lệ quyết định đủ dữ liệu thực nghiệm, mức budget đã chọn, tỷ lệ cấp thiếu và coverage của lựa chọn theo learner. So với quy tắc budget cố định ở cùng tập test. | Đây là *ứng dụng* của dự báo, không thay gate thống kê chính. Quy tắc và `q` phải freeze trước BRIDGE outcome; không diễn giải chọn `x1/x2/x5` là tiết kiệm trước pilot `x10`, không gán `>x50` thành một budget đo được. |
+| **Chuyển miền difficulty** | Áp forecaster đã khóa lên BRIDGE MDP công bố; lặp toàn bộ Brier/log loss, calibration, rank và quyết định budget theo learner, cùng paired MDP CI/failed-task list. | BRIDGE là nguồn MDP bên thứ ba; log offline/nhãn do nhóm tạo. Gamma, horizon, sticky và normalization khác cohort cũ phải ghi rõ; không tuyên bố khái quát từ 12–16 task nhỏ với CI rộng. |
+
+**Thứ tự bảng trong paper/đồ án:** (1) định nghĩa và phân bố difficulty; (2) dự báo `E_l` cùng endpoint; (3) calibration/nhận dạng mức khó và ablation; (4) quyết định budget; (5) transfer BRIDGE; (6) score tác giả/oracle khác endpoint ở bảng riêng; selector learner là ứng dụng phụ. Như vậy đối chứng tác giả hỗ trợ câu hỏi độ khó, không điều khiển câu chuyện bài báo.
+
+## 1. Kết quả cần tạo và quyền so sánh
+
+| Bảng | Phương pháp được chạy | Đầu vào/metric chung | Cách gọi kết luận |
+|---|---|---|---|
+| **A. Forecast chính** | OEH đầy đủ; B2 matched nội bộ; B2+ERI/BWD adaptation nội bộ; ablation OEH; `Mateos-style pilot-only transfer` **chỉ khi qua gate M2** | Chỉ `D0`, learner; cùng nhãn bảy lớp `E_l`, MDP split, head/tuning hợp lệ; integrated Brier, log loss, paired MDP Δ, CI, runtime | B2/ablation trả lời giá trị đặc trưng; Mateos là **tái lập/chuyển giao có sửa endpoint**, không phải kết quả gốc của tác giả. Cohort đã mở là exploratory; BRIDGE là transfer test nếu freeze hợp lệ. |
+| **B. Score công bố nguyên công thức** | ERI gốc trên rows xác định; TQ và SACo gốc khi có reference đúng; OEH scalar `-E[E_l]` | Tính từ pilot; xếp hạng difficulty `E_l` theo từng learner; Spearman có dấu, concordance, tie/undefined rate, paired MDP CI. TQ/SACo có reference/oracle phải tách theo quyền truy cập. | So sánh **khả năng xếp hạng**, không ghi score đơn vô hướng thành Brier/log loss hoặc gọi là hệ dự báo bảy lớp nguyên bản. |
+| **C. P3 của Mateos, nếu M2 forecast NO-GO** | CNN ảnh dataset theo EWRL 2024/GECCO 2025 trên một tập phát triển/kiểm tra phù hợp | Return của policy học từ chính dataset đầu vào; MAE/RMSE hoặc metric gốc nếu xác minh được; không dùng `E_l` của BRIDGE test để fit | Bằng chứng liên quan tới dự báo hiệu năng dataset, **không phải** thắng/thua OEH ở endpoint chính. Chỉ chạy nếu có tập train/test và biểu diễn ảnh hợp lệ. |
+| **D. Oracle/context** | EH stochastic từ MDP thật, cùng số BRIDGE gốc của tác giả làm bối cảnh | Correlation với `E_l` nếu tính được; bảng riêng với nhãn `privileged`, không ghép cùng pilot-only | Kiểm tương quan cơ chế/độ khó; không là đối chứng công bằng về đầu vào. |
+
+TQ/SACo từ [Schweighofer et al. 2022](https://proceedings.mlr.press/v199/schweighofer22a.html), ERI từ [Swazinna et al. 2021](https://arxiv.org/abs/2111.13461), và predictor P3 từ [Mateos-Melero et al. 2025](https://doi.org/10.1145/3712256.3726364) có endpoint và tài nguyên tham chiếu khác nhau. BWD nguyên bản continuous action là NO-GO cho tabular; bản BWD categorical hiện có chỉ là adaptation. CQL/DT/actor-critic scaling, OPE và SQIRL/GORP dùng để giải thích lựa chọn learner hoặc benchmark, không tạo một dòng số cùng endpoint.
+
+### Gate M2 riêng cho predictor Mateos
+
+1. Kiểm hình ảnh chỉ từ state có trong `D0`, không dùng toàn bộ bản đồ/MDP hoặc prefix training tương lai; kiểm phép hoán vị state ID và shape image. Chốt learner conditioning, feature budget, CNN/optimizer và nguồn train theo bài gốc trước outcome.
+2. **Không** cấp `x20`, `x50` hay return learner ở những budget đó cho mô hình khi dự báo từ `D0=x10`. Bài gốc dự báo return của dataset được đưa vào; muốn dự báo `E_l` cần một phép chuyển *mới* được fit từ development, chỉ dùng `D0` lúc test. Không gọi phép chuyển này là “phương pháp nguyên bản”.
+3. Cohort tabular tự sinh không có hình học tương ứng với ảnh MiniGrid. Nếu phải dùng một số MDP BRIDGE để phát triển ảnh/CNN, khóa danh sách task theo metadata trước outcome và loại hẳn chúng khỏi tập kiểm tra độc lập. Với 16 candidate hiện có, dùng 2–4 task để development còn tối đa 12–14 task kiểm tra trước các fail kỹ thuật; không khẳng định CI mạnh trên số cluster nhỏ.
+4. GO bảng A khi pipeline tạo đúng bảy xác suất, chỉ từ `D0` và learner, đủ hàng trên các task test đã khóa, fit/tune không đọc nhãn test, có test leakage/fidelity. Nếu Mateos được fit thêm trên BRIDGE development task, OEH/B2 phải có quyền dùng đúng cùng tập development đó theo quy tắc tuning đã khóa, hoặc bảng phải đánh dấu rõ **khác tài nguyên huấn luyện** và không claim đối chứng matched. Nếu một điều kiện không đạt, **NO-GO bảng A**; có thể chạy bảng C với endpoint nguyên P3 nếu đủ dữ liệu. Ghi failure và runtime nguyên trạng.
+
+## 2. Thứ tự thực hiện trên máy
+
+| Mốc | Việc cần hoàn thành / artifact | Gate và thời gian công việc ước tính |
+|---|---|---|
+| **0. Snapshot/preflight** | Ghi hash code, Zenodo v1.1.1/16 NPZ, dung lượng D:, RAM trống; khóa task registry theo metadata, seed namespace, nạp `D0` không nhãn. | 0,25–0,5 ngày. 16/16 NPZ đã qua schema, **chưa** qua tương đương động lực. |
+| **1. D2 registry và fixture score gốc** | Chốt `original / adaptation / privileged / infeasible`; tính ERI gốc trên fixture; kiểm mã tác giả TQ/SACo, reference random/online replay và undefined policy; xác định EH oracle. | 0,5–1 ngày để audit/fixture. Nếu reference TQ/SACo cần train online hoặc không thể tái lập công bằng, thời gian riêng chưa đo; ghi NO-GO hàng đó trước outcome. |
+| **2. M1/E1 cohort đã mở** | Runner cùng split/head cho B2, OEH, ablation và adaptation; feature lineage, test không leakage; xuất bảng A và B trên cohort đã mở, đánh dấu exploratory. | 0,5–1 ngày code/phân tích; fit thuần ước **5–20 phút** theo probe đã có, chưa tính scorer score gốc/reference. |
+| **3. BRIDGE adapter/smoke** | Sticky action 25%, `last_action`, terminal `-1`, horizon 100, gamma 0,99, state Markov/time; equivalence với Gym của tác giả; một MDP nhỏ/lớn và BC/CFQI/IQL ở budget nhỏ + x50; đo wall/CPU/RAM/disk. | 1–3 ngày phát triển, chưa là runtime đã đo. Dense time-augmented có thể vượt RAM; cần sparse hoặc NO-GO theo task. |
+| **4. M2 Mateos preflight** | Tái lập ảnh/CNN theo GECCO 2025, thử development, chứng minh quyền truy cập `D0`, đánh giá khả năng chuyển sang `E_l`; lưu fidelity/GO/NO-GO. Có thể làm song song bước 3 nếu nhân lực nhóm cho phép; trên cùng máy không chạy job nặng đồng thời. | 1–3 ngày **chỉ cho preflight** theo audit; thời gian tạo nhãn task phát triển, train CNN và tuning chưa đo. Không hứa có dòng Mateos ở bảng A trước GO. |
+| **5. Freeze** | `bridge_comparator_freeze.json`: task GO/FAIL, behavior, six budgets/10 seed, learner, model weights, score reference, stop rule, threshold, metric, bootstrap, hashes; lưu predictions/scores preoutcome trước khi mở nhãn BRIDGE. | 0,5–1 ngày review/khóa nếu 3–4 qua gate; task development Mateos phải bị loại khỏi test. |
+| **6. Một lượt BRIDGE** | Thu pilot/label độc lập và chạy forecaster/score đã khóa; checkpoint theo MDP × behavior × learner × budget × seed; lưu cả thất bại. Không tune theo BRIDGE outcome. | **8–36 giờ wall là slot dự phòng OEH/learner sau adapter**, không phải giờ đã đo cho toàn comparator. Có thể cần 1–3 phiên qua đêm; cập nhật từ `T_smoke` trước lệnh full. CNN/reference/EH cộng riêng sau benchmark nhỏ. |
+| **7. Chấm và audit** | Trước hết tạo bảng phân bố difficulty theo learner/behavior, calibration sáu budget và quyết định budget đã khóa; sau đó bảng A/B/C/D theo GO, CI ghép cặp theo MDP, censoring, ties, undefined, runtime, số task/hàng và negative results; đối chiếu hash với preoutcome manifest; cập nhật paper đúng phạm vi claim. | 0,5–1,5 ngày nếu job hoàn thành và dữ liệu không lỗi; nếu chưa có mã cho phân tích quyết định, dành thêm 0,25–0,5 ngày và test trên fixture development trước freeze. |
+
+**Khối lượng tối đa chưa loại development/fail:** `16 MDP × 5 behavior × 3 learner × 6 budget × 10 seed = 14.400` lượt fit learner; ít nhất 115,3 triệu transition trong training streams nếu tái dùng prefix. Probe trên i7-12700H, RAM 23,7 GiB cho thấy fit BC/CFQI/IQL dense trên synthetic cùng cỡ khoảng **2,93 giờ CPU**, nhưng không gồm scorer horizon 100, 80 nhóm OEH, feature, I/O hay representation time-augmented. Đây chỉ là cận tham khảo chi phí, không phải ETA full run. D: từng có 111,1 GiB trống; đo lại trước khi chạy.
+
+## 3. ETA để sắp lịch và điểm phải cập nhật
+
+| Kịch bản | Ước lượng để đặt lịch | Ý nghĩa |
+|---|---:|---|
+| **Bộ kết quả khả thi cốt lõi:** bảng A nội bộ + score nguyên bản nào qua fixture + BRIDGE OEH/B2/ablation | Khoảng **3–8 ngày làm việc chuẩn bị/phân tích + 1–3 phiên chạy qua đêm** sau khi adapter GO | Tổng hợp các khoảng công việc hiện có; không bao gồm việc tái lập CNN/reference online chưa đo. Không cam kết mọi score gốc sẽ GO. |
+| **Thêm Mateos-style transfer đạt gate** | **Cộng tối thiểu 1–3 ngày preflight**, rồi thêm thời gian tạo nhãn development, fit/tune CNN và benchmark runtime từ smoke | Chưa có upper bound tin cậy; nếu cần dữ liệu BRIDGE development, tập test nhỏ lại. |
+| **TQ/SACo có reference online đúng bài gốc và EH oracle** | Chỉ chốt sau fixture/reference smoke trên MDP nhỏ và lớn | Có thể cần online DQN/replay/MDP computation; không lấy 8–36 giờ learner làm ETA cho các phép này. |
+
+**Công thức chốt lại sau smoke:** `T_total = T_adapter + T_development_labels + T_CNN_fit + T_reference + T_BRIDGE_labels/OEH + T_scoring/audit`. Với từng hạng mục đo MDP nhỏ/lớn, báo median và p90/job, peak RAM, thời gian I/O/checkpoint, sau đó ngoại suy theo số task/behavior/seed thực tế và thêm dư địa cho lỗi/thermal. Chỉ khi có các số này mới hẹn giờ hoàn thành toàn bộ hàng GO. Nếu không thể có predictor cùng endpoint và reference gốc hợp lệ, bàn giao bảng đạt được kèm NO-GO; **không đổi giao thức hoặc tên baseline để lấp ô trống**.
+
+## 4. Điều kiện nghiệm thu tối thiểu
+
+1. Mỗi bảng có manifest nguồn/commit/hash, quyền truy cập, task count và `GO/NO-GO`, artifact đầu ra, wall time/CPU/RAM, lỗi và undefined rate.
+2. Bảng difficulty đầu tiên ghi phân bố `E_l` và censoring theo learner/behavior; bảng A cùng `E_l` bảy lớp và cùng pilot, báo Brier/log loss + paired Δ theo MDP, calibration theo budget và learner, mọi arm đã khóa kể cả kết quả âm. Quy tắc quyết định budget chỉ dùng `x10/x20/x50` và ngưỡng `q` đã freeze. Bảng B chỉ score nguyên công thức trên đúng rows có định nghĩa, không biến score thành xác suất bằng hậu xử lý nhìn test.
+3. BRIDGE được ghi là **MDP dataset bên thứ ba công bố**; pilot, log training và nhãn `E_l` do nhóm mới tạo. Báo cả task development bị loại và task adapter fail. Mọi prediction/score test được lưu trước khi mở nhãn test.
+4. Kết quả cohort đã mở ghi exploratory; BRIDGE chỉ gọi transfer độc lập nếu freeze trước outcome. Không kết luận “vượt SOTA” khi thiếu đối chứng cùng endpoint hoặc khoảng bất định không ủng hộ.

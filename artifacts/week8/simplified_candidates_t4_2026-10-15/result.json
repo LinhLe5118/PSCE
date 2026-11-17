@@ -1,0 +1,33 @@
+{
+  "recommendation": [
+    "keep OEH (no acceptable candidate)"
+  ],
+  "sealed_oeh_reproduction_max_abs_diff": 9.43689570931383e-16,
+  "pooled": {
+    "OEH-F": {
+      "internal_rel_ibs": -0.0019043026023608522,
+      "internal_rel_ll": -0.006006906179678584,
+      "external_score": 0.05661375477377249
+    },
+    "S1": {
+      "internal_rel_ibs": 0.05724990283809306,
+      "internal_rel_ll": 0.03284404384726258,
+      "external_score": 0.1448924640530325
+    },
+    "S2": {
+      "internal_rel_ibs": 0.023056446948380938,
+      "internal_rel_ll": 0.005927400074235312,
+      "external_score": 0.16681238175728336
+    },
+    "S3": {
+      "internal_rel_ibs": 0.06595432203653195,
+      "internal_rel_ll": 0.04229237519438778,
+      "external_score": 0.16456141916828682
+    },
+    "S4": {
+      "internal_rel_ibs": 0.01685188173160279,
+      "internal_rel_ll": 0.020512264329286323,
+      "external_score": 0.03319523303098419
+    }
+  }
+}

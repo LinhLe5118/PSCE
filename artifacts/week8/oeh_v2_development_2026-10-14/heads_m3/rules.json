@@ -1,0 +1,74 @@
+{
+  "frozen_at_utc": "2026-10-14T15:31:55.329444+00:00",
+  "rules": {
+    "training": "sealed 720-MDP meta panel (R.meta_training order); opened test panels are never fitted",
+    "selection_panels": {
+      "internal": [
+        "cohort7",
+        "cohort8"
+      ],
+      "external": [
+        "colosseum2027",
+        "colosseum2028",
+        "spibb"
+      ]
+    },
+    "metric": "MDP-averaged integrated Brier (6 thresholds) and seven-class log loss (floor 1e-12)",
+    "relative": "candidate / OEH current - 1 per panel",
+    "m6": {
+      "heads": [
+        "ensemble (current)",
+        "multiclass depth3_200 only",
+        "AFT only",
+        "direct thresholds only",
+        "XGBoost-CF (discrete-time survival) on 108"
+      ],
+      "rule": "adopt the simple head with the best external score if its internal relative IBS and LL are both <= +1% and its external score <= +1%; otherwise keep the ensemble"
+    },
+    "m1": {
+      "p6": "from the chosen base head",
+      "q_oeh": [
+        "base finite part renormalized",
+        "finite-only head on the 108 fields"
+      ],
+      "q_robust": [
+        "B2+legacy finite part renormalized",
+        "finite-only head on the B2+legacy fields"
+      ],
+      "lambda": "lambda_max * min(1, d / d0), or lambda_max if d0 = const",
+      "lambda_max": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ]
+    },
+    "m4": {
+      "rule": "p'' = (1 - eps(d)) p' + eps(d) pi_learner, eps(d) = eps_max * min(1, d / d0)",
+      "eps_max": [
+        0,
+        0.01,
+        0.02,
+        0.05,
+        0.1
+      ],
+      "pi_learner": "class distribution of the learner on meta primary rows"
+    },
+    "d": "mean distance to the 10 nearest meta-training primary rows in standardized B2 statistics, per MDP-behavior group",
+    "d0": [
+      "const",
+      1.5,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "d0_shared": "one d0 for M1 and M4",
+    "objective": "external score = mean over the three external panels of (rel IBS + rel LL) / 2, lower is better",
+    "constraint": "internal (cohort 7 and 8 pooled over MDPs) rel IBS <= +0.02 and rel LL <= +0.02",
+    "parsimony": "among candidates within 0.002 of the best external score, take the smallest (lambda_max, eps_max) and prefer d0 = const, then larger d0",
+    "lopo": "for each external panel: select on the other two external panels under the same constraint, report the held-out panel",
+    "success_check": "point estimate vs B2+legacy on every external panel, both metrics (descriptive here; the gate is the final test)"
+  },
+  "source_sha256": "7c2c50b226c4d934d14fe789585e29bde6f29277a0e6ccf1a5e7bfddfc6916f3"
+}

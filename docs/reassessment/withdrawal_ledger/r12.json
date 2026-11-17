@@ -1,0 +1,31 @@
+{
+  "adaptive_development_not_confirmation": true,
+  "attempt_id": "r12",
+  "consumed_seeds": [],
+  "output_manifest_sha256": "d984e0eb57886d23d204d6e31d0bc628d4e1e7fac8de029d20e7f8ab55e7b620",
+  "reason_codes": [
+    "EXECUTION_FAILURE"
+  ],
+  "source_hashes": {
+    "code/adaptive_pilot.py": "14d2b08acd5794efd0728917cfc9ced040512fe6b1dbb36a12709d0928d4e075",
+    "code/empirical_requirement.py": "cd44b6b3043e9e66ec45f26641ba7c0f504e8d5fdb11004f71d1d7f0a6480398",
+    "code/exact_solver.py": "98324a99dcd76286588d4e56d15a0e6a13590a98cf995326fed28a73696d66d7",
+    "code/oeh_action_consensus.py": "685c7976f7344d08fef6f7e7909521f03dba42bb4be59890c4324ca0767453be",
+    "code/tabular_acceleration.py": "9ba809fc924bb38352abae974b75e633a8e3fe93db6b9ea1bf2c929c4c0fccab",
+    "config/protocol_config.py": "4c0e722045ca671cb4a7a062647bc028da5a25ab4379945b0b2059bfa3d257ff",
+    "docs\\protocol\\OEH_ACTION_CONSENSUS_R12_2026-09-28.json": "50eb8f15e2d2a8782ec69c59c9dd3eed73c4803089474e4b592f15604d9399a5",
+    "environments/behavior_policies.py": "f8ac3282508b24bc31cac8d9dd64537517125fc51e880a6e8d521ecf5e54b184",
+    "environments/oeh_transfer_tasks.py": "24feb2dedad8ced6bfec0f31c035cbde30e5a9d4a1eacd18d8a116fa5cd40dbd",
+    "environments/tabular_environments.py": "950270c4734418ae86170243e7651a13b623e92b95d42cdbe4244e11ae448316",
+    "evaluation/io.py": "5c31157a8df80d490164d322b36ce234a0615c7f95b8d0c0123d44917d7e0cda",
+    "evaluation/prospective_study.py": "f1fe69aac83dd831d62e9d3fda0caf957edf38c74a8eee019d9b6e852b84acea",
+    "protocol_config.json": "12b278f73693d38a2e3e558362d6c0c46cce367153ee2d24bdbe40c5a5331bec",
+    "requirements.txt": "b76d5d3f62dcb3350923117df76af30a288c33f4bdd02279cb8c4e6a948885d2",
+    "scripts/analysis/run_oeh_prospective.py": "b583f55246b06fdfa6e9b325f74e7576247f1ea3e0430466880ff77254494a1a",
+    "scripts/data/generate_offline_datasets.py": "6925435939b13496c313859837f49ec4a80996dbdacb01c5dc3b796b311ffbe3",
+    "tests/test_oeh_action_consensus.py": "63a506dac941b946e8383bde5600fbb3e26b4d6198a8fa41121c7df21da0b352",
+    "tests/test_oeh_prospective_study.py": "c4d446a92d13c552ecf25921995a947055ed85bd02f5d7f98dbe1bc829392470",
+    "tests/test_oeh_transfer_tasks.py": "cc2235c9c472339928613a23bb1f38d8baed370a50a41d224073e3a3f2726b25"
+  },
+  "status": "withdrawn"
+}

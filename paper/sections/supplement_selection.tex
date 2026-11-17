@@ -1,0 +1,52 @@
+\section{Supplementary Learner Selection}
+\label{sec:supplement-selection}
+Forecasting a censored requirement and choosing a learner at one budget have different losses. We therefore treat selection as a secondary experiment. The final rule fits two ExtraTrees regressors on the opened selection outcomes of cohort 6 to predict each of the seven registered learners' seed success rate and normalized return at $x10$. Its inputs combine CFQI pilot features, CFQI's pre-outcome \OEH{} forecast probabilities, and a one-hot synthetic MDP-family label available in this study. Each regressor has 150 trees, minimum leaf size seven, and maximum feature fraction $0.8$. The rule maximizes predicted success plus $0.15$ times predicted return, but switches away from fixed CFQI only when the composite-score advantage exceeds $0.1$. Choices for the new cohort were sealed before its learner outcomes. The family label is an additional study-specific input, so this selector is not presented as a pilot-only forecast comparison.
+
+The selection comparators are all seven fixed learners, random choice, the earlier OEH-v5 router, and a group oracle used only as an upper bound. The v5 router addresses the same decision target and was registered, so its result is retained even though the paper's primary contribution is forecasting. The seven fixed learners comprise the three primary requirement learners plus BCQ, CQL, SPIBB, and VI-LCB, which add behavior constraint and pessimistic value-learning mechanisms to this single-budget application. Fixed implementations include project tabular CFQI, IQL, and behavior cloning, and recorded author-code or library implementations of the other four \cite{fujimoto2019bcq,kumar2020cql,kostrikov2022iql,laroche2019spibb,li2024sample}. This compares the registered implementations at matched group identities. The four added learners are not primary difficulty-estimation targets, and the table does not claim every possible tuning of the original algorithms.
+
+\begin{table}[t]
+\centering\footnotesize
+\caption{Why each fixed offline learner is included. ``Primary'' means its data requirement is forecast; all seven are secondary selection controls at $x10$.}
+\label{tab:learner-roles}
+\begin{tabular}{@{}llp{0.46\columnwidth}@{}}
+\toprule
+Learner & Role & Mechanism represented\\
+\midrule
+BC & Primary & Imitation from the log\\
+CFQI & Primary & Conservative fitted Q updates\\
+IQL & Primary & Implicit value/policy learning\\
+BCQ & Selection & Behavior-constrained actions\\
+CQL & Selection & Conservative Q penalties\\
+SPIBB & Selection & Baseline bootstrapping; known $\beta$\\
+VI-LCB & Selection & Lower-confidence value planning\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+SPIBB's known behavior baseline and the selector's MDP-family label are extra information in this registered application; neither enters the primary pilot-only forecasting comparison.
+
+The x10 learner-choice study completed and audited 16,800 external learner jobs. The frozen selector chooses CFQI in 306, BCQ in 104, and CQL in 10 of 420 stochastic MDP--behavior groups. Table~\ref{tab:selection} reports every registered fixed implementation. CFQI has the highest mean return and success among the fixed learners in this cohort. Against it, the selector increases success by 6.67 percentage points (simultaneous lower bound $+4.26$ points) and normalized return by $0.01866$ (lower bound $+0.01034$) across 84 MDP clusters. The two-endpoint registered gate is GO. Means against the other fixed learners are descriptive; only the CFQI gate has these prespecified simultaneous bounds.
+
+\begin{table}[t]
+\centering
+\caption{Selection at $x10$ on 84 stochastic MDPs. Success is the fraction of training seeds exceeding the return threshold. Fixed learners use the recorded project, author-code, or library implementations.}
+\label{tab:selection}
+\begin{tabular}{lcc}
+\toprule
+Rule & Mean normalized return & Seed success\\
+\midrule
+Fixed BC & 0.38166 & 11.83\%\\
+Fixed CFQI & 0.79273 & 41.29\%\\
+Fixed IQL & 0.58555 & 22.60\%\\
+Fixed BCQ & 0.57559 & 39.17\%\\
+Fixed CQL & 0.48158 & 36.14\%\\
+Fixed SPIBB & 0.51826 & 12.17\%\\
+Fixed VI-LCB & 0.36387 & 8.90\%\\
+\midrule
+\OEH{} selector & \textbf{0.81139} & \textbf{47.95\%}\\
+Group oracle & 0.83788 & 53.50\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The internal v5 router was also registered for the same selection endpoint. It scored $0.81320$ return and $47.33\%$ success. The new selector has a return difference of $-0.00182$ and a success difference of $+0.62$ points against it; simultaneous lower bounds cross zero. We therefore make no superiority claim against v5. The earlier fourth-cohort selector failed its own gate and remains a separate historical result. These qualifications do not change the positive cohort-7 gate against the strongest fixed implementation. The fourth-cohort oracle-horizon diagnostic correlated with the empirical requirement at Spearman $0.255$, versus $0.062$ for the data-only estimate; this does not prove a stochastic sample-complexity formula.

@@ -1,0 +1,15 @@
+﻿{
+    "updated_local":  "2026-10-08T00:34:47.3289298+07:00",
+    "pipeline_state":  "COMPLETE",
+    "pipeline_step":  "BRIDGE reduced matched forecast, one label run and score complete.",
+    "horizon_groups_complete":  70,
+    "horizon_groups_expected":  70,
+    "horizon_sealed":  true,
+    "reduced_forecast_sealed":  true,
+    "label_groups_complete":  70,
+    "label_groups_failed":  0,
+    "label_groups_expected":  70,
+    "labels_sealed":  true,
+    "analysis_complete":  true,
+    "test_results_available":  true
+}

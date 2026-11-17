@@ -1,0 +1,36 @@
+{
+  "status": "SEALED_FRESH_PUBLISHED_XGBOOST_CF_ADAPTATION_NO_TEST_LABELS",
+  "test_labels_read": false,
+  "rows": 75,
+  "meta_training_mdps_total": 720,
+  "meta_training_mdps_primary_used": 504,
+  "publication": "Kim, Lai, Zhang (2026), Tabular Foundation Models Can Do Survival Analysis",
+  "publication_url": "https://arxiv.org/html/2601.22259v2",
+  "official_repository": "https://github.com/dain20000222/TabularFM4Survival",
+  "official_repository_commit": "b27d69c27a5c39b87822b1aebf838e3dd900000e",
+  "role": "published general-survival XGBoost-CF formulation adapted to offline-RL budget labels; not original offline-RL SOTA",
+  "adaptations": [
+    "fixed project x1,x2,x5,x10,x20,x50 horizons",
+    "pilot-only 18 B2 descriptive inputs",
+    "one model per learner",
+    "administrative censoring at x50",
+    "no test-label tuning"
+  ],
+  "author_hyperparameters": {
+    "n_estimators": 100,
+    "learning_rate": 0.1,
+    "max_depth": 3,
+    "random_state": 42
+  },
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "source_sha256": {
+    "pilot_features": "e02e8ab4214dad574ef6d2a72e12a90a533de44dceb9ab61839e1b55af5836ca",
+    "historical_protocol": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "official_author_code": "3e0ed45b65f71c179e9cc1448c9e08ff10c7dab2a3f536788101fd5dd94f0414",
+    "adapter_script": "926e2a433ec35acda6e2a2546e35af4086350e41cbb443ecc2f392ac56469f51"
+  },
+  "output_sha256": {
+    "predictions": "44189b4fc15e2d3b2efc637db6cd779a965afdc8c3e2ee5f4e4f3bc5ce398aa7",
+    "fit_summary": "8993e9da31c8758da0bab05282cfee5f218df099ae447f783c57216ba4a03e03"
+  }
+}

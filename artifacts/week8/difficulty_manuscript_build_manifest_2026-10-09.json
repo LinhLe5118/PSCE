@@ -1,0 +1,11 @@
+{
+    "status":  "COMPLETE_REVIEW_READY",
+    "common_metric_manifest_sha256":  "b5b8552793e56a5ca9133f731a74d02c7ca2c9fa82f3e80f3a723c74942a34ab",
+    "manuscript_source_manifest_sha256":  "48a28f39d53708ec8ad0f3b3fbdaa4f213415c8067307709049870453bf3b342",
+    "output_sha256":  {
+                          "paper_pdf":  "9b0e448401798ed283882b9f2759c11d28ac4ec03aed0c46f6b0a3077bd0d7e4",
+                          "supplement_pdf":  "e0d2c76ad850f1e15c536b2bba81a6c709f0c4b42d8d617f56464c21ded7ea5f",
+                          "thesis_docx":  "e6f95399c9d0ab5e8e6b8b68e9df70877b44757665a00522a18adc478c01b874"
+                      },
+    "completed_local":  "2026-10-15T18:23:37.4530635+07:00"
+}

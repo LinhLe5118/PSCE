@@ -1,0 +1,20 @@
+{
+  "panel": "mdpp",
+  "protocol_sha256": "49c270716da6fffeac05147a39b47dfcc0dfcfe63557b36b65b03794e43031f5",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-15T16:33:06.797631+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "069888fb429c4a23a6fb0bb8b0937b68de60a44c1f967a1289bf18dcd11d6a73",
+    "published.csv": "fa0a4642f113f4217bddd11abfec3f064ff47f2d1284c29bed2c3579b7e3a096",
+    "horizon.csv": "7b15db394a483b434c5e675d36e120bc46d1d877292c1c3df27f41b2bdd0497c",
+    "curve.csv": "71696e8b6b80ca601db3ab5bcf77b10e0e8896ec6537f0612f98419840350a1a",
+    "query_preoutcome.csv.gz": "d38971239f0fc35b0d4b35be18ce49853a17c8e4310b8b02df40b423d0ab3a34",
+    "prefix_fqe_features.csv.gz": "36dcaed4c039f2de186f4c731a240ad9372245ce1fc285303292dcae83a6ce2b",
+    "predictions_preoutcome.csv": "8cba1ca0be6ff4b6ceb0ab63c33a52863d264a1f46d8a0bbd14f7329a4e0378c",
+    "forecast_tuning_preoutcome.json": "82b18c2f53774e5182658288560cd75e5ee0ccdddda89f451186c4d793f4d08f",
+    "selection.csv": "b94fa3d16e6a88d303c819f6cd528e03d0a774778d9e1599dd19764b15dfa579",
+    "export_meta.json": "28e708dc16623847a0860ba28bbb47c2ad4f35a949f9c62073c74181db4eeb9f"
+  },
+  "oeh_b_groups": 480,
+  "oeh_b_groups_sha256": "7b45642b8eceed056c7547c644b8749b6baaef7c195b1fd5035071d61bb9b07f"
+}

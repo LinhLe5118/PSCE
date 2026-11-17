@@ -1,0 +1,62 @@
+{
+ "meta_mdps": 720,
+ "meta_rows": 10800,
+ "meta_jobs": 648000,
+ "final_mdps": 396,
+ "final_rows": 4644,
+ "final_jobs": 371520,
+ "final_external_mdps": 228,
+ "all_jobs_opened": 1835280,
+ "all_rows_opened": 27720,
+ "all_mdps_opened": 2088,
+ "pca_explained": [
+  0.2747468356740661,
+  0.188253805113396
+ ],
+ "example_group": "v2t_bottleneck_004 / shifted_dynamics",
+ "example_labels": {
+  "BC": "x5",
+  "CFQI": ">x50",
+  "IQL": "x2"
+ },
+ "example_counts": {
+  "BC": [
+   4,
+   7,
+   9,
+   9,
+   10,
+   10,
+   10,
+   10
+  ],
+  "CFQI": [
+   7,
+   8,
+   8,
+   10,
+   7,
+   7,
+   9,
+   10
+  ],
+  "IQL": [
+   6,
+   8,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ]
+ },
+ "final_censored_pct": 70.17657192075797,
+ "final_censored_by_learner": {
+  "BC": 91.343669250646,
+  "CFQI": 40.116279069767444,
+  "IQL": 79.06976744186046
+ },
+ "meta_censored_pct_primary": 71.05820105820105,
+ "meta_primary_rows": 7560
+}

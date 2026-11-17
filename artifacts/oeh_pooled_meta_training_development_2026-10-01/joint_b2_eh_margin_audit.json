@@ -1,0 +1,45 @@
+{
+  "status": "exploratory_two_opened_cohorts_not_confirmation",
+  "mdps": 84,
+  "bootstrap_draws": 10000,
+  "comparison_scope": "same expanded meta-training and three-way architecture; EH uses true-MDP oracle descriptors",
+  "comparisons": {
+    "b2_pooled_meta": {
+      "brier": {
+        "baseline_mean": 0.06508864113075057,
+        "oeh_mean": 0.05536426120233555,
+        "relative_gain": 0.14940210395360087,
+        "mean_absolute_improvement": 0.009724379928415012,
+        "joint_simultaneous_lower_95": 0.004672324620099024
+      },
+      "logloss": {
+        "baseline_mean": 0.7073397416170144,
+        "oeh_mean": 0.6587360415151863,
+        "relative_gain": 0.06871337384595078,
+        "mean_absolute_improvement": 0.048603700101828164,
+        "joint_simultaneous_lower_95": 0.02284757405707639
+      }
+    },
+    "b2_plus_eh_oracle_pooled_meta": {
+      "brier": {
+        "baseline_mean": 0.06564588156412579,
+        "oeh_mean": 0.05536426120233555,
+        "relative_gain": 0.15662247374569416,
+        "mean_absolute_improvement": 0.010281620361790225,
+        "joint_simultaneous_lower_95": 0.004862677130208716
+      },
+      "logloss": {
+        "baseline_mean": 0.7131946367063215,
+        "oeh_mean": 0.6587360415151863,
+        "relative_gain": 0.07635867179629419,
+        "mean_absolute_improvement": 0.054458595191135224,
+        "joint_simultaneous_lower_95": 0.025961188533261372
+      }
+    }
+  },
+  "development_gate": "GO",
+  "source_sha256": {
+    "artifacts/oeh_pooled_meta_training_development_2026-10-01/scored_predictions.csv": "90b5ce9de2d256d2d5b38e8a0fed42c361042c7d105c3ad2ff6da5ab71057a07",
+    "artifacts/oeh_eh_oracle_pooled_meta_development_2026-10-01/scored_predictions.csv": "fb340d27b35cee7a863ea07247d2750988a102ff104789295b8839dbf64e2f21"
+  }
+}

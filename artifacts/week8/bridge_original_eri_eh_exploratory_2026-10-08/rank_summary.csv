@@ -1,0 +1,10 @@
+algorithm,method,access,rows,mdps,defined_fraction,spearman_score_vs_harder_event,note
+behavior_cloning_tabular,ERI original formula,pilot_only,42,14,0.6,0.6458335434780805,exploratory; score endpoint differs from seven-class E_l
+behavior_cloning_tabular,BRIDGE author EPW,privileged_published_MDP,70,14,1.0,0.02359706957565095,exploratory; score endpoint differs from seven-class E_l
+behavior_cloning_tabular,BRIDGE author k_min,privileged_published_MDP,70,14,1.0,0.09238720562749277,exploratory; score endpoint differs from seven-class E_l
+cfqi_tabular,ERI original formula,pilot_only,42,14,0.6,0.7125574602669702,exploratory; score endpoint differs from seven-class E_l
+cfqi_tabular,BRIDGE author EPW,privileged_published_MDP,70,14,1.0,0.21943554595156647,exploratory; score endpoint differs from seven-class E_l
+cfqi_tabular,BRIDGE author k_min,privileged_published_MDP,70,14,1.0,0.13218731958603055,exploratory; score endpoint differs from seven-class E_l
+iql_tabular,ERI original formula,pilot_only,42,14,0.6,0.7159443862833912,exploratory; score endpoint differs from seven-class E_l
+iql_tabular,BRIDGE author EPW,privileged_published_MDP,70,14,1.0,0.04149657211884362,exploratory; score endpoint differs from seven-class E_l
+iql_tabular,BRIDGE author k_min,privileged_published_MDP,70,14,1.0,-0.04017898962358825,exploratory; score endpoint differs from seven-class E_l

@@ -1,0 +1,20 @@
+{
+  "status": "EXPLORATORY_FULL_108_FORECAST_AFTER_LABEL_OPEN",
+  "labels_already_opened_at_run": true,
+  "labels_read_by_this_forecast_script": false,
+  "tasks": 14,
+  "rows": 210,
+  "features": 108,
+  "source_sha256": {
+    "pilot_features": "b07226babb656d252ff881a246bdc43010f57fb9b27747b184095680d825b9b8",
+    "horizon": "72ae641de67c4af5e27adf9a7146fc9da734e5511f0df235f318ed0a91e1037d",
+    "oehb_manifest": "c483b2689875c5a7b064a1fb1e1f18f8cae37eabc441b3d376c82a53d7183ee4",
+    "historical_protocol": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "matched_forecast": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+    "script": "9fcd9d69d54b088888d480c8b71e26cd658847974076b86cee06e002f88e2e62"
+  },
+  "output_sha256": {
+    "predictions": "c7ffd5ef9d9fd03852b28221e4a77560c9e32824871a5c867cfbad337fbf331f",
+    "tuning": "30d132929ba1842d1af64e9ebe3bff6955513a162ae53333a5922ba6e32c2a86"
+  }
+}

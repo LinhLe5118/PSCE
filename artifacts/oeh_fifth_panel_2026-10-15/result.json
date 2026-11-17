@@ -1,0 +1,25 @@
+{
+  "completed_at_utc": "2026-10-15T04:31:41.662617+00:00",
+  "protocol_sha256": "ba8f1babaa59928a2929ca6642c50a5ee23ffe5691991ca379afc147273c4fc9",
+  "gate": {
+    "contrasts": [
+      {
+        "baseline": "robust",
+        "candidate": "oeh",
+        "metric": "brier",
+        "mean_improvement": -0.0017494973515365028,
+        "simultaneous_lower_95": -0.006659740297686744
+      },
+      {
+        "baseline": "robust",
+        "candidate": "oeh",
+        "metric": "log_loss",
+        "mean_improvement": 0.011659375993868178,
+        "simultaneous_lower_95": -0.01958263959681498
+      }
+    ],
+    "critical": 1.6936092165650902,
+    "mdps": 72,
+    "verdict": "NO-GO"
+  }
+}

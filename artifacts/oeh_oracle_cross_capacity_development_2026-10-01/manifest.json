@@ -1,0 +1,33 @@
+{
+  "status": "exploratory_three_opened_cohorts_not_independent",
+  "oracle_access": "true full-MDP descriptors, same three-part architecture and meta-training",
+  "multiclass_capacity": [
+    3,
+    10,
+    200
+  ],
+  "weights": [
+    0.2826307624021369,
+    0.0,
+    0.7173692375978631
+  ],
+  "input_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/e1_oracle_qvi_posthoc_2026-09-30/oracle_diagnostics.csv": "e96934928568bdfb60cdc6062c175beb03821353ce35d9afa3c8ad7ddab1d8f6",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/independent_difficulty_2026-09-30/oracle_preoutcome.csv": "f943697387abbde9f46688a5bebe9d8ac06f93a2fc68ac469e2ad538ca5d6a1e",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_b2_eh_oracle_second_development_2026-10-01/oracle_descriptors.csv": "c2acdc77530289fc1df97bf4af794bcc1809207955a9279a0f67af881f23ff42",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/labels.csv": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/pilot_features.csv": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "56e0cfda77f4b795770bcd7156fea31cc732f9b871d03e1e6ccdfc3535ccc5cb"
+  },
+  "script_sha256": "93077e62d4ea9fe91a1a06a161f2a927919bfd6a0c84a2a93f50eeb6342bd4f8",
+  "artifact_sha256": {
+    "scored.csv": "9976bfb5dd77aba0f32b30048ec69ba57b72f5a4e3127274cf805a7a4ad17a02",
+    "summary.csv": "3a0e1d885dfb044d1f7c6f8d28e98dc33d90fb84e0f528ade3d24a503597b2c1"
+  }
+}

@@ -1,0 +1,5 @@
+cohort,panel,method,mdps,integrated_brier,seven_class_log_loss
+first_open,control,b2_plus_eh_oracle_pooled_meta,18,0.03224155043697046,0.3580191247392128
+first_open,primary,b2_plus_eh_oracle_pooled_meta,42,0.06708466541860286,0.6951137041434573
+second_open,control,b2_plus_eh_oracle_pooled_meta,18,0.02199815590717624,0.28324105264297494
+second_open,primary,b2_plus_eh_oracle_pooled_meta,42,0.06420709770964875,0.7312755692691857

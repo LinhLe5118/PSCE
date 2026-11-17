@@ -1,0 +1,23 @@
+{
+ "status": "frozen",
+ "arm": "A2",
+ "structure": {
+  "reward_prior": "unseen_zero",
+  "transition_base": "uniform",
+  "behavior_prior": "mixture"
+ },
+ "draws": 64,
+ "selection_draws": 16,
+ "round1_primary_log_loss": {
+  "D1": 1.009974,
+  "D2": 0.932279,
+  "D3": 1.020062,
+  "D4": 0.996809
+ },
+ "selected_at_utc": "2026-10-01T19:15:55.903366+00:00",
+ "candidate_variant": "plus_prior_profile",
+ "candidate_law": false,
+ "select_capacity": false,
+ "frozen_at_utc": "2026-10-02T05:24:11.861528+00:00",
+ "basis": "user decision 2026-10-02: freeze the best plateau arm (A4) and run the single final evaluation; previous OEH kept only as saturation evidence; author-code reproductions where they exist"
+}

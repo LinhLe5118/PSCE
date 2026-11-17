@@ -1,0 +1,72 @@
+{
+  "status": "descriptive; figures redrawn from committed data with the locked final names; nothing refitted",
+  "names": {
+    "panels": {
+      "cohort4": "Cohort 6",
+      "cohort7": "Cohort 7",
+      "cohort8": "Cohort 8",
+      "colosseum2027": "Colosseum 2027",
+      "colosseum2028": "Colosseum 2028",
+      "spibb": "SPIBB",
+      "bridge_atari5": "BRIDGE Atari-5",
+      "bridge_expanded5": "BRIDGE Expanded-5",
+      "internal": "Test 1: internal",
+      "colosseum2029": "Test 1: Colosseum 2029",
+      "spibb2": "Test 1: SPIBB-2",
+      "forest": "Test 1: forest",
+      "frozenlake": "Test 2: FrozenLake",
+      "gambler": "Test 2: gambler's problem"
+    },
+    "methods": {
+      "Full head": "OEH-F",
+      "OEH": "OEH"
+    },
+    "distance": {
+      "v2": "OEH",
+      "oeh_final": "OEH-F",
+      "legacy": "Robust head (B2 + D)"
+    },
+    "sensitivity": {
+      "final internal (OEH)": "Test 1, internal (OEH)",
+      "final external pooled (OEH)": "Test 1, external pooled (OEH)",
+      "panel 5 pooled (OEH)": "Test 2, pooled (OEH)",
+      "development internal (OEH-F)": "Development, internal (OEH-F)",
+      "development external (OEH-F)": "Development, external (OEH-F)"
+    },
+    "ablation": {
+      "b2_matched": "B2 matched",
+      "oeh_without_direct_oehb": "Without direct OEH-B",
+      "oeh_without_oehh_risk": "Without OEH-H",
+      "oeh_without_legacy_diagnostics": "Without D and context"
+    }
+  },
+  "script": {
+    "scripts/analysis/figures_final_naming_20261016.py": "fe08f3e8937a71eb442efda93dc0c8badb1a90f4c99407fced576a060dc8d6be"
+  },
+  "sources": {
+    "artifacts/week8/cross_panel_reanalysis_2026-10-14/forest_plot_rows.csv": "7d515f625d25cf70c4b52f561813511729f153252ba6d1befe068da84c75961e",
+    "artifacts/week8/oeh_final_posthoc_2026-10-15/gain_by_distance.csv": "5e1635b4be75d06ccd3562d419d62bd96945a74ebd5c68292225989f903ecb16",
+    "artifacts/week8/manuscript_tables_2026-10-13/calibration_by_budget.csv": "a7a489d4942279ca507e24d4e68aecc4633239b59ecd4fdd2f338a8d875332cf",
+    "artifacts/week8/m1_matched_ablation_2026-10-13/paired_mdp_delta.csv": "267c347173f4fd30358b0768b3155eeadf897a6069cee8efa24456da18b3abe3",
+    "artifacts/week8/threshold_sensitivity_2026-10-15/sensitivity.csv": "4dfdb2b80c6e32c14233990d07d0394daead45c25aa63b80b63600724e0a02cf"
+  },
+  "outputs": {
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_cross_panel.pdf": "6070b50ac64686badf6cb781bc6cceefae43dbc98498ae07af4c77933c1be8e5",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_cross_panel.png": "328e3fdaad933a9a5a9421150e02b5cd93dc84a6e56c0acb91146eaae7fdfaa7",
+    "paper/figures/fig_cross_panel.pdf": "6070b50ac64686badf6cb781bc6cceefae43dbc98498ae07af4c77933c1be8e5",
+    "paper/figures/fig_cross_panel.png": "328e3fdaad933a9a5a9421150e02b5cd93dc84a6e56c0acb91146eaae7fdfaa7",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_gain_by_distance.pdf": "bc42e5616b8c49671f701cd9a2c3231c82eef368a71ef5a26e457413366b0cab",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_gain_by_distance.png": "578902f34058d1b1f82bb63f64c90e3ca1c680f943bddaafafb6464f41a23d77",
+    "paper/figures/fig_gain_by_distance.pdf": "bc42e5616b8c49671f701cd9a2c3231c82eef368a71ef5a26e457413366b0cab",
+    "paper/figures/fig_gain_by_distance.png": "578902f34058d1b1f82bb63f64c90e3ca1c680f943bddaafafb6464f41a23d77",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_threshold_brier.pdf": "a5bcf46d667fb75964725b243c2fb587b27a782df2a3a93e4dbdd26fa099d84e",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_threshold_brier.png": "020f0c6f3d1c0db345bf8dc9fad2bd6e93da10d1972f69a3d1cca3e3df487b9b",
+    "paper/figures/fig_threshold_brier.pdf": "a5bcf46d667fb75964725b243c2fb587b27a782df2a3a93e4dbdd26fa099d84e",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_ablation.pdf": "d0c94811167585b4681075b0ef1684202cffd1677abc5a815547e578a206470b",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_ablation.png": "bc0e277fcc9dedc34970646e1dedf049d301d67fc995124b3e1feb5b64580f9b",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_threshold_sensitivity.pdf": "1470fa1654b097d23334bde9704fdbf7c910065514c2582decd885339029e163",
+    "artifacts/week8/figures_final_naming_2026-10-16/fig_threshold_sensitivity.png": "242224ace754ee0a3565f53a8df9734ebb09fa0b5ecaf22b3feade3717e8b749",
+    "paper/figures/fig_threshold_sensitivity.pdf": "1470fa1654b097d23334bde9704fdbf7c910065514c2582decd885339029e163",
+    "paper/figures/fig_threshold_sensitivity.png": "242224ace754ee0a3565f53a8df9734ebb09fa0b5ecaf22b3feade3717e8b749"
+  }
+}

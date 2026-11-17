@@ -1,0 +1,20 @@
+{
+  "status": "descriptive re-analysis of sealed predictions and opened labels; no gate",
+  "bootstrap": "10000 MDP draws, seed 20261016",
+  "ll_floor": 1e-12,
+  "source_sha256": "fec314c675df0a186230524e088c83670bc3c50ae594f2ef3d8bf90252483259",
+  "output_sha256": {
+    "by_learner.csv": "f07ae673725459606435ce87e636f0cb3a46505ec6806e79bde4428c7aacb485",
+    "decomposition.csv": "e5508a2c9345fa14f5a0a4852dc3aaf9c0c34d705e88bf5506586b2772408dde",
+    "floor_sensitivity.csv": "91715fe398d0b4ba7477fc734b385f37d42e489d7cf6e0d820eef5b509809db5",
+    "holm.csv": "b75dc518d769de2416f6b7ead925d83e6fde648914cfd447158b34617ebe68a2",
+    "meta_analysis.csv": "0bbe7ee250b4cc82e2ca6973c39837c046a244ea4d30eef435782584702f5bbb",
+    "murphy.csv": "701582f6620cd5d7870344e2bfd878c2640001275fd01eb21144535c7ab02d7a",
+    "noise_floor.csv": "f818e45eedb1ac18d5c2d3c5565d7c1dddcb65a6f609519251b60f819b449cc8",
+    "paired.csv": "ceb221d194237e359a8e0f9785476363864823147fd69e87ccab7e6cfe607e87",
+    "shift.csv": "d9872d33eca58c8a35a19d4968729a125930354d24ffec5cee2bec3d695fedfe",
+    "shift_summary.csv": "4793d13bb31c49b0b4fb941b913ca0ce4735a50c366c714ff3d0bc5e86b08b89",
+    "swap.csv": "0229f02592654b7dfbc2a85323742a5d651bd2e792261579f2c3697362e1c5c8",
+    "verification.csv": "6c88e989fa8754493ea3ce86a8e77595e78537181af1b5ba3fc8787231bec757"
+  }
+}

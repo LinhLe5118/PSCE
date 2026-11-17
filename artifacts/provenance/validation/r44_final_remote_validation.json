@@ -1,0 +1,16 @@
+{
+  "head_sha": "e715e3c3e8e0565ef4d747e74326c807a5cec0d5",
+  "pr_run": 36560990734,
+  "push_run": 36560985515,
+  "both_conclusions": "success",
+  "tests_passed": 889,
+  "subtests_passed": 357,
+  "skipped": 0,
+  "coverage_reported_percent": 83,
+  "pr_full_suite_runtime_seconds": 227.73,
+  "smoke_fixture_environments": 14,
+  "smoke_behavior_families": 5,
+  "original_raw_E1_inputs_read_by_CI": false,
+  "full_raw_input_audit_local": true,
+  "scientific_sources_results_unchanged": true
+}

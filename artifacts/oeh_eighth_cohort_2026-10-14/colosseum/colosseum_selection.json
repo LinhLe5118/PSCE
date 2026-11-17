@@ -1,0 +1,1215 @@
+{
+ "rule": "exported candidates passing the project's dynamic-range filter; first MAX_SELECT per family in sampler order",
+ "max_select": 18,
+ "threshold": 0.19999999999999982,
+ "family_counts": {
+  "riverswim": 18,
+  "deepsea": 18,
+  "frozenlake": 18,
+  "simplegrid": 18
+ },
+ "selected": 72,
+ "candidates": [
+  {
+   "mdp_id": "c8_colosseum_riverswim_000",
+   "family": "riverswim",
+   "draw": 0,
+   "S": 44,
+   "A": 2,
+   "dynamic_range": 3.0890715807520497,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_006",
+   "family": "riverswim",
+   "draw": 6,
+   "S": 26,
+   "A": 2,
+   "dynamic_range": 4.210136175276623,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_007",
+   "family": "riverswim",
+   "draw": 7,
+   "S": 96,
+   "A": 2,
+   "dynamic_range": 0.11822305052959292,
+   "passes_filter": false,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_008",
+   "family": "riverswim",
+   "draw": 8,
+   "S": 74,
+   "A": 2,
+   "dynamic_range": 0.43654779755401646,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_010",
+   "family": "riverswim",
+   "draw": 10,
+   "S": 19,
+   "A": 2,
+   "dynamic_range": 7.450861915978609,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_011",
+   "family": "riverswim",
+   "draw": 11,
+   "S": 64,
+   "A": 2,
+   "dynamic_range": 2.7950091477297003,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_014",
+   "family": "riverswim",
+   "draw": 14,
+   "S": 50,
+   "A": 2,
+   "dynamic_range": 2.9403897197317845,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_016",
+   "family": "riverswim",
+   "draw": 16,
+   "S": 8,
+   "A": 2,
+   "dynamic_range": 11.20358906353403,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_024",
+   "family": "riverswim",
+   "draw": 24,
+   "S": 14,
+   "A": 2,
+   "dynamic_range": 9.37166550857885,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_025",
+   "family": "riverswim",
+   "draw": 25,
+   "S": 47,
+   "A": 2,
+   "dynamic_range": 3.0721393782475586,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_026",
+   "family": "riverswim",
+   "draw": 26,
+   "S": 15,
+   "A": 2,
+   "dynamic_range": 7.199750408207702,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_028",
+   "family": "riverswim",
+   "draw": 28,
+   "S": 77,
+   "A": 2,
+   "dynamic_range": 3.0975204208361538,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_034",
+   "family": "riverswim",
+   "draw": 34,
+   "S": 20,
+   "A": 2,
+   "dynamic_range": 6.055498726799059,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_035",
+   "family": "riverswim",
+   "draw": 35,
+   "S": 30,
+   "A": 2,
+   "dynamic_range": 3.4001744971623378,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_036",
+   "family": "riverswim",
+   "draw": 36,
+   "S": 44,
+   "A": 2,
+   "dynamic_range": 2.9423471520400377,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_037",
+   "family": "riverswim",
+   "draw": 37,
+   "S": 70,
+   "A": 2,
+   "dynamic_range": 3.048867552606934,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_040",
+   "family": "riverswim",
+   "draw": 40,
+   "S": 86,
+   "A": 2,
+   "dynamic_range": 3.0612405339969433,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_041",
+   "family": "riverswim",
+   "draw": 41,
+   "S": 66,
+   "A": 2,
+   "dynamic_range": 2.940075669293158,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_043",
+   "family": "riverswim",
+   "draw": 43,
+   "S": 17,
+   "A": 2,
+   "dynamic_range": 6.92151818594735,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_046",
+   "family": "riverswim",
+   "draw": 46,
+   "S": 32,
+   "A": 2,
+   "dynamic_range": 3.093855373174149,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_047",
+   "family": "riverswim",
+   "draw": 47,
+   "S": 79,
+   "A": 2,
+   "dynamic_range": 3.0978774979552632,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_048",
+   "family": "riverswim",
+   "draw": 48,
+   "S": 43,
+   "A": 2,
+   "dynamic_range": 3.0687597662834385,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_049",
+   "family": "riverswim",
+   "draw": 49,
+   "S": 17,
+   "A": 2,
+   "dynamic_range": 6.9264220792795355,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_050",
+   "family": "riverswim",
+   "draw": 50,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.9876857076537551,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_051",
+   "family": "riverswim",
+   "draw": 51,
+   "S": 32,
+   "A": 2,
+   "dynamic_range": 3.100581029348805,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_052",
+   "family": "riverswim",
+   "draw": 52,
+   "S": 73,
+   "A": 2,
+   "dynamic_range": 0.11729779989200513,
+   "passes_filter": false,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_054",
+   "family": "riverswim",
+   "draw": 54,
+   "S": 42,
+   "A": 2,
+   "dynamic_range": 2.1230676123196637,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_056",
+   "family": "riverswim",
+   "draw": 56,
+   "S": 36,
+   "A": 2,
+   "dynamic_range": 3.2309048327367913,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_058",
+   "family": "riverswim",
+   "draw": 58,
+   "S": 26,
+   "A": 2,
+   "dynamic_range": 4.138268288506273,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_riverswim_059",
+   "family": "riverswim",
+   "draw": 59,
+   "S": 94,
+   "A": 2,
+   "dynamic_range": 3.025548879875511,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_001",
+   "family": "deepsea",
+   "draw": 1,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.6315260957301253,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_002",
+   "family": "deepsea",
+   "draw": 2,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.6964450615699495,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_003",
+   "family": "deepsea",
+   "draw": 3,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.6321697218741462,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_004",
+   "family": "deepsea",
+   "draw": 4,
+   "S": 66,
+   "A": 2,
+   "dynamic_range": 0.4067130310197413,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_005",
+   "family": "deepsea",
+   "draw": 5,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.6287061626218198,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_006",
+   "family": "deepsea",
+   "draw": 6,
+   "S": 55,
+   "A": 2,
+   "dynamic_range": 0.4473483740759171,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_007",
+   "family": "deepsea",
+   "draw": 7,
+   "S": 55,
+   "A": 2,
+   "dynamic_range": 0.4535781597721821,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_008",
+   "family": "deepsea",
+   "draw": 8,
+   "S": 91,
+   "A": 2,
+   "dynamic_range": 0.34467709221641474,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_011",
+   "family": "deepsea",
+   "draw": 11,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.6473621695808549,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_012",
+   "family": "deepsea",
+   "draw": 12,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.49475736967295636,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_013",
+   "family": "deepsea",
+   "draw": 13,
+   "S": 78,
+   "A": 2,
+   "dynamic_range": 0.373630025191989,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_014",
+   "family": "deepsea",
+   "draw": 14,
+   "S": 21,
+   "A": 2,
+   "dynamic_range": 1.5024692254293683,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_015",
+   "family": "deepsea",
+   "draw": 15,
+   "S": 36,
+   "A": 2,
+   "dynamic_range": 0.42102576854894797,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_016",
+   "family": "deepsea",
+   "draw": 16,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.3838340664848771,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_017",
+   "family": "deepsea",
+   "draw": 17,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 1.2231339188787047,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_018",
+   "family": "deepsea",
+   "draw": 18,
+   "S": 36,
+   "A": 2,
+   "dynamic_range": 0.554293012024624,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_019",
+   "family": "deepsea",
+   "draw": 19,
+   "S": 21,
+   "A": 2,
+   "dynamic_range": 1.5931866428520087,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_020",
+   "family": "deepsea",
+   "draw": 20,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.7087672606892669,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_021",
+   "family": "deepsea",
+   "draw": 21,
+   "S": 36,
+   "A": 2,
+   "dynamic_range": 0.5563902924301458,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_022",
+   "family": "deepsea",
+   "draw": 22,
+   "S": 105,
+   "A": 2,
+   "dynamic_range": 0.2001646149893437,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_023",
+   "family": "deepsea",
+   "draw": 23,
+   "S": 91,
+   "A": 2,
+   "dynamic_range": 0.06408180853365279,
+   "passes_filter": false,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_024",
+   "family": "deepsea",
+   "draw": 24,
+   "S": 36,
+   "A": 2,
+   "dynamic_range": 0.8615096135287972,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_026",
+   "family": "deepsea",
+   "draw": 26,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 1.0500681866258814,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_027",
+   "family": "deepsea",
+   "draw": 27,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.7551343350199259,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_028",
+   "family": "deepsea",
+   "draw": 28,
+   "S": 78,
+   "A": 2,
+   "dynamic_range": 0.37310448269925905,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_029",
+   "family": "deepsea",
+   "draw": 29,
+   "S": 105,
+   "A": 2,
+   "dynamic_range": 0.05111950285508396,
+   "passes_filter": false,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_030",
+   "family": "deepsea",
+   "draw": 30,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.5047991685302207,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_031",
+   "family": "deepsea",
+   "draw": 31,
+   "S": 28,
+   "A": 2,
+   "dynamic_range": 0.4984562578765291,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_032",
+   "family": "deepsea",
+   "draw": 32,
+   "S": 120,
+   "A": 2,
+   "dynamic_range": 0.2989957163848158,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_deepsea_033",
+   "family": "deepsea",
+   "draw": 33,
+   "S": 45,
+   "A": 2,
+   "dynamic_range": 0.4947067186042361,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_000",
+   "family": "frozenlake",
+   "draw": 0,
+   "S": 23,
+   "A": 4,
+   "dynamic_range": 0.7296580183718135,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_001",
+   "family": "frozenlake",
+   "draw": 1,
+   "S": 56,
+   "A": 4,
+   "dynamic_range": 0.20641228322614105,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_002",
+   "family": "frozenlake",
+   "draw": 2,
+   "S": 48,
+   "A": 4,
+   "dynamic_range": 0.2868965000913725,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_003",
+   "family": "frozenlake",
+   "draw": 3,
+   "S": 16,
+   "A": 4,
+   "dynamic_range": 0.9695509860707812,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_004",
+   "family": "frozenlake",
+   "draw": 4,
+   "S": 43,
+   "A": 4,
+   "dynamic_range": 0.2933859426597147,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_005",
+   "family": "frozenlake",
+   "draw": 5,
+   "S": 43,
+   "A": 4,
+   "dynamic_range": 0.23099319390142892,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_006",
+   "family": "frozenlake",
+   "draw": 6,
+   "S": 23,
+   "A": 4,
+   "dynamic_range": 0.4615277501526074,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_007",
+   "family": "frozenlake",
+   "draw": 7,
+   "S": 43,
+   "A": 4,
+   "dynamic_range": 0.09906916750335332,
+   "passes_filter": false,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_008",
+   "family": "frozenlake",
+   "draw": 8,
+   "S": 22,
+   "A": 4,
+   "dynamic_range": 0.48503489418362766,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_009",
+   "family": "frozenlake",
+   "draw": 9,
+   "S": 15,
+   "A": 4,
+   "dynamic_range": 0.9758675664579113,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_010",
+   "family": "frozenlake",
+   "draw": 10,
+   "S": 48,
+   "A": 4,
+   "dynamic_range": 0.4131202141122043,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_011",
+   "family": "frozenlake",
+   "draw": 11,
+   "S": 24,
+   "A": 4,
+   "dynamic_range": 0.7410202290194383,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_012",
+   "family": "frozenlake",
+   "draw": 12,
+   "S": 24,
+   "A": 4,
+   "dynamic_range": 0.7751251669600908,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_013",
+   "family": "frozenlake",
+   "draw": 13,
+   "S": 14,
+   "A": 4,
+   "dynamic_range": 0.8273774310548501,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_014",
+   "family": "frozenlake",
+   "draw": 14,
+   "S": 33,
+   "A": 4,
+   "dynamic_range": 0.5454368739414177,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_015",
+   "family": "frozenlake",
+   "draw": 15,
+   "S": 24,
+   "A": 4,
+   "dynamic_range": 0.7527046325878596,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_017",
+   "family": "frozenlake",
+   "draw": 17,
+   "S": 36,
+   "A": 4,
+   "dynamic_range": 0.48222138559013306,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_018",
+   "family": "frozenlake",
+   "draw": 18,
+   "S": 24,
+   "A": 4,
+   "dynamic_range": 0.719154314710345,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_019",
+   "family": "frozenlake",
+   "draw": 19,
+   "S": 23,
+   "A": 4,
+   "dynamic_range": 0.6616126221651069,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_021",
+   "family": "frozenlake",
+   "draw": 21,
+   "S": 15,
+   "A": 4,
+   "dynamic_range": 0.8906357427786274,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_022",
+   "family": "frozenlake",
+   "draw": 22,
+   "S": 23,
+   "A": 4,
+   "dynamic_range": 0.5576639529041694,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_023",
+   "family": "frozenlake",
+   "draw": 23,
+   "S": 19,
+   "A": 4,
+   "dynamic_range": 0.3379784564294877,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_024",
+   "family": "frozenlake",
+   "draw": 24,
+   "S": 21,
+   "A": 4,
+   "dynamic_range": 0.5219068863657575,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_025",
+   "family": "frozenlake",
+   "draw": 25,
+   "S": 62,
+   "A": 4,
+   "dynamic_range": 0.32507490542806555,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_026",
+   "family": "frozenlake",
+   "draw": 26,
+   "S": 33,
+   "A": 4,
+   "dynamic_range": 0.468509947329447,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_027",
+   "family": "frozenlake",
+   "draw": 27,
+   "S": 24,
+   "A": 4,
+   "dynamic_range": 0.7589783197560969,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_028",
+   "family": "frozenlake",
+   "draw": 28,
+   "S": 15,
+   "A": 4,
+   "dynamic_range": 0.6935767217645621,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_029",
+   "family": "frozenlake",
+   "draw": 29,
+   "S": 60,
+   "A": 4,
+   "dynamic_range": 0.27732821346579745,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_030",
+   "family": "frozenlake",
+   "draw": 30,
+   "S": 13,
+   "A": 4,
+   "dynamic_range": 0.4778696702094538,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_frozenlake_031",
+   "family": "frozenlake",
+   "draw": 31,
+   "S": 35,
+   "A": 4,
+   "dynamic_range": 0.5835978704093142,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_013",
+   "family": "simplegrid",
+   "draw": 13,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.785909440387703,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_028",
+   "family": "simplegrid",
+   "draw": 28,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.792570733737389,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_030",
+   "family": "simplegrid",
+   "draw": 30,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 9.842193963048217,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_033",
+   "family": "simplegrid",
+   "draw": 33,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.350499578827119,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_034",
+   "family": "simplegrid",
+   "draw": 34,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 4.08802244456054,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_042",
+   "family": "simplegrid",
+   "draw": 42,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 9.258119167141661,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_045",
+   "family": "simplegrid",
+   "draw": 45,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 10.109606832210256,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_050",
+   "family": "simplegrid",
+   "draw": 50,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.502874235476572,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_055",
+   "family": "simplegrid",
+   "draw": 55,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.713154996399567,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_078",
+   "family": "simplegrid",
+   "draw": 78,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.003210159231454,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_083",
+   "family": "simplegrid",
+   "draw": 83,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.676627419227103,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_085",
+   "family": "simplegrid",
+   "draw": 85,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.424383413391414,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_103",
+   "family": "simplegrid",
+   "draw": 103,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.360935626995349,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_123",
+   "family": "simplegrid",
+   "draw": 123,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 8.46173828564131,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_128",
+   "family": "simplegrid",
+   "draw": 128,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.689676273413674,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_154",
+   "family": "simplegrid",
+   "draw": 154,
+   "S": 36,
+   "A": 5,
+   "dynamic_range": 10.014343726359847,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_161",
+   "family": "simplegrid",
+   "draw": 161,
+   "S": 36,
+   "A": 5,
+   "dynamic_range": 7.38338571222981,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_163",
+   "family": "simplegrid",
+   "draw": 163,
+   "S": 36,
+   "A": 5,
+   "dynamic_range": 7.297421525372979,
+   "passes_filter": true,
+   "kept": true
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_191",
+   "family": "simplegrid",
+   "draw": 191,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.019637579111468,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_192",
+   "family": "simplegrid",
+   "draw": 192,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.956780742267508,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_194",
+   "family": "simplegrid",
+   "draw": 194,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.732009083370741,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_208",
+   "family": "simplegrid",
+   "draw": 208,
+   "S": 36,
+   "A": 5,
+   "dynamic_range": 7.719943268871063,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_210",
+   "family": "simplegrid",
+   "draw": 210,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 10.026307780402483,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_223",
+   "family": "simplegrid",
+   "draw": 223,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 9.906960119721074,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_226",
+   "family": "simplegrid",
+   "draw": 226,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.2486173095323,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_233",
+   "family": "simplegrid",
+   "draw": 233,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 9.627298574669158,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_237",
+   "family": "simplegrid",
+   "draw": 237,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 6.52112807217015,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_240",
+   "family": "simplegrid",
+   "draw": 240,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.176402667938939,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_242",
+   "family": "simplegrid",
+   "draw": 242,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 7.075129982672463,
+   "passes_filter": true,
+   "kept": false
+  },
+  {
+   "mdp_id": "c8_colosseum_simplegrid_248",
+   "family": "simplegrid",
+   "draw": 248,
+   "S": 49,
+   "A": 5,
+   "dynamic_range": 10.096412859545142,
+   "passes_filter": true,
+   "kept": false
+  }
+ ],
+ "candidates_sha256": "e6ffe11873b1ddfdc1402b719dcf49b4461c2b541f82504ebb892c81fbee2bcc"
+}

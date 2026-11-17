@@ -1,0 +1,14 @@
+{
+  "status": "development_only_second_open_cohort_not_confirmation",
+  "description": "Symmetric scalar temperature fit on first opened primary panel",
+  "source_sha256": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957",
+  "temperatures": {
+    "b2_three_way": 0.9860553664779006,
+    "oeh_three_way": 0.9503526577022008
+  },
+  "relative_oeh_gain_vs_matched_b2": {
+    "brier": 0.14117809028598238,
+    "logloss": 0.04162147569483876
+  },
+  "scripts_sha256": "f90c5ea7ec3981f1e5b638ee49bd08bb615df105f316c0dac92087e49b1f8e2e"
+}

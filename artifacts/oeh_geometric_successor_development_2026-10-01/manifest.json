@@ -1,0 +1,62 @@
+{
+  "status": "exploratory_successor_two_opened_cohorts_not_independent_confirmation",
+  "weight_fit_on": "first_open",
+  "weight": 0.8119140532763657,
+  "development_gate_against_b2_and_oracle_eh": "GO",
+  "comparisons": {
+    "b2_three_way": {
+      "brier": {
+        "baseline_mean": 0.06898775752996802,
+        "candidate_mean": 0.05902801998610169,
+        "relative_gain": 0.14436963746125342,
+        "absolute_improvement": 0.009959737543866335,
+        "joint_simultaneous_lower_95": 0.0040813168008900355
+      },
+      "logloss": {
+        "baseline_mean": 0.7405032683403908,
+        "candidate_mean": 0.6934190226186575,
+        "relative_gain": 0.06358411601242231,
+        "absolute_improvement": 0.047084245721733385,
+        "joint_simultaneous_lower_95": 0.016928221661879076
+      }
+    },
+    "b2_plus_eh_oracle_three_way": {
+      "brier": {
+        "baseline_mean": 0.06960802904076602,
+        "candidate_mean": 0.05902801998610169,
+        "relative_gain": 0.15199409034363176,
+        "absolute_improvement": 0.010580009054664321,
+        "joint_simultaneous_lower_95": 0.004468399110478602
+      },
+      "logloss": {
+        "baseline_mean": 0.7412796453212358,
+        "candidate_mean": 0.6934190226186575,
+        "relative_gain": 0.06456486833904329,
+        "absolute_improvement": 0.04786062270257826,
+        "joint_simultaneous_lower_95": 0.016115865245142365
+      }
+    },
+    "oeh_three_way": {
+      "brier": {
+        "baseline_mean": 0.059166532099123766,
+        "candidate_mean": 0.05902801998610169,
+        "relative_gain": 0.0023410551220075515,
+        "absolute_improvement": 0.0001385121130220701,
+        "joint_simultaneous_lower_95": -0.0008591360977337687
+      },
+      "logloss": {
+        "baseline_mean": 0.6980889417680706,
+        "candidate_mean": 0.6934190226186575,
+        "relative_gain": 0.006689576170029854,
+        "absolute_improvement": 0.004669919149413032,
+        "joint_simultaneous_lower_95": -0.001765851177950301
+      }
+    }
+  },
+  "source_sha256": {
+    "artifacts/oeh_difficulty_three_way_development_2026-10-01/predictions.csv": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957",
+    "artifacts/oeh_difficulty_geometric_stack_development_2026-10-01/manifest.json": "65acfa7c5f3bf0ada78f549c0157f5ee6107afa2f93cb1d5b553cc083b96fe7a",
+    "artifacts/oeh_eh_oracle_three_way_development_2026-10-01/scored_predictions.csv": "863529deaa8512fe7fc24c34b10e13af9cb6bfa772fc71e0b82cc906486ad6b8"
+  },
+  "script_sha256": "96652f8fc8932cabbd8f48cb1cf9714e9e9f647ee231c02e601d0762a2845501"
+}

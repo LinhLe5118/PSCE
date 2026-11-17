@@ -1,0 +1,88 @@
+{
+  "all_120_descriptive_only": true,
+  "all_120_mean": [
+    0.6839165557502429,
+    0.4389999999999999
+  ],
+  "confirmation": false,
+  "export_refits": 0,
+  "new_mdps_generated": 0,
+  "original_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "panels": {
+    "deterministic_control": {
+      "mdp_effect_signs": {
+        "nr_vs_cfqi": {
+          "zero": 36
+        },
+        "nr_vs_v4e": {
+          "positive": 14,
+          "zero": 22
+        },
+        "sr_vs_cfqi": {
+          "zero": 36
+        },
+        "sr_vs_v4e": {
+          "positive": 9,
+          "zero": 27
+        }
+      },
+      "selected_algorithms": {
+        "cfqi_tabular": 180
+      },
+      "success_losses": {
+        "cfqi": 0,
+        "v4e": 0
+      },
+      "success_net_gain": {
+        "cfqi": 0,
+        "v4e": 57
+      },
+      "success_wins": {
+        "cfqi": 0,
+        "v4e": 57
+      }
+    },
+    "stochastic_primary": {
+      "mdp_effect_signs": {
+        "nr_vs_cfqi": {
+          "negative": 7,
+          "positive": 28,
+          "zero": 49
+        },
+        "nr_vs_v4e": {
+          "negative": 14,
+          "positive": 30,
+          "zero": 40
+        },
+        "sr_vs_cfqi": {
+          "negative": 10,
+          "positive": 22,
+          "zero": 52
+        },
+        "sr_vs_v4e": {
+          "negative": 6,
+          "positive": 31,
+          "zero": 47
+        }
+      },
+      "selected_algorithms": {
+        "behavior_cloning_tabular": 5,
+        "cfqi_tabular": 361,
+        "iql_tabular": 54
+      },
+      "success_losses": {
+        "cfqi": 67,
+        "v4e": 37
+      },
+      "success_net_gain": {
+        "cfqi": 90,
+        "v4e": 234
+      },
+      "success_wins": {
+        "cfqi": 157,
+        "v4e": 271
+      }
+    }
+  },
+  "posthoc_consumed_e1": true
+}

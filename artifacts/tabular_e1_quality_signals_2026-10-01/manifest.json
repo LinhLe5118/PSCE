@@ -1,0 +1,12 @@
+{
+  "status": "complete",
+  "scope": "E1 pilot-only post-hoc tabular adaptations; no exact TQ/SACo/EAS/BWD/CNN claim",
+  "row_count": 600,
+  "mdp_count": 120,
+  "undefined_eri_count": 286,
+  "undefined_coi_count": 395,
+  "partial_trajectories_total": 3160,
+  "input_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "source_sha256": "666a9e161a97efa8d563ab2006f875fd92c00335efe9594bcfb871a57729ef75",
+  "output_sha256": "230883270cb0b5f053280a172d5905001e355dca55a32a88720be856882c4dd2"
+}

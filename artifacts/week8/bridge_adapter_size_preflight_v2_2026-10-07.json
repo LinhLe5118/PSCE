@@ -1,0 +1,102 @@
+{
+  "status": "STATE_COUNT_MISMATCH",
+  "adapter_source_sha256": "b3fdc826fbb37081dab4ad7a5540d21e5557709c6a3aecab8df1ab2a44cbef3e",
+  "mdps": [
+    {
+      "mdp_name": "MiniGrid-Empty-5x5-v0",
+      "adapter_states": 96,
+      "published_sticky_states": 97,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-6x6-v0",
+      "adapter_states": 176,
+      "published_sticky_states": 177,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-8x8-v0",
+      "adapter_states": 408,
+      "published_sticky_states": 409,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-KeyCorridorS3R1-v0",
+      "adapter_states": 963,
+      "published_sticky_states": 967,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS11N5-v0",
+      "adapter_states": 469,
+      "published_sticky_states": 473,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N1-v0",
+      "adapter_states": 999,
+      "published_sticky_states": 1003,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N2-v0",
+      "adapter_states": 764,
+      "published_sticky_states": 768,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N3-v0",
+      "adapter_states": 297,
+      "published_sticky_states": 301,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS5-v0",
+      "adapter_states": 113,
+      "published_sticky_states": 117,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS6-v0",
+      "adapter_states": 294,
+      "published_sticky_states": 298,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS7-v0",
+      "adapter_states": 481,
+      "published_sticky_states": 485,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-MultiRoom-N2-S4-v0",
+      "adapter_states": 335,
+      "published_sticky_states": 339,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS11N5-v0",
+      "adapter_states": 493,
+      "published_sticky_states": 497,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N1-v0",
+      "adapter_states": 1006,
+      "published_sticky_states": 1010,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N2-v0",
+      "adapter_states": 770,
+      "published_sticky_states": 774,
+      "matches": false
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N3-v0",
+      "adapter_states": 309,
+      "published_sticky_states": 313,
+      "matches": false
+    }
+  ]
+}

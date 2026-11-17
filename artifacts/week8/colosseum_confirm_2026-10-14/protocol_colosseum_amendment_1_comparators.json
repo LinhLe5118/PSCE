@@ -1,0 +1,26 @@
+{
+ "name": "confirmatory Colosseum run: extension to the cohort-7 comparator set",
+ "frozen_at_utc": "2026-10-14T06:37:45.653224+00:00",
+ "status_at_freeze": "learner outcomes of the 72 MDPs already observed and scored (primary verdict GO/GO)",
+ "post_hoc": true,
+ "why": "the paper's main result (cohort 7) gates OEH against 11 comparators (tier 1 shared information, tier 2 privileged); the confirmatory run only had B2 and B2+hardness",
+ "fixed_by_team_protocol": "comparator definitions, fields and fitting are the team's cohort-7 ones (run_oeh_final_120.FIELD_SETS / all_forecasts); nothing is chosen or tuned here",
+ "unchanged": [
+  "72 MDPs, pilots, labels",
+  "sealed OEH predictions (must be reproduced bit-for-bit by all_forecasts)",
+  "meta-training panel (720 MDPs)"
+ ],
+ "new_inputs": {
+  "published": "oeh_final_published (TQ/SACo reference, ERI, BWD) on the Colosseum kernels",
+  "tq_saco_original": "authors' code ml-jku/OfflineRL commit 8cc8eec via oeh_final_tqsaco_original",
+  "eh_oracle": "finite_horizon_online_bounds on the Colosseum kernels"
+ },
+ "gate": "same as cohort 7: 22 joint contrasts (11 comparators x Brier, log loss), 10,000 whole-MDP bootstrap, simultaneous one-sided 95% lower bounds > 0; verdicts tier1, tier2, all",
+ "secondary": "finite-case analysis: conditional budget forecast among non-censored labels (descriptive)",
+ "sealed_inputs_sha256": {
+  "protocol_colosseum.json": "dd9771576d50c99ba37ceffbd68f5195164b5b41356b03baf20e5d3677b4d3b8",
+  "colosseum_predictions_preoutcome.csv": "200871d8f6615b48ebae7f9136ebcce182481728728ae2ce10aa08304dee302a",
+  "colosseum_preoutcome_seal.json": "e9e7b19eb41fb6bef676a02602a831eef108b1d24b92080ff3336c25b6586a32",
+  "colosseum_labels.csv": "bc937c70e70f688563b28a9f50e6411aff8bced4a2437a0b502a39e287b261d5"
+ }
+}

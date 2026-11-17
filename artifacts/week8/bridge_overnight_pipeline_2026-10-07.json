@@ -1,0 +1,8 @@
+﻿{
+    "state":  "COMPLETE",
+    "mode":  "reduced",
+    "detail":  "BRIDGE reduced matched forecast, one label run and score complete.",
+    "updated_local":  "2026-10-08T00:34:40.6423203+07:00",
+    "horizon_groups":  70,
+    "oehb_groups":  7
+}

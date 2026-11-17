@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oeh"
+version = "1.0.0"
+description = "OEH: pilot-only forecasting of learner-specific data requirements in stochastic tabular offline RL"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["numpy==2.5.1"]
+
+[tool.setuptools.packages.find]
+where = ["code"]
+include = ["oeh*"]

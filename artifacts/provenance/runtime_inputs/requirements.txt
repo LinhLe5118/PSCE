@@ -1,0 +1,7 @@
+# Pinned exactly. The pins are load-bearing, not hygiene: rerunning
+# run_alternative_definitions.py under a different SciPy build reproduces every
+# verdict, escape count and k-dagger distribution, but shifts sigma in the last
+# few digits on a handful of pilots -- enough to change the artifact SHA-256 that
+# artifacts/week2/reproduction_audit_2026-09-02/ compares against.
+numpy==2.5.1
+scipy==1.18.0

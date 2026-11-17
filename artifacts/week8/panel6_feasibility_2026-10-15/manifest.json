@@ -1,0 +1,56 @@
+{
+  "status": "development_draws_only",
+  "task": "T8 panel-6 feasibility (numpy seed 1; never the panel seeds)",
+  "created_utc": "2026-10-15T13:14:05.097671+00:00",
+  "families": {
+    "mdpp": {
+      "source": "MDP Playground 1.0.0 (Rajan et al., 2021), RLToyEnv discrete: sequence_length 1, delay 0, maximally_connected, reward_noise 0, reward_scale 1",
+      "parameters": "A in {2,3,4,5,6,8}; diameter d uniform on the integers with 8 <= d*A <= 64 and d*A*A <= 256; transition_noise ~ U(0, 0.3); reward_density ~ U(0.1, 0.5); terminal_state_density in {0, 0.25}"
+    },
+    "labmaze": {
+      "source": "labmaze 1.0.6 RandomMaze (DeepMind Lab text-maze generator), simplify=False, one spawn and one object per room; four-way moves",
+      "parameters": "height, width in {9, 11}; max_rooms in {1, 2, 3}; room_min_size 3; room_max_size in {3, 4}; extra_connection_probability ~ U(0, 0.2); success ~ U(0.7, 0.95)"
+    }
+  },
+  "sa_cap": 256,
+  "dev_seed": 1,
+  "versions": {
+    "mdpp": {
+      "python": "3.12.7",
+      "numpy": "2.5.4",
+      "mdp_playground": "1.0.0",
+      "labmaze": "1.0.6",
+      "gymnasium": "1.4.0"
+    },
+    "labmaze": {
+      "python": "3.12.7",
+      "numpy": "2.5.4",
+      "mdp_playground": "1.0.0",
+      "labmaze": "1.0.6",
+      "gymnasium": "1.4.0"
+    }
+  },
+  "earlier_kernels_compared": {
+    "frozenlake": 36,
+    "gambler": 36,
+    "spibb": 108,
+    "spibb2": 108,
+    "colosseum2029": 120,
+    "forest": 80,
+    "colosseum_colosseum": 36,
+    "colosseum_confirm": 120,
+    "colosseum_c8tier": 120,
+    "colosseum_v2test": 120
+  },
+  "seen_exact_fingerprints": 599,
+  "learner_outcomes_observed": 0,
+  "outputs_sha256": {
+    "feasibility.csv": "2410f511b2e12100b1e7a8ccdf522572e25cf28747c4a4ae360fb2c12e4cb5d9",
+    "summary.csv": "fd5da204c684e7ef02a2c6bd999a179ecaea7c28d783df4776339202e8a24338",
+    "source_tables.json": "6371b6db610ae7c656e17bbfef6a471accc6963b86f2774b1763fc531e5bdcb5"
+  },
+  "source_sha256": {
+    "scripts/analysis/panel6_families.py": "af09e67340bd28349a11c5daf063a03d378fe0de4576c852ac1058212b4722a5",
+    "scripts/panel6/export_kernels.py": "5ae711ae3350536fde6d5723a52992c0b290db926a6ecd1ce9a0b8f63c8927ce"
+  }
+}

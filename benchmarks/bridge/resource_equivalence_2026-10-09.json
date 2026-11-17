@@ -1,0 +1,76 @@
+{
+  "status": "METADATA_RESOURCE_EQUIVALENCE_ONLY",
+  "metric": "sum of S*A across MDPs; all panels use five behaviors, ten label seeds and an x50 maximum prefix",
+  "internal_120": {
+    "mdps": 120,
+    "state_action_sum": 9676,
+    "pilot_transitions_x10_all_behaviors": 483800,
+    "training_stream_transitions_x50_10_seeds_all_behaviors": 24190000,
+    "learner_budget_seed_jobs": 108000,
+    "feature_csv_sha256": "9a546e16c0e894727026401577c8fcd8d30e0d859498ee1e25cafb5c766bdb63"
+  },
+  "bridge_panels": {
+    "opened_minigrid_14_exploratory": {
+      "mdps": 14,
+      "pilot_groups": 70,
+      "state_action_sum": 39084,
+      "pilot_transitions_x10_all_behaviors": 1954200,
+      "training_stream_transitions_x50_10_seeds_all_behaviors": 97710000,
+      "learner_budget_seed_jobs": 12600,
+      "task_state_action": {
+        "MiniGrid-Empty-5x5-v0": 288,
+        "MiniGrid-Empty-6x6-v0": 528,
+        "MiniGrid-Empty-8x8-v0": 1224,
+        "MiniGrid-KeyCorridorS3R1-v0": 5778,
+        "MiniGrid-LavaCrossingS11N5-v0": 2814,
+        "MiniGrid-LavaCrossingS9N1-v0": 5994,
+        "MiniGrid-LavaCrossingS9N2-v0": 4584,
+        "MiniGrid-LavaCrossingS9N3-v0": 1782,
+        "MiniGrid-LavaGapS6-v0": 1764,
+        "MiniGrid-LavaGapS7-v0": 2886,
+        "MiniGrid-MultiRoom-N2-S4-v0": 2010,
+        "MiniGrid-SimpleCrossingS11N5-v0": 2958,
+        "MiniGrid-SimpleCrossingS9N2-v0": 4620,
+        "MiniGrid-SimpleCrossingS9N3-v0": 1854
+      },
+      "pilot_manifest_sha256": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11"
+    },
+    "fresh_atari_5_completed": {
+      "mdps": 5,
+      "pilot_groups": 25,
+      "state_action_sum": 8893,
+      "pilot_transitions_x10_all_behaviors": 444650,
+      "training_stream_transitions_x50_10_seeds_all_behaviors": 22232500,
+      "learner_budget_seed_jobs": 4500,
+      "task_state_action": {
+        "atlantis_10_fs30": 304,
+        "atlantis_20_fs30": 2860,
+        "breakout_10_fs30": 1652,
+        "freeway_10_fs30": 975,
+        "qbert_10_fs30": 3102
+      },
+      "pilot_manifest_sha256": "3fc5614ac220edf56c780c003adbdc8bf88509d0a15fcb8bfbf2b41d28e70a8b"
+    },
+    "expanded_5_running": {
+      "mdps": 5,
+      "pilot_groups": 25,
+      "state_action_sum": 45985,
+      "pilot_transitions_x10_all_behaviors": 2299250,
+      "training_stream_transitions_x50_10_seeds_all_behaviors": 114962500,
+      "learner_budget_seed_jobs": 4500,
+      "task_state_action": {
+        "MiniGrid-DoorKey-5x5-v0": 8952,
+        "MiniGrid-Empty-16x16-v0": 6888,
+        "breakout_20_fs30": 9544,
+        "maze_easy_l0_30_fs1": 11061,
+        "space_invaders_10_fs30": 9540
+      },
+      "pilot_manifest_sha256": "219029a448fa5014d73bfd587d4477edcfb5cdda58165864ffe1d18dba0ecc25"
+    }
+  },
+  "bridge_distinct_mdps": 24,
+  "bridge_state_action_sum": 93962,
+  "bridge_to_internal_state_action_budget_ratio": 9.71083092186854,
+  "interpretation": "This is a transition-budget proxy, not measured CPU time, statistical equivalence, or a claim that opened labels are independent confirmation. Published BRIDGE MDPs supply environments; this project collected pilot logs and learner labels.",
+  "no_outcome_file_read": true
+}

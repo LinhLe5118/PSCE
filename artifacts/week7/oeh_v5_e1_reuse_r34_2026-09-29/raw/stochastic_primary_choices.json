@@ -1,0 +1,3782 @@
+[
+  {
+    "mdp_id": "evaluation_bottleneck_003",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_003",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_003",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.01756635102957138,
+    "predicted_paired_success": 0.07691648816373406,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_003",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_003",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_010",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_010",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_010",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_010",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_010",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_016",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_016",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_016",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_016",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_016",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_023",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_023",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_023",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_023",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_023",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_030",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_030",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_030",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.04799161034967239,
+    "predicted_paired_success": 0.16673750943417837,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_030",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_030",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_036",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_036",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_036",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_036",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_036",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_043",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_043",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_043",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_043",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_043",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_050",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_050",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_050",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_050",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_050",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_056",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_056",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_056",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_056",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_056",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_063",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_063",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_063",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.012497107426669957,
+    "predicted_paired_success": 0.03845425202779272,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_063",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_063",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_070",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_070",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_070",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_070",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_070",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_076",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_076",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_076",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_076",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_076",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_083",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_083",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_083",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_083",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_083",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_090",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_090",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_090",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": -0.01166322551509573,
+    "predicted_paired_success": 0.035253762635121075,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_090",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_090",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_096",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_096",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_096",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_096",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_096",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_103",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_103",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_103",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_103",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_103",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.13176330610743894,
+    "predicted_paired_success": 0.08986045296843134,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_110",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_110",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_110",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_110",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_110",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_116",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_116",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_116",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_116",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_bottleneck_116",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_000",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_000",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_000",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_000",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0003190541349731568,
+    "predicted_paired_success": 0.04897849626733558,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_000",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_004",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_004",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_004",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_004",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_004",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_007",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_007",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_007",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_007",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_007",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_011",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_011",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_011",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_011",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_011",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_014",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_014",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.23877815629450191,
+    "predicted_paired_success": 0.17392716821910592,
+    "selected_algorithm": "behavior_cloning_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_014",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_014",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_014",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_018",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.10395459337054239,
+    "predicted_paired_success": 0.1985044357530612,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_018",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_018",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.1783545408021689,
+    "predicted_paired_success": 0.19100265461313465,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_018",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_018",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_020",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_020",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_020",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_020",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_020",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_024",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0340444775447586,
+    "predicted_paired_success": 0.11451835964913643,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_024",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_024",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.14390192654918232,
+    "predicted_paired_success": 0.1977933913683423,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_024",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.1062340710652765,
+    "predicted_paired_success": 0.050704794931835634,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_024",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_027",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": -0.006997746631327975,
+    "predicted_paired_success": 0.19698259795076128,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_027",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_027",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": -0.016954932045553067,
+    "predicted_paired_success": 0.16630299370909102,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_027",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_027",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_031",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.05487538103861128,
+    "predicted_paired_success": -0.012901338247369276,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_031",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_031",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_031",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_031",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_034",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_034",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_034",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": -0.015026467730951537,
+    "predicted_paired_success": 0.0512293119008846,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_034",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.09621001103035015,
+    "predicted_paired_success": -0.06644891128735209,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_034",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_038",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_038",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_038",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_038",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_038",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_040",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_040",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.11201786193466179,
+    "predicted_paired_success": -0.08551535545127423,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_040",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_040",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_040",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_044",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_044",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_044",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_044",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_044",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_047",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_047",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_047",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_047",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_047",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_051",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": -0.05410024945971721,
+    "predicted_paired_success": 0.08481095234227269,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_051",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": -0.0784125392097284,
+    "predicted_paired_success": 0.09830474081082058,
+    "selected_algorithm": "behavior_cloning_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_051",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": -0.043483495110704234,
+    "predicted_paired_success": 0.034846410726303546,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_051",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_051",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_054",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_054",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_054",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_054",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_054",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_058",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.07451437408947185,
+    "predicted_paired_success": -0.17763039509384662,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_058",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_058",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_058",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_058",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_060",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.059617224098608285,
+    "predicted_paired_success": 0.06049066413163773,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_060",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_060",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.01741620511866815,
+    "predicted_paired_success": 0.07441625680771098,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_060",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_060",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_064",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_064",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_064",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_064",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_064",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_067",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_067",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_067",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_067",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_067",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_071",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_071",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_071",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_071",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_071",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_074",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_074",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_074",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_074",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_074",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_078",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.040841618290736084,
+    "predicted_paired_success": 0.12692354260508487,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_078",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_078",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.09670528012595855,
+    "predicted_paired_success": 0.07864928241571637,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_078",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_078",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_080",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_080",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_080",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_080",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_080",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_084",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.017701368572754506,
+    "predicted_paired_success": 0.08115050103148519,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_084",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_084",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.07184823809852642,
+    "predicted_paired_success": 0.19203504451215575,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_084",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_084",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_087",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_087",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_087",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.055314763417208035,
+    "predicted_paired_success": 0.10587301977017,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_087",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_087",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_091",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_091",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_091",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.12049364516580383,
+    "predicted_paired_success": 0.09353169881494706,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_091",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_091",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_094",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_094",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_094",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_094",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_094",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_098",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_098",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_098",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_098",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_098",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_100",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_100",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_100",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.3332327324521437,
+    "predicted_paired_success": 0.04444366963006669,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_100",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_100",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_104",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_104",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_104",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_104",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_104",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_107",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_107",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_107",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_107",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_107",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_111",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.1862674938668698,
+    "predicted_paired_success": 0.05481844047420502,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_111",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.08957855565443656,
+    "predicted_paired_success": -0.00029160336815220456,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_111",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.09843459728143908,
+    "predicted_paired_success": 0.003050631637581208,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_111",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_111",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_114",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_114",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_114",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_114",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_114",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_118",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_118",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_118",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_118",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_forward_layered_118",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_002",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_002",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_002",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_002",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_002",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_006",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_006",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.2249068130907132,
+    "predicted_paired_success": -0.08220545806429372,
+    "selected_algorithm": "behavior_cloning_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_006",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_006",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_006",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_009",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.06627416649012742,
+    "predicted_paired_success": 0.18321049255869526,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_009",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.12271058020494033,
+    "predicted_paired_success": 0.4170235099502785,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_009",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.10580693671176078,
+    "predicted_paired_success": 0.1472393226485978,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_009",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_009",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_013",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_013",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_013",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_013",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_013",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_017",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_017",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_017",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_017",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_017",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_022",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_022",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_022",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_022",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_022",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_026",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_026",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.029184894753388382,
+    "predicted_paired_success": 0.007111128168729781,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_026",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_026",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_026",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_029",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_029",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.04568158812776579,
+    "predicted_paired_success": -0.01777535466239906,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_029",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_029",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_029",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_033",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_033",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.00123246590952919,
+    "predicted_paired_success": 0.040231201286071175,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_033",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_033",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_033",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_037",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_037",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_037",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_037",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_037",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_042",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_042",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": -0.0816781118406423,
+    "predicted_paired_success": 0.17321559270284081,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_042",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_042",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_042",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_046",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_046",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.05417879256963826,
+    "predicted_paired_success": 0.0668427351430033,
+    "selected_algorithm": "behavior_cloning_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_046",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_046",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_046",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_049",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": -0.06860504484932856,
+    "predicted_paired_success": 0.06460084009322492,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_049",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.018972555987123066,
+    "predicted_paired_success": 0.2570589113000215,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_049",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": -0.04904300325880734,
+    "predicted_paired_success": 0.08142133992106435,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_049",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_049",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_053",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_053",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_053",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_053",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_053",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_057",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_057",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0440232912739484,
+    "predicted_paired_success": 0.04077435309803068,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_057",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_057",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_057",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_062",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_062",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_062",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_062",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_062",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_066",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_066",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_066",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_066",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_066",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_069",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0021506392551891157,
+    "predicted_paired_success": 0.2521310190079463,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_069",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": -0.06846032264305854,
+    "predicted_paired_success": 0.18209739138656375,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_069",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_069",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_069",
+    "outer_fold": 3,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_073",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_073",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_073",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_073",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_073",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_077",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_077",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_077",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_077",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_077",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_082",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_082",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_082",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_082",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_082",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_086",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_086",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_086",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_086",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_086",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_089",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_089",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_089",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_089",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_089",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_093",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_093",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": -0.021211437178722252,
+    "predicted_paired_success": 0.040620098597753375,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_093",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.4590266584399112,
+    "predicted_paired_success": -0.19640429616445843,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_093",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_093",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_097",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_097",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_097",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_097",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_097",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_102",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.11284416815326212,
+    "predicted_paired_success": 0.10611860989276252,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_102",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.06934197592262407,
+    "predicted_paired_success": 0.08026648270840102,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_102",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.11365110571294613,
+    "predicted_paired_success": 0.13237693006378914,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_102",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_102",
+    "outer_fold": 4,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_106",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_106",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.08749465844479579,
+    "predicted_paired_success": 0.0927027542827599,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_106",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.1770396962746721,
+    "predicted_paired_success": 0.03544136354731941,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_106",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": -0.012554603693923333,
+    "predicted_paired_success": 0.15178496278101672,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_106",
+    "outer_fold": 1,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_109",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_109",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.1181546993140771,
+    "predicted_paired_success": 0.24047187384435428,
+    "selected_algorithm": "behavior_cloning_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_109",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_109",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_109",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_113",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_113",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_113",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_113",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_113",
+    "outer_fold": 2,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_117",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.2026136313496691,
+    "predicted_paired_success": 0.1779529213710292,
+    "selected_algorithm": "iql_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_117",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_117",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_117",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_uniform_garnet_117",
+    "outer_fold": 0,
+    "panel": "stochastic_primary",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "selected_algorithm": "cfqi_tabular"
+  }
+]

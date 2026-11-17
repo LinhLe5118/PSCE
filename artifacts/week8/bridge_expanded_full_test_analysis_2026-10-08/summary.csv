@@ -1,0 +1,13 @@
+algorithm,method,rows,tasks,brier,log_loss,censored_fraction
+behavior_cloning_tabular,b2_matched_internal_diagnostic,25,5,0.045498942968879845,0.21450036471312958,0.92
+behavior_cloning_tabular,oeh_full_108,25,5,0.056364644928729855,0.27448725702659255,0.92
+behavior_cloning_tabular,published_xgboost_cf_2026_adapted_b2,25,5,0.03707359657600545,0.15702969135487987,0.92
+behavior_cloning_tabular,xgboost_cf_2026_full108_architecture_control,25,5,0.06526085934679549,0.367246915981439,0.92
+cfqi_tabular,b2_matched_internal_diagnostic,25,5,0.28493482674091053,2.0234576757657856,0.4
+cfqi_tabular,oeh_full_108,25,5,0.15329989241958747,1.5211536005526693,0.4
+cfqi_tabular,published_xgboost_cf_2026_adapted_b2,25,5,0.26628275297410076,4.019918370867637,0.4
+cfqi_tabular,xgboost_cf_2026_full108_architecture_control,25,5,0.18493777740539818,3.855646868960831,0.4
+iql_tabular,b2_matched_internal_diagnostic,25,5,0.07470786321410311,0.3487381110480777,0.92
+iql_tabular,oeh_full_108,25,5,0.07104931166261975,0.33886287220176087,0.92
+iql_tabular,published_xgboost_cf_2026_adapted_b2,25,5,0.07430891980675786,0.28760176020729555,0.92
+iql_tabular,xgboost_cf_2026_full108_architecture_control,25,5,0.06496210850598877,0.2863629501528424,0.92

@@ -1,0 +1,6 @@
+{
+  "completed_at_utc": "2026-09-30T23:53:14.439893+00:00",
+  "execution_plan_sha256": "8020ce83ceb3306d501a5280fbcc823008dabd55770bdcd442bfd5fd64bfa68c",
+  "job_count": 21000,
+  "jobs_dir": "artifacts/independent_validation_2026-09-30/execution/jobs"
+}

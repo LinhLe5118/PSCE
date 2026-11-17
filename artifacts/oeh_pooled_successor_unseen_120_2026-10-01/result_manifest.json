@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-01T14:10:10.580495+00:00",
+  "protocol_sha256": "c78ba456b413087982862e45fa4a2d29bdd3d89dba966acd75f91e16614d82cb",
+  "preoutcome_seal_sha256": "8999afbcbe783e203a456317e555487459c99618724ac3d6a5a33a31de2f9770",
+  "execution_plan_sha256": "766bffd2022d534ded2855d06700fa4f9d8c84102d82e10171ff82033b1e0f28",
+  "jobs": 108000,
+  "mdps": 120,
+  "stochastic_primary_mdps": 84,
+  "simultaneous_critical_value": 2.4668313894752476,
+  "difficulty_gate": "NO-GO",
+  "scope": "new untouched kernels; expanded training excludes first 120-MDP test; EH is an oracle descriptor transfer, not the published online theorem",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "32c76d96dbabe0a3546ebc0f440b0b8c5e88eec9f0ed2258d19ae6562e03fb8a",
+    "labels.csv": "b1be3f633b076bd6c1c5e5b97680145b7ff710907a5e21483328c4d4543d5f9e",
+    "scored_predictions.csv": "bda2f79935e4171186fe14bc311d7dc3a8eb7cd6686d0d9cef2e1d6beb7d3a95",
+    "mdp_scores.csv": "687a086f1a1ea0379e8e9d496ef840cf5a8c8776b75d75834e1a9698bf2c37f9",
+    "summary.csv": "383775fa8741ebe201233cd55ec89961abfd0a588f34d0000491c27029c97143",
+    "contrasts.csv": "1cdc92ff99801c83dddcf7ae87149edeb36f056f1380f3344f47cd980f3ada76"
+  }
+}

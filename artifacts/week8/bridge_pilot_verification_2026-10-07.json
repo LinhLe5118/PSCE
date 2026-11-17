@@ -1,0 +1,9 @@
+{
+  "status": "SEALED_PILOT_VERIFIED_NO_TEST_LABELS",
+  "manifest_sha256": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11",
+  "tasks": 14,
+  "pilot_groups": 70,
+  "npz_total_bytes": 3467396,
+  "training_streams_created": 0,
+  "test_labels_read": false
+}

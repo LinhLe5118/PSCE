@@ -1,0 +1,33 @@
+{
+  "status": "PRELABEL_PUBLISHED_SURVIVAL_COMPARATOR_ADDENDUM_FROZEN",
+  "date_local": "2026-10-08",
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "test_labels_read": false,
+  "reason": "The original fresh protocol compared OEH with internal B2 and published scalar scores. A separately declared, output-compatible published survival formulation is now added before any test labels are opened.",
+  "published_source": {
+    "paper": "https://arxiv.org/html/2601.22259v2",
+    "repository": "https://github.com/dain20000222/TabularFM4Survival",
+    "commit": "b27d69c27a5c39b87822b1aebf838e3dd900000e",
+    "source_file": "static/static_xgboost_final.py"
+  },
+  "forecast_comparisons": [
+    {
+      "method": "published_xgboost_cf_2026_adapted_b2",
+      "role": "primary published-formulation adaptation with 18 pilot-only descriptive inputs",
+      "prelabel_predictions": "artifacts/week8/bridge_fresh_published_xgboost_cf_preoutcome_2026-10-08/predictions_before_label_read.csv"
+    },
+    {
+      "method": "xgboost_cf_2026_full108_architecture_control",
+      "role": "same-108-input architecture control, not independent of OEH descriptors",
+      "prelabel_predictions": "artifacts/week8/bridge_fresh_published_xgboost_cf_full108_preoutcome_2026-10-08/predictions_before_label_read.csv"
+    }
+  ],
+  "fixed_test_grid": "the same five BRIDGE Atari tasks, five behaviors, three learners, six budgets, labels and evaluation script as the frozen protocol",
+  "metrics": ["ordinal cumulative Brier", "seven-class log loss", "MDP-cluster paired differences", "runtime"],
+  "interpretation_limits": [
+    "The published paper is general survival analysis, not offline-RL SOTA.",
+    "The second arm uses OEH descriptors and cannot serve as an independent published-method comparator.",
+    "Five MDP-cluster bootstrap intervals are descriptive.",
+    "No refit, method selection or tuning is permitted after test labels open."
+  ]
+}

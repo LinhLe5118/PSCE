@@ -1,0 +1,18 @@
+{
+  "confirmation": false,
+  "groups_reproduced": 600,
+  "identical_outer_folds": 600,
+  "identical_selected_algorithms": 600,
+  "max_absolute_selected_forecast_error": 3.907985046680551e-14,
+  "new_mdps_generated": 0,
+  "original_input_files_verified": 17,
+  "original_panel_counts": {
+    "deterministic_control": 36,
+    "stochastic_primary": 84
+  },
+  "packaging_only": true,
+  "policy_training_performed": false,
+  "scientific_revision": "OEH-v5 R44",
+  "source_evidence": "artifacts/week7/oeh_v5_e1_reuse_r44_2026-09-29",
+  "tolerance": 1e-10
+}

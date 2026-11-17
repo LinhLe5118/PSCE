@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-14T11:54:55.844291+00:00",
+  "file": "scripts/analysis/run_spibb_panel_20261014.py",
+  "old_sha256": "b8165b4b6ef78735e631fe7ebcffa8002e3d8caa4839378c14cca7bf3aa34f50",
+  "new_sha256": "0f7ea23ad1dd380d01df0adb429d916c877a8835e289190ab29bc1e69e433585",
+  "change": "call run_oeh_final_120._repo_first() after archive_imports() (or start the pool before it) so that spawned workers import this runner instead of the archived scripts package",
+  "scientific_change": false,
+  "state_at_amendment": "first prepare attempt failed in the worker pool before any MDP was written; no outcome",
+  "learner_outcomes_observed": 0
+}

@@ -1,0 +1,22 @@
+{
+  "status": "exploratory_opened_cohort_not_confirmation",
+  "baseline": "b2_plus_eh_oracle_aft",
+  "candidate": "b2_plus_oeh_aft",
+  "mdps": 42,
+  "draws": 2000,
+  "margin": 0.05,
+  "simultaneous_critical_value": 1.7287709495824959,
+  "metrics": {
+    "brier": {
+      "relative_gain": 0.11193931374073052,
+      "mean_excess_over_5pct": 0.004473441068694611,
+      "simultaneous_one_sided_lower_95": -0.0037814533700427037
+    },
+    "logloss": {
+      "relative_gain": 0.06707418095637618,
+      "mean_excess_over_5pct": 0.01482624989009643,
+      "simultaneous_one_sided_lower_95": -0.07062052950759852
+    }
+  },
+  "development_margin_gate": "NO-GO"
+}

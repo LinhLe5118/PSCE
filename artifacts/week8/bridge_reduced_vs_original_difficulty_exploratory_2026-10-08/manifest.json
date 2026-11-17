@@ -1,0 +1,13 @@
+{
+  "status": "complete_exploratory_opened_bridge_labels",
+  "method": "oeh_without_direct_oehb (reduced ablation, not full OEH)",
+  "source_sha256": {
+    "artifacts\\week8\\bridge_reduced_test_analysis_2026-10-07\\scored.csv": "7637f930b89015fdc04dd16c26657f09fea9ea985427107bdf81d70e1a2dc2b6",
+    "artifacts\\week8\\bridge_original_eri_eh_exploratory_2026-10-08\\raw_scores.csv": "e97a98973bdf3d57a1d08f7accccaf203cc48f27bdc793a5c3fee81bde93162e",
+    "artifacts\\week8\\bridge_original_tqsaco_exploratory_2026-10-08\\raw_scores.csv": "e11da1c872ee75777e8f2a6c05838ee6b4e477180dba08bdbb8c2a943d7b6135"
+  },
+  "script_sha256": "b606fa7678a96b3e51c2297b3abfd62cc038d236df4d17ec66489d099ebaabed",
+  "output_sha256": "9ca62773e5aca156e4b6d582e62f2ecf694795c4832d708c882b03be80eacc97",
+  "bootstrap_mdps": 1000,
+  "warning": "Different native endpoints/access; scores rank E_l only as a transfer diagnostic. CIs descriptive, labels already opened. EH signs oriented high=easier by negating its published difficulty descriptor."
+}

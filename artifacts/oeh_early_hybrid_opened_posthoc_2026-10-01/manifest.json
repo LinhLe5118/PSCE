@@ -1,0 +1,27 @@
+{
+  "status": "posthoc_opened_suites_not_confirmation",
+  "rule": "Use B2/OEH probability ratio to modify classes x1 and x2, then renormalize",
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25
+  ],
+  "source_sha256": {
+    "first": {
+      "predictions": "d2f8681f93032b96001f8d2f1375149bfa6578441530d55597e33e72474dca84",
+      "labels": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575"
+    },
+    "second": {
+      "predictions": "d160817f11520e8293da2bb95b81e8743201dd148db2762a069ab5129c0e4722",
+      "labels": "b1be3f633b076bd6c1c5e5b97680145b7ff710907a5e21483328c4d4543d5f9e"
+    }
+  },
+  "script_sha256": "43ba3cf9fbcf7adfaeb89db328f74ce1ec773380946965fd79608d22d34cdaad",
+  "artifact_sha256": {
+    "scored.csv": "0e4f1aa1972a45ec4617fbc0baade7861ebb64a9f629aecac1c198f534473a4a",
+    "summary.csv": "783c0690dccd8b8fb64dc27abfb5536c224edbd6f1b3e71717e2e71b36032b28"
+  }
+}

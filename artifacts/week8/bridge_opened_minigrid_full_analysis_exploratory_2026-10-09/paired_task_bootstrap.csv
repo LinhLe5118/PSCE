@@ -1,0 +1,13 @@
+algorithm,metric,comparison,delta,ci95_low_descriptive,ci95_high_descriptive,bootstrap_unit,inference_status
+behavior_cloning_tabular,integrated_brier,full OEH minus b2_matched,0.02729045783524003,0.009741178850643538,0.045974264224063366,published MDP; five behaviors stay together,post_outcome_exploratory
+behavior_cloning_tabular,integrated_brier,full OEH minus oeh_without_direct_oehb,0.005192729435973238,0.002029832181173383,0.008526098759243973,published MDP; five behaviors stay together,post_outcome_exploratory
+behavior_cloning_tabular,seven_class_log_loss,full OEH minus b2_matched,0.1764378252293924,0.04420497336975994,0.31991124637190604,published MDP; five behaviors stay together,post_outcome_exploratory
+behavior_cloning_tabular,seven_class_log_loss,full OEH minus oeh_without_direct_oehb,0.02171239410292657,0.0029445895902434735,0.04591339244340312,published MDP; five behaviors stay together,post_outcome_exploratory
+cfqi_tabular,integrated_brier,full OEH minus b2_matched,-0.08608557006609432,-0.10893385337789976,-0.06056389402282797,published MDP; five behaviors stay together,post_outcome_exploratory
+cfqi_tabular,integrated_brier,full OEH minus oeh_without_direct_oehb,-0.012290009125448694,-0.019271645083228033,-0.005884343719353396,published MDP; five behaviors stay together,post_outcome_exploratory
+cfqi_tabular,seven_class_log_loss,full OEH minus b2_matched,-0.6551570566379791,-0.8103200487802464,-0.4899175769287136,published MDP; five behaviors stay together,post_outcome_exploratory
+cfqi_tabular,seven_class_log_loss,full OEH minus oeh_without_direct_oehb,-0.06256463656226528,-0.10724009480731994,-0.010914108440617708,published MDP; five behaviors stay together,post_outcome_exploratory
+iql_tabular,integrated_brier,full OEH minus b2_matched,-0.0077782851950972546,-0.014975877071167161,-0.0004153556458519216,published MDP; five behaviors stay together,post_outcome_exploratory
+iql_tabular,integrated_brier,full OEH minus oeh_without_direct_oehb,0.0023591342245257558,-0.0009011265869777895,0.005536542436795873,published MDP; five behaviors stay together,post_outcome_exploratory
+iql_tabular,seven_class_log_loss,full OEH minus b2_matched,-0.05867761234694318,-0.1070162542751187,-0.009207375167080985,published MDP; five behaviors stay together,post_outcome_exploratory
+iql_tabular,seven_class_log_loss,full OEH minus oeh_without_direct_oehb,0.010838421297996215,-0.006824764760956132,0.029188045346962153,published MDP; five behaviors stay together,post_outcome_exploratory

@@ -1,0 +1,61 @@
+{
+  "status": "posthoc_grid_on_opened_second_suite_not_confirmation",
+  "class_weight_modes": [
+    [
+      1.0,
+      false
+    ],
+    [
+      1.5,
+      false
+    ],
+    [
+      1.5,
+      true
+    ],
+    [
+      2.0,
+      false
+    ],
+    [
+      2.0,
+      true
+    ],
+    [
+      3.0,
+      false
+    ],
+    [
+      3.0,
+      true
+    ],
+    [
+      4.0,
+      false
+    ],
+    [
+      4.0,
+      true
+    ],
+    [
+      6.0,
+      false
+    ],
+    [
+      6.0,
+      true
+    ]
+  ],
+  "common_weights": [
+    0.15,
+    0.1,
+    0.75
+  ],
+  "third_protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "second_result_manifest_sha256": "a71c2c15f9b27942bbf85dcfc7d24c315ea20881224d72668e47d82746943eef",
+  "script_sha256": "4dbe49cdc3d9e9bf425f3a048762ca676893467a4ffb1bc40f05889075468c6b",
+  "artifact_sha256": {
+    "scored.csv": "cd343283acacc7c877a3fd196c6176288c06eb729d5645a86271909260754b09",
+    "summary.csv": "1120354373dfdcaafb634bbebfebd1e013c594b081a3a8a6d5ca9c770b3ecca2"
+  }
+}

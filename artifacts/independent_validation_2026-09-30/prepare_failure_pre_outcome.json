@@ -1,0 +1,8 @@
+﻿{
+    "restored_from":  "artifacts/provenance/sources/docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json",
+    "recorded_at_utc":  "2026-09-30T15:09:04.8910037Z",
+    "error":  "Missing docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json after repository cleanup",
+    "phase":  "prepare",
+    "status":  "failed_before_choices_or_new_outcomes",
+    "restored_sha256":  "316b144afb951d04984c976d9c575756da154b4baa3b0020500684ffe3a8eca6"
+}

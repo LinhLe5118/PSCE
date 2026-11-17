@@ -1,0 +1,6 @@
+mdp_name,origin,base_states,sticky_states,actions,horizon,dense_p_r_mib,pilot_x10_transitions,x50_transitions_per_seed
+MiniGrid-DoorKey-5x5-v0,minigrid,265,1496,6,100,204.9,89760,448800
+MiniGrid-Empty-16x16-v0,minigrid,785,2297,3,100,241.53,68910,344550
+breakout_20_fs30,atari,1271,2386,4,20,347.47,95440,477200
+maze_easy_l0_30_fs1,procgen,244,1229,9,30,207.43,110610,553050
+space_invaders_10_fs30,atari,994,1584,6,10,229.71,95040,475200

@@ -1,0 +1,26 @@
+{
+  "namespace": "week8-colosseum-posthoc-v1-20261014",
+  "status": "complete_exploratory_opened_colosseum_panel",
+  "label": "post hoc: Colosseum labels were opened before every analysis in this directory",
+  "completed_at_utc": "2026-10-14T09:50:19.290219+00:00",
+  "labels_sha256": "bc937c70e70f688563b28a9f50e6411aff8bced4a2437a0b502a39e287b261d5",
+  "score_source_sha256": "a7d3c9dcc5099b0bfd7cdc66966d0a9d879be4b0e0eebfdd9e14c084deca45dd",
+  "output_sha256": {
+    "analysis_plan.json": "20a291599bbf4bd4f98c554cb3b95448909356796a2ad2421ff7c6a46be37f2a",
+    "predictions_before_label_read.csv": "7a3777fbc447499d621fc5562f7662b0f358854c9d433a6bf5cb02bdbf9091b7",
+    "tuning.json": "36adb819d53a726546dfe3f62cf1e45b88271de8ef67f67b97fb9abd646e2389",
+    "fit_runtime.csv": "6b526e13c34da01eb048846922cc4b98871fea929eb73351423dac38d7cc045a",
+    "reproduction.json": "9ff48b2eeae505ee833e40a8d196491c28ff9f1735ddcdfbabd359e6a7712d6b",
+    "input_inventory.csv": "5f8e77c5dbfc85b5e6bce0ababf89d3664ed664a646333e30cab89450451165d",
+    "prediction_seal.json": "01aac2d7f761be13fb5ca62bce155bfd0915f9d061053c18b2a83786ee7ebc1e",
+    "scored.csv": "f1004e14accb134086b7ea6a6dbf2d471fb75556ce77ad8a09ef80e181f60ce6",
+    "summary.csv": "3c82567de2cc4d7899e40bdf1a0a928486487335783a7f144a7db646d2b21de5",
+    "maxt_contrasts.csv": "221d436f481910012627b0e1fe3c83ecb11bbde0f128522bcea0268ad76db6ba",
+    "paired_mdp_delta.csv": "93e3835248cae4f441252ea5c56d8afd8998de17d0be8dbadb54272e28fe0752",
+    "block_shapley.csv": "56133224c24a8f163986520e599ec0b068301793bc124952398a32513585a4fd",
+    "decision_regret.csv": "43d660a504982c44a75a6ea4afdbfda89901961386de58821da00a9afe76fa1a",
+    "decision_contrasts.csv": "0e1a2db1add693630595e424ce407b9f1d85412a32602fc95d65b631d86693cc",
+    "zero_draw_diagnosis.csv": "2f3dccdee836d584c7f555672fbbeebc82ff8d038f6f9ee93e4087521ce2bfb3",
+    "cost_by_size.csv": "cd86ad5546c26036039c6d3faea7bbe52160d3f138be3a976b64a29dd7d15822"
+  }
+}

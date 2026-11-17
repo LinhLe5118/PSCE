@@ -1,0 +1,5 @@
+panel,method,mdps,integrated_brier,seven_class_log_loss
+control,b2_plus_eh_oracle_aft,18,0.04966172042543654,0.6155185925719098
+control,b2_plus_oeh_aft,18,0.04640103393426206,0.564051070648368
+primary,b2_plus_eh_oracle_aft,42,0.07222296791049107,0.8683432562871906
+primary,b2_plus_oeh_aft,42,0.0641383784462719,0.8100998435827346

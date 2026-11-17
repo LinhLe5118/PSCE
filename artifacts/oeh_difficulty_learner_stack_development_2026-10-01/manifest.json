@@ -1,0 +1,126 @@
+{
+  "status": "development_only_two_opened_60_mdp_cohorts_not_confirmation",
+  "candidate": "learner_conditional_aft_threshold_multiclass_oof_logscore_stack",
+  "promoted": false,
+  "weights": {
+    "b2_three_way": {
+      "behavior_cloning_tabular": {
+        "aft_direct_multi": [
+          0.250008848252818,
+          1.5954882001071452e-16,
+          0.7499911517471818
+        ],
+        "e1_oof_logloss": 0.3059894331513451
+      },
+      "cfqi_tabular": {
+        "aft_direct_multi": [
+          0.380127793832938,
+          0.11422736000434079,
+          0.5056448461627213
+        ],
+        "e1_oof_logloss": 1.1514021718566398
+      },
+      "iql_tabular": {
+        "aft_direct_multi": [
+          0.18921330223263638,
+          0.023760360030276415,
+          0.7870263377370873
+        ],
+        "e1_oof_logloss": 0.5813129519902863
+      }
+    },
+    "oeh_three_way": {
+      "behavior_cloning_tabular": {
+        "aft_direct_multi": [
+          0.3447623397308011,
+          0.005883795132136511,
+          0.6493538651370624
+        ],
+        "e1_oof_logloss": 0.28763917059806743
+      },
+      "cfqi_tabular": {
+        "aft_direct_multi": [
+          0.4517855956173603,
+          0.01896876245368422,
+          0.5292456419289555
+        ],
+        "e1_oof_logloss": 1.1237005197420025
+      },
+      "iql_tabular": {
+        "aft_direct_multi": [
+          0.21895740516324208,
+          9.656175598699024e-20,
+          0.781042594836758
+        ],
+        "e1_oof_logloss": 0.541135215901671
+      }
+    }
+  },
+  "feature_sets": {
+    "b2_three_way": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "oeh_three_way": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ]
+  },
+  "input_sha256": {
+    "e1_labels": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "e1_features": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "development_labels": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "development_features": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "e1_aft": "dbe98211fb96b6e2b74cb096d889d0e39773ba94d1a5dcd42ec2f8141f205814",
+    "first_aft": "25d001c6a7d7b6eaaf325d98799fdf7c52ab62fe9f93eb3bffb4a04200022bb1",
+    "second_aft": "cbeba8341db5f446795de7965657b5688e20420b8f54140f1c12f1597412d6c9",
+    "second_labels": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f"
+  },
+  "script_sha256": "406b57d2fac760b8b49401b939a86043f8429bd638e439acb991d8f7431c0664",
+  "artifact_sha256": {
+    "predictions.csv": "55fb5a9e80f06691cbf743a8ba1bf13ad4d1e9cde2ce713fbc46f1e7f4ac490c",
+    "scores.csv": "c1ae6270be8b55ee42abb7d6cd2bb4817346d7f3d8708586ddf00ecfa185d120"
+  }
+}

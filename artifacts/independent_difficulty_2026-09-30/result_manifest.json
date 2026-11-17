@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-09-30T17:18:06.110441+00:00",
+  "protocol_sha256": "77d92d8de37d3872d0ad176aa790d67ee4c2c535199644a297edf63c085c931f",
+  "preoutcome_seal_sha256": "ef294538d6074682a0cd0fa378248d6141d6bafd2c53007f0520b68542f763d2",
+  "execution_plan_sha256": "379943561f4e895f77137bcac5157daa61744891959b5859b6390156ab0498ae",
+  "core_method_budget_seed_jobs": 54000,
+  "new_mdp_count": 60,
+  "stochastic_primary_mdps": 42,
+  "data_only_brier_gate": "NO-GO",
+  "scope": "Independent within-generator test of learner-specific offline requirement; published EH quantities are full-MDP online-oracle adaptations; no literature-wide SOTA claim",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "8382e426f4fc57fe44df1b6a3156ba254e27b1e26c85e4b18c796688e8fc1683",
+    "labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "scored_predictions.csv": "bb21a3a16707263825d9f5777f75c92a289f425d49fbe5d815dfc2d82d432a83",
+    "mdp_scores.csv": "fe81ac4f90441dee6e3e628bff21dcbd71f69350940a8c517b40dd2c7cda3388",
+    "summary.csv": "f7a0f7e8e1cc62a9d522a5b5c30a0c2ba92115d4c038e8d8da699d18d8f2453b",
+    "contrasts.csv": "eb1c7bb2dec418e524bc1251d212a352cfbc812c2880d11c5cd90b771699d3bb",
+    "rank_comparison.csv": "29508c4ddce25d552d8d3d3fdb763386a2cfd31044e4acb3edade71d2a731dab"
+  }
+}

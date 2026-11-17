@@ -1,0 +1,31 @@
+{
+  "schema": "oeh-difficulty-later-5pct-audit-v1",
+  "confirmation_result_sha256": "ed9a7325d399489ff916f7b04d1b87c53b7b87343541ff87f3a55514a28319e7",
+  "acceptance_amendment_sha256": "89b0adab37225c68fce3cf8988129c8e86e1f909fc3e1b49f2ac0a064da61053",
+  "confirmation_original_gate": "GO",
+  "numerical_5pct_gate": "GO",
+  "metrics": {
+    "integrated_brier": {
+      "strongest_registered_comparator": "b2_generic",
+      "comparator_score": 0.0738279415131966,
+      "oeh_score": 0.061333831948270925,
+      "relative_gain": 0.16923280412325165,
+      "minimum_simultaneous_lower_bound_across_five_comparators": 0.0017816814222692302,
+      "point_gain_at_least_5_percent": true,
+      "all_five_simultaneous_lower_bounds_positive": true
+    },
+    "seven_class_log_loss": {
+      "strongest_registered_comparator": "b2_generic",
+      "comparator_score": 0.8988594535127523,
+      "oeh_score": 0.7752733432844648,
+      "relative_gain": 0.13749214045122587,
+      "minimum_simultaneous_lower_bound_across_five_comparators": 0.027597821374245615,
+      "point_gain_at_least_5_percent": true,
+      "all_five_simultaneous_lower_bounds_positive": true
+    }
+  },
+  "published_original_method_gate": "NOT_ESTABLISHED",
+  "reason": "No original published method audited so far has the same pilot-only inputs and learner-specific seven-category endpoint; tabular adaptations are not originals.",
+  "overall_user_criterion": "NOT_ESTABLISHED",
+  "e1_comparison_authorized_by_this_audit": false
+}

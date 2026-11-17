@@ -1,0 +1,4 @@
+algorithm,panel,budget,jobs,recorded_callback_seconds_sum,recorded_callback_seconds_mean
+behavior_cloning_tabular,primary,10,4200,47.298081099637784,0.01126144788086614
+cfqi_tabular,primary,10,4200,126.56234650027181,0.030133892023874242
+iql_tabular,primary,10,4200,249.922107499704,0.059505263690405714

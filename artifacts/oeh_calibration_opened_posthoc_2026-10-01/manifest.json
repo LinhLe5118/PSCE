@@ -1,0 +1,7 @@
+{
+  "status": "posthoc_tuned_on_failed_120_not_confirmation",
+  "first_result_manifest_sha256": "dec0ea5bb9d7d29bf6b9a72178889f96479b88b88a4e978535813954450e8a94",
+  "first_predictions_sha256": "d2f8681f93032b96001f8d2f1375149bfa6578441530d55597e33e72474dca84",
+  "script_sha256": "5bfc4f8b8c2c556ebc55345546b663e9676c1af6fa00fe81baa0319f85251f83",
+  "scores_sha256": "798b7a926b24a494f39c575434668f58ccb68dd8a8c9a556be95d1eef6c80b97"
+}

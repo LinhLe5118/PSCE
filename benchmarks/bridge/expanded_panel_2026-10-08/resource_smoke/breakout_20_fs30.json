@@ -1,0 +1,23 @@
+{
+  "status": "EXPANDED_RESOURCE_SMOKE_NO_LABELS",
+  "mdp_id": "breakout_20_fs30",
+  "policy_family": "structured_random",
+  "states": 2386,
+  "actions": 4,
+  "horizon": 20,
+  "pilot_nonzero_rewards": 689,
+  "pilot_seconds_including_adapter_and_behavior": 2.678665600018576,
+  "one_draw_one_seed_seconds": 51.34962760005146,
+  "observed_output_shape": [
+    1,
+    1,
+    6,
+    3
+  ],
+  "methodology": "Not a valid 64-draw timing estimate; report only as lower-bound resource probe",
+  "source_sha256": {
+    "script": "da991e4984300373a706221194a53d65df6f0d27f43d88658647e40da37b41b6",
+    "npz": "dc6385e390ac697dbc9db70274a8113a3b3ab05ccffdd85fceba0408ff1eb600"
+  },
+  "test_labels_read": false
+}

@@ -1,0 +1,17 @@
+{
+  "panel": "gambler",
+  "protocol_sha256": "ba8f1babaa59928a2929ca6642c50a5ee23ffe5691991ca379afc147273c4fc9",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-15T04:06:33.308630+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "eb8ea9afcb95e891ccc4410b13bf96e755c630100396ee3d1f3bc14d3716ac1b",
+    "published.csv": "b13e617a23b4eb5b110c6e13aca7c7d95d9e0eb46df87e64af61a15e1dab3ea0",
+    "horizon.csv": "6f1ad6885b3cc4672df40866792decde2b73a97fe25648bc4f0a768153c5d67b",
+    "curve.csv": "222ad356f71ec08e19414e76165480dbe5a97aaaa41978299880b35834c474c6",
+    "query_preoutcome.csv.gz": "6c5e3a7b869619e4778ca554a936a893d2dc40617397fa851fff1479d38c7f61",
+    "predictions_preoutcome.csv": "aa32d8142e1f445af17dbb1ce7e397e72f9639d00a148d6cb2adde18069c7a66",
+    "forecast_tuning_preoutcome.json": "fd18a343c6a53f0f69a20cc0dfe5635a755b47d7da4200547a6857f205b88d47"
+  },
+  "oeh_b_groups": 180,
+  "oeh_b_groups_sha256": "b147e2034734b06a24f388bf1ad9b6971435cd28ce425c92a4a0a8e5de5fa4af"
+}

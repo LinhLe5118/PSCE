@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-Empty-5x5-v0",
+  "seed": 1093172251,
+  "states": 96,
+  "actions": 3,
+  "transitions": 2880,
+  "online_reference_max_return": 1.0,
+  "online_reference_unique_pairs": 241,
+  "online_reference_evaluations": 576,
+  "random_reference_mean_return": 0.8478260869565217,
+  "tq_denominator": 0.15217391304347827,
+  "source_mdp_sha256": "8e52d9dc8cf8e8fffe19f0eeef4128b84faacb3b52323459700da5e3b2f892f8",
+  "pilot_sha256": {
+    "c8ee324b124994739810136c.npz": "b9255c1dfbb579dcb7ec1ccc7f1d5ac243eba30cbacaa432cf13a84db3d342cd",
+    "74014bc734b95d992101c67f.npz": "c8746c2e1383e55f471339f46c7e3b1efbfee6b2b73daf698acffca03c667583",
+    "189d20e79ae993517e1e2676.npz": "2e7428256b544349de8923efcc252fa1c6000072587dbfe71735c5557729b9dc",
+    "27fb0f01bbc76d0f595b0e55.npz": "5b71e669253dddcf81085acc64b6b8774c0fa158fe54597e890161f08038312c",
+    "4a940aa4f6242a5d433e3ff8.npz": "cdb2cbb6cb1d141c97818ec70c0162177924bd81fcd05c2314d8d6019eaf7707"
+  },
+  "runtime_seconds": 41.85728289996041,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-Empty-5x5-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": -0.07532467532467561,
+      "tq_defined": true,
+      "saco_original": 1.157676348547718,
+      "pilot_mean_return": 0.8363636363636363,
+      "pilot_pairs": 279
+    },
+    {
+      "mdp_id": "MiniGrid-Empty-5x5-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": -5.571428571428571,
+      "tq_defined": true,
+      "saco_original": 0.21161825726141079,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 51
+    },
+    {
+      "mdp_id": "MiniGrid-Empty-5x5-v0",
+      "policy_family": "structured_random",
+      "tq_original": -5.571428571428571,
+      "tq_defined": true,
+      "saco_original": 0.1908713692946058,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 46
+    },
+    {
+      "mdp_id": "MiniGrid-Empty-5x5-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": -3.3809523809523814,
+      "tq_defined": true,
+      "saco_original": 0.7012448132780082,
+      "pilot_mean_return": 0.3333333333333333,
+      "pilot_pairs": 169
+    },
+    {
+      "mdp_id": "MiniGrid-Empty-5x5-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": 1.0,
+      "tq_defined": true,
+      "saco_original": 0.29045643153526973,
+      "pilot_mean_return": 1.0,
+      "pilot_pairs": 70
+    }
+  ]
+}

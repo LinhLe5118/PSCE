@@ -1,0 +1,2388 @@
+{
+  "schema": "oeh-v2-sealed-test-v1",
+  "namespace": "oeh-v2-sealed-test-v1-20261014",
+  "frozen_at_utc": "2026-10-14T16:26:19.503282+00:00",
+  "status": "frozen_before_any_panel_data_or_learner_outcomes",
+  "oeh_v2": {
+    "schema": "oeh-v2-spec-v1",
+    "status": "frozen",
+    "frozen_at_utc": "2026-10-14T16:25:01.937373+00:00",
+    "definition": "scripts/analysis/oeh_v2_forecast.py:v2_law",
+    "base_head": "oeh_ensemble",
+    "parameters": {
+      "q_oeh": "finite_only_head",
+      "q_robust": "legacy_finite",
+      "lambda_max": 1.0,
+      "eps_max": 0.02,
+      "d0": 3.0
+    },
+    "distance": "mean distance to the 10 nearest meta-training primary rows in standardized B2 statistics, per MDP-behavior group",
+    "selected_in": "artifacts/week8/oeh_v2_development_2026-10-14/heads",
+    "m2": "stopped at step 0 (prior_diagnosis/): the continuation rule was not met",
+    "m3": {
+      "rule": [
+        "external score of the re-selected v2 lower than without M3",
+        "SPIBB (rel IBS + rel LL)/2 lower than without M3",
+        "internal rel IBS and rel LL vs OEH current each <= +0.02"
+      ],
+      "without": {
+        "by_panel": {
+          "cohort7": [
+            0.004929276792311255,
+            0.018051342608216503
+          ],
+          "cohort8": [
+            0.0006933517658458399,
+            0.006452080896266255
+          ],
+          "colosseum2027": [
+            -0.06461828797190627,
+            -0.11156388856078958
+          ],
+          "colosseum2028": [
+            -0.06945191980496623,
+            -0.09772463138159992
+          ],
+          "spibb": [
+            -0.03134973405723851,
+            -0.01843385220101068
+          ],
+          "internal": [
+            0.002093143131145059,
+            0.010388744143398299
+          ]
+        },
+        "external_score": -0.06552371899625187,
+        "spibb_score": -0.024891793129124595
+      },
+      "with": {
+        "by_panel": {
+          "cohort7": [
+            -0.015483828607276928,
+            0.008862501231342579
+          ],
+          "cohort8": [
+            0.012753185707956582,
+            0.006998366116294008
+          ],
+          "colosseum2027": [
+            -0.028165230684146114,
+            -0.08033415446976633
+          ],
+          "colosseum2028": [
+            -0.05881104169827589,
+            -0.09442753725176845
+          ],
+          "spibb": [
+            0.01025257605451757,
+            0.01308599635552632
+          ],
+          "internal": [
+            0.0034220647430349693,
+            0.007631033296097378
+          ]
+        },
+        "external_score": -0.03973323194898548,
+        "spibb_score": 0.011669286205021945
+      },
+      "checks": {
+        "external_lower": false,
+        "spibb_lower": false,
+        "internal_within_2pct": true
+      },
+      "adopted": false,
+      "oeh_current_refit_on_augmented_panel": {
+        "by_panel": {
+          "cohort7": [
+            -0.02502960630699358,
+            -0.006965652904399877
+          ],
+          "cohort8": [
+            0.00109730981739653,
+            -0.0019803790234621532
+          ],
+          "colosseum2027": [
+            0.0023494309534917157,
+            0.0067183287222143395
+          ],
+          "colosseum2028": [
+            -0.007634522761508111,
+            0.0015452957080088758
+          ],
+          "spibb": [
+            0.032804507112023984,
+            0.010894005535496465
+          ],
+          "internal": [
+            -0.0075365142857956036,
+            -0.00367232674835527
+          ]
+        },
+        "external_score": 0.007779507544954545,
+        "spibb_score": 0.021849256323760224
+      }
+    },
+    "extra_training_cohorts": [],
+    "source_sha256": {
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/rules.json": "8fc00959c61a0ff387a6481ba28640950adfb786505c32ce265fb01b7821928d",
+      "artifacts/week8/oeh_v2_development_2026-10-14/rules_m2_m3.json": "147b069684821a331420a4a182375ffdc497d8f626d561e4434df5732611c1e3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/selection.json": "8cf815fc2b167c0645e0f3445253d6264e7be45918a778cfd9731eb2e659c4b3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/grid.csv": "fb9f0b343525f29276a37209f0cf8126dbc70dd9bc1186f4ffa79ee5ecf0fd08",
+      "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+      "scripts/analysis/develop_oeh_v2_heads_20261014.py": "ed80349323362d7c06d67dd075bfd71ae85d0b70c40eef2601ae9e965159cf24"
+    }
+  },
+  "oeh_v2_spec_sha256": "6f78edec6e8ba74dd0151f6739b52b90f9d65c49802aefc1efd2a82600bfc4d7",
+  "panels": {
+    "internal": {
+      "mdps": 168,
+      "behaviors": 5,
+      "recipe": "two fresh kernels per primary template; distinct from every earlier kernel",
+      "requested_specs": [
+        {
+          "instance_id": "v2t_uniform_garnet_000",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 510189467,
+          "ordinal": 2,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_001",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 625410257,
+          "ordinal": 6,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_002",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 847150378,
+          "ordinal": 9,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_003",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 293418494,
+          "ordinal": 13,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_004",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 496036451,
+          "ordinal": 17,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_005",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 882509351,
+          "ordinal": 22,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_006",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 717941432,
+          "ordinal": 26,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_007",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 978391850,
+          "ordinal": 29,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_008",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 403405507,
+          "ordinal": 33,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_009",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 597916122,
+          "ordinal": 37,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_010",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 391743443,
+          "ordinal": 42,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_011",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 131707526,
+          "ordinal": 46,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_012",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 257360928,
+          "ordinal": 49,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_013",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 196904672,
+          "ordinal": 53,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_014",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 671788302,
+          "ordinal": 57,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_015",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1004124991,
+          "ordinal": 62,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_016",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 379661221,
+          "ordinal": 66,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_017",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1047037911,
+          "ordinal": 69,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_018",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 466262648,
+          "ordinal": 73,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_019",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 261418468,
+          "ordinal": 77,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_020",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 519233678,
+          "ordinal": 82,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_021",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 871032538,
+          "ordinal": 86,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_022",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1025354028,
+          "ordinal": 89,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_023",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 490614412,
+          "ordinal": 93,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_024",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 409920665,
+          "ordinal": 97,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_025",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 325002308,
+          "ordinal": 102,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_026",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 243820504,
+          "ordinal": 106,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_027",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 663967250,
+          "ordinal": 109,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_028",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 286134685,
+          "ordinal": 113,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_029",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 789034971,
+          "ordinal": 117,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_030",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 490628060,
+          "ordinal": 2,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_031",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 355682457,
+          "ordinal": 6,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_032",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 507159409,
+          "ordinal": 9,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_033",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 344729168,
+          "ordinal": 13,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_034",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1080970119,
+          "ordinal": 17,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_035",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 735544838,
+          "ordinal": 22,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_036",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 895785797,
+          "ordinal": 26,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_037",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 703211115,
+          "ordinal": 29,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_038",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 600990574,
+          "ordinal": 33,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_039",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 876612716,
+          "ordinal": 37,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_040",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1028821101,
+          "ordinal": 42,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_041",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 760319006,
+          "ordinal": 46,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_042",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 941283528,
+          "ordinal": 49,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_043",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 786106114,
+          "ordinal": 53,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_044",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 771555749,
+          "ordinal": 57,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_045",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 105573323,
+          "ordinal": 62,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_046",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 247908096,
+          "ordinal": 66,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_047",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 374902567,
+          "ordinal": 69,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_048",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 700566902,
+          "ordinal": 73,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_049",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 527923664,
+          "ordinal": 77,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_050",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 972989405,
+          "ordinal": 82,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_051",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 368480656,
+          "ordinal": 86,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_052",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 303994709,
+          "ordinal": 89,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_053",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1094461382,
+          "ordinal": 93,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_054",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 117699349,
+          "ordinal": 97,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_055",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 273595212,
+          "ordinal": 102,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_056",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 607211779,
+          "ordinal": 106,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_057",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 886172748,
+          "ordinal": 109,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_058",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 950641399,
+          "ordinal": 113,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "v2t_uniform_garnet_059",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1051660921,
+          "ordinal": 117,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "v2t_forward_layered_000",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 990967192,
+          "ordinal": 0,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_forward_layered_001",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 688997215,
+          "ordinal": 4,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_forward_layered_002",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 393232437,
+          "ordinal": 7,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_forward_layered_003",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 732932000,
+          "ordinal": 11,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_forward_layered_004",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 693689357,
+          "ordinal": 14,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_forward_layered_005",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 851433158,
+          "ordinal": 18,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_forward_layered_006",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 828691485,
+          "ordinal": 20,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_forward_layered_007",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 537280415,
+          "ordinal": 24,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_forward_layered_008",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1006037412,
+          "ordinal": 27,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_forward_layered_009",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 399835479,
+          "ordinal": 31,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_forward_layered_010",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 631588380,
+          "ordinal": 34,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_forward_layered_011",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 679126631,
+          "ordinal": 38,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_forward_layered_012",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 876037013,
+          "ordinal": 40,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_forward_layered_013",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 835745793,
+          "ordinal": 44,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_forward_layered_014",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 239023708,
+          "ordinal": 47,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_forward_layered_015",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 898832030,
+          "ordinal": 51,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_forward_layered_016",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 912350843,
+          "ordinal": 54,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_forward_layered_017",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1035416195,
+          "ordinal": 58,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "v2t_forward_layered_018",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 294873360,
+          "ordinal": 60,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "v2t_forward_layered_019",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 992893631,
+          "ordinal": 64,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "v2t_forward_layered_020",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 654342573,
+          "ordinal": 67,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "v2t_forward_layered_021",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 912840221,
+          "ordinal": 71,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "v2t_forward_layered_022",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 717050564,
+          "ordinal": 74,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "v2t_forward_layered_023",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 572735516,
+          "ordinal": 78,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "v2t_forward_layered_024",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 117964190,
+          "ordinal": 80,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "v2t_forward_layered_025",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 759955715,
+          "ordinal": 84,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "v2t_forward_layered_026",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 761732828,
+          "ordinal": 87,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "v2t_forward_layered_027",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1049214998,
+          "ordinal": 91,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "v2t_forward_layered_028",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 273799446,
+          "ordinal": 94,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "v2t_forward_layered_029",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 780213950,
+          "ordinal": 98,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "v2t_forward_layered_030",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 946818137,
+          "ordinal": 100,
+          "family_ordinal": 30
+        },
+        {
+          "instance_id": "v2t_forward_layered_031",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 259116585,
+          "ordinal": 104,
+          "family_ordinal": 31
+        },
+        {
+          "instance_id": "v2t_forward_layered_032",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 492642201,
+          "ordinal": 107,
+          "family_ordinal": 32
+        },
+        {
+          "instance_id": "v2t_forward_layered_033",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 143777158,
+          "ordinal": 111,
+          "family_ordinal": 33
+        },
+        {
+          "instance_id": "v2t_forward_layered_034",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 398611894,
+          "ordinal": 114,
+          "family_ordinal": 34
+        },
+        {
+          "instance_id": "v2t_forward_layered_035",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1072249248,
+          "ordinal": 118,
+          "family_ordinal": 35
+        },
+        {
+          "instance_id": "v2t_forward_layered_036",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1049864091,
+          "ordinal": 0,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_forward_layered_037",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 632833964,
+          "ordinal": 4,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_forward_layered_038",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 754027833,
+          "ordinal": 7,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_forward_layered_039",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 841273791,
+          "ordinal": 11,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_forward_layered_040",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 204080308,
+          "ordinal": 14,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_forward_layered_041",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 185442955,
+          "ordinal": 18,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_forward_layered_042",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 558210287,
+          "ordinal": 20,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_forward_layered_043",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 613820302,
+          "ordinal": 24,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_forward_layered_044",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1018259521,
+          "ordinal": 27,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_forward_layered_045",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 964738204,
+          "ordinal": 31,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_forward_layered_046",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1091669032,
+          "ordinal": 34,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_forward_layered_047",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 487965751,
+          "ordinal": 38,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_forward_layered_048",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1000235731,
+          "ordinal": 40,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_forward_layered_049",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 735990149,
+          "ordinal": 44,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_forward_layered_050",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 952660673,
+          "ordinal": 47,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_forward_layered_051",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 440637233,
+          "ordinal": 51,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_forward_layered_052",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 619244958,
+          "ordinal": 54,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_forward_layered_053",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 835976040,
+          "ordinal": 58,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "v2t_forward_layered_054",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 747381726,
+          "ordinal": 60,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "v2t_forward_layered_055",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1007326549,
+          "ordinal": 64,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "v2t_forward_layered_056",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 482508640,
+          "ordinal": 67,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "v2t_forward_layered_057",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 248972482,
+          "ordinal": 71,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "v2t_forward_layered_058",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 681180138,
+          "ordinal": 74,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "v2t_forward_layered_059",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 448679105,
+          "ordinal": 78,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "v2t_forward_layered_060",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 298643989,
+          "ordinal": 80,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "v2t_forward_layered_061",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1089134723,
+          "ordinal": 84,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "v2t_forward_layered_062",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 778144421,
+          "ordinal": 87,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "v2t_forward_layered_063",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 838437199,
+          "ordinal": 91,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "v2t_forward_layered_064",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 349916526,
+          "ordinal": 94,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "v2t_forward_layered_065",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 152543999,
+          "ordinal": 98,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "v2t_forward_layered_066",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 921349035,
+          "ordinal": 100,
+          "family_ordinal": 30
+        },
+        {
+          "instance_id": "v2t_forward_layered_067",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 194146572,
+          "ordinal": 104,
+          "family_ordinal": 31
+        },
+        {
+          "instance_id": "v2t_forward_layered_068",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 917723448,
+          "ordinal": 107,
+          "family_ordinal": 32
+        },
+        {
+          "instance_id": "v2t_forward_layered_069",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 405995309,
+          "ordinal": 111,
+          "family_ordinal": 33
+        },
+        {
+          "instance_id": "v2t_forward_layered_070",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 719422035,
+          "ordinal": 114,
+          "family_ordinal": 34
+        },
+        {
+          "instance_id": "v2t_forward_layered_071",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 198205598,
+          "ordinal": 118,
+          "family_ordinal": 35
+        },
+        {
+          "instance_id": "v2t_bottleneck_000",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 812670318,
+          "ordinal": 3,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_bottleneck_001",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1073052826,
+          "ordinal": 10,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_bottleneck_002",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 567972800,
+          "ordinal": 16,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_bottleneck_003",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 215635523,
+          "ordinal": 23,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_bottleneck_004",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1003987557,
+          "ordinal": 30,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_bottleneck_005",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 484906989,
+          "ordinal": 36,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_bottleneck_006",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1042426438,
+          "ordinal": 43,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_bottleneck_007",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 609853974,
+          "ordinal": 50,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_bottleneck_008",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 755126657,
+          "ordinal": 56,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_bottleneck_009",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 523874154,
+          "ordinal": 63,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_bottleneck_010",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 895106019,
+          "ordinal": 70,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_bottleneck_011",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 683464819,
+          "ordinal": 76,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_bottleneck_012",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 859382451,
+          "ordinal": 83,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_bottleneck_013",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 504923799,
+          "ordinal": 90,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_bottleneck_014",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1078150362,
+          "ordinal": 96,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_bottleneck_015",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 431921219,
+          "ordinal": 103,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_bottleneck_016",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 287203879,
+          "ordinal": 110,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_bottleneck_017",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1041269385,
+          "ordinal": 116,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "v2t_bottleneck_018",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 891899860,
+          "ordinal": 3,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "v2t_bottleneck_019",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 128670630,
+          "ordinal": 10,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "v2t_bottleneck_020",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 140344634,
+          "ordinal": 16,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "v2t_bottleneck_021",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 312073904,
+          "ordinal": 23,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "v2t_bottleneck_022",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1052094506,
+          "ordinal": 30,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "v2t_bottleneck_023",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 142314756,
+          "ordinal": 36,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "v2t_bottleneck_024",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 824325244,
+          "ordinal": 43,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "v2t_bottleneck_025",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1068757769,
+          "ordinal": 50,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "v2t_bottleneck_026",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 732069838,
+          "ordinal": 56,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "v2t_bottleneck_027",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 261127212,
+          "ordinal": 63,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "v2t_bottleneck_028",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 448537277,
+          "ordinal": 70,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "v2t_bottleneck_029",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 773186965,
+          "ordinal": 76,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "v2t_bottleneck_030",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 354501322,
+          "ordinal": 83,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "v2t_bottleneck_031",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 411994337,
+          "ordinal": 90,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "v2t_bottleneck_032",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 494235762,
+          "ordinal": 96,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "v2t_bottleneck_033",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 606821441,
+          "ordinal": 103,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "v2t_bottleneck_034",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1097276274,
+          "ordinal": 110,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "v2t_bottleneck_035",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 674214550,
+          "ordinal": 116,
+          "family_ordinal": 17
+        }
+      ],
+      "kernel_fingerprints": {
+        "v2t_uniform_garnet_000": "b5152b90eeb2105fd9cec95726be48d3b1cc0903d347bc3e1ca64aeda76e960f",
+        "v2t_uniform_garnet_001": "f03e4c970750fc1428f0f9f1bb7a3c7042607de98388c3c07b1e65e0fe2af112",
+        "v2t_uniform_garnet_002": "e6c15520f77816478d9cad420ab94315fbdd96cca56dd50dd6cc01c25efeedda",
+        "v2t_uniform_garnet_003": "bee57db45b6f9af51d34a7c1f4107921b2a8bc966beac1998075409586b74cfd",
+        "v2t_uniform_garnet_004": "6c886179e21340cb42800f15895a7481eac051437d664ee4d0a8a9e0c1b696a2",
+        "v2t_uniform_garnet_005": "54ec4d0405911265f5c73d4295981ac227f6809fed3217497f68101e4ba373f7",
+        "v2t_uniform_garnet_006": "d4049737ff68bf1307e3cff60769a6b0ac159a441a5dda4f8bac6b1cedaf497c",
+        "v2t_uniform_garnet_007": "a1ac3021ea4d85082bfe0fef11011e9ea6882a213451120c5254fdae1a170074",
+        "v2t_uniform_garnet_008": "a18661437dbd65e317d64c18f4a7c0a738ed74bcccf3aa821b2d8ffd757b7b1e",
+        "v2t_uniform_garnet_009": "2d4d0e6fb5a601fddfa3f7fcdf8f47bec8dafe59502cb7d2a598abef6ec8d0d0",
+        "v2t_uniform_garnet_010": "0bfc88ef6a939780bd380f88d904c2e22eb337e25fc803962590b694a9b36ff1",
+        "v2t_uniform_garnet_011": "d7b8838de4bb9e0ea0499c3e8dbdeb26dd8c212ffabb144dbcfffeb4ae26c0a6",
+        "v2t_uniform_garnet_012": "7bb9a2da5c25c19311195591429b3d27a50b3e3a166895dfb8a98aa1f8f7949e",
+        "v2t_uniform_garnet_013": "7696f166401046c1b879484194cec7d3c27c0a15e14adb6f2e1e8169bc3b9416",
+        "v2t_uniform_garnet_014": "d67bf526ce7382ccff121e778a54c812b12e363233c0d565db740023e6d0a755",
+        "v2t_uniform_garnet_015": "412ba13c1ac12cf27cf82334478214f042bd99df0f2e65cdabf64c9d7b2ab1c1",
+        "v2t_uniform_garnet_016": "aec0e6040d8d3f1c1b0544cd891cb99c348c486688a145e5441e0cd2b090eedc",
+        "v2t_uniform_garnet_017": "84c6f78e95433032f4861b763826b62c26946cb897ad4487505a39e83517c3f6",
+        "v2t_uniform_garnet_018": "67697a107b26ac33a692385bc3fb2bbd473531555b6dfa99663031e455b6809e",
+        "v2t_uniform_garnet_019": "626673079c498ebd2da253f0db36f7a97875234891a11f16e8c70f031b8dba42",
+        "v2t_uniform_garnet_020": "e7d3fee31a2a7ee620a6a3ac1faae66f29da81ec05875722b7626ea713f187ca",
+        "v2t_uniform_garnet_021": "7e83d5bce3888ec77c7091dca352cbeeb1aa202d6cdf7ef83acdbb6d071d2e52",
+        "v2t_uniform_garnet_022": "674db545e351205e1212ea6fb771c80cb0bb48552274d3681c00a43e613bf22f",
+        "v2t_uniform_garnet_023": "f5ea6e21b973ee757af380c06a0470acebaa5063a388fda0974236006e502906",
+        "v2t_uniform_garnet_024": "e877e96faeb7b68220dfefc7bcad87cf91c1627f4799aafd83ec780549b758e0",
+        "v2t_uniform_garnet_025": "81cd30340a575ee1f66d54b40257018c896642ec3981e6e465bb1f124aeea125",
+        "v2t_uniform_garnet_026": "b36234db306ebadb5d0a182a37de663b2823c8d1fe828ef1836409313f8d2dcb",
+        "v2t_uniform_garnet_027": "a0bca083d2f514466173a7b6c8dddb7f58ccab80b3fec98529faf201419b0ee6",
+        "v2t_uniform_garnet_028": "ad28d2f44303dd6a8c93b8078d4abef93ae86d0d01823d26f893601cc81a186c",
+        "v2t_uniform_garnet_029": "9fe3ae3cfcf48ec4baf0fe4992019e1855c72a2bd4d3004cf15c97458aaae234",
+        "v2t_uniform_garnet_030": "2b95e56ad6947f56d6905f278618093b44f236c1df1a7f81ca5a9ae3cd5f0897",
+        "v2t_uniform_garnet_031": "dd7bdca34b07b2eb74eb5a63960b4a04bb260b434de4abbfb75013d47940da90",
+        "v2t_uniform_garnet_032": "cc22f25768fe0d35cea9abbe6dfdbb858f93cfcbd0b1d96b31c5edc159fa0052",
+        "v2t_uniform_garnet_033": "b744f396bc4eda0be94c17e3532ae4b87047165a14dfb90a06aa9bc929a6c7f2",
+        "v2t_uniform_garnet_034": "177f9057ff9fa439f6f88e9c1c8ce6dcab782850a700aad8fef1a73afae077b9",
+        "v2t_uniform_garnet_035": "d42ebfedd09e2599094210b55db2c84dd6c7c0ffce3c5ec7ef1658c9fa290383",
+        "v2t_uniform_garnet_036": "bafa5249a2afed418431984fbbd3faacb2d48b5ad6ff049cba315856cd8834f6",
+        "v2t_uniform_garnet_037": "08899681514d24e2bad69b5b7194754e1b48aa3915065b9083395be26fb140fa",
+        "v2t_uniform_garnet_038": "02fd2e3e2c171e010eb5d41cf522216337bdfef705e400683ef0eae112a2eaf2",
+        "v2t_uniform_garnet_039": "6d89ee6199c85191bccd8e6ab70f24f23564fa942a536080766c5ba31ddcce58",
+        "v2t_uniform_garnet_040": "e53f7d44fd66eb3e688550b71b9d78a4b8c2a4963dd850728f86c393b478ccf5",
+        "v2t_uniform_garnet_041": "62496ab936474bb42651e46fd83eb21db5184d7baa6d88daffc5583355f32623",
+        "v2t_uniform_garnet_042": "1b170f90b310169781b6d278a6800e464875a8d0fc4bfc6d74336020362fb9de",
+        "v2t_uniform_garnet_043": "2fde6aa1d4111ed1faab7ce5e333dcf0fd7c66eaac8a75e6a5275d7e47923bf6",
+        "v2t_uniform_garnet_044": "77204d3181f21f452d0311fbfe2a60312d089408ae9661b51f071b2070b07521",
+        "v2t_uniform_garnet_045": "4932877976f88055ef497b27eef0627ef005d74cd602c435027335b3b6af6cae",
+        "v2t_uniform_garnet_046": "4fb5f81e6f5e6398ec7ffcd4a3f41e5fc2a1cf8225eae4691a3c9ab01a722a57",
+        "v2t_uniform_garnet_047": "728ed1eef6e7882cfc7b25f40b6b86abe5fb81145254cd31407c8336ad00b9ea",
+        "v2t_uniform_garnet_048": "69873ffc710c8f9b5651c6b0fc56a565906801a6b0e8da5449d002cfdefe9529",
+        "v2t_uniform_garnet_049": "7a3a69eea4281e2e6b71ef763c48c88fafa97cc2ba7311ab7d60e86854a56746",
+        "v2t_uniform_garnet_050": "55e974318eabc62ff38e039d1494dbcb28d60491da8979e9a38fee656430b5e7",
+        "v2t_uniform_garnet_051": "10cec59312ef9eae7f8fae48d895245287b521c86dda0029980a1946f712f2ab",
+        "v2t_uniform_garnet_052": "a710ec78cf3bdbb35d3971313f38c1c26519691cf0668603d066f575cafcf770",
+        "v2t_uniform_garnet_053": "7c8018db8a92d271dd22df5f2e3f85a29cb4ffdd3aeb0f6fd0cc9ccabe0294e1",
+        "v2t_uniform_garnet_054": "e50068ee349686b353450274d54185f330edede795564a0d3ab11a0970895661",
+        "v2t_uniform_garnet_055": "a7fc8333dc3d86dc3f96103ff783adbc6821b32ebacf3f35bd861522a050d047",
+        "v2t_uniform_garnet_056": "5d5c718f23e8709321f982a79c126ed7389ac91aef0be04ac0bfb46786997796",
+        "v2t_uniform_garnet_057": "d00e9de4b729eecd22a08c695b2a5a93a38cd292658dd626dd96de982e1a7c20",
+        "v2t_uniform_garnet_058": "1681abaf236147e8cfe10cbbb1c0aebac9d2305cbde3708a5729f43fb9af1fe9",
+        "v2t_uniform_garnet_059": "723e2547f4e76053419b89ef63cfdd020745d92f838473b5ff1c787cc01796b2",
+        "v2t_forward_layered_000": "6f82289eefc31c2e9c64bb2f05601b8ca715a028eec55e2d593076c131c13f0a",
+        "v2t_forward_layered_001": "66861dd5f1e3f04337932f481048e0aa4183ae932afd8d183b57ce7825b3300e",
+        "v2t_forward_layered_002": "18420d3642329c7a52d5ce4dac0c8690e51c7b499ebd28af7560cf9b3a696767",
+        "v2t_forward_layered_003": "888c1066ee8827ef84a3eb660e89ff16e5caceb2866295a33c54f5cb736dc984",
+        "v2t_forward_layered_004": "59b934df87fda4897585e8767d05520dc28897c85435ac532b691017538903af",
+        "v2t_forward_layered_005": "3e8e9efe47356d9b056093f407df1f4f46d412b821d077a4092558e757bb85c2",
+        "v2t_forward_layered_006": "cd581c856035d5be60762eeb27f69fe4da07cd8f83058060d22de8b56fcc679e",
+        "v2t_forward_layered_007": "0e19c8b87d3f2f6f5760be32ac0d08ee42287a0e9d5fe5a0ad86cebd211f1b54",
+        "v2t_forward_layered_008": "0d096bfa0070ee5cdd40d0357deb1a7001e46a64f6f960f784c6411562dd84c5",
+        "v2t_forward_layered_009": "936ad1e942984281a874eb0b01f278f6b0a737df91ea645b36a93993c9645856",
+        "v2t_forward_layered_010": "e374f41412647bd774001f667b2fed90ccbddfee8ea1b681cda854bbc09064bc",
+        "v2t_forward_layered_011": "1b6003461b3c628ff1a71303a615b7f5b2c62c9ae07eaeba037b921bae93660e",
+        "v2t_forward_layered_012": "60ab5ea85e0e54dd1dea2335bba540b45c460f75214dcf50039b227c9a415f3d",
+        "v2t_forward_layered_013": "3566a1eeb5cf9cdbaf7669d99876ba669b075cac48c6005b733381d1d97843f6",
+        "v2t_forward_layered_014": "0cfb112296cc4b18d6b277251bd24c9fc3a1fc7e1cb87a387daadad6df9a2947",
+        "v2t_forward_layered_015": "45dd7e25ab4e9897d5956c9ed523ac93a3b9f542587eabc0425e5c208f0218fe",
+        "v2t_forward_layered_016": "2fdcf2f14cfd137da5f89f52407f92ffda960600c5161a4f47443e35617e3b05",
+        "v2t_forward_layered_017": "ae78df6aa1fa67859103c918e31594110426ab3be0a06af24560be3dc2141a80",
+        "v2t_forward_layered_018": "b6ade010e5abef4bb4d0dc845310113a90593f450f12c4fb1c99573dd72181b5",
+        "v2t_forward_layered_019": "d619c28e90eed5bcf9c2a8cd48ea715a856ce2eb23d85f9b87f4c25366f3b82c",
+        "v2t_forward_layered_020": "c5dc5f66e89d90d5417e6f22546b56210903de57fb7ba86794dfcce3f55c7f3a",
+        "v2t_forward_layered_021": "2c1de9a517937f4b5ad15e25630417764cca80e475b8816d156605ad10fd755c",
+        "v2t_forward_layered_022": "caec64f6cc19d01f2152ad65a2a3f004ce0466f7ca0748b0247a6ec4eaa3171a",
+        "v2t_forward_layered_023": "dce734e7155f367cb3ac424fe2802a459f39446637d238efd6d5c1b9a11d1d53",
+        "v2t_forward_layered_024": "9598bb68117853ac18685536929c8db2c4a876ae127ec6da04ea779da90bf7d1",
+        "v2t_forward_layered_025": "a8321f1d91910e08ea2683cfa590502cb16d8ea83ca93a1cdd5a71df5b0e343a",
+        "v2t_forward_layered_026": "777dad033f8f588e6f71c5a82e2f9a17084b774e07374f1026365b5b2a259511",
+        "v2t_forward_layered_027": "5ef9d0c10b7d1d0e13dda645ac82e5330e1324af2159db284fc8c98b2312f8b8",
+        "v2t_forward_layered_028": "fa50a3c5d375947370533cc705496db224c63e555d97a60a61f4b6eefc3d8ee0",
+        "v2t_forward_layered_029": "25440135ae253078beca9a56530987855099aa0924ec5dba85a4f9177ce5f8bf",
+        "v2t_forward_layered_030": "d7ed5e718ccab25ac3d2c0668ce39ec034ff86766fa4cc29ad350bfe03dbf3dc",
+        "v2t_forward_layered_031": "991155bf57c857cc78835ecad693b1b494d8fb9cc9fc9c94ba3d9267254e1e3d",
+        "v2t_forward_layered_032": "f09ed0da876114676a46325598619dab087c955c7e0ac18e4a5f0e5040229012",
+        "v2t_forward_layered_033": "6d1100d1721d8e74e0f1bd6a4fcfe50187ece5bf8319357fe84688c2ae6136e0",
+        "v2t_forward_layered_034": "5eab86a71da797be94a0097f3f122cbc87fac83df4ad266d50803d6e499c26f0",
+        "v2t_forward_layered_035": "5a36f4b89e41da36e55ddb9b62930c0c2c837216b3810b5b7261250cc69ae050",
+        "v2t_forward_layered_036": "64d3221b4c2a9e3f94cd14a7ee305713ef02197886e86c9cd4681dd8294b9d2d",
+        "v2t_forward_layered_037": "9355cf4e429cf5f0f7aec315604350a6ef88a79715971bbc8075599d928e7f81",
+        "v2t_forward_layered_038": "7d98bfb932070680919942cde4614fdace5b6e1ba480d7d3df5c2871f3546c3e",
+        "v2t_forward_layered_039": "a63220242bb0bad836c7924c4731472c53a8e150089b2082395110a85814132c",
+        "v2t_forward_layered_040": "ac7293784b0ef1bd36821256d8d1c7e46d3c5188ae7318fb54ed0e0377ea81a8",
+        "v2t_forward_layered_041": "fb61297278ca37913bdb1024500d59a670d7616866c3de43db9b484eb51efb92",
+        "v2t_forward_layered_042": "10fa1b13253e5307285b9cec1b037ac728df47e8a0a8c71a152601d5f325dc3b",
+        "v2t_forward_layered_043": "b774636bb01e6ff460e9ecbd9a2ff522172ae9c484f63299854f9cddf8f15bc0",
+        "v2t_forward_layered_044": "fd139025c11fa3f7ea7ff2cd42ac62ae010d24ee7aba9b188942aed69f598866",
+        "v2t_forward_layered_045": "bc11e1680a9d383fcf238d10e8a73fbb4258a6340fc97573148970cf31c60702",
+        "v2t_forward_layered_046": "53eb155fca4f9e3157c320f211b6e67f7a2d672b44dd81de48779c3c3c373038",
+        "v2t_forward_layered_047": "bfcb4ccb383698f04ff5469fa855e7092ad2adb6a71a87967f08518fe76617c9",
+        "v2t_forward_layered_048": "029f62e8bf6f7e0c8a96ed3c553a9913985b6f446b8e996b7b54225155ab5f0b",
+        "v2t_forward_layered_049": "e92a398c4b7152b55438c1df012a6fa059f70b739d3aa13b8d06de0ff355a013",
+        "v2t_forward_layered_050": "c21a9ff9c0b25dab9cbaf0707a1486fd2d6188629da57afffd413b6cd5ff403e",
+        "v2t_forward_layered_051": "a7997a2237a1586c56bc29c70597c98a4bb420c586d16aa2161d6e654a00a57a",
+        "v2t_forward_layered_052": "e2e097c0596a804fa9c338c5bf8643b31182485ca9ca17ac6a61b962b71806d4",
+        "v2t_forward_layered_053": "fcf24dee6dab1ddf28bec20bad400f1cc8e093a63bbcb9c29fadb5c237449b76",
+        "v2t_forward_layered_054": "dbfc7b8994257f2bf3657cefc83b1c64b8740a8d60e8ad8b2af0b5863e66fc95",
+        "v2t_forward_layered_055": "3a542b54d2b756ad8c38ea2691d91e88e38fa066ab0bd451a75b161e9c6382b4",
+        "v2t_forward_layered_056": "c6f4aeaa027a04cc244ddbaac4a1c89482950d0f4a0adb844f0b2338f8548495",
+        "v2t_forward_layered_057": "51a09eaab47d63e7a10c6b18ab5ef6bf38b0efdd07910b87a2ebb8dfdcb71247",
+        "v2t_forward_layered_058": "eebbd21befdc443b1e3a7dcc90b10c8cecb49fd7ac7f0fae2fffc8e7a39725f8",
+        "v2t_forward_layered_059": "2e8e9b9a16ed4600c8f257c4e5d3c6f086ee08eace79737f4bc494f6607decfd",
+        "v2t_forward_layered_060": "14eed6e565a2ed49a91de05983be19105e766546319f1926a66bb8ceb158f447",
+        "v2t_forward_layered_061": "55d3a9f2284eab246bc57e9bd415ea55498fa17e47b1295a3c414d2824c5b202",
+        "v2t_forward_layered_062": "eefb50503adc9522c159fa3a4c4c45b25a560a01aabcd7182dd7b2b1c96a676f",
+        "v2t_forward_layered_063": "d542a15092795c70187f51b69b5853e06ef91134f0aad56b739af8bfdf3a1e24",
+        "v2t_forward_layered_064": "eaf48e105f36285d5add141cd85be52dd474abc1a320a8451e2bb483202d087f",
+        "v2t_forward_layered_065": "f2d90030b9141046e75f5a8a7150cbf5cc816cb30134d6863e1519d1bebf0cc1",
+        "v2t_forward_layered_066": "224df43c8276c900d6be8128679f352c293afbf7545423d10b304b23934eeb83",
+        "v2t_forward_layered_067": "18aef8366d00edd550475ca9327d4b2b82eab0e1a84d13ba6ce178f4f574328f",
+        "v2t_forward_layered_068": "b1cd868aa1520f78eb1c063fb9b7dd94c9b12cbfeab12c3ece954b78c7522c28",
+        "v2t_forward_layered_069": "29d2a70c2e411661d2668cce45699c145a7b880a2f9d1fdd9dcf28df73304981",
+        "v2t_forward_layered_070": "c209a3e6cd7e4e0649fd72a4031e4ed653da35be663f4506daea82c493d46b64",
+        "v2t_forward_layered_071": "29039ea8b6d6ff9f91885cd6c7336a0cabd1fe5a25bf1d7069902715f6bf7c08",
+        "v2t_bottleneck_000": "f42f9185ac84f7c8f597fd6b50c951e429d138cea88a2294e996f6e3d7ace08d",
+        "v2t_bottleneck_001": "323e2e66468aa8d6915efee11895257122edc8b6d7869858d3c0bdb73bb5d4fd",
+        "v2t_bottleneck_002": "0f72049bdb364e5b687e559de1e83f4a579fbeae569ffacfb98b0336aa469c6e",
+        "v2t_bottleneck_003": "a9223096fab8b969592a3050c4a0b0efa01f73234f78188492a08e56b1f91aa0",
+        "v2t_bottleneck_004": "5f0691c508e0c0906fe002dcc97a2ec77c2c65f79aaecafead005cbbd4a98aed",
+        "v2t_bottleneck_005": "7e36d7e2c5882dc90b11220c98dabf8e87eb482129a275cfc79abe9f2bfb315d",
+        "v2t_bottleneck_006": "c357f2c16416cc091d897ccb443fb87dfb9dfa4fcb17ebe0f2d0449a49095539",
+        "v2t_bottleneck_007": "576600bf8964509cf91f2854682f909e82aa5fd2165055d32d198cd171d29870",
+        "v2t_bottleneck_008": "e7df901435a1ffbfeda75b24010011de06a4f9fd9d9e25faa46d53c79003aab8",
+        "v2t_bottleneck_009": "d7406a68c1ef0af8b9c694b0d5a23f41900842f5ccc0b8d020d084cf8c3b170e",
+        "v2t_bottleneck_010": "24b9c54c4ce8bb3e5f50d15fa5e07dead0671ac1b74a13acc1992ebd8b00e46f",
+        "v2t_bottleneck_011": "d916adc1796e0084c140431a0a23566532839ae4f919ac81a4ebce17a672498f",
+        "v2t_bottleneck_012": "9c56b3e8784fb1c3f656c0ac9bf4a0c52c579429f59a51f4fc04f77825ba6a02",
+        "v2t_bottleneck_013": "1dad8c733f1e12b4cc2c09b77457ffb81a08de495fa7e9c88c0cb23d5536f204",
+        "v2t_bottleneck_014": "0c5bccb25f45171abde31c54b33b23408682dcb287d40a1cde989c49c60bfe7a",
+        "v2t_bottleneck_015": "b8eee9908cbee1220aea0b4b241093a4ab8325af69f4ac9d117feee697f091d9",
+        "v2t_bottleneck_016": "5d02f048e2d9f1c1c5e437ef1ee6a86291151d9e97b17ce057481b1589b5f48c",
+        "v2t_bottleneck_017": "a362fcca31dd8dde2ed7b2a63724504dff0da91d8426b7fe915734a8e923249c",
+        "v2t_bottleneck_018": "e3dd5844be389a0cb86d5bd74f54f825cfa31a99f2a5beb8d4e75a630c43d23a",
+        "v2t_bottleneck_019": "344d5cbc27fd8dc2ac7d37487388207f0a6023ff4df96f7d3fbb364d262e211a",
+        "v2t_bottleneck_020": "b1669360b9875e5deada27eb86f3a57363b9043316c47632d441b2adfa0bd21b",
+        "v2t_bottleneck_021": "d709ca2689a4d744d9ecda316604b5b4a8f6986ecc3ab41019e365087b83bb1a",
+        "v2t_bottleneck_022": "00131c00566277384aa62f27d2a61e8b7fb98ea22b23105eb4acd0e8998f0451",
+        "v2t_bottleneck_023": "433aea30a45c0ae53e79ebdc71f1aa748d2163733e2b513536e3157cc90743f0",
+        "v2t_bottleneck_024": "29c764db830f150d60250bf18a0669ee9df5889a8cbe0b76e81fc3010ef8ebda",
+        "v2t_bottleneck_025": "c45887742d8d63f5bd89b989af6d08aa477edf6ad201aed7aa9db34d2baa2e31",
+        "v2t_bottleneck_026": "73c1d12373e11d13ceee3458c1e622b7679b98d76cb368e3adcb3c2e4d5390d9",
+        "v2t_bottleneck_027": "1eed028820c2b039e33b758618197f3f1ed7d06a13a5b07dacb2f617e9c6f134",
+        "v2t_bottleneck_028": "0303abdd6dc37c1495d95cdfebe0211d5a2f8cad7c2fa19b2321757794b5bf3a",
+        "v2t_bottleneck_029": "0cea0f265f3217ab00a04f7fcf5b4c386a47ab6bbbc187447e3021e0b6afd798",
+        "v2t_bottleneck_030": "2efbcf4785c1af07fb702e6b4f1dd6c1f83f82cc5e3f7a246487664dcb803aa9",
+        "v2t_bottleneck_031": "cbdf6c147736f4e27b3f22ffb3e39bf976a2a82492a816d4c78f4e4a7262afbe",
+        "v2t_bottleneck_032": "767df6d62da48183507e6a43050db0286b485a6010721bf3753616d1b3eb7fd8",
+        "v2t_bottleneck_033": "cd5f079b61403eb93165656ad2cf5051a60798c1435f10ec58187cfb1f43b72a",
+        "v2t_bottleneck_034": "ff492e186a573f6619705d29474210c06bac50019b9b997eb7acfaa7db22ca17",
+        "v2t_bottleneck_035": "88f6aa9deb36875beb89622e739e99f5f0ea8051dc50326990e079a094313f33"
+      }
+    },
+    "colosseum2029": {
+      "mdps": 72,
+      "behaviors": 5,
+      "sampler_seed": 2029,
+      "draws_per_family": 600,
+      "export_cap_per_family": 30,
+      "select_per_family": 18,
+      "exclusion": "every kernel of the 2026, 2027 and 2028 runs",
+      "data_seed_base": 9950000,
+      "source": "Colosseum @ 981b344, mean rewards, continuous"
+    },
+    "spibb2": {
+      "mdps": 108,
+      "behaviors": 1,
+      "source": "Laroche et al. 2019 author code @ 833f32b",
+      "ratios": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "per_ratio": 12,
+      "numpy_seed_base": 2226101400,
+      "data_seed_base": 9970000
+    },
+    "forest": {
+      "mdps": 48,
+      "behaviors": 5,
+      "source": "pymdptoolbox mdptoolbox.example.forest (Chades et al. 2014; Possingham & Tuck)",
+      "start_state": 0,
+      "gamma": 0.95,
+      "candidates": [
+        {
+          "S": 32,
+          "p": 0.097,
+          "r1": 2.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.234,
+          "r1": 2.0,
+          "r2": 2.0
+        },
+        {
+          "S": 64,
+          "p": 0.285,
+          "r1": 16.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.262,
+          "r1": 2.0,
+          "r2": 2.0
+        },
+        {
+          "S": 20,
+          "p": 0.049,
+          "r1": 1.0,
+          "r2": 2.0
+        },
+        {
+          "S": 12,
+          "p": 0.042,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 10,
+          "p": 0.293,
+          "r1": 16.0,
+          "r2": 1.0
+        },
+        {
+          "S": 16,
+          "p": 0.267,
+          "r1": 1.0,
+          "r2": 1.0
+        },
+        {
+          "S": 20,
+          "p": 0.2,
+          "r1": 16.0,
+          "r2": 4.0
+        },
+        {
+          "S": 6,
+          "p": 0.126,
+          "r1": 16.0,
+          "r2": 0.5
+        },
+        {
+          "S": 40,
+          "p": 0.19,
+          "r1": 1.0,
+          "r2": 1.0
+        },
+        {
+          "S": 48,
+          "p": 0.225,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 24,
+          "p": 0.196,
+          "r1": 16.0,
+          "r2": 2.0
+        },
+        {
+          "S": 16,
+          "p": 0.163,
+          "r1": 16.0,
+          "r2": 4.0
+        },
+        {
+          "S": 20,
+          "p": 0.208,
+          "r1": 8.0,
+          "r2": 1.0
+        },
+        {
+          "S": 64,
+          "p": 0.229,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 32,
+          "p": 0.087,
+          "r1": 1.0,
+          "r2": 0.5
+        },
+        {
+          "S": 64,
+          "p": 0.192,
+          "r1": 1.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.246,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 20,
+          "p": 0.133,
+          "r1": 16.0,
+          "r2": 1.0
+        },
+        {
+          "S": 48,
+          "p": 0.217,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 64,
+          "p": 0.043,
+          "r1": 4.0,
+          "r2": 4.0
+        },
+        {
+          "S": 64,
+          "p": 0.136,
+          "r1": 2.0,
+          "r2": 2.0
+        },
+        {
+          "S": 40,
+          "p": 0.254,
+          "r1": 1.0,
+          "r2": 2.0
+        },
+        {
+          "S": 20,
+          "p": 0.104,
+          "r1": 2.0,
+          "r2": 0.5
+        },
+        {
+          "S": 10,
+          "p": 0.121,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 32,
+          "p": 0.12,
+          "r1": 16.0,
+          "r2": 1.0
+        },
+        {
+          "S": 40,
+          "p": 0.202,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 24,
+          "p": 0.049,
+          "r1": 1.0,
+          "r2": 2.0
+        },
+        {
+          "S": 48,
+          "p": 0.14,
+          "r1": 1.0,
+          "r2": 0.5
+        },
+        {
+          "S": 48,
+          "p": 0.104,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 48,
+          "p": 0.283,
+          "r1": 1.0,
+          "r2": 2.0
+        },
+        {
+          "S": 40,
+          "p": 0.259,
+          "r1": 4.0,
+          "r2": 0.5
+        },
+        {
+          "S": 48,
+          "p": 0.299,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 48,
+          "p": 0.154,
+          "r1": 16.0,
+          "r2": 0.5
+        },
+        {
+          "S": 20,
+          "p": 0.231,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 32,
+          "p": 0.083,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 64,
+          "p": 0.208,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 64,
+          "p": 0.135,
+          "r1": 2.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.055,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 20,
+          "p": 0.029,
+          "r1": 8.0,
+          "r2": 0.5
+        },
+        {
+          "S": 32,
+          "p": 0.053,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 6,
+          "p": 0.073,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 64,
+          "p": 0.27,
+          "r1": 2.0,
+          "r2": 4.0
+        },
+        {
+          "S": 24,
+          "p": 0.245,
+          "r1": 1.0,
+          "r2": 1.0
+        },
+        {
+          "S": 12,
+          "p": 0.032,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 48,
+          "p": 0.292,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 12,
+          "p": 0.199,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 20,
+          "p": 0.243,
+          "r1": 2.0,
+          "r2": 4.0
+        },
+        {
+          "S": 10,
+          "p": 0.112,
+          "r1": 4.0,
+          "r2": 0.5
+        },
+        {
+          "S": 12,
+          "p": 0.264,
+          "r1": 2.0,
+          "r2": 4.0
+        },
+        {
+          "S": 8,
+          "p": 0.147,
+          "r1": 4.0,
+          "r2": 0.5
+        },
+        {
+          "S": 48,
+          "p": 0.162,
+          "r1": 4.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.094,
+          "r1": 16.0,
+          "r2": 4.0
+        },
+        {
+          "S": 24,
+          "p": 0.265,
+          "r1": 8.0,
+          "r2": 0.5
+        },
+        {
+          "S": 10,
+          "p": 0.189,
+          "r1": 16.0,
+          "r2": 1.0
+        },
+        {
+          "S": 24,
+          "p": 0.085,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 12,
+          "p": 0.062,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 48,
+          "p": 0.284,
+          "r1": 4.0,
+          "r2": 0.5
+        },
+        {
+          "S": 6,
+          "p": 0.115,
+          "r1": 16.0,
+          "r2": 0.5
+        },
+        {
+          "S": 8,
+          "p": 0.016,
+          "r1": 16.0,
+          "r2": 1.0
+        },
+        {
+          "S": 20,
+          "p": 0.02,
+          "r1": 4.0,
+          "r2": 1.0
+        },
+        {
+          "S": 64,
+          "p": 0.066,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 40,
+          "p": 0.034,
+          "r1": 8.0,
+          "r2": 4.0
+        },
+        {
+          "S": 6,
+          "p": 0.125,
+          "r1": 4.0,
+          "r2": 1.0
+        },
+        {
+          "S": 10,
+          "p": 0.08,
+          "r1": 4.0,
+          "r2": 4.0
+        },
+        {
+          "S": 64,
+          "p": 0.06,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 10,
+          "p": 0.232,
+          "r1": 2.0,
+          "r2": 2.0
+        },
+        {
+          "S": 48,
+          "p": 0.117,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 24,
+          "p": 0.121,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 64,
+          "p": 0.223,
+          "r1": 1.0,
+          "r2": 1.0
+        },
+        {
+          "S": 8,
+          "p": 0.256,
+          "r1": 1.0,
+          "r2": 2.0
+        },
+        {
+          "S": 40,
+          "p": 0.288,
+          "r1": 4.0,
+          "r2": 2.0
+        },
+        {
+          "S": 16,
+          "p": 0.142,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 64,
+          "p": 0.084,
+          "r1": 4.0,
+          "r2": 4.0
+        },
+        {
+          "S": 32,
+          "p": 0.017,
+          "r1": 2.0,
+          "r2": 1.0
+        },
+        {
+          "S": 64,
+          "p": 0.128,
+          "r1": 2.0,
+          "r2": 0.5
+        },
+        {
+          "S": 24,
+          "p": 0.181,
+          "r1": 8.0,
+          "r2": 2.0
+        },
+        {
+          "S": 12,
+          "p": 0.065,
+          "r1": 16.0,
+          "r2": 4.0
+        },
+        {
+          "S": 8,
+          "p": 0.153,
+          "r1": 2.0,
+          "r2": 2.0
+        }
+      ],
+      "selection": "first 48 candidates passing the project's dynamic-range filter",
+      "data_seed_base": 9990000
+    }
+  },
+  "budgets": {
+    "primary": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "extended": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200
+    ],
+    "extended_endpoint": "first budget of the eight with >=8/10 seeds at it and every larger budget; secondary"
+  },
+  "data": {
+    "behaviors": 5,
+    "pilot_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "budgets": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "training_seed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "core_learners": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular"
+    ],
+    "target": "first complete suffix with >=8/10 seeds normalized return >=0.95; else >x50",
+    "expectile": "team's documented IQL expectile fallback, counted, used only where the archived code raises"
+  },
+  "methods": {
+    "v2": "OEH v2 (oeh_v2_spec.json)",
+    "oeh_final": "OEH current",
+    "legacy": "B2 + legacy diagnostics",
+    "b2_matched": "B2",
+    "xgboost_cf_18": "adapted XGBoost-CF on B2",
+    "lce_raw": "LCE",
+    "b2_plus_lce": "B2 + LCE",
+    "cb_only": "CB",
+    "b2_plus_cb": "B2 + CB",
+    "v2_no_direct_oehb": "OEH v2 built on the arm without direct OEH-B (descriptive)",
+    "b2_shift": "B2 with the v2 shrinkage eps(d) toward the learner prior (descriptive)",
+    "legacy_shift": "B2 + legacy with the v2 shrinkage eps(d) (descriptive)",
+    "factorial": "eight P/H/L block arms of OEH current (descriptive Shapley)"
+  },
+  "gate": {
+    "unit": "MDP; IBS over the six primary thresholds and seven-class log loss (floor 1e-12)",
+    "pooled_external": "all MDPs of colosseum2029, spibb2 and forest, equal MDP weight",
+    "noninferiority": "internal: lower bound of (1+0.02) * OEH current - v2 > 0 for IBS and log loss",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 20261101,
+      "rule": "max-t with the original standard error"
+    },
+    "steps": {
+      "step1": {
+        "what": "OEH v2 vs B2 + legacy diagnostics, pooled external MDPs",
+        "pairs": [
+          [
+            "legacy",
+            "v2",
+            "external"
+          ]
+        ]
+      },
+      "step2": {
+        "what": "OEH v2 vs OEH current: internal non-inferiority (2% margin) and pooled external superiority",
+        "pairs": [
+          [
+            "oeh_final",
+            "v2",
+            "internal_noninferiority"
+          ],
+          [
+            "oeh_final",
+            "v2",
+            "external"
+          ]
+        ]
+      },
+      "step3": {
+        "what": "OEH v2 vs B2, XGBoost-CF/18, LCE, CB on internal and pooled external",
+        "pairs": [
+          [
+            "b2_matched",
+            "v2",
+            "internal"
+          ],
+          [
+            "b2_matched",
+            "v2",
+            "external"
+          ],
+          [
+            "xgboost_cf_18",
+            "v2",
+            "internal"
+          ],
+          [
+            "xgboost_cf_18",
+            "v2",
+            "external"
+          ],
+          [
+            "lce_raw",
+            "v2",
+            "internal"
+          ],
+          [
+            "lce_raw",
+            "v2",
+            "external"
+          ],
+          [
+            "b2_plus_lce",
+            "v2",
+            "internal"
+          ],
+          [
+            "b2_plus_lce",
+            "v2",
+            "external"
+          ],
+          [
+            "cb_only",
+            "v2",
+            "internal"
+          ],
+          [
+            "cb_only",
+            "v2",
+            "external"
+          ],
+          [
+            "b2_plus_cb",
+            "v2",
+            "internal"
+          ],
+          [
+            "b2_plus_cb",
+            "v2",
+            "external"
+          ]
+        ]
+      }
+    },
+    "sequence": "step 2 only if step 1 is GO, step 3 only if step 2 is GO; closed steps are reported descriptively",
+    "success": "OEH v2 is adopted if steps 1 and 2 are GO"
+  },
+  "descriptive": {
+    "per_panel_learner": true,
+    "murphy": true,
+    "decision_regret": {
+      "tau": [
+        0.5,
+        0.8,
+        0.9
+      ],
+      "lambda": [
+        50,
+        100
+      ],
+      "headline": {
+        "tau": 0.8,
+        "lambda": 100
+      }
+    },
+    "extended_endpoint": true,
+    "cost": true,
+    "shapley": true
+  },
+  "disclosures": [
+    "Pipeline dry run before this freeze: 3 development forest MDPs from a different candidate draw (numpy seed 1, not the registered draw 20291014), D:/Tools/colosseum_work/forest_feas; its 45 labels were seen (BC and IQL mostly beyond x50, CFQI mostly at x1). A seed-1 draw of 80 candidates all passed the dynamic-range filter. No registered test MDP, kernel or buffer existed at the freeze.",
+    "OEH v2 was frozen (oeh_v2_spec.json) before this protocol; M2 stopped at step 0 and M3 was not adopted by rules_m2_m3.json, so the training panel is the sealed 720-MDP meta panel."
+  ],
+  "source_sha256": {
+    "scripts/analysis/run_oeh_v2_sealed_test_20261014.py": "3cebd657fa6819aa8cc8889e8064bb8727618c45438218f9f579c732cdb1b062",
+    "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+    "scripts/analysis/run_oeh_eighth_cohort_20261014.py": "4c291620e478d284a0bbd84e6d7984d0da41c306ee41a508fed1e3e070f2a4c9",
+    "scripts/analysis/run_spibb_panel_20261014.py": "d2aef41a62442aa4bcd8ec45495e392a58021b8ae5283d76c5a85908085bd6b7",
+    "benchmarks/colosseum/driver/colosseum_export_fast.py": "9ad113cb89f03529c89669f61be5a63f041dfbce6cf215c96fee89ebf670ae61"
+  }
+}

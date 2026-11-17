@@ -1,0 +1,9 @@
+﻿{
+    "schema":  "preoutcome_sequential_pilot_stop_v1",
+    "reason":  "Eight disjoint pilot shards completed; avoid competing write to pilot_features.csv",
+    "state":  "stopped_after_eight_pilot_shards_completed",
+    "process_id":  30764,
+    "cpu_seconds":  1698.734375,
+    "learner_outcomes_observed":  0,
+    "recorded_at_utc":  "2026-10-01T15:32:25.9303173Z"
+}

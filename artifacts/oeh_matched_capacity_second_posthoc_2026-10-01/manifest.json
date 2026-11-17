@@ -1,0 +1,52 @@
+{
+  "status": "posthoc_grid_on_opened_second_suite_not_confirmation",
+  "capacities": {
+    "depth2_200": [
+      2,
+      10,
+      200
+    ],
+    "depth2_400": [
+      2,
+      10,
+      400
+    ],
+    "depth3_200": [
+      3,
+      10,
+      200
+    ],
+    "depth3_400": [
+      3,
+      10,
+      400
+    ],
+    "depth4_200": [
+      4,
+      10,
+      200
+    ],
+    "depth4_400": [
+      4,
+      10,
+      400
+    ],
+    "depth5_200": [
+      5,
+      10,
+      200
+    ]
+  },
+  "common_weights": [
+    0.15,
+    0.1,
+    0.75
+  ],
+  "third_protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "second_result_manifest_sha256": "a71c2c15f9b27942bbf85dcfc7d24c315ea20881224d72668e47d82746943eef",
+  "script_sha256": "e1df04641e2568249e252eed640cd1511315826cdf1134165ec6a707e29206b2",
+  "artifact_sha256": {
+    "scored.csv": "bd7e898fe1fa41df374a8c29a37c083d0f7dbb01d3943488aa18d2fce0d6b61b",
+    "summary.csv": "8c13cd0b16cd8d1ca20ca24615e84a2d687486b4e601be800dbde04c136e749e"
+  }
+}

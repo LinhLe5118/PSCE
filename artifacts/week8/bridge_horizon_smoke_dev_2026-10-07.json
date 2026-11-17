@@ -1,0 +1,32 @@
+{
+  "status": "DEVELOPMENT_OEHH_SMOKE_ONLY_NO_TEST_LABEL",
+  "task": "MiniGrid-LavaGapS5-v0_sticky25",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+  "script_sha256": "272b906ff94425a0777e6d0d954bd817836fc61feae38d77c6391266f816d180",
+  "states": 113,
+  "pilot_transitions": 6780,
+  "posterior_seconds": 1.6974288999917917,
+  "oehh_seconds": 20.600355500006117,
+  "risk_profile_seconds": 1.2333426999975927,
+  "total_seconds": 23.531782700039912,
+  "oehh": {
+    "oeh_h": 8.09938961213072,
+    "oeh_h_depth": 8,
+    "oeh_h_requirement": 2007012.8543224025,
+    "oeh_h_statistical": 4.1352626681934455,
+    "oeh_h_coverage": 3.9641269439372744,
+    "oeh_h_solvable_depths": 95,
+    "oeh_h_status": "identified"
+  },
+  "profile_shapes": {
+    "noise_regret": [
+      6
+    ],
+    "missing_mass": [
+      6
+    ],
+    "slack": "scalar"
+  },
+  "warning": "Only one development pilot; no full 108-feature panel or test prediction."
+}

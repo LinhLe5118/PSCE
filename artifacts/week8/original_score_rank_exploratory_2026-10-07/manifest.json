@@ -1,0 +1,14 @@
+{
+  "status": "complete_exploratory_opened_cohort",
+  "source_sha256": {
+    "predictions_preoutcome.csv": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a",
+    "published_preoutcome.csv": "6f486b5c2363e68908dd45f15c177abbaf9c06aba4e317cd2b2e1954e7acd5cc",
+    "tqsaco_original_preoutcome.csv": "cb29fee1ffec1d8ab869a2243800947eb942efcfd4da1f756a5d9569f6e09414",
+    "oracle_descriptors_preoutcome.csv": "e09d963b037f5c8795e38a21ada1185e0d588a1c9d0b619845aae015e1fe4925",
+    "labels.csv": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e"
+  },
+  "script_sha256": "54ee45ee3e21fd36beb8148e03879300b16b586a007d9ff2e981046792469a98",
+  "bootstrap_mdps": 1000,
+  "warning": "Score directions and endpoints differ; TQ/SACo use privileged true-MDP references. These are rank diagnostics, not matched seven-class forecasters or claims of superiority over original systems.",
+  "output_sha256": "b1bb2125493322fcb7496cd52bdeedd401d44dfc4e01220bfd0143a7f4af2894"
+}

@@ -1,0 +1,13 @@
+panel,algorithm,method,rows,mdps,brier,log_loss
+control,behavior_cloning_tabular,oeh_final,180,36,0.02778895007732004,0.286587796564321
+control,behavior_cloning_tabular,published_xgboost_cf_2026_adapted_b2,180,36,0.031784842123974096,0.34050653910682355
+control,cfqi_tabular,oeh_final,180,36,0.01847789522856019,0.30679527733819323
+control,cfqi_tabular,published_xgboost_cf_2026_adapted_b2,180,36,0.024476040912466548,0.5183029169332638
+control,iql_tabular,oeh_final,180,36,0.01635643870258888,0.2638200432795701
+control,iql_tabular,published_xgboost_cf_2026_adapted_b2,180,36,0.015006837733783552,0.28555615849090454
+primary,behavior_cloning_tabular,oeh_final,420,84,0.018882253576758917,0.17718532239129703
+primary,behavior_cloning_tabular,published_xgboost_cf_2026_adapted_b2,420,84,0.024695172484747428,0.27042592487622685
+primary,cfqi_tabular,oeh_final,420,84,0.07739360620093255,1.0774722003022064
+primary,cfqi_tabular,published_xgboost_cf_2026_adapted_b2,420,84,0.09360937445332493,1.5286580434870367
+primary,iql_tabular,oeh_final,420,84,0.04169096947923826,0.4345785815862542
+primary,iql_tabular,published_xgboost_cf_2026_adapted_b2,420,84,0.05376181646241867,1.7733097687553567

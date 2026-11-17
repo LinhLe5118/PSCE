@@ -1,0 +1,13 @@
+baseline,candidate,metric,mean_error_reduction,mdps_improved,mdps_worse,conditional_simultaneous_lower_95,interpretation
+current,temperature,brier,0.0003064117819361574,40,44,-0.00027954386481612886,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,temperature,log_loss,0.0023676465495050974,33,51,-0.003956485882319324,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,blend_b2,brier,0.00014416623854473297,36,48,-0.0006046350703438981,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,blend_b2,log_loss,0.0020477332920984157,30,54,-0.004912256576668023,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,joint_7,brier,-0.005531772664020543,29,55,-0.009889113272911036,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,joint_7,log_loss,-0.07917717456611736,31,53,-0.1319845769817774,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,two_stage,brier,-0.00901954842619339,27,57,-0.01389947576030913,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,two_stage,log_loss,-0.09168950909262247,23,61,-0.14347371756403343,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,nested_selected,brier,0.0003400991589163857,39,45,-0.00038445080647639326,cached OOF exploratory only; excludes refit uncertainty and historical selection
+current,nested_selected,log_loss,0.0012330624465191936,34,50,-0.006074452376536267,cached OOF exploratory only; excludes refit uncertainty and historical selection
+joint_7,two_stage,brier,-0.0034877757621728477,34,50,-0.006149535745000292,cached OOF exploratory only; excludes refit uncertainty and historical selection
+joint_7,two_stage,log_loss,-0.012512334526505105,31,53,-0.03275834887162533,cached OOF exploratory only; excludes refit uncertainty and historical selection

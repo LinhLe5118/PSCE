@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-29",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.7",
+  "scope": "local final R34 scientific source; report exporter additionally startup/execution/hash verified",
+  "full_suite": {
+    "passed": 872,
+    "subtests_passed": 355,
+    "skipped": 0,
+    "exit_code": 0,
+    "runtime_seconds": 845.62,
+    "command": "python -m coverage run -m scripts.testing.run_full_tests"
+  },
+  "coverage": {
+    "percent": 82.63231850117096,
+    "fail_under": 82,
+    "branch": true,
+    "exit_code": 0
+  },
+  "compileall": {
+    "exit_code": 0,
+    "directories": [
+      "code",
+      "config",
+      "environments",
+      "evaluation",
+      "scripts",
+      "tests"
+    ]
+  },
+  "smoke": {
+    "exit_code": 0,
+    "environments": 14,
+    "behavior_families": 5
+  },
+  "exporter": {
+    "startup_exit_code": 0,
+    "execution_exit_code": 0,
+    "new_mdps_generated": 0,
+    "refits": 0,
+    "selected_seed_outcomes": 6000
+  },
+  "verified_hash_counts": {
+    "published_artifacts": 22,
+    "scientific_sources": 19,
+    "original_e1_inputs": 17
+  },
+  "winning_source_sha256": "070070a21252a48f641a74805d5c8ac89bd07654b7d8094c18171f3b7530f81c",
+  "original_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "remote_ci": "inspect GitHub checks on PR head; not inferred from local tests",
+  "confirmation": false
+}

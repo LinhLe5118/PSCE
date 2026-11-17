@@ -1,0 +1,23 @@
+{
+  "status": "EXPANDED_RESOURCE_SMOKE_NO_LABELS",
+  "mdp_id": "space_invaders_10_fs30",
+  "policy_family": "structured_random",
+  "states": 1590,
+  "actions": 6,
+  "horizon": 10,
+  "pilot_nonzero_rewards": 1272,
+  "pilot_seconds_including_adapter_and_behavior": 1.6813889999175444,
+  "one_draw_one_seed_seconds": 40.84396250010468,
+  "observed_output_shape": [
+    1,
+    1,
+    6,
+    3
+  ],
+  "methodology": "Not a valid 64-draw timing estimate; report only as lower-bound resource probe",
+  "source_sha256": {
+    "script": "da991e4984300373a706221194a53d65df6f0d27f43d88658647e40da37b41b6",
+    "npz": "5d3815f02278c72853d9fa786c5ca61ba5f0c7a313763e9d9994eb73047f7eb5"
+  },
+  "test_labels_read": false
+}

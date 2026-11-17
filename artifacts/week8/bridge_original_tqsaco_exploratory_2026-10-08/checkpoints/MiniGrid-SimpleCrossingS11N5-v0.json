@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-SimpleCrossingS11N5-v0",
+  "seed": 1900337801,
+  "states": 493,
+  "actions": 6,
+  "transitions": 29580,
+  "online_reference_max_return": 0.0,
+  "online_reference_unique_pairs": 1013,
+  "online_reference_evaluations": 501,
+  "random_reference_mean_return": 0.0,
+  "tq_denominator": 0.0,
+  "source_mdp_sha256": "1ed8f3979826a13198b6cc835088eee838c75fe646c5958ef4b1ba16046b98a9",
+  "pilot_sha256": {
+    "1a9be98269ff3938e11e552e.npz": "251c9155c1c8e51a5c94b89a570c6d984a8be894c3afa719273ee5acc367dbcb",
+    "99ec2b879c8de8d46dd0c95d.npz": "1e8a624fad07856b731c3c11dd5373caa2fc74a2067762b06ed010fcd492b85c",
+    "98620bdf1c9ce66a0e4a2df5.npz": "7e6cbd221f8b7cee375e310f3a348b6402f65021d5a87e638dd5f0e75015e0f4",
+    "bf52f4f8c59c82baaa553522.npz": "18f89d9f6581513427e1d8e0a02407f28321c98e0da1a441fc136603adbca809",
+    "63808eea59d3a51df855cb43.npz": "6b494195c06aed89e766e82898d4dafca8884bb7aae28db5852f06e5df998dd1"
+  },
+  "runtime_seconds": 345.6067476000171,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-SimpleCrossingS11N5-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 1.8321816386969398,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 1856
+    },
+    {
+      "mdp_id": "MiniGrid-SimpleCrossingS11N5-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.17966436327739388,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 182
+    },
+    {
+      "mdp_id": "MiniGrid-SimpleCrossingS11N5-v0",
+      "policy_family": "structured_random",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.25172754195459035,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 255
+    },
+    {
+      "mdp_id": "MiniGrid-SimpleCrossingS11N5-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.03751233958538993,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 38
+    },
+    {
+      "mdp_id": "MiniGrid-SimpleCrossingS11N5-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.5695952615992103,
+      "pilot_mean_return": 1.0,
+      "pilot_pairs": 577
+    }
+  ]
+}

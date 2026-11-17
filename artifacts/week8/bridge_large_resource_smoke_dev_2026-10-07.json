@@ -1,0 +1,22 @@
+{
+  "status": "LARGE_DEVELOPMENT_PRIMITIVE_SMOKE_ONLY",
+  "task": "MiniGrid-SimpleCrossingS9N1-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "e52f1d0f8d58bbdcb68a332ce6c863506ca9d259b294b12916a14d04b83b9607",
+  "script_sha256": "b37f29d90858be55a4bb8a655361654eba7a13df6a47e9c45835e9b8edf5d6b9",
+  "states": 1006,
+  "actions": 6,
+  "pilot_transitions": 60360,
+  "pilot_nonzero_reward": 2,
+  "adapter_seconds": 0.09556359995622188,
+  "pilot_collect_seconds": 0.24151160003384575,
+  "oehb_primitive_seconds": 443.1216186999809,
+  "rss_after_gib": 0.14065933227539062,
+  "posterior_sampling": {
+    "draws_requested": 1,
+    "draws_returned": 0,
+    "proposals": 64,
+    "accepted": 0
+  },
+  "warning": "1 draw, 1 seed, one x10 budget is only a resource primitive; not the 64-draw/10-seed/6-budget forecast or a test outcome."
+}

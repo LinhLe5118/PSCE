@@ -1,0 +1,11 @@
+{
+  "status": "exploratory_only_opened_cohort",
+  "source_manifest_sha256": "12e729b177feec174c036b0edd724b68ccac25f13da51382165d3c7e40ad497b",
+  "script_sha256": "593eef2caba0bde0fef6bd71e7101868ccce07bb6aa45fac30bf0ebe41d73c13",
+  "bootstrap": "2000 MDP-resampled means, percentile 95%",
+  "delta_definition": "method minus baseline; negative is better for both losses",
+  "output_sha256": {
+    "paired_mdp_delta.csv": "05c77c435db7432ce4b44290e3aa8d67bd8110cf022095e5c4162866e7c13d4e",
+    "calibration_by_budget.csv": "7f2f09b1c318bcd66ea41f7f5a111b7dc671ecd4eac82ce5cc50f624f25dd99f"
+  }
+}

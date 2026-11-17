@@ -1,0 +1,23 @@
+\section{Exploratory Block Ablation on Cohort 7}
+\label{supp:ablation}
+The block ablation refits the matched head on four column subsets defined from the 108-column lineage: B2 alone; without direct OEH-B (G2, G3, G6; OEH-H still uses the posterior mean); without OEH-H and the risk profile (G4, G5); and without the pilot diagnostics D and their context (G7, G8). The full and B2 arms reproduce the sealed predictions to within $10^{-7}$. An audit hook blocked every test-outcome file until all predictions were hashed. Because the cohort was already opened, the results in Table~\ref{tab:learner} are exploratory. Only a few effects have MDP-clustered intervals that exclude zero: removing direct OEH-B worsens the pooled LL ($+0.0098$ [$0.0016$, $0.0185$]) and both CFQI scores, and removing OEH-H worsens IQL's LL ($+0.0251$ [$0.0053$, $0.0464$]); removing OEH-H improves BC's mean IBS, and removing the pilot diagnostics D changes nothing detectable.
+
+\begin{table}[t]
+\centering
+\caption{Per-learner IBS on 84 stochastic MDPs for the matched control, OEH-F and three block removals (exploratory; opened cohort 7). Cens.: share of $>x50$ labels.}
+\label{tab:learner}
+\footnotesize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Learner & Cens. & B2 & Full & $-$OEH-B & $-$OEH-H & $-$D\\
+\midrule
+BC & 90.7\% & .02456 & .01888 & .01842 & \textbf{.01739} & .02042\\
+CFQI & 46.0\% & .08906 & .07739 & .08015 & .07848 & \textbf{.07664}\\
+IQL & 77.6\% & .05056 & .04169 & \textbf{.04135} & .04303 & .04155\\
+All & 71.4\% & .05473 & \textbf{.04599} & .04664 & .04630 & .04620\\
+\midrule
+All, LL & & .6272 & .5631 & .5728 & .5733 & \textbf{.5613}\\
+\bottomrule
+\end{tabular}
+\end{table}

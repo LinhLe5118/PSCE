@@ -1,0 +1,32 @@
+{
+  "status": "FRESH_PRELABEL_SEAL_READY",
+  "tasks": [
+    "atlantis_10_fs30",
+    "atlantis_20_fs30",
+    "breakout_10_fs30",
+    "freeway_10_fs30",
+    "qbert_10_fs30"
+  ],
+  "pilot_groups": 25,
+  "prediction_rows_per_method": 75,
+  "original_score_rows": 25,
+  "sha256": {
+    "oeh_full_manifest": "db4521876cfc7db2f6661910716b772046f0122925edfcdde5dbeb39f5547a70",
+    "oeh_full_predictions": "702d29f7ea3d54c51242745a4fbf556766099f0c30502b3e7348287f19e55d08",
+    "b2_internal_manifest": "3708d28fa68ebc0cc50a66e4c8a255f20ccca6e85a1b92f7fc8ff9c60fb7e087",
+    "b2_internal_predictions": "b661c9002f29424a07756f67767c2231431067aa7c835106cd0bc725efc879fa",
+    "published_cf_manifest": "eb75b8c3c8759a6b01f2c8ba030abecae88715e2f74558d31bd90efdfbf71887",
+    "published_cf_predictions": "44189b4fc15e2d3b2efc637db6cd779a965afdc8c3e2ee5f4e4f3bc5ce398aa7",
+    "published_cf_full108_manifest": "918d641c88da6eb509923007312d82f4515d73ed86e53ae218cfdfa20f243583",
+    "published_cf_full108_predictions": "b65b8b2b51e5b6666a206a4e218cb8afbdb91f52393f7234ce620adea9fb655a",
+    "original_manifest": "f21c2e12604427cc9aa49ccd1a4e997b8be777a2f5b4809c3901e58cc829d63d",
+    "original_scores": "94c401771ec052945dacfb3c1d44fd446365571df64cbe42a0bc705c43529ca7",
+    "pilot_manifest": "3fc5614ac220edf56c780c003adbdc8bf88509d0a15fcb8bfbf2b41d28e70a8b",
+    "protocol": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+    "reward_interpretation_addendum": "96327c48e766482cd1dbf102c147b54b14adec849e6899df7c1439ad63e8b685",
+    "published_survival_comparator_addendum": "48461ec8f9b3a5d8127cfe44297e9147e86381f90449ef8007e8141179fdb911",
+    "label_kernel": "f164e5963db40b48a22e9233204dc9d4a8eb7ba7b349624c435af0c74ff8d3aa",
+    "label_runner": "947985e63a310fefca24231c5ed0adf5e9fb86db5c004f1a68445c0e7b2cfcd5"
+  },
+  "test_labels_read": false
+}

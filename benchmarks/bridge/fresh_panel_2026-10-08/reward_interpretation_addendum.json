@@ -1,0 +1,9 @@
+{
+  "status": "PRELABEL_REWARD_SCALE_INTERPRETATION_FROZEN",
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "reward_gate_sha256": "7d4ff31a49ffcf9e3bdb4268a22c524470e369c7aecf91a8af387b2e525efa15",
+  "mathematical_invariance": "For any fixed policy pi, multiplying all rewards in one MDP by c>0 multiplies J(pi), J_random and J_opt by c, so (J(pi)-J_random)/(J_opt-J_random) is unchanged.",
+  "non_invariance": "A reward-sensitive learner with fixed hyperparameters (notably IQL's inverse temperature) can learn a different policy after scaling. The E_l labels and posterior forecast in this panel therefore target the explicitly reward-normalized BRIDGE adapter, not raw-reward author training results.",
+  "comparison_scope": "Every tested offline learner and forecaster uses the same normalized adapter; author TQ/SACo rank scores are scalar secondary analyses. Do not call this a verbatim reproduction of author raw-reward performance.",
+  "test_labels_read": false
+}

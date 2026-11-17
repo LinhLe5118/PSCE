@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-14T11:54:55.844291+00:00",
+  "file": "scripts/analysis/run_oeh_eighth_cohort_20261014.py",
+  "old_sha256": "f0ec06e2e470e60677a7fb8e1d0c444a0c6021b0e1f020659782992dc7308a09",
+  "new_sha256": "47833b617a8cbed7e85bbe55fcb28a96ac0b6242d77c2e7c7ba8353ce8415928",
+  "change": "call run_oeh_final_120._repo_first() after archive_imports() (or start the pool before it) so that spawned workers import this runner instead of the archived scripts package",
+  "scientific_change": false,
+  "state_at_amendment": "internal dataset generation running; no seal, no learner outcome",
+  "learner_outcomes_observed": 0
+}

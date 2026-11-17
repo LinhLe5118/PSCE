@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-MultiRoom-N2-S4-v0",
+  "seed": 2051599909,
+  "states": 335,
+  "actions": 6,
+  "transitions": 20100,
+  "online_reference_max_return": 1.0,
+  "online_reference_unique_pairs": 816,
+  "online_reference_evaluations": 502,
+  "random_reference_mean_return": 0.06341463414634146,
+  "tq_denominator": 0.9365853658536585,
+  "source_mdp_sha256": "84154e3c5512806852b14cd3a910b3a530a0edc5bd1ae8c2fab53918f391c1e9",
+  "pilot_sha256": {
+    "68f70b26d11c6cb7cbf4fa77.npz": "f7e30d803405403d6e3840de9286e9cfb04535a1a0dcce13600a057457d44207",
+    "0562215ca53a50a1bfc5ae10.npz": "af34b652657e6dd4901d299a1b649e6d7056a04a2088a1bba7c14dab33dc9c72",
+    "cc10d8c05173fa80a5af701f.npz": "54209d7651211b7ebef561a8ca4df249d737a69aaab849a4673971dc48a02a78",
+    "076be79b2e24974f69cc6048.npz": "a9851c7de51c8a03d52d4a43097bb47cfb39f0f9c401a7837da4296d13be2437",
+    "f4890757d2f652138ff0b2be.npz": "9eebfb236ac5d0e2c169a54ae65e1fad41f932ced757a96399ab72557ac2d829"
+  },
+  "runtime_seconds": 225.67099959996995,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-MultiRoom-N2-S4-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": 0.010416666666666661,
+      "tq_defined": true,
+      "saco_original": 1.5245098039215685,
+      "pilot_mean_return": 0.07317073170731707,
+      "pilot_pairs": 1244
+    },
+    {
+      "mdp_id": "MiniGrid-MultiRoom-N2-S4-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": -0.06770833333333334,
+      "tq_defined": true,
+      "saco_original": 1.017156862745098,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 830
+    },
+    {
+      "mdp_id": "MiniGrid-MultiRoom-N2-S4-v0",
+      "policy_family": "structured_random",
+      "tq_original": -0.010135825163398691,
+      "tq_defined": true,
+      "saco_original": 1.4522058823529411,
+      "pilot_mean_return": 0.05392156862745098,
+      "pilot_pairs": 1185
+    },
+    {
+      "mdp_id": "MiniGrid-MultiRoom-N2-S4-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": -0.06770833333333334,
+      "tq_defined": true,
+      "saco_original": 0.10049019607843138,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 82
+    },
+    {
+      "mdp_id": "MiniGrid-MultiRoom-N2-S4-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": -0.06770833333333334,
+      "tq_defined": true,
+      "saco_original": 0.7107843137254902,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 580
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+ "status": "h4_independent_rescore",
+ "panel": "oeh_panel6_2026-10-15",
+ "verdict": "MATCH (F1 GO, F2 GO reproduced)",
+ "repo_commit_rescored": "990b25594c02c3fdc86ee924d708237e6260ac54",
+ "commands": [
+  "git clone --no-hardlinks <repo> h4_clone",
+  "python -m scripts.analysis.run_oeh_panel6_20261015 analyze",
+  "python scripts/analysis/verify_panel6_h4.py"
+ ],
+ "environment": "Windows 11, Python 3.12.15, numpy 2.5.1, pandas 2.3.3, scipy 1.18.0 (second machine)",
+ "inputs_sha256": {
+  "artifacts/oeh_panel6_2026-10-15/protocol.json": "49c270716da6fffeac05147a39b47dfcc0dfcfe63557b36b65b03794e43031f5",
+  "artifacts/oeh_panel6_2026-10-15/result.json": "4986ea250135e8ddf1abd64dd0433d4d0056f88183f5d188effaa43f86981893",
+  "artifacts/oeh_panel6_2026-10-15/summary.csv": "d191b1ab910b4a7bc2b154e1fa48d44efc63ba5f70b73c371b7482a1f1b37962",
+  "artifacts/oeh_panel6_2026-10-15/by_learner.csv": "1091c09eb268d8817e9ceefdf60076ea09da20c8a2f982fe3f837b1928919c4c",
+  "artifacts/oeh_panel6_2026-10-15/murphy.csv": "772965c3070d8a81c74a1798cdc549bb939149a0b22fdbf78848ab1b3960f12d",
+  "artifacts/oeh_panel6_2026-10-15/gain_by_distance.csv": "7e8e724a0556ee42e066ffc119022f9c8d612b1526f88454934c1aefa9697ecf",
+  "artifacts/oeh_panel6_2026-10-15/label_variant_tau099.csv": "835dc52cf4969fb103d2a71fa3ab2b14d0f8e6020f94f4660b2aef3d92ae46ab",
+  "artifacts/oeh_panel6_2026-10-15/scored.csv.gz": "3eb4323d891d4c23f32242e9730199d9ef80687d2ee39fd742763939de792730",
+  "artifacts/oeh_panel6_2026-10-15/mdpp/labels.csv": "d2b875bdc58a52bbbbf1e8f4c4e1f7444cf172d20ca9b5047d4aff9be5ab0716",
+  "artifacts/oeh_panel6_2026-10-15/mdpp/outcomes.csv.gz": "cef227705f9b390096344bc5b069f847051b4b27db41cc96fdb08171926751ca",
+  "artifacts/oeh_panel6_2026-10-15/mdpp/predictions_preoutcome.csv": "8cba1ca0be6ff4b6ceb0ab63c33a52863d264a1f46d8a0bbd14f7329a4e0378c",
+  "artifacts/oeh_panel6_2026-10-15/mdpp/preoutcome_seal.json": "a5fdc13e35b4d7e632d2f6cae5a97cad931416257dfef646331ffaa8608cd96a",
+  "artifacts/oeh_panel6_2026-10-15/mdpp/outcome_run.json": "202eab8c5bb5a706c97c04c3afeaf0b0f57ddebfa84e5bba6be6aff8446533f4",
+  "artifacts/oeh_panel6_2026-10-15/labmaze/labels.csv": "916876552ad8ccb2422c4411c3c50ee9c2c90ea8a8311b1972d2bd302c73a213",
+  "artifacts/oeh_panel6_2026-10-15/labmaze/outcomes.csv.gz": "a3f626ec7a2842ff441b9812677400e78783e19784c5e83b2366439ca8a9fdc0",
+  "artifacts/oeh_panel6_2026-10-15/labmaze/predictions_preoutcome.csv": "bc5b45c8f92e8f5cd12df130988e02da3b09f60efcc82778f51304b44f80792d",
+  "artifacts/oeh_panel6_2026-10-15/labmaze/preoutcome_seal.json": "d7afc1fc44f415552c7238d13082dad833a8a6b3721428b515bab1d116a6f0d3",
+  "artifacts/oeh_panel6_2026-10-15/labmaze/outcome_run.json": "9a45f0257df113ac6d811e06cb8a4ab307f5fdddac565ea96e905ab20f9e039d"
+ },
+ "scripts_sha256": {
+  "scripts/analysis/verify_panel6_h4.py": "ef5b3270950fbba33a058e0fc97017e816c5aaf570064a766fafc6d2e7d39c44",
+  "scripts/analysis/run_oeh_panel6_20261015.py": "89851189623efa42a2db42f811a72fd9fd9147c57aeef5b0e229bd7248e920cc"
+ },
+ "outputs_sha256": {
+  "artifacts/week8/h4_panel6_rescore_2026-10-16/verify_output.txt": "e35bf1db3e9909eae0bc4b92f576f6ffcbab0bd8fca107a14ebb5c19fdea8d3f"
+ }
+}

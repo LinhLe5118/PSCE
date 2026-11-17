@@ -1,0 +1,88 @@
+{
+  "status": "PRELABEL_ADAPTER_PASS",
+  "source_wrapper_sha256": "6223bba9495ee797f1538065f895c859b0909aff3c1d8d96da952ce0987f54ac",
+  "rows": [
+    {
+      "mdp_name": "atlantis_10_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "17717c7c82a0778bd72e8e0564afebd40f1f30c867ba1180b8f2c68a42b9c058",
+      "adapter_states": 76,
+      "published_sticky_states": 72,
+      "horizon": 10,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "atlantis_20_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "4f9b247f3983196beedaa5d74336e517356b8ddc489e4891545fefc09874c504",
+      "adapter_states": 715,
+      "published_sticky_states": 715,
+      "horizon": 20,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "breakout_10_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "98cb636436a95e9a00d7fe5b6ff1c70d53629906d3b8032ad9673b841c21a673",
+      "adapter_states": 413,
+      "published_sticky_states": 413,
+      "horizon": 10,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "freeway_10_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "21a2eb76253c8a472c37d77bb413016b8c932932885da14e573c2282c8b74ae4",
+      "adapter_states": 325,
+      "published_sticky_states": 322,
+      "horizon": 10,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "fruitbot_easy_l0_40_fs8",
+      "origin": "procgen",
+      "source_npz_sha256": "7aa35fd66bb6d5b421a1abb42c8292e0fcadf184beaadac272b817bb97c275e5",
+      "adapter_states": 805,
+      "published_sticky_states": 805,
+      "horizon": 40,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "fruitbot_easy_l2_40_fs8",
+      "origin": "procgen",
+      "source_npz_sha256": "a7690e1e7ea5c01bf4598fe29fc64a1f057b20c804b5a33cb94781882e6fc087",
+      "adapter_states": 559,
+      "published_sticky_states": 559,
+      "horizon": 40,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "pong_20_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "34baf4520a55bb170555e8e749c26e74857ed8cd102426a3df6def8b17965568",
+      "adapter_states": 623,
+      "published_sticky_states": 617,
+      "horizon": 20,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    },
+    {
+      "mdp_name": "qbert_10_fs30",
+      "origin": "atari",
+      "source_npz_sha256": "dacf7f3b4ecaa024cc14a0d34444af7d991d7c4c631e5da4f263ce5674789ef6",
+      "adapter_states": 517,
+      "published_sticky_states": 517,
+      "horizon": 10,
+      "wrapper_trials": 3,
+      "status": "PASS_AUTHOR_STICKY_WRAPPER_AND_FIRST_STEP"
+    }
+  ],
+  "test_labels_read": false,
+  "limit": "Checks array-backed author wrapper and first-step adapter; does not reproduce original Atari/Procgen simulators or certify OEH quality."
+}

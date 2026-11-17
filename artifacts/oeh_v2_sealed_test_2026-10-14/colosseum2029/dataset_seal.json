@@ -1,0 +1,861 @@
+{
+  "protocol_sha256": "17019f87923754b7d125c48b7ac29dca580a1026ec272f33e3e92dcd0823bdec",
+  "sealed_at_utc": "2026-10-14T17:20:50.802768+00:00",
+  "learner_outcomes_observed": 0,
+  "instances": 72,
+  "buffers": 3960,
+  "kernels_sha256": {
+    "v2t_colosseum_deepsea_001": "521b69c75a6d8167c63135df708e119755d1d6a2c8ffb3918b77a9347ef4b4ed",
+    "v2t_colosseum_deepsea_002": "092b2871181d53edac2ca4fa3285bf4db5cd007d54be30e94d84fa3ea7112b27",
+    "v2t_colosseum_deepsea_005": "8d2943b0a26ca1f60507b9da7bc48395b7459587f6d8547a819f19ac356c3748",
+    "v2t_colosseum_deepsea_006": "113531acca04508b7faf7c007964b2c510499ba9553d7c09186336aff95a4a8b",
+    "v2t_colosseum_deepsea_007": "12c9e0d1e818e9b602c8336a828de279929bbe6bdc56fe0966521a15aed8ef1f",
+    "v2t_colosseum_deepsea_008": "1f60cd459104ea93ca631e89fd012fb741e07a22c4b87579abc4e6dcad077299",
+    "v2t_colosseum_deepsea_009": "d5498f18898467430eafe81a580cbaee98164c2f7fbb1a270dde745dc0d5ea45",
+    "v2t_colosseum_deepsea_010": "b01c69f703f1ac2f638b56a0e1805c905965e2e65f22ece62a81d4c9f57934f1",
+    "v2t_colosseum_deepsea_011": "f1c0dbe660d3e0585e1ea8329002fc44163dee553019cd1302a695d95f4d87d3",
+    "v2t_colosseum_deepsea_012": "aeeb44ea98b6892c61a03ceb08926cfb602ec78781cb619fe41001017d61caea",
+    "v2t_colosseum_deepsea_014": "91abfb4c1000b523a010004f9bb4dec53a0d8627e79e9fad87a05ee10e7e89d7",
+    "v2t_colosseum_deepsea_015": "c1fe46745a4f5f0c01aa5accd8cf495ad46a5dfe9d4e4eccb39f6b3b4080bf98",
+    "v2t_colosseum_deepsea_016": "47d78b62dea737d256a4f56b92c90b905930eff999f81d6c743b8fea283beec2",
+    "v2t_colosseum_deepsea_017": "7fcb34893f1cef15a90a8323d63670e097edfc8d87ecc75d23105e83991badb2",
+    "v2t_colosseum_deepsea_018": "f1764f85fc3c1aa45813fdf220de2687c9ee15d65b3e499cb03a97c0e1f4c328",
+    "v2t_colosseum_deepsea_019": "8241ab771d229a734ff10796c73a26da6c93beb589f4b8345f0169f30dbbd9e1",
+    "v2t_colosseum_deepsea_021": "c58c04450387816ce154b7e784f3d2bae5e20dccf3078fae3a3512ebf7fe028f",
+    "v2t_colosseum_deepsea_022": "dbc03408a562deb2bd135bcc2825c780b7d6e3bda99f6837bf7b66108264b2cf",
+    "v2t_colosseum_deepsea_023": "41e150f591736fe972a901c9257cf530e2899c76d10f3c4a00b76fde6b8b453c",
+    "v2t_colosseum_deepsea_024": "94d37af42f30bb43aac5ae4b00281b062d13aff9f2da01925485d81d7b460eeb",
+    "v2t_colosseum_deepsea_026": "335d30b8b5cff8cfc95268d43282da80fc51e2f2bebaacaa3d97efa52763a062",
+    "v2t_colosseum_deepsea_027": "572605e30d88e1569243ababf01ce83b4dd1e7d452d04e4f915097578676b03d",
+    "v2t_colosseum_deepsea_028": "3143d6b0479b8ea7f161ee632691eaee99eebe990dbe7670a3bc59ec5107a345",
+    "v2t_colosseum_deepsea_029": "cd3c07da80da667014288e5ae558b333c35d255cd3b2b6908025f0a08b852e2e",
+    "v2t_colosseum_deepsea_030": "fdb65c2bcb259496b3ea22f2602663e6946ac9681bf7147f8c3b22a838a63fdd",
+    "v2t_colosseum_deepsea_031": "e08576620f7b1c8de69fe54f7237a3df3f07ea06cec957c4a2ddbe79a26f1b78",
+    "v2t_colosseum_deepsea_033": "eae95091781b1790e89435fde410976b056298dd1703ef94a493f697a9850c18",
+    "v2t_colosseum_deepsea_034": "ae14ee359896821a5e391d7a93f654e62758c1dca62e47abc73041e2ab810c10",
+    "v2t_colosseum_deepsea_035": "de6ef725dd9990a6014a3faec1025d25b8b5d5622c201b2bc5a04542dac8e56f",
+    "v2t_colosseum_deepsea_037": "1caddf2855071f1cd0d01ad5a5c527dc651261431d3a225f548e724336453e0e",
+    "v2t_colosseum_frozenlake_000": "b90af3c2db37aa123f97473c46230bc480b87de9247edd8e08e14d1be6fd1b42",
+    "v2t_colosseum_frozenlake_001": "255c83c4b13c7f5760096c6f23cc3db35b72d5de8377de396812070ea64a4d53",
+    "v2t_colosseum_frozenlake_002": "7b08f945636c156a5605df1589e54fc1671479946d5f5fb05e108913f6f8cb8a",
+    "v2t_colosseum_frozenlake_003": "39041e470f4ecc478030e691d77a12534e33fb3027f318b4f4ab1c94f09841bb",
+    "v2t_colosseum_frozenlake_005": "8c379b9ca3969756d3af83d5ecb6117ec6905624dbdb28c160ec3ba4bf76fed7",
+    "v2t_colosseum_frozenlake_006": "312605fa0013f96725fd6b30a92d7a3232d4094fe4b91da1ba223c5c8a339d1a",
+    "v2t_colosseum_frozenlake_008": "346773b55974e34a6041eebec65530d52245821408b301cd4ae0c99ba591acf7",
+    "v2t_colosseum_frozenlake_009": "5a9267f5c20aac01e3f4c3292b6db052d2182e13784105331b49e451bfbc7a2f",
+    "v2t_colosseum_frozenlake_010": "66fc7be3965ef0ba6c61e577e7692266a66fab19547cd63a56f58f21f99101db",
+    "v2t_colosseum_frozenlake_011": "ad8373e9328eb18dcb3991be2ec751c6aad709ca5d8faab5db26d7ec931c9248",
+    "v2t_colosseum_frozenlake_012": "b30651d47fa954959a750c2e186d21c985cd7d567d8d8afd05ab5f8e2b808af9",
+    "v2t_colosseum_frozenlake_013": "4903deece839663777aed586526520da0573bd57ce559b237b739d9c83de0aad",
+    "v2t_colosseum_frozenlake_014": "b71c22ac5779403feba70eeb2cb3221089fefd961c4b460470b6ccd18a0f246d",
+    "v2t_colosseum_frozenlake_015": "5ec75d150cec8b52df62ddb24b8f0da80e54bfff5749145dc4597969608e96ae",
+    "v2t_colosseum_frozenlake_016": "662002c7d49fee0237a3e17679fb082d048b097f305ba6990095486ad69aba5b",
+    "v2t_colosseum_frozenlake_017": "eb998e38b6c1b2177a1df0d601a1e74c4903ef9bf456fe7ff6dac898150582a6",
+    "v2t_colosseum_frozenlake_019": "9297759b659c28de3a2f653b799076c929832ca184670cae74857fa43ca5846b",
+    "v2t_colosseum_frozenlake_020": "c98f0e5c5b6d1a3bf2eb34a85dc631246675771ede7674a19d06c98925a0bd85",
+    "v2t_colosseum_frozenlake_021": "93b10593b9c42ea30293dff6971ab0e60bee6688b16ea44405e8a146c93dc871",
+    "v2t_colosseum_frozenlake_022": "97d9c683b39d089cef692f871fbe94995d181e9ec2c6181103ef7dfa17e03134",
+    "v2t_colosseum_frozenlake_025": "c84094bdfb197fc06f98133a2c81b5f47c1020b570c41677503c87a8a40b8c66",
+    "v2t_colosseum_frozenlake_026": "20394a51151414e4ea98808850a3378bb81279bf20e9523284a691412d401209",
+    "v2t_colosseum_frozenlake_027": "466324e1308e7bb1430c5cce49f81107fa2fa1b17e7489ef1dc42d4c056704c6",
+    "v2t_colosseum_frozenlake_028": "8604a08678abd320a9ced902d1b73d78a8a766566638dc49a304e732373be1c6",
+    "v2t_colosseum_frozenlake_030": "64fa2854509fde16e82584757ae05698d3b991d400c5fafbdace7f7a08e8a39d",
+    "v2t_colosseum_frozenlake_031": "01166ad1dab3335a20a714127ac8428419e2bee6ae78f3a6dd7222e9bd236f2e",
+    "v2t_colosseum_frozenlake_032": "f38e4b4356068be379f760d0b7d97ef41510f80f456f9f57537f86cf77e63f26",
+    "v2t_colosseum_frozenlake_033": "fb795214b71809c1b51c322517aec55c97e18fefba412b616f61c85a6148a3e4",
+    "v2t_colosseum_frozenlake_034": "d07f8eff6eb04cf85a831ac2dd43f845e5af864151da84c27802e2c744418738",
+    "v2t_colosseum_frozenlake_036": "7a078cf9df8f83d6a803aed834bd0629f0af977c08e970ffd08d890f233dd218",
+    "v2t_colosseum_riverswim_000": "62454a99c8c865e48f7ea738f50d4090061658dd0c240e066b01603feef1a0ca",
+    "v2t_colosseum_riverswim_002": "5750ad8f97011c5d5da5cdc51e04d12f8b61e32ecdd8879f04b746d6b70cc2dd",
+    "v2t_colosseum_riverswim_003": "fc705358ab030df7cb5d3b9d0a76c45831e427a26f4dd39c8b927e5069ff8c49",
+    "v2t_colosseum_riverswim_004": "c857dc2e8a79894ebb698c7ab57c7d0e1133779dc79bf504d36210ace4a31149",
+    "v2t_colosseum_riverswim_005": "58d72b8716c382a05a07d006c9294246a41f10d7c988b13478504b8412291855",
+    "v2t_colosseum_riverswim_007": "9998d97088cdc57f1643a6f8c5c9643476f72b23bc47b492cf1bde8cf3d433d2",
+    "v2t_colosseum_riverswim_008": "cdf8c9f32202fbbc0d2377516679746ead746b2bc5acfacd569f323747e9a5d0",
+    "v2t_colosseum_riverswim_009": "0f6f1bfee31a100bec0092e857e580bf9ebfdbc4a787ca92edae25a10fdc6f50",
+    "v2t_colosseum_riverswim_010": "4c1b44e50c9ed4406e95d62d926554b304c5c48b7271108fbbb432a08fcb323c",
+    "v2t_colosseum_riverswim_012": "322a373a204944f49db4dfe063b3f3bf1d5440a1bf011f71286b90c4a637f975",
+    "v2t_colosseum_riverswim_013": "b4293875190c7d89f8211cb4bbdc279225a2460facc16f5d19391e2820188f63",
+    "v2t_colosseum_riverswim_014": "54e2a71a062dccd8e96e5d2b03d0f26d9a8697a965b6ede745ec24eb3da2cf79",
+    "v2t_colosseum_riverswim_016": "863c811d2e7e7715d990a0ccffa3488e2597f288f46aa687521ac1d5cf960dd0",
+    "v2t_colosseum_riverswim_017": "be22bbde51e3cad0b1460df665e15f54ccb6f0869e1872e9011f8097cf00fcd1",
+    "v2t_colosseum_riverswim_018": "48f2332b961965dd27a6dbfd4cba477c0a9bff1f6d3820e98bf86a21f28f5e8a",
+    "v2t_colosseum_riverswim_025": "10fc1f2a698a790fde5b587d6cbf34ab483f2acf33628d92778da94b84541d15",
+    "v2t_colosseum_riverswim_026": "763db0b901786806e40b47e97fc5827cdf25104011fda29142969d6d6de44756",
+    "v2t_colosseum_riverswim_027": "26883bc980eacc544c6654fcac2259c9c4f0ac9ffd7ce0bfa67b3c895e885402",
+    "v2t_colosseum_riverswim_028": "122a7397eef4265ecadef62d19c080e76d5082d69a31b5235749aad8e3a5a026",
+    "v2t_colosseum_riverswim_029": "4e59c355bfbbd2e754c05cbaa9f2dda5f0fc83d319a6a64733f3d6445a517a90",
+    "v2t_colosseum_riverswim_036": "4f88d44b7dd6b49f0760f518ea9dd5ff2b8dbcda02f2922072001f5d7bece5ca",
+    "v2t_colosseum_riverswim_038": "efffa3ccd15d0f8c042e6860eb8d0ffc8583fad8a99cce916c6540e200a105fa",
+    "v2t_colosseum_riverswim_039": "d9bad91c00ff5b387d06fefc17c3d0dce24dcb2b1777948fa923c73560fa6d24",
+    "v2t_colosseum_riverswim_044": "115dc4cb8084de70a488ec26a28b0ba59047f9232d021aa88e753143d28f041a",
+    "v2t_colosseum_riverswim_046": "23f44aa0575c777b66da7c885ae2beabd82b5a84f77a5e2a073d462ea3d9d582",
+    "v2t_colosseum_riverswim_049": "632181a2c4329c19a365c900d065333f23ab5e1c392dc8f9b999d3a0b461ddeb",
+    "v2t_colosseum_riverswim_050": "103501289a4d852265a4e2d5745d313d33dd21973f815c972b079b065db61344",
+    "v2t_colosseum_riverswim_051": "f550096cea770dfec8e0272b860651a9393873851b3c0e71670ea2b5bac4ca7c",
+    "v2t_colosseum_riverswim_053": "a0bea490322349e6433912f6774a3466b63fb59c40f62c70c158b630b744a025",
+    "v2t_colosseum_riverswim_055": "28c4072534c77ef50c672098a50e632f0ce86f6450d18675ec4c07ea5766177a",
+    "v2t_colosseum_simplegrid_001": "d9eaf007e84b501b178baa449aaa2c6d15dbef468253ba021595dfe53e935e97",
+    "v2t_colosseum_simplegrid_005": "d3c6f84b090e892a62f2a35dadaf7715169dbdd88ac4f186a9b19950927ceb50",
+    "v2t_colosseum_simplegrid_019": "d539ae7136834ce671afceb1315aeb5d1e3a6c626feb66bc078e840062eaa65a",
+    "v2t_colosseum_simplegrid_032": "43ad7b14bcfffa472e01f50a041638ddd5f104e86c2c75ccc6cee74ab3f26321",
+    "v2t_colosseum_simplegrid_039": "558cc4c6dda974be69c3044fe8b3123ec2b284fc395386ed195df274db77b1df",
+    "v2t_colosseum_simplegrid_053": "56a50c98a49917c0a553a713764d7fb0c186360eadf285d62504898a9000aa42",
+    "v2t_colosseum_simplegrid_055": "d17343578f74163e5ed4758c50254943c9f29de1f22f889a32b0f6444f40c2ad",
+    "v2t_colosseum_simplegrid_061": "7bb7ee42f7efa52ffdffc27981a8937402a485caf518414dff6f115f254f0a63",
+    "v2t_colosseum_simplegrid_068": "f8bcb5c0d35bb1dff92caaac2384193e53b4301fedfe9064925bff6099f4a943",
+    "v2t_colosseum_simplegrid_080": "4087aa9bb09ee12e1dd8df2c5359591b077c9e01749ee0dcf7ee717088ae5902",
+    "v2t_colosseum_simplegrid_082": "a0d84e68c9c5381e4c3818a46a229ee4203a6b8f294c12a548cae56e91b45de3",
+    "v2t_colosseum_simplegrid_093": "40ebb5fc1acef04f17892ed2046a80ab09db7caeedc7a15d797a70e3d3daf160",
+    "v2t_colosseum_simplegrid_097": "42ab3f1a4fbccaddc2f34a51e23770647fece5db912b05ba798ab74d26e33594",
+    "v2t_colosseum_simplegrid_109": "01cee9029fb8474c4dabbfb8e0f5c1b626d3803297468ca6a050cf82c79eab30",
+    "v2t_colosseum_simplegrid_129": "dd65c2c73b0624d797bbf8b0a254632d9d2f23a142720d04e47b0b8532aa12b5",
+    "v2t_colosseum_simplegrid_133": "3d5a96c4a0539a24e08ee8155c8b6c113f72937ed1cef5f3e13171e648ef0384",
+    "v2t_colosseum_simplegrid_134": "03f21dc6b3f625087950dfd1e224ef5812e521af8dab1595a1825022947810d1",
+    "v2t_colosseum_simplegrid_135": "a0ec9a6ead944034859cf50579d91a5dd55be19fb5091d712350ba908a9070e0",
+    "v2t_colosseum_simplegrid_149": "df9bc6d71f77dcd3f3e597fd4ce26253d470ee97f4e8d506b0fa3c4f58f832fa",
+    "v2t_colosseum_simplegrid_151": "3f81070a81186fe3cb779605bf73988eabc406fd806008956a456e3fb141a220",
+    "v2t_colosseum_simplegrid_155": "203af1af0f229f8ef7e5d1a36528b68848e4397a592ce02171cc590e7f7efc6d",
+    "v2t_colosseum_simplegrid_173": "dc0ad2b5f58de4ffddbda6636d8a7fbed76811a7a9ae5dd9a11e42e7758857e2",
+    "v2t_colosseum_simplegrid_176": "a8517252a845656c9cef1ff04164d170304f5277032091055f29b96da8b19707",
+    "v2t_colosseum_simplegrid_178": "68a38ca253536cbe4b4fd2c3adaa987783c1ad40585549a5d883623b001a3716",
+    "v2t_colosseum_simplegrid_181": "33fac4a99b54209e23c9629153259e7eea6f9aa99c87775bd80c63d68925223f",
+    "v2t_colosseum_simplegrid_183": "4b4d8c16df57424bb9e3ad15166acfd5432ad44e8f4b5ace47c592e65574e30c",
+    "v2t_colosseum_simplegrid_202": "2cf95d65c66862b34df1ee6ea0cf6086821472cb96bd6ad5ba3fee09b0d4c5fd",
+    "v2t_colosseum_simplegrid_205": "004fa0235614d7b673800b1bab94ad822d660547c1321613c15143a42b3c4341",
+    "v2t_colosseum_simplegrid_222": "ad69c6fea9757fa1a95b8f9578b9d2e0fa7ef90c7733c1e6abb9f96a17e5fa35",
+    "v2t_colosseum_simplegrid_227": "7594e2821f63ad2321ed61bb8e69c64a9ec52a88c6c74da5d65a9e950c7953dc"
+  },
+  "sha256": {
+    "datasets/oeh_v2_sealed_test_2026-10-14/colosseum2029/manifest.json": "90f1e2fa0bba9bcc21694188447288255204e5aa78ec16713d57f82680fafac7",
+    "datasets/oeh_v2_sealed_test_2026-10-14/colosseum2029/data_only_index.json": "8f70e1643182add8ff00d4e5d07e1831e916844b2ac2da8bc4957f20c0bb2247"
+  },
+  "selection": [
+    {
+      "mdp_id": "v2t_colosseum_riverswim_000",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_002",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_003",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_004",
+      "family": "riverswim",
+      "passes_filter": false,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_005",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_007",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_008",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_009",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_010",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_012",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_013",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_014",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_016",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_017",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_018",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_025",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_026",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_027",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_028",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_029",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_036",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_038",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_039",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_044",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_046",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_049",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_050",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_051",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_053",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_riverswim_055",
+      "family": "riverswim",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_001",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_002",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_005",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_006",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_007",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_008",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_009",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_010",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_011",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_012",
+      "family": "deepsea",
+      "passes_filter": false,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_014",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_015",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_016",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_017",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_018",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_019",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_021",
+      "family": "deepsea",
+      "passes_filter": false,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_022",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_023",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_024",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_026",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_027",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_028",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_029",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_030",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_031",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_033",
+      "family": "deepsea",
+      "passes_filter": false,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_034",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_035",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_deepsea_037",
+      "family": "deepsea",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_000",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_001",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_002",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_003",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_005",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_006",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_008",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_009",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_010",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_011",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_012",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_013",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_014",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_015",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_016",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_017",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_019",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_020",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_021",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_022",
+      "family": "frozenlake",
+      "passes_filter": false,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_025",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_026",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_027",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_028",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_030",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_031",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_032",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_033",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_034",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_frozenlake_036",
+      "family": "frozenlake",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_001",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_005",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_019",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_032",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_039",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_053",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_055",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_061",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_068",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_080",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_082",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_093",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_097",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_109",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_129",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_133",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_134",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_135",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": true
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_149",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_151",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_155",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_173",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_176",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_178",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_181",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_183",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_202",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_205",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_222",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    },
+    {
+      "mdp_id": "v2t_colosseum_simplegrid_227",
+      "family": "simplegrid",
+      "passes_filter": true,
+      "kept": false
+    }
+  ],
+  "family_counts": {
+    "riverswim": 18,
+    "deepsea": 18,
+    "frozenlake": 18,
+    "simplegrid": 18
+  }
+}

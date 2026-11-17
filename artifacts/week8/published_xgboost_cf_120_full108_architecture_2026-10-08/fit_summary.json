@@ -1,0 +1,32 @@
+{
+  "primary/behavior_cloning_tabular": {
+    "fit_predict_seconds": 1.6278136000037193,
+    "training_rows": 2520,
+    "query_rows": 420
+  },
+  "primary/cfqi_tabular": {
+    "fit_predict_seconds": 1.449669299996458,
+    "training_rows": 2520,
+    "query_rows": 420
+  },
+  "primary/iql_tabular": {
+    "fit_predict_seconds": 1.4795630000298843,
+    "training_rows": 2520,
+    "query_rows": 420
+  },
+  "control/behavior_cloning_tabular": {
+    "fit_predict_seconds": 0.6587818000116386,
+    "training_rows": 1080,
+    "query_rows": 180
+  },
+  "control/cfqi_tabular": {
+    "fit_predict_seconds": 0.6905659000040032,
+    "training_rows": 1080,
+    "query_rows": 180
+  },
+  "control/iql_tabular": {
+    "fit_predict_seconds": 0.739629200019408,
+    "training_rows": 1080,
+    "query_rows": 180
+  }
+}

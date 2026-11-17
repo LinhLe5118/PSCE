@@ -1,0 +1,7 @@
+algorithm,metric,comparison_minus_b2,ci95_low,ci95_high,bootstrap_unit
+behavior_cloning_tabular,brier,0.02209772839926679,0.007196385583631353,0.0378025155592963,MDP task (five behaviors kept together)
+behavior_cloning_tabular,log_loss,0.15472543112646583,0.04016031945472678,0.27507791830048095,MDP task (five behaviors kept together)
+cfqi_tabular,brier,-0.07379556094064563,-0.09698187623581872,-0.04942837234123103,MDP task (five behaviors kept together)
+cfqi_tabular,log_loss,-0.5925924200757138,-0.7443935747727988,-0.4291747693850652,MDP task (five behaviors kept together)
+iql_tabular,brier,-0.010137419419623012,-0.018050208012095788,-0.0024427181878540313,MDP task (five behaviors kept together)
+iql_tabular,log_loss,-0.0695160336449394,-0.12644048956385295,-0.01180374891849451,MDP task (five behaviors kept together)

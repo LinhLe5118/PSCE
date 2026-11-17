@@ -1,0 +1,53 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T1 extrapolation endpoint",
+  "created_utc": "2026-10-15T06:49:07.921199+00:00",
+  "definitions": {
+    "pilot": "x10 (index 3)",
+    "ibs_ge": "thresholds x10, x20, x50 (at or above the pilot; card T1)",
+    "ibs_gt": "thresholds x20, x50 (strictly above the pilot)",
+    "ll_ext": "log loss of the coarsened law {<= x10, x20, x50, > x50}, floor 1e-12",
+    "averaging": "rows within MDP, then MDPs",
+    "intervals": "95% t intervals of the mean per-MDP gain (descriptive)"
+  },
+  "equivalence_max_abs_diff": 2.220446049250313e-16,
+  "inputs_sha256": {
+    "artifacts/oeh_confirmatory_unseen_120_2026-10-04/labels.csv": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e",
+    "artifacts/oeh_confirmatory_unseen_120_2026-10-04/predictions_preoutcome.csv": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a",
+    "artifacts/oeh_confirmatory_unseen_120_2026-10-04/summary.csv": "259a9b6beef84eebe07a702fbec8d8b842d33fd3670cf7d24b012018aa967433",
+    "artifacts/oeh_eighth_cohort_2026-10-14/colosseum/labels.csv": "be30ab4973d00dc19957163128830a7915302dbc138b5ad95ad95b1dd617d7d4",
+    "artifacts/oeh_eighth_cohort_2026-10-14/colosseum/predictions_preoutcome.csv": "6905d03dec7e3d9b2631ba6caadeb063917b96aa0c4bbb6d6795f239b26e5e2b",
+    "artifacts/oeh_eighth_cohort_2026-10-14/colosseum/summary.csv": "5e690590523ed2d555984eff8e781efc09786b1102cde948a9f978cf41c66acd",
+    "artifacts/oeh_eighth_cohort_2026-10-14/internal/labels.csv": "e35de5a8e43e80765df52835f9936dd844dac8fba0e5a76d5ae2049e7f68e01d",
+    "artifacts/oeh_eighth_cohort_2026-10-14/internal/predictions_preoutcome.csv": "f6491a1c3cf300a718b9ded4cee874df0a8d1509326d66312c9212d250b0a92d",
+    "artifacts/oeh_eighth_cohort_2026-10-14/internal/summary.csv": "644813177dfc373f3d91ae8c9a4a15ba6d7fa4f61d9ba1fe7489eb7ea4e1e477",
+    "artifacts/oeh_fifth_panel_2026-10-15/frozenlake/labels.csv": "3922293af08e0fb276cd7cccd716ba119ee14ee91033796e8d370017fa2c61d2",
+    "artifacts/oeh_fifth_panel_2026-10-15/frozenlake/predictions_preoutcome.csv": "eabc77ad76d48d6d2cb0305e75bae6aa8acdd943e5078b1251c3affca8a71d02",
+    "artifacts/oeh_fifth_panel_2026-10-15/gambler/labels.csv": "fc516c5781cb55a31632ee5364145fe90227a47abf4a7b884676506f6ef1b949",
+    "artifacts/oeh_fifth_panel_2026-10-15/gambler/predictions_preoutcome.csv": "aa32d8142e1f445af17dbb1ce7e397e72f9639d00a148d6cb2adde18069c7a66",
+    "artifacts/oeh_fifth_panel_2026-10-15/summary.csv": "d49ad8ed665ac9d8822fb11504b4489a06502e61926f98c7ec600b71dac0890d",
+    "artifacts/oeh_spibb_panel_2026-10-14/spibb/labels.csv": "521a6c6fab151de9316536927b001a9b76001eb02f09f948cc0d96e74c263b94",
+    "artifacts/oeh_spibb_panel_2026-10-14/spibb/predictions_preoutcome.csv": "0dbaa1deffe3a5d4cc24d09e7bc361f38fbb44090310f30f139c9318bfc5c746",
+    "artifacts/oeh_spibb_panel_2026-10-14/spibb/summary.csv": "dd56bfcd0bba297a50ca4939e68dbbe205ce202cc390829b58fbaff6011dfbd0",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/colosseum2029/labels.csv": "93fa7da6d2116448cabf40e312a7a0fdeeb90aed7228e6a416c23aef1c1d04d8",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/colosseum2029/predictions_preoutcome.csv": "909a3879019319ec0c2e18fbee17d586fcb442565b4ea1cd8a2f1520f023aa9f",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/forest/labels.csv": "b28b08973f063270dd65f9c7640e6e102f4d96810fd7c44dc13ae3dd70369f08",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/forest/predictions_preoutcome.csv": "aac2a2ad4b042886f3da508849406c96ae08921c1c6de58bf389e8b1ea41ab4a",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/internal/labels.csv": "d0b96d88953f2219597775d2c8327a6ed680680bcf0c3f67a49931da461efc33",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/internal/predictions_preoutcome.csv": "fbc5e7d1f8b677e2e92f0051f081f869abdbdb6e4f1cded6a69c9c64ec408311",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/spibb2/labels.csv": "cbe800828cb5a1a6b66d0d76d540e8c30600d9b8ca5fc765786d7c92da896e6c",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/spibb2/predictions_preoutcome.csv": "ff88c7eebc7538d3056ad343c6e1488fd752eda5638ce8f18804060416374387",
+    "artifacts/oeh_v2_sealed_test_2026-10-14/summary.csv": "8b25c541b219f5cc611b19dc5b837c8c1c035ba2bf34ec6b5447cdf454f7252e",
+    "artifacts/week8/colosseum_confirm_2026-10-14/colosseum_labels.csv": "bc937c70e70f688563b28a9f50e6411aff8bced4a2437a0b502a39e287b261d5",
+    "artifacts/week8/colosseum_confirm_2026-10-14/colosseum_predictions_preoutcome.csv": "200871d8f6615b48ebae7f9136ebcce182481728728ae2ce10aa08304dee302a",
+    "artifacts/week8/colosseum_confirm_2026-10-14/comparator_predictions.csv": "00baae82e05c09a45e5d850d4e1fdd911c1d747a55b6fb4fa7d3376003e3431a"
+  },
+  "outputs_sha256": {
+    "equivalence.csv": "ea368d91fc7036cc92fedd28b88a6ecdde8815a0a692495ad835578ed3ccc09e",
+    "scores_by_panel.csv": "b6eed426c824b200db6de5fa7cbe263174475827ec58b9c89d5be38c94884dc3",
+    "gains.csv": "699444715ef05282864bb965d554dbdf9ab3ab7e61f1414f570e57eda1affde2"
+  },
+  "source_sha256": {
+    "scripts/analysis/extrapolation_endpoint.py": "b5b5e1c48c6b68c50298e9e4d4fa8661b9e242158678984875d46dee7f1edfaf"
+  }
+}

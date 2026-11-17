@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_DESCRIPTIVE_OPENED_BRIDGE_PANEL",
+  "task_clusters": 14,
+  "bootstrap_draws": 1000,
+  "bootstrap_seed": 20261008,
+  "source_sha256": {
+    "eri_raw": "e97a98973bdf3d57a1d08f7accccaf203cc48f27bdc793a5c3fee81bde93162e",
+    "tqsaco_raw": "e11da1c872ee75777e8f2a6c05838ee6b4e477180dba08bdbb8c2a943d7b6135",
+    "labels": "08e3750f0c46d176a2f96f75854475f24008a38530fac84c3993a1da1ffd6a79",
+    "script": "1ee78d0bb18d36944f04b12f155648a002f176b3794220bd9de7b13405d0fce0"
+  },
+  "output_sha256": "06f561c012e079b8ae9a428dde5f2cedfb3c7e81f983acd9eafabf0488a0a207",
+  "warning": "Already opened BRIDGE outcomes; CI is descriptive and does not prove method superiority."
+}

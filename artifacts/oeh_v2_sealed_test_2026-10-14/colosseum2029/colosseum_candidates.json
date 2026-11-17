@@ -1,0 +1,5812 @@
+{
+ "prefix": "v2t_colosseum",
+ "sampler_seed": 2029,
+ "draws_per_family": 600,
+ "max_per_family": 30,
+ "earlier_kernels_excluded": 276,
+ "regenerated_ids_only": false,
+ "rule": "authors' sampler order; stochastic; 16<=S*A<=256",
+ "index": [
+  {
+   "family": "riverswim",
+   "draw": 0,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_000",
+   "S": 30,
+   "A": 2,
+   "kernel_sha256": "453f1bdcc0bfff29aee1eae1ec7f105b517aabcb204835b6c3ad82855f974103",
+   "params": {
+    "size": 30,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.051,
+    "reward_variance_multiplier": 0.9567,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.9567,
+      3.8268
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.9567,
+      0.1063
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.9567,
+      46.8788
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 1,
+   "status": "filtered",
+   "S": 65,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 2,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_002",
+   "S": 21,
+   "A": 2,
+   "kernel_sha256": "0369f56fa56e902df87fba176842009e329f31e34d2cbc494a9eba33f373e6c5",
+   "params": {
+    "size": 21,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0151,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.4923,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.4923,
+      5.9693
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.4923,
+      0.1658
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.4923,
+      73.1235
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 3,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_003",
+   "S": 46,
+   "A": 2,
+   "kernel_sha256": "ec54f5887b3c6ea21d9e8d945ae38d663cbef54d1f31732d4fee232a5b5a0185",
+   "params": {
+    "size": 46,
+    "make_reward_stochastic": false,
+    "p_rand": 0.1376,
+    "p_lazy": 0.1435,
+    "reward_variance_multiplier": 0.0072,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 4,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_004",
+   "S": 89,
+   "A": 2,
+   "kernel_sha256": "a72f5be93b4b5dfca899a5d94ed146862d7d929b3fe0d191527155a121cfa825",
+   "params": {
+    "size": 89,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0182,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.4648,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 5,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_005",
+   "S": 10,
+   "A": 2,
+   "kernel_sha256": "48e6ba42c061dbbe089f6d4f0d72241801cc000542b0a6c91234217c24c019d6",
+   "params": {
+    "size": 10,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0908,
+    "p_lazy": null,
+    "reward_variance_multiplier": 0.4839,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 6,
+   "status": "filtered",
+   "S": 18,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 7,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_007",
+   "S": 26,
+   "A": 2,
+   "kernel_sha256": "a637a0189e857632d8225f95a427edf6bdeb5aee98361aa7bcfe972aba4361b6",
+   "params": {
+    "size": 26,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.0656,
+    "reward_variance_multiplier": 0.6226,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.6226,
+      2.4906
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.6226,
+      0.0692
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.6226,
+      30.5096
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 8,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_008",
+   "S": 75,
+   "A": 2,
+   "kernel_sha256": "20ae5677e10fb21629d668c607f8cb2cfcdf296a5b64d5b34575961a40aef42e",
+   "params": {
+    "size": 75,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0199,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.2716,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.2716,
+      5.0864
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.2716,
+      0.1413
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.2716,
+      62.3089
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 9,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_009",
+   "S": 41,
+   "A": 2,
+   "kernel_sha256": "cb686b24b9bde46c6bb3e3490fd17dd98c2274d913004cfef949d57cd97cfa5c",
+   "params": {
+    "size": 41,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0205,
+    "p_lazy": 0.1513,
+    "reward_variance_multiplier": 1.8125,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 10,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_010",
+   "S": 50,
+   "A": 2,
+   "kernel_sha256": "7def0b5bcd1a1cd33a97832b009dd72e3f123d3a336c60a17e1326fb150a0e15",
+   "params": {
+    "size": 50,
+    "make_reward_stochastic": true,
+    "p_rand": 0.1559,
+    "p_lazy": 0.0482,
+    "reward_variance_multiplier": 0.7187,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.7187,
+      2.8749
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.7187,
+      0.0799
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.7187,
+      35.2171
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 11,
+   "status": "filtered",
+   "S": 32,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 12,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_012",
+   "S": 32,
+   "A": 2,
+   "kernel_sha256": "afe7142e5f62fa197cee6427b8596e54c3092aa5425b431833b1d831b3be07ca",
+   "params": {
+    "size": 32,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0826,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.6309,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.6309,
+      6.5235
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.6309,
+      0.1812
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.6309,
+      79.9124
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 13,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_013",
+   "S": 46,
+   "A": 2,
+   "kernel_sha256": "a49ec749e7d9d0b1eb3b7529d367532634c9a3e8e060e1b2ebb2b81a4bb44e7c",
+   "params": {
+    "size": 46,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.0843,
+    "reward_variance_multiplier": 0.1693,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.1693,
+      0.6771
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.1693,
+      0.0188
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.1693,
+      8.2948
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 14,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_014",
+   "S": 64,
+   "A": 2,
+   "kernel_sha256": "7cd887e6df95b659139553a10f7fcf612ba7a076a784833f5d986d950f46d67a",
+   "params": {
+    "size": 64,
+    "make_reward_stochastic": true,
+    "p_rand": 0.1459,
+    "p_lazy": 0.1915,
+    "reward_variance_multiplier": 0.256,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.256,
+      1.0238
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.256,
+      0.0284
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.256,
+      12.5416
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 15,
+   "status": "filtered",
+   "S": 87,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 16,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_016",
+   "S": 13,
+   "A": 2,
+   "kernel_sha256": "8481cb23b3b870d172b6f4ea190f60f405f93ffb35a0ee331b7141630c25bb8d",
+   "params": {
+    "size": 13,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0123,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.1081,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.1081,
+      4.4325
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.1081,
+      0.1231
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.1081,
+      54.2981
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 17,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_017",
+   "S": 25,
+   "A": 2,
+   "kernel_sha256": "71c8962819701960f15735839f9a65ae7a73918653f472b0709fc6fa9ee8d184",
+   "params": {
+    "size": 25,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0325,
+    "p_lazy": null,
+    "reward_variance_multiplier": 0.5917,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.5917,
+      2.3666
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.5917,
+      0.0657
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.5917,
+      28.9913
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 18,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_018",
+   "S": 16,
+   "A": 2,
+   "kernel_sha256": "49229318c0434045b48b7b104bcfcb2b7e9b41e64c1b2c595433950bfe52ad50",
+   "params": {
+    "size": 16,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0153,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.0444,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.0444,
+      4.1778
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.0444,
+      0.116
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.0444,
+      51.1776
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 19,
+   "status": "filtered",
+   "S": 5,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 20,
+   "status": "filtered",
+   "S": 52,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 21,
+   "status": "filtered",
+   "S": 10,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 22,
+   "status": "filtered",
+   "S": 79,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 23,
+   "status": "filtered",
+   "S": 4,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 24,
+   "status": "filtered",
+   "S": 6,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 25,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_025",
+   "S": 41,
+   "A": 2,
+   "kernel_sha256": "f4131dd150075f7c62bb6c8463946b8276ec5629cb5d13d6f18679e0529484a4",
+   "params": {
+    "size": 41,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.0196,
+    "reward_variance_multiplier": 0.1621,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.1621,
+      0.6483
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.1621,
+      0.018
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.1621,
+      7.942
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 26,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_026",
+   "S": 49,
+   "A": 2,
+   "kernel_sha256": "b5fb09b294bfd3e1c39003b49d34e6d8577513db7f66869e3cc09481837f8362",
+   "params": {
+    "size": 49,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0122,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.5569,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 27,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_027",
+   "S": 55,
+   "A": 2,
+   "kernel_sha256": "f0280232cdb317df2b731d1d9d931befdf76d742c6feb374403c617056233ead",
+   "params": {
+    "size": 55,
+    "make_reward_stochastic": false,
+    "p_rand": null,
+    "p_lazy": 0.3447,
+    "reward_variance_multiplier": 1.1971,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 28,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_028",
+   "S": 17,
+   "A": 2,
+   "kernel_sha256": "3c3338fa0f932395880ad0a96c3f87585fcc68fd5621ce08b245a2af9ae28763",
+   "params": {
+    "size": 17,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0754,
+    "p_lazy": null,
+    "reward_variance_multiplier": 0.5728,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.5728,
+      2.291
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.5728,
+      0.0636
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.5728,
+      28.065
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 29,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_029",
+   "S": 82,
+   "A": 2,
+   "kernel_sha256": "1a640db2f60183604c664e38882e057a13f52e3586dba5dbf54b691b5527ab16",
+   "params": {
+    "size": 82,
+    "make_reward_stochastic": false,
+    "p_rand": null,
+    "p_lazy": 0.0326,
+    "reward_variance_multiplier": 0.6431,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 30,
+   "status": "filtered",
+   "S": 25,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 31,
+   "status": "filtered",
+   "S": 26,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 32,
+   "status": "filtered",
+   "S": 59,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 33,
+   "status": "filtered",
+   "S": 69,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 34,
+   "status": "filtered",
+   "S": 7,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 35,
+   "status": "filtered",
+   "S": 45,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 36,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_036",
+   "S": 35,
+   "A": 2,
+   "kernel_sha256": "380245e8feee3f8dadf0e1d8be88c50b2304bc4f31cba106943ad5a7d4f37e5f",
+   "params": {
+    "size": 35,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0328,
+    "p_lazy": 0.0971,
+    "reward_variance_multiplier": 0.0864,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 37,
+   "status": "filtered",
+   "S": 6,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 38,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_038",
+   "S": 30,
+   "A": 2,
+   "kernel_sha256": "9cb3d7e9193bce42d9254e858aa5eb24d41fbfb3a91c211c563253b50372e892",
+   "params": {
+    "size": 30,
+    "make_reward_stochastic": false,
+    "p_rand": 0.1209,
+    "p_lazy": 0.0152,
+    "reward_variance_multiplier": 1.8306,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 39,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_039",
+   "S": 41,
+   "A": 2,
+   "kernel_sha256": "f1db7ae0ed44d6468a388675336d70b7b869093f75939d08c546d0c24d95deac",
+   "params": {
+    "size": 41,
+    "make_reward_stochastic": false,
+    "p_rand": null,
+    "p_lazy": 0.0832,
+    "reward_variance_multiplier": 1.656,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 40,
+   "status": "filtered",
+   "S": 75,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 41,
+   "status": "filtered",
+   "S": 14,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 42,
+   "status": "filtered",
+   "S": 64,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 43,
+   "status": "filtered",
+   "S": 31,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 44,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_044",
+   "S": 20,
+   "A": 2,
+   "kernel_sha256": "4a2258f0ae31b10f52d89f1b229f102bbac8ba9a5330cba67c1c938c5278ddd4",
+   "params": {
+    "size": 20,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.0114,
+    "reward_variance_multiplier": 0.0143,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.0143,
+      0.057
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.0143,
+      0.0016
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.0143,
+      0.6989
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 45,
+   "status": "filtered",
+   "S": 17,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 46,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_046",
+   "S": 38,
+   "A": 2,
+   "kernel_sha256": "43fdf33f76f47680d6b8c5bf34d2682dbc9a6af75c22ab3366f1f3478eb25c76",
+   "params": {
+    "size": 38,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0856,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.6443,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 47,
+   "status": "filtered",
+   "S": 51,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 48,
+   "status": "filtered",
+   "S": 6,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 49,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_049",
+   "S": 73,
+   "A": 2,
+   "kernel_sha256": "1cb11464dc08bae1c67edcd9058d450bace18785b16321f43e0c077a9eb19cbd",
+   "params": {
+    "size": 73,
+    "make_reward_stochastic": true,
+    "p_rand": null,
+    "p_lazy": 0.0214,
+    "reward_variance_multiplier": 1.9341,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.9341,
+      7.7365
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.9341,
+      0.2149
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.9341,
+      94.7718
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 50,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_050",
+   "S": 58,
+   "A": 2,
+   "kernel_sha256": "3b777cbee4b5ff41d4b274b7fd27dc736b755094bd4e47ee2aa0486b0e78bed6",
+   "params": {
+    "size": 58,
+    "make_reward_stochastic": false,
+    "p_rand": 0.0402,
+    "p_lazy": null,
+    "reward_variance_multiplier": 0.6295,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 51,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_051",
+   "S": 85,
+   "A": 2,
+   "kernel_sha256": "02ca0e586809c75eb5d8affe8caebde01a35bc0cbe8e35a8173fb93ef04f886b",
+   "params": {
+    "size": 85,
+    "make_reward_stochastic": false,
+    "p_rand": null,
+    "p_lazy": 0.0115,
+    "reward_variance_multiplier": 1.6178,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 52,
+   "status": "filtered",
+   "S": 5,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 53,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_053",
+   "S": 10,
+   "A": 2,
+   "kernel_sha256": "4812f98e2cf0c61c0f28c5256948203c74f1901177f34d936e57950a307d4f89",
+   "params": {
+    "size": 10,
+    "make_reward_stochastic": false,
+    "p_rand": null,
+    "p_lazy": 0.0107,
+    "reward_variance_multiplier": 0.4518,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.005
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "riverswim",
+   "draw": 54,
+   "status": "filtered",
+   "S": 81,
+   "A": 2
+  },
+  {
+   "family": "riverswim",
+   "draw": 55,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_riverswim_055",
+   "S": 13,
+   "A": 2,
+   "kernel_sha256": "bf59ccb38f2d1072c64062be7aed0d06e3006c473b13a82c2e913eacedcada15",
+   "params": {
+    "size": 13,
+    "make_reward_stochastic": true,
+    "p_rand": 0.0353,
+    "p_lazy": null,
+    "reward_variance_multiplier": 1.379,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.379,
+      5.516
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.379,
+      0.1532
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.379,
+      67.5705
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 0,
+   "status": "filtered",
+   "S": 153,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 1,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_001",
+   "S": 28,
+   "A": 2,
+   "kernel_sha256": "fe0cca224550a718054935b95368ae5c08f086cad0da495ef0014c25655c922d",
+   "params": {
+    "size": 7,
+    "p_rand": 0.2758,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.7102,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0204
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 2,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_002",
+   "S": 55,
+   "A": 2,
+   "kernel_sha256": "c6a1365901704566ab02713030577f8fc2a44437e40b2b6cb756f54ff284ff57",
+   "params": {
+    "size": 10,
+    "p_rand": 0.2294,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.2317,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.2317,
+      4.4029
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      2.0856,
+      0.2317
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.2317,
+      44.0289
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 3,
+   "status": "filtered",
+   "S": 171,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 4,
+   "status": "filtered",
+   "S": 153,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 5,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_005",
+   "S": 91,
+   "A": 2,
+   "kernel_sha256": "751ff93d6955fd5f980daa656d2bdddc737958f4f892ce4ca42338750b63350d",
+   "params": {
+    "size": 13,
+    "p_rand": 0.2591,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.9204,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.9204,
+      48.0105
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      23.045,
+      1.9204
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.9204,
+      480.1049
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 6,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_006",
+   "S": 120,
+   "A": 2,
+   "kernel_sha256": "bc164306d058ae60bfd504d82af327ae713d71ef85639f699f00149f467e7a11",
+   "params": {
+    "size": 15,
+    "p_rand": 0.4068,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.3606,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.3606,
+      39.4574
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      19.0484,
+      1.3606
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.3606,
+      394.5743
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 7,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_007",
+   "S": 55,
+   "A": 2,
+   "kernel_sha256": "8be68681a0b1d0bffd2f2688bedeaa193f8edfd3ea59f86f3a38de540b27663f",
+   "params": {
+    "size": 10,
+    "p_rand": 0.2235,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.7859,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.01
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 8,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_008",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "0abcb220a43aae3445ba352369dd7f4598743045c0bef5d092f9adbe02a377ca",
+   "params": {
+    "size": 8,
+    "p_rand": 0.2833,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.6441,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0156
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 9,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_009",
+   "S": 45,
+   "A": 2,
+   "kernel_sha256": "fd8c065cca289d1617a06673f9cc99d00e4a2e23a16d2dbd2c0486a023389429",
+   "params": {
+    "size": 9,
+    "p_rand": 0.2078,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.3364,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0123
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 10,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_010",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "e781c2d466df1325637e99687bbff4693c5019e6071a22e1d44a77ef14101a87",
+   "params": {
+    "size": 8,
+    "p_rand": 0.378,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.0366,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.0366,
+      15.5497
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      7.2565,
+      1.0366
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.0366,
+      155.4974
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 11,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_011",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "0bc77a850eee79530983b42059cd9182806ade062b1a9aeddd2c73b0c735cafd",
+   "params": {
+    "size": 8,
+    "p_rand": 0.3067,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.9122,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0156
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 12,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_012",
+   "S": 120,
+   "A": 2,
+   "kernel_sha256": "9724956f1c1507ae057b206436d249619613a138ebd1c8503414b60a33f57454",
+   "params": {
+    "size": 15,
+    "p_rand": 0.221,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.415,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0044
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 13,
+   "status": "filtered",
+   "S": 276,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 14,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_014",
+   "S": 28,
+   "A": 2,
+   "kernel_sha256": "5c763d2bdf59196ac9e98409e3663e7b152e3557e33766a905877376b9355738",
+   "params": {
+    "size": 7,
+    "p_rand": 0.4069,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.1957,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0204
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 15,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_015",
+   "S": 55,
+   "A": 2,
+   "kernel_sha256": "168bbf1d0569c292d0ff1282e3d4d58eedc675596b7983bd582c2f1cea1be510",
+   "params": {
+    "size": 10,
+    "p_rand": 0.2128,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.0368,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.0368,
+      19.6999
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      9.3315,
+      1.0368
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.0368,
+      196.999
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 16,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_016",
+   "S": 91,
+   "A": 2,
+   "kernel_sha256": "d6e719f12b324758631f549d79a6b75ff866e80866b26383e1656088d02e2dc7",
+   "params": {
+    "size": 13,
+    "p_rand": 0.1831,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.4202,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0059
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 17,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_017",
+   "S": 66,
+   "A": 2,
+   "kernel_sha256": "e3fb8c562c523a4de927d9b25a3afa4f165000d649d63b8288970b478f777eb7",
+   "params": {
+    "size": 11,
+    "p_rand": 0.2201,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.466,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0083
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 18,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_018",
+   "S": 105,
+   "A": 2,
+   "kernel_sha256": "ff5d54f0da7b5a54fd230a982e346aa9e83dfd6a71a0627c23e96b17d795b731",
+   "params": {
+    "size": 14,
+    "p_rand": 0.2169,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.5413,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.5413,
+      41.6154
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      20.037,
+      1.5413
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.5413,
+      416.1538
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 19,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_019",
+   "S": 28,
+   "A": 2,
+   "kernel_sha256": "b016d08c89c2c635136475fea9056d2d5200fce4e1c68b0f8caefe69480e2443",
+   "params": {
+    "size": 7,
+    "p_rand": 0.3241,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.2345,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0204
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 20,
+   "status": "filtered",
+   "S": 190,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 21,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_021",
+   "S": 66,
+   "A": 2,
+   "kernel_sha256": "f14e1f3cc2ecdcb5200ed8803a25e4169d7620011e953e978f1c2b2d1d9ea0f7",
+   "params": {
+    "size": 11,
+    "p_rand": 0.5754,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.9664,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0083
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 22,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_022",
+   "S": 28,
+   "A": 2,
+   "kernel_sha256": "1fbe448f0bb23ca16ce4b62f298deddf206486592e469fcb3209452f2acfceef",
+   "params": {
+    "size": 7,
+    "p_rand": 0.1861,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.2123,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.2123,
+      2.7602
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.2739,
+      0.2123
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.2123,
+      27.6017
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 23,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_023",
+   "S": 45,
+   "A": 2,
+   "kernel_sha256": "87bd74e85023aa5e44a2eee9434b62e19dd3c937c841c0a67ab67e1bd17e8259",
+   "params": {
+    "size": 9,
+    "p_rand": 0.2407,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.6562,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0123
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 24,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_024",
+   "S": 120,
+   "A": 2,
+   "kernel_sha256": "223011b05f9f504034d0f8ee39618dd120991bfee47d4f5e366ea5e008600dc4",
+   "params": {
+    "size": 15,
+    "p_rand": 0.1828,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.1448,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0044
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 25,
+   "status": "filtered",
+   "S": 153,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 26,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_026",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "e7d846da0036b23d82b719341b12f12455e975df409bf902aea5a55148674de1",
+   "params": {
+    "size": 8,
+    "p_rand": 0.2151,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.7738,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.7738,
+      11.607
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      5.4166,
+      0.7738
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.7738,
+      116.0696
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 27,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_027",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "95107b8804ddc04ccafcb90325044e47d0ce4fda789efc2e451583c424605356",
+   "params": {
+    "size": 8,
+    "p_rand": 0.3335,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.7561,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.7561,
+      26.3418
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      12.2928,
+      1.7561
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.7561,
+      263.4181
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 28,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_028",
+   "S": 78,
+   "A": 2,
+   "kernel_sha256": "832ab31fdb06d276aa59e8fe0d286f88c09fd560216688707599cbd750eb5495",
+   "params": {
+    "size": 12,
+    "p_rand": 0.2928,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.6174,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.6174,
+      37.1999
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      17.7913,
+      1.6174
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.6174,
+      371.9991
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 29,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_029",
+   "S": 78,
+   "A": 2,
+   "kernel_sha256": "9197e81bef962398658318fda6907c98509af2b5aa324e60f23651cf0da3dae3",
+   "params": {
+    "size": 12,
+    "p_rand": 0.271,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.3258,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.3258,
+      7.4939
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      3.584,
+      0.3258
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.3258,
+      74.9389
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 30,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_030",
+   "S": 36,
+   "A": 2,
+   "kernel_sha256": "edc6a4b5d0c96f87cde31153b11b9a8100335eb7a331dbb7e48fbf92f275f27f",
+   "params": {
+    "size": 8,
+    "p_rand": 0.2321,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.958,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.958,
+      14.3694
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      6.7057,
+      0.958
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.958,
+      143.6936
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 31,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_031",
+   "S": 91,
+   "A": 2,
+   "kernel_sha256": "e2480a3a1b4d2d800c9216bc9d931300bf905c002b5654fe8eebf81cabb459ee",
+   "params": {
+    "size": 13,
+    "p_rand": 0.2042,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.723,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.723,
+      18.0741
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      8.6756,
+      0.723
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.723,
+      180.7411
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 32,
+   "status": "filtered",
+   "S": 210,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 33,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_033",
+   "S": 91,
+   "A": 2,
+   "kernel_sha256": "bbeb5597192f267a9c668021b6b96400c91428f1f091850ca66d95f1d764fb62",
+   "params": {
+    "size": 13,
+    "p_rand": 0.3823,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.0258,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0059
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 34,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_034",
+   "S": 91,
+   "A": 2,
+   "kernel_sha256": "7d5fdd1feb55dacb4765e825ad667d31f1a881a318698f3956543bb520c55204",
+   "params": {
+    "size": 13,
+    "p_rand": 0.3185,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.8023,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.8023,
+      45.0569
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      21.6273,
+      1.8023
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.8023,
+      450.5694
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 35,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_035",
+   "S": 45,
+   "A": 2,
+   "kernel_sha256": "218fcbb9331e6363e350a9463cd47e5f000412de14763c8ee7f8153b600de56a",
+   "params": {
+    "size": 9,
+    "p_rand": 0.276,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.5248,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0123
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "deepsea",
+   "draw": 36,
+   "status": "filtered",
+   "S": 190,
+   "A": 2
+  },
+  {
+   "family": "deepsea",
+   "draw": 37,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_deepsea_037",
+   "S": 55,
+   "A": 2,
+   "kernel_sha256": "6d79ccda73804586fde2db343e3eec30a3d4c1293e6b2d8e8fa2a9d4c8841808",
+   "params": {
+    "size": 10,
+    "p_rand": 0.3122,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.0274,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.01
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 0,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_000",
+   "S": 34,
+   "A": 4,
+   "kernel_sha256": "c7106d1dd72b78044264a30815b3014ab00768017156928df294e8618f7e884b",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": 0.051,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.2317,
+    "default_r": [
+     "beta",
+     [
+      0.2317,
+      83.1914
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      8.1106,
+      0.2317
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 1,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_001",
+   "S": 16,
+   "A": 4,
+   "kernel_sha256": "26dce5e7390d7a6ab5f5e52321fd083d19f09844dbfffbb5fe03cc8e8a6d5a5a",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": 0.0664,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.1348,
+    "default_r": [
+     "beta",
+     [
+      1.1348,
+      180.4347
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      17.0221,
+      1.1348
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 2,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_002",
+   "S": 16,
+   "A": 4,
+   "kernel_sha256": "368a3c85d0b0a1f74f5b90dd74fa487c87e99f6abdbbb2f42525728cbeb20998",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.8144,
+    "default_r": [
+     "beta",
+     [
+      1.8144,
+      288.4857
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      27.2156,
+      1.8144
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 3,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_003",
+   "S": 25,
+   "A": 4,
+   "kernel_sha256": "269f7fe9507b09a758cfdb270f873b9627d9d1f9b9a61bfd89a7be67991f3b8f",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.9188,
+    "p_rand": 0.0105,
+    "p_lazy": 0.0209,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.3616,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 4,
+   "status": "filtered",
+   "S": 128,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 5,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_005",
+   "S": 22,
+   "A": 4,
+   "kernel_sha256": "9b08e6813c78595cc702f099c9c35a107a56917f1ae5e8ec7c34a5413baba2f8",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.8164,
+    "p_rand": null,
+    "p_lazy": 0.1781,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.6179,
+    "default_r": [
+     "beta",
+     [
+      0.6179,
+      153.8514
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      14.8291,
+      0.6179
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 6,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_006",
+   "S": 24,
+   "A": 4,
+   "kernel_sha256": "958bf6158d8ec110d95bdb0c24ef08d07931ad09dc03884479297c051de7b9c5",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.9137,
+    "p_rand": 0.0121,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.3944,
+    "default_r": [
+     "beta",
+     [
+      1.3944,
+      347.2058
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      33.4656,
+      1.3944
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 7,
+   "status": "filtered",
+   "S": 105,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 8,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_008",
+   "S": 22,
+   "A": 4,
+   "kernel_sha256": "508f2a5f9f596bd55055e0b7ea5eaea34abaf0c965bda712cb354bc5148677f3",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.95,
+    "p_rand": 0.2501,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.0729,
+    "default_r": [
+     "beta",
+     [
+      1.0729,
+      267.1562
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      25.75,
+      1.0729
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 9,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_009",
+   "S": 22,
+   "A": 4,
+   "kernel_sha256": "fb91e5f8e40d09e458f33095271db4b52dd36be264d52538ecb44d3166c2fe35",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.8258,
+    "p_rand": null,
+    "p_lazy": 0.053,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.4091,
+    "default_r": [
+     "beta",
+     [
+      1.4091,
+      350.8775
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      33.8195,
+      1.4091
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 10,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_010",
+   "S": 46,
+   "A": 4,
+   "kernel_sha256": "a0a097d84e06409420f236ef298928c44d7a9a012e7725312b6dd036e5af24c5",
+   "params": {
+    "size": 7,
+    "p_frozen": 0.9024,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.6309,
+    "default_r": [
+     "beta",
+     [
+      1.6309,
+      797.493
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      78.2815,
+      1.6309
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 11,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_011",
+   "S": 24,
+   "A": 4,
+   "kernel_sha256": "7c16f3c042405a8ce482c26aa3f8a48db1fcab74fc05a5265b7846ee5aa175f6",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.905,
+    "p_rand": null,
+    "p_lazy": 0.108,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.8342,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 12,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_012",
+   "S": 24,
+   "A": 4,
+   "kernel_sha256": "3c4af0f3550a7324b6c32ae6e860c6f0bfc5cee3c0135e675ba137aba64929b9",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.95,
+    "p_rand": 0.1657,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.256,
+    "default_r": [
+     "beta",
+     [
+      0.256,
+      63.7316
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      6.1428,
+      0.256
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 13,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_013",
+   "S": 14,
+   "A": 4,
+   "kernel_sha256": "331d57ce83e77e4186d1fabe62bb1144b13ac3f959c9316c0003afbd7764f9cb",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.165,
+    "default_r": [
+     "beta",
+     [
+      1.165,
+      185.2277
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      17.4743,
+      1.165
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 14,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_014",
+   "S": 34,
+   "A": 4,
+   "kernel_sha256": "5eb9f8828114f5e9229ec16c6fe691e8cdeff8239752c47c68119b1c77170880",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.9187,
+    "p_rand": 0.1849,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.5604,
+    "default_r": [
+     "beta",
+     [
+      1.5604,
+      560.1676
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      54.6124,
+      1.5604
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 15,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_015",
+   "S": 13,
+   "A": 4,
+   "kernel_sha256": "f8c54c8a381f1ffef5bfba5fc3f1bbe87db79ee61d37cd8531cd25883367df08",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.8284,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.8388,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 16,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_016",
+   "S": 25,
+   "A": 4,
+   "kernel_sha256": "92db4fcee9df11c0ea13264490c4f55d248bf6041f4fcb7f33539a5ecf95e6a4",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.95,
+    "p_rand": 0.033,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.4073,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 17,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_017",
+   "S": 32,
+   "A": 4,
+   "kernel_sha256": "5c2e53e2c427a0095d8262ea250f867ac4032cdbe7cd8cbc8d30563e4f9d8b12",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.8114,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.6306,
+    "default_r": [
+     "beta",
+     [
+      0.6306,
+      226.3763
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      22.0701,
+      0.6306
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 18,
+   "status": "filtered",
+   "S": 105,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 19,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_019",
+   "S": 15,
+   "A": 4,
+   "kernel_sha256": "67bc61870b79bc766461408b74ba99d6273a8d3a9730257932de2a5917591744",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.95,
+    "p_rand": 0.0739,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.5434,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 20,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_020",
+   "S": 48,
+   "A": 4,
+   "kernel_sha256": "49bd8a3223cdb5277757427db1f616bfb2368e74193598292fbfeb819c44d9e7",
+   "params": {
+    "size": 7,
+    "p_frozen": 0.9389,
+    "p_rand": 0.2155,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.6134,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 21,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_021",
+   "S": 35,
+   "A": 4,
+   "kernel_sha256": "9c221c8284a031c56750ea60ac064ba65babb1a13f4b9c6bcf49f8f0e099b1a0",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.9237,
+    "p_rand": 0.2583,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.2863,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 22,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_022",
+   "S": 43,
+   "A": 4,
+   "kernel_sha256": "2eaf1bf0b2a451d72328d4773d6533b51a640fa11564f543712d99206b7ec67d",
+   "params": {
+    "size": 7,
+    "p_frozen": 0.8471,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.6513,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 23,
+   "status": "filtered",
+   "S": 80,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 24,
+   "status": "filtered",
+   "S": 73,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 25,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_025",
+   "S": 24,
+   "A": 4,
+   "kernel_sha256": "bf4dcf3621d0dd19e385345b21e1c7c18f65c84dee547e6e06c33881d8d0d577",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.95,
+    "p_rand": 0.0106,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.1744,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 26,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_026",
+   "S": 21,
+   "A": 4,
+   "kernel_sha256": "cc41eedff1567795c256f6226ae44f75a7da74e08042914c0f869bb355b35324",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.8635,
+    "p_rand": 0.1968,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.393,
+    "default_r": [
+     "beta",
+     [
+      1.393,
+      346.855
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      33.4318,
+      1.393
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 27,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_027",
+   "S": 33,
+   "A": 4,
+   "kernel_sha256": "330820bb7d4230bdcbfbe861d96cb5c723b88749815ac70ff12d0cc05a25e3b8",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.8893,
+    "p_rand": null,
+    "p_lazy": 0.2718,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.6305,
+    "default_r": [
+     "beta",
+     [
+      0.6305,
+      226.3323
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      22.0658,
+      0.6305
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 28,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_028",
+   "S": 22,
+   "A": 4,
+   "kernel_sha256": "5c2ad27be5654f7308b61214df2b02abe279c7cba0723d66ccaf014b5b4b1e57",
+   "params": {
+    "size": 5,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.9276,
+    "default_r": [
+     "beta",
+     [
+      0.9276,
+      230.9619
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      22.2614,
+      0.9276
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 29,
+   "status": "filtered",
+   "S": 75,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 30,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_030",
+   "S": 31,
+   "A": 4,
+   "kernel_sha256": "286ab64929c57f831c9d7453870029d33e3fce0ce387b3141a92706f157e4428",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.8394,
+    "p_rand": 0.0275,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.7377,
+    "default_r": [
+     "beta",
+     [
+      0.7377,
+      264.8407
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      25.8201,
+      0.7377
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 31,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_031",
+   "S": 33,
+   "A": 4,
+   "kernel_sha256": "080f51c44adadc42fb5d6f15651f455f9d62b3ee7f648a4501cc579db98c3b66",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.95,
+    "p_rand": 0.0202,
+    "p_lazy": 0.0166,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.5382,
+    "default_r": [
+     "beta",
+     [
+      1.5382,
+      552.2071
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      53.8363,
+      1.5382
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 32,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_032",
+   "S": 15,
+   "A": 4,
+   "kernel_sha256": "a59f66e5ba86efcd181879597bdf30031c4709817d44fde21fbca965b2bb9636",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.95,
+    "p_rand": null,
+    "p_lazy": 0.0616,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.3498,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 33,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_033",
+   "S": 45,
+   "A": 4,
+   "kernel_sha256": "22f537fb9f5bbb715c0b5eb97aa875cb02045bfe5ee107d15a2eaf16c23826f4",
+   "params": {
+    "size": 7,
+    "p_frozen": 0.8106,
+    "p_rand": 0.0277,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.6116,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 34,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_034",
+   "S": 14,
+   "A": 4,
+   "kernel_sha256": "6c3a0a7a16a1d20180e64e70e77b44ef24bb61340fe636031e5c6cc6beeb247e",
+   "params": {
+    "size": 4,
+    "p_frozen": 0.8452,
+    "p_rand": null,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.2296,
+    "default_r": [
+     "beta",
+     [
+      1.2296,
+      195.5088
+     ]
+    ],
+    "goal_r": [
+     "beta",
+     [
+      18.4442,
+      1.2296
+     ]
+    ]
+   }
+  },
+  {
+   "family": "frozenlake",
+   "draw": 35,
+   "status": "filtered",
+   "S": 94,
+   "A": 4
+  },
+  {
+   "family": "frozenlake",
+   "draw": 36,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_frozenlake_036",
+   "S": 33,
+   "A": 4,
+   "kernel_sha256": "0c64cdd31331df7a7858f4bff4cbd91129182f0c42c826fa2d9e350dbf918a11",
+   "params": {
+    "size": 6,
+    "p_frozen": 0.9021,
+    "p_rand": null,
+    "p_lazy": 0.0859,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.5096,
+    "default_r": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "goal_r": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 0,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 1,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_001",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "f60be65395d66a03401748647f0b0cfe46f2bbede31617568d4f31a2f28590c0",
+   "params": {
+    "size": 7,
+    "n_starting_states": 4,
+    "p_rand": null,
+    "p_lazy": 0.0664,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.5845,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 2,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 3,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 4,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 5,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_005",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "ea2f6033609da861051e419762b6c8d75d228c3e46318d760da06db67338129c",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": null,
+    "p_lazy": 0.1781,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.3179,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.3179,
+      15.5754
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.3179,
+      0.0353
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.3179,
+      1.2715
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 6,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 7,
+   "status": "filtered",
+   "S": 400,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 8,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 9,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 10,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 11,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 12,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 13,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 14,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 15,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 16,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 17,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 18,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 19,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_019",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "133e014d7efe37bd41e2c1f899a0938a771ab82f3b06b1acf7b9b7f11c778abc",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": 0.0739,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.7511,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 20,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 21,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 22,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 23,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 24,
+   "status": "filtered",
+   "S": 289,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 25,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 26,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 27,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 28,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 29,
+   "status": "filtered",
+   "S": 256,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 30,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 31,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 32,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_032",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "92bf0651a4e3bad59d912490655a390df17cc7431916efe99eb42781ccb875bb",
+   "params": {
+    "size": 7,
+    "n_starting_states": 4,
+    "p_rand": null,
+    "p_lazy": 0.0616,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.0429,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 33,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 34,
+   "status": "filtered",
+   "S": 36,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 35,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 36,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 37,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 38,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 39,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_039",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "cfb3a5dc463032f3f9a18378c5d5b5fb3842c78080d16d396fe05fab8272d784",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": 0.3904,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.1455,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 40,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 41,
+   "status": "filtered",
+   "S": 289,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 42,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 43,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 44,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 45,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 46,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 47,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 48,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 49,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 50,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 51,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 52,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 53,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_053",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "341f159f61676550582f5a7c277d958447be1ce60da3471556fc5676c3a3ff5f",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": 0.21,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.6698,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.6698,
+      32.8202
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.6698,
+      0.0744
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.6698,
+      2.6792
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 54,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 55,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_055",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "d614b662e41d42c3ff160209976f2011ee01e27741be9d178fcd05e023df65ef",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": 0.0634,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.4849,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.4849,
+      23.7609
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.4849,
+      0.0539
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.4849,
+      1.9397
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 56,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 57,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 58,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 59,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 60,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 61,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_061",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "a979588585acbfab421594b43481d77e46d85d1759e7aec2c3b413112b087036",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": 0.0265,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.202,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.202,
+      58.8976
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.202,
+      0.1336
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.202,
+      4.808
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 62,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 63,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 64,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 65,
+   "status": "filtered",
+   "S": 400,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 66,
+   "status": "filtered",
+   "S": 529,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 67,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 68,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_068",
+   "S": 36,
+   "A": 5,
+   "kernel_sha256": "3f3bc81ee323dce75b322aa728eee521330e4a13fa08f923843942f2758f9448",
+   "params": {
+    "size": 6,
+    "n_starting_states": 1,
+    "p_rand": 0.0363,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.176,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.176,
+      8.6253
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.176,
+      0.0196
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.176,
+      0.7041
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 69,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 70,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 71,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 72,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 73,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 74,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 75,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 76,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 77,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 78,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 79,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 80,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_080",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "19984d3a0e0de79c3c3b2dafc86cfa3489d83082b15e19bcecf813e7c29dfd4e",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": null,
+    "p_lazy": 0.024,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.679,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 81,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 82,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_082",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "0e6218c0fb436a2f90c431719a8cf0d86a6355251098e2c9ca4ad1545eee01ed",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": null,
+    "p_lazy": 0.0869,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.986,
+    "reward_type": 1,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 83,
+   "status": "filtered",
+   "S": 289,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 84,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 85,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 86,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 87,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 88,
+   "status": "filtered",
+   "S": 289,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 89,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 90,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 91,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 92,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 93,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_093",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "5e52a83da3af28f01b8219a63108a621cf6b2be385a2cad36d68f27c46cd5a51",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": null,
+    "p_lazy": 0.0542,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.2219,
+    "reward_type": 1,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 94,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 95,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 96,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 97,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_097",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "0ab21179a6d02352d544dc3f3376d32859f6366fbb156d6358fcf1b039e2fba7",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": null,
+    "p_lazy": 0.0497,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.8281,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.8281,
+      40.5745
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.8281,
+      0.092
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.8281,
+      3.3122
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 98,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 99,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 100,
+   "status": "filtered",
+   "S": 484,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 101,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 102,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 103,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 104,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 105,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 106,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 107,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 108,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 109,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_109",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "429e3ae42afd462ebbbd85e1b70cd66f9dcacc10736e472b180d98700e0103c0",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": null,
+    "p_lazy": 0.0806,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.9411,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 110,
+   "status": "filtered",
+   "S": 36,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 111,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 112,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 113,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 114,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 115,
+   "status": "filtered",
+   "S": 289,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 116,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 117,
+   "status": "filtered",
+   "S": 400,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 118,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 119,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 120,
+   "status": "filtered",
+   "S": 400,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 121,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 122,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 123,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 124,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 125,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 126,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 127,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 128,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 129,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_129",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "c0b58eaa5c4e94ad4eb2eac5a5a54b5df6d5e3e968f1615c0d71afd44e6348e6",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": 0.2124,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.3285,
+    "reward_type": 1,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 130,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 131,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 132,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 133,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_133",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "ac412d6b560e1bb3c8a51342d96bc9734b96ca6fdd2a900112611a4375a75fbe",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": null,
+    "p_lazy": 0.1387,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.5105,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 134,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_134",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "e77afda17305c6863c66323489bdba0b09d249675f295419fdd10d05430d1bc2",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": 0.0209,
+    "p_lazy": 0.0104,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.8949,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.8949,
+      92.8503
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.8949,
+      0.2105
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.8949,
+      7.5796
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 135,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_135",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "9f1e23e2b6fb463409fd57ecf84b886af7861d8231baaff617ae965d1145e10b",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": null,
+    "p_lazy": 0.0728,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.5495,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 136,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 137,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 138,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 139,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 140,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 141,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 142,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 143,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 144,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 145,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 146,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 147,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 148,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 149,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_149",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "7382b30e94126df67d8a540be712cadf8e57adf13dba887bee787758e383f55c",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": null,
+    "p_lazy": 0.1304,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.364,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.364,
+      66.8368
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.364,
+      0.1516
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.364,
+      5.4561
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 150,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 151,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_151",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "9f36ee4dffe09006c28a1488178ae6665abb665d479fd429e23a63b023a7e1a1",
+   "params": {
+    "size": 7,
+    "n_starting_states": 4,
+    "p_rand": null,
+    "p_lazy": 0.0174,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.6071,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 152,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 153,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 154,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 155,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_155",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "2e63701cd348bf7b298e4475db45d94b7f3290c93891405b6154bae69a648ede",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": 0.0692,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.0531,
+    "reward_type": 1,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 156,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 157,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 158,
+   "status": "filtered",
+   "S": 36,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 159,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 160,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 161,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 162,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 163,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 164,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 165,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 166,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 167,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 168,
+   "status": "filtered",
+   "S": 400,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 169,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 170,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 171,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 172,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 173,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_173",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "143a4349bde8a02220df97bac737708a6cf998e9b214c61f950953234b894c08",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": 0.0391,
+    "p_lazy": 0.1311,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.3246,
+    "reward_type": 3,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.3246,
+      15.9069
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.3246,
+      0.0361
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.3246,
+      1.2985
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 174,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 175,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 176,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_176",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "295bea82b26bdf13c61788a2c91d660dc033fca208c15ca4e85bdb607148ae6a",
+   "params": {
+    "size": 7,
+    "n_starting_states": 1,
+    "p_rand": 0.027,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.2989,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 177,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 178,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_178",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "0ef4c343c6500f7a266882dc440f3fca396fcac6153110d1e7b35714ff7a35a6",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": 0.1638,
+    "p_lazy": 0.082,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.1198,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.1198,
+      5.8705
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.1198,
+      0.0133
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.1198,
+      0.4792
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 179,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 180,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 181,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_181",
+   "S": 36,
+   "A": 5,
+   "kernel_sha256": "205819143bf720b54d8f8cfadd8d38b1489ea58d26f0f0505a527d12203a7364",
+   "params": {
+    "size": 6,
+    "n_starting_states": 4,
+    "p_rand": null,
+    "p_lazy": 0.1788,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 0.1954,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      0.1954,
+      9.5744
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      0.1954,
+      0.0217
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      0.1954,
+      0.7816
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 182,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 183,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_183",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "3e034c4155b43d4928071fed6b35330b97e5da6cc863a9e1961c5abc2e9b042f",
+   "params": {
+    "size": 7,
+    "n_starting_states": 4,
+    "p_rand": 0.0554,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.9172,
+    "reward_type": 1,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.9172,
+      93.9438
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.9172,
+      0.213
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.9172,
+      7.6689
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 184,
+   "status": "filtered",
+   "S": 169,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 185,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 186,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 187,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 188,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 189,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 190,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 191,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 192,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 193,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 194,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 195,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 196,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 197,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 198,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 199,
+   "status": "filtered",
+   "S": 441,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 200,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 201,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 202,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_202",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "a568419264f89578b97b5085fba419f3a3a9b2a30f82dd2e474ddf85c95ddac5",
+   "params": {
+    "size": 7,
+    "n_starting_states": 2,
+    "p_rand": 0.1763,
+    "p_lazy": null,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.428,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.428,
+      69.9738
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.428,
+      0.1587
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.428,
+      5.7121
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 203,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 204,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 205,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_205",
+   "S": 36,
+   "A": 5,
+   "kernel_sha256": "975b4a595862831881e9f2f402c88981a7c8e29423722f53284bd54d56562183",
+   "params": {
+    "size": 6,
+    "n_starting_states": 1,
+    "p_rand": null,
+    "p_lazy": 0.0405,
+    "make_reward_stochastic": true,
+    "reward_variance_multiplier": 1.0914,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "beta",
+     [
+      1.0914,
+      53.4766
+     ]
+    ],
+    "optimal_distribution": [
+     "beta",
+     [
+      1.0914,
+      0.1213
+     ]
+    ],
+    "other_distribution": [
+     "beta",
+     [
+      1.0914,
+      4.3654
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 206,
+   "status": "filtered",
+   "S": 49,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 207,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 208,
+   "status": "filtered",
+   "S": 361,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 209,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 210,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 211,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 212,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 213,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 214,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 215,
+   "status": "filtered",
+   "S": 81,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 216,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 217,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 218,
+   "status": "filtered",
+   "S": 64,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 219,
+   "status": "filtered",
+   "S": 144,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 220,
+   "status": "filtered",
+   "S": 324,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 221,
+   "status": "filtered",
+   "S": 196,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 222,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_222",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "07f05af1bf367096e78f93a95d0c346d4e3eb1b748c14346703f98e42f034a73",
+   "params": {
+    "size": 7,
+    "n_starting_states": 4,
+    "p_rand": 0.0757,
+    "p_lazy": 0.0604,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 1.279,
+    "reward_type": 0,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  },
+  {
+   "family": "simplegrid",
+   "draw": 223,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 224,
+   "status": "filtered",
+   "S": 225,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 225,
+   "status": "filtered",
+   "S": 100,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 226,
+   "status": "filtered",
+   "S": 121,
+   "A": 5
+  },
+  {
+   "family": "simplegrid",
+   "draw": 227,
+   "status": "candidate",
+   "mdp_id": "v2t_colosseum_simplegrid_227",
+   "S": 49,
+   "A": 5,
+   "kernel_sha256": "b32bf23700b7b5ec78e4980526bcd5edfbb30ae0ba699d91ca3059c96fd5a183",
+   "params": {
+    "size": 7,
+    "n_starting_states": 3,
+    "p_rand": 0.0236,
+    "p_lazy": null,
+    "make_reward_stochastic": false,
+    "reward_variance_multiplier": 0.8156,
+    "reward_type": 2,
+    "sub_optimal_distribution": [
+     "deterministic",
+     [
+      0.0
+     ]
+    ],
+    "optimal_distribution": [
+     "deterministic",
+     [
+      1.0
+     ]
+    ],
+    "other_distribution": [
+     "deterministic",
+     [
+      0.5
+     ]
+    ]
+   }
+  }
+ ]
+}

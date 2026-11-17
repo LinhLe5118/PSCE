@@ -1,0 +1,13 @@
+{
+    "phase":  "COMPLETE",
+    "detail":  "Five new BRIDGE tasks scored with frozen forecasters and one independent learner-label pass",
+    "supervisor_pid":  4756,
+    "updated_local":  "2026-10-13T04:26:00.6023059+07:00",
+    "oehb_groups":  25,
+    "horizon_groups":  25,
+    "feature_groups":  25,
+    "total_groups":  25,
+    "prelabel_seal":  true,
+    "labels_opened":  true,
+    "analysis_complete":  true
+}

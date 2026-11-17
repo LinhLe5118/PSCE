@@ -1,0 +1,19 @@
+[run]
+branch = True
+source =
+    oeh
+omit =
+    tests/*
+    datasets/*
+    tmp/*
+    temp/*
+    .venv*/*
+    venv/*
+
+[report]
+fail_under = 82
+show_missing = True
+skip_covered = True
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:

@@ -1,0 +1,1809 @@
+{
+  "python": "3.12.7",
+  "numpy": "2.5.4",
+  "mdp_playground": "1.0.0",
+  "labmaze": "1.0.6",
+  "gymnasium": "1.4.0",
+  "kernels": {
+    "p6_mdpp_000": {
+      "states": 52,
+      "actions": 2,
+      "sha256": "b2d2df3057ae1ccb1f54ab2a6eb59b05918d53ea3d1039ff6d6043d4f98fc809",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.5412917723726547,
+        "max_z": 7.394179006849962,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_001": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "13612ba3c4fd8816795ddb7a8c25b99aa72ed9e2dc0cf160369ca7a998d8b093",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.49276044689571546,
+        "max_z": 5.43472430932484,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_002": {
+      "states": 40,
+      "actions": 2,
+      "sha256": "e2b1670204f9b7b6c89e4f79854a552e6d2c0ef4ff37f55f0228ec981320856b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.114488609685212,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_003": {
+      "states": 15,
+      "actions": 5,
+      "sha256": "9ab621ba74ff1cc9c7e98e1a4ccab45808d07907fc37e5ad790678caa7c90e4d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8677256162434707,
+        "max_z": 4.972855271384485,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_004": {
+      "states": 20,
+      "actions": 5,
+      "sha256": "926c769bc37673926356e18f09e477444f98810a55a6827c5e6b20e3f8f2be3e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.57384039864498,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_005": {
+      "states": 30,
+      "actions": 5,
+      "sha256": "30a64f9e1d273319c4c13b6508bac410b01ddf8042d1bf41748720500204c7d5",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.44226716909188,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_006": {
+      "states": 20,
+      "actions": 4,
+      "sha256": "57218c248bb8dcdbb061b73e5bb7ac623574bb6149de04c77e1a01f68aaddda2",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.709234593895733,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_007": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "5126b17a4e7f83562c7e464c5c608f83594a4a9ceb3386db7346ca515fdf4d7e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 11.664795233618149,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_008": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "fc202b4ae8b0985c7e2931f7216a1e988f4c997e8513deaaa0741bedcf1ce2a7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.061571550860974,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_009": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "964949030fd28d58df0fba1511589c0ea31908492a2432a84b49a4732f5b9b4a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.765400599309752,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_010": {
+      "states": 54,
+      "actions": 3,
+      "sha256": "960eb9bef53962d5fd6e0cecb4b40dba213eb9129c9058acf833c8378fb02ad6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.1769365479773795,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_011": {
+      "states": 64,
+      "actions": 2,
+      "sha256": "4673bc99bc3a6368d393bee96a5200dfacac89a31a5e26ccfeb32933c529f1e4",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.218632075055842,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_012": {
+      "states": 20,
+      "actions": 2,
+      "sha256": "7a4ec0133dc9c62b08fe0a1cdf3b102e7c752e7e8d83746faa98d0309836b1e1",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.422735922937872,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_013": {
+      "states": 34,
+      "actions": 2,
+      "sha256": "124309df94627eb192983caed941702524d5bccdc1fca741a23220c339646d65",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.14236216074152,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_014": {
+      "states": 60,
+      "actions": 2,
+      "sha256": "e072d9d147cc1bea266c038b7e3c782b45cb57db130a9d30072c6d53965f422a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 9.815971753508961,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_015": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "4d19f610c106febb7619f24e897c8d09ecae5fd42cb9a1962a44332eb6f3b3c2",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.49715168373651275,
+        "max_z": 6.1065802689103466,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_016": {
+      "states": 42,
+      "actions": 6,
+      "sha256": "4a053c18da5dc6a15a4415f57da35506c7137ebc90a7912263a42bb066245d87",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.219122182006516,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_017": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "c187f8649666896ea0a296a438f84f86db68496dc6a4710943af23ca46825956",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.862110432333798,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_018": {
+      "states": 45,
+      "actions": 5,
+      "sha256": "7b2984e7fea38376aa2cfa08a55a0d777c95c32200a29ebcaa01fe80ec2378ad",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.64317468209088,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_019": {
+      "states": 18,
+      "actions": 3,
+      "sha256": "64cb62b54cea8f6d9073568dce9aea09a7b87652bf284372b3b170da970bb17c",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.962168435058351,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_020": {
+      "states": 50,
+      "actions": 5,
+      "sha256": "cf359cab890dba51c16f50f14956cabb65c64a87e4c50f85f01b845b1cd02866",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 8.553802857395722,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_021": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "3294d16c82a4bd95f3421d1b0d9af438d1021335fcd1f24230bb4c9dd19e8d1c",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.816634897047365,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_022": {
+      "states": 16,
+      "actions": 2,
+      "sha256": "b813eecb7c3c4fb3023cc7c73828bca379962caa62b1835d250737e137872b15",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.11576146885039316,
+        "max_z": 5.470369247569013,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_023": {
+      "states": 18,
+      "actions": 6,
+      "sha256": "b115d9d3745e2ac99f04b422bef3459a9d29d69076ea796f7238e4daf3dfddad",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.157106231293967,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_024": {
+      "states": 24,
+      "actions": 4,
+      "sha256": "415f2e49f7c4cabf6baafd5816c073a1ddaf83a7d5c3f050b3b8c8d3aa4ed63e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.859313301156828,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_025": {
+      "states": 52,
+      "actions": 4,
+      "sha256": "c685513d14048da1eebd7c6ed6c76dc10534d9aa601dd73e4d7e18e9ec7fd8d3",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.7185764914205449,
+        "max_z": 9.10986220925523,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_026": {
+      "states": 25,
+      "actions": 5,
+      "sha256": "da3bf184169ff3daeabccdc2e82d5b76a79971ee5fa1603080ce9a60e8241e7f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 8.136815083288086,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_027": {
+      "states": 58,
+      "actions": 2,
+      "sha256": "c53306e5f3f59c203384d361a4f28a6ff3bebed7259d5c12f6cdb1c0507b7fa7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 0.0,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_028": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "9007c1f0694f8ae195c25116464ad12f9adfe659994e00f8fe2497597e991d55",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.6358072346104966,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_029": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "c64df280c4f438f82ba04ae12f2982b80cce41be2edc907df83328d116bd366d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.911869475152347,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_030": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "c0f87d4b35a2664e6a91dc084a1522efede534e20db69f89d5ae30ad9e4c1215",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.962168435058351,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_031": {
+      "states": 32,
+      "actions": 8,
+      "sha256": "e4c093a69108fa1d07455e5e148fc79e39ae78fbdce783fd3dabbe392b97b2b3",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.438292366486239,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_032": {
+      "states": 51,
+      "actions": 3,
+      "sha256": "1ccdc4ab61a78619dd318c4473fe67077e23c78433db611319099e376ec45f0f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8727868230821898,
+        "max_z": 8.458986984438566,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_033": {
+      "states": 10,
+      "actions": 5,
+      "sha256": "ad3284d0fcef445b6cb17555c91bb8c6476b7cf330bea0a69ab8918aa295f2ad",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.07190212493531108,
+        "max_z": 10.482248031235633,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_034": {
+      "states": 32,
+      "actions": 8,
+      "sha256": "0ed848f8fd8201958efc38196446c80d884a96d35efedc370571777857124f50",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.481995058021755,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_035": {
+      "states": 32,
+      "actions": 8,
+      "sha256": "d8a512e6a591894e0d7061c98c836bc039e29261c4747a108821662e373d2788",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.213373590318515,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_036": {
+      "states": 57,
+      "actions": 3,
+      "sha256": "c9418c043ba5532d61b82931599f159d8b0857b08fb32dcdb83b882f3e1b8f0f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.0764321873238175,
+        "max_z": 9.991584374096854,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_037": {
+      "states": 24,
+      "actions": 3,
+      "sha256": "57fa6b447737f6bb70a7a41d0d8522c56baa3e066b5cecf2311e57b2bbff15cb",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.627263992365184,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_038": {
+      "states": 35,
+      "actions": 5,
+      "sha256": "806be69bc3785f8e39f866636589e3212af45dfb04cba9d19750a2839cbdfcf7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.861769328062505,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_039": {
+      "states": 32,
+      "actions": 8,
+      "sha256": "36f6c2a00fc64b354ccf1e5123f27ba8536440eea42d5d1ba7f2cdffd285af63",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.404483429378033,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_040": {
+      "states": 50,
+      "actions": 5,
+      "sha256": "80c7f87e03f709400d9303b177214d219f1fb696d30986a3bd0e9c70053b6d44",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.45664567700792,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_041": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "5c760c09d352c22733f658ce1f1759a03578ce69c9d259b287bf77ee2c11a9f0",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.810844538946937,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_042": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "ba65f973f4cb43775cc5af01eb1488514d9a2fa26566f069133067e3f2051437",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.286426921581291,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_043": {
+      "states": 48,
+      "actions": 3,
+      "sha256": "3927e03a30ecdc28a6e91dd90df1e9a0ca48536bd1818235955278ca3b71d86f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 11.417282096421124,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_044": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "4881e6644e22abb8fc5382f0d7a7915dcc7790142d7cf65fa1d845416e1e3ec2",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.759638168598381,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_045": {
+      "states": 9,
+      "actions": 3,
+      "sha256": "ae4f20d2013dbf4b5769238c065032f55109a39717d67c34af10c22142b324e6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.4766985195004001,
+        "max_z": 4.622267874476057,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_046": {
+      "states": 42,
+      "actions": 3,
+      "sha256": "b533535820d881344a918cf49c1b1c6b769e9a0532c60cf7f106789b6afffb36",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.476295388629546,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_047": {
+      "states": 15,
+      "actions": 5,
+      "sha256": "08c7883eec3135ffe55a571fe6c4e6f72665e47e91d071ab4730ca1349a99be5",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.6404697137373896,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_048": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "4adf74655a6a5da5d201f93c28b2cf1590b644efa99c998ab77adcfca487dbf5",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.34803669639189566,
+        "max_z": 6.793367311272348,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_049": {
+      "states": 10,
+      "actions": 5,
+      "sha256": "5cbf7c5474e59df8ddc87afd6bd493dfc5824c18249ca8c6ac1c5f7d438e016a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.9654174758566701,
+        "max_z": 4.266186199080592,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_050": {
+      "states": 28,
+      "actions": 2,
+      "sha256": "4da08527418fb84a481a431b8d6e67949fc1c2413c85c9de73fda91dc6cc3d3b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.863870881215304,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_051": {
+      "states": 42,
+      "actions": 3,
+      "sha256": "8fee7804e384e6092fe3ffac7ac012727a7e7fd1c6d5b3aa859117afe2d1929e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.658627648539413,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_052": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "a49b7f1225bfeab1f0094421037d6dc80cab4b2aa5c2cf6383b6d9d7e1159ccb",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.7071857376829422,
+        "max_z": 8.713142285695689,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_053": {
+      "states": 50,
+      "actions": 2,
+      "sha256": "6e23d717cdfe1a884550bcc88705d9f7ce3b7f5f021d74d17bea7d5c8d82d4f1",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.1509622096391805,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_054": {
+      "states": 20,
+      "actions": 4,
+      "sha256": "b7d5018000d0baef595fb664afb4a0de929b2f02b541dda3b3e802740134f2cf",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.241509768616687,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_055": {
+      "states": 10,
+      "actions": 2,
+      "sha256": "056db68442ad3e8d01767bde2b02301b3ebcec6cfec17ee575766ec7284795b7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8446959962826635,
+        "max_z": 3.3736345178380875,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_056": {
+      "states": 42,
+      "actions": 6,
+      "sha256": "683022344abe42fde8a69f2587b57d4b83ea09b37ccca1b40ca108141078acde",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 8.448851450662996,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_057": {
+      "states": 48,
+      "actions": 3,
+      "sha256": "410c2f15b0947959d152dd7ea348f22450713b662e013ae078c0b599f2ba8ccc",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 11.417282096421124,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_058": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "e8e5b2a7b7089c78132ecca90d57d5b4e8ed2b54f6dececf1b97b492446d3e6b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8541056694874938,
+        "max_z": 7.861731454420943,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_059": {
+      "states": 40,
+      "actions": 2,
+      "sha256": "a501969893ab57918121b08b036405e0b084c4231a86242261d7114c7253b986",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.6345361650844215,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_060": {
+      "states": 36,
+      "actions": 2,
+      "sha256": "1e93c6a239031f9cff4de0abbcd9d92d21e134e27f5cc5fd0807e9463082cfbb",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.3326693034596448,
+        "max_z": 18.60244546436149,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_061": {
+      "states": 58,
+      "actions": 2,
+      "sha256": "451c83f5d44a1c4be062bcb73d41c44e4b39e772b162a37d3bc774727b3936a1",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.651659183814024,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_062": {
+      "states": 44,
+      "actions": 4,
+      "sha256": "2c0c205f8064c7ff99dce2d99db813cbe759f250f6a8a227c598ebed20805971",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.901052098917664,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_063": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "f0d4f5d0293d9fb9634e05dfe788e98c494694b785acbeb88325e264d4317093",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8519482610928198,
+        "max_z": 5.861770587711897,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_064": {
+      "states": 24,
+      "actions": 2,
+      "sha256": "dc55c1683787283de7719842d4a0fdf7dfb6f47eef25cbdfdf1e2a06ef2f5c2e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.134228847759256,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_065": {
+      "states": 24,
+      "actions": 2,
+      "sha256": "d4ce4b361149b12a16391f234233162abc5b2a4afaaa6241725b8cb0363cd1f7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.6113893255256135,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_066": {
+      "states": 24,
+      "actions": 6,
+      "sha256": "55d26d61f9297f9d408306c299c1c0d209181dd4cd8a28c43314c22348ab85bd",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.841053051520241,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_067": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "cfa1b3d07b90a28a43b1664490a627d02102c84f8ac9fed0c2a3ca1bf3ba314a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.214347811868114,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_068": {
+      "states": 24,
+      "actions": 3,
+      "sha256": "d3644ec76ec284d3ad4a2528c982eb641e183795dad9bb4d5d2bc6607a47d7b3",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.157566202992793,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_069": {
+      "states": 30,
+      "actions": 5,
+      "sha256": "19432903ee85328b0b33974799450d685264561cddb27cd4bbaf8182f264161d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.3520842470193015,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_070": {
+      "states": 20,
+      "actions": 4,
+      "sha256": "0630f0e4b0ee50c0fc027236ab1cdfe85cfa332b0d233daa62d0ce477e40f0bd",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.837025389523732,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_071": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "dee2bbe86a39ad303f9c86a94f0fcfd400f29375a61d07731150a19a505a6100",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 10.773672726048563,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_072": {
+      "states": 25,
+      "actions": 5,
+      "sha256": "0f0091a486454f7bc5460d9fb8bdac9d96fc10dfff0550f4f3ccc0263864b60b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.020151261036848,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_073": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "fedc61275327d49cbbfc6b325768b4fdb31fef9d7d4f487d7882395e3bb64b0f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 9.801960588196067,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_074": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "341c8277f1b022e09effff7b252d03c05d84ed1cc6443c1e20b92f0d27a41bf8",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.22599168758763127,
+        "max_z": 6.194353787733122,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_075": {
+      "states": 44,
+      "actions": 2,
+      "sha256": "3b4721ec11132fc32511b2d7676ef38d9a3af28cf7780d015b7488ef54714fac",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.584929126348558,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_076": {
+      "states": 40,
+      "actions": 5,
+      "sha256": "fa65ee0eafdc569f8183be9c8a3de1f869009263d0cc5af4a89fee4c9209af62",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.457654494376604,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_077": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "f1fae431fde7c74bf53834e4f854a4de4830a80e841de580b1f6733cc6c8938e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.1509088329388115,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_078": {
+      "states": 20,
+      "actions": 2,
+      "sha256": "214bc75167834e8e49803cdf3447840d0a639ef71aa928cbe7ebe75100a8daa1",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.0841958717255835,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_079": {
+      "states": 30,
+      "actions": 5,
+      "sha256": "670caaaa531fd242f078853f95be3238aab2dad94d331ed7ce452c80da6ffdb7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.815607406371737,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_080": {
+      "states": 64,
+      "actions": 4,
+      "sha256": "f1ef57dae6086a2007fc8d0b416d6c30f488bbed6059de2186bf628689dd85d6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.9112557201567436,
+        "max_z": 7.946230598031602,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_081": {
+      "states": 36,
+      "actions": 4,
+      "sha256": "5036f79b486ab32a21f3a1df9976ccd8b4f8877a631663004b6ac6dd872aa661",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.996427475527792,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_082": {
+      "states": 20,
+      "actions": 5,
+      "sha256": "eef7c4a22daa5d319bab406a7815e13f6a9e24835f86503dddebeaebd46f15e9",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.379092827883701,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_083": {
+      "states": 39,
+      "actions": 3,
+      "sha256": "b94fa8d8b628ee88e8c41c3d38a9b817e053a6406ba690839f87ebbc2c283fa6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 8.926877755966439,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_084": {
+      "states": 18,
+      "actions": 3,
+      "sha256": "c6b519e950d50e8841e5ca9f887f86f58365db540f1eec779e0c0688532bbd48",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.607544947779595,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_085": {
+      "states": 40,
+      "actions": 5,
+      "sha256": "16ee474ba437ad29c473d99f10285e014ac249a148c938eff9530349bbd5069e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.1206527099579695,
+        "max_z": 11.182001434036364,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_086": {
+      "states": 40,
+      "actions": 2,
+      "sha256": "a20e17a4ded4729a355d53f0e59e80838d233b0fd9dda8c4f353dcc9f93e9ac3",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.717613205660559,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_087": {
+      "states": 35,
+      "actions": 5,
+      "sha256": "a57ea1ebf28d23cdb2ba828745ef61703ce9d3f9979c3e5d49080291a7c99a02",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.13879818623033552,
+        "max_z": 7.261648963516346,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_088": {
+      "states": 51,
+      "actions": 3,
+      "sha256": "1e71cac2ab5df985f6be14544884077aaf012ce113e81f96538d9277ad110a35",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.409219603300514,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_089": {
+      "states": 22,
+      "actions": 2,
+      "sha256": "5e875d82bca02b89957d6369603c5cfcba04645670d8e92eef0abe675e730d8b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.293894095026002,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_090": {
+      "states": 48,
+      "actions": 4,
+      "sha256": "e609104ab377bf29a03183883d274e9a854963bfd5ce620ffb637b874b24e31a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.5449547424205097,
+        "max_z": 7.887481160466815,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_091": {
+      "states": 36,
+      "actions": 4,
+      "sha256": "a4dcd08270416dcaea7ce397928fe680a7acbee8c414965616ea08d4476e4dc1",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.2726374934087525,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_092": {
+      "states": 18,
+      "actions": 6,
+      "sha256": "66ac5225b085be3a34c2a64185988613d86f564377fa306e6fc62fc6562c0a27",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.7753412828984603,
+        "max_z": 5.70116241543893,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_093": {
+      "states": 12,
+      "actions": 6,
+      "sha256": "0a2be8ad72622fa54b461d6d0f5a16c451fdd081bbb611217590495edef418ac",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.4038527143847714,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_094": {
+      "states": 35,
+      "actions": 5,
+      "sha256": "393007883062956dd3f7d4cfe9c0249f9bc47104e1adbb12ddeea8ea5cdde9f3",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.8722043406239862,
+        "max_z": 6.442196286222809,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_095": {
+      "states": 8,
+      "actions": 4,
+      "sha256": "b617561ffe4cc72a26d391ddca4ca5b2973f2f14e3e80a3cf341fb4832958790",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.9417724342030569,
+        "max_z": 3.6674512645681245,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_096": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "60055fb8b0b8c7b3aab7766767f25e3629142d1f92d90c64bc70ad447a531c47",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.714639178202842,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_097": {
+      "states": 40,
+      "actions": 5,
+      "sha256": "f08b5af2993685e2b318da91f8b8dcd844af639ae1cfaa06fc3b912acf7fb20f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.012857359946797,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_098": {
+      "states": 25,
+      "actions": 5,
+      "sha256": "4d572ed379e5a8d44142dbf4e4f8e000bda0c36a6f351b6b7f255ab48c780611",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.190422083218776,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_099": {
+      "states": 52,
+      "actions": 2,
+      "sha256": "92bcdb300c034806be3ca8d0c4827ae17195e05a81d23594f6635f2c572320bc",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.030614478956121,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_100": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "aab5fdab7ba225ede6ead3808b33eb73ae5584ebf1dce06fc65cd4ea19332b1e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.069540876935011,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_101": {
+      "states": 33,
+      "actions": 3,
+      "sha256": "fb897bc02e3b83d9b940bac74dcfc724f9d8fba95a45354eb4310f7ba0022018",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.848328459506213,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_102": {
+      "states": 40,
+      "actions": 4,
+      "sha256": "a741f46f90bf2be030ef402b30ad065af968b6ee3c3e34c60623543700e6767f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.406242876270854,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_103": {
+      "states": 25,
+      "actions": 5,
+      "sha256": "9fc27ba34ad071d65f41a399f54097c7544c81819ae00ed5061ff805162ae73d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 12.492558425078547,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_104": {
+      "states": 30,
+      "actions": 3,
+      "sha256": "9d065087ebcbace2b4b0d59d880646aebd0dc94784b0ea9f785137299e1382dc",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.676716109612192,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_105": {
+      "states": 63,
+      "actions": 3,
+      "sha256": "331ae4098dad138f6286fb6972a6978683e2760beb053110b4d6fa717b26da79",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.628740082508858,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_106": {
+      "states": 48,
+      "actions": 4,
+      "sha256": "d3dcc81889070545c06a1de94e093d4e06d4d72999c9ee426f4ea2235e1e07aa",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 12.437158961091372,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_107": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "b3d1cdf2b9395b90feac61f9ccf80c2dcc4986b3b3187b96de4599b84252777b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.3485703423149795,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_108": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "b73f1fb5735886eb28725394868ba4d05a3dfe68702f777deadd0b878acf8d6e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.563242671376419,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_109": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "7f9a45fa6d6c92fbd17c2b51d175a02c44ac858063a8cd68734df755f2bc4558",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.782481033874431,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_110": {
+      "states": 24,
+      "actions": 4,
+      "sha256": "aa53cf593fd1ef6fc6331fa2516f07861695f4925754f8774cc0c8189f676a63",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.4806536929074054,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_111": {
+      "states": 24,
+      "actions": 6,
+      "sha256": "7eb1842b6f969f1053273136c4d9200a76e586b96c85fdd2ae91dd6769f4a76a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.012781329744258284,
+        "max_z": 10.8721984905051,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_112": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "d91dde2a3424f72b415b45c610a28fdd52c8f20d406542a7abd3bf69f1522985",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.4671752105086915,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_113": {
+      "states": 25,
+      "actions": 5,
+      "sha256": "f13a20ad0fae7231e807f106b1f888325e0f48cefd21245ed62192b5edf418ab",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.988801921644112,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_114": {
+      "states": 38,
+      "actions": 2,
+      "sha256": "638afe29cd1c298a345af0fe7845109765c2079b8da0b66a4d1217dc5784caed",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.354177215645021,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_115": {
+      "states": 18,
+      "actions": 3,
+      "sha256": "d3dcc726e6de1bc26a93e134171baaf242e8b172ed307811be9a38b7cf0b464d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.996754108660829,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_116": {
+      "states": 12,
+      "actions": 3,
+      "sha256": "44a17095bb17c55f22c0368c623d7792852e78095541c8db28b0fef0771f804b",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.246873990499062,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_117": {
+      "states": 20,
+      "actions": 5,
+      "sha256": "251c7d6c0a06a0a0b45c1df825a86eea4c0350c9874415c44beb08e21496f1fc",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.33300010253547335,
+        "max_z": 6.3271141015687355,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_118": {
+      "states": 18,
+      "actions": 6,
+      "sha256": "0226fec15f33952af58a389ca3be19612e7fb32ab4430692e7833d530e7128b6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.872580634906933,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_119": {
+      "states": 16,
+      "actions": 2,
+      "sha256": "53561b2a9559003a0c1f731b88f7ed1969b6e39c704c8f583deeb303b930d58f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 2.993091397482961,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_120": {
+      "states": 18,
+      "actions": 3,
+      "sha256": "33d7bd879ecc56cf2e41bc4665cb0df121e0090457214b8526d71acc86faa078",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.102786101277391,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_121": {
+      "states": 48,
+      "actions": 3,
+      "sha256": "c4793455a3d29846f9d8551da9215fe04fc285208bd06ea9405821bb2ce82498",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.427877551878241,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_122": {
+      "states": 48,
+      "actions": 2,
+      "sha256": "490b2dba2dcd6f3f886d0ff56ab19227b58da766866fcdacabac1bd932077e56",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.16941681564734,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_123": {
+      "states": 24,
+      "actions": 8,
+      "sha256": "490ff41cf3a2fbed3435ebbad72baa5a7f39d16e53f3aebbfd118fd3c40d1c27",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.950653204204714,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_124": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "cda80fb34137a1b04135c5267bfa596419452c70d990e27939d392cad38ad88d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.6768496978770004,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_125": {
+      "states": 62,
+      "actions": 2,
+      "sha256": "67aec3e5d2e35486f38a94b1842cf0060533554f389617e1d0114345260c9925",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.510260452092589,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_126": {
+      "states": 62,
+      "actions": 2,
+      "sha256": "a3f1441188d6f195daf5e805abeab73091fd88317f5aded653372f6519c52d19",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.342072842104751,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_127": {
+      "states": 63,
+      "actions": 3,
+      "sha256": "29d9fb81d7d6745a649988c022dec681b34e84aceab3bca485eb18f7b02dfc3f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.62246687701269,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_128": {
+      "states": 32,
+      "actions": 4,
+      "sha256": "4c4b0a45f510cbb3a023aa312af8b67dd5b6c8e14b036a057e85e39bbaa9a145",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.4370679267525873,
+        "max_z": 6.216218225469635,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_129": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "b415bb94ffd99ca25604176d916e7fe3b96e1025615dcd2b8cd1531bd26e9a62",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.273397095124481,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_130": {
+      "states": 46,
+      "actions": 2,
+      "sha256": "e7c9c1ed250adcfbb1e5e25fbb116a62dc017c59ec04092ac2fa913032ace1f7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.862940617384629,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_131": {
+      "states": 8,
+      "actions": 4,
+      "sha256": "8781128ecf1bce6b50b9eee4e5dfda70aae6c7a0e74da5ede24ca959825c0f03",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.504244346274731,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_132": {
+      "states": 30,
+      "actions": 6,
+      "sha256": "4f97a2dab562624fd8965669db7925294a63b70ccd01616370c758be23d90bca",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.7825542707135815,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_133": {
+      "states": 24,
+      "actions": 6,
+      "sha256": "8aa708b639b03a1c33681f5be133674450b675c1b2bcdccb63dbb5163a0b7790",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.859669602957181,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_134": {
+      "states": 42,
+      "actions": 6,
+      "sha256": "e498e6b5f2afd5bed1ee3728726380039ebb4ec53564dd13de9e084541d42a09",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.8375167612380725,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_135": {
+      "states": 24,
+      "actions": 4,
+      "sha256": "08f4abdd5afcfd52ae200b0e391c626294f998c8e534a0be2325bd615c6296b5",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.181501314213257,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_136": {
+      "states": 8,
+      "actions": 8,
+      "sha256": "047d34244d9e6cd823f59e3fd2ef4e08e7ed3d9d61b3c1c4880562d729f5645f",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 3.6390771458780184,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_137": {
+      "states": 42,
+      "actions": 6,
+      "sha256": "573187d5ae92a4f14593b788653ce24b5df5e92bb335973dbfca933a96485a5e",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.117259122933777,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_138": {
+      "states": 32,
+      "actions": 8,
+      "sha256": "05c9795db7c6d4b239d2270dfabd6f82183ebd6f7ad0227c2540023423c5212c",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.7547435045552614,
+        "max_z": 20.233206083723037,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_139": {
+      "states": 44,
+      "actions": 4,
+      "sha256": "d4e037bb3d771d8751b47414088ee4fe372db300c17a62aff0e7c0c8c1695c22",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.344087297281934,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_140": {
+      "states": 36,
+      "actions": 3,
+      "sha256": "e348ec575c4e87178b0da4d2a7d809332f184a5efda7d0d9c35f17873d91019a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.5457811254192867,
+        "max_z": 10.52754987721889,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_141": {
+      "states": 36,
+      "actions": 4,
+      "sha256": "afb26c00b61d2f69439a71cdebe7a81feda126f0cde6a05fbc2bf2ca0ddcdd0a",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 0.05425477795625784,
+        "max_z": 8.52879332839356,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_142": {
+      "states": 44,
+      "actions": 2,
+      "sha256": "45e5faaa0987d2998b03d5cf5d81e4a530a808663a286d0db19d3212414834d7",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.144110060856642,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_143": {
+      "states": 40,
+      "actions": 4,
+      "sha256": "f598ea13e20c83f2add75d8eac16c41b09f0684431828bc646bde90d0b92dc5c",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.408688707069748,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_144": {
+      "states": 36,
+      "actions": 4,
+      "sha256": "b262e1457b17e5d8d17161f7cfdc09c863e686b683aeaa66f1d439a03333dafd",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.652793954521843,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_145": {
+      "states": 64,
+      "actions": 2,
+      "sha256": "cbca02543b667cf6fa60cfbc45ef24a2a00b275c318091b70c453aa20f9e7347",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 5.5956366751382305,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_146": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "bfed1d7ccd17070d59fa4c37b56fa8e64672520325ff892978a9548182af230d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 6.318863191535149,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_147": {
+      "states": 16,
+      "actions": 8,
+      "sha256": "850795bb101332d6a880d0ab774d57a40e044ac31ea88b8291a5b67c1ce7850c",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 4.258299703933032,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_148": {
+      "states": 36,
+      "actions": 6,
+      "sha256": "29c5d87326c304feae882375c12820108fbe0d45b4c0fb0de02e320024ce70b6",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 7.166463410575836,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    },
+    "p6_mdpp_149": {
+      "states": 40,
+      "actions": 5,
+      "sha256": "7e43ed4493624f166217c95a292d152dfeabcfc17f3c65b0f60c08ccfeb8fc5d",
+      "verify": {
+        "steps_per_pair": 100,
+        "bonferroni_p": 1.0,
+        "max_z": 11.742456202419007,
+        "support_ok": true,
+        "max_abs_reward_error": 0.0
+      }
+    }
+  }
+}

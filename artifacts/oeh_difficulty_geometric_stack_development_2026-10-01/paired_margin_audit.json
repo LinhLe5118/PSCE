@@ -1,0 +1,21 @@
+{
+  "status": "exploratory_on_opened_development_cohort_not_confirmation",
+  "mdps": 42,
+  "draws": 2000,
+  "seed": 20261001,
+  "margin": "candidate must beat matched B2 by at least 5% in both scores",
+  "simultaneous_critical_value": 1.7675540725722996,
+  "metrics": {
+    "brier": {
+      "mean_margin_excess": 0.006618103406604832,
+      "simultaneous_one_sided_lower_95": 0.00048345702239385724,
+      "relative_gain": 0.1460516016549952
+    },
+    "logloss": {
+      "mean_margin_excess": 0.002154709622870013,
+      "simultaneous_one_sided_lower_95": -0.0322043264116946,
+      "relative_gain": 0.05279790749059887
+    }
+  },
+  "development_margin_gate": "NO-GO"
+}

@@ -1,0 +1,12 @@
+{
+  "sealed_at_utc": "2026-10-14T13:17:57.933690+00:00",
+  "labels_read": false,
+  "reproduces_sealed_max_abs_diff": {
+    "oeh_final": 4.568702893781307e-08,
+    "b2_matched": 4.193390634732452e-08
+  },
+  "prediction_sha256": "466d108cc943d0c2ef4cc90256af4df19af3753ca00bb01d035ba2a383368310",
+  "plan_sha256": "75157e60baa45edf29331acc8f7c5bc53df9036c99819c36f55ebae5a78ed697",
+  "inputs_opened": 4027,
+  "seconds": 670.198544899933
+}

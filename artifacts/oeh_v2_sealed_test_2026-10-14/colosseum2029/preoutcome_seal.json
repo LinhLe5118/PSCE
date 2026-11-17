@@ -1,0 +1,17 @@
+{
+  "panel": "colosseum2029",
+  "protocol_sha256": "17019f87923754b7d125c48b7ac29dca580a1026ec272f33e3e92dcd0823bdec",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-14T17:52:50.749506+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "e0e1a8ce6108f907c6caf83f77b36d3091a07c4f999dcc1858f595dd43644221",
+    "published_preoutcome.csv": "99a618a06cbb01be1b20dc4cd9a505abf62ef145ce2fb0411a72f603f08fdb4d",
+    "horizon_preoutcome.csv": "cd4123e98d6b1d0415a763f02939c3998124e9cafd06602b506d62724980814c",
+    "curve_preoutcome.csv": "5016d82d292799047c20eba7e09e9ad62de8339c0c4bf19f65d5b80196dab2f5",
+    "query_preoutcome.csv.gz": "48ab13d2ac7bb8960003ffa129fab24e2e5c379b7bcc7260af3beb9be0dcbb10",
+    "predictions_preoutcome.csv": "909a3879019319ec0c2e18fbee17d586fcb442565b4ea1cd8a2f1520f023aa9f",
+    "forecast_tuning_preoutcome.json": "a03fb638c043314397d9858dd40375ca77ba886b53ad41dc18d5a552e4a88cc9"
+  },
+  "oeh_b_groups": 360,
+  "oeh_b_groups_sha256": "9c4a96a4b3d34d23deb9e47875470e39903299d109ac904fb7c922aefb2b7b7e"
+}

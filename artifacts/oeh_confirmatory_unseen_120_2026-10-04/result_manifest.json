@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-04T02:49:15.515398+00:00",
+  "protocol_sha256": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+  "preoutcome_seal_sha256": "f83aca8c5e855b7a4c412fca5a7489575058f643d5fdcf25b28408c41aff5ea4",
+  "execution_plan_sha256": "71114ee177358ef484912459ac846d1c1b9350ddd5d301eb92a770d38eb34cfe",
+  "jobs": 108000,
+  "mdps": 120,
+  "stochastic_primary_mdps": 84,
+  "simultaneous_critical_value": 2.530018701050028,
+  "difficulty_gate": "GO",
+  "scope": "120 unique untouched kernels; seven opened cohorts for fitting; independent published data are a separate transfer stress test",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "5d334afa8efda3fc445a09cccee1e97f27fcb85b5cc6a5988e4f128feb2b9f01",
+    "labels.csv": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e",
+    "scored_predictions.csv": "7cc579e67ad09ca9edab75097b33af1d5689fe0112eba82c3d7e61e9da43d63a",
+    "mdp_scores.csv": "53c99be8e110091def9cddae88a8549d09f80500b30a0806dcd80e777b1f968b",
+    "summary.csv": "259a9b6beef84eebe07a702fbec8d8b842d33fd3670cf7d24b012018aa967433",
+    "contrasts.csv": "370f24b5ba4d46ddc98c120ddf5731684d9090e932c9042facda312711cec6a0"
+  }
+}

@@ -1,0 +1,9 @@
+panel,method,mean_regret
+frozenlake,oeh,0.8333333333333334
+frozenlake,oeh_full_head,0.8333333333333334
+frozenlake,robust,1.9444444444444444
+frozenlake,b2_matched,1.6666666666666667
+gambler,oeh,16.314814814814813
+gambler,oeh_full_head,16.22222222222222
+gambler,robust,16.703703703703706
+gambler,b2_matched,18.842592592592595

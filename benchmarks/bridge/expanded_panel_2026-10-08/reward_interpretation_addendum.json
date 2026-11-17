@@ -1,0 +1,9 @@
+{
+  "status": "PRELABEL_REWARD_SCALE_INTERPRETATION_FROZEN",
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "reward_gate_sha256": "54f0f3fa05de7110e2f2d08ba65047a32d7efe49893d2814995f5139cfcdea56",
+  "mathematical_invariance": "Positive scaling leaves normalized return invariant for each fixed policy.",
+  "non_invariance": "Fixed reward-sensitive learner hyperparameters can change learned policies after scaling; the label and OEH forecast both target the normalized adapter.",
+  "comparison_scope": "Same normalized adapter for all forecasters and offline learners; author EH/TQ/SACo are scalar secondary diagnostics, not equivalent seven-class forecasts.",
+  "test_labels_read": false
+}

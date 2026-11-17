@@ -1,0 +1,62 @@
+{
+  "status": "PASS_PRELABEL_REFERENCE_NOT_LEARNER_LABELS",
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "rows": [
+    {
+      "mdp_id": "MiniGrid-DoorKey-5x5-v0",
+      "horizon": 100,
+      "reward_scale_positive": 1.0,
+      "raw_random": 0.00292513991460102,
+      "raw_optimal": 0.8678187431536752,
+      "normalized_random": 0.00292513991460102,
+      "normalized_optimal": 0.8678187431536752,
+      "positive_span": 0.8648936032390743,
+      "max_scale_error": 0.0
+    },
+    {
+      "mdp_id": "MiniGrid-Empty-16x16-v0",
+      "horizon": 100,
+      "reward_scale_positive": 1.0,
+      "raw_random": 0.000916067768204034,
+      "raw_optimal": 0.7611983798764516,
+      "normalized_random": 0.000916067768204034,
+      "normalized_optimal": 0.7611983798764516,
+      "positive_span": 0.7602823121082475,
+      "max_scale_error": 0.0
+    },
+    {
+      "mdp_id": "breakout_20_fs30",
+      "horizon": 20,
+      "reward_scale_positive": 1.0,
+      "raw_random": 0.15001529149577514,
+      "raw_optimal": 1.7491150269683782,
+      "normalized_random": 0.15001529149577514,
+      "normalized_optimal": 1.7491150269683782,
+      "positive_span": 1.599099735472603,
+      "max_scale_error": 0.0
+    },
+    {
+      "mdp_id": "maze_easy_l0_30_fs1",
+      "horizon": 30,
+      "reward_scale_positive": 10.0,
+      "raw_random": 5.103616574940621,
+      "raw_optimal": 10.0,
+      "normalized_random": 0.5103616574940623,
+      "normalized_optimal": 1.0,
+      "positive_span": 0.48963834250593774,
+      "max_scale_error": 1.1102230246251565e-16
+    },
+    {
+      "mdp_id": "space_invaders_10_fs30",
+      "horizon": 10,
+      "reward_scale_positive": 20.0,
+      "raw_random": 3.050344134324005,
+      "raw_optimal": 31.520269851686674,
+      "normalized_random": 0.15251720671620025,
+      "normalized_optimal": 1.5760134925843337,
+      "positive_span": 1.4234962858681335,
+      "max_scale_error": 0.0
+    }
+  ],
+  "test_labels_read": false
+}

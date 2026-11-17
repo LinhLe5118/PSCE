@@ -1,0 +1,22 @@
+{
+  "dataset": "D4RL/minigrid/fourrooms-random-v0",
+  "source": "https://minari.farama.org/datasets/D4RL/minigrid/fourrooms-random-v0/",
+  "hdf5_sha256": "579acffbdc615f05cfbe15b727304a64402e2cbba36ff4a8db84fe6a9f341bf3",
+  "metadata_sha256": "b6c11c25d3ec2da5219d722ac18ecae1c6055fee281cdcf10752acc5487201f8",
+  "script_sha256": "98bf72697854c27cfbf3413ba24cc9848a0e3886c3e3909e38993be894d977e8",
+  "split": "sha256('oeh-fourrooms-v1|<episode_id>') first 8 bytes modulo 10; train 0, test 8 or 9, otherwise unused",
+  "context": "3x3x3 image patch image[2:5,3:6,:] plus direction and action, Blake2b-96 hash",
+  "target": "object-type integer at next_image[3,5,0], 11 categories",
+  "methods": {
+    "empirical_bayes": "uniform-base Dirichlet posterior mean, total concentration exact empirical Bayes from training rows",
+    "mle": "empirical categorical MLE, global training distribution for unseen contexts",
+    "kt": "Jeffreys Dirichlet with 0.5 pseudocount per category"
+  },
+  "metrics": [
+    "multiclass Brier",
+    "multiclass log loss"
+  ],
+  "inference": "paired episode-cluster bootstrap, simultaneous one-sided 95% over all four EB contrasts; no minimum point gain",
+  "scope": "component transfer only; partial-observation abstraction, no full OEH learner-requirement claim",
+  "outcomes_observed_before_freeze": 0
+}

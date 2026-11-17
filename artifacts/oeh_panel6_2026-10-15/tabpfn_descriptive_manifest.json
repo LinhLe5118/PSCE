@@ -1,0 +1,19 @@
+{
+  "status": "descriptive_after_labels (not part of the registered analysis)",
+  "created_utc": "2026-10-15T19:18:01.297800+00:00",
+  "attribution": "Built with PriorLabs-TabPFN (Hollmann et al., 2025)",
+  "inputs_sha256": {
+    "artifacts/oeh_panel6_2026-10-15/mdpp/labels.csv": "d2b875bdc58a52bbbbf1e8f4c4e1f7444cf172d20ca9b5047d4aff9be5ab0716",
+    "artifacts/oeh_panel6_2026-10-15/mdpp/tabpfn_predictions_preoutcome.csv": "53ce6eb20e491c110a07ff2bd0c36588a38e0a2e32779190140e1b006e9d7d00",
+    "artifacts/oeh_panel6_2026-10-15/mdpp/predictions_preoutcome.csv": "8cba1ca0be6ff4b6ceb0ab63c33a52863d264a1f46d8a0bbd14f7329a4e0378c",
+    "artifacts/oeh_panel6_2026-10-15/labmaze/labels.csv": "916876552ad8ccb2422c4411c3c50ee9c2c90ea8a8311b1972d2bd302c73a213",
+    "artifacts/oeh_panel6_2026-10-15/labmaze/tabpfn_predictions_preoutcome.csv": "bceb3f4914dbf66b7616d24b8811d866628eabdad8d8af6338885dadc3884df5",
+    "artifacts/oeh_panel6_2026-10-15/labmaze/predictions_preoutcome.csv": "bc5b45c8f92e8f5cd12df130988e02da3b09f60efcc82778f51304b44f80792d"
+  },
+  "outputs_sha256": {
+    "tabpfn_descriptive.csv": "3c74c557932e6a865b3c2b2419b75b0a669aeb812b94fdffe9b2f1917c28cb2f"
+  },
+  "source_sha256": {
+    "scripts/analysis/panel6_tabpfn_describe.py": "ebd5d34b607b0d1bf168e41142d5992ecdf4d7c713f7c917a3989d02ac03cfdd"
+  }
+}

@@ -1,0 +1,17 @@
+% Generated from artifacts/difficulty_e1_posthoc_2026-09-30/comparison.csv.
+\begin{table}[t]
+\caption{Post-hoc E1 empirical-requirement prediction. Lower six-threshold Brier is better; raw proxies are uncalibrated point predictions. All cases, including $>x50$, are scored.}
+\label{tab:difficulty}
+\centering\footnotesize
+\begin{tabular}{lrr}
+\toprule
+Predictor & Stoch. (84 MDPs) & Control (36) \\
+\midrule
+Fold-local event frequency & 0.1134 & 0.1417 \\
+XGBoost-AFT, generic $B2$ & 0.0878 & 0.0291 \\
+XGBoost-AFT, $B2+$\OEH{} & \textbf{0.0765} & \textbf{0.0289} \\
+OEH3 raw proxy & 0.2087 & 0.7114 \\
+LCOEH4 raw proxy & 0.1520 & 0.1796 \\
+\bottomrule
+\end{tabular}
+\end{table}

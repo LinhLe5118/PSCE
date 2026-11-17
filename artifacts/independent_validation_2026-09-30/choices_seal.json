@@ -1,0 +1,19 @@
+{
+  "sealed_before_new_training_outcomes_at_utc": "2026-09-30T15:43:06.564663+00:00",
+  "protocol_sha256": "c94dd18a711eab92cc9317309d00c4be036ff27a54507cfb43ff4bde5af899b0",
+  "dataset_manifest_sha256": "e60f90af79174943bc00f6f58e1aba25de343f3835a07043386b6be13044f416",
+  "sha256": {
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/independent_validation_2026-09-30/choices.json": "9ee3be3fc6be13e080699a35d17fea012f2589c8b32df3a381c96b534a467de2",
+    "artifacts/independent_validation_2026-09-30/model_tuning.json": "6d49a04135792e5f06ed293f83b9f25c1d0b448b82c8a548c923d8ee593e27ce"
+  },
+  "groups": 300,
+  "method_counts": {
+    "vi_lcb_cb005_author_empirical": 2,
+    "cfqi_tabular": 238,
+    "discrete_cql_d3rlpy": 34,
+    "discrete_bcq_author": 20,
+    "iql_tabular": 5,
+    "pib_spibb_n10_author": 1
+  }
+}

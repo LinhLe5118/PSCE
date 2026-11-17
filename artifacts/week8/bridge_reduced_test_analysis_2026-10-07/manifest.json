@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_BRIDGE_INDEPENDENT_TEST_B2_VS_REDUCED_OEH",
+  "role": "third-party published MDPs; team-generated offline logs and labels",
+  "source_manifest_sha256": {
+    "bridge_b2_forecast_preoutcome_2026-10-07": "a945825dc4988bcf4e1f527e9e5b4cce487cb0669eeb81db7e6fe06b75499218",
+    "bridge_reduced_forecast_preoutcome_2026-10-07": "0ca97c697fbd0afc0ab0041cbbb2fe63941c3cbfa0a0de33264760dcce32273d",
+    "labels_manifest": "3ddb1007258bab1d56fec8ebde49ec1adb0fe4a7fd85386fa3334117f0e20cf7"
+  },
+  "script_sha256": "fdf461c337b019a0e1ae1a730e4ce30f58de8aa61a1408b4c71d092851d2ad4e",
+  "tasks": 14,
+  "behaviors_per_task": 5,
+  "learners": 3,
+  "rows_per_method": 210,
+  "comparison": "matched seven-class requirement forecast",
+  "comparison_mode": "reduced",
+  "label_task_id_mapping": "exact one-to-one removal of _sticky25 adapter suffix",
+  "output_sha256": {
+    "scored.csv": "7637f930b89015fdc04dd16c26657f09fea9ea985427107bdf81d70e1a2dc2b6",
+    "summary.csv": "171d36571f1ed41907def5f73a1025fa2afe409b6b83b1d0cb4a38400bee25e3",
+    "paired_task_bootstrap.csv": "414c86ea6be997356fb436b5f11d16c8e58e1fc59170a2fa902358e1eb08d9e9",
+    "RESULTS.md": "fb9677a83a7066657f1f1d10cc793064b69e05ad6e5259e1bd680eb2e1e3487a"
+  }
+}

@@ -1,0 +1,97 @@
+# Editor/OS files, secrets and local environments
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+.env
+.env.*
+.venv*/
+venv/
+
+# Python/build/test outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local datasets, original raw audit stores and scratch work
+datasets/
+tmp/
+temp/
+logs/
+*.log
+# Full research runs contain tens of thousands of local learner-job files.
+# Compact protocol, score and audit snapshots are force-added selectively.
+artifacts/*_2026-09-30/
+artifacts/*_2026-10-01/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+artifacts/week6/.*.execution.lock
+artifacts/week6/oehv4e_confirmatory_v1_1/
+artifacts/week6/p1_e1_acceptance_review_2026-09-26/
+# Prevent old generated audit/build files from being reintroduced by git add.
+artifacts/week6/*
+!artifacts/week6/E1_INPUT_SEAL_2026-09-26.json
+!artifacts/week6/d1_unified_preflight_2026-09-21_final/
+
+# Fourth fresh cohort: publish compact, sealed evidence; keep learner jobs local.
+artifacts/oeh_final_unseen_120_2026-10-02/execution/
+artifacts/oeh_final_unseen_120_2026-10-02/external_execution/
+artifacts/oeh_final_unseen_120_2026-10-02/oeh_b_groups/
+artifacts/oeh_final_unseen_120_2026-10-02/selection_groups/
+artifacts/oeh_final_unseen_120_2026-10-02/execution_plan.json
+
+# Seventh confirmatory cohort: retain compact protocol and scores only.
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/execution/
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/external_execution/
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/oeh_b_groups/
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/selection_groups/
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/execution_plan.json
+artifacts/oeh_confirmatory_unseen_120_2026-10-04/external_execution_plan.json
+catboost_info/
+
+# Third-party checkout pinned in benchmarks/bridge/THIRD_PARTY.md
+benchmarks/bridge/third_party/
+
+# BRIDGE operational state rewritten by the checkpoint-recovery and watcher
+# scripts (every few minutes). Completed evidence snapshots stay tracked.
+artifacts/week8/bridge_resume_*.json
+artifacts/week8/*.part
+artifacts/week8/*.supervisor
+artifacts/week8/bridge_keep_awake_status_*.json
+artifacts/week8/bridge_run_health_*
+artifacts/week8/bridge_oehb_parent_health_*
+artifacts/week8/bridge_scheduled_recovery_*.json
+artifacts/week8/bridge_opened_minigrid_queue_status_*.json
+artifacts/week8/continuous_execution_guard_*
+artifacts/week8/difficulty_*_watch_*
+
+# Thesis v2 build product (rebuild from sources)
+docs/thesis/v2_2026-10-13/DAORL_Thesis_v2_2026-10-13.docx
+
+# OEH v2 sealed test: kernels are regenerated from the registered seeds/author code; hashes are in dataset_seal.json
+artifacts/oeh_v2_sealed_test_2026-10-14/*/kernels/
+artifacts/oeh_v2_sealed_test_2026-10-14/*/_*.pkl
+artifacts/oeh_fifth_panel_2026-10-15/*/kernels/
+artifacts/oeh_fifth_panel_2026-10-15/*/_*.pkl
+# OEH panel 6: kernels are regenerated from the registered candidates by scripts/panel6/export_kernels.py; hashes are in dataset_seal.json
+artifacts/oeh_panel6_2026-10-15/*/kernels/
+artifacts/oeh_panel6_2026-10-15/*/_*.pkl
+# Chapter 3 draft build products (rebuild with its scripts/)
+docs/thesis/chapter3_dataset_2026-10-16/*.docx
+docs/thesis/chapter3_dataset_2026-10-16/*.pdf
+
+# Output of the reproduction command (python -m scripts.reproduce) and of the dated post hoc scripts
+reproduce_out/
+scripts/analysis/posthoc_*/out/

@@ -1,0 +1,9 @@
+family,chosen,groups,return_delta,success_delta,return_worse,success_worse
+bottleneck,cfqi_tabular,85,0.0,0.0,0,0
+bottleneck,discrete_bcq_author,1,0.0401983847215569,0.4,0,0
+bottleneck,discrete_cql_d3rlpy,4,0.04630014321290754,0.35,0,0
+forward_layered,cfqi_tabular,103,0.0,0.0,0,0
+forward_layered,discrete_bcq_author,71,0.09246599577972615,0.2084507042253521,12,12
+forward_layered,discrete_cql_d3rlpy,6,0.1542277493972327,0.25,0,0
+uniform_garnet,cfqi_tabular,118,0.0,0.0,0,0
+uniform_garnet,discrete_bcq_author,32,0.003737964740261727,0.309375,3,0

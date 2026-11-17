@@ -1,0 +1,26 @@
+{
+  "status": "exploratory_combined_opened_development_not_confirmation",
+  "comparison": "B2+OEH pilot-only AFT vs B2+oracle-EH AFT on offline difficulty",
+  "stochastic_mdp_count": 84,
+  "paired_forecasts": 1260,
+  "bootstrap_draws": 10000,
+  "required_relative_margin": 0.05,
+  "simultaneous_critical_value": 1.728689213004891,
+  "metrics": {
+    "brier": {
+      "baseline_mean": 0.07324423936371818,
+      "candidate_mean": 0.0642908880921644,
+      "relative_gain": 0.1222396648437154,
+      "mean_excess_over_5pct": 0.005291139303367864,
+      "simultaneous_one_sided_lower_95": -0.0006316439983096844
+    },
+    "logloss": {
+      "baseline_mean": 0.8783025330600629,
+      "candidate_mean": 0.8173080244047044,
+      "relative_gain": 0.06944589860494843,
+      "mean_excess_over_5pct": 0.017079382002355575,
+      "simultaneous_one_sided_lower_95": -0.040388475544381436
+    }
+  },
+  "development_margin_gate": "NO-GO"
+}

@@ -1,0 +1,24 @@
+{
+  "panel": "spibb",
+  "protocol_sha256": "d9d2d58fda344bb7deb555b1631a5822806ee15ea73adb126177d35f1b3b70e9",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-14T13:31:07.457287+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "48a6940f2a6b2cb1393b20da980f335712794dbd669faf458834dba1a2e6ac0c",
+    "published_preoutcome.csv": "1cd652590914e7d16142374abc825c2e018a9ddc2f304013a476b4dcb5fc8f09",
+    "horizon_preoutcome.csv": "7658993dd13ce94ee015da6919a343316b4ae149c8fa96434754801b2aef3a69",
+    "curve_preoutcome.csv": "7d0cb45f6f73395ace9b2f16047062ee8229b13b0a6bc8875636ccce9a7950f1",
+    "query_preoutcome.csv.gz": "63573795318d7029736a6b4710ee8dc3db1b0ce5336163acc05ce1c118f770dc",
+    "predictions_preoutcome.csv": "0dbaa1deffe3a5d4cc24d09e7bc361f38fbb44090310f30f139c9318bfc5c746",
+    "forecast_tuning_preoutcome.json": "924878abb90c8a8fb462912c067d909944b372bad2a442f656d5dbc031ab31ec"
+  },
+  "oeh_b_groups": 108,
+  "oeh_b_groups_sha256": "f35be6036869fe8f335556d9ff271b4c31d7ecfd85250dae7ff427d1e0dea11e",
+  "environment": {
+    "python": "3.12.7",
+    "numpy": "2.5.1",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.7.2",
+    "xgboost": "3.3.0"
+  }
+}

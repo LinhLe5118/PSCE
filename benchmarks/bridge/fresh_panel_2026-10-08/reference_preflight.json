@@ -1,0 +1,62 @@
+{
+  "status": "PASS_PRELABEL_REFERENCE_NOT_LEARNER_LABELS",
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "rows": [
+    {
+      "mdp_id": "atlantis_10_fs30",
+      "horizon": 10,
+      "reward_scale_positive": 200.0,
+      "raw_random": 17.0012508249261,
+      "raw_optimal": 174.06669896668504,
+      "normalized_random": 0.08500625412463049,
+      "normalized_optimal": 0.8703334948334253,
+      "positive_span": 0.7853272407087948,
+      "max_scale_error": 1.1102230246251565e-16
+    },
+    {
+      "mdp_id": "atlantis_20_fs30",
+      "horizon": 20,
+      "reward_scale_positive": 200.0,
+      "raw_random": 83.06069128013358,
+      "raw_optimal": 653.942003578094,
+      "normalized_random": 0.41530345640066796,
+      "normalized_optimal": 3.2697100178904694,
+      "positive_span": 2.8544065614898013,
+      "max_scale_error": 8.881784197001252e-16
+    },
+    {
+      "mdp_id": "breakout_10_fs30",
+      "horizon": 10,
+      "reward_scale_positive": 1.0,
+      "raw_random": 0.10346483010983858,
+      "raw_optimal": 1.1097299254617787,
+      "normalized_random": 0.10346483010983858,
+      "normalized_optimal": 1.1097299254617787,
+      "positive_span": 1.00626509535194,
+      "max_scale_error": 0.0
+    },
+    {
+      "mdp_id": "freeway_10_fs30",
+      "horizon": 10,
+      "reward_scale_positive": 1.0,
+      "raw_random": 0.029756143626117573,
+      "raw_optimal": 0.9509900498999999,
+      "normalized_random": 0.029756143626117573,
+      "normalized_optimal": 0.9509900498999999,
+      "positive_span": 0.9212339062738824,
+      "max_scale_error": 0.0
+    },
+    {
+      "mdp_id": "qbert_10_fs30",
+      "horizon": 10,
+      "reward_scale_positive": 325.0,
+      "raw_random": 46.174153174256936,
+      "raw_optimal": 323.09765807051195,
+      "normalized_random": 0.1420743174592521,
+      "normalized_optimal": 0.9941466402169603,
+      "positive_span": 0.8520723227577083,
+      "max_scale_error": 4.440892098500626e-16
+    }
+  ],
+  "test_labels_read": false
+}

@@ -1,0 +1,40 @@
+{
+  "status": "adaptive_four_opened_cohorts_not_independent",
+  "query_mdps": {
+    "dev_1": 60,
+    "dev_2": 60,
+    "first_120": 120,
+    "second_120": 120
+  },
+  "pilot_only_early_hybrid_alphas": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "third_protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "input_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/e1_oracle_qvi_posthoc_2026-09-30/oracle_diagnostics.csv": "e96934928568bdfb60cdc6062c175beb03821353ce35d9afa3c8ad7ddab1d8f6",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/independent_difficulty_2026-09-30/oracle_preoutcome.csv": "f943697387abbde9f46688a5bebe9d8ac06f93a2fc68ac469e2ad538ca5d6a1e",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_b2_eh_oracle_second_development_2026-10-01/oracle_descriptors.csv": "c2acdc77530289fc1df97bf4af794bcc1809207955a9279a0f67af881f23ff42",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/labels.csv": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/pilot_features.csv": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "56e0cfda77f4b795770bcd7156fea31cc732f9b871d03e1e6ccdfc3535ccc5cb",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/labels.csv": "b1be3f633b076bd6c1c5e5b97680145b7ff710907a5e21483328c4d4543d5f9e",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/pilot_features.csv": "1c7cd1f325d2c6f0f41cc21d04f4c7bb65f435c54091cb698030348d95c29c37",
+    "artifacts/oeh_pooled_successor_unseen_120_2026-10-01/oracle_descriptors_preoutcome.csv": "4f4dc1cd505a9808b76092f3624dd486f52c01dd3f8fc1687dbc6cfbc557d292"
+  },
+  "script_sha256": "af58455668b0426f69d548705af2dd4078240904a6e9a162c14872a0c3c93aa8",
+  "artifact_sha256": {
+    "scored.csv": "f4cdc457006911fb52aab7569f60e0f4d1003f1e51af1694946f8e311acc525a",
+    "mdp_scores.csv": "e40af79fdf2049bb47b6e1aaf3c1252c30cffe35bf212b81749967ec260bcc9c",
+    "summary.csv": "cf36284269fda097708ec1104c3a9004834ee39b7fce675694a172bc42c8aa3b",
+    "pooled.csv": "4644c159c45caa1a3821fe0bc5530c913247bc83cbe3db8af23efce79d626a42"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "panel": "forest",
+  "protocol_sha256": "17019f87923754b7d125c48b7ac29dca580a1026ec272f33e3e92dcd0823bdec",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-14T16:43:28.715937+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "59294262b63ed7f05df89e5edd3ba7570589b3a4ff4bcc460956cf75dd8927b3",
+    "published_preoutcome.csv": "5fb597c76d8fca47e5bd2781750d2170c869c6ae5ec534295014500df63eb0fc",
+    "horizon_preoutcome.csv": "5b536d79248657268dc7a5d6978bb2060b4cb5539c3bd71af5a6b588ffba4bc1",
+    "curve_preoutcome.csv": "db94c9d25db54daeb8ba7dc3e36b18f720cf6e512ba315969ce2d84e233dedc7",
+    "query_preoutcome.csv.gz": "2fb2c52f181da9efa4d2f6883a291a2ee2efdcb0e3641d1fb96bb60d7216c5b4",
+    "predictions_preoutcome.csv": "aac2a2ad4b042886f3da508849406c96ae08921c1c6de58bf389e8b1ea41ab4a",
+    "forecast_tuning_preoutcome.json": "0aa5de753d4e105ae54a9ab47377cd0171ac1c8b4606e1a59a4c3bb4e7655171"
+  },
+  "oeh_b_groups": 240,
+  "oeh_b_groups_sha256": "bfb97337746e7e15ffaab80424a335d0211c35a05b8b2cdd625a201917607224"
+}

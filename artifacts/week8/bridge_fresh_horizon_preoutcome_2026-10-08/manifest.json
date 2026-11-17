@@ -1,0 +1,10 @@
+{
+  "status": "SEALED_FRESH_HORIZON_PREOUTCOME_NO_TEST_LABELS",
+  "pilot_manifest_sha256": "3fc5614ac220edf56c780c003adbdc8bf88509d0a15fcb8bfbf2b41d28e70a8b",
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "source_script_sha256": "53664e676404d1a8cee287732bb85a9f3abce82cb330218fe8db925966713dac",
+  "groups": 25,
+  "horizon_csv_sha256": "2db0b8514de8d69db95c5a56dd9e956f20e653dfee6d409e1cb3eee56a30577a",
+  "runtime_seconds_sum": 804.2886163998046,
+  "test_labels_read": false
+}

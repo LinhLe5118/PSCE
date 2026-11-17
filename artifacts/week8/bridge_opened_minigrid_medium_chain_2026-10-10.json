@@ -1,0 +1,11 @@
+{
+    "phase":  "COMPLETE_15_GROUPS",
+    "detail":  "Three 469-493-state exploratory MDPs checkpointed",
+    "checked_local":  "2026-10-10T20:18:59.6919468+07:00",
+    "target_group_counts":  {
+                                "MiniGrid-LavaCrossingS11N5-v0":  5,
+                                "MiniGrid-LavaGapS7-v0":  5,
+                                "MiniGrid-SimpleCrossingS11N5-v0":  5
+                            },
+    "launches":  2
+}

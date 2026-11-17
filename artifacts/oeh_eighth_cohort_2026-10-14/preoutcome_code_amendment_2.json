@@ -1,0 +1,18 @@
+{
+  "recorded_at_utc": "2026-10-14T13:06:05.201822+00:00",
+  "files": {
+    "scripts/analysis/run_oeh_eighth_cohort_20261014.py": [
+      "47833b617a8cbed7e85bbe55fcb28a96ac0b6242d77c2e7c7ba8353ce8415928",
+      "4c291620e478d284a0bbd84e6d7984d0da41c306ee41a508fed1e3e070f2a4c9"
+    ],
+    "scripts/analysis/develop_cohort8_candidates_20261014.py": [
+      "a14c618a41e378ae9a19870c161c960a1326993d48365befc27dfe492c455927",
+      "1cb99cd067661330f8cdc2df998b4ce31dce65e0ef7b05187ea5e5969cf2709e"
+    ]
+  },
+  "finding": "develop_cohort8.meta_panel() re-sorted the 720-MDP training rows; the xgboost heads of matched_forecast are not invariant to row order (max |diff| 0.12 against the sealed Colosseum B2 forecasts), so the protocol's 'sealed cohort-7 fit, unchanged' would not have held",
+  "change": "forecasts use meta_panel(sort=False) (R.meta_training order); a new hard check requires the ensemble weights and OOF log loss of oeh_final, b2_matched, b2_plus_eri and prior_oeh_matched to equal cohort 7's sealed tuning (1e-6 / 1e-8) before any panel can be sealed; development OOF (sort=True) is unchanged",
+  "scientific_change": "restores the registered forecaster; no comparator, rule or candidate parameter changes",
+  "state_at_amendment": "no panel reached the forecast step; prepare processes stopped and restarted from cached inputs",
+  "learner_outcomes_observed": 0
+}

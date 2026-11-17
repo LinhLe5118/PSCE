@@ -1,0 +1,30 @@
+{
+  "namespace": "week8-m1-feature-lineage-matched-ablation-v1-20261013",
+  "status": "complete_exploratory_opened_cohort",
+  "label": "exploratory: the seventh cohort was opened on 2026-10-04; no new confirmatory claim",
+  "completed_at_utc": "2026-10-13T16:20:22.759337+00:00",
+  "labels_sha256": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e",
+  "result_manifest_sha256": "63f8e5b281d07e83a2a0ef24fe7ec237074a9da83b7b0f0d54239dd344dbdd15",
+  "bootstrap": "2000 MDP-resampled means, percentile 95%, seed 20261013; descriptive only",
+  "delta_definition": "arm minus reference; negative is better for both losses",
+  "metrics": "IBS over six CDF thresholds; seven-class log loss with 1e-12 floor",
+  "score_source_sha256": "e5f4194ae6f4c35357e046a818015c517cb1f0f51ddb519c61c39c38a31f58e9",
+  "output_sha256": {
+    "feature_lineage.csv": "bebee450853e30f54c7bdb78d90857ce3cd9fd23e01fc187935ef4eaf34d4cbc",
+    "feature_lineage.json": "7fc7be2d36f18a0f2431a163e23644b48e81cac5cf5b58b29c0253dd21ac51e5",
+    "cost_probe_groups.csv": "bb4532df60f28afc08daa2086b5beb273359bc40c428edcf99175100446d7a7e",
+    "cost_summary.csv": "b45402966ad3b59132c84b6bb6fd2484b4eba15d2e53a4847f5aad48171edd51",
+    "arm_feature_cost.csv": "54bf9295f53a3a720255e20b4c65edded83351f50dbdd9621bcdb3b21a669ee3",
+    "cost_parity.json": "7ede109f1fa7c725dd2309920af01dfd08b2772944e41d5f8d9dd5a3e7af2def",
+    "predictions_before_label_read.csv": "6b4ae25ed86abdb3c1be27472d2d7aa8c94626a7fbc9987caf524249228d7d04",
+    "tuning.json": "d13725268832be10f13a36b519f95277f728b727404dcebb987efc4d552db355",
+    "fit_runtime.csv": "b310073edd7d3a0c9e1626e041494729b0e5cba78a7caa6e66169f70787a5a39",
+    "input_inventory.csv": "f30a3e978955adbfb6a5716be77f377c945fc8c0082dffa803e5c4d2b7ade108",
+    "source_inventory.csv": "0b5b035efe36c73087c187028a0e82a61757010dbf7588b215884b580193d0fb",
+    "prediction_seal.json": "8b5aced75a64f6c7bada0ce36f722410bc027620f98a28e1bed086f82ad9d5fb",
+    "scored.csv": "69b69701050bce465667c9fb1d74c6b3ad8d2e64815e145e9f8e008dd83d2875",
+    "summary.csv": "09e269900e5bae62c826dfc3116bfd890070e6f54176d8cff5e1b0dd7cf465b1",
+    "paired_mdp_delta.csv": "267c347173f4fd30358b0768b3155eeadf897a6069cee8efa24456da18b3abe3",
+    "calibration_by_budget.csv": "f73b0496907dc742d81e3d94302b8337ca720210194ff4082b5b4bf46a27f25b"
+  }
+}

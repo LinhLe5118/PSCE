@@ -1,0 +1,99 @@
+{
+  "status": "EIGHT_PUBLISHED_MDP_MEMBERS_VERIFIED_NO_LABELS",
+  "source_record": "https://zenodo.org/records/12556298",
+  "zip_index_tail_sha256": "3266c288b7a76c007e35abb289764ddf71e480264f43bdecf18dea000c063187",
+  "source_zip_md5_expected_not_checked": "7b67fe0bd15ab987114b1cb131178214",
+  "registry_sha256": "fa8942d18cf1e712571b75f995d1112b38cfa4b269bcb03af596d7a68c14c742",
+  "verification": "HTTP 206 exact Content-Range, ZIP member size and CRC32, file SHA256; whole ZIP MD5 not checked",
+  "test_labels_read": false,
+  "members": [
+    {
+      "name": "bridge_dataset/mdps/atlantis_10_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "deaed6ac",
+      "compressed_bytes": 26895,
+      "uncompressed_bytes": 63890,
+      "local_header_offset": 18584046501,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\atlantis_10_fs30\\consolidated.npz",
+      "file_sha256": "17717c7c82a0778bd72e8e0564afebd40f1f30c867ba1180b8f2c68a42b9c058",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/atlantis_20_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "486d852d",
+      "compressed_bytes": 298735,
+      "uncompressed_bytes": 723695,
+      "local_header_offset": 4348077578,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\atlantis_20_fs30\\consolidated.npz",
+      "file_sha256": "4f9b247f3983196beedaa5d74336e517356b8ddc489e4891545fefc09874c504",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/breakout_10_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "d73da6cb",
+      "compressed_bytes": 32630,
+      "uncompressed_bytes": 109014,
+      "local_header_offset": 8495922063,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\breakout_10_fs30\\consolidated.npz",
+      "file_sha256": "98cb636436a95e9a00d7fe5b6ff1c70d53629906d3b8032ad9673b841c21a673",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/freeway_10_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "50209ced",
+      "compressed_bytes": 126733,
+      "uncompressed_bytes": 332704,
+      "local_header_offset": 25381179183,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\freeway_10_fs30\\consolidated.npz",
+      "file_sha256": "21a2eb76253c8a472c37d77bb413016b8c932932885da14e573c2282c8b74ae4",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/fruitbot_easy_l0_40_fs8/consolidated.npz",
+      "method": 8,
+      "crc32": "eb310ea2",
+      "compressed_bytes": 285640,
+      "uncompressed_bytes": 375847,
+      "local_header_offset": 17119505765,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\fruitbot_easy_l0_40_fs8\\consolidated.npz",
+      "file_sha256": "7aa35fd66bb6d5b421a1abb42c8292e0fcadf184beaadac272b817bb97c275e5",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/fruitbot_easy_l2_40_fs8/consolidated.npz",
+      "method": 8,
+      "crc32": "e869840e",
+      "compressed_bytes": 986917,
+      "uncompressed_bytes": 1043512,
+      "local_header_offset": 2388258156,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\fruitbot_easy_l2_40_fs8\\consolidated.npz",
+      "file_sha256": "a7690e1e7ea5c01bf4598fe29fc64a1f057b20c804b5a33cb94781882e6fc087",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/pong_20_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "2b5236f2",
+      "compressed_bytes": 185481,
+      "uncompressed_bytes": 330156,
+      "local_header_offset": 24753601926,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\pong_20_fs30\\consolidated.npz",
+      "file_sha256": "34baf4520a55bb170555e8e749c26e74857ed8cd102426a3df6def8b17965568",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/qbert_10_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "e05d59bb",
+      "compressed_bytes": 323672,
+      "uncompressed_bytes": 1069346,
+      "local_header_offset": 2398865159,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\qbert_10_fs30\\consolidated.npz",
+      "file_sha256": "dacf7f3b4ecaa024cc14a0d34444af7d991d7c4c631e5da4f263ce5674789ef6",
+      "status": "DOWNLOADED_VERIFIED"
+    }
+  ]
+}

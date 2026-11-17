@@ -1,0 +1,24 @@
+{
+  "status": "complete_exploratory_opened_cohort",
+  "source": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\artifacts\\oeh_confirmatory_unseen_120_2026-10-04",
+  "source_sha256": {
+    "predictions_preoutcome.csv": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a",
+    "labels.csv": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e"
+  },
+  "script_sha256": "0542e03a77e7f2937f6c9d3c082bee2bd6ef54d4e214d99ce177612f6398d0c5",
+  "decision_q": 0.8,
+  "operational_budgets": [
+    10,
+    20,
+    50
+  ],
+  "warning": "Decision q and subgroup analyses were chosen after this cohort opened; descriptive only. Freeze independently before BRIDGE outcomes.",
+  "rows": 1800,
+  "mdps": 120,
+  "methods": [
+    "oeh_final",
+    "b2_matched",
+    "b2_plus_eri",
+    "b2_plus_bwd"
+  ]
+}

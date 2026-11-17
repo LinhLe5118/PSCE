@@ -1,0 +1,9 @@
+{
+  "status": "PREVIEW_ONLY",
+  "common_metric_manifest_sha256": "81bbcd3ed481bf64b888cc02c1aaff685ca97905406c9e5072609b5c628867f0",
+  "results_packet_sha256": "764d8d10d3a53782dbdfe693999a67a61c74f13d5c52f7ac513c1c23f7e1a1da",
+  "panels": [
+    "bridge_expanded_prospective_5",
+    "bridge_opened_minigrid_14_exploratory"
+  ]
+}

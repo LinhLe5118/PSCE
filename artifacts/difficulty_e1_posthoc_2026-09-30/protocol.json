@@ -1,0 +1,20 @@
+{
+  "status": "posthoc_development_not_independent_confirmation",
+  "question": "Does the support-restricted OEH pilot difficulty representation improve prediction of the learner-specific empirical data requirement?",
+  "cohort": "unchanged_original_E1_120_MDPs",
+  "primary": "84_stochastic_MDPs",
+  "descriptive_controls": "36_lock_structured_MDPs",
+  "learning_algorithms": ["cfqi_tabular", "iql_tabular", "behavior_cloning_tabular"],
+  "budget_multipliers": [1, 2, 5, 10, 20, 50],
+  "label": "first_budget_whose_complete_suffix_has_at_least_8_of_10_seeds_at_normalized_return_ge_0.95;_otherwise_right_censored_beyond_x50",
+  "outer_split": "original_sha256_mdp_id_mod_5;_all_behaviors_and_learners_of_an_MDP_in_same_fold",
+  "fit": "separate_primary_and_control_panels;_separate_model_per_learner;_no_test_fold_labels_in_fit",
+  "reference": "fold_local_empirical_event_frequency_for_each_learner",
+  "external_comparator": "XGBoost_AFT_with_interval_and_right_censoring,_fixed_configuration_before_scoring,_200_rounds;_modern_strong_survival_baseline_not_universal_SOTA",
+  "feature_ablation": "B2_generic_only_versus_B2_plus_OEH3_and_LCOEH4_pilot_diagnostics",
+  "raw_proxy_audit": "OEH3_and_LCOEH4_log1p_requirement_as_uncalibrated_point_predictions;_report_threshold_Brier_and_event_category_accuracy_only",
+  "primary_metric": "mean_squared_probability_error_across_six_event_by_budget_thresholds_on_all_cases_including_right_censored",
+  "secondary_metrics": ["seven_class_log_loss_for_probabilistic_models", "event_category_accuracy", "conditional_2000_draw_whole_MDP_bootstrap_of_fixed_out_of_fold_predictions"],
+  "analysis_limit": "Pilot_features_are_from_x10;_x1_to_x5_requirement_labels_are_retroactive_descriptive_targets._Original_E1_was_adaptively_reused._No_new_MDPs_or_policy_training.",
+  "promotion_rule": "no_promotion_or_confirmatory_claim_from_this_analysis;_report_every_result"
+}

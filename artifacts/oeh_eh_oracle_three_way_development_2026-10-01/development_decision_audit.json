@@ -1,0 +1,30 @@
+{
+  "status": "exploratory_two_opened_cohorts_not_confirmation",
+  "scope": "same three-component forecasting architecture; EH uses full true MDP",
+  "mdps": 84,
+  "forecast_pairs": 1260,
+  "required_relative_margin": 0.05,
+  "simultaneous_one_sided_confidence": 0.95,
+  "metrics": {
+    "brier": {
+      "eh_mean": 0.06960802904076602,
+      "oeh_mean": 0.059166532099123766,
+      "relative_gain": 0.15000420333015285,
+      "mean_excess_over_5pct": 0.006961095489603949,
+      "simultaneous_lower": 0.0016894183072273502,
+      "mean_absolute_improvement": 0.01044149694164225,
+      "simultaneous_absolute_improvement_lower": 0.005169819759265651
+    },
+    "logloss": {
+      "eh_mean": 0.7412796453212358,
+      "oeh_mean": 0.6980889417680705,
+      "relative_gain": 0.058265060730823826,
+      "mean_excess_over_5pct": 0.00612672128710343,
+      "simultaneous_lower": -0.022372675573253654,
+      "mean_absolute_improvement": 0.043190703553165226,
+      "simultaneous_absolute_improvement_lower": 0.014691306692808138
+    }
+  },
+  "development_decision_rule": "Both point relative gains >=5% and both simultaneous 95% lower bounds for absolute improvement >0",
+  "development_margin_gate": "GO"
+}

@@ -1,0 +1,23 @@
+{
+ "mdps": 32,
+ "critical": 1.7655900749395361,
+ "verdict": {
+  "b2_matched": "NO-GO",
+  "b2_plus_colosseum": "GO"
+ },
+ "censored_fraction": {
+  "behavior_cloning_tabular": 0.9,
+  "cfqi_tabular": 0.54375,
+  "iql_tabular": 0.725
+ },
+ "event_distribution": {
+  "0": 50,
+  "1": 22,
+  "2": 30,
+  "3": 13,
+  "4": 11,
+  "5": 7,
+  "6": 347
+ },
+ "predictions_sha256": "a24c24de02aeface79f0d2c1be94f4ceff4048879272e0fb14de7890f8c118b4"
+}

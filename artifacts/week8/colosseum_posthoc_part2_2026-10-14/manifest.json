@@ -1,0 +1,22 @@
+{
+  "completed_at_utc": "2026-10-14T13:18:38.995099+00:00",
+  "verdict_amendment1_complete": {
+    "handover": {
+      "tier1": "NO-GO",
+      "tier2": "NO-GO",
+      "all": "NO-GO"
+    },
+    "team": {
+      "tier1": "NO-GO",
+      "tier2": "NO-GO",
+      "all": "NO-GO"
+    }
+  },
+  "labels_sha256": "bc937c70e70f688563b28a9f50e6411aff8bced4a2437a0b502a39e287b261d5",
+  "output_sha256": {
+    "summary.csv": "e3ac8f6526ada568a938ada337a6f93fdfb6f6590b1c3c7f75f48de682335012",
+    "amendment1_complete_contrasts.csv": "656805dc6fb755b1300f6fa5b531dd9b3382908f5230a977f4958ae2270b18a7",
+    "cohort8_methods_vs_oeh.csv": "8e7c35c3b0db7250ba4dfb2ddd1149aadf97504a78d9d2a8923e28c1773ec532",
+    "scored.csv.gz": "4eaf66ccc32113ce3d106e32676cc977f5dcf32716ab889d904eedd65dc251e2"
+  }
+}

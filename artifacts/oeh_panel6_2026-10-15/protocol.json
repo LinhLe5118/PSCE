@@ -1,0 +1,3650 @@
+{
+  "schema": "oeh-panel6-v1",
+  "namespace": "oeh-panel6-v1-20261015",
+  "frozen_at_utc": "2026-10-15T14:09:15.784496+00:00",
+  "status": "frozen_before_any_panel_data_or_learner_outcomes",
+  "approval": "checkpoint H1 approved by Linh on 2026-10-15 with every recommendation of the T8 draft",
+  "method": "OEH final method = oeh_v2_spec.json via scripts/analysis/oeh_pipeline.py (unchanged since the four-panel test)",
+  "oeh_spec": {
+    "schema": "oeh-v2-spec-v1",
+    "status": "frozen",
+    "frozen_at_utc": "2026-10-14T16:25:01.937373+00:00",
+    "definition": "scripts/analysis/oeh_v2_forecast.py:v2_law",
+    "base_head": "oeh_ensemble",
+    "parameters": {
+      "q_oeh": "finite_only_head",
+      "q_robust": "legacy_finite",
+      "lambda_max": 1.0,
+      "eps_max": 0.02,
+      "d0": 3.0
+    },
+    "distance": "mean distance to the 10 nearest meta-training primary rows in standardized B2 statistics, per MDP-behavior group",
+    "selected_in": "artifacts/week8/oeh_v2_development_2026-10-14/heads",
+    "m2": "stopped at step 0 (prior_diagnosis/): the continuation rule was not met",
+    "m3": {
+      "rule": [
+        "external score of the re-selected v2 lower than without M3",
+        "SPIBB (rel IBS + rel LL)/2 lower than without M3",
+        "internal rel IBS and rel LL vs OEH current each <= +0.02"
+      ],
+      "without": {
+        "by_panel": {
+          "cohort7": [
+            0.004929276792311255,
+            0.018051342608216503
+          ],
+          "cohort8": [
+            0.0006933517658458399,
+            0.006452080896266255
+          ],
+          "colosseum2027": [
+            -0.06461828797190627,
+            -0.11156388856078958
+          ],
+          "colosseum2028": [
+            -0.06945191980496623,
+            -0.09772463138159992
+          ],
+          "spibb": [
+            -0.03134973405723851,
+            -0.01843385220101068
+          ],
+          "internal": [
+            0.002093143131145059,
+            0.010388744143398299
+          ]
+        },
+        "external_score": -0.06552371899625187,
+        "spibb_score": -0.024891793129124595
+      },
+      "with": {
+        "by_panel": {
+          "cohort7": [
+            -0.015483828607276928,
+            0.008862501231342579
+          ],
+          "cohort8": [
+            0.012753185707956582,
+            0.006998366116294008
+          ],
+          "colosseum2027": [
+            -0.028165230684146114,
+            -0.08033415446976633
+          ],
+          "colosseum2028": [
+            -0.05881104169827589,
+            -0.09442753725176845
+          ],
+          "spibb": [
+            0.01025257605451757,
+            0.01308599635552632
+          ],
+          "internal": [
+            0.0034220647430349693,
+            0.007631033296097378
+          ]
+        },
+        "external_score": -0.03973323194898548,
+        "spibb_score": 0.011669286205021945
+      },
+      "checks": {
+        "external_lower": false,
+        "spibb_lower": false,
+        "internal_within_2pct": true
+      },
+      "adopted": false,
+      "oeh_current_refit_on_augmented_panel": {
+        "by_panel": {
+          "cohort7": [
+            -0.02502960630699358,
+            -0.006965652904399877
+          ],
+          "cohort8": [
+            0.00109730981739653,
+            -0.0019803790234621532
+          ],
+          "colosseum2027": [
+            0.0023494309534917157,
+            0.0067183287222143395
+          ],
+          "colosseum2028": [
+            -0.007634522761508111,
+            0.0015452957080088758
+          ],
+          "spibb": [
+            0.032804507112023984,
+            0.010894005535496465
+          ],
+          "internal": [
+            -0.0075365142857956036,
+            -0.00367232674835527
+          ]
+        },
+        "external_score": 0.007779507544954545,
+        "spibb_score": 0.021849256323760224
+      }
+    },
+    "extra_training_cohorts": [],
+    "source_sha256": {
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/rules.json": "8fc00959c61a0ff387a6481ba28640950adfb786505c32ce265fb01b7821928d",
+      "artifacts/week8/oeh_v2_development_2026-10-14/rules_m2_m3.json": "147b069684821a331420a4a182375ffdc497d8f626d561e4434df5732611c1e3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/selection.json": "8cf815fc2b167c0645e0f3445253d6264e7be45918a778cfd9731eb2e659c4b3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/grid.csv": "fb9f0b343525f29276a37209f0cf8126dbc70dd9bc1186f4ffa79ee5ecf0fd08",
+      "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+      "scripts/analysis/develop_oeh_v2_heads_20261014.py": "ed80349323362d7c06d67dd075bfd71ae85d0b70c40eef2601ae9e965159cf24"
+    }
+  },
+  "oeh_spec_sha256": "6f78edec6e8ba74dd0151f6739b52b90f9d65c49802aefc1efd2a82600bfc4d7",
+  "families": {
+    "mdpp": {
+      "source": "MDP Playground 1.0.0 (Rajan et al., 2021), RLToyEnv discrete: sequence_length 1, delay 0, maximally_connected, reward_noise 0, reward_scale 1",
+      "parameters": "A in {2,3,4,5,6,8}; diameter d uniform on the integers with 8 <= d*A <= 64 and d*A*A <= 256; transition_noise ~ U(0, 0.3); reward_density ~ U(0.1, 0.5); terminal_state_density in {0, 0.25}",
+      "mdps": 96,
+      "candidates": 150,
+      "candidate_seed": 20301115,
+      "data_seed_base": 70000000,
+      "candidates_list": [
+        {
+          "mdp_id": "p6_mdpp_000",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 26,
+          "transition_noise": 0.199,
+          "reward_density": 0.149,
+          "terminal_state_density": 0.0,
+          "source_seed": 1158863084
+        },
+        {
+          "mdp_id": "p6_mdpp_001",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.22,
+          "reward_density": 0.412,
+          "terminal_state_density": 0.0,
+          "source_seed": 1988607317
+        },
+        {
+          "mdp_id": "p6_mdpp_002",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 20,
+          "transition_noise": 0.209,
+          "reward_density": 0.329,
+          "terminal_state_density": 0.0,
+          "source_seed": 1642936696
+        },
+        {
+          "mdp_id": "p6_mdpp_003",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 3,
+          "transition_noise": 0.185,
+          "reward_density": 0.153,
+          "terminal_state_density": 0.25,
+          "source_seed": 2099711447
+        },
+        {
+          "mdp_id": "p6_mdpp_004",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 4,
+          "transition_noise": 0.281,
+          "reward_density": 0.123,
+          "terminal_state_density": 0.25,
+          "source_seed": 719039254
+        },
+        {
+          "mdp_id": "p6_mdpp_005",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 6,
+          "transition_noise": 0.258,
+          "reward_density": 0.193,
+          "terminal_state_density": 0.0,
+          "source_seed": 443221528
+        },
+        {
+          "mdp_id": "p6_mdpp_006",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 5,
+          "transition_noise": 0.103,
+          "reward_density": 0.237,
+          "terminal_state_density": 0.0,
+          "source_seed": 1565433101
+        },
+        {
+          "mdp_id": "p6_mdpp_007",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.01,
+          "reward_density": 0.313,
+          "terminal_state_density": 0.25,
+          "source_seed": 1452091103
+        },
+        {
+          "mdp_id": "p6_mdpp_008",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.287,
+          "reward_density": 0.225,
+          "terminal_state_density": 0.0,
+          "source_seed": 1095745945
+        },
+        {
+          "mdp_id": "p6_mdpp_009",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.087,
+          "reward_density": 0.103,
+          "terminal_state_density": 0.0,
+          "source_seed": 1238828209
+        },
+        {
+          "mdp_id": "p6_mdpp_010",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 18,
+          "transition_noise": 0.147,
+          "reward_density": 0.498,
+          "terminal_state_density": 0.25,
+          "source_seed": 1408216505
+        },
+        {
+          "mdp_id": "p6_mdpp_011",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 32,
+          "transition_noise": 0.045,
+          "reward_density": 0.143,
+          "terminal_state_density": 0.25,
+          "source_seed": 352232797
+        },
+        {
+          "mdp_id": "p6_mdpp_012",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 10,
+          "transition_noise": 0.227,
+          "reward_density": 0.239,
+          "terminal_state_density": 0.0,
+          "source_seed": 218880336
+        },
+        {
+          "mdp_id": "p6_mdpp_013",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 17,
+          "transition_noise": 0.156,
+          "reward_density": 0.126,
+          "terminal_state_density": 0.25,
+          "source_seed": 1860943534
+        },
+        {
+          "mdp_id": "p6_mdpp_014",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 30,
+          "transition_noise": 0.006,
+          "reward_density": 0.3,
+          "terminal_state_density": 0.0,
+          "source_seed": 459585534
+        },
+        {
+          "mdp_id": "p6_mdpp_015",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.025,
+          "reward_density": 0.251,
+          "terminal_state_density": 0.0,
+          "source_seed": 964800393
+        },
+        {
+          "mdp_id": "p6_mdpp_016",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 7,
+          "transition_noise": 0.142,
+          "reward_density": 0.311,
+          "terminal_state_density": 0.0,
+          "source_seed": 386245501
+        },
+        {
+          "mdp_id": "p6_mdpp_017",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.014,
+          "reward_density": 0.173,
+          "terminal_state_density": 0.0,
+          "source_seed": 518599699
+        },
+        {
+          "mdp_id": "p6_mdpp_018",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 9,
+          "transition_noise": 0.287,
+          "reward_density": 0.342,
+          "terminal_state_density": 0.25,
+          "source_seed": 65989220
+        },
+        {
+          "mdp_id": "p6_mdpp_019",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 6,
+          "transition_noise": 0.085,
+          "reward_density": 0.253,
+          "terminal_state_density": 0.25,
+          "source_seed": 1798794222
+        },
+        {
+          "mdp_id": "p6_mdpp_020",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 10,
+          "transition_noise": 0.097,
+          "reward_density": 0.274,
+          "terminal_state_density": 0.0,
+          "source_seed": 741997710
+        },
+        {
+          "mdp_id": "p6_mdpp_021",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.185,
+          "reward_density": 0.206,
+          "terminal_state_density": 0.0,
+          "source_seed": 69158625
+        },
+        {
+          "mdp_id": "p6_mdpp_022",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 8,
+          "transition_noise": 0.218,
+          "reward_density": 0.401,
+          "terminal_state_density": 0.0,
+          "source_seed": 2053589992
+        },
+        {
+          "mdp_id": "p6_mdpp_023",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 3,
+          "transition_noise": 0.08,
+          "reward_density": 0.313,
+          "terminal_state_density": 0.0,
+          "source_seed": 1283044241
+        },
+        {
+          "mdp_id": "p6_mdpp_024",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 6,
+          "transition_noise": 0.132,
+          "reward_density": 0.132,
+          "terminal_state_density": 0.25,
+          "source_seed": 645565439
+        },
+        {
+          "mdp_id": "p6_mdpp_025",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 13,
+          "transition_noise": 0.09,
+          "reward_density": 0.489,
+          "terminal_state_density": 0.0,
+          "source_seed": 1382164466
+        },
+        {
+          "mdp_id": "p6_mdpp_026",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 5,
+          "transition_noise": 0.03,
+          "reward_density": 0.201,
+          "terminal_state_density": 0.25,
+          "source_seed": 1674925801
+        },
+        {
+          "mdp_id": "p6_mdpp_027",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 29,
+          "transition_noise": 0.0,
+          "reward_density": 0.395,
+          "terminal_state_density": 0.0,
+          "source_seed": 1045394077
+        },
+        {
+          "mdp_id": "p6_mdpp_028",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.294,
+          "reward_density": 0.222,
+          "terminal_state_density": 0.0,
+          "source_seed": 1088648742
+        },
+        {
+          "mdp_id": "p6_mdpp_029",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.256,
+          "reward_density": 0.449,
+          "terminal_state_density": 0.25,
+          "source_seed": 1445711223
+        },
+        {
+          "mdp_id": "p6_mdpp_030",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.115,
+          "reward_density": 0.183,
+          "terminal_state_density": 0.0,
+          "source_seed": 1119815346
+        },
+        {
+          "mdp_id": "p6_mdpp_031",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 4,
+          "transition_noise": 0.134,
+          "reward_density": 0.329,
+          "terminal_state_density": 0.25,
+          "source_seed": 1937521929
+        },
+        {
+          "mdp_id": "p6_mdpp_032",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 17,
+          "transition_noise": 0.101,
+          "reward_density": 0.471,
+          "terminal_state_density": 0.0,
+          "source_seed": 1072188734
+        },
+        {
+          "mdp_id": "p6_mdpp_033",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 2,
+          "transition_noise": 0.007,
+          "reward_density": 0.271,
+          "terminal_state_density": 0.25,
+          "source_seed": 1770740965
+        },
+        {
+          "mdp_id": "p6_mdpp_034",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 4,
+          "transition_noise": 0.151,
+          "reward_density": 0.143,
+          "terminal_state_density": 0.25,
+          "source_seed": 1111117780
+        },
+        {
+          "mdp_id": "p6_mdpp_035",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 4,
+          "transition_noise": 0.225,
+          "reward_density": 0.211,
+          "terminal_state_density": 0.0,
+          "source_seed": 1320203346
+        },
+        {
+          "mdp_id": "p6_mdpp_036",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 19,
+          "transition_noise": 0.128,
+          "reward_density": 0.329,
+          "terminal_state_density": 0.0,
+          "source_seed": 148869253
+        },
+        {
+          "mdp_id": "p6_mdpp_037",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 8,
+          "transition_noise": 0.263,
+          "reward_density": 0.271,
+          "terminal_state_density": 0.0,
+          "source_seed": 30828561
+        },
+        {
+          "mdp_id": "p6_mdpp_038",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 7,
+          "transition_noise": 0.195,
+          "reward_density": 0.237,
+          "terminal_state_density": 0.25,
+          "source_seed": 2037063466
+        },
+        {
+          "mdp_id": "p6_mdpp_039",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 4,
+          "transition_noise": 0.08,
+          "reward_density": 0.428,
+          "terminal_state_density": 0.0,
+          "source_seed": 221538501
+        },
+        {
+          "mdp_id": "p6_mdpp_040",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 10,
+          "transition_noise": 0.093,
+          "reward_density": 0.149,
+          "terminal_state_density": 0.0,
+          "source_seed": 531357712
+        },
+        {
+          "mdp_id": "p6_mdpp_041",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.086,
+          "reward_density": 0.28,
+          "terminal_state_density": 0.25,
+          "source_seed": 1265093067
+        },
+        {
+          "mdp_id": "p6_mdpp_042",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.279,
+          "reward_density": 0.258,
+          "terminal_state_density": 0.0,
+          "source_seed": 2033457617
+        },
+        {
+          "mdp_id": "p6_mdpp_043",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 16,
+          "transition_noise": 0.014,
+          "reward_density": 0.333,
+          "terminal_state_density": 0.25,
+          "source_seed": 2111075169
+        },
+        {
+          "mdp_id": "p6_mdpp_044",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.08,
+          "reward_density": 0.182,
+          "terminal_state_density": 0.25,
+          "source_seed": 204021987
+        },
+        {
+          "mdp_id": "p6_mdpp_045",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 3,
+          "transition_noise": 0.09,
+          "reward_density": 0.44,
+          "terminal_state_density": 0.25,
+          "source_seed": 656390418
+        },
+        {
+          "mdp_id": "p6_mdpp_046",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 14,
+          "transition_noise": 0.2,
+          "reward_density": 0.469,
+          "terminal_state_density": 0.25,
+          "source_seed": 709956305
+        },
+        {
+          "mdp_id": "p6_mdpp_047",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 3,
+          "transition_noise": 0.274,
+          "reward_density": 0.287,
+          "terminal_state_density": 0.0,
+          "source_seed": 1031637604
+        },
+        {
+          "mdp_id": "p6_mdpp_048",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.291,
+          "reward_density": 0.47,
+          "terminal_state_density": 0.0,
+          "source_seed": 458285075
+        },
+        {
+          "mdp_id": "p6_mdpp_049",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 2,
+          "transition_noise": 0.181,
+          "reward_density": 0.38,
+          "terminal_state_density": 0.25,
+          "source_seed": 1197675455
+        },
+        {
+          "mdp_id": "p6_mdpp_050",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 14,
+          "transition_noise": 0.083,
+          "reward_density": 0.271,
+          "terminal_state_density": 0.25,
+          "source_seed": 989263657
+        },
+        {
+          "mdp_id": "p6_mdpp_051",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 14,
+          "transition_noise": 0.191,
+          "reward_density": 0.23,
+          "terminal_state_density": 0.0,
+          "source_seed": 1121096048
+        },
+        {
+          "mdp_id": "p6_mdpp_052",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.067,
+          "reward_density": 0.455,
+          "terminal_state_density": 0.25,
+          "source_seed": 1225378045
+        },
+        {
+          "mdp_id": "p6_mdpp_053",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 25,
+          "transition_noise": 0.047,
+          "reward_density": 0.495,
+          "terminal_state_density": 0.0,
+          "source_seed": 274889438
+        },
+        {
+          "mdp_id": "p6_mdpp_054",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 5,
+          "transition_noise": 0.24,
+          "reward_density": 0.421,
+          "terminal_state_density": 0.0,
+          "source_seed": 1430027950
+        },
+        {
+          "mdp_id": "p6_mdpp_055",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 5,
+          "transition_noise": 0.079,
+          "reward_density": 0.256,
+          "terminal_state_density": 0.0,
+          "source_seed": 192157035
+        },
+        {
+          "mdp_id": "p6_mdpp_056",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 7,
+          "transition_noise": 0.083,
+          "reward_density": 0.227,
+          "terminal_state_density": 0.25,
+          "source_seed": 729346993
+        },
+        {
+          "mdp_id": "p6_mdpp_057",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 16,
+          "transition_noise": 0.014,
+          "reward_density": 0.192,
+          "terminal_state_density": 0.25,
+          "source_seed": 740519617
+        },
+        {
+          "mdp_id": "p6_mdpp_058",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.053,
+          "reward_density": 0.439,
+          "terminal_state_density": 0.0,
+          "source_seed": 1618474524
+        },
+        {
+          "mdp_id": "p6_mdpp_059",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 20,
+          "transition_noise": 0.121,
+          "reward_density": 0.368,
+          "terminal_state_density": 0.25,
+          "source_seed": 2119225787
+        },
+        {
+          "mdp_id": "p6_mdpp_060",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 18,
+          "transition_noise": 0.004,
+          "reward_density": 0.315,
+          "terminal_state_density": 0.0,
+          "source_seed": 568891241
+        },
+        {
+          "mdp_id": "p6_mdpp_061",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 29,
+          "transition_noise": 0.266,
+          "reward_density": 0.11,
+          "terminal_state_density": 0.25,
+          "source_seed": 891468006
+        },
+        {
+          "mdp_id": "p6_mdpp_062",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 11,
+          "transition_noise": 0.244,
+          "reward_density": 0.437,
+          "terminal_state_density": 0.25,
+          "source_seed": 377839910
+        },
+        {
+          "mdp_id": "p6_mdpp_063",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.24,
+          "reward_density": 0.21,
+          "terminal_state_density": 0.25,
+          "source_seed": 817724597
+        },
+        {
+          "mdp_id": "p6_mdpp_064",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 12,
+          "transition_noise": 0.109,
+          "reward_density": 0.265,
+          "terminal_state_density": 0.0,
+          "source_seed": 934535543
+        },
+        {
+          "mdp_id": "p6_mdpp_065",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 12,
+          "transition_noise": 0.19,
+          "reward_density": 0.418,
+          "terminal_state_density": 0.0,
+          "source_seed": 1535658164
+        },
+        {
+          "mdp_id": "p6_mdpp_066",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 4,
+          "transition_noise": 0.177,
+          "reward_density": 0.487,
+          "terminal_state_density": 0.0,
+          "source_seed": 2072048014
+        },
+        {
+          "mdp_id": "p6_mdpp_067",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.115,
+          "reward_density": 0.284,
+          "terminal_state_density": 0.25,
+          "source_seed": 188819464
+        },
+        {
+          "mdp_id": "p6_mdpp_068",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 8,
+          "transition_noise": 0.161,
+          "reward_density": 0.166,
+          "terminal_state_density": 0.25,
+          "source_seed": 344837634
+        },
+        {
+          "mdp_id": "p6_mdpp_069",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 6,
+          "transition_noise": 0.177,
+          "reward_density": 0.405,
+          "terminal_state_density": 0.0,
+          "source_seed": 1429894645
+        },
+        {
+          "mdp_id": "p6_mdpp_070",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 5,
+          "transition_noise": 0.043,
+          "reward_density": 0.417,
+          "terminal_state_density": 0.25,
+          "source_seed": 1870407289
+        },
+        {
+          "mdp_id": "p6_mdpp_071",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.005,
+          "reward_density": 0.491,
+          "terminal_state_density": 0.25,
+          "source_seed": 908210788
+        },
+        {
+          "mdp_id": "p6_mdpp_072",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 5,
+          "transition_noise": 0.24,
+          "reward_density": 0.469,
+          "terminal_state_density": 0.0,
+          "source_seed": 1416581915
+        },
+        {
+          "mdp_id": "p6_mdpp_073",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.006,
+          "reward_density": 0.223,
+          "terminal_state_density": 0.0,
+          "source_seed": 1341995617
+        },
+        {
+          "mdp_id": "p6_mdpp_074",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.144,
+          "reward_density": 0.39,
+          "terminal_state_density": 0.25,
+          "source_seed": 100875169
+        },
+        {
+          "mdp_id": "p6_mdpp_075",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 22,
+          "transition_noise": 0.028,
+          "reward_density": 0.272,
+          "terminal_state_density": 0.25,
+          "source_seed": 253063228
+        },
+        {
+          "mdp_id": "p6_mdpp_076",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 8,
+          "transition_noise": 0.074,
+          "reward_density": 0.129,
+          "terminal_state_density": 0.25,
+          "source_seed": 1324742520
+        },
+        {
+          "mdp_id": "p6_mdpp_077",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.273,
+          "reward_density": 0.33,
+          "terminal_state_density": 0.0,
+          "source_seed": 961729547
+        },
+        {
+          "mdp_id": "p6_mdpp_078",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 10,
+          "transition_noise": 0.077,
+          "reward_density": 0.326,
+          "terminal_state_density": 0.25,
+          "source_seed": 1282986
+        },
+        {
+          "mdp_id": "p6_mdpp_079",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 6,
+          "transition_noise": 0.05,
+          "reward_density": 0.407,
+          "terminal_state_density": 0.25,
+          "source_seed": 1159786217
+        },
+        {
+          "mdp_id": "p6_mdpp_080",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 16,
+          "transition_noise": 0.217,
+          "reward_density": 0.218,
+          "terminal_state_density": 0.0,
+          "source_seed": 1985275305
+        },
+        {
+          "mdp_id": "p6_mdpp_081",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 9,
+          "transition_noise": 0.257,
+          "reward_density": 0.169,
+          "terminal_state_density": 0.0,
+          "source_seed": 293537822
+        },
+        {
+          "mdp_id": "p6_mdpp_082",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 4,
+          "transition_noise": 0.172,
+          "reward_density": 0.459,
+          "terminal_state_density": 0.25,
+          "source_seed": 1144582141
+        },
+        {
+          "mdp_id": "p6_mdpp_083",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 13,
+          "transition_noise": 0.04,
+          "reward_density": 0.228,
+          "terminal_state_density": 0.0,
+          "source_seed": 1969347454
+        },
+        {
+          "mdp_id": "p6_mdpp_084",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 6,
+          "transition_noise": 0.249,
+          "reward_density": 0.211,
+          "terminal_state_density": 0.0,
+          "source_seed": 620126789
+        },
+        {
+          "mdp_id": "p6_mdpp_085",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 8,
+          "transition_noise": 0.047,
+          "reward_density": 0.492,
+          "terminal_state_density": 0.0,
+          "source_seed": 1258772555
+        },
+        {
+          "mdp_id": "p6_mdpp_086",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 20,
+          "transition_noise": 0.069,
+          "reward_density": 0.41,
+          "terminal_state_density": 0.25,
+          "source_seed": 1985340139
+        },
+        {
+          "mdp_id": "p6_mdpp_087",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 7,
+          "transition_noise": 0.254,
+          "reward_density": 0.441,
+          "terminal_state_density": 0.0,
+          "source_seed": 2095487048
+        },
+        {
+          "mdp_id": "p6_mdpp_088",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 17,
+          "transition_noise": 0.128,
+          "reward_density": 0.274,
+          "terminal_state_density": 0.0,
+          "source_seed": 1851382905
+        },
+        {
+          "mdp_id": "p6_mdpp_089",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 11,
+          "transition_noise": 0.261,
+          "reward_density": 0.42,
+          "terminal_state_density": 0.0,
+          "source_seed": 1786943722
+        },
+        {
+          "mdp_id": "p6_mdpp_090",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 12,
+          "transition_noise": 0.164,
+          "reward_density": 0.231,
+          "terminal_state_density": 0.25,
+          "source_seed": 797532843
+        },
+        {
+          "mdp_id": "p6_mdpp_091",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 9,
+          "transition_noise": 0.159,
+          "reward_density": 0.147,
+          "terminal_state_density": 0.25,
+          "source_seed": 241688918
+        },
+        {
+          "mdp_id": "p6_mdpp_092",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 3,
+          "transition_noise": 0.141,
+          "reward_density": 0.234,
+          "terminal_state_density": 0.0,
+          "source_seed": 1031203582
+        },
+        {
+          "mdp_id": "p6_mdpp_093",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 2,
+          "transition_noise": 0.232,
+          "reward_density": 0.419,
+          "terminal_state_density": 0.0,
+          "source_seed": 1371221957
+        },
+        {
+          "mdp_id": "p6_mdpp_094",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 7,
+          "transition_noise": 0.233,
+          "reward_density": 0.478,
+          "terminal_state_density": 0.25,
+          "source_seed": 1503527584
+        },
+        {
+          "mdp_id": "p6_mdpp_095",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 2,
+          "transition_noise": 0.273,
+          "reward_density": 0.316,
+          "terminal_state_density": 0.0,
+          "source_seed": 1847393136
+        },
+        {
+          "mdp_id": "p6_mdpp_096",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.184,
+          "reward_density": 0.186,
+          "terminal_state_density": 0.25,
+          "source_seed": 462709061
+        },
+        {
+          "mdp_id": "p6_mdpp_097",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 8,
+          "transition_noise": 0.298,
+          "reward_density": 0.454,
+          "terminal_state_density": 0.25,
+          "source_seed": 2072879617
+        },
+        {
+          "mdp_id": "p6_mdpp_098",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 5,
+          "transition_noise": 0.229,
+          "reward_density": 0.337,
+          "terminal_state_density": 0.25,
+          "source_seed": 745130879
+        },
+        {
+          "mdp_id": "p6_mdpp_099",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 26,
+          "transition_noise": 0.186,
+          "reward_density": 0.445,
+          "terminal_state_density": 0.25,
+          "source_seed": 1727424570
+        },
+        {
+          "mdp_id": "p6_mdpp_100",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.193,
+          "reward_density": 0.381,
+          "terminal_state_density": 0.0,
+          "source_seed": 1444648746
+        },
+        {
+          "mdp_id": "p6_mdpp_101",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 11,
+          "transition_noise": 0.094,
+          "reward_density": 0.204,
+          "terminal_state_density": 0.25,
+          "source_seed": 34987942
+        },
+        {
+          "mdp_id": "p6_mdpp_102",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 10,
+          "transition_noise": 0.254,
+          "reward_density": 0.389,
+          "terminal_state_density": 0.0,
+          "source_seed": 2008031475
+        },
+        {
+          "mdp_id": "p6_mdpp_103",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 5,
+          "transition_noise": 0.006,
+          "reward_density": 0.395,
+          "terminal_state_density": 0.0,
+          "source_seed": 1367394624
+        },
+        {
+          "mdp_id": "p6_mdpp_104",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 10,
+          "transition_noise": 0.089,
+          "reward_density": 0.246,
+          "terminal_state_density": 0.25,
+          "source_seed": 1184144954
+        },
+        {
+          "mdp_id": "p6_mdpp_105",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 21,
+          "transition_noise": 0.291,
+          "reward_density": 0.46,
+          "terminal_state_density": 0.25,
+          "source_seed": 120106476
+        },
+        {
+          "mdp_id": "p6_mdpp_106",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 12,
+          "transition_noise": 0.003,
+          "reward_density": 0.246,
+          "terminal_state_density": 0.0,
+          "source_seed": 1332062103
+        },
+        {
+          "mdp_id": "p6_mdpp_107",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.097,
+          "reward_density": 0.107,
+          "terminal_state_density": 0.25,
+          "source_seed": 720187182
+        },
+        {
+          "mdp_id": "p6_mdpp_108",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.086,
+          "reward_density": 0.455,
+          "terminal_state_density": 0.25,
+          "source_seed": 803842886
+        },
+        {
+          "mdp_id": "p6_mdpp_109",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.229,
+          "reward_density": 0.245,
+          "terminal_state_density": 0.0,
+          "source_seed": 34491658
+        },
+        {
+          "mdp_id": "p6_mdpp_110",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 6,
+          "transition_noise": 0.27,
+          "reward_density": 0.413,
+          "terminal_state_density": 0.0,
+          "source_seed": 1324884647
+        },
+        {
+          "mdp_id": "p6_mdpp_111",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 4,
+          "transition_noise": 0.045,
+          "reward_density": 0.112,
+          "terminal_state_density": 0.0,
+          "source_seed": 2133611466
+        },
+        {
+          "mdp_id": "p6_mdpp_112",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.15,
+          "reward_density": 0.26,
+          "terminal_state_density": 0.0,
+          "source_seed": 2048924068
+        },
+        {
+          "mdp_id": "p6_mdpp_113",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 5,
+          "transition_noise": 0.119,
+          "reward_density": 0.322,
+          "terminal_state_density": 0.0,
+          "source_seed": 1429197977
+        },
+        {
+          "mdp_id": "p6_mdpp_114",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 19,
+          "transition_noise": 0.097,
+          "reward_density": 0.228,
+          "terminal_state_density": 0.0,
+          "source_seed": 549587116
+        },
+        {
+          "mdp_id": "p6_mdpp_115",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 6,
+          "transition_noise": 0.05,
+          "reward_density": 0.432,
+          "terminal_state_density": 0.0,
+          "source_seed": 1656489728
+        },
+        {
+          "mdp_id": "p6_mdpp_116",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 4,
+          "transition_noise": 0.244,
+          "reward_density": 0.44,
+          "terminal_state_density": 0.0,
+          "source_seed": 962564355
+        },
+        {
+          "mdp_id": "p6_mdpp_117",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 4,
+          "transition_noise": 0.134,
+          "reward_density": 0.348,
+          "terminal_state_density": 0.0,
+          "source_seed": 979950576
+        },
+        {
+          "mdp_id": "p6_mdpp_118",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 3,
+          "transition_noise": 0.231,
+          "reward_density": 0.252,
+          "terminal_state_density": 0.0,
+          "source_seed": 2125327581
+        },
+        {
+          "mdp_id": "p6_mdpp_119",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 8,
+          "transition_noise": 0.286,
+          "reward_density": 0.344,
+          "terminal_state_density": 0.0,
+          "source_seed": 1225726570
+        },
+        {
+          "mdp_id": "p6_mdpp_120",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 6,
+          "transition_noise": 0.033,
+          "reward_density": 0.272,
+          "terminal_state_density": 0.0,
+          "source_seed": 1217307866
+        },
+        {
+          "mdp_id": "p6_mdpp_121",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 16,
+          "transition_noise": 0.168,
+          "reward_density": 0.295,
+          "terminal_state_density": 0.0,
+          "source_seed": 285342729
+        },
+        {
+          "mdp_id": "p6_mdpp_122",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 24,
+          "transition_noise": 0.074,
+          "reward_density": 0.323,
+          "terminal_state_density": 0.0,
+          "source_seed": 569980619
+        },
+        {
+          "mdp_id": "p6_mdpp_123",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 3,
+          "transition_noise": 0.03,
+          "reward_density": 0.216,
+          "terminal_state_density": 0.25,
+          "source_seed": 1551986794
+        },
+        {
+          "mdp_id": "p6_mdpp_124",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.095,
+          "reward_density": 0.401,
+          "terminal_state_density": 0.25,
+          "source_seed": 148456903
+        },
+        {
+          "mdp_id": "p6_mdpp_125",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 31,
+          "transition_noise": 0.295,
+          "reward_density": 0.422,
+          "terminal_state_density": 0.25,
+          "source_seed": 356482504
+        },
+        {
+          "mdp_id": "p6_mdpp_126",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 31,
+          "transition_noise": 0.092,
+          "reward_density": 0.441,
+          "terminal_state_density": 0.0,
+          "source_seed": 1175572809
+        },
+        {
+          "mdp_id": "p6_mdpp_127",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 21,
+          "transition_noise": 0.04,
+          "reward_density": 0.107,
+          "terminal_state_density": 0.0,
+          "source_seed": 184843174
+        },
+        {
+          "mdp_id": "p6_mdpp_128",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 8,
+          "transition_noise": 0.296,
+          "reward_density": 0.236,
+          "terminal_state_density": 0.25,
+          "source_seed": 2037454220
+        },
+        {
+          "mdp_id": "p6_mdpp_129",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.138,
+          "reward_density": 0.481,
+          "terminal_state_density": 0.25,
+          "source_seed": 597235272
+        },
+        {
+          "mdp_id": "p6_mdpp_130",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 23,
+          "transition_noise": 0.172,
+          "reward_density": 0.142,
+          "terminal_state_density": 0.25,
+          "source_seed": 597483849
+        },
+        {
+          "mdp_id": "p6_mdpp_131",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 2,
+          "transition_noise": 0.143,
+          "reward_density": 0.123,
+          "terminal_state_density": 0.0,
+          "source_seed": 1374392748
+        },
+        {
+          "mdp_id": "p6_mdpp_132",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 5,
+          "transition_noise": 0.131,
+          "reward_density": 0.138,
+          "terminal_state_density": 0.25,
+          "source_seed": 989875874
+        },
+        {
+          "mdp_id": "p6_mdpp_133",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 4,
+          "transition_noise": 0.176,
+          "reward_density": 0.376,
+          "terminal_state_density": 0.0,
+          "source_seed": 1722150180
+        },
+        {
+          "mdp_id": "p6_mdpp_134",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 7,
+          "transition_noise": 0.095,
+          "reward_density": 0.471,
+          "terminal_state_density": 0.0,
+          "source_seed": 265459994
+        },
+        {
+          "mdp_id": "p6_mdpp_135",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 6,
+          "transition_noise": 0.296,
+          "reward_density": 0.227,
+          "terminal_state_density": 0.25,
+          "source_seed": 803261008
+        },
+        {
+          "mdp_id": "p6_mdpp_136",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 1,
+          "transition_noise": 0.169,
+          "reward_density": 0.29,
+          "terminal_state_density": 0.0,
+          "source_seed": 1053694307
+        },
+        {
+          "mdp_id": "p6_mdpp_137",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 7,
+          "transition_noise": 0.146,
+          "reward_density": 0.142,
+          "terminal_state_density": 0.0,
+          "source_seed": 657567914
+        },
+        {
+          "mdp_id": "p6_mdpp_138",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 4,
+          "transition_noise": 0.003,
+          "reward_density": 0.207,
+          "terminal_state_density": 0.25,
+          "source_seed": 1780655342
+        },
+        {
+          "mdp_id": "p6_mdpp_139",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 11,
+          "transition_noise": 0.144,
+          "reward_density": 0.326,
+          "terminal_state_density": 0.25,
+          "source_seed": 1871211442
+        },
+        {
+          "mdp_id": "p6_mdpp_140",
+          "family": "mdpp",
+          "actions": 3,
+          "diameter": 12,
+          "transition_noise": 0.027,
+          "reward_density": 0.206,
+          "terminal_state_density": 0.0,
+          "source_seed": 1360334461
+        },
+        {
+          "mdp_id": "p6_mdpp_141",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 9,
+          "transition_noise": 0.15,
+          "reward_density": 0.378,
+          "terminal_state_density": 0.0,
+          "source_seed": 1163040517
+        },
+        {
+          "mdp_id": "p6_mdpp_142",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 22,
+          "transition_noise": 0.152,
+          "reward_density": 0.417,
+          "terminal_state_density": 0.25,
+          "source_seed": 283755431
+        },
+        {
+          "mdp_id": "p6_mdpp_143",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 10,
+          "transition_noise": 0.075,
+          "reward_density": 0.215,
+          "terminal_state_density": 0.0,
+          "source_seed": 1066665563
+        },
+        {
+          "mdp_id": "p6_mdpp_144",
+          "family": "mdpp",
+          "actions": 4,
+          "diameter": 9,
+          "transition_noise": 0.063,
+          "reward_density": 0.242,
+          "terminal_state_density": 0.0,
+          "source_seed": 1768945892
+        },
+        {
+          "mdp_id": "p6_mdpp_145",
+          "family": "mdpp",
+          "actions": 2,
+          "diameter": 32,
+          "transition_noise": 0.26,
+          "reward_density": 0.252,
+          "terminal_state_density": 0.0,
+          "source_seed": 757487312
+        },
+        {
+          "mdp_id": "p6_mdpp_146",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.069,
+          "reward_density": 0.233,
+          "terminal_state_density": 0.0,
+          "source_seed": 372716355
+        },
+        {
+          "mdp_id": "p6_mdpp_147",
+          "family": "mdpp",
+          "actions": 8,
+          "diameter": 2,
+          "transition_noise": 0.057,
+          "reward_density": 0.136,
+          "terminal_state_density": 0.25,
+          "source_seed": 6287521
+        },
+        {
+          "mdp_id": "p6_mdpp_148",
+          "family": "mdpp",
+          "actions": 6,
+          "diameter": 6,
+          "transition_noise": 0.095,
+          "reward_density": 0.127,
+          "terminal_state_density": 0.25,
+          "source_seed": 1627453578
+        },
+        {
+          "mdp_id": "p6_mdpp_149",
+          "family": "mdpp",
+          "actions": 5,
+          "diameter": 8,
+          "transition_noise": 0.011,
+          "reward_density": 0.391,
+          "terminal_state_density": 0.0,
+          "source_seed": 1839786955
+        }
+      ],
+      "library": "mdp-playground==1.0.0 (Apache-2.0)"
+    },
+    "labmaze": {
+      "source": "labmaze 1.0.6 RandomMaze (DeepMind Lab text-maze generator), simplify=False, one spawn and one object per room; four-way moves",
+      "parameters": "height, width in {9, 11}; max_rooms in {1, 2, 3}; room_min_size 3; room_max_size in {3, 4}; extra_connection_probability ~ U(0, 0.2); success ~ U(0.7, 0.95)",
+      "mdps": 96,
+      "candidates": 150,
+      "candidate_seed": 20301116,
+      "data_seed_base": 72000000,
+      "candidates_list": [
+        {
+          "mdp_id": "p6_labmaze_000",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.133,
+          "success": 0.721,
+          "source_seed": 1082918997
+        },
+        {
+          "mdp_id": "p6_labmaze_001",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.129,
+          "success": 0.876,
+          "source_seed": 1775971168
+        },
+        {
+          "mdp_id": "p6_labmaze_002",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.173,
+          "success": 0.844,
+          "source_seed": 1995847436
+        },
+        {
+          "mdp_id": "p6_labmaze_003",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.096,
+          "success": 0.893,
+          "source_seed": 193468440
+        },
+        {
+          "mdp_id": "p6_labmaze_004",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.168,
+          "success": 0.821,
+          "source_seed": 1832498893
+        },
+        {
+          "mdp_id": "p6_labmaze_005",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.169,
+          "success": 0.703,
+          "source_seed": 1369801881
+        },
+        {
+          "mdp_id": "p6_labmaze_006",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.075,
+          "success": 0.915,
+          "source_seed": 1111506556
+        },
+        {
+          "mdp_id": "p6_labmaze_007",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.145,
+          "success": 0.755,
+          "source_seed": 1885513435
+        },
+        {
+          "mdp_id": "p6_labmaze_008",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.179,
+          "success": 0.716,
+          "source_seed": 1745608192
+        },
+        {
+          "mdp_id": "p6_labmaze_009",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.053,
+          "success": 0.938,
+          "source_seed": 248041476
+        },
+        {
+          "mdp_id": "p6_labmaze_010",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.036,
+          "success": 0.856,
+          "source_seed": 20484041
+        },
+        {
+          "mdp_id": "p6_labmaze_011",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.147,
+          "success": 0.807,
+          "source_seed": 363115882
+        },
+        {
+          "mdp_id": "p6_labmaze_012",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.082,
+          "success": 0.716,
+          "source_seed": 194758265
+        },
+        {
+          "mdp_id": "p6_labmaze_013",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.098,
+          "success": 0.801,
+          "source_seed": 1990315677
+        },
+        {
+          "mdp_id": "p6_labmaze_014",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.184,
+          "success": 0.737,
+          "source_seed": 420040706
+        },
+        {
+          "mdp_id": "p6_labmaze_015",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.105,
+          "success": 0.732,
+          "source_seed": 81202525
+        },
+        {
+          "mdp_id": "p6_labmaze_016",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.001,
+          "success": 0.922,
+          "source_seed": 1421100848
+        },
+        {
+          "mdp_id": "p6_labmaze_017",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.015,
+          "success": 0.853,
+          "source_seed": 988161624
+        },
+        {
+          "mdp_id": "p6_labmaze_018",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.1,
+          "success": 0.768,
+          "source_seed": 1420805848
+        },
+        {
+          "mdp_id": "p6_labmaze_019",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.147,
+          "success": 0.869,
+          "source_seed": 1371944037
+        },
+        {
+          "mdp_id": "p6_labmaze_020",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.086,
+          "success": 0.928,
+          "source_seed": 263088322
+        },
+        {
+          "mdp_id": "p6_labmaze_021",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.063,
+          "success": 0.729,
+          "source_seed": 438460467
+        },
+        {
+          "mdp_id": "p6_labmaze_022",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.041,
+          "success": 0.828,
+          "source_seed": 1516031238
+        },
+        {
+          "mdp_id": "p6_labmaze_023",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.166,
+          "success": 0.801,
+          "source_seed": 1362632357
+        },
+        {
+          "mdp_id": "p6_labmaze_024",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.058,
+          "success": 0.835,
+          "source_seed": 1304852228
+        },
+        {
+          "mdp_id": "p6_labmaze_025",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.116,
+          "success": 0.926,
+          "source_seed": 929820685
+        },
+        {
+          "mdp_id": "p6_labmaze_026",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.173,
+          "success": 0.868,
+          "source_seed": 1593782522
+        },
+        {
+          "mdp_id": "p6_labmaze_027",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.061,
+          "success": 0.926,
+          "source_seed": 897531884
+        },
+        {
+          "mdp_id": "p6_labmaze_028",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.035,
+          "success": 0.787,
+          "source_seed": 1722766519
+        },
+        {
+          "mdp_id": "p6_labmaze_029",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.172,
+          "success": 0.702,
+          "source_seed": 559939066
+        },
+        {
+          "mdp_id": "p6_labmaze_030",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.003,
+          "success": 0.748,
+          "source_seed": 934493532
+        },
+        {
+          "mdp_id": "p6_labmaze_031",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.176,
+          "success": 0.844,
+          "source_seed": 194147497
+        },
+        {
+          "mdp_id": "p6_labmaze_032",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.001,
+          "success": 0.84,
+          "source_seed": 1448032058
+        },
+        {
+          "mdp_id": "p6_labmaze_033",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.088,
+          "success": 0.848,
+          "source_seed": 2037959690
+        },
+        {
+          "mdp_id": "p6_labmaze_034",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.091,
+          "success": 0.884,
+          "source_seed": 1225226921
+        },
+        {
+          "mdp_id": "p6_labmaze_035",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.161,
+          "success": 0.704,
+          "source_seed": 17404632
+        },
+        {
+          "mdp_id": "p6_labmaze_036",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.07,
+          "success": 0.819,
+          "source_seed": 1409854992
+        },
+        {
+          "mdp_id": "p6_labmaze_037",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.176,
+          "success": 0.843,
+          "source_seed": 1420482985
+        },
+        {
+          "mdp_id": "p6_labmaze_038",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.137,
+          "success": 0.8,
+          "source_seed": 811221610
+        },
+        {
+          "mdp_id": "p6_labmaze_039",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.018,
+          "success": 0.737,
+          "source_seed": 1460106145
+        },
+        {
+          "mdp_id": "p6_labmaze_040",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.076,
+          "success": 0.799,
+          "source_seed": 42304345
+        },
+        {
+          "mdp_id": "p6_labmaze_041",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.077,
+          "success": 0.73,
+          "source_seed": 869378817
+        },
+        {
+          "mdp_id": "p6_labmaze_042",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.048,
+          "success": 0.912,
+          "source_seed": 568171987
+        },
+        {
+          "mdp_id": "p6_labmaze_043",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.182,
+          "success": 0.75,
+          "source_seed": 672718275
+        },
+        {
+          "mdp_id": "p6_labmaze_044",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.062,
+          "success": 0.913,
+          "source_seed": 1204392389
+        },
+        {
+          "mdp_id": "p6_labmaze_045",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.068,
+          "success": 0.75,
+          "source_seed": 614924555
+        },
+        {
+          "mdp_id": "p6_labmaze_046",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.193,
+          "success": 0.853,
+          "source_seed": 143280981
+        },
+        {
+          "mdp_id": "p6_labmaze_047",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.081,
+          "success": 0.738,
+          "source_seed": 2014672736
+        },
+        {
+          "mdp_id": "p6_labmaze_048",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.128,
+          "success": 0.922,
+          "source_seed": 37753555
+        },
+        {
+          "mdp_id": "p6_labmaze_049",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.04,
+          "success": 0.708,
+          "source_seed": 891949037
+        },
+        {
+          "mdp_id": "p6_labmaze_050",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.154,
+          "success": 0.841,
+          "source_seed": 611234729
+        },
+        {
+          "mdp_id": "p6_labmaze_051",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.026,
+          "success": 0.813,
+          "source_seed": 734358150
+        },
+        {
+          "mdp_id": "p6_labmaze_052",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.146,
+          "success": 0.819,
+          "source_seed": 1260889081
+        },
+        {
+          "mdp_id": "p6_labmaze_053",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.141,
+          "success": 0.903,
+          "source_seed": 1213258770
+        },
+        {
+          "mdp_id": "p6_labmaze_054",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.17,
+          "success": 0.777,
+          "source_seed": 1915841549
+        },
+        {
+          "mdp_id": "p6_labmaze_055",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.016,
+          "success": 0.718,
+          "source_seed": 673259880
+        },
+        {
+          "mdp_id": "p6_labmaze_056",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.027,
+          "success": 0.896,
+          "source_seed": 1128206530
+        },
+        {
+          "mdp_id": "p6_labmaze_057",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.19,
+          "success": 0.907,
+          "source_seed": 836365522
+        },
+        {
+          "mdp_id": "p6_labmaze_058",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.144,
+          "success": 0.77,
+          "source_seed": 17298710
+        },
+        {
+          "mdp_id": "p6_labmaze_059",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.133,
+          "success": 0.733,
+          "source_seed": 404582473
+        },
+        {
+          "mdp_id": "p6_labmaze_060",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.107,
+          "success": 0.752,
+          "source_seed": 689419478
+        },
+        {
+          "mdp_id": "p6_labmaze_061",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.195,
+          "success": 0.786,
+          "source_seed": 32032920
+        },
+        {
+          "mdp_id": "p6_labmaze_062",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.105,
+          "success": 0.73,
+          "source_seed": 779348063
+        },
+        {
+          "mdp_id": "p6_labmaze_063",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.15,
+          "success": 0.721,
+          "source_seed": 1775394295
+        },
+        {
+          "mdp_id": "p6_labmaze_064",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.097,
+          "success": 0.813,
+          "source_seed": 1256221154
+        },
+        {
+          "mdp_id": "p6_labmaze_065",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.19,
+          "success": 0.834,
+          "source_seed": 2038983728
+        },
+        {
+          "mdp_id": "p6_labmaze_066",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.033,
+          "success": 0.795,
+          "source_seed": 1633800707
+        },
+        {
+          "mdp_id": "p6_labmaze_067",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.126,
+          "success": 0.865,
+          "source_seed": 1815658193
+        },
+        {
+          "mdp_id": "p6_labmaze_068",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.143,
+          "success": 0.939,
+          "source_seed": 52446306
+        },
+        {
+          "mdp_id": "p6_labmaze_069",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.044,
+          "success": 0.891,
+          "source_seed": 995253936
+        },
+        {
+          "mdp_id": "p6_labmaze_070",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.138,
+          "success": 0.847,
+          "source_seed": 640768778
+        },
+        {
+          "mdp_id": "p6_labmaze_071",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.073,
+          "success": 0.726,
+          "source_seed": 57976220
+        },
+        {
+          "mdp_id": "p6_labmaze_072",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.066,
+          "success": 0.879,
+          "source_seed": 553752328
+        },
+        {
+          "mdp_id": "p6_labmaze_073",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.061,
+          "success": 0.939,
+          "source_seed": 787195672
+        },
+        {
+          "mdp_id": "p6_labmaze_074",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.097,
+          "success": 0.831,
+          "source_seed": 278695595
+        },
+        {
+          "mdp_id": "p6_labmaze_075",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.118,
+          "success": 0.921,
+          "source_seed": 2081247912
+        },
+        {
+          "mdp_id": "p6_labmaze_076",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.173,
+          "success": 0.748,
+          "source_seed": 1810655923
+        },
+        {
+          "mdp_id": "p6_labmaze_077",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.015,
+          "success": 0.705,
+          "source_seed": 1249690627
+        },
+        {
+          "mdp_id": "p6_labmaze_078",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.057,
+          "success": 0.819,
+          "source_seed": 138982949
+        },
+        {
+          "mdp_id": "p6_labmaze_079",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.039,
+          "success": 0.843,
+          "source_seed": 584237960
+        },
+        {
+          "mdp_id": "p6_labmaze_080",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.054,
+          "success": 0.86,
+          "source_seed": 1167941791
+        },
+        {
+          "mdp_id": "p6_labmaze_081",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.1,
+          "success": 0.815,
+          "source_seed": 1061169322
+        },
+        {
+          "mdp_id": "p6_labmaze_082",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.114,
+          "success": 0.886,
+          "source_seed": 966398832
+        },
+        {
+          "mdp_id": "p6_labmaze_083",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.112,
+          "success": 0.838,
+          "source_seed": 1620305112
+        },
+        {
+          "mdp_id": "p6_labmaze_084",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.196,
+          "success": 0.843,
+          "source_seed": 910260881
+        },
+        {
+          "mdp_id": "p6_labmaze_085",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.045,
+          "success": 0.941,
+          "source_seed": 1453349794
+        },
+        {
+          "mdp_id": "p6_labmaze_086",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.006,
+          "success": 0.775,
+          "source_seed": 3151825
+        },
+        {
+          "mdp_id": "p6_labmaze_087",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.035,
+          "success": 0.886,
+          "source_seed": 813104077
+        },
+        {
+          "mdp_id": "p6_labmaze_088",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.087,
+          "success": 0.702,
+          "source_seed": 1369587614
+        },
+        {
+          "mdp_id": "p6_labmaze_089",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.04,
+          "success": 0.736,
+          "source_seed": 301819635
+        },
+        {
+          "mdp_id": "p6_labmaze_090",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.19,
+          "success": 0.72,
+          "source_seed": 998602927
+        },
+        {
+          "mdp_id": "p6_labmaze_091",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.066,
+          "success": 0.903,
+          "source_seed": 90591173
+        },
+        {
+          "mdp_id": "p6_labmaze_092",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.173,
+          "success": 0.708,
+          "source_seed": 910570318
+        },
+        {
+          "mdp_id": "p6_labmaze_093",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.023,
+          "success": 0.862,
+          "source_seed": 1257050095
+        },
+        {
+          "mdp_id": "p6_labmaze_094",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.015,
+          "success": 0.837,
+          "source_seed": 361829658
+        },
+        {
+          "mdp_id": "p6_labmaze_095",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.023,
+          "success": 0.909,
+          "source_seed": 698113118
+        },
+        {
+          "mdp_id": "p6_labmaze_096",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.057,
+          "success": 0.843,
+          "source_seed": 722434378
+        },
+        {
+          "mdp_id": "p6_labmaze_097",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.091,
+          "success": 0.74,
+          "source_seed": 728874506
+        },
+        {
+          "mdp_id": "p6_labmaze_098",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.15,
+          "success": 0.821,
+          "source_seed": 1645098769
+        },
+        {
+          "mdp_id": "p6_labmaze_099",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.196,
+          "success": 0.775,
+          "source_seed": 509575097
+        },
+        {
+          "mdp_id": "p6_labmaze_100",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.12,
+          "success": 0.705,
+          "source_seed": 1966414002
+        },
+        {
+          "mdp_id": "p6_labmaze_101",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.065,
+          "success": 0.834,
+          "source_seed": 842566106
+        },
+        {
+          "mdp_id": "p6_labmaze_102",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.129,
+          "success": 0.856,
+          "source_seed": 1967310935
+        },
+        {
+          "mdp_id": "p6_labmaze_103",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.088,
+          "success": 0.806,
+          "source_seed": 726991637
+        },
+        {
+          "mdp_id": "p6_labmaze_104",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.076,
+          "success": 0.894,
+          "source_seed": 949660968
+        },
+        {
+          "mdp_id": "p6_labmaze_105",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.141,
+          "success": 0.946,
+          "source_seed": 1761693100
+        },
+        {
+          "mdp_id": "p6_labmaze_106",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.123,
+          "success": 0.733,
+          "source_seed": 29174701
+        },
+        {
+          "mdp_id": "p6_labmaze_107",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.052,
+          "success": 0.829,
+          "source_seed": 1382831820
+        },
+        {
+          "mdp_id": "p6_labmaze_108",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.083,
+          "success": 0.802,
+          "source_seed": 24207072
+        },
+        {
+          "mdp_id": "p6_labmaze_109",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.173,
+          "success": 0.906,
+          "source_seed": 1606761892
+        },
+        {
+          "mdp_id": "p6_labmaze_110",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.024,
+          "success": 0.884,
+          "source_seed": 1315686979
+        },
+        {
+          "mdp_id": "p6_labmaze_111",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.107,
+          "success": 0.914,
+          "source_seed": 238366707
+        },
+        {
+          "mdp_id": "p6_labmaze_112",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.13,
+          "success": 0.807,
+          "source_seed": 235881793
+        },
+        {
+          "mdp_id": "p6_labmaze_113",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.151,
+          "success": 0.76,
+          "source_seed": 1895019089
+        },
+        {
+          "mdp_id": "p6_labmaze_114",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.075,
+          "success": 0.764,
+          "source_seed": 1882248903
+        },
+        {
+          "mdp_id": "p6_labmaze_115",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.042,
+          "success": 0.943,
+          "source_seed": 1775583838
+        },
+        {
+          "mdp_id": "p6_labmaze_116",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.07,
+          "success": 0.763,
+          "source_seed": 894842873
+        },
+        {
+          "mdp_id": "p6_labmaze_117",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.192,
+          "success": 0.76,
+          "source_seed": 660551775
+        },
+        {
+          "mdp_id": "p6_labmaze_118",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.07,
+          "success": 0.866,
+          "source_seed": 1310317735
+        },
+        {
+          "mdp_id": "p6_labmaze_119",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.154,
+          "success": 0.919,
+          "source_seed": 1750473100
+        },
+        {
+          "mdp_id": "p6_labmaze_120",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.025,
+          "success": 0.729,
+          "source_seed": 1170056345
+        },
+        {
+          "mdp_id": "p6_labmaze_121",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.182,
+          "success": 0.759,
+          "source_seed": 1386507353
+        },
+        {
+          "mdp_id": "p6_labmaze_122",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.056,
+          "success": 0.841,
+          "source_seed": 886869119
+        },
+        {
+          "mdp_id": "p6_labmaze_123",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.132,
+          "success": 0.727,
+          "source_seed": 1825874835
+        },
+        {
+          "mdp_id": "p6_labmaze_124",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.097,
+          "success": 0.878,
+          "source_seed": 533731844
+        },
+        {
+          "mdp_id": "p6_labmaze_125",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.12,
+          "success": 0.796,
+          "source_seed": 1923574381
+        },
+        {
+          "mdp_id": "p6_labmaze_126",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.027,
+          "success": 0.919,
+          "source_seed": 100572791
+        },
+        {
+          "mdp_id": "p6_labmaze_127",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.073,
+          "success": 0.767,
+          "source_seed": 1520356805
+        },
+        {
+          "mdp_id": "p6_labmaze_128",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.135,
+          "success": 0.734,
+          "source_seed": 573203524
+        },
+        {
+          "mdp_id": "p6_labmaze_129",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.177,
+          "success": 0.897,
+          "source_seed": 2024010083
+        },
+        {
+          "mdp_id": "p6_labmaze_130",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.091,
+          "success": 0.869,
+          "source_seed": 356589873
+        },
+        {
+          "mdp_id": "p6_labmaze_131",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.158,
+          "success": 0.724,
+          "source_seed": 311042929
+        },
+        {
+          "mdp_id": "p6_labmaze_132",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.114,
+          "success": 0.74,
+          "source_seed": 607299876
+        },
+        {
+          "mdp_id": "p6_labmaze_133",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.194,
+          "success": 0.79,
+          "source_seed": 1546283598
+        },
+        {
+          "mdp_id": "p6_labmaze_134",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.117,
+          "success": 0.756,
+          "source_seed": 534238255
+        },
+        {
+          "mdp_id": "p6_labmaze_135",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.068,
+          "success": 0.743,
+          "source_seed": 33463634
+        },
+        {
+          "mdp_id": "p6_labmaze_136",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.196,
+          "success": 0.898,
+          "source_seed": 2136725471
+        },
+        {
+          "mdp_id": "p6_labmaze_137",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.11,
+          "success": 0.857,
+          "source_seed": 1886408838
+        },
+        {
+          "mdp_id": "p6_labmaze_138",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.032,
+          "success": 0.752,
+          "source_seed": 1762150937
+        },
+        {
+          "mdp_id": "p6_labmaze_139",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.041,
+          "success": 0.898,
+          "source_seed": 1569701048
+        },
+        {
+          "mdp_id": "p6_labmaze_140",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.165,
+          "success": 0.798,
+          "source_seed": 1834652664
+        },
+        {
+          "mdp_id": "p6_labmaze_141",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.121,
+          "success": 0.74,
+          "source_seed": 1315901169
+        },
+        {
+          "mdp_id": "p6_labmaze_142",
+          "family": "labmaze",
+          "height": 9,
+          "width": 9,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.006,
+          "success": 0.885,
+          "source_seed": 1383474301
+        },
+        {
+          "mdp_id": "p6_labmaze_143",
+          "family": "labmaze",
+          "height": 9,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.18,
+          "success": 0.852,
+          "source_seed": 1339349548
+        },
+        {
+          "mdp_id": "p6_labmaze_144",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.03,
+          "success": 0.917,
+          "source_seed": 627571733
+        },
+        {
+          "mdp_id": "p6_labmaze_145",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.031,
+          "success": 0.786,
+          "source_seed": 690754079
+        },
+        {
+          "mdp_id": "p6_labmaze_146",
+          "family": "labmaze",
+          "height": 11,
+          "width": 9,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.016,
+          "success": 0.722,
+          "source_seed": 813913297
+        },
+        {
+          "mdp_id": "p6_labmaze_147",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 1,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.039,
+          "success": 0.94,
+          "source_seed": 1385907213
+        },
+        {
+          "mdp_id": "p6_labmaze_148",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 2,
+          "room_min_size": 3,
+          "room_max_size": 4,
+          "extra_connection_probability": 0.069,
+          "success": 0.871,
+          "source_seed": 1934348839
+        },
+        {
+          "mdp_id": "p6_labmaze_149",
+          "family": "labmaze",
+          "height": 11,
+          "width": 11,
+          "max_rooms": 3,
+          "room_min_size": 3,
+          "room_max_size": 3,
+          "extra_connection_probability": 0.017,
+          "success": 0.711,
+          "source_seed": 358278641
+        }
+      ],
+      "library": "labmaze==1.0.6 (Apache-2.0)"
+    }
+  },
+  "kernel_source": "isolated venv (scripts/panel6/export_kernels.py); the project environment keeps Gymnasium 1.0.0",
+  "export_verify_steps": 100,
+  "conversion": "episodic to continuing: terminal states restart from the initial distribution; reward kept on entry; rewards in [0, 1]",
+  "selection": "first `mdps` candidates in list order with |S||A| <= 256 that pass the project's dynamic-range filter, whose exact fingerprint is not in run_oeh_final_120.seen_kernels and whose relabelling-invariant signature matches no earlier external kernel and no earlier candidate (scripts/analysis/panel6_families.py)",
+  "data": {
+    "behaviors": 5,
+    "pilot_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "budgets": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200
+    ],
+    "training_seeds": 10,
+    "learners": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular"
+    ],
+    "primary_label": "first six budgets (sustained 8/10 seeds at NR >= 0.95), seven classes (unchanged)"
+  },
+  "questions": {
+    "Q1": "Does OEH forecast better than the strongest pilot-extrapolation baseline (B2 + prefix/FQE, task card T2) on the budgets the x10 pilot cannot reach (extrapolation endpoint, task card T1)?",
+    "Q2": "Same endpoint against B2.",
+    "Q3": "Does the OEH forecast lead to lower decision regret (tau = 0.8, lambda = 100) than either comparator?"
+  },
+  "endpoints": {
+    "ibs_ge": "integrated Brier over the thresholds x10, x20, x50 (scripts/analysis/extrapolation_endpoint.py)",
+    "ll_ext": "log loss of the coarsened law {<= x10, x20, x50, > x50}, floor 1e-12",
+    "regret": "colosseum_posthoc_20261014.decision_costs(cdf, event, tau=0.8, lam=100).regret"
+  },
+  "gates": {
+    "order": "fixed sequence F1 -> F2; F2 is tested only if F1 is GO",
+    "unit": "MDP (pooled over both families, equal weight); per-MDP mean over the 5 behaviors x 3 learners",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 20261216,
+      "rule": "max-t with the original standard error (one-sided)"
+    },
+    "F1": {
+      "contrasts": [
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "ibs_ge"
+        ],
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "ll_ext"
+        ]
+      ],
+      "go": "both simultaneous lower bounds > 0"
+    },
+    "F2": {
+      "contrasts": [
+        [
+          "b2_matched",
+          "oeh",
+          "ibs_ge"
+        ],
+        [
+          "b2_matched",
+          "oeh",
+          "ll_ext"
+        ]
+      ],
+      "go": "both simultaneous lower bounds > 0"
+    }
+  },
+  "registered_estimates": {
+    "F3": {
+      "contrasts": [
+        [
+          "b2_plus_prefix_fqe",
+          "oeh",
+          "regret"
+        ],
+        [
+          "b2_matched",
+          "oeh",
+          "regret"
+        ]
+      ],
+      "tau": 0.8,
+      "lambda": 100.0,
+      "report": "mean effect and simultaneous one-sided 95% lower bounds; no GO/NO-GO verdict (H1: underpowered as a gate)"
+    }
+  },
+  "not_tested": [
+    "OEH vs B2 + diagnostics (robust head): the panel-5 contrast is not re-tested; reported only descriptively",
+    "full-endpoint IBS and LL: reported descriptively for every method"
+  ],
+  "sample_size": {
+    "rule": "smallest total in [48, 72, 96, 120, 144, 192] with power >= 0.9 for gate family F1 when the opened-panel mean effects are scaled by 0.75, under the worst leave-one-external-panel-out proxy; at least 36 MDPs per family",
+    "reached_target": true,
+    "mdps_per_family": 96,
+    "total_mdps": 192,
+    "simulated_power_worst_proxy": {
+      "F1_vs_prefix_fqe|shrink=0.5": 0.624,
+      "F1_vs_prefix_fqe|shrink=0.75": 0.921,
+      "F1_vs_prefix_fqe|shrink=1.0": 0.992,
+      "F2_vs_b2|shrink=0.5": 0.729,
+      "F2_vs_b2|shrink=0.75": 0.971,
+      "F2_vs_b2|shrink=1.0": 1.0,
+      "F3_regret|shrink=0.5": 0.193,
+      "F3_regret|shrink=0.75": 0.496,
+      "F3_regret|shrink=1.0": 0.807
+    },
+    "source": "artifacts/week8/panel6_power_2026-10-15/power.csv"
+  },
+  "descriptive": {
+    "methods": {
+      "oeh": "OEH (final method, oeh_v2_spec.json)",
+      "oeh_full_head": "OEH-F, full 108-field head (no shift gate)",
+      "robust": "B2 + diagnostics (robust head)",
+      "b2_matched": "B2",
+      "xgboost_cf_18": "XGBoost-CF on B2",
+      "xgboost_cf_108": "XGBoost-CF on the 108 fields",
+      "prefix_fqe_raw": "prefix + FQE, zero-shot law (T2)",
+      "b2_plus_prefix_fqe": "B2 + prefix/FQE (T2)",
+      "lce_raw": "LCE",
+      "b2_plus_lce": "B2 + LCE",
+      "b2_plus_cb": "B2 + CB",
+      "knn_analog": "k-NN analog on B2 (k = 25)",
+      "logistic": "multinomial logistic regression on B2",
+      "s4": "T4 candidate S4 (B2 + P + D, one head, gated); descriptive only",
+      "oeh_without_horizon": "OEH without the OEH-H block"
+    },
+    "also": [
+      "full endpoint IBS/LL",
+      "per family",
+      "per learner",
+      "gain by distance",
+      "Murphy decomposition",
+      "label variant tau = 0.99 (task card T6), descriptive",
+      "decision regret of every method"
+    ],
+    "conditional_methods": {
+      "tabpfn": "TabPFN v2 on B2 (task card T3): predictions are added and sealed separately before the label step (checkpoint H3) if the licence token is available; otherwise reported as not run"
+    },
+    "dropped": {
+      "lc_pfn": "not used: needs Python < 3.12 and torch <= 1.11, and fits a curve to only four pilot prefixes (H1 decision)"
+    }
+  },
+  "dryrun": {
+    "path": "artifacts/week8/panel6_dryrun_2026-10-15",
+    "manifest_sha256": "22f425f72e184f65dec073add41c4741a6ed2cf3b71d0b6ed0d50e9854aa0233",
+    "verdict": "PROCEED",
+    "rule": "stop before freeze if the most frequent class holds more than 80% of a family's labels (fixed before the run)"
+  },
+  "seed_check": {
+    "earlier_seeds_read": 24378,
+    "planned_seeds": {
+      "mdpp": 1632,
+      "labmaze": 1632
+    },
+    "overlap": 0,
+    "offsets_from": "datasets/oeh_fifth_panel_2026-10-15/gambler/manifest.json",
+    "change_from_draft": "data seed bases moved from 30M/31M to 70M/72M: 30M+ holds the training-stream seeds of earlier panels (instance seed + 20,000,000); the draft required this check"
+  },
+  "disclosures": [
+    "Feasibility only: development candidates drawn with numpy seed 1 (never the panel seeds) were exported, converted and passed through the size cap and the dynamic-range filter (artifacts/week8/panel6_feasibility_2026-10-15); no learner was run on any MDP Playground or labmaze MDP.",
+    "The extrapolation endpoint (T1) and the prefix + FQE baseline (T2) were defined and run post hoc on opened panels; panel 6 registers them prospectively.",
+    "The sample size uses per-MDP effects of opened panels (artifacts/week8/panel6_power_2026-10-15).",
+    "Seed ranges are checked against every earlier dataset manifest at freeze.",
+    "Dry run (approved at H1): learners were run on 12 development MDPs per family drawn with numpy seed 1 to check the label distribution; no forecast was scored on them (artifacts/week8/panel6_dryrun_2026-10-15)."
+  ],
+  "draft_sha256": "5b2d27d72332d1eea8dc489ca5f3991ad7ab376119451e3e2bbb99f977fd060e",
+  "source_sha256": {
+    "scripts/analysis/run_oeh_panel6_20261015.py": "2419610acb776869a166fc1104e205a424ee35325e10cd0b67bd9db274e990f3",
+    "scripts/panel6/export_kernels.py": "5ae711ae3350536fde6d5723a52992c0b290db926a6ecd1ce9a0b8f63c8927ce",
+    "scripts/analysis/panel6_families.py": "af09e67340bd28349a11c5daf063a03d378fe0de4576c852ac1058212b4722a5",
+    "scripts/analysis/oeh_pipeline.py": "aa6a3e0e9eb1a5ac40446d72ff57c6025846107ab9bc745bf02a21d41023c15b",
+    "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+    "scripts/analysis/baseline_prefix_fqe.py": "903e564a5ce75d493cb5af0424a1f8241fc8c44129e78479106b687938a0393d",
+    "scripts/analysis/extrapolation_endpoint.py": "b5b5e1c48c6b68c50298e9e4d4fa8661b9e242158678984875d46dee7f1edfaf",
+    "scripts/analysis/simplified_candidates_t4.py": "ea9fe275ac2ca55402c1a1cbe125737e4ac937b690fa42f5e0610d3ef4301f3e",
+    "scripts/analysis/oeh_generic_baselines.py": "6d010cb393400a9e01e92603f775864015238d58a688bb940eb38dc32ea07066"
+  }
+}

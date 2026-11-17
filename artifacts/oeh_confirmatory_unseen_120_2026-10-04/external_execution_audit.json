@@ -1,0 +1,12 @@
+{
+  "status": "verified",
+  "job_count": 16800,
+  "methods": {
+    "discrete_bcq_author": 4200,
+    "discrete_cql_d3rlpy": 4200,
+    "pib_spibb_n10_author": 4200,
+    "vi_lcb_cb005_author_empirical": 4200
+  },
+  "external_execution_plan_sha256": "89d19e8899a0bba43c39bc0af38767114aff7f184ad4607e483708d3cee30fb6",
+  "preoutcome_seal_sha256": "f83aca8c5e855b7a4c412fca5a7489575058f643d5fdcf25b28408c41aff5ea4"
+}

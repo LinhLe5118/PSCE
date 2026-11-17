@@ -1,0 +1,51 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T3 TabPFN v2 baseline on B2",
+  "created_utc": "2026-10-15T14:24:08.631573+00:00",
+  "attribution": "Built with PriorLabs-TabPFN (Hollmann et al., 2025, Nature); weights under the Prior Labs License 1.1",
+  "spec": {
+    "path": "docs/week8/T3_TABPFN_SPEC_2026-10-15.md",
+    "sha256": "dbd7c3331d601a0c1ee496bd71da37fb2938fbc9f91b62c0842f681d60dbb3cc"
+  },
+  "tabpfn": {
+    "tabpfn": "9.2.0",
+    "torch": "2.14.1+cpu",
+    "python": "3.12.7",
+    "model_version": "v2",
+    "weights_file": "tabpfn-v2-classifier-finetuned-zk73skhh.ckpt",
+    "weights_sha256": "cf8c519c01eaf1613ee91239006d57b1c806ff5f23ac1aeb1315ba1015210e49",
+    "settings": "create_default_for_version(V2, device='cpu', random_state=0)",
+    "features": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "train_rows": 7560,
+    "query_rows": 11988
+  },
+  "outputs_sha256": {
+    "predictions.csv.gz": "619c20a891143e9981f3c27e50b2e10e179e2ea44c1c72c8f68d47614278ed30",
+    "scores_by_panel.csv": "5d45149df313e92296ed5d3e37e7eb2c27e86869f9b236f87e95eaa3d0c08290",
+    "gains.csv": "e34546388a6f06a636101db4b8474fd3590fae3590f8f47699bb8bb71899260d",
+    "LICENSE_TabPFN_weights.txt": "08b1851b4b6136b5fb0cb124d3258e0d91e3e1623f1be5904b77e4d270d112d8"
+  },
+  "source_sha256": {
+    "scripts/analysis/baseline_tabpfn_t3.py": "e2ee4c30954d73ac4c84030f3137e3041bc8d9f9c4202eb1fa227fc47f8ac38c",
+    "scripts/t3/tabpfn_forecast.py": "9e04e3dd79f405a94a7392782b0e94dd4ba383d9027f404ea8bdb7fb1959a641"
+  }
+}

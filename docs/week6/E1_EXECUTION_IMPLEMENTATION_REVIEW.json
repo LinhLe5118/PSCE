@@ -1,0 +1,66 @@
+{
+  "schema_version": "week6-e1-execution-implementation-review-v1",
+  "status": "GO",
+  "reviewed_at": "2026-09-26",
+  "reviewer": "User-designated independent AI auditor (OpenAI Codex)",
+  "independent_basis": "The repository owner explicitly designated this reviewer as the independent E1 inspector and directed it to decide GO and execute the sealed run.",
+  "run_id": "week6_oehv4e_confirmatory_v1_1",
+  "evaluation_opened": false,
+  "source_sha256": {
+    "docs/protocol/WEEK6_T1_FREEZE_v1.1.0-r1.sha256.json": "28fe4fd5f155c5c2717f0ea9d69b0ad713f1ed5fb752946e4190181aba7f613c",
+    "evaluation/e1_access.py": "d29c6be1ae4aafac63d6fd6bb57481b15bf8971c86d6a9e532ebed8b2723848c",
+    "evaluation/e1_pipeline.py": "6c89d5c545197aa7bff068f67c22ae858d28d5103042b5f3dbef6a6f2ca1ae2c",
+    "evaluation/e1_external.py": "50c52afa764ba5423b958973910eb4253651035d18afa7c3200676947c97f5eb",
+    "scripts/data/generate_week6_e1_bundle.py": "0475ae895711727902e82b0d636617e10dc764f5d701b251c3c05730933d2303",
+    "scripts/training/run_week6_e1.py": "c0ba9c33d5d035a6900b11ef4dcb3e8b3b22e16583cd3d5ef64dbdffe4465a30",
+    "tests/test_e1_access.py": "12c6e8ab6a3d9a9960879e5a2b59509c1ebef6d7245d73b1db41dc09f7ff711e",
+    "tests/test_e1_pipeline_adapter.py": "4049c6ff0d1e7e43e961d31e50155e5a5609101e76c1010e1a98cad72792b93d",
+    "scripts/testing/probe_e1_external_components.py": "cce3372c081d16eb25465baa8d2033dd42b736fbd36631e3bcf1793a83106c8d",
+    "scripts/testing/probe_e1_external_adapter.py": "9bd7131c0879411bb8fd79a9d3410452a11b69575dcf8dde031aae9de23753da",
+    "tests/test_e1_selector_partition.py": "f95fa71ebb904148dca59183940a8c87afb6325caea3c0f1b37431644e3713c1",
+    "tests/test_e1_generator_gate.py": "0892c1eb4d1d0aee0d6c1f66a6397dd8fc76daa4d18b74ab8d485615e31f5fd8",
+    "tests/test_e1_failure_partition.py": "ebd751d5aae6d79733dc06c89cab7bfa7623a2622c61e908f5f3421771a4cee2",
+    "tests/test_e1_external_provenance.py": "bfd1dcfcb5bdd7b3be6e032f684e2861f3b634970b845c5558484a69a11c41b7"
+  },
+  "validation": {
+    "focused_e1_tests": "25 passed",
+    "full_repository_suite": "809 passed, 348 subtests passed, zero skipped in 605.22 seconds",
+    "branch_coverage": "83% with branch coverage enabled; threshold 82%",
+    "external_source_cuda_probe": "passed on NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "real_method_fixture_probe": "passed for author SPIBB, discounted VI-LCB paper-spec port, author discrete BCQ and pinned d3rlpy CQL; neural methods completed 500 updates",
+    "sealed_evaluation_access": false
+  },
+  "findings": [
+    {
+      "id": "E1-R1",
+      "status": "CLOSED",
+      "finding": "The fixed run ID previously lacked an exclusive process claim.",
+      "resolution": "The unified runner now holds a nonblocking operating-system byte lock for the entire run_e1 lifetime. A focused regression test proves a second claim is rejected and the claim is reusable after release."
+    },
+    {
+      "id": "E1-R2",
+      "status": "CLOSED",
+      "finding": "External module origin, pinned commit and CUDA availability must be established before first access.",
+      "resolution": "The source/CUDA probe and real four-method fixture probe passed. verify_external_components executes before open_evaluation_bundle."
+    },
+    {
+      "id": "E1-R3",
+      "status": "ACCEPTED_BOUNDARY",
+      "finding": "VI-LCB is a local discounted paper-specification port and the x10/500-update external panel is descriptive.",
+      "resolution": "Provenance is recorded per method and no tuned-SOTA or compute-parity claim is authorized."
+    },
+    {
+      "id": "E1-R4",
+      "status": "ACCEPTED_BOUNDARY",
+      "finding": "S1 confirmatory inference is separate from the fit grid.",
+      "resolution": "E1 may execute and preserve all outcomes, but confirmatory H1/H2/H3 claims remain prohibited until the frozen 2,000-draw S1 analysis and claim audit complete."
+    },
+    {
+      "id": "E1-R5",
+      "status": "CLOSED",
+      "finding": "Fallback must not convert feature or fitting failures into abstentions.",
+      "resolution": "Feature extraction and fitting reject nonfinite values. Whole-group best-fixed fallback is retained only as the frozen defensive selector rule; schema, numerical and algorithm errors stop execution."
+    }
+  ],
+  "decision": "GO for one E1 bundle generation and one unified-runner execution using the exact source hashes above, a separately recorded manifest SHA-256, the fixed run ID, no retuning, no result filtering and complete failure/output retention."
+}

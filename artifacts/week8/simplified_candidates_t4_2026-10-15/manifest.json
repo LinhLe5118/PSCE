@@ -1,0 +1,18 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T4 simplified candidates (not registered; stop at H1)",
+  "created_utc": "2026-10-15T07:42:58.565459+00:00",
+  "spec": {
+    "path": "docs/week8/T4_SIMPLIFIED_CANDIDATES_SPEC_2026-10-15.md",
+    "sha256": "9a40d4b8d26ec08fd26b2ca6257934c5f90441fb27779798f27cd85ddd28459a"
+  },
+  "outputs_sha256": {
+    "scores_by_panel.csv": "7cba74bd94dae807062fb37e27a18e9a8697aeb9d3d09fb3dd7de4c382f54e41",
+    "development_log.csv": "7c15100f61fd330fbbce88b61018e2d66439bd9eed4c1683aa571c346d05923d",
+    "nested_lopo.csv": "07afa6adb4a4730e44e4277f410e0529625536ae568194c54bdab1a096cf54be",
+    "result.json": "8c72d92b040de4297d2d34379f40aca051711906b6b74c7664b03911700af8e4"
+  },
+  "source_sha256": {
+    "scripts/analysis/simplified_candidates_t4.py": "ea9fe275ac2ca55402c1a1cbe125737e4ac937b690fa42f5e0610d3ef4301f3e"
+  }
+}

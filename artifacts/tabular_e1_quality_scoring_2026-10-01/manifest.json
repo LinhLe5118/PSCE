@@ -1,0 +1,57 @@
+{
+  "status": "posthoc_original_E1_adaptively_reused_not_confirmation",
+  "scope": "Published quality ingredients and explicitly named tabular adaptations, not exact TQ/SACo/EAS/COI/CNN/BWD",
+  "mdp_count": 120,
+  "label_rows": 1800,
+  "folds": "original MDP-grouped five folds",
+  "features": {
+    "unique_sa_count": [
+      "observed_unique_sa"
+    ],
+    "sa_fraction_adaptation": [
+      "sa_fraction_adaptation"
+    ],
+    "complete_return_adaptation": [
+      "mean_complete_discounted_return"
+    ],
+    "eri_observed_floor_adaptation": [
+      "eri_observed_floor_adaptation"
+    ],
+    "categorical_eas_adaptation": [
+      "categorical_eas_adaptation"
+    ],
+    "coi_tabular_within_mdp_adaptation": [
+      "coi_tabular_within_mdp_adaptation"
+    ],
+    "combined_tabular_quality_adaptation": [
+      "sa_fraction_adaptation",
+      "mean_complete_discounted_return",
+      "eri_observed_floor_adaptation",
+      "categorical_eas_adaptation"
+    ]
+  },
+  "xgboost_params": {
+    "objective": "survival:aft",
+    "eval_metric": "aft-nloglik",
+    "aft_loss_distribution": "normal",
+    "aft_loss_distribution_scale": 1.2,
+    "tree_method": "hist",
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "lambda": 1,
+    "seed": 20260930,
+    "nthread": 1,
+    "verbosity": 0
+  },
+  "rounds": 200,
+  "input_hashes": {
+    "quality_signals.csv": "230883270cb0b5f053280a172d5905001e355dca55a32a88720be856882c4dd2",
+    "labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe"
+  },
+  "source_sha256": "666a9e161a97efa8d563ab2006f875fd92c00335efe9594bcfb871a57729ef75",
+  "output_hashes": {
+    "summary.csv": "eddfd1cdca3b50608ee8b0551d886a978ff2c4990ce0ccf90a4a173a97d8a7a6",
+    "predictions.csv": "061513a661a39abcef76d171b8e243740b1e744b8333f1a01f5e4e343e999aa2"
+  }
+}

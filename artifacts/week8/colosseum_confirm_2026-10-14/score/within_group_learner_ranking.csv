@@ -1,0 +1,4 @@
+method,groups_with_learner_differences,mean_within_group_spearman
+b2_matched,160,0.4630367492503029
+b2_plus_colosseum,160,0.4359734553820392
+oeh_final,160,0.7222313940646762

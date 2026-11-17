@@ -1,0 +1,12 @@
+{
+    "phase":  "COMPLETE_GROUPS",
+    "detail":  "5 exploratory checkpoints written by unchanged runner",
+    "checked_local":  "2026-10-10T20:19:15.4654765+07:00",
+    "worker_pid":  2956,
+    "child_pid":  23108,
+    "free_memory_mib":  11891,
+    "completed_groups":  50,
+    "groups_before":  45,
+    "stdout":  "D:\\Đồ án\\Devoted\\artifacts\\week8\\bridge_medium_precompute_20261010_191120.out.log",
+    "stderr":  "D:\\Đồ án\\Devoted\\artifacts\\week8\\bridge_medium_precompute_20261010_191120.err.log"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "SEALED_FRESH_B2_FORECAST_NO_TEST_LABELS",
+  "test_labels_read": false,
+  "task_count": 5,
+  "rows": 75,
+  "meta_training_mdps": 720,
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "source_sha256": {
+    "pilot_features": "7ddf3bacab188589d16e60f50455c3fb1b0fa6642930b9dcfa2164638237bfc8",
+    "historical_protocol": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "matched_forecast": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+    "script": "08950de3f5a9357f9b1769d01c7856b33c12922c6e488428014051bea4880c39"
+  },
+  "output_sha256": {
+    "predictions": "0630f2d60a785f128e67d311f545774b6e5fabfbdd14308aedd158f18ba7f942",
+    "tuning": "18ac1326c2f6861f56102133548c797e4e197b1fcb43b351d88ba4b82d73f9d7"
+  }
+}

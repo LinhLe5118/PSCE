@@ -1,0 +1,51 @@
+{
+  "status": "development_only_open_60_mdp_not_independent_confirmation",
+  "scientific_revision": "direct_oeh_and_aft_out_of_fold_logloss_blend_v1",
+  "promoted": false,
+  "input_sha256": {
+    "e1_labels": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "e1_features": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "development_labels": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "development_features": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "e1_aft_oof": "dbe98211fb96b6e2b74cb096d889d0e39773ba94d1a5dcd42ec2f8141f205814",
+    "fresh_aft_preoutcome": "25d001c6a7d7b6eaaf325d98799fdf7c52ab62fe9f93eb3bffb4a04200022bb1"
+  },
+  "script_sha256": "8ae6b18e534fd1b8c84a0ea80d4beb2e4fd75c82d591e5cf7a91d8a5e4d19d72",
+  "features": [
+    "log_pilot_transitions",
+    "log_state_action_count",
+    "observed_sa_fraction",
+    "observed_state_fraction",
+    "normalized_visitation_entropy",
+    "log1p_min_positive_sa_count",
+    "trajectory_return_mean",
+    "trajectory_return_std",
+    "trajectory_return_iqr",
+    "terminal_trajectory_fraction",
+    "weighted_transition_entropy",
+    "observed_cell_transition_entropy",
+    "low_count_cell_fraction",
+    "empirical_stochastic_cell_fraction",
+    "low_coverage_entropy",
+    "high_coverage_entropy",
+    "bootstrap_return_mean_std",
+    "bootstrap_rare_exposure_mean_std",
+    "oeh3_log1p_requirement",
+    "oeh3_selected_qvi_fraction",
+    "oeh3_risk_at_pilot",
+    "oeh3_policy_instability",
+    "lcoeh4_risk_at_pilot",
+    "lcoeh4_contraction_rate",
+    "lcoeh4_pessimistic_return",
+    "lcoeh4_return_se",
+    "lcoeh4_validation_support_mass",
+    "lcoeh4_trajectory_independence_fraction"
+  ],
+  "weight_on_direct": 0.3949538105369853,
+  "e1_oof_logloss": 0.7003943071476435,
+  "weight_fit": "single global log-score optimum over all grouped E1 out-of-fold predictions",
+  "artifacts": {
+    "predictions.csv": "f97962cc99964b0d57b0b47a04176f88f28fb17215e934af2bd1540eb7ee2231",
+    "scores.csv": "34477d0fd44faf03c857d7987dad60e1579bb4b94988b9e961987cd2e39eff19"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_RETROSPECTIVE_EXPLORATORY_120_COMPARISON",
+  "interpretation": "120 labels were already opened when this comparator was chosen; descriptive only",
+  "method": "published_xgboost_cf_2026_adapted_b2",
+  "publication": "https://arxiv.org/html/2601.22259v2",
+  "author_code": "https://github.com/dain20000222/TabularFM4Survival",
+  "author_commit": "b27d69c27a5c39b87822b1aebf838e3dd900000e",
+  "source_sha256": {
+    "pilot_features": "9a546e16c0e894727026401577c8fcd8d30e0d859498ee1e25cafb5c766bdb63",
+    "labels": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e",
+    "old_oeh_predictions": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a",
+    "historical_protocol": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "official_author_code": "3e0ed45b65f71c179e9cc1448c9e08ff10c7dab2a3f536788101fd5dd94f0414",
+    "script": "98813e862b2f94d5d22471b5b16288f2068a833d23ca246afc9e9f498f5e0c36"
+  },
+  "output_sha256": {
+    "predictions.csv": "767ef0390833ba2585ee70b699d1d0456d8f4ce68f0efcdc3fc6909958bca64b",
+    "scored.csv": "ee69dba5f306bbdb38cb1da524465a570e4790fcb181340e1c4499a7d95d2aab",
+    "summary.csv": "4cbcfbe6fd6d55d58c4b9ed5fe74fecc3e945ebade4d0a821a4789a61bd25356",
+    "paired_mdp_bootstrap.csv": "77572a0b1fdd967561c96396bc660a157e920e43859a4a8ec895df6af8c48c15",
+    "fit_summary.json": "e514865d1aac72373c29be903ed9eece48ce5c6c55abcf81d6890073970c3b54"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "descriptive view of the committed sixth-panel results; nothing refitted",
+  "sources": {
+    "artifacts/oeh_panel6_2026-10-15/summary.csv": "d191b1ab910b4a7bc2b154e1fa48d44efc63ba5f70b73c371b7482a1f1b37962",
+    "artifacts/oeh_panel6_2026-10-15/tabpfn_descriptive.csv": "3c74c557932e6a865b3c2b2419b75b0a669aeb812b94fdffe9b2f1917c28cb2f"
+  },
+  "outputs": {
+    "artifacts/week8/paper_fig_panel6_2026-10-16/relative_gains.csv": "4334e8309b78341d72106778c4cebe2ee27beec5e812ff55264b2014f95f9bda",
+    "artifacts/week8/paper_fig_panel6_2026-10-16/fig_panel6.pdf": "6e09e049d79da0361d0a6e74f4d6c6c709580b72682da80ea6a5274f52037919",
+    "paper/figures/fig_panel6.pdf": "6e09e049d79da0361d0a6e74f4d6c6c709580b72682da80ea6a5274f52037919"
+  }
+}

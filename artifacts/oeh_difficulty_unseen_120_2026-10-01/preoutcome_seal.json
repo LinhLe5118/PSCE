@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "1e3016320038066ca18e593e8927a6f54bcf187e62f33f3ad50b7f77c0987839",
+  "dataset_seal_sha256": "9e0d4f7eb93c5d300e508668c8b27500f87c383808db0db81fdae202daa28f5b",
+  "learner_outcomes_observed": 0,
+  "sealed_at_utc": "2026-10-01T08:25:01.429225+00:00",
+  "artifact_sha256": {
+    "pilot_features.csv": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be",
+    "oracle_descriptors_preoutcome.csv": "56e0cfda77f4b795770bcd7156fea31cc732f9b871d03e1e6ccdfc3535ccc5cb",
+    "predictions_preoutcome.csv": "d2f8681f93032b96001f8d2f1375149bfa6578441530d55597e33e72474dca84"
+  }
+}

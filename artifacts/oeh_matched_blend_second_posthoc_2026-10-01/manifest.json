@@ -1,0 +1,10 @@
+{
+  "status": "posthoc_grid_on_opened_second_suite_not_confirmation",
+  "third_protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "second_result_manifest_sha256": "a71c2c15f9b27942bbf85dcfc7d24c315ea20881224d72668e47d82746943eef",
+  "script_sha256": "877cea6214a83de6c3b388341fe4b3a809645906cbc4581a3cd75b76f57e9060",
+  "artifact_sha256": {
+    "scored.csv": "e1cce384b8c7009a0d1d9ba0864fcfade0580c69e7696c6b09faeb65ae98c826",
+    "summary.csv": "b30b9cee7f77fe9ded773efbd83a89ada276baf0dd269620260353cfa8843fd3"
+  }
+}

@@ -1,0 +1,23 @@
+result.json max abs diff (timestamp excluded): 0
+  F1 GO
+  F2 GO
+scored.csv.gz content identical: True
+summary.csv max abs diff 0.0 text equal True
+by_learner.csv max abs diff 0.0 text equal True
+murphy.csv max abs diff 0.0 text equal True
+gain_by_distance.csv max abs diff 0.0 text equal True
+label_variant_tau099.csv max abs diff 0.0 text equal True
+protocol sha256 matches protocol.sha256: True
+mdpp | outcome run points to seal: True | predictions hash in seal: True | outcomes observed at seal: 0
+  success flag = NR>=0.95: True; jobs 115200; 10 seeds everywhere: True; labels match: True; extended labels match: True
+labmaze | outcome run points to seal: True | predictions hash in seal: True | outcomes observed at seal: 0
+  success flag = NR>=0.95: True; jobs 115200; 10 seeds everywhere: True; labels match: True; extended labels match: True
+independent full-endpoint IBS/LL vs summary.csv, max abs diff: 8.881784197001252e-16
+                       ibs      ll  ibs_committed  ll_committed
+method                                                         
+oeh                 0.0971  1.0390         0.0971        1.0390
+oeh_full_head       0.0940  1.0030         0.0940        1.0030
+robust              0.1140  1.1221         0.1140        1.1221
+b2_plus_prefix_fqe  0.1186  1.0895         0.1186        1.0895
+b2_matched          0.1533  1.2967         0.1533        1.2967
+python 3.12.15 numpy 2.5.1 pandas 2.3.3 scipy 1.18.0

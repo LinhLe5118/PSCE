@@ -1,0 +1,23 @@
+{
+  "status": "COMPLETE_RETROSPECTIVE_120_FULL_INPUT_ARCHITECTURE_CONTROL",
+  "interpretation": "Uses OEH descriptors and already-opened 120 labels; architecture control, descriptive only",
+  "method": "xgboost_cf_2026_full108_architecture_control",
+  "feature_count": 108,
+  "publication": "https://arxiv.org/html/2601.22259v2",
+  "source_sha256": {
+    "pilot_features": "9a546e16c0e894727026401577c8fcd8d30e0d859498ee1e25cafb5c766bdb63",
+    "horizon_preoutcome": "3005fc44160ba78dec11495cceb7164965e00527344b1d386dfd296cb4d380e0",
+    "labels": "019d3bba34a8e14c41382d6523840b97f70f25e834a89f6ebaaa47569ace760e",
+    "old_oeh_predictions": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a",
+    "historical_protocol": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "official_author_code": "3e0ed45b65f71c179e9cc1448c9e08ff10c7dab2a3f536788101fd5dd94f0414",
+    "script": "fc3df43be844d1461d2b4cba9b91f27c44f231e8fd971ee897ef52c13a4c383b"
+  },
+  "output_sha256": {
+    "predictions.csv": "41b22de488c318e3034db1d8de7123dd38a198121f051ae4eb90e3192b3d550b",
+    "scored.csv": "93ca226822c1cd63b8d861143294bd8377143ea08fd35cb5168cf9adbde16003",
+    "summary.csv": "1bfc552b0d61e0f45c2dcf842994a35f8f5d4aa63261910dc0385bdba708861f",
+    "paired_mdp_bootstrap.csv": "ccd4dc23e5c03d56e19083ebbe69ad5366fd913b5c5bf93cd01155d11ed02548",
+    "fit_summary.json": "59859a82efe77567ae0c5af23b08834ea576fe655318a9ecb88a6b6d2ee24a31"
+  }
+}

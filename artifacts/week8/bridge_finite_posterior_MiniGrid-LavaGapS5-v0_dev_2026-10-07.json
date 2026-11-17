@@ -1,0 +1,19 @@
+{
+  "status": "FINITE_POSTERIOR_RESOURCE_SMOKE_DEVELOPMENT_ONLY",
+  "task": "MiniGrid-LavaGapS5-v0",
+  "states": 113,
+  "draws": 1,
+  "seeds": 1,
+  "budgets": [
+    1
+  ],
+  "evaluation_horizon": 100,
+  "sampling": {
+    "draws_requested": 1,
+    "draws_returned": 1,
+    "proposals": 1,
+    "accepted": 1
+  },
+  "runtime_seconds": 1.804686399991624,
+  "test_labels_read": false
+}

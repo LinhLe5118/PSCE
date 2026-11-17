@@ -1,0 +1,132 @@
+{
+  "all_120_descriptive_only": true,
+  "all_120_mean": [
+    0.6932420568572348,
+    0.45599999999999985
+  ],
+  "confirmation": false,
+  "export_refits": 0,
+  "new_mdps_generated": 0,
+  "original_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "panels": {
+    "deterministic_control": {
+      "mdp_effect_signs": {
+        "nr_vs_cfqi": {
+          "zero": 36
+        },
+        "nr_vs_r34": {
+          "zero": 36
+        },
+        "nr_vs_v4e": {
+          "positive": 14,
+          "zero": 22
+        },
+        "sr_vs_cfqi": {
+          "zero": 36
+        },
+        "sr_vs_r34": {
+          "zero": 36
+        },
+        "sr_vs_v4e": {
+          "positive": 9,
+          "zero": 27
+        }
+      },
+      "routing_changes_vs_r34": {
+        "('cfqi_tabular', 'cfqi_tabular')": 180
+      },
+      "selected_algorithms": {
+        "cfqi_tabular": 180
+      },
+      "success_losses": {
+        "cfqi": 0,
+        "r34": 0,
+        "v4e": 0
+      },
+      "success_net_gain": {
+        "cfqi": 0,
+        "r34": 0,
+        "v4e": 57
+      },
+      "success_wins": {
+        "cfqi": 0,
+        "r34": 0,
+        "v4e": 57
+      }
+    },
+    "stochastic_primary": {
+      "mdp_effect_signs": {
+        "nr_vs_cfqi": {
+          "negative": 9,
+          "positive": 51,
+          "zero": 24
+        },
+        "nr_vs_r34": {
+          "negative": 7,
+          "positive": 50,
+          "zero": 27
+        },
+        "nr_vs_v4e": {
+          "negative": 5,
+          "positive": 54,
+          "zero": 25
+        },
+        "sr_vs_cfqi": {
+          "negative": 11,
+          "positive": 40,
+          "zero": 33
+        },
+        "sr_vs_r34": {
+          "negative": 11,
+          "positive": 26,
+          "zero": 47
+        },
+        "sr_vs_v4e": {
+          "negative": 3,
+          "positive": 43,
+          "zero": 38
+        }
+      },
+      "routing_changes_vs_r34": {
+        "('behavior_cloning_tabular', 'discrete_bcq_author')": 2,
+        "('behavior_cloning_tabular', 'discrete_cql_d3rlpy')": 2,
+        "('behavior_cloning_tabular', 'iql_tabular')": 1,
+        "('cfqi_tabular', 'cfqi_tabular')": 290,
+        "('cfqi_tabular', 'discrete_bcq_author')": 40,
+        "('cfqi_tabular', 'discrete_cql_d3rlpy')": 26,
+        "('cfqi_tabular', 'pib_spibb_n10_author')": 1,
+        "('cfqi_tabular', 'vi_lcb_cb005_author_empirical')": 4,
+        "('iql_tabular', 'cfqi_tabular')": 1,
+        "('iql_tabular', 'discrete_bcq_author')": 17,
+        "('iql_tabular', 'discrete_cql_d3rlpy')": 20,
+        "('iql_tabular', 'iql_tabular')": 14,
+        "('iql_tabular', 'pib_spibb_n10_author')": 1,
+        "('iql_tabular', 'vi_lcb_cb005_author_empirical')": 1
+      },
+      "selected_algorithms": {
+        "cfqi_tabular": 291,
+        "discrete_bcq_author": 59,
+        "discrete_cql_d3rlpy": 48,
+        "iql_tabular": 15,
+        "pib_spibb_n10_author": 2,
+        "vi_lcb_cb005_author_empirical": 5
+      },
+      "success_losses": {
+        "cfqi": 116,
+        "r34": 79,
+        "v4e": 43
+      },
+      "success_net_gain": {
+        "cfqi": 192,
+        "r34": 102,
+        "v4e": 336
+      },
+      "success_wins": {
+        "cfqi": 308,
+        "r34": 181,
+        "v4e": 379
+      }
+    }
+  },
+  "posthoc_consumed_e1": true
+}

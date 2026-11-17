@@ -1,0 +1,8 @@
+method,seconds,columns
+b2_matched,67.60872130002826,18
+oeh_full_108,261.49563590000616,108
+oeh_without_direct_oehb,190.68387970002368,70
+oeh_without_oehh_risk,203.4559229000006,84
+oeh_without_legacy_diagnostics,187.2091207000194,80
+b2_plus_eri_adaptation,79.51418579998426,20
+b2_plus_bwd_adaptation,80.45084250002401,19

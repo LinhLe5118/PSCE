@@ -1,0 +1,66 @@
+{
+  "status": "EXPANDED_BRIDGE_MEMBERS_VERIFIED_NO_LABELS",
+  "source_record": "https://zenodo.org/records/12556298",
+  "source_zip_md5_expected_not_checked": "7b67fe0bd15ab987114b1cb131178214",
+  "zip_index_tail_sha256": "3266c288b7a76c007e35abb289764ddf71e480264f43bdecf18dea000c063187",
+  "frozen_registry_sha256": "1b26d5278a01c2d34128717cb4e807587702513151f1731d60bdac0d1b930575",
+  "verification": "HTTP 206 range; per-member ZIP size and CRC32; file SHA-256. Whole ZIP MD5 not checked.",
+  "test_labels_read": false,
+  "members": [
+    {
+      "name": "bridge_dataset/mdps/MiniGrid-DoorKey-5x5-v0/consolidated.npz",
+      "method": 8,
+      "crc32": "26637c13",
+      "compressed_bytes": 64483,
+      "uncompressed_bytes": 149078,
+      "local_header_offset": 18583965291,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\MiniGrid-DoorKey-5x5-v0\\consolidated.npz",
+      "file_sha256": "c2082d692d856bf3d2c6cf830fd2864e069d51a10e1db47b61288f16d527e103",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/MiniGrid-Empty-16x16-v0/consolidated.npz",
+      "method": 8,
+      "crc32": "e70e0bf4",
+      "compressed_bytes": 407681,
+      "uncompressed_bytes": 2745349,
+      "local_header_offset": 2387814691,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\MiniGrid-Empty-16x16-v0\\consolidated.npz",
+      "file_sha256": "a361150641f0b2591f8c78ab6a0f3b399c8c2782b2d08904fb2a1b5d2659046e",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/breakout_20_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "f8ae36e1",
+      "compressed_bytes": 618894,
+      "uncompressed_bytes": 1190913,
+      "local_header_offset": 8596776198,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\breakout_20_fs30\\consolidated.npz",
+      "file_sha256": "dc6385e390ac697dbc9db70274a8113a3b3ab05ccffdd85fceba0408ff1eb600",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/maze_easy_l0_30_fs1/consolidated.npz",
+      "method": 8,
+      "crc32": "e258bb10",
+      "compressed_bytes": 26730,
+      "uncompressed_bytes": 68657,
+      "local_header_offset": 5482118968,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\maze_easy_l0_30_fs1\\consolidated.npz",
+      "file_sha256": "234a0256b7693159caf3363843e4e5d1866e26d44ec0c3d9a08151edd2e3b013",
+      "status": "DOWNLOADED_VERIFIED"
+    },
+    {
+      "name": "bridge_dataset/mdps/space_invaders_10_fs30/consolidated.npz",
+      "method": 8,
+      "crc32": "03a54c74",
+      "compressed_bytes": 1044896,
+      "uncompressed_bytes": 3198950,
+      "local_header_offset": 9115414832,
+      "local_path": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\bridge_v1_1_1\\mdps\\space_invaders_10_fs30\\consolidated.npz",
+      "file_sha256": "5d3815f02278c72853d9fa786c5ca61ba5f0c7a313763e9d9994eb73047f7eb5",
+      "status": "DOWNLOADED_VERIFIED"
+    }
+  ]
+}

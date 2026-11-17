@@ -1,0 +1,22 @@
+{
+  "status": "SEALED_FRESH_ORIGINAL_SCALAR_SCORES_NO_TEST_LABELS",
+  "test_labels_read": false,
+  "tasks": 5,
+  "behavior_rows": 25,
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "source_sha256": {
+    "pilot_manifest": "219029a448fa5014d73bfd587d4477edcfb5cdda58165864ffe1d18dba0ecc25",
+    "author_sticky_summary": "a2b795f52c7fb75a3bb2e75d0f8c3339f2b1f6ee6804ca569e8341bd5cb3fc8c",
+    "published_formula_adapter": "5245bfdfe5529c63770e4db148a610598720aad76d1ab6aa9d1b9cc417f5d64c",
+    "script": "91defecc34c73810e933f9104f21200a58826220dfcdaf452666cd3eef5d68b5"
+  },
+  "task_sha256": {
+    "MiniGrid-DoorKey-5x5-v0": "fdc527796d9a626aaabdb7d81a3152355d029202eee613cc8695ea901ab0f252",
+    "MiniGrid-Empty-16x16-v0": "d7b1b8d8628357f1f30956476b65a67b9333334f5423adaa410457e9930c75be",
+    "breakout_20_fs30": "e052fa55de6c722c5ca544cdf3c81d0e7a03ead8a7fe2c49d00ac135f0559410",
+    "maze_easy_l0_30_fs1": "099927ec9b99d2a496564daad889bf6c6dc1b9184da5d03f2dd9fc67bec3f772",
+    "space_invaders_10_fs30": "e2bfa65447f90c4b934dd9d25fd6f19cac6dc4fba80b504fa1c471a402950ad2"
+  },
+  "scores_sha256": "59b57102240477a514b542d6f9eb30844b85e233cbea1fee5987f361b0fe0c6e",
+  "scope": "ERI pilot-only; EH author summary privileged true MDP; TQ/SACo original formulas with authors' online DQN reference on task-specific horizon and true MDP; all scalar rank comparisons only."
+}

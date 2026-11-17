@@ -1,0 +1,31 @@
+target,metric,spearman,bootstrap_95_low,bootstrap_95_high
+event,oracle OEH-H,0.31223747087812087,,
+event,data-only OEH-H,0.14350386882587346,,
+event,stationary EH (gap bound),0.018721032260051073,,
+event,published stochastic EH,0.018644649658857107,,
+event,EH minimum QVI depth,0.054588496168369416,,
+event,single-policy concentrability C*,0.5428118283914812,,
+event,clipped concentrability,0.5643370767420824,,
+event,Yin-Wang intrinsic bound,0.2563884664122704,,
+event,size log(SA),0.19663667872668966,,
+event,oracle OEH-H minus stationary EH (gap bound),0.2935164386180698,0.12574303056059552,0.4659578304577729
+event,oracle OEH-H minus published stochastic EH,0.2935928212192638,0.1351039121778471,0.45807302548594375
+event,oracle OEH-H minus single-policy concentrability C*,-0.23057435751336036,-0.35124774501372025,-0.11169665316750457
+event,oracle OEH-H minus clipped concentrability,-0.2520996058639616,-0.37205205745041064,-0.1358567832178562
+event,oracle OEH-H minus Yin-Wang intrinsic bound,0.05584900446585045,-0.0731049814742816,0.18963632901998853
+event,oracle OEH-H minus size log(SA),0.11560079215143121,-0.07095487057684931,0.30962103307674793
+min_event,oracle OEH-H,0.27104427630251876,,
+min_event,data-only OEH-H,0.04191104198164639,,
+min_event,stationary EH (gap bound),-0.05838042446906238,,
+min_event,published stochastic EH,-0.02674630359656729,,
+min_event,EH minimum QVI depth,0.05756946179659471,,
+min_event,single-policy concentrability C*,0.5225649554547859,,
+min_event,clipped concentrability,0.5356445964048615,,
+min_event,Yin-Wang intrinsic bound,0.3694581267731649,,
+min_event,size log(SA),0.15203109007380053,,
+min_event,oracle OEH-H minus stationary EH (gap bound),0.32942470077158115,0.1720520513620155,0.4930908746899766
+min_event,oracle OEH-H minus published stochastic EH,0.297790579899086,0.1507179957576745,0.4520988400444188
+min_event,oracle OEH-H minus single-policy concentrability C*,-0.2515206791522671,-0.36919458048493037,-0.13008363747354673
+min_event,oracle OEH-H minus clipped concentrability,-0.26460032010234275,-0.38123409503199845,-0.1448383635788715
+min_event,oracle OEH-H minus Yin-Wang intrinsic bound,-0.09841385047064616,-0.20865428124036223,0.015415910655264767
+min_event,oracle OEH-H minus size log(SA),0.11901318622871823,-0.051081826064171984,0.29808633066181073

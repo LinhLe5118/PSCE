@@ -1,0 +1,18 @@
+{
+  "status": "SEALED_B2_FORECAST_NO_TEST_LABELS",
+  "test_labels_read": false,
+  "task_count": 14,
+  "rows": 210,
+  "meta_training_mdps": 720,
+  "source_sha256": {
+    "pilot_features.csv": "b07226babb656d252ff881a246bdc43010f57fb9b27747b184095680d825b9b8",
+    "pilot_feature_manifest.json": "6da9f707ec5af096857e5db54dce483aa47f138bd811fb1cdc813587c813ea4e",
+    "historical_protocol.json": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "matched_forecast.py": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+    "script": "6ffa0860c34a4a520469b486af4da4d66862c17621a70ec31d0d89c70a79e246"
+  },
+  "output_sha256": {
+    "predictions": "ba18cd9557ca29a53e193965752c3100a3e047491592394b87b4fce6feaa98f6",
+    "tuning": "587e3904a30972c5eeacfac8bf18587a7cd2306d0e619ef0d49750034a4ece21"
+  }
+}

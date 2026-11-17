@@ -1,0 +1,50 @@
+{
+  "attempt_id": "r32",
+  "consumed_seeds": [],
+  "evaluation_reuse": true,
+  "input_hashes": {
+    "artifacts\\week6\\E1_INPUT_SEAL_2026-09-26.json": "50aca35d1a588e08963e3ca35748fb345ffbbfff4da4abe5f8b9663103e7b3e4",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\core_run_results.csv": "da81b71c38bd437085ee4ae8b40671f1a5a432e21f43869ede1b26bdbc620b0b",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\deterministic_control_core_run_results.csv": "8956371bd9a4c0ffa924b4d0d8933e61483b4c5517c1f1843897a32fdb536f7a",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\deterministic_control_return_inner_scores.csv": "e04467f8fa979f2fd20e291498a38419f45c3f2ebb09a29a8f18ff35a9fcad55",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\deterministic_control_return_oof_predictions.csv": "c002141a77780e30eb2b44272b74a79e5e281721ae4c0ff1ec7d3cbb9b7b66cd",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\deterministic_control_selector_decisions.csv": "bd615d6756fe0c953fdf9d5e7f5c8117f1a3949907428fb04285e4bd4a8f130b",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\e1_execution_summary.json": "8f044ccaeac61c20177ecf3aca7b7972b30b757fd20d725f732d6701d4484552",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\external_run_results.csv": "b759f96b2e008ab2be32b451a419fc7ec40f929058e13d79bb2e5dae30ab5e86",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\pilot_features\\feature_seal.json": "3d62e4be4b8984cc7053777c8becb7910cfafc12e345b91d47d414913b9f73a4",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\pilot_features\\features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\stochastic_primary_core_run_results.csv": "61c025411b7fbc261dea6769a6fc60b8ea683422eb1c867e13bca1bcd83a7608",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\stochastic_primary_return_inner_scores.csv": "9b7feb403e4a99eec3825734a3805284a523f442b8a6749e21b1510eb8dc3f40",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\stochastic_primary_return_oof_predictions.csv": "a8c17ce8a613af9f48c94ddb0a5af8eb011a5d2529361cf7f9ddbcf63e42e364",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\stochastic_primary_selector_decisions.csv": "3797a9ce42bd57ccc40593dfe0e9573a15037285b1d0e2d6b5c8c209f991e156",
+    "artifacts\\week6\\oehv4e_confirmatory_v1_1\\x10_method_comparison.csv": "5a82c531f02106308520f97170c18acd6f94117d0d4c84c39ac59a466cb8a152",
+    "datasets\\week6_e1_oehv4e_confirmatory_v1_1\\manifest.json": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+    "docs\\protocol\\WEEK6_T1_STATISTICAL_FREEZE_v1.1.0.json": "316b144afb951d04984c976d9c575756da154b4baa3b0020500684ffe3a8eca6"
+  },
+  "new_mdps_generated": 0,
+  "posthoc_consumed_e1": true,
+  "reason_codes": [
+    "UNCERTAIN_SR_VS_CFQI"
+  ],
+  "runtime_seconds": 1515.6424819999957,
+  "source_hashes": {
+    "code/oeh_batch_endpoints.py": "c8ab1790e3a395c981aafa8f864ab49ac7a1941471248a4368d65b1c430729c2",
+    "code/return_selection.py": "ec7b4713f08d28c43762e44e338e648012d2642895b02c3968839b2a337fe70c",
+    "code/stochastic_evaluation.py": "0caf3d0687da6d2ee0d09be0a585be6b2d2071f0ec680cd7709897a59bfbc1d9",
+    "config/protocol_config.py": "4c0e722045ca671cb4a7a062647bc028da5a25ab4379945b0b2059bfa3d257ff",
+    "docs\\protocol\\OEH_BATCH_ENDPOINTS_R32_2026-09-29.json": "3ffec6932b5744f252f5dd69082c46ba657e09f064728299f0af0660ae0b2457",
+    "evaluation/aggregation/folds.py": "080252afe9485d5abbb491c41f3b4e6cbb19873ae44c8bbc6c1490b9680abad9",
+    "evaluation/e1_reuse.py": "c8da1c6d4f702aa98e2bc70fddcefde6ebeb9aa256135e2cb170c067ccd1d28e",
+    "evaluation/io.py": "5c31157a8df80d490164d322b36ce234a0615c7f95b8d0c0123d44917d7e0cda",
+    "evaluation/withdrawal.py": "422d5c424b5625b23eabc8535086cc112b40eae11a05ce6fbaba9d2b4e6c7042",
+    "protocol_config.json": "12b278f73693d38a2e3e558362d6c0c46cce367153ee2d24bdbe40c5a5331bec",
+    "scripts/analysis/run_oeh_e1_reuse.py": "c72ff7b7ee16068952f394d8f07a3cc088ad114cb7a8d0438eae8c0052410b6f",
+    "scripts/training/run_empirical_requirement.py": "2f869d03376b4ebcc7cbe6c499780eefce20db3b87e374181a283d3cb391c985",
+    "tests/test_e1_reuse.py": "d55d6f5672dd1834ddf114a31becc0d90e980558eb50e2da35b3f8542497ef7e",
+    "tests/test_e1_reuse_runner.py": "002ef0214a3a2307892668773c8935de4a8c629cd32195518dc3a374269ffa5e",
+    "tests/test_e1_reuse_seals.py": "3875bec599469cda0ab3925c8e0bcfad0891f54e483ce41c621c97b970c1d524",
+    "tests/test_oeh_batch_endpoints.py": "525d160c4388df63888fc005de9976705f56817707beed71bee6c06c87ae0d86",
+    "tests/test_oeh_withdrawal.py": "f6084a6a207b210a1621d14bf96b87dd9e378293b8c1f87b06a38b04667fae34"
+  },
+  "status": "withdrawn"
+}

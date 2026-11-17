@@ -1,0 +1,569 @@
+{
+  "schema": "oeh-independent-validation-v1",
+  "status": "protocol_frozen_before_new_mdp_materialization_or_outcomes",
+  "cohort": "60 new MDPs under original benchmark recipe distributions; not a new 120-MDP E1",
+  "recipe_namespace": "oeh-unseen-validation-v1-20260930",
+  "requested_specs": [
+    {
+      "instance_id": "validation_uniform_garnet_000",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 194311442,
+      "ordinal": 2,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "validation_uniform_garnet_001",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 553132627,
+      "ordinal": 9,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "validation_uniform_garnet_002",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 155470855,
+      "ordinal": 22,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "validation_uniform_garnet_003",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 505964160,
+      "ordinal": 26,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "validation_uniform_garnet_004",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 389914935,
+      "ordinal": 37,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "validation_uniform_garnet_005",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 598164549,
+      "ordinal": 42,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "validation_uniform_garnet_006",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 325014661,
+      "ordinal": 46,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "validation_uniform_garnet_007",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 437484209,
+      "ordinal": 49,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "validation_uniform_garnet_008",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 606909608,
+      "ordinal": 57,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "validation_uniform_garnet_009",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 657608606,
+      "ordinal": 62,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "validation_uniform_garnet_010",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 578391967,
+      "ordinal": 77,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "validation_uniform_garnet_011",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 455672549,
+      "ordinal": 86,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "validation_uniform_garnet_012",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 806563611,
+      "ordinal": 93,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "validation_uniform_garnet_013",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1075135247,
+      "ordinal": 97,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "validation_uniform_garnet_014",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1004536440,
+      "ordinal": 117,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "validation_forward_layered_000",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1068296189,
+      "ordinal": 7,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "validation_forward_layered_001",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 790994234,
+      "ordinal": 11,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "validation_forward_layered_002",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1086501261,
+      "ordinal": 14,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "validation_forward_layered_003",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 838577388,
+      "ordinal": 27,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "validation_forward_layered_004",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 621124531,
+      "ordinal": 34,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "validation_forward_layered_005",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 795067650,
+      "ordinal": 40,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "validation_forward_layered_006",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 381328399,
+      "ordinal": 51,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "validation_forward_layered_007",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 1036277094,
+      "ordinal": 58,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "validation_forward_layered_008",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 587673232,
+      "ordinal": 64,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "validation_forward_layered_009",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 387562398,
+      "ordinal": 67,
+      "family_ordinal": 20
+    },
+    {
+      "instance_id": "validation_forward_layered_010",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 497330025,
+      "ordinal": 71,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "validation_forward_layered_011",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 518834277,
+      "ordinal": 74,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "validation_forward_layered_012",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 238993568,
+      "ordinal": 78,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "validation_forward_layered_013",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 638900667,
+      "ordinal": 84,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "validation_forward_layered_014",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 501267241,
+      "ordinal": 87,
+      "family_ordinal": 26
+    },
+    {
+      "instance_id": "validation_forward_layered_015",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 913873582,
+      "ordinal": 94,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "validation_forward_layered_016",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 250887064,
+      "ordinal": 100,
+      "family_ordinal": 30
+    },
+    {
+      "instance_id": "validation_forward_layered_017",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 627410349,
+      "ordinal": 114,
+      "family_ordinal": 34
+    },
+    {
+      "instance_id": "validation_bottleneck_000",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 321720976,
+      "ordinal": 3,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "validation_bottleneck_001",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 1023200753,
+      "ordinal": 10,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "validation_bottleneck_002",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 595075349,
+      "ordinal": 23,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "validation_bottleneck_003",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 610058747,
+      "ordinal": 36,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "validation_bottleneck_004",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 909163301,
+      "ordinal": 43,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "validation_bottleneck_005",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 886489541,
+      "ordinal": 70,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "validation_bottleneck_006",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 603359951,
+      "ordinal": 90,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "validation_bottleneck_007",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 677218838,
+      "ordinal": 103,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "validation_bottleneck_008",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 733865087,
+      "ordinal": 116,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "validation_lock_structured_000",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 505633603,
+      "ordinal": 5,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "validation_lock_structured_001",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 710065545,
+      "ordinal": 8,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "validation_lock_structured_002",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 506267725,
+      "ordinal": 28,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "validation_lock_structured_003",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 100594826,
+      "ordinal": 39,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "validation_lock_structured_004",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 133881197,
+      "ordinal": 41,
+      "family_ordinal": 12
+    },
+    {
+      "instance_id": "validation_lock_structured_005",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 782726234,
+      "ordinal": 45,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "validation_lock_structured_006",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 584623986,
+      "ordinal": 48,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "validation_lock_structured_007",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 171817700,
+      "ordinal": 52,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "validation_lock_structured_008",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 651078711,
+      "ordinal": 55,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "validation_lock_structured_009",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 637234741,
+      "ordinal": 61,
+      "family_ordinal": 18
+    },
+    {
+      "instance_id": "validation_lock_structured_010",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 619423014,
+      "ordinal": 65,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "validation_lock_structured_011",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 735908730,
+      "ordinal": 72,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "validation_lock_structured_012",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 926029524,
+      "ordinal": 85,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "validation_lock_structured_013",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 737414574,
+      "ordinal": 88,
+      "family_ordinal": 26
+    },
+    {
+      "instance_id": "validation_lock_structured_014",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 195978113,
+      "ordinal": 92,
+      "family_ordinal": 27
+    },
+    {
+      "instance_id": "validation_lock_structured_015",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 170602539,
+      "ordinal": 95,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "validation_lock_structured_016",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 701629165,
+      "ordinal": 99,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "validation_lock_structured_017",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1045215397,
+      "ordinal": 112,
+      "family_ordinal": 33
+    }
+  ],
+  "family_counts": {
+    "uniform_garnet": 15,
+    "forward_layered": 18,
+    "bottleneck": 9,
+    "lock_structured": 18
+  },
+  "primary_families": [
+    "uniform_garnet",
+    "forward_layered",
+    "bottleneck"
+  ],
+  "control_family": "lock_structured",
+  "mdp_count": 60,
+  "primary_count": 42,
+  "control_count": 18,
+  "pilot_size_multipliers": [
+    2,
+    5,
+    10
+  ],
+  "training_size_multiplier": 10,
+  "pilot_seed_indices": [
+    0
+  ],
+  "training_seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "behavior_families": 5,
+  "horizon": 100,
+  "gamma": 0.95,
+  "candidate_methods": [
+    "cfqi_tabular",
+    "iql_tabular",
+    "behavior_cloning_tabular",
+    "pib_spibb_n10_author",
+    "vi_lcb_cb005_author_empirical",
+    "discrete_bcq_author",
+    "discrete_cql_d3rlpy"
+  ],
+  "meta_training": "all sealed E1 x10 labels/pilot features; stochastic and control models fit separately",
+  "query_information": "pilot-only features for three core anchors plus public predeclared benchmark family stratum; no new training/evaluation outcomes or oracle dynamics",
+  "routing": "frozen quadratic paired forecasts, four grouped inner folds, original ridge grid, equal two-block ensemble and joint batch frontier; original fold-0 inner-CV salt fixed before validation",
+  "primary_endpoints": [
+    "mean_normalized_return",
+    "seed_success_at_normalized_return_ge_0.95"
+  ],
+  "primary_comparison": "OEH minus each of seven fixed learners on identical MDP-behavior-training seeds; all outcomes retained",
+  "success_rule": "both endpoints must have positive simultaneous one-sided 95% whole-MDP bootstrap lower bounds against all seven fixed learners",
+  "uncertainty": "2000 whole-MDP bootstrap draws, seed 20260921, one-sided max-error simultaneous lower bounds across 14 contrasts; no model refits on validation outcomes",
+  "analysis_unit": "MDP; average 10 seeds within behavior, 5 behaviors within MDP, then average MDPs equally",
+  "additional_targets_descriptive": [
+    "OEH mean normalized return >0.8",
+    "OEH success rate >0.5"
+  ],
+  "no_retuning_or_interim_endpoint_access": true,
+  "original_e1_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "original_generator_source_sha256": "f66b0b2fd00a15bdc76bc3076bc1c74ec93a19cee49e39f1d881756f1ec04f7c",
+  "runner_sha256": "950170a799c9db180e1e131c4f1129453a7b88d1d27d40abbc8adc5cf30bb241",
+  "input_source_sha256": {
+    "code/oeh/unseen.py": "fd02a4ae55917321f3393771c28ab54d3a4a85e81e31470e8aa211d6953f38fc",
+    "code/oeh/core.py": "1a5e12f8b34d7d4760fdbd9d9d92b321f09d8741fcb8bbac5bd2852d61d4be9e",
+    "code/oeh/router.py": "16dc68076b0fe502510dc6407c5a81795a408f32ffe09ef2bfd53909a5d9035c",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/core_run_results.csv": "da81b71c38bd437085ee4ae8b40671f1a5a432e21f43869ede1b26bdbc620b0b",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/external_run_results.csv": "b759f96b2e008ab2be32b451a419fc7ec40f929058e13d79bb2e5dae30ab5e86",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "tmp/oeh_development_2026-09-30/evaluation/e1_pipeline.py": "6c89d5c545197aa7bff068f67c22ae858d28d5103042b5f3dbef6a6f2ca1ae2c",
+    "tmp/oeh_development_2026-09-30/evaluation/e1_external.py": "50c52afa764ba5423b958973910eb4253651035d18afa7c3200676947c97f5eb",
+    "tmp/oeh_development_2026-09-30/scripts/data/generate_week6_e1_bundle.py": "0475ae895711727902e82b0d636617e10dc764f5d701b251c3c05730933d2303",
+    "artifacts/provenance/sources/evaluation/e1_reuse.py": "c8da1c6d4f702aa98e2bc70fddcefde6ebeb9aa256135e2cb170c067ccd1d28e",
+    "scripts/analysis/run_unseen_validation.py": "950170a799c9db180e1e131c4f1129453a7b88d1d27d40abbc8adc5cf30bb241",
+    "scripts/analysis/prepare_unseen_validation.py": "d3fa13d54175d51b8dfad3b6c8217296adcefac8931dc26e7246865f61302e96"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "status": "posthoc_original_E1_adaptively_reused_not_confirmation",
+  "mdps": 120,
+  "labels": 1800,
+  "pilot": "x10 E1 pilot diagnostics",
+  "target": "first sustained >=8/10 successes at normalized return >=0.95 across x1,x2,x5,x10,x20,x50; >x50 right censored",
+  "panels": {
+    "primary_stochastic": 84,
+    "control": 36
+  },
+  "information_access": "data-only pilot features; no oracle transition kernels",
+  "warning": "Coverage/quality adaptations are not exact TQ/SACo: matched reference datasets are unavailable.",
+  "source": "https://proceedings.mlr.press/v199/schweighofer22a.html",
+  "input_hashes": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/difficulty_e1_posthoc_2026-09-30/predictions.csv": "dbe98211fb96b6e2b74cb096d889d0e39773ba94d1a5dcd42ec2f8141f205814"
+  },
+  "shared_prediction_verification": "all 3600 B2/B2+OEH probability vectors match the earlier E1 audit within 1e-15 before CSV serialization",
+  "folds": "same MDP-grouped SHA256 modulo 5 folds as prior E1 difficulty audit; fitted within each panel and learner",
+  "features": {
+    "coverage_adaptation": [
+      "log_state_action_count",
+      "log_pilot_transitions",
+      "observed_sa_fraction",
+      "observed_state_fraction"
+    ],
+    "quality_adaptation": [
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction"
+    ],
+    "coverage_quality_adaptation": [
+      "log_state_action_count",
+      "log_pilot_transitions",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction"
+    ],
+    "b2_generic": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "b2_plus_oeh": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_log1p_requirement",
+      "lcoeh4_requirement_censored",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ]
+  },
+  "xgboost_version": "3.3.0",
+  "xgboost_params": {
+    "objective": "survival:aft",
+    "eval_metric": "aft-nloglik",
+    "aft_loss_distribution": "normal",
+    "aft_loss_distribution_scale": 1.2,
+    "tree_method": "hist",
+    "learning_rate": 0.05,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "lambda": 1,
+    "seed": 20260930,
+    "nthread": 1,
+    "verbosity": 0
+  },
+  "rounds": 200,
+  "script_sha256": "9e34f2423cd68f0b2bcf097a79d679857e7fb3dc5e5fa8e056de1385d9763da9",
+  "uncertainty": "2000 whole-MDP resamples of fixed out-of-fold predictions; conditional descriptive intervals",
+  "output_hashes": {
+    "comparison.csv": "83f5140cc1a8e3bf27acdf7fd8cca216254acf79929f459a1257539b4a8c75dc",
+    "predictions.csv": "57013ca9056e10f10683fe526b205bb505e70907b5c41d2fed6fcf9c5801e99b",
+    "paired_bootstrap.csv": "910d6ffd21eeb91a42bb45af72494d1c76fb6de5855e5067cbc40577fe3ebdfd"
+  }
+}

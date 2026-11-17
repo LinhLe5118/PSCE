@@ -1,0 +1,9 @@
+{
+  "status": "development_only_two_opened_cohorts_not_confirmation",
+  "fit_cohort": "first_open_stochastic_primary",
+  "score_cohort": "second_open_stochastic_primary",
+  "oeh_weight": 0.8119140532763657,
+  "first_open_logloss": 0.6573838118896197,
+  "source_sha256": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957",
+  "script_sha256": "81861e419964df24db2fa592a35bc27b8a88b57b3060809730b9bd9551fe90d9"
+}

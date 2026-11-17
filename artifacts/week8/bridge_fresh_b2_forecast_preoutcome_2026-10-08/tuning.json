@@ -1,0 +1,29 @@
+{
+  "primary/behavior_cloning_tabular": {
+    "aft_direct_multi": [
+      0.028835237897264318,
+      0.12025647676609266,
+      0.850908285336643
+    ],
+    "oof_logloss": 0.2647428754331016,
+    "capacity": "depth3_200"
+  },
+  "primary/cfqi_tabular": {
+    "aft_direct_multi": [
+      0.12331020928640736,
+      0.16636024717231276,
+      0.7103295435412799
+    ],
+    "oof_logloss": 1.167516871931276,
+    "capacity": "depth3_200"
+  },
+  "primary/iql_tabular": {
+    "aft_direct_multi": [
+      0.07798857416341451,
+      0.017287663810495894,
+      0.9047237620260896
+    ],
+    "oof_logloss": 0.5442102349268919,
+    "capacity": "depth3_200"
+  }
+}

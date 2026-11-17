@@ -1,0 +1,21 @@
+{
+  "status": "blinded_additional_comparator_frozen_before_analyst_opened_fresh_outcomes",
+  "timing": "Added after learner execution started; not in original registered gate",
+  "registered_gate_unchanged": true,
+  "new_60_mdp_outcome_files_read_by_this_script": false,
+  "created_at_utc": "2026-09-30T19:55:19.663430+00:00",
+  "confirmation_protocol_sha256": "b5bc0ecc0fc5917c902d181ebba87e1331b3b85d4f3a0893e8e550d3d6bca272",
+  "confirmation_preoutcome_seal_sha256": "3fa86f25a9b3270a51ac9f01461a18b2f0d06703ccb0ee3d25de0db8c8381f4f",
+  "architecture_development_manifest_sha256": "40567bf6066419d3b2e18966526b7f431d3bcf86f729e0bda0bfee74b9bb017d",
+  "weight_on_direct": 0.47474412074808564,
+  "source_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/predictions_preoutcome.csv": "cbeba8341db5f446795de7965657b5688e20420b8f54140f1c12f1597412d6c9",
+    "artifacts/oeh_difficulty_architecture_control_2026-10-01/manifest.json": "40567bf6066419d3b2e18966526b7f431d3bcf86f729e0bda0bfee74b9bb017d"
+  },
+  "script_sha256": "a621a156832bab42975f0f813914f0a6ba5dbc1e3625e0a0dad322378edcda1c",
+  "predictions_sha256": "3be1c9b235516ceab1328e031f318b92f1dedfe7516d28ea05b143f2fdd5fb2f",
+  "rows": 900
+}

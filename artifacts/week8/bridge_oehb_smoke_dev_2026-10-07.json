@@ -1,0 +1,46 @@
+{
+  "status": "DEVELOPMENT_OEHB_SMOKE_ONLY_NO_TEST_LABEL",
+  "task": "MiniGrid-LavaGapS5-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+  "script_sha256": "02a2be0df392f9c03ca812b811467242810ef4794f9fc2231b0725b9bb0edc2d",
+  "pilot_transitions": 8460,
+  "draws": 8,
+  "gamma": 0.99,
+  "structure": {
+    "reward_prior": "unseen_zero",
+    "transition_base": "uniform",
+    "behavior_prior": "mixture"
+  },
+  "seconds": 299.922,
+  "learner_law": {
+    "cfqi_tabular": [
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.7391304347826086
+    ],
+    "iql_tabular": [
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.7391304347826086
+    ],
+    "behavior_cloning_tabular": [
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.043478260869565216,
+      0.7391304347826086
+    ]
+  },
+  "warning": "Smoke draw count 8 differs from frozen 64; no independent test outcome read."
+}

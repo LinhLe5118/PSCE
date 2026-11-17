@@ -1,0 +1,33 @@
+{
+  "status": "exploratory_two_opened_cohorts_cross_fit_not_independent_confirmation",
+  "training": "historical E1 plus the other opened 60-MDP cohort; no query MDP overlaps",
+  "weights": {
+    "b2_three_way": {
+      "aft_direct_multi": [
+        0.2726902383282527,
+        0.01893708674908716,
+        0.7083726749226602
+      ],
+      "e1_oof_logloss": 0.6818232029355771
+    },
+    "oeh_three_way": {
+      "aft_direct_multi": [
+        0.33656142995769994,
+        0.011830789048800519,
+        0.6516077809934995
+      ],
+      "e1_oof_logloss": 0.652652372424559
+    }
+  },
+  "source_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_difficulty_three_way_development_2026-10-01/manifest.json": "4df64618c06ba6fe96295966e8bb155ed66643af39ba7deecf1939b67b6ef288",
+    "artifacts/oeh_difficulty_three_way_development_2026-10-01/predictions.csv": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957"
+  },
+  "script_sha256": "648260725ff9489fc688a2f29b94fa094bc993f338ce9230e3d7952c2b87faa3"
+}

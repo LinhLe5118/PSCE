@@ -1,0 +1,19 @@
+{
+  "status": "PRELABEL_POSTERIOR_MEMORY_AMENDMENT",
+  "test_labels_read": false,
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "oehb_script_sha256": "ad91e96fd5397d2e1354e634c9d607b94adf8bf0740ac59518b0283031a1d430",
+  "predictive_source_sha256": "6e780dca918c5d7816a4b235ae934b678cd8482f4dda29743b287e0181fa9908",
+  "single_chunk_test_sha256": "3a7f75165ec5322a423ef9968cd1ba10d97ea575796f834a6cc7ad3b02ab8083",
+  "single_chunk_test_result": "1 passed, 40 deselected; seeded three-draw fixture returned a reproducible seven-category forecast. This is a contract test, not bitwise parity with eight-draw chunking.",
+  "prelabel_seal_script_sha256": "eab2f13565eeb2aa3c85784da842ba402dbf32a3723af6e06f3ec0de940e3ed6",
+  "label_runner_script_sha256": "05dcb3ff165966bf34a4e63273cd3b89558b6256d8c7b8324b1fc85cb45a5ca7",
+  "generated_oehb_source_sha256_superseded": "86c8699aaf35dc85fbfd97fe5300cc8ff96cf43801bd84ae8e7535a014953e4b",
+  "posterior_chunk_draws": 1,
+  "total_posterior_draws": 64,
+  "posterior_seeds": 10,
+  "reason": "The largest selected task has 2386 states and four actions. Dense next-state counts for eight posterior draws and ten training streams alone require about 13.57 GiB, and the empirical transition tensor allocates another array of comparable size. This exceeds the laptop's usable RAM before streams, model draws and learners are counted.",
+  "scope": "Only the Monte Carlo execution chunk changes from eight draws to one draw in the prospective expanded OEH-B runner. The 64-draw total, ten streams, seeds, posterior distribution, learners, feature schema, success target, six budgets and evaluation labels remain unchanged. The seeded finite Monte Carlo realization may differ because chunk boundaries change random-number consumption; this is disclosed and is not claimed bitwise equivalent.",
+  "sealing": "All 25 OEH-B checkpoints and the full 75-row forecast must use this addendum hash before learner labels open. The OEH-B manifest is hashed into the full forecast manifest, which is hashed in the prelabel seal.",
+  "inference_scope": "Prelabel resource amendment, not a post-outcome retune; do not compare absolute Monte Carlo realizations across different BRIDGE panels as if the random draws were identical."
+}

@@ -1,0 +1,51 @@
+{
+  "frozen_at_utc": "2026-10-14T11:28:13.784632+00:00",
+  "rules": {
+    "oeh_s": {
+      "grid_T": [
+        1.0,
+        1.25,
+        1.5,
+        2.0
+      ],
+      "grid_eps": [
+        0.0,
+        0.01,
+        0.02,
+        0.05
+      ],
+      "criterion": "pooled lofo out-of-fold seven-class log loss of OEH current, primary panel",
+      "prior": "class distribution of the learner in the primary meta-training rows",
+      "enter_cohort8": "only if the chosen (T, eps) differs from (1, 0)",
+      "predeclared_fallback": "probability floor 0.005 for every class, renormalized (not fitted)"
+    },
+    "oeh_2t": {
+      "p_censored": "p_6 of OEH current",
+      "conditional": [
+        "B2 + legacy (prior_oeh_matched fields) on finite rows",
+        "OEH 108 fields on finite rows"
+      ],
+      "blend": "convex blend w * 2T + (1 - w) * OEH current, w in {0.25, 0.5, 0.75}",
+      "criterion": "mdp5 out-of-fold log loss; the candidate must also not raise integrated Brier",
+      "enter_cohort8": "best of {2T variants, blends} if it beats OEH current on mdp5 log loss and does not raise its IBS; otherwise no 2T candidate"
+    },
+    "lce": {
+      "fit": "logistic s(b) = sigmoid(a + c log b), c >= 0, Bernoulli loss on the four posterior prefix success rates (x1, x2, x5, x10)",
+      "law": "CDF_k = 0.005 + (1 - 2*0.005) s(x_k); mixed 0.99/0.01 with uniform",
+      "variants": [
+        "lce_raw (no meta-training)",
+        "b2_plus_lce (B2 + LCE quantities, matched head)"
+      ]
+    },
+    "cb": {
+      "fields": "log n_hat = log SA + log clipped C*; log C*; log clipped C*; log intrinsic bound; unsupported flag (posterior-mean model, the G4 producer)",
+      "variants": [
+        "cb_only (matched head)",
+        "b2_plus_cb"
+      ],
+      "infinite_cap": 25.0
+    }
+  },
+  "outer_salt": "cohort8-dev-outer|",
+  "source_sha256": "a14c618a41e378ae9a19870c161c960a1326993d48365befc27dfe492c455927"
+}

@@ -1,0 +1,32 @@
+﻿{
+    "status":  "EXECUTION_ACCELERATOR_FROZEN_AFTER_PRELABEL_SEAL",
+    "created_local":  "2026-10-07T22:20:28.7949168+07:00",
+    "comparison_mode":  "reduced",
+    "test_labels_read_before_accelerator":  true,
+    "rationale":  "Disjoint parallel tail tasks use the identical sealed one_group label kernel, seeds, budget grid, learners, and scorer; no forecast or endpoint change.",
+    "main_runner_still_active":  true,
+    "frozen_task_indices":  [
+                                {
+                                    "start":  8,
+                                    "stop_exclusive":  11
+                                },
+                                {
+                                    "start":  11,
+                                    "stop_exclusive":  14
+                                }
+                            ],
+    "task_ids":  [
+                     "MiniGrid-LavaGapS6-v0",
+                     "MiniGrid-LavaGapS7-v0",
+                     "MiniGrid-MultiRoom-N2-S4-v0",
+                     "MiniGrid-SimpleCrossingS11N5-v0",
+                     "MiniGrid-SimpleCrossingS9N2-v0",
+                     "MiniGrid-SimpleCrossingS9N3-v0"
+                 ],
+    "prelabel_protocol_sha256":  "c793f6139b46d6bd236695945e23f646c8943c0215a20c3c02c865ca94a0fd7e",
+    "main_runner_sha256":  "50cb8ee3eb56e5779df39700445983fbc71d1f4efce632316ece8712f29f7e29",
+    "label_kernel_sha256":  "d6093573f0e977b1091a202aba05da7a098aae1a8e3090f13e7f4eb61701d29f",
+    "worker_sha256":  "5207d17537ca27836194dbc89bcc94b8bcae56a67b01aca8922db95ba9cc1c53",
+    "prediction_files_unchanged":  true,
+    "outcome_driven_method_selection":  false
+}

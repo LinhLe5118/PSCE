@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE_BRIDGE_EXPANDED_FIVE_TASK_FULL_OEH_TRANSFER",
+  "tasks": 5,
+  "behaviors_per_task": 5,
+  "learners": 3,
+  "rows_per_forecaster": 75,
+  "role": "third-party published MDPs; team-generated offline pilots and labels",
+  "source_sha256": {
+    "protocol": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+    "prelabel_seal": "cedd3ef513fe7846fcf412fc49269c309f2ceb6be7fc8026282413532d8ed795",
+    "full_forecast_manifest": "744950af24fae0791f43303b0221857999f20efde6295caac92e9b319db20bb8",
+    "b2_internal_manifest": "3a4602e4d6cf8e46d53a62984ec4c146d85fa3ea60590054bb5f4e6dc618c193",
+    "published_cf_manifest": "d991c5959aca0792e06ce3b3f06ace2c6c81e0937d224fcd66f6d1b3a35ed1af",
+    "published_cf_full108_manifest": "03d3cf56a42914ebe78649a44da91f5eba84dbd7a5cf43a4e54f40b287c1fd38",
+    "original_scores_manifest": "744d266d7e29b079123e74f14a3e34315e509c20375583b1f34861c2022ae24b",
+    "labels_manifest": "8e1d1f2249226abeb3c3673b4530f971bb93d4660ecd418f5fbbb57b12f70320"
+  },
+  "source_script_sha256": "03dde9a1e1046ee2e5d01f5376b6c0d8a1a5a4e33d72590af0e1d7ebe69283be",
+  "output_sha256": {
+    "scored.csv": "107bc789e05873da1a072d70783393af6434be56bef5e52512942abfd150fa0f",
+    "summary.csv": "248de16ba26d4907da912ed4333155bc5f2627895e43194bcc992711401ba9d2",
+    "paired_task_bootstrap.csv": "b296ba8ae0cfb3a50c4470f8d236d01c88e4fb2a5086a6be5592e8be1fe2cdb3",
+    "original_rank_comparison.csv": "be514c20ab6f16b058db00a8713917ff1c8105334c2e76ea7b38d98a0e55d5aa",
+    "task_level_original_rank_comparison.csv": "f1318997b59daff4b54386290046977c9b25c87a17b565a0902e653ad647e76f",
+    "original_rank_paired_transfer.csv": "b317183e4b288cc7732ec4a6e594d91940f684ea5d709fcd72fadbec2eb51e05",
+    "RESULTS.md": "d59fda256b0822532575872eda3e53bdc797fe3b378cb0dedf323b1e97b94930"
+  }
+}

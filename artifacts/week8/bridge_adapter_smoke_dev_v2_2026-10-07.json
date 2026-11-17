@@ -1,0 +1,24 @@
+{
+  "status": "DEVELOPMENT_SMOKE_ONLY_NO_DIFFICULTY_LABEL",
+  "task": "MiniGrid-LavaGapS5-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+  "adapter_script_sha256": "7546394e38dca8d301b26f642e421fec349f21d739f4668129fb5d6fd3bc92dd",
+  "states": 113,
+  "actions": 6,
+  "pilot_transitions": 6780,
+  "observed_nonzero_reward": 1,
+  "observed_terminal": 425,
+  "adapter_seconds": 0.005,
+  "collect_seconds": 0.038,
+  "fit_seconds": {
+    "BC": 0.015,
+    "CFQI": 0.08,
+    "IQL": 0.188
+  },
+  "remaining": [
+    "finite-horizon normalized-return scoring",
+    "full OEH feature extraction",
+    "all budgets, seeds, behaviors and test MDPs"
+  ]
+}

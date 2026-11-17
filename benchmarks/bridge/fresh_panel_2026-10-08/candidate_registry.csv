@@ -1,0 +1,9 @@
+mdp_name,origin,base_states,sticky_states,actions,horizon,dense_p_r_mib,pilot_x10_transitions,x50_transitions_per_seed
+atlantis_10_fs30,atari,49,72,4,10,0.32,2880,14400
+atlantis_20_fs30,atari,471,715,4,20,31.2,28600,143000
+breakout_10_fs30,atari,238,413,4,10,10.41,16520,82600
+freeway_10_fs30,atari,198,322,3,10,4.75,9660,48300
+fruitbot_easy_l0_40_fs8,procgen,230,805,9,40,88.99,72450,362250
+fruitbot_easy_l2_40_fs8,procgen,161,559,9,40,42.91,50310,251550
+pong_20_fs30,atari,255,617,6,20,34.85,37020,185100
+qbert_10_fs30,atari,289,517,6,10,24.47,31020,155100

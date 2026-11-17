@@ -1,0 +1,66 @@
+{
+  "artifact_sha256": {
+    "core_run_results.csv": "da81b71c38bd437085ee4ae8b40671f1a5a432e21f43869ede1b26bdbc620b0b",
+    "deterministic_control_core_run_results.csv": "8956371bd9a4c0ffa924b4d0d8933e61483b4c5517c1f1843897a32fdb536f7a",
+    "deterministic_control_return_inner_scores.csv": "e04467f8fa979f2fd20e291498a38419f45c3f2ebb09a29a8f18ff35a9fcad55",
+    "deterministic_control_return_oof_predictions.csv": "c002141a77780e30eb2b44272b74a79e5e281721ae4c0ff1ec7d3cbb9b7b66cd",
+    "deterministic_control_selector_decisions.csv": "bd615d6756fe0c953fdf9d5e7f5c8117f1a3949907428fb04285e4bd4a8f130b",
+    "external_run_results.csv": "b759f96b2e008ab2be32b451a419fc7ec40f929058e13d79bb2e5dae30ab5e86",
+    "stochastic_primary_core_run_results.csv": "61c025411b7fbc261dea6769a6fc60b8ea683422eb1c867e13bca1bcd83a7608",
+    "stochastic_primary_return_inner_scores.csv": "9b7feb403e4a99eec3825734a3805284a523f442b8a6749e21b1510eb8dc3f40",
+    "stochastic_primary_return_oof_predictions.csv": "a8c17ce8a613af9f48c94ddb0a5af8eb011a5d2529361cf7f9ddbcf63e42e364",
+    "stochastic_primary_selector_decisions.csv": "3797a9ce42bd57ccc40593dfe0e9573a15037285b1d0e2d6b5c8c209f991e156",
+    "x10_method_comparison.csv": "5a82c531f02106308520f97170c18acd6f94117d0d4c84c39ac59a466cb8a152"
+  },
+  "core_fits": 108000,
+  "counts": {
+    "base_mdps": 120,
+    "behavior_groups": 600,
+    "logical_records": 37800,
+    "physical_buffers": 6600,
+    "training_prefixes": 36000
+  },
+  "external_fits": 24000,
+  "external_provenance": {
+    "commits": {
+      "discrete_bcq_author": "4876f7e5afa9eb2981feec5daf67202514477518",
+      "discrete_cql_d3rlpy": "38c34b6f99fde82875e2ad81d1ba1f7a7da34137",
+      "pib_spibb_n10_author": "833f32b642759111907d2c4d086d1ae1ce9d84cb",
+      "vi_lcb_cb005_author_empirical": "37858d392cf11a01ff5af4ef7815672ec0a36ca9"
+    },
+    "cuda_device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "methods": [
+      "pib_spibb_n10_author",
+      "vi_lcb_cb005_author_empirical",
+      "discrete_bcq_author",
+      "discrete_cql_d3rlpy"
+    ],
+    "runtime": {
+      "cuda_device": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "d3rlpy": "2.8.1",
+      "numpy": "2.5.1",
+      "python": "3.12.7",
+      "torch": "2.9.1+cu126",
+      "torch_cuda": "12.6"
+    },
+    "source_sha256": {
+      "d3rlpy_cql.py": "3fbbeb0f488db022b656cd4b7d6a900c163c17dd8f78ce629d011c7e0891160e",
+      "discrete_BCQ.py": "6c62cb96869cc43d914bdda16a292db95174d610ecb5b48fd83cdadc4b67f077",
+      "modelTransitions.py": "49eb668b232700bce0977762c194f92e63b2b6497cc685fb34dd6d6a9cd456c0",
+      "spibb.py": "bc5b0aa2e80cca7dc9ecd5b5b8cbf8e4588eb8e06003e038cbb27f06caebe0e5",
+      "vi_lcb.py": "64f324e8c5a4dab85756e185fc015b36f7bd0cf1d0fa0e445e1e20e44e93946e"
+    },
+    "source_type": {
+      "discrete_bcq_author": "author_repository_unmodified_learner",
+      "discrete_cql_d3rlpy": "pinned_d3rlpy_implementation",
+      "pib_spibb_n10_author": "author_repository_unmodified_core",
+      "vi_lcb_cb005_author_empirical": "discounted_paper_spec_port"
+    }
+  },
+  "manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "raw_outputs_preserved": true,
+  "run_id": "week6_oehv4e_confirmatory_v1_1",
+  "source_commit": "725cbdb589d810b4c852b9776f01db0b29afe3dc",
+  "statistical_analysis": "S1 separate; no interim endpoint used for retuning",
+  "status": "complete"
+}

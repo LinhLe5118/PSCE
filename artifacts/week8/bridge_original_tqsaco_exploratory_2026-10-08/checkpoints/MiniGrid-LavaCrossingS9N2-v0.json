@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-LavaCrossingS9N2-v0",
+  "seed": 1577459580,
+  "states": 764,
+  "actions": 6,
+  "transitions": 45840,
+  "online_reference_max_return": 0.1,
+  "online_reference_unique_pairs": 2367,
+  "online_reference_evaluations": 503,
+  "random_reference_mean_return": 0.005270092226613966,
+  "tq_denominator": 0.09472990777338604,
+  "source_mdp_sha256": "fb28fe26470cbf93b1b394be9a1080aaa3c0bff459b84301b1e9cf11a87cea64",
+  "pilot_sha256": {
+    "46ba18542f5da22d11de5120.npz": "d13f2ea996202af20c32f700a2b3c0111e82e4150855dab2265f20fc05ee4292",
+    "0f2a2aee6697c7affe076f95.npz": "94758c126f84284337dfec5cca13dac4a0ce12fcd26b8be974f6fc3d54282657",
+    "2be3f409de4f3a1e98886762.npz": "23d60121c3d5e1792f5b712788910e6e4a6ecce244298449168460b5faf24c54",
+    "ac609bd010fad7c1b9d3ea88.npz": "0db06a220901912995d347e6d8137052fc83286474736c83735dd41476899c0b",
+    "55a9391c3bfe399493311f44.npz": "f541ba62b266343a08b7c70ccbf88b8c270558799072e4d33616b7df3545a820"
+  },
+  "runtime_seconds": 517.5735695000039,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-LavaCrossingS9N2-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": 0.1689699050099133,
+      "tq_defined": true,
+      "saco_original": 1.5868187579214195,
+      "pilot_mean_return": 0.02127659574468085,
+      "pilot_pairs": 3756
+    },
+    {
+      "mdp_id": "MiniGrid-LavaCrossingS9N2-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": -0.055632823365785816,
+      "tq_defined": true,
+      "saco_original": 0.21630756231516687,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 512
+    },
+    {
+      "mdp_id": "MiniGrid-LavaCrossingS9N2-v0",
+      "policy_family": "structured_random",
+      "tq_original": -0.052870109878830084,
+      "tq_defined": true,
+      "saco_original": 0.20532319391634982,
+      "pilot_mean_return": 0.00026171159382360636,
+      "pilot_pairs": 486
+    },
+    {
+      "mdp_id": "MiniGrid-LavaCrossingS9N2-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": -0.04494828061916855,
+      "tq_defined": true,
+      "saco_original": 0.18969159273341782,
+      "pilot_mean_return": 0.0010121457489878543,
+      "pilot_pairs": 449
+    },
+    {
+      "mdp_id": "MiniGrid-LavaCrossingS9N2-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": 10.50069541029207,
+      "tq_defined": true,
+      "saco_original": 0.18208702999577525,
+      "pilot_mean_return": 1.0,
+      "pilot_pairs": 431
+    }
+  ]
+}

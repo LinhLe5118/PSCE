@@ -1,0 +1,12 @@
+{
+  "status": "complete_exploratory_late_added_comparator",
+  "comparison_scope": "Same architecture B2, not an original published estimator",
+  "result_sha256": "ed9a7325d399489ff916f7b04d1b87c53b7b87343541ff87f3a55514a28319e7",
+  "seal_sha256": "1ad2c9320bbace905f8c64813ce6a790d7aad0b303629c09a6608900500da458",
+  "script_sha256": "cebed00a9f7c1ea34fbf0d23d1dbc3c1377c82f1348963b1615f06f6c2017f0b",
+  "artifact_sha256": {
+    "scored_predictions.csv": "ef1f4b11141f3c1a6a34e7900f955d4956b9964202292db5a5f4b965e3283add",
+    "mdp_scores.csv": "0f5e6a6d5c84deb55f75f51832255b3d19ecd65e5039146f8c8645d1dde62dda",
+    "summary.json": "42072980a7aa0f72b69c519cc655d1f1033a70a090168145675c26d232b01536"
+  }
+}

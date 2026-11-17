@@ -1,0 +1,24 @@
+{
+  "status": "complete_exploratory_opened_cohort",
+  "source_sha256": {
+    "protocol.json": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "preoutcome_seal.json": "f83aca8c5e855b7a4c412fca5a7489575058f643d5fdcf25b28408c41aff5ea4",
+    "result_manifest.json": "63f8e5b281d07e83a2a0ef24fe7ec237074a9da83b7b0f0d54239dd344dbdd15"
+  },
+  "script_sha256": "51b2859a31c37dc7fc33a19cfd7cd00d823eb68499739eedb612de876ef9ebb3",
+  "matched_forecast_sha256": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+  "meta_training_rows": 10800,
+  "meta_training_mdps": 720,
+  "query_rows": 1800,
+  "query_mdps": 120,
+  "label": "exploratory: seventh cohort already opened; no new confirmatory claim",
+  "output_sha256": {
+    "feature_lineage.json": "8cd0594ef69acfe4b9879346ce4bcd1067137e09ba647195ec5998d559ee464d",
+    "predictions_before_label_read.csv": "6c03d35d1f546badc2d99696c6ee0455e36ef15d9a47119b1e73b2522c52fef9",
+    "prediction_seal.json": "e8f766f4f62ecb17cae8f5a3b7e056709e6d4220f9dfb322ce88cb76a8f70e83",
+    "scored.csv": "bd0a2bad013167bc31575b1f54985121f8c128ba491bcd9d3144f426748d1fd3",
+    "summary.csv": "ff89a6aeec8514812471e783e084ef312ffa2f503f0adf9b44db030b65616b8a",
+    "runtime.csv": "ab348c758508f548fe7261e5d873348b2a81ede9999f7ec4df55f02fa7af90a5",
+    "tuning.json": "85b21e0b9e42867699dea5909e8a848a85c7d096cccd4913d164ea8d669b64f1"
+  }
+}

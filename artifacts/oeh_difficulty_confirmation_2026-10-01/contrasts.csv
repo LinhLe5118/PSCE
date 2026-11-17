@@ -1,0 +1,11 @@
+panel,metric,baseline,candidate,mdps,mean_improvement,simultaneous_one_sided_lower_95
+primary,integrated_brier,train_frequency,oeh_blend,42,0.04638536684235645,0.02323962962832199
+primary,integrated_brier,coverage_adaptation,oeh_blend,42,0.04105536022371329,0.017715109219236087
+primary,integrated_brier,quality_adaptation,oeh_blend,42,0.0312162166014785,0.015006947137689186
+primary,integrated_brier,coverage_quality_adaptation,oeh_blend,42,0.02208003016471008,0.008035046270372805
+primary,integrated_brier,b2_generic,oeh_blend,42,0.012494109564925693,0.0017816814222692302
+primary,seven_class_log_loss,train_frequency,oeh_blend,42,0.2557695359757667,0.13524043568927802
+primary,seven_class_log_loss,coverage_adaptation,oeh_blend,42,0.4244323686639169,0.19633996358180344
+primary,seven_class_log_loss,quality_adaptation,oeh_blend,42,0.2820448710218463,0.12655121848776602
+primary,seven_class_log_loss,coverage_quality_adaptation,oeh_blend,42,0.21421637943216537,0.08491572118197621
+primary,seven_class_log_loss,b2_generic,oeh_blend,42,0.12358611022828789,0.027597821374245615

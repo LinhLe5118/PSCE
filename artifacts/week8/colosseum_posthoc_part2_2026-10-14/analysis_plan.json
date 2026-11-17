@@ -1,0 +1,15 @@
+{
+  "frozen_at_utc": "2026-10-14T11:51:53.007908+00:00",
+  "post_hoc": true,
+  "regeneration_audit": {
+    "groups": 360,
+    "pilot_sha256_match": 360,
+    "bundle_manifest_sha256": "f902493e5a81d6cecc4ff1dff7e280c1b7c9124baa9255f2ce27698c5de47f50",
+    "kernels": 120
+  },
+  "analyses": {
+    "amendment1_complete": "R.all_forecasts with the TQ/SACo original inputs; 22 contrasts (11 comparators x 2 metrics), team max-t rule (fixed se), 10,000 draws, seed 20261004; tiers as in cohort 7",
+    "cohort8_methods": "lce_raw, b2_plus_lce, b2_plus_cb, cb_only (matched head or none), oeh_s and oeh_2t with the parameters of cohort8_development selection.json; paired MDP deltas vs OEH, 10,000-draw percentile intervals, seed 20261014 (descriptive)"
+  },
+  "selection_sha256": "f440a27b8917f4e5f677d1b8def8944374116b0e9798d7af8aad9526d49257bb"
+}

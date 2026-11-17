@@ -1,0 +1,22 @@
+panel,group,role,source,mdps,primary_mdps,behaviors,groups,rows,budgets,jobs,sa_min,sa_max,censored_pct,gamma_horizon
+E1,meta,Meta-training,Project generator,120,84,5,600,1800,6,108000,12.0,256.0,70.23809523809523,0.95 / 100
+Validation-60 (1st),meta,Meta-training,Project generator,60,42,5,300,900,6,54000,12.0,256.0,72.06349206349206,0.95 / 100
+Validation-60 (2nd),meta,Meta-training,Project generator,60,42,5,300,900,6,54000,12.0,256.0,71.42857142857143,0.95 / 100
+Cohort 1,meta,Meta-training,Project generator,120,84,5,600,1800,6,108000,12.0,256.0,72.22222222222221,0.95 / 100
+Cohort 2,meta,Meta-training,Project generator,120,84,5,600,1800,6,108000,12.0,256.0,71.42857142857143,0.95 / 100
+Cohort 3,meta,Meta-training,Project generator,120,84,5,600,1800,6,108000,12.0,256.0,72.14285714285714,0.95 / 100
+Cohort 4,meta,Meta-training,Project generator,120,84,5,600,1800,6,108000,12.0,256.0,68.57142857142857,0.95 / 100
+Cohort 7,dev,Development / selection,Project generator,120,84,5,600,1800,6,108000,16.0,256.0,71.42857142857143,0.95 / 100
+Cohort 8,dev,Development / selection,Project generator,168,168,5,840,2520,6,151200,32.0,256.0,72.61904761904762,0.95 / 100
+Colosseum 2027,dev,Development / selection,Colosseum,72,72,5,360,1080,6,64800,20.0,245.0,72.77777777777777,0.95 / 100
+Colosseum 2028,dev,Development / selection,Colosseum,72,72,5,360,1080,6,64800,16.0,245.0,72.5925925925926,0.95 / 100
+SPIBB,dev,Development / selection,SPIBB author code,108,108,1,108,324,6,19440,200.0,200.0,69.1358024691358,0.95 / 100
+Behavior cohort (M3),dev,Development (rejected candidate),Project generator,168,168,3,504,1512,6,90720,,,71.0978835978836,0.95 / 100
+Final internal,final,Final test 1,Project generator,168,168,5,840,2520,8,201600,32.0,256.0,72.10317460317461,0.95 / 100
+Colosseum 2029,final,Final test 1,Colosseum,72,72,5,360,1080,8,86400,20.0,245.0,72.96296296296296,0.95 / 100
+SPIBB-2,final,Final test 1,SPIBB author code,108,108,1,108,324,8,25920,200.0,200.0,69.44444444444444,0.95 / 100
+Forest,final,Final test 1,MDPToolbox,48,48,5,240,720,8,57600,12.0,128.0,59.583333333333336,0.95 / 100
+FrozenLake,p5,Final test 2,Gymnasium,36,36,5,180,540,8,43200,64.0,196.0,100.0,0.95 / 100
+Gambler,p5,Final test 2,Sutton & Barto,36,36,5,180,540,8,43200,36.0,210.0,78.51851851851852,0.95 / 100
+MDP Playground,p6,Final test 3,MDP Playground,96,96,5,480,1440,8,115200,20.0,256.0,50.416666666666664,0.95 / 100
+labmaze,p6,Final test 3,labmaze,96,96,5,480,1440,8,115200,132.0,244.0,59.93055555555556,0.95 / 100

@@ -1,0 +1,140 @@
+{
+  "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY",
+  "random_path_manifest_sha256": "e285ec2d110e01ef2a878c7ef9d42eda2a37ee6de23f517faba85685e356a6f8",
+  "mdps": [
+    {
+      "mdp_name": "MiniGrid-Empty-5x5-v0",
+      "npz_sha256": "8e52d9dc8cf8e8fffe19f0eeef4128b84faacb3b52323459700da5e3b2f892f8",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-6x6-v0",
+      "npz_sha256": "6c954db842ce3a1bb035617ad670b1f015aefdd47fb78805bf180a27be989743",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-8x8-v0",
+      "npz_sha256": "0d992ad6e1fedfef2e99f825596ae5c4e5ca1bb069af3db016f68aa0e8352442",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-KeyCorridorS3R1-v0",
+      "npz_sha256": "2d19ccde47c9cb821aee1b41189510970ddb93d29d3f1c667a7b79fe32efd157",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS11N5-v0",
+      "npz_sha256": "55c2e5986cb4dd1fa36dfd9edaaa0f11f0c9b536dd109e43cc5516e204f05eaa",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N1-v0",
+      "npz_sha256": "182a80d2197c709ae36e3e70495956736ac515feadd51c74a917d0ecf121afd0",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N2-v0",
+      "npz_sha256": "fb28fe26470cbf93b1b394be9a1080aaa3c0bff459b84301b1e9cf11a87cea64",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N3-v0",
+      "npz_sha256": "4dfa06a5c5453c4b89728cee93c9610f41292890084bc3267853ae0c265b08f2",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS5-v0",
+      "npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS6-v0",
+      "npz_sha256": "3c4d6c33dbd8ea485a44f7b39179aed066243ef76cc234688995ab4dfe8d1ea7",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS7-v0",
+      "npz_sha256": "53114b71a2d3426584de905121c321cf9e66191792fe1e67c447008b28916327",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-MultiRoom-N2-S4-v0",
+      "npz_sha256": "84154e3c5512806852b14cd3a910b3a530a0edc5bd1ae8c2fab53918f391c1e9",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS11N5-v0",
+      "npz_sha256": "1ed8f3979826a13198b6cc835088eee838c75fe646c5958ef4b1ba16046b98a9",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N1-v0",
+      "npz_sha256": "e52f1d0f8d58bbdcb68a332ce6c863506ca9d259b294b12916a14d04b83b9607",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N2-v0",
+      "npz_sha256": "dcb6dcc8df0d8e801c12de6f7ac5956f503035d238b21cd2f7d2c6257df17ae5",
+      "steps": 100,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N3-v0",
+      "npz_sha256": "cb17c0284afe1ed19804406b9050938151896da63e50a53a22c35022cb5479d4",
+      "steps": 99,
+      "reward_events": 1,
+      "return": 1.0,
+      "status": "AUTHOR_GYM_GUIDED_PATH_PASS_ONLY"
+    }
+  ],
+  "reward_hit_mdps": 16,
+  "remaining": [
+    "exhaustive state mapping",
+    "offline log/label generation",
+    "full OEH feature and learner resource gate"
+  ]
+}

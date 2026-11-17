@@ -1,0 +1,21 @@
+{
+  "source_record": "https://zenodo.org/records/12556298",
+  "source_doi": "10.5281/zenodo.12556298",
+  "source_repo": "https://github.com/cassidylaidlaw/effective-horizon",
+  "source_dataset_readme": "https://github.com/cassidylaidlaw/effective-horizon/blob/main/data/bridge_dataset/README.md",
+  "source_dataset_readme_version": "v1.1.1",
+  "source_license": "CC-BY-4.0",
+  "source_zip": "bridge_dataset_v1.1.1.zip",
+  "source_zip_bytes": 28708843161,
+  "source_zip_md5": "7b67fe0bd15ab987114b1cb131178214",
+  "zip_index_tail_sha256": "3266c288b7a76c007e35abb289764ddf71e480264f43bdecf18dea000c063187",
+  "source_csv_md5": {
+    "summary.csv": "79259199613118464d36aad8d9b5867d",
+    "summary_sticky.csv": "eecc01108e0509c43b76c906883c7399"
+  },
+  "screen": "unshaped MiniGrid, sticky 0.25, S <= 1200, no outcome fields",
+  "max_sticky_states": 1200,
+  "base_minigrid_count": 33,
+  "candidate_count": 16,
+  "status": "published third-party MDP benchmark; metadata screen only; offline trajectories and adapter not yet prepared"
+}

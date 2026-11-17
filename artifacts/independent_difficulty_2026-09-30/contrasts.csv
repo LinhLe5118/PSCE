@@ -1,0 +1,6 @@
+panel,baseline,candidate,mdps,mean_brier_improvement,simultaneous_one_sided_lower_95
+primary,train_frequency,b2_plus_oeh,42,0.04872191381878227,0.032545979724913146
+primary,coverage_adaptation,b2_plus_oeh,42,0.0401830808913014,0.024007146797432277
+primary,quality_adaptation,b2_plus_oeh,42,0.036942298338163926,0.020766364244294806
+primary,coverage_quality_adaptation,b2_plus_oeh,42,0.018189394118079755,0.002013460024210635
+primary,b2_generic,b2_plus_oeh,42,0.007228151411472667,-0.008947782682396453

@@ -1,0 +1,1802 @@
+[
+  {
+    "mdp_id": "evaluation_lock_structured_001",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_001",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_001",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_001",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_001",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_005",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_005",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_005",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_005",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_005",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_008",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_008",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_008",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_008",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_008",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_012",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_012",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_012",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_012",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_012",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_015",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_015",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_015",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_015",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_015",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_019",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_019",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_019",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_019",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_019",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_021",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_021",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_021",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_021",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_021",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_025",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_025",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_025",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_025",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_025",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_028",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_028",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_028",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_028",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_028",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_032",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_032",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_032",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_032",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_032",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_035",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_035",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_035",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_035",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_035",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_039",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_039",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_039",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_039",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_039",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_041",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_041",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_041",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_041",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_041",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_045",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_045",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_045",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_045",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_045",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_048",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_048",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_048",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_048",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_048",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_052",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_052",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_052",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_052",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_052",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_055",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_055",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_055",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_055",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_055",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_059",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_059",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_059",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_059",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_059",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_061",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_061",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_061",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_061",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_061",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_065",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_065",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_065",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_065",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_065",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_068",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_068",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_068",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_068",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_068",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_072",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_072",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_072",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_072",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_072",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_075",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_075",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_075",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_075",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_075",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_079",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_079",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_079",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_079",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_079",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_081",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_081",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_081",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_081",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_081",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_085",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_085",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_085",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_085",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_085",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_088",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_088",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_088",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_088",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_088",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_092",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_092",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_092",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_092",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_092",
+    "outer_fold": 4,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_095",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_095",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_095",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_095",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_095",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_099",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_099",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_099",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_099",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_099",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_101",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_101",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_101",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_101",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_101",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_105",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_105",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_105",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_105",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_105",
+    "outer_fold": 1,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_108",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_108",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_108",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_108",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_108",
+    "outer_fold": 2,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_112",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_112",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_112",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_112",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_112",
+    "outer_fold": 3,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_115",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_115",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_115",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_115",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_115",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_119",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "perturbed_reward",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_119",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "q_star_softmax",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_119",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "shifted_dynamics",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_119",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "structured_random",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  },
+  {
+    "mdp_id": "evaluation_lock_structured_119",
+    "outer_fold": 0,
+    "panel": "deterministic_control",
+    "policy_family": "two_policy_mixture",
+    "predicted_paired_return": 0.0,
+    "predicted_paired_success": 0.0,
+    "reference_algorithm": "cfqi_tabular",
+    "selected_algorithm": "cfqi_tabular"
+  }
+]

@@ -1,0 +1,14 @@
+﻿{
+    "schema":  "execution_schedule_amendment_v1",
+    "reason":  "Parallelize disjoint sealed learner jobs after clean interruption of sequential runner",
+    "created_at_utc":  "2026-10-01T13:43:07.9072021Z",
+    "shards":  8,
+    "original_runner_completed_checkpoint":  500,
+    "original_runner_failure_exists":  false,
+    "protocol_sha256":  "c78ba456b413087982862e45fa4a2d29bdd3d89dba966acd75f91e16614d82cb",
+    "preoutcome_seal_sha256":  "8999afbcbe783e203a456317e555487459c99618724ac3d6a5a33a31de2f9770",
+    "execution_plan_sha256":  "766bffd2022d534ded2855d06700fa4f9d8c84102d82e10171ff82033b1e0f28",
+    "shard_worker_sha256":  "b855c338bd04945cb1c870f8dadbe2708db7c9b2fb061d7550357e6ff2bde472",
+    "method_data_forecasts_and_decision_rule_changed":  false,
+    "final_verification":  "Original runner evaluate --resume checks all 108000 jobs against frozen plan before analysis"
+}

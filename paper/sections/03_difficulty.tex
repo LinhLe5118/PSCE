@@ -1,0 +1,51 @@
+\section{Offline Effective Horizon}
+\label{sec:method}
+
+\OEH{} turns a pilot into a seven-class forecast in four stages: a Bayesian model of the MDP and the behavior is fitted to the pilot counts; signals are derived from this posterior and from the pilot; three fitted predictors map them to class probabilities; and a shift gate combines the predictors according to how far the pilot lies from the meta-training data.
+
+\textbf{Posterior-predictive learner simulation (OEH-B).} Pilot counts update Dirichlet models of the transition rows (uniform base, concentration by marginal likelihood) and of the behavior (a Dirichlet mixture). Observed reward keys keep their logged values and unobserved keys receive zero. For each of $B=64$ posterior draws, OEH-B simulates ten nested streams up to $x50$, trains the \emph{same} registered learner on the six prefixes, evaluates the policies exactly in the drawn MDP and applies Eq.~\eqref{eq:event}. With $B_{\rm eff}$ draws that pass the dynamic-range condition of the benchmark, the smoothed law is the Krichevsky--Trofimov estimate~\cite{krichevsky1981encoding}
+\begin{equation}
+\widehat p^{\,\rm B}_l(c)=\frac{\#\{b:E_l^{(b)}=c\}+\tfrac12}{B_{\rm eff}+\tfrac72},\qquad c=0,\ldots,6.
+\label{eq:posterior}
+\end{equation}
+OEH-B also records the simulated success rate and normalized return at each budget. Under coverage, concentration and genericity assumptions the idealized raw law converges to the true requirement law (supplement), but at $x10$ it is far from that regime and is poorly calibrated on its own, so it is an input to the fitted heads.
+
+\textbf{Planning-risk descriptor (OEH-H).} On the posterior-mean model, OEH-H starts from $Q_1=Q^{\bar\beta}$ and applies Bellman backups restricted to the modeled support. At depth $k$, with $\pi_k$ greedy, $\Delta_k(s,a)$ the backed-up gap to a competitor $a$, $L_k(s,a)$ its loss under $Q^{\pi_k}$ and $d^{\pi_k}_\rho$ the normalized discounted occupancy, the modeled regret at $N$ logged transitions is
+\begin{equation}
+\begin{aligned}
+w_k(s,a)&=\frac{d^{\pi_k}_\rho(s)\,L_k(s,a)}{(1-\gamma)(J^*-J_{\rm random})},\\
+\widetilde\ell_k(N)&=\sum_{s,a}w_k(s,a)\,
+\Phi\!\left(\frac{-\Delta_k(s,a)\sqrt N}{\sqrt{\nu_k(s,\pi_k(s))+\nu_k(s,a)}}\right),
+\end{aligned}
+\label{eq:risk}
+\end{equation}
+where $\nu_k$ propagates the Bellman-target variance divided by the logging visitation to first order, and the weighting follows the performance-difference identity~\cite{kakade2002approximately}. Inverting the risk against the return slack gives
+\begin{equation}
+h_{\rm H}=\min_{k:\,\mathrm{NR}(\pi_k)\ge\tau}\log_A\inf\{N\ge1:\widetilde\ell_k(N)\le\mathrm{NR}(\pi_k)-\tau\},
+\label{eq:oehh}
+\end{equation}
+over depths 1--100. OEH-H also reports the risk and an exponential missing-mass estimate at each budget, the return ceilings of the posterior-mean behavior and of the \emph{observed} support, and concentrability summaries. Eqs.~\eqref{eq:risk}--\eqref{eq:oehh} are descriptors, not finite-sample bounds.
+
+\textbf{Pilot diagnostics (D).} Two diagnostics read the pilot directly. An action-identification risk multiplies the performance-difference impact of confusing each supported top/runner-up pair by an empirical-Bernstein error tail~\cite{maurer2009empirical} and inverts it into a requirement. A cross-fit trains the actual learner on four of five hash-assigned trajectory folds at the nested pilot prefixes $x2$, $x5$, $x10$ and evaluates it in a pessimistically completed model of the held-out fold; the risk at three prefixes gives a contraction rate.
+
+\textbf{Features and predictors.} The 108 columns form eight lineage blocks: B2 generic statistics (G1, 18: size, coverage, entropy, return, bootstrap spread), OEH-B summaries of the row's learner (G2, 18), posterior concentrations (G3, 2), OEH-H descriptors (G4, 11) and risk profile (G5, 13), OEH-B laws of all three learners (G6, 18), and the diagnostics D of the row (G7, 10) and of all learners (G8, 18). A \emph{matched head} has three components fitted per learner: an XGBoost accelerated-failure-time model~\cite{barnwal2022aft} on the interval-censored budget, six monotone-projected threshold classifiers for $P(E_l\le j)$, and a multiclass model; convex weights minimize out-of-fold log loss over five MDP-grouped folds. \OEH{} fits three predictors with it: the \emph{full head} (OEH-F) on all 108 columns, a finite-only full head on the rows with $E_l<6$, and the \emph{robust head} on B2 + D (46 columns). Every matched comparator uses the identical procedure with its own features.
+
+\textbf{Scores.} With $F_{l,j}=\sum_{c\le j}p_{l,c}$, the registered scores are
+\begin{equation}
+\begin{aligned}
+\mathrm{IBS}&=\tfrac16\textstyle\sum_{j=0}^{5}\bigl(F_{l,j}-\mathbf 1\{E_l\le j\}\bigr)^2,\\
+\mathrm{LL}&=-\log\max(p_{l,E_l},10^{-12}),
+\end{aligned}
+\label{eq:scores}
+\end{equation}
+both proper and lower-is-better~\cite{gneiting2007strictly}; a censored row contributes six zero targets to the IBS and $p_{l,6}$ to the LL. The \emph{extrapolation endpoint} keeps only budgets the pilot cannot reach:
+\begin{equation}
+\begin{aligned}
+\mathrm{IBS}_{\ge}&=\tfrac13\textstyle\sum_{j=3}^{5}\bigl(F_{l,j}-\mathbf 1\{E_l\le j\}\bigr)^2,\\
+\mathrm{LL}_{\rm ext}&=-\log\max(\tilde p_{l,\tilde E_l},10^{-12}),
+\end{aligned}
+\label{eq:ext}
+\end{equation}
+where $\tilde p_l$ coarsens the forecast to $\{\le x10, x20, x50, >x50\}$.
+
+\input{sections/03b_shift_gate}

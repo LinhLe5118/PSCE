@@ -1,0 +1,20 @@
+{
+  "status": "development_only_open_60_mdp_not_independent_confirmation",
+  "candidate": "direct_oeh_global_oof_prior_calibration",
+  "promoted": false,
+  "coefficient": 0.2480729011873375,
+  "oof_logloss": 0.8285423031275635,
+  "coefficient_training": "E1 MDP-grouped out-of-fold log-loss only",
+  "input_sha256": {
+    "e1_labels": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "e1_features": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "development_labels": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "development_features": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "direct_predictions": "f97962cc99964b0d57b0b47a04176f88f28fb17215e934af2bd1540eb7ee2231"
+  },
+  "script_sha256": "8b19c87905d88e0f6dcccbbb7aa4ed2057da9385a8c8a6fd31fd81add4b0d051",
+  "artifact_sha256": {
+    "predictions.csv": "6887df62b9d9d3fc09e856b4f4be6ece2bfbe1a6f5d5e0cee0118fcd924a9b5b",
+    "scores.csv": "601ce11f3945d4587ac6b31dd0065970205b27cb9426e43d2fd22e08756750da"
+  }
+}

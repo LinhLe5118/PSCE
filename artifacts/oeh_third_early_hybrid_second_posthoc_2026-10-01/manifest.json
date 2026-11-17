@@ -1,0 +1,19 @@
+{
+  "status": "posthoc_opened_holdout_not_independent",
+  "alphas": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "note": "Candidate fixed before second outcomes; forecasts computed after outcome opening, so this is development evidence only.",
+  "third_protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "second_result_manifest_sha256": "a71c2c15f9b27942bbf85dcfc7d24c315ea20881224d72668e47d82746943eef",
+  "script_sha256": "33b183181d627495ff413469bedc7838343cab67636a37d42d10627652848739",
+  "artifact_sha256": {
+    "scored.csv": "c98e5bb0db7111ee151feaf60049ad7482bb1315966223ff2e744abcd8f23991",
+    "mdp_scores.csv": "24dc6265e9f0026e6412de81cfa387bf514b98dc2a74edbcf56e9d8ac191228d",
+    "summary.csv": "384b3d7be26792d461fdc42ac475fce6c91c6b3d0002542f21d89f060ee4a0b1",
+    "contrasts.csv": "5e0fe07a5647bcc76a5e036bc293b8edf17f76faeaf289ceed1944b5570c8c69"
+  }
+}

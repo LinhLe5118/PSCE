@@ -1,0 +1,17 @@
+{
+  "status": "exploratory_development_gate_not_independent_confirmation",
+  "mdps": 252,
+  "bootstrap_draws": 10000,
+  "simultaneous_critical": 1.9937229861206163,
+  "development_gate": "GO",
+  "candidate": "OEH cross-learner context with fixed B2 early-class log-ratio alpha 0.5",
+  "matched_comparators": [
+    "B2 same training/architecture/capacity",
+    "B2+full-MDP-oracle-EH same training/architecture/capacity"
+  ],
+  "input_sha256": {
+    "artifacts/oeh_early_hybrid_four_opened_development_2026-10-01/scored.csv": "f4cdc457006911fb52aab7569f60e0f4d1003f1e51af1694946f8e311acc525a"
+  },
+  "script_sha256": "9850d3ee82dd15d436e07a045d492308c0e92164776e28b026f0167b67cba558",
+  "contrasts_sha256": "d12f1725e1d41419eb5fc33ba66961d03bf65b413ba26de916cb7cb011fedbb9"
+}

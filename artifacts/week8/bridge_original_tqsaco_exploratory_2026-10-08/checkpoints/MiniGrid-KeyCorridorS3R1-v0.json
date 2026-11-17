@@ -1,0 +1,69 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_FORMULA_AUTHORS_DQN_REFERENCE",
+  "task": "MiniGrid-KeyCorridorS3R1-v0",
+  "seed": 1973872528,
+  "states": 963,
+  "actions": 6,
+  "transitions": 57780,
+  "online_reference_max_return": 0.0,
+  "online_reference_unique_pairs": 1878,
+  "online_reference_evaluations": 502,
+  "random_reference_mean_return": 0.0,
+  "tq_denominator": 0.0,
+  "source_mdp_sha256": "2d19ccde47c9cb821aee1b41189510970ddb93d29d3f1c667a7b79fe32efd157",
+  "pilot_sha256": {
+    "32671dd513bacbc282b8f1ec.npz": "ecad735ef4ed2a9c0558c98b7d55e5368b29038094408edd8abc01e8aae44e5f",
+    "6e04864493bedb570490db65.npz": "f6ce2149be143836afcd09ab8dbe27ca375ec7dcc010691693241fa445d512fe",
+    "5e20cedc7d00c6e5d99b9fd2.npz": "b16c8071d64f60bb2aaf11ed7a433726ae19b64d3b562a52671138456bd623af",
+    "ccf5c5f11adf96322e64185b.npz": "25689191b4de66307df1975d095d97a11608450c2fd3866a4148e2914972d0c9",
+    "c42c4340c25d191c2eaf326b.npz": "22506931f77b05acd621e97a92c2ae58f06d55b45cf5cc5d26dcc9dc6a8d7f86"
+  },
+  "runtime_seconds": 675.5227145000244,
+  "scores": [
+    {
+      "mdp_id": "MiniGrid-KeyCorridorS3R1-v0",
+      "policy_family": "q_star_softmax",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 1.354632587859425,
+      "pilot_mean_return": 0.005190311418685121,
+      "pilot_pairs": 2544
+    },
+    {
+      "mdp_id": "MiniGrid-KeyCorridorS3R1-v0",
+      "policy_family": "perturbed_reward",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.3333333333333333,
+      "pilot_mean_return": 0.010327022375215147,
+      "pilot_pairs": 626
+    },
+    {
+      "mdp_id": "MiniGrid-KeyCorridorS3R1-v0",
+      "policy_family": "structured_random",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.07561235356762513,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 142
+    },
+    {
+      "mdp_id": "MiniGrid-KeyCorridorS3R1-v0",
+      "policy_family": "two_policy_mixture",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.01810436634717785,
+      "pilot_mean_return": 0.0,
+      "pilot_pairs": 34
+    },
+    {
+      "mdp_id": "MiniGrid-KeyCorridorS3R1-v0",
+      "policy_family": "shifted_dynamics",
+      "tq_original": null,
+      "tq_defined": false,
+      "saco_original": 0.24866879659211927,
+      "pilot_mean_return": 1.0,
+      "pilot_pairs": 467
+    }
+  ]
+}

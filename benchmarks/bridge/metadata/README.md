@@ -1,0 +1,5 @@
+# BRIDGE metadata snapshot
+
+`summary.csv` and `summary_sticky.csv` were downloaded on 07/10/2026. Their MD5 checksums match [BRIDGE on Zenodo, version 1.1.1, DOI 10.5281/zenodo.12556298](https://zenodo.org/records/12556298). They are published by Cassidy Laidlaw and collaborators for the [Effective Horizon project](https://github.com/cassidylaidlaw/effective-horizon). The [dataset README](https://github.com/cassidylaidlaw/effective-horizon/blob/main/data/bridge_dataset/README.md) states CC-BY-4.0. Version 1.1.1 fixes corrupted NPZ files in 1.1. MD5 checksums are recorded and verified by `../prepare_metadata.py`.
+
+These two CSVs contain MDP summaries and author algorithm results. They are used **only for structural metadata** (`mdp_name`, `origin`, `type`, state/action counts, horizon) in the resource screen. Return, EH and learner results are never read for selection. The **published MDPs themselves constitute the third-party BRIDGE benchmark**. The files do not contain the offline pilot/training trajectories or BC/CFQI/IQL requirement labels for the group's distinct prediction task; these must be collected and reported as a new protocol on BRIDGE.

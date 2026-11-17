@@ -1,0 +1,43 @@
+panel,algorithm,metric,comparison_minus_b2,ci95_low,ci95_high,bootstrap_unit,comparison,delta,ci95_low_descriptive,ci95_high_descriptive
+MiniGrid-14 (reduced OEH),behavior_cloning_tabular,brier,0.0220977283992667,0.0071963855836313,0.0378025155592963,MDP task (five behaviors kept together),,,,
+MiniGrid-14 (reduced OEH),behavior_cloning_tabular,log_loss,0.1547254311264658,0.0401603194547267,0.2750779183004809,MDP task (five behaviors kept together),,,,
+MiniGrid-14 (reduced OEH),cfqi_tabular,brier,-0.0737955609406456,-0.0969818762358187,-0.049428372341231,MDP task (five behaviors kept together),,,,
+MiniGrid-14 (reduced OEH),cfqi_tabular,log_loss,-0.5925924200757138,-0.7443935747727988,-0.4291747693850652,MDP task (five behaviors kept together),,,,
+MiniGrid-14 (reduced OEH),iql_tabular,brier,-0.010137419419623,-0.0180502080120957,-0.002442718187854,MDP task (five behaviors kept together),,,,
+MiniGrid-14 (reduced OEH),iql_tabular,log_loss,-0.0695160336449394,-0.1264404895638529,-0.0118037489184945,MDP task (five behaviors kept together),,,,
+Atari-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.0316865897787332,-0.0832201318913474,0.0090820198982674
+Atari-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-0.0174010083903049,-0.0408272869203063,0.0023677711852026
+Atari-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-1.2209323387314677e-05,-0.0087872638649776,0.0079446830457289
+Atari-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.1157137314157221,-0.3406502385066871,0.1003823936260867
+Atari-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-1.8952857633326583,-5.708399987773908,0.0743881776595331
+Atari-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.9237320248246635,-2.879439413486573,0.0790021055883715
+Atari-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.0127275238521353,-0.0712020125527162,0.0355632641593557
+Atari-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-0.0078785447484651,-0.0692557133512143,0.0447534266397208
+Atari-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,0.0225498843257514,0.0036418554071877,0.0526169952454648
+Atari-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,0.0120841244927573,-0.5118095935189666,0.6099544458197866
+Atari-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-1.813099057755145,-6.1387060282748775,0.6730862316765048
+Atari-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.808169785579142,-2.682712003697285,0.2568412740088642
+Atari-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,0.063017581902781,0.0042221575032903,0.138822285595495
+Atari-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,0.0416325978547634,0.0022154444350695,0.094242556190855
+Atari-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.0049744254429005,-0.0357746251193435,0.0174070631556647
+Atari-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,0.4943886252428485,0.025712190420477,1.1207371564416044
+Atari-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,0.4609318391479388,0.0281760185208212,1.0266414828088783
+Atari-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,0.184592681455324,0.0343196639749181,0.4369930405235388
+Expanded-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,0.01086570195985,-0.0179655938850587,0.0414292543350348
+Expanded-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,0.0192910483527244,-0.0079387600010724,0.0512909600043597
+Expanded-5 (full OEH),behavior_cloning_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.0088962144180656,-0.0316915260087765,0.013893623946235
+Expanded-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,0.0599868923134629,-0.052265100484139,0.1722388851110649
+Expanded-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,0.1174575656717126,0.0059750055640294,0.2289401257793958
+Expanded-5 (full OEH),behavior_cloning_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.0927596589548464,-0.3091464759962693,0.1016845360635424
+Expanded-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.1316349343213231,-0.269436826595454,-0.0186754850044473
+Expanded-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-0.1129828605545133,-0.2267701944003587,-0.0163330379087346
+Expanded-5 (full OEH),cfqi_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-0.0316378849858107,-0.0844991290754903,-0.0022089233597146
+Expanded-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.5023040752131163,-1.013949456324208,0.0721979376032322
+Expanded-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-2.498764770314968,-4.5574422252093285,-0.5461058458856198
+Expanded-5 (full OEH),cfqi_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,-2.334493268408162,-4.147373648225164,-0.5216128885911587
+Expanded-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.0036585515514833,-0.03099648815664,0.0243979947149584
+Expanded-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,-0.0032596081441381,-0.0292547261502392,0.0239379047172168
+Expanded-5 (full OEH),iql_tabular,brier,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,0.0060872031566309,-0.0087022092235921,0.0216200340577934
+Expanded-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus b2_matched_internal_diagnostic,-0.0098752388463168,-0.0906482693046789,0.0760280672949444
+Expanded-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus published_xgboost_cf_2026_adapted_b2,0.0512611119944653,0.0117607096968903,0.1124254982319645
+Expanded-5 (full OEH),iql_tabular,log_loss,,,,"MDP task, keeping its five behaviors together",oeh_full_108 minus xgboost_cf_2026_full108_architecture_control,0.0524999220489184,0.0133660896428911,0.1057657105224333

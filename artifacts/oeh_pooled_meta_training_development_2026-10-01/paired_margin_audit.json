@@ -1,0 +1,41 @@
+{
+  "status": "exploratory_two_opened_cohorts_not_independent_confirmation",
+  "stochastic_mdps": 84,
+  "joint_contrasts": 4,
+  "bootstrap_draws": 10000,
+  "comparisons": {
+    "b2_pooled_meta": {
+      "brier": {
+        "baseline_mean": 0.06508864113075057,
+        "candidate_mean": 0.05536426120233555,
+        "relative_gain": 0.14940210395360087,
+        "mean_absolute_improvement": 0.009724379928415012,
+        "joint_simultaneous_lower_95": 0.004031396625663963
+      },
+      "logloss": {
+        "baseline_mean": 0.7073397416170144,
+        "candidate_mean": 0.6587360415151863,
+        "relative_gain": 0.06871337384595078,
+        "mean_absolute_improvement": 0.048603700101828164,
+        "joint_simultaneous_lower_95": 0.019580028236050543
+      }
+    },
+    "oeh_three_way": {
+      "brier": {
+        "baseline_mean": 0.059166532099123766,
+        "candidate_mean": 0.05536426120233555,
+        "relative_gain": 0.06426387962739033,
+        "mean_absolute_improvement": 0.0038022708967882057,
+        "joint_simultaneous_lower_95": 0.001429954140446092
+      },
+      "logloss": {
+        "baseline_mean": 0.6980889417680706,
+        "candidate_mean": 0.6587360415151863,
+        "relative_gain": 0.0563723300833473,
+        "mean_absolute_improvement": 0.039352900252884265,
+        "joint_simultaneous_lower_95": 0.020605126162614014
+      }
+    }
+  },
+  "matched_b2_development_gate": "GO"
+}

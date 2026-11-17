@@ -1,0 +1,22 @@
+{
+  "status": "SEALED_FRESH_ORIGINAL_SCALAR_SCORES_NO_TEST_LABELS",
+  "test_labels_read": false,
+  "tasks": 5,
+  "behavior_rows": 25,
+  "protocol_sha256": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+  "source_sha256": {
+    "pilot_manifest": "3fc5614ac220edf56c780c003adbdc8bf88509d0a15fcb8bfbf2b41d28e70a8b",
+    "author_sticky_summary": "a2b795f52c7fb75a3bb2e75d0f8c3339f2b1f6ee6804ca569e8341bd5cb3fc8c",
+    "published_formula_adapter": "5245bfdfe5529c63770e4db148a610598720aad76d1ab6aa9d1b9cc417f5d64c",
+    "script": "52d7fe0f737b4f07f8db932858f3d925f3bd4667f9d7a3114905ff8200725976"
+  },
+  "task_sha256": {
+    "atlantis_10_fs30": "d13b92729df51203b16de912fea70b480f8bb2c5fbf99bb5fb7bab3630f81415",
+    "atlantis_20_fs30": "b402f13ac1605a6239e3f149a0160ac932af419018f710bad80bbac0d909ea9e",
+    "breakout_10_fs30": "f9b2572fbd254d08cf65051a425379c742109c3833ea05f2c169fe2d30cbf04c",
+    "freeway_10_fs30": "73ce09a28e731c269e8cbb0ce36ad175aaae529b5564e065deb63a1f898e4d49",
+    "qbert_10_fs30": "a3471720a3cb59ed4bc9dd90209cff9a2870760a63f783ff96e3954b9a999e14"
+  },
+  "scores_sha256": "94c401771ec052945dacfb3c1d44fd446365571df64cbe42a0bc705c43529ca7",
+  "scope": "ERI pilot-only; EH author summary privileged true MDP; TQ/SACo original formulas with authors' online DQN reference on task-specific horizon and true MDP; all scalar rank comparisons only."
+}

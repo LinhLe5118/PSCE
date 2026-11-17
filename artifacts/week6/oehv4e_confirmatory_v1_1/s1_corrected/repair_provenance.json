@@ -1,0 +1,18 @@
+{
+  "e1_rerun": false,
+  "preserved_draw_multiplicities": true,
+  "preserved_survival_endpoints": [
+    "survival_B1",
+    "survival_B2",
+    "survival_B2_OEH3_LC_PMS"
+  ],
+  "reason": "original S1 return adapter omitted the registered salted inner-fold assignment",
+  "recomputed_return_endpoints": [
+    "v4e",
+    "fold_best_fixed"
+  ],
+  "source_checkpoint": "s1/bootstrap_checkpoint.json",
+  "source_checkpoint_sha256": "0984c1ee65e1924ec3a05da788a67a35457075b349507ce265c973a50de91d65",
+  "source_summary_sha256": "b4b7313ee15dc8fde67b508956715404f7abd5d7c27f69017e4d4fb0d12e62ab",
+  "source_verdict_sha256": "dec5249c9cbffa2931709ce31452b7baef64591ce73d6b79a92d52c55cac1672"
+}

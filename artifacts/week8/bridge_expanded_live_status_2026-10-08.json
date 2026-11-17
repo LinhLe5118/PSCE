@@ -1,0 +1,15 @@
+{
+    "updated_local":  "2026-10-13T04:26:20.5849033+07:00",
+    "phase":  "COMPLETE",
+    "pipeline_running":  false,
+    "feature_groups":  25,
+    "horizon_groups":  25,
+    "oehb_groups":  25,
+    "original_score_tasks":  5,
+    "label_groups":  25,
+    "total_groups":  25,
+    "total_original_tasks":  5,
+    "prelabel_seal":  true,
+    "labels_manifest":  true,
+    "analysis_manifest":  true
+}

@@ -1,0 +1,189 @@
+{
+  "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY",
+  "source_wrapper_sha256": "6223bba9495ee797f1538065f895c859b0909aff3c1d8d96da952ce0987f54ac",
+  "candidate_count": 16,
+  "mdps": [
+    {
+      "mdp_name": "MiniGrid-Empty-5x5-v0",
+      "file_sha256": "8e52d9dc8cf8e8fffe19f0eeef4128b84faacb3b52323459700da5e3b2f892f8",
+      "base_nonterminal": 36,
+      "actions": 3,
+      "sticky_nonterminal_upper": 108,
+      "time_aware_nonterminal_upper": 10800,
+      "dense_time_aware_P_R_gib": 5.22,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-6x6-v0",
+      "file_sha256": "6c954db842ce3a1bb035617ad670b1f015aefdd47fb78805bf180a27be989743",
+      "base_nonterminal": 64,
+      "actions": 3,
+      "sticky_nonterminal_upper": 192,
+      "time_aware_nonterminal_upper": 19200,
+      "dense_time_aware_P_R_gib": 16.48,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-Empty-8x8-v0",
+      "file_sha256": "0d992ad6e1fedfef2e99f825596ae5c4e5ca1bb069af3db016f68aa0e8352442",
+      "base_nonterminal": 144,
+      "actions": 3,
+      "sticky_nonterminal_upper": 432,
+      "time_aware_nonterminal_upper": 43200,
+      "dense_time_aware_P_R_gib": 83.43,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-KeyCorridorS3R1-v0",
+      "file_sha256": "2d19ccde47c9cb821aee1b41189510970ddb93d29d3f1c667a7b79fe32efd157",
+      "base_nonterminal": 168,
+      "actions": 6,
+      "sticky_nonterminal_upper": 1008,
+      "time_aware_nonterminal_upper": 100800,
+      "dense_time_aware_P_R_gib": 908.45,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS11N5-v0",
+      "file_sha256": "55c2e5986cb4dd1fa36dfd9edaaa0f11f0c9b536dd109e43cc5516e204f05eaa",
+      "base_nonterminal": 84,
+      "actions": 6,
+      "sticky_nonterminal_upper": 504,
+      "time_aware_nonterminal_upper": 50400,
+      "dense_time_aware_P_R_gib": 227.12,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N1-v0",
+      "file_sha256": "182a80d2197c709ae36e3e70495956736ac515feadd51c74a917d0ecf121afd0",
+      "base_nonterminal": 172,
+      "actions": 6,
+      "sticky_nonterminal_upper": 1032,
+      "time_aware_nonterminal_upper": 103200,
+      "dense_time_aware_P_R_gib": 952.22,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N2-v0",
+      "file_sha256": "fb28fe26470cbf93b1b394be9a1080aaa3c0bff459b84301b1e9cf11a87cea64",
+      "base_nonterminal": 132,
+      "actions": 6,
+      "sticky_nonterminal_upper": 792,
+      "time_aware_nonterminal_upper": 79200,
+      "dense_time_aware_P_R_gib": 560.83,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaCrossingS9N3-v0",
+      "file_sha256": "4dfa06a5c5453c4b89728cee93c9610f41292890084bc3267853ae0c265b08f2",
+      "base_nonterminal": 52,
+      "actions": 6,
+      "sticky_nonterminal_upper": 312,
+      "time_aware_nonterminal_upper": 31200,
+      "dense_time_aware_P_R_gib": 87.04,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS5-v0",
+      "file_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+      "base_nonterminal": 20,
+      "actions": 6,
+      "sticky_nonterminal_upper": 120,
+      "time_aware_nonterminal_upper": 12000,
+      "dense_time_aware_P_R_gib": 12.88,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS6-v0",
+      "file_sha256": "3c4d6c33dbd8ea485a44f7b39179aed066243ef76cc234688995ab4dfe8d1ea7",
+      "base_nonterminal": 52,
+      "actions": 6,
+      "sticky_nonterminal_upper": 312,
+      "time_aware_nonterminal_upper": 31200,
+      "dense_time_aware_P_R_gib": 87.04,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-LavaGapS7-v0",
+      "file_sha256": "53114b71a2d3426584de905121c321cf9e66191792fe1e67c447008b28916327",
+      "base_nonterminal": 84,
+      "actions": 6,
+      "sticky_nonterminal_upper": 504,
+      "time_aware_nonterminal_upper": 50400,
+      "dense_time_aware_P_R_gib": 227.12,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-MultiRoom-N2-S4-v0",
+      "file_sha256": "84154e3c5512806852b14cd3a910b3a530a0edc5bd1ae8c2fab53918f391c1e9",
+      "base_nonterminal": 60,
+      "actions": 6,
+      "sticky_nonterminal_upper": 360,
+      "time_aware_nonterminal_upper": 36000,
+      "dense_time_aware_P_R_gib": 115.88,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS11N5-v0",
+      "file_sha256": "1ed8f3979826a13198b6cc835088eee838c75fe646c5958ef4b1ba16046b98a9",
+      "base_nonterminal": 84,
+      "actions": 6,
+      "sticky_nonterminal_upper": 504,
+      "time_aware_nonterminal_upper": 50400,
+      "dense_time_aware_P_R_gib": 227.12,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N1-v0",
+      "file_sha256": "e52f1d0f8d58bbdcb68a332ce6c863506ca9d259b294b12916a14d04b83b9607",
+      "base_nonterminal": 172,
+      "actions": 6,
+      "sticky_nonterminal_upper": 1032,
+      "time_aware_nonterminal_upper": 103200,
+      "dense_time_aware_P_R_gib": 952.22,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N2-v0",
+      "file_sha256": "dcb6dcc8df0d8e801c12de6f7ac5956f503035d238b21cd2f7d2c6257df17ae5",
+      "base_nonterminal": 132,
+      "actions": 6,
+      "sticky_nonterminal_upper": 792,
+      "time_aware_nonterminal_upper": 79200,
+      "dense_time_aware_P_R_gib": 560.83,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    },
+    {
+      "mdp_name": "MiniGrid-SimpleCrossingS9N3-v0",
+      "file_sha256": "cb17c0284afe1ed19804406b9050938151896da63e50a53a22c35022cb5479d4",
+      "base_nonterminal": 52,
+      "actions": 6,
+      "sticky_nonterminal_upper": 312,
+      "time_aware_nonterminal_upper": 31200,
+      "dense_time_aware_P_R_gib": 87.04,
+      "wrapper_trials": 3,
+      "status": "STICKY_ARRAY_WRAPPER_PASS_ONLY"
+    }
+  ],
+  "remaining_gates": [
+    "original MiniGrid simulator equivalence (dependency unavailable)",
+    "finite-horizon Markov state and sparse learner/OEH compatibility",
+    "normalization and pilot/training independence",
+    "runtime and RAM smoke for complete learner/feature pipeline"
+  ]
+}

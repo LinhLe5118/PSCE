@@ -1,0 +1,91 @@
+\section{BRIDGE follow-up for OEH-F (descriptive)}\label{sec:bridge-oehf}
+These BRIDGE panels predate the final method. The forecaster scored here is \textbf{OEH-F}, the full 108-field head without the shift gate; the final, shift-gated OEH was not run on BRIDGE. The prospective five-task panel was sealed before its labels. The 14 MiniGrid tasks had been opened before OEH-F was run on them, so that panel is post-outcome exploratory. All intervals are descriptive.
+\subsection{Prospective BRIDGE follow-up}
+
+The additional five published BRIDGE MDPs were selected and all four forecasters sealed before learner outcomes. The group generated the offline logs and labels. Table~\ref{tab:bridge-followup} uses the same seven-class scores as the internal and first BRIDGE panels; the panels remain separate.
+
+\begin{table}[t]
+
+\centering\small
+
+\caption{Prospective five-MDP follow-up; 25 MDP--behavior rows per learner. CF/18 adapts a published survival forecaster to this endpoint. Both seven-class scores are lower when better.}
+
+\label{tab:bridge-followup}
+
+\begin{tabular}{lcccc}
+
+\toprule
+
+& \multicolumn{2}{c}{Brier} & \multicolumn{2}{c}{Log loss}\\
+
+Learner & CF/18 & OEH-F & CF/18 & OEH-F\\
+
+\midrule
+
+BC & 0.03707 & 0.05636 & 0.15703 & 0.27449\\
+
+CFQI & 0.26628 & 0.15330 & 4.01992 & 1.52115\\
+
+IQL & 0.07431 & 0.07105 & 0.28760 & 0.33886\\
+
+\bottomrule
+
+\end{tabular}
+
+\end{table}
+
+OEH-F minus adapted CF/18 Brier by learner is BC $+0.01929$ [$-0.00794,+0.05129$]; CFQI $-0.11298$ [$-0.22703,-0.01659$]; IQL $-0.00326$ [$-0.03150,+0.02394$]. Bracketed intervals resample five MDPs and are descriptive, not a simultaneous gate. The internal B2 and 108-input architecture control, censoring and all paired scores are in the supplement.
+
+On the 14 previously opened MiniGrid MDPs, OEH-F minus internal B2 Brier is BC $+0.02729$ [$+0.01010,+0.04589$]; CFQI $-0.08609$ [$-0.10888,-0.06102$]; IQL $-0.00778$ [$-0.01503,-0.00056$]. These post-outcome intervals are exploratory. All methods, both metrics, censoring and remaining paired contrasts are in the supplement.
+
+The sealed OEH-B sampler returned fewer than 64 posterior draws in 4/25 MDP--behavior groups; 4/25 returned none. Zero-draw groups use the frozen all-censored, Krichevsky--Trofimov-smoothed fallback rather than simulated 64-draw posterior evidence. All groups remain in the scores; details are in the supplement.
+\subsection{All scores}
+Every row below uses the common seven-class scoring audit. Published BRIDGE environments do not imply published offline logs or labels. MiniGrid-14 was opened before OEH-F was run on it and is exploratory.
+\begin{table*}[t]
+\centering\small
+\caption{Prospective BRIDGE five: all seven-class forecast scores; lower is better.}
+\begin{tabular}{llrrccc}
+\toprule
+Learner & Method & MDPs & Rows & $>x50$ & Brier & Log loss\\
+\midrule
+BC & B2 internal & 5 & 25 & 92.0\% & 0.04550 & 0.21450\\
+BC & XGBoost-CF/18 adapted & 5 & 25 & 92.0\% & 0.03707 & 0.15703\\
+BC & XGBoost-CF/108 control & 5 & 25 & 92.0\% & 0.06526 & 0.36725\\
+BC & OEH-F & 5 & 25 & 92.0\% & 0.05636 & 0.27449\\
+CFQI & B2 internal & 5 & 25 & 40.0\% & 0.28493 & 2.02346\\
+CFQI & XGBoost-CF/18 adapted & 5 & 25 & 40.0\% & 0.26628 & 4.01992\\
+CFQI & XGBoost-CF/108 control & 5 & 25 & 40.0\% & 0.18494 & 3.85565\\
+CFQI & OEH-F & 5 & 25 & 40.0\% & 0.15330 & 1.52115\\
+IQL & B2 internal & 5 & 25 & 92.0\% & 0.07471 & 0.34874\\
+IQL & XGBoost-CF/18 adapted & 5 & 25 & 92.0\% & 0.07431 & 0.28760\\
+IQL & XGBoost-CF/108 control & 5 & 25 & 92.0\% & 0.06496 & 0.28636\\
+IQL & OEH-F & 5 & 25 & 92.0\% & 0.07105 & 0.33886\\
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{table*}[t]
+\centering\small
+\caption{Opened BRIDGE MiniGrid fourteen: all seven-class forecast scores; lower is better.}
+\begin{tabular}{llrrccc}
+\toprule
+Learner & Method & MDPs & Rows & $>x50$ & Brier & Log loss\\
+\midrule
+BC & B2 internal & 14 & 70 & 90.0\% & 0.02243 & 0.16902\\
+BC & OEH-F without direct OEH-B & 14 & 70 & 90.0\% & 0.04452 & 0.32374\\
+BC & OEH-F (exploratory) & 14 & 70 & 90.0\% & 0.04972 & 0.34545\\
+CFQI & B2 internal & 14 & 70 & 60.0\% & 0.15573 & 1.63030\\
+CFQI & OEH-F without direct OEH-B & 14 & 70 & 60.0\% & 0.08193 & 1.03771\\
+CFQI & OEH-F (exploratory) & 14 & 70 & 60.0\% & 0.06964 & 0.97514\\
+IQL & B2 internal & 14 & 70 & 87.1\% & 0.02529 & 0.27477\\
+IQL & OEH-F without direct OEH-B & 14 & 70 & 87.1\% & 0.01515 & 0.20525\\
+IQL & OEH-F (exploratory) & 14 & 70 & 87.1\% & 0.01751 & 0.21609\\
+\bottomrule
+\end{tabular}
+\end{table*}
+Paired MDP bootstrap intervals for every method and metric are given in the machine-readable \texttt{paired.csv} of the hash-checked audit. They are descriptive and unadjusted for multiplicity.
+\paragraph{Prospective posterior draw coverage.}
+Fewer than 64 draws were returned in 4/25 groups; 4/25 returned zero and used the frozen censored fallback.
+MiniGrid-Empty-16x16-v0, perturbed\_reward: 0/64 draws. 
+MiniGrid-DoorKey-5x5-v0, structured\_random: 0/64 draws. 
+MiniGrid-DoorKey-5x5-v0, perturbed\_reward: 0/64 draws. 
+MiniGrid-DoorKey-5x5-v0, two\_policy\_mixture: 0/64 draws. 

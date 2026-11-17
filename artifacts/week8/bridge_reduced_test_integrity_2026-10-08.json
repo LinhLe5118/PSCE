@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SEALED_BRIDGE_REDUCED_INTEGRITY",
+  "checked_local": "2026-10-08T00:35:53.585023+07:00",
+  "groups_verified": 70,
+  "labels_verified": 210,
+  "scored_rows_verified": 420,
+  "forecast_prediction_hashes_verified": 2,
+  "analysis_output_hashes_verified": 4,
+  "label_manifest_sha256": "3ddb1007258bab1d56fec8ebde49ec1adb0fe4a7fd85386fa3334117f0e20cf7",
+  "analysis_manifest_sha256": "32339b41c7aee94ced0f312b4866f44689a7b477472b897a8c30e90448411f30",
+  "prelabel_protocol_sha256": "c793f6139b46d6bd236695945e23f646c8943c0215a20c3c02c865ca94a0fd7e"
+}

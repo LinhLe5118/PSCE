@@ -1,0 +1,37 @@
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+# Preserve the bytes used by recorded experiment/provenance SHA-256 hashes.
+artifacts/week5/** -text whitespace=cr-at-eol
+artifacts/week7/** -text whitespace=cr-at-eol
+artifacts/week6/** -text whitespace=cr-at-eol
+artifacts/provenance/** -text whitespace=cr-at-eol
+artifacts/reassessment/** -text whitespace=cr-at-eol
+artifacts/week8/** -text whitespace=cr-at-eol
+benchmarks/bridge/** -text whitespace=cr-at-eol
+artifacts/*_2026-09-30/** -text whitespace=cr-at-eol
+artifacts/*_2026-10-01/** -text whitespace=cr-at-eol
+artifacts/*_2026-10-02/** -text whitespace=cr-at-eol
+artifacts/*_2026-10-04/** -text whitespace=cr-at-eol
+artifacts/*_2026-10-14/** -text whitespace=cr-at-eol
+artifacts/*_2026-10-15/** -text whitespace=cr-at-eol
+scripts/analysis/analyze_oeh_confirmatory_20261004.py -text whitespace=cr-at-eol
+config/profiles/*.json -text whitespace=cr-at-eol
+# Restored historical runtime sources must retain their sealed bytes on every OS.
+code/*.py -text whitespace=cr-at-eol
+config/** -text whitespace=cr-at-eol
+docs/** -text whitespace=cr-at-eol
+environments/** -text whitespace=cr-at-eol
+evaluation/** -text whitespace=cr-at-eol
+pilot/** -text whitespace=cr-at-eol
+scripts/** -text whitespace=cr-at-eol
+protocol_config.json -text whitespace=cr-at-eol
+tmp/oeh_development_2026-09-30/** -text whitespace=cr-at-eol
+datasets/oeh_confirmatory_unseen_120_2026-10-04/data_only_index.json filter=lfs diff=lfs merge=lfs -text
+datasets/oeh_confirmatory_unseen_120_2026-10-04/manifest.json filter=lfs diff=lfs merge=lfs -text
+datasets/week6_e1_oehv4e_confirmatory_v1_1/manifest.json filter=lfs diff=lfs merge=lfs -text
+datasets/week6_e1_oehv4e_confirmatory_v1_1/data_only_index.json filter=lfs diff=lfs merge=lfs -text
+datasets/archives/week6_e1_oehv4e_confirmatory_v1_1.tar.gz filter=lfs diff=lfs merge=lfs -text

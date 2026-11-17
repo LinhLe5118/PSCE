@@ -1,0 +1,26 @@
+{
+  "status": "PRELABEL_RESOURCE_NO_GO_FULL_14_TASK_OEHB",
+  "test_labels_read": false,
+  "decision_basis": "Compute and published task size only; no BRIDGE test learner requirement label or forecast accuracy was viewed.",
+  "original_test_tasks": 14,
+  "original_pilot_groups": 70,
+  "full_oehb_checkpoints_retained": 7,
+  "full_oehb_complete_forecasts_claimed": false,
+  "observed_full_64_draw_runtime_seconds": {
+    "MiniGrid-Empty-6x6-v0/q_star_softmax": 724.2,
+    "MiniGrid-Empty-6x6-v0/perturbed_reward": 1032.5
+  },
+  "excluded_development_probe": {
+    "task": "MiniGrid-SimpleCrossingS9N1-v0",
+    "adapter_states": 1006,
+    "draws": 1,
+    "seeds": 10,
+    "budgets": 6,
+    "runtime_seconds": 288.0,
+    "artifact_sha256": "6b6c5a17f229cbe66e64dffdd425ea76178e8632c99f7ca5ffac8a0af9c3f7b3"
+  },
+  "reason": "The frozen full 108-column transfer requires OEH-B 64 draws for every one of 70 pilot groups. Actual 176-state groups already take 12-17 minutes each, and the 1006-state development one-draw grid takes 288 seconds. The projected full 14-task run exceeds the prespecified 72-hour local compute cap; this is a feasibility estimate, not a measured lower bound on wall time.",
+  "continuation": "Run the already-defined matched ablation oeh_without_direct_oehb on all 14 BRIDGE test tasks, together with B2 matched. Keep the same pilot, learners, seven-class endpoint, split, metrics and meta-training. OEH-H plus legacy features remain; direct OEH-B law, its concentrations and cross-learner OEH-B context are omitted. Do not describe this as transfer validation of full OEH 108.",
+  "prelabel_gate": "Seal both B2 and reduced-OEH predictions before any BRIDGE test labels; one unchanged label run only after that seal.",
+  "split_freeze_sha256": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c"
+}

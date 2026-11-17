@@ -1,0 +1,52 @@
+{
+  "status": "PRELABEL_TIMING_ONLY",
+  "mdp_id": "MiniGrid-DoorKey-5x5-v0",
+  "policy_family": "q_star_softmax",
+  "draws": 1,
+  "seeds": 2,
+  "elapsed_seconds": 118.29,
+  "draws_returned": 1,
+  "timings": {
+    "behavior_cloning": {
+      "seconds": 0.003,
+      "calls": 6
+    },
+    "cfqi": {
+      "seconds": 15.254,
+      "calls": 6
+    },
+    "count_model": {
+      "seconds": 1.187,
+      "calls": 6
+    },
+    "finite_horizon_policy_returns": {
+      "seconds": 1.652,
+      "calls": 6
+    },
+    "finite_horizon_references": {
+      "seconds": 7.222,
+      "calls": 1
+    },
+    "fit_posterior": {
+      "seconds": 3.761,
+      "calls": 1
+    },
+    "iql": {
+      "seconds": 18.522,
+      "calls": 6
+    },
+    "pilot_statistics": {
+      "seconds": 0.062,
+      "calls": 1
+    },
+    "sample_mdps": {
+      "seconds": 7.762,
+      "calls": 1
+    },
+    "simulate_streams": {
+      "seconds": 62.688,
+      "calls": 1
+    }
+  },
+  "test_labels_read": false
+}

@@ -1,0 +1,17 @@
+baseline,endpoint,delta
+fixed:behavior_cloning_tabular,ret,0.4297235699101798
+fixed:behavior_cloning_tabular,suc,0.3611904761904762
+fixed:cfqi_tabular,ret,0.018655871490489334
+fixed:cfqi_tabular,suc,0.06666666666666665
+fixed:iql_tabular,ret,0.2258315125632309
+fixed:iql_tabular,suc,0.25357142857142856
+fixed:pib_spibb_n10_author,ret,0.29312161328604713
+fixed:pib_spibb_n10_author,suc,0.3578571428571428
+fixed:vi_lcb_cb005_author_empirical,ret,0.4475147081782482
+fixed:vi_lcb_cb005_author_empirical,suc,0.3904761904761904
+fixed:discrete_bcq_author,ret,0.2357944723598383
+fixed:discrete_bcq_author,suc,0.08785714285714287
+fixed:discrete_cql_d3rlpy,ret,0.3298010149854924
+fixed:discrete_cql_d3rlpy,suc,0.11809523809523811
+random,ret,0.2829203946819323
+random,suc,0.23367346938775513

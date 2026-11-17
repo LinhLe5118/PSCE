@@ -1,0 +1,71 @@
+{
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20260921,
+  "claim_rule": "H1 claim only when CI lower bound exceeds 0.005 and Holm rejects",
+  "hypotheses": [
+    {
+      "ci_high": 0.014322430065127905,
+      "ci_low": -0.005776510465867446,
+      "contrast": "v4e_minus_fold_best_fixed",
+      "estimate": 0.004757043962364649,
+      "holm_reject": false,
+      "hypothesis": "H1",
+      "margin": 0.005,
+      "p_holm": 1.0,
+      "p_value": 0.960519740129935,
+      "passes_registered_gate": false
+    },
+    {
+      "ci_high": 0.12996952711664547,
+      "ci_low": -0.014604537773887455,
+      "contrast": "survival_B2_OEH3_LC_PMS_minus_survival_B2",
+      "estimate": 0.02146826079877906,
+      "holm_reject": false,
+      "hypothesis": "H2",
+      "margin": 0.0,
+      "p_holm": 1.0,
+      "p_value": 0.6991504247876063,
+      "passes_registered_gate": false
+    },
+    {
+      "ci_high": 0.11034968583745725,
+      "ci_low": -0.023719488150703676,
+      "contrast": "survival_B2_minus_survival_B1",
+      "estimate": 0.008981804813426919,
+      "holm_reject": false,
+      "hypothesis": "H3",
+      "margin": 0.0,
+      "p_holm": 1.0,
+      "p_value": 0.7706146926536732,
+      "passes_registered_gate": false
+    }
+  ],
+  "input_sha256": {
+    "e1_execution_summary.json": "8f044ccaeac61c20177ecf3aca7b7972b30b757fd20d725f732d6701d4484552",
+    "pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "stochastic_primary_core_run_results.csv": "61c025411b7fbc261dea6769a6fc60b8ea683422eb1c867e13bca1bcd83a7608",
+    "stochastic_primary_selector_decisions.csv": "3797a9ce42bd57ccc40593dfe0e9573a15037285b1d0e2d6b5c8c209f991e156"
+  },
+  "primary_h1_pass": false,
+  "repair_provenance": {
+    "e1_rerun": false,
+    "preserved_draw_multiplicities": true,
+    "preserved_survival_endpoints": [
+      "survival_B1",
+      "survival_B2",
+      "survival_B2_OEH3_LC_PMS"
+    ],
+    "reason": "original S1 return adapter omitted the registered salted inner-fold assignment",
+    "recomputed_return_endpoints": [
+      "v4e",
+      "fold_best_fixed"
+    ],
+    "source_checkpoint": "s1/bootstrap_checkpoint.json",
+    "source_checkpoint_sha256": "0984c1ee65e1924ec3a05da788a67a35457075b349507ce265c973a50de91d65",
+    "source_summary_sha256": "b4b7313ee15dc8fde67b508956715404f7abd5d7c27f69017e4d4fb0d12e62ab",
+    "source_verdict_sha256": "dec5249c9cbffa2931709ce31452b7baef64591ce73d6b79a92d52c55cac1672"
+  },
+  "resampling_unit": "base_mdp",
+  "schema_version": "week6-s1-analysis-corrected-v2",
+  "status": "complete"
+}

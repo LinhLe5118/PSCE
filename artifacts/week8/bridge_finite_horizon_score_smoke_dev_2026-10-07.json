@@ -1,0 +1,26 @@
+{
+  "status": "DEVELOPMENT_SCORE_SMOKE_ONLY",
+  "task": "MiniGrid-LavaGapS5-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+  "horizon": 100,
+  "gamma": 0.99,
+  "random_return": 0.05619187551140967,
+  "optimal_time_dependent_return": 0.9323668100795341,
+  "scores": {
+    "BC": {
+      "return": 0.0014769861386362865,
+      "normalized_return": -0.06244744880740386
+    },
+    "CFQI": {
+      "return": 0.5072896563448196,
+      "normalized_return": 0.5148489908077096
+    },
+    "IQL": {
+      "return": 0.002183814137481379,
+      "normalized_return": -0.06164072862977918
+    }
+  },
+  "seconds": 0.293,
+  "warning": "One development pilot and one learner fit per method; not an E_l label or test result."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PREOUTCOME_PROVENANCE_ERRATUM_NO_METHOD_CHANGE",
+  "test_labels_read": false,
+  "reason": "The preoutcome_oehb.py SHA-256 string was transcribed with one missing character in the horizon addendum. The live runner and its per-group source_script_sha256 are the authoritative source record. The addendum itself is immutable because running checkpoints refer to its hash.",
+  "horizon_addendum_sha256": "79b78b6234f4ebf625dbd68d0b17e41ad51d45f4e03659d7c674b244917c96d9",
+  "incorrect_transcribed_script_sha256": "8dfff9c11d6051e1bc95d3b5fabbddf44883ac001d32375d8a2304c195b88f",
+  "actual_script_sha256": "8dfff9c11d6051e1bc95d3b5fabbdeddf44883ac001d32375d8a2304c195b88f",
+  "effect_on_data_or_method": "none; hash transcription only"
+}

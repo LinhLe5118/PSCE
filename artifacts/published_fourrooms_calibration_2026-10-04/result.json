@@ -1,0 +1,50 @@
+{
+  "protocol_sha256": "61c09acdcfea0cdf6459bb63b3b92edd36639e46921cc3bfa489140134d1547d",
+  "episodes": {
+    "train": 990,
+    "test": 2084,
+    "unused": 7100
+  },
+  "steps": {
+    "train": 97676,
+    "test": 204566,
+    "unused": 0
+  },
+  "training_contexts": 2310,
+  "empirical_bayes_concentration": 0.020470354696008237,
+  "scores": {
+    "empirical_bayes": {
+      "brier": 0.03492164904247575,
+      "log_loss": 0.08801490483041173
+    },
+    "mle": {
+      "brier": 0.02972404479651973,
+      "log_loss": 0.08933205471048601
+    },
+    "kt": {
+      "brier": 0.0541666965695899,
+      "log_loss": 0.15268749915101837
+    }
+  },
+  "effects_baseline_minus_eb": {
+    "mle_brier": {
+      "mean": -0.00519760424595602,
+      "simultaneous_one_sided_lower_95": -0.006484911486764614
+    },
+    "mle_log_loss": {
+      "mean": 0.0013171498800742926,
+      "simultaneous_one_sided_lower_95": -0.009495790623070719
+    },
+    "kt_brier": {
+      "mean": 0.01924504752711415,
+      "simultaneous_one_sided_lower_95": 0.017718203358741285
+    },
+    "kt_log_loss": {
+      "mean": 0.06467259432060667,
+      "simultaneous_one_sided_lower_95": 0.05989254731871891
+    }
+  },
+  "simultaneous_critical": 2.279967134528928,
+  "gate": "NO-GO",
+  "scope": "Dirichlet transition component on a visual abstraction of published partially observed data; not full OEH validation"
+}

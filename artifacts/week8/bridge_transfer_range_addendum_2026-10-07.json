@@ -1,0 +1,29 @@
+{
+  "status": "DEVELOPMENT_METHOD_ADDENDUM_FROZEN_NO_TEST_LABELS",
+  "minimum_dynamic_range": 0.2,
+  "rationale": "Preserve the absolute filter 0.01/(1-0.95)=0.2 used in synthetic meta-training. Recomputing from BRIDGE gamma=0.99 gives 1.0 and rejected all 64 large-task development proposals; the 0.2 filter accepted the first proposal on both metadata-selected development tasks.",
+  "adaptation_disclosure": "Chosen after development preflight but before any candidate test difficulty label; report separately from the frozen synthetic confirmatory method.",
+  "posterior_structure": {
+    "reward_prior": "unseen_zero",
+    "transition_base": "uniform",
+    "behavior_prior": "mixture"
+  },
+  "full_forecast_draws_if_feasible": 64,
+  "full_forecast_training_seeds": 10,
+  "full_forecast_budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "source_sha256": {
+    "bridge_transfer_preflight_freeze_2026-10-07.json": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c",
+    "bridge_oeh_range_MiniGrid-LavaGapS5-v0_dev_2026-10-07.json": "c354bc809f4eb40b9aca702d0c7935cb9ac5bd6c915a5a6d2071b04529583c49",
+    "bridge_oeh_range_MiniGrid-SimpleCrossingS9N1-v0_dev_2026-10-07.json": "4abf9b1d0dd33d2716969d508a2b8d5e29aa9d1a311d61252c3ef5ccece9c592",
+    "manifest.json": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11"
+  },
+  "benchmark_gate": "NO_GO_UNTIL_ALL_108_FEATURES_AND_MATCHED_PREDICTIONS_SEALED",
+  "test_labels_read": false
+}

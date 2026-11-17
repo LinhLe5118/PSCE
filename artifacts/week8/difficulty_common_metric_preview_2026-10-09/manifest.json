@@ -1,0 +1,44 @@
+{
+  "status": "PARTIAL_NOT_FOR_MANUSCRIPT",
+  "metric": "mean of six cumulative squared errors; seven-class negative log probability",
+  "output": {
+    "summary_sha256": "f14e055e7f75e8a06698ff9fc6a7578173792e9d30f1b46b41d5e207a9741f14",
+    "paired_sha256": "35107745b1e8fb3a351d884ab5339d94136a9573ecc17cff07cfee96abb6616a",
+    "report_sha256": "36360c4409c54b3936d17348c540bcb36dcbee0234ab6c16bad957daad7f57fc"
+  },
+  "source": [
+    {
+      "panel": "internal120_stochastic_primary",
+      "manifest_sha256": "63f8e5b281d07e83a2a0ef24fe7ec237074a9da83b7b0f0d54239dd344dbdd15",
+      "scored_sha256": "7cc579e67ad09ca9edab75097b33af1d5689fe0112eba82c3d7e61e9da43d63a",
+      "tasks": 84,
+      "freshness": "preoutcome_sealed_within_generator",
+      "verified_source_chain": [
+        "protocol.json",
+        "preoutcome_seal.json",
+        "labels.csv",
+        "artifacts\\week8\\published_xgboost_cf_120_exploratory_2026-10-08\\scored.csv",
+        "artifacts\\week8\\published_xgboost_cf_120_full108_architecture_2026-10-08\\scored.csv"
+      ]
+    },
+    {
+      "panel": "bridge_fresh_atari_5",
+      "manifest_sha256": "2318bac9d2b567917403bce3436afbcd8aa8c3c93bfafb13a9a0a3857cebb026",
+      "scored_sha256": "ee1d763debf89cc47046585c57d466eb65ff9d72b4d7c5dacd7ecc90d04e0cb2",
+      "tasks": 5,
+      "freshness": "prelabel_sealed_new_published_mdps",
+      "verified_source_chain": [
+        "benchmarks\\bridge\\fresh_panel_2026-10-08\\protocol.json",
+        "benchmarks\\bridge\\fresh_panel_2026-10-08\\prelabel_seal.json",
+        "artifacts\\week8\\bridge_fresh_test_labels_2026-10-08\\manifest.json",
+        "artifacts\\week8\\bridge_fresh_test_labels_2026-10-08\\labels.csv"
+      ]
+    }
+  ],
+  "missing": [
+    "bridge_expanded_prospective_5",
+    "bridge_opened_minigrid_14_exploratory"
+  ],
+  "panel_aggregation": "separate; no pooled BRIDGE confirmatory claim",
+  "source_script_sha256": "7066305bfe9237347e64e5b45539be2ac406eb9c76271973ca16241ea83bc568"
+}

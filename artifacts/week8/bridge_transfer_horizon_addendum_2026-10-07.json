@@ -1,0 +1,18 @@
+{
+  "status": "DEVELOPMENT_SCORER_CORRECTION_FROZEN_NO_TEST_LABELS",
+  "reason": "Development code audit found that BRIDGE label return is the exact 100-step discounted return, whereas historical OEH-B posterior_outcomes scores an infinite-horizon discounted return by default. The BRIDGE-only evaluation_horizon=100 option now uses the same finite-horizon normalization and time-dependent optimal reference as the label scorer.",
+  "historical_synthetic_method_unchanged": true,
+  "bridge_posterior_evaluation_horizon": 100,
+  "bridge_training_stream_horizon": 100,
+  "test_labels_read": false,
+  "test_task_split_or_endpoint_changed": false,
+  "evidence": "tests/test_bridge_finite_horizon.py compares the batched posterior scorer with the BRIDGE label oracle on an exact fixture; one test passed before BRIDGE test outcomes were opened.",
+  "source_sha256": {
+    "bridge_transfer_preflight_freeze_2026-10-07.json": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c",
+    "bridge_transfer_range_addendum_2026-10-07.json": "a62beda43bbb7183e9a88c5d97f815f8204e21d4882d9249c4eb5d44541d3038",
+    "code/oeh/tabular.py": "8f6ab8f4ce8cd28ede2f80be52663dc39d133e94f9bcaf0feed9ed8ce4530701",
+    "code/oeh/predictive.py": "6e780dca918c5d7816a4b235ae934b678cd8482f4dda29743b287e0181fa9908",
+    "benchmarks/bridge/preoutcome_oehb.py": "8dfff9c11d6051e1bc95d3b5fabbddf44883ac001d32375d8a2304c195b88f"
+  },
+  "benchmark_gate": "NO_GO_UNTIL_COMPLETE_PREOUTCOME_PREDICTIONS_SEALED"
+}

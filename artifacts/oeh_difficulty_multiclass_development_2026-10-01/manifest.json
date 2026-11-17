@@ -1,0 +1,86 @@
+{
+  "status": "development_only_two_opened_60_mdp_cohorts_not_confirmation",
+  "candidate": "joint_seven_class_xgboost_pilot_oeh",
+  "promoted": false,
+  "feature_sets": {
+    "b2_multiclass": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "oeh_multiclass": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ]
+  },
+  "fit": {
+    "params": {
+      "objective": "multi:softprob",
+      "eval_metric": "mlogloss",
+      "tree_method": "hist",
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "lambda": 1,
+      "seed": 20261001,
+      "nthread": 1,
+      "verbosity": 0,
+      "num_class": 7
+    },
+    "rounds": 200
+  },
+  "input_sha256": {
+    "e1_labels": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "e1_features": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "development_labels": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "development_features": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "second_result": "ed9a7325d399489ff916f7b04d1b87c53b7b87343541ff87f3a55514a28319e7",
+    "second_pilot": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b"
+  },
+  "script_sha256": "de8379b43bd52090902ab6e8e91656e83d8d3c5e19d8f3d3ba642e8bf087aac2",
+  "artifact_sha256": {
+    "predictions.csv": "eed1cf8b300e4b4aa76217393921876a1890818bf49822c77c926106fc9a65bd",
+    "scores.csv": "5887d31565532110152dae7403eb76b3f3deea66c982ce04128ca36ec5e7c005"
+  }
+}

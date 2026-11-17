@@ -1,0 +1,19 @@
+algorithm,method,access,defined_rows,tasks,spearman_raw_score_vs_harder_event,scope
+behavior_cloning_tabular,OEH expected event,pilot_only,25,5,0.42937693055750364,Scalar rank association only; original methods do not forecast seven E_l classes
+behavior_cloning_tabular,ERI original formula,pilot_only,24,5,0.39201516466593894,Scalar rank association only; original methods do not forecast seven E_l classes
+behavior_cloning_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,-0.4702699715629801,Scalar rank association only; original methods do not forecast seven E_l classes
+behavior_cloning_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,0.3476577122287207,Scalar rank association only; original methods do not forecast seven E_l classes
+behavior_cloning_tabular,EH author EPW,privileged_author_MDP_summary,25,5,-0.10696563746013954,Scalar rank association only; original methods do not forecast seven E_l classes
+behavior_cloning_tabular,EH author k_min,privileged_author_MDP_summary,25,5,0.23312620206007845,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,OEH expected event,pilot_only,25,5,0.5964216817503718,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,ERI original formula,pilot_only,24,5,0.4967683568634695,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,-0.634543479965344,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,-0.013529691803219336,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,EH author EPW,privileged_author_MDP_summary,25,5,0.26591141814049063,Scalar rank association only; original methods do not forecast seven E_l classes
+cfqi_tabular,EH author k_min,privileged_author_MDP_summary,25,5,0.5070979373284942,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,OEH expected event,pilot_only,25,5,0.500909720194715,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,ERI original formula,pilot_only,24,5,0.648074069840786,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,-0.6324739599567004,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,25,5,0.4358149246233896,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,EH author EPW,privileged_author_MDP_summary,25,5,0.08840244354947628,Scalar rank association only; original methods do not forecast seven E_l classes
+iql_tabular,EH author k_min,privileged_author_MDP_summary,25,5,0.3440511766019877,Scalar rank association only; original methods do not forecast seven E_l classes

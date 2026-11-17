@@ -1,0 +1,973 @@
+{
+  "status": "preoutcome_actual_kernel_audit",
+  "at_utc": "2026-10-01T08:22:37.541209+00:00",
+  "mdps": 120,
+  "generator_resolved_seed_count": 5,
+  "requested_to_actual_kernel_changes": 5,
+  "conflicts": [],
+  "all_actual_kernels_new_and_distinct": true,
+  "dataset_manifest_sha256": "987587680846dda5aeed3569fb77f7d9af92a42b77aca6aed981e141d4eaa780",
+  "protocol_sha256": "a77a5474614a4a6a69e5287cb1367bfc56974c18ee1c5a43657b232c1f2106f9",
+  "rows": [
+    {
+      "mdp_id": "oeh120_uniform_garnet_000",
+      "requested_seed": 1022456960,
+      "resolved_seed": 1022456960,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "8daeb69173b14a0a6c4e170b72b5217169aea29034a7fcaca39d0d7464257c52",
+      "actual_kernel": "8daeb69173b14a0a6c4e170b72b5217169aea29034a7fcaca39d0d7464257c52"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_001",
+      "requested_seed": 496246094,
+      "resolved_seed": 496246094,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2ba81835e0d31746090df3530bc7a8015f57263f95d843223bd658f273adf18e",
+      "actual_kernel": "2ba81835e0d31746090df3530bc7a8015f57263f95d843223bd658f273adf18e"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_002",
+      "requested_seed": 764843702,
+      "resolved_seed": 764843702,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "de9a48ebce867e5214297fb8b7ee1011d4944f8e02b1f8eb517d544eb0626276",
+      "actual_kernel": "de9a48ebce867e5214297fb8b7ee1011d4944f8e02b1f8eb517d544eb0626276"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_003",
+      "requested_seed": 432301507,
+      "resolved_seed": 432301507,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "7aa26b10db98ab49651a7f4663b46c0b6cf101aa2e8429c3e44e0674d7fdda5e",
+      "actual_kernel": "7aa26b10db98ab49651a7f4663b46c0b6cf101aa2e8429c3e44e0674d7fdda5e"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_004",
+      "requested_seed": 370318371,
+      "resolved_seed": 370318371,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "40224bab7fdade4eee0e187a7a143b3c1ae161a9a35e43a2070de9c6b73bf9e6",
+      "actual_kernel": "40224bab7fdade4eee0e187a7a143b3c1ae161a9a35e43a2070de9c6b73bf9e6"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_005",
+      "requested_seed": 1019324028,
+      "resolved_seed": 1019324028,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "9e10b134c08bbb555924290100900b96c9f19634600cbaaedb337d769c05fcaa",
+      "actual_kernel": "9e10b134c08bbb555924290100900b96c9f19634600cbaaedb337d769c05fcaa"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_006",
+      "requested_seed": 349365181,
+      "resolved_seed": 349365181,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "fcd95dded7cb4a723a6d724c9d9516790c1118fc799d148225bac9cb02bd4cc5",
+      "actual_kernel": "fcd95dded7cb4a723a6d724c9d9516790c1118fc799d148225bac9cb02bd4cc5"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_007",
+      "requested_seed": 153031568,
+      "resolved_seed": 153031568,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2ca33246ade8fdd447cc2f127b6c7d3646fbdc9e321227bfbf4123600c8325c4",
+      "actual_kernel": "2ca33246ade8fdd447cc2f127b6c7d3646fbdc9e321227bfbf4123600c8325c4"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_008",
+      "requested_seed": 578688207,
+      "resolved_seed": 578688207,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d89681a0ce16c423330ee03b5152c553a03845cbb3abc72c1cd26a4b1bfeb124",
+      "actual_kernel": "d89681a0ce16c423330ee03b5152c553a03845cbb3abc72c1cd26a4b1bfeb124"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_009",
+      "requested_seed": 425215162,
+      "resolved_seed": 425215162,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "65dfd6e56cf956d4ae1255d49601a63e2d10ed27be95162b178114e4aa981a5b",
+      "actual_kernel": "65dfd6e56cf956d4ae1255d49601a63e2d10ed27be95162b178114e4aa981a5b"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_010",
+      "requested_seed": 354176159,
+      "resolved_seed": 354176159,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "4d54b02d968cf596556fecf64d0ffd31e0d63a0ee83fb2b19d81ed6dd9a44001",
+      "actual_kernel": "4d54b02d968cf596556fecf64d0ffd31e0d63a0ee83fb2b19d81ed6dd9a44001"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_011",
+      "requested_seed": 695207841,
+      "resolved_seed": 695207841,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3e0fc33fba343d21d4de03749ef74918c06b26422b1dbc6893cb23c6610fa067",
+      "actual_kernel": "3e0fc33fba343d21d4de03749ef74918c06b26422b1dbc6893cb23c6610fa067"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_012",
+      "requested_seed": 673168427,
+      "resolved_seed": 673168427,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "a809229d5234248d8d3be7832d60bf46249a6c7902b4d35710e4b824cf36e78b",
+      "actual_kernel": "a809229d5234248d8d3be7832d60bf46249a6c7902b4d35710e4b824cf36e78b"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_013",
+      "requested_seed": 371786229,
+      "resolved_seed": 371786229,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "14251f53f893dca71c6ea929a65b69a083200966ec6ee54f5e0988d8b4a27712",
+      "actual_kernel": "14251f53f893dca71c6ea929a65b69a083200966ec6ee54f5e0988d8b4a27712"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_014",
+      "requested_seed": 835916603,
+      "resolved_seed": 835916603,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "78fe01338a3e8a7f9c701bf4bc1d05e52595805aaa7ff53c11543396bf4666cd",
+      "actual_kernel": "78fe01338a3e8a7f9c701bf4bc1d05e52595805aaa7ff53c11543396bf4666cd"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_015",
+      "requested_seed": 951299282,
+      "resolved_seed": 951299282,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "0f977761bac294bab22c64252a4f29a077e267b9e68a15dcf28b529e84bd5ddd",
+      "actual_kernel": "0f977761bac294bab22c64252a4f29a077e267b9e68a15dcf28b529e84bd5ddd"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_016",
+      "requested_seed": 826272493,
+      "resolved_seed": 826272493,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3668388049e91a3db6d9c4a3c7f50cc1f0b337de7b02ebdebf793f58c92e1a0d",
+      "actual_kernel": "3668388049e91a3db6d9c4a3c7f50cc1f0b337de7b02ebdebf793f58c92e1a0d"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_017",
+      "requested_seed": 581489075,
+      "resolved_seed": 581489075,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "fdc57dff98e250c696f514398e39e175ced7e544c10eebb8de0c740a98c4ce05",
+      "actual_kernel": "fdc57dff98e250c696f514398e39e175ced7e544c10eebb8de0c740a98c4ce05"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_018",
+      "requested_seed": 905762042,
+      "resolved_seed": 905762042,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "f817094f1e493eb3ae3b5c61b235c6e0f1762edff2f98efab97761061bacd10b",
+      "actual_kernel": "f817094f1e493eb3ae3b5c61b235c6e0f1762edff2f98efab97761061bacd10b"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_019",
+      "requested_seed": 211148728,
+      "resolved_seed": 211148728,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "ca4791267c02989719d4e27a5706d1b9352341908b5712b4100dda2c36cca756",
+      "actual_kernel": "ca4791267c02989719d4e27a5706d1b9352341908b5712b4100dda2c36cca756"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_020",
+      "requested_seed": 923175347,
+      "resolved_seed": 923175347,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "434c319fe66e6eb591462035e6d10178f63f1f6f50ea8157e09ee992dc79af44",
+      "actual_kernel": "434c319fe66e6eb591462035e6d10178f63f1f6f50ea8157e09ee992dc79af44"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_021",
+      "requested_seed": 518128729,
+      "resolved_seed": 518128729,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d7fb4a92181dbc2f82aba06ca4bb7ab4a0e1b4d38a4b3dfc9adbf5ad10afa867",
+      "actual_kernel": "d7fb4a92181dbc2f82aba06ca4bb7ab4a0e1b4d38a4b3dfc9adbf5ad10afa867"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_022",
+      "requested_seed": 616183391,
+      "resolved_seed": 616183391,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "320822be9a140f2ead853a5897fff2d4fed0a965984cf5f1fdb42c506b82640e",
+      "actual_kernel": "320822be9a140f2ead853a5897fff2d4fed0a965984cf5f1fdb42c506b82640e"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_023",
+      "requested_seed": 303110734,
+      "resolved_seed": 303110734,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "55daac090bde680ead166e5d23ae08a26c2920697cdf78ddc96c41ebb7f89c20",
+      "actual_kernel": "55daac090bde680ead166e5d23ae08a26c2920697cdf78ddc96c41ebb7f89c20"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_024",
+      "requested_seed": 659883252,
+      "resolved_seed": 659883252,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5d105fb67afc3d168d8a2fc8c1fd09631689a35727950d03160f365df58054c6",
+      "actual_kernel": "5d105fb67afc3d168d8a2fc8c1fd09631689a35727950d03160f365df58054c6"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_025",
+      "requested_seed": 708635402,
+      "resolved_seed": 708635402,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "1ef2fda5c417ed92882edbac6c4cbd932ba3533624dd70fbdf271775902107fa",
+      "actual_kernel": "1ef2fda5c417ed92882edbac6c4cbd932ba3533624dd70fbdf271775902107fa"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_026",
+      "requested_seed": 879632632,
+      "resolved_seed": 879632632,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2367428d3a123520fb63dfdb1a8a28caf5d28f65345811d7b6c2ad3acfbd7a43",
+      "actual_kernel": "2367428d3a123520fb63dfdb1a8a28caf5d28f65345811d7b6c2ad3acfbd7a43"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_027",
+      "requested_seed": 139812353,
+      "resolved_seed": 139812353,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "7df254c02ab3ab5baafc2df8d4cf6ac926eefac1047972cae5187adc13aadc34",
+      "actual_kernel": "7df254c02ab3ab5baafc2df8d4cf6ac926eefac1047972cae5187adc13aadc34"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_028",
+      "requested_seed": 751082240,
+      "resolved_seed": 751082240,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d0cfee6840bb07e3c5fd320da431c357d75056e0e91eb58997d4d64ab9dbce83",
+      "actual_kernel": "d0cfee6840bb07e3c5fd320da431c357d75056e0e91eb58997d4d64ab9dbce83"
+    },
+    {
+      "mdp_id": "oeh120_uniform_garnet_029",
+      "requested_seed": 222550315,
+      "resolved_seed": 222550315,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "958c8769a5aa829f0bad179dfcddbc119b9780cec2d7bb996d17177244f88380",
+      "actual_kernel": "958c8769a5aa829f0bad179dfcddbc119b9780cec2d7bb996d17177244f88380"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_000",
+      "requested_seed": 152995498,
+      "resolved_seed": 152995498,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "30f2f86b0a3bfa50a0dea204f56fe0169289380995c5140e2bc56dbd423040bc",
+      "actual_kernel": "30f2f86b0a3bfa50a0dea204f56fe0169289380995c5140e2bc56dbd423040bc"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_001",
+      "requested_seed": 1055861594,
+      "resolved_seed": 1055861594,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "a22cd6cc8bbbd9da76f2b3600b14f8c5a48e98efff90ad88d30f36059e9275ee",
+      "actual_kernel": "a22cd6cc8bbbd9da76f2b3600b14f8c5a48e98efff90ad88d30f36059e9275ee"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_002",
+      "requested_seed": 371984609,
+      "resolved_seed": 391984609,
+      "dynamic_range_rejections": 2,
+      "requested_kernel": "5bb6614a2395496db036450eae5a2e3d448f4b557969a6a3cd666d8705ba6ad6",
+      "actual_kernel": "4a13c52f4d9d38b1e749a18b53de98d25b22296b0d65789455e11a67b176947b"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_003",
+      "requested_seed": 354325521,
+      "resolved_seed": 354325521,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "86ffde099c58eb7541b8e938d6725df9724fa1abd919d99baf7b8ed9e572c3d8",
+      "actual_kernel": "86ffde099c58eb7541b8e938d6725df9724fa1abd919d99baf7b8ed9e572c3d8"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_004",
+      "requested_seed": 131914999,
+      "resolved_seed": 131914999,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "8da68dc93eb6d9ed2db109d8f42dae62a0a243e5faf359e0ff6eca0a8957c374",
+      "actual_kernel": "8da68dc93eb6d9ed2db109d8f42dae62a0a243e5faf359e0ff6eca0a8957c374"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_005",
+      "requested_seed": 900555688,
+      "resolved_seed": 900555688,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3910648c57886d334c67f22f9b4bc4ee9826b181bdd5c6c6613d7e6bbc65cd01",
+      "actual_kernel": "3910648c57886d334c67f22f9b4bc4ee9826b181bdd5c6c6613d7e6bbc65cd01"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_006",
+      "requested_seed": 1024169176,
+      "resolved_seed": 1024169176,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "75e06f11604d171e2853556f1a77a47ed3123c38ba6ef7ef51d452b4880c3060",
+      "actual_kernel": "75e06f11604d171e2853556f1a77a47ed3123c38ba6ef7ef51d452b4880c3060"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_007",
+      "requested_seed": 466461997,
+      "resolved_seed": 466461997,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d7b3d2de94bb753560a4f5d9c8516d518064ea28030b40a19ae0f44ee4f9d115",
+      "actual_kernel": "d7b3d2de94bb753560a4f5d9c8516d518064ea28030b40a19ae0f44ee4f9d115"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_008",
+      "requested_seed": 154181522,
+      "resolved_seed": 154181522,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "e2b3fb618567522b5573d54bce323172f96fe8d848bce2e3ec19e3b59ba3aabe",
+      "actual_kernel": "e2b3fb618567522b5573d54bce323172f96fe8d848bce2e3ec19e3b59ba3aabe"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_009",
+      "requested_seed": 890206081,
+      "resolved_seed": 890206081,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "9ae4a685de629293ecc261685418f3aaa0d4a9ca6f569b8fdc3d9b3f5a974610",
+      "actual_kernel": "9ae4a685de629293ecc261685418f3aaa0d4a9ca6f569b8fdc3d9b3f5a974610"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_010",
+      "requested_seed": 503519608,
+      "resolved_seed": 503519608,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "0029cc14db50f9d0c7719ef2d86212ecf268f91363b128aba40ba01439e3ba33",
+      "actual_kernel": "0029cc14db50f9d0c7719ef2d86212ecf268f91363b128aba40ba01439e3ba33"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_011",
+      "requested_seed": 135289963,
+      "resolved_seed": 135289963,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2e47a234b87a2ad4a0ab371eb0f85b1b0f44a721b788a2d5fc47ce4869e3a805",
+      "actual_kernel": "2e47a234b87a2ad4a0ab371eb0f85b1b0f44a721b788a2d5fc47ce4869e3a805"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_012",
+      "requested_seed": 964451714,
+      "resolved_seed": 964451714,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "4cbbae6f5fcf6da5d267f555a10b428a8d91e6b10c666ea47c4afbbe47a56230",
+      "actual_kernel": "4cbbae6f5fcf6da5d267f555a10b428a8d91e6b10c666ea47c4afbbe47a56230"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_013",
+      "requested_seed": 746155318,
+      "resolved_seed": 746155318,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "210882937b5365493094a30cf4f4ca01c5ef095550bddbd900031e3ed6887962",
+      "actual_kernel": "210882937b5365493094a30cf4f4ca01c5ef095550bddbd900031e3ed6887962"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_014",
+      "requested_seed": 566235250,
+      "resolved_seed": 566235250,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "769ec5237389cffd87ed82f264c048ec61aa221fd03ff6a98f095eb6526eef98",
+      "actual_kernel": "769ec5237389cffd87ed82f264c048ec61aa221fd03ff6a98f095eb6526eef98"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_015",
+      "requested_seed": 311359682,
+      "resolved_seed": 311359682,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5ed77629e8c04bf34020c5a457f7e40152443f8b5a37bb415495639b5d3a1616",
+      "actual_kernel": "5ed77629e8c04bf34020c5a457f7e40152443f8b5a37bb415495639b5d3a1616"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_016",
+      "requested_seed": 698870605,
+      "resolved_seed": 708870605,
+      "dynamic_range_rejections": 1,
+      "requested_kernel": "7e51d71db4994fb6d065d105c1b002fe1ecb9e2742be00e6d06169bb6698a28f",
+      "actual_kernel": "e7f5b3e38470fd8c6cb209c310346232cd0262d1e6041e13d46d4683305d95d8"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_017",
+      "requested_seed": 927745281,
+      "resolved_seed": 927745281,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "206088d3f2f7adf896a8e50e75e3313105f265b7a2e2c09fd53ecd26270327ca",
+      "actual_kernel": "206088d3f2f7adf896a8e50e75e3313105f265b7a2e2c09fd53ecd26270327ca"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_018",
+      "requested_seed": 459816383,
+      "resolved_seed": 459816383,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2d15de7c48eb1eb6c94821236e995463feaa5532ba957181ed763cefd77588ee",
+      "actual_kernel": "2d15de7c48eb1eb6c94821236e995463feaa5532ba957181ed763cefd77588ee"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_019",
+      "requested_seed": 530551272,
+      "resolved_seed": 550551272,
+      "dynamic_range_rejections": 2,
+      "requested_kernel": "cfc5ec0f9700bb16003d4f9e0c19fbca78abfef4da14fd37087035f02a31c350",
+      "actual_kernel": "51194609b81d30ebb213dd26c809b0eb3249170f599efb6c50f686bca7894e16"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_020",
+      "requested_seed": 624926675,
+      "resolved_seed": 624926675,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "92762414c6f031ebd04b6fedb2bd6cd916324389033abbd93fa3685edaec3b89",
+      "actual_kernel": "92762414c6f031ebd04b6fedb2bd6cd916324389033abbd93fa3685edaec3b89"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_021",
+      "requested_seed": 457066039,
+      "resolved_seed": 457066039,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "85efdb3a83a9863fe7d5acc9df57317827d870e62897d75f658a15d56ea5d65e",
+      "actual_kernel": "85efdb3a83a9863fe7d5acc9df57317827d870e62897d75f658a15d56ea5d65e"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_022",
+      "requested_seed": 1076777333,
+      "resolved_seed": 1076777333,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5b2c3a5d71ae94c88470fd66edd482f8c033ea8d7de50ae227080657a7cc0d7b",
+      "actual_kernel": "5b2c3a5d71ae94c88470fd66edd482f8c033ea8d7de50ae227080657a7cc0d7b"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_023",
+      "requested_seed": 418825182,
+      "resolved_seed": 418825182,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "912e7b5d6a39b56de98d6ea0b08fa859a65778139fad24195964bcddeb073ba2",
+      "actual_kernel": "912e7b5d6a39b56de98d6ea0b08fa859a65778139fad24195964bcddeb073ba2"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_024",
+      "requested_seed": 575146365,
+      "resolved_seed": 575146365,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d7979665481b4aaa836d1377dc50b3b101e38c71248e204e945a5a6d5d1a8bf5",
+      "actual_kernel": "d7979665481b4aaa836d1377dc50b3b101e38c71248e204e945a5a6d5d1a8bf5"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_025",
+      "requested_seed": 594308714,
+      "resolved_seed": 594308714,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "731e48f30a086ab0a29e5f78abd8d4087f8b11f5a16b7cac79712b9ca8a51b7b",
+      "actual_kernel": "731e48f30a086ab0a29e5f78abd8d4087f8b11f5a16b7cac79712b9ca8a51b7b"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_026",
+      "requested_seed": 828505002,
+      "resolved_seed": 828505002,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2b7fdf59e3a34fdc3c6b1fa4959db68872bab806c4b8b8c88803119d09ff3174",
+      "actual_kernel": "2b7fdf59e3a34fdc3c6b1fa4959db68872bab806c4b8b8c88803119d09ff3174"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_027",
+      "requested_seed": 180565603,
+      "resolved_seed": 180565603,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "e1b04a04c15cf1075896f44ee83886bfd52c2a35572781ad648b1a849e92a309",
+      "actual_kernel": "e1b04a04c15cf1075896f44ee83886bfd52c2a35572781ad648b1a849e92a309"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_028",
+      "requested_seed": 1046917450,
+      "resolved_seed": 1046917450,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "28c7dc85d45c8a85623cc84f4613e6f6f594c34437369474dacc43929bfa73d5",
+      "actual_kernel": "28c7dc85d45c8a85623cc84f4613e6f6f594c34437369474dacc43929bfa73d5"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_029",
+      "requested_seed": 308099967,
+      "resolved_seed": 308099967,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "9b872a9162c4cabbdf7d9084eebb5231d1126d1414600499221a7e331afa9b17",
+      "actual_kernel": "9b872a9162c4cabbdf7d9084eebb5231d1126d1414600499221a7e331afa9b17"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_030",
+      "requested_seed": 684055183,
+      "resolved_seed": 684055183,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "1e3cfc523f48e74842d649e0097f47ac1aed53ded98458305a5c90e063c6b9f2",
+      "actual_kernel": "1e3cfc523f48e74842d649e0097f47ac1aed53ded98458305a5c90e063c6b9f2"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_031",
+      "requested_seed": 486743227,
+      "resolved_seed": 496743227,
+      "dynamic_range_rejections": 1,
+      "requested_kernel": "cf9524ca5ec3ee5dd26128b41983be8686ae64d5cde6b211d1784625e99adf55",
+      "actual_kernel": "2d99aa02b5d0448a553d700b3cbc45960fe12905d4bf43aaf05fd188beb04811"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_032",
+      "requested_seed": 1081603932,
+      "resolved_seed": 1081603932,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "0c4c17b65e507385192afd3d8b64a3ea7f97bcd2142671edb7067e13fbc9b14f",
+      "actual_kernel": "0c4c17b65e507385192afd3d8b64a3ea7f97bcd2142671edb7067e13fbc9b14f"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_033",
+      "requested_seed": 1057902480,
+      "resolved_seed": 1057902480,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "7eb89f6b87961b7c00c722137bd3660270645b67346b53af8d02fc6d1f78f14f",
+      "actual_kernel": "7eb89f6b87961b7c00c722137bd3660270645b67346b53af8d02fc6d1f78f14f"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_034",
+      "requested_seed": 862285045,
+      "resolved_seed": 862285045,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "981c9cee10745d21a9270c57dd6e33d71b6a44a55cbda149fe3c436ead9486cf",
+      "actual_kernel": "981c9cee10745d21a9270c57dd6e33d71b6a44a55cbda149fe3c436ead9486cf"
+    },
+    {
+      "mdp_id": "oeh120_forward_layered_035",
+      "requested_seed": 494429220,
+      "resolved_seed": 494429220,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3d26e82f18f9b60abd043d59ff66ed341694e098656116c8476586fbfc8cf453",
+      "actual_kernel": "3d26e82f18f9b60abd043d59ff66ed341694e098656116c8476586fbfc8cf453"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_000",
+      "requested_seed": 587598394,
+      "resolved_seed": 587598394,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "c4d1dd5c16a3689c13d0650700e8406c463a55a9aa6d78b25f6bea0d05db203c",
+      "actual_kernel": "c4d1dd5c16a3689c13d0650700e8406c463a55a9aa6d78b25f6bea0d05db203c"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_001",
+      "requested_seed": 1032897794,
+      "resolved_seed": 1032897794,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "885f473ce53a53685479693af5469bbacb3ed1034f94f5ead266bc71b3d6b7f3",
+      "actual_kernel": "885f473ce53a53685479693af5469bbacb3ed1034f94f5ead266bc71b3d6b7f3"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_002",
+      "requested_seed": 603865524,
+      "resolved_seed": 603865524,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5d86b563a5f065007ce3dba903538582865c3b87da9867f5aed6cd5cceef477f",
+      "actual_kernel": "5d86b563a5f065007ce3dba903538582865c3b87da9867f5aed6cd5cceef477f"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_003",
+      "requested_seed": 994173251,
+      "resolved_seed": 994173251,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "48e1264b72008a2be59aa220d0781cd78f868df92c176808be700af1f46d9652",
+      "actual_kernel": "48e1264b72008a2be59aa220d0781cd78f868df92c176808be700af1f46d9652"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_004",
+      "requested_seed": 1012526706,
+      "resolved_seed": 1012526706,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "42eb26ac9704b401e6750b7332e8574cc4bd11f08aaaafb6f62d839e7de31caa",
+      "actual_kernel": "42eb26ac9704b401e6750b7332e8574cc4bd11f08aaaafb6f62d839e7de31caa"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_005",
+      "requested_seed": 838471253,
+      "resolved_seed": 838471253,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "97a214a63f12ca2f7ab5d7158ca91f4d88854aa05cb6090dbb5a56af9c2a7921",
+      "actual_kernel": "97a214a63f12ca2f7ab5d7158ca91f4d88854aa05cb6090dbb5a56af9c2a7921"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_006",
+      "requested_seed": 721200302,
+      "resolved_seed": 721200302,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "815b8d787a27ff6c42b1760d373943946b18cd776cded054ce8d59690174e019",
+      "actual_kernel": "815b8d787a27ff6c42b1760d373943946b18cd776cded054ce8d59690174e019"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_007",
+      "requested_seed": 369683453,
+      "resolved_seed": 369683453,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "ea0791bd77e951d710dae623368326e3f0a006a137ed7d1d58e1fa8d17f69e5b",
+      "actual_kernel": "ea0791bd77e951d710dae623368326e3f0a006a137ed7d1d58e1fa8d17f69e5b"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_008",
+      "requested_seed": 276067458,
+      "resolved_seed": 276067458,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "e07dd07c05c45bc9913add651a1dd2a5d93073cf620d61deaa407f004c33f529",
+      "actual_kernel": "e07dd07c05c45bc9913add651a1dd2a5d93073cf620d61deaa407f004c33f529"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_009",
+      "requested_seed": 654822069,
+      "resolved_seed": 654822069,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "ad6349a280e19c94833bb3a0188104ad0daf6b7b298c3578d32cc97f834e4902",
+      "actual_kernel": "ad6349a280e19c94833bb3a0188104ad0daf6b7b298c3578d32cc97f834e4902"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_010",
+      "requested_seed": 100350895,
+      "resolved_seed": 100350895,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "65577e07e7dc235fdee75764366034d91d80d80c1631de54eb00e36a820d9356",
+      "actual_kernel": "65577e07e7dc235fdee75764366034d91d80d80c1631de54eb00e36a820d9356"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_011",
+      "requested_seed": 576732628,
+      "resolved_seed": 586732628,
+      "dynamic_range_rejections": 1,
+      "requested_kernel": "3e96b1754efad66464484b4a03d3e75243675d16dba22a917bafcf60378204f0",
+      "actual_kernel": "8fbb6f5136912f5d4d216698abfed512ee61f5e131ea49153b32fc5655d11ccc"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_012",
+      "requested_seed": 751375969,
+      "resolved_seed": 751375969,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "6760553a583b0b77bd5df9be7b9518a4b3920709b1bfb1e984f2be34d2182ab8",
+      "actual_kernel": "6760553a583b0b77bd5df9be7b9518a4b3920709b1bfb1e984f2be34d2182ab8"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_013",
+      "requested_seed": 216784541,
+      "resolved_seed": 216784541,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "670ae3245bf63c9090f05e6a3e5395b6243ed550b8d2714675e6b4abc52bcd5b",
+      "actual_kernel": "670ae3245bf63c9090f05e6a3e5395b6243ed550b8d2714675e6b4abc52bcd5b"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_014",
+      "requested_seed": 1059248000,
+      "resolved_seed": 1059248000,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "27dcdcdc419b919905a41965e48c1e8fe72b98ceec6698bbbf5511614a119846",
+      "actual_kernel": "27dcdcdc419b919905a41965e48c1e8fe72b98ceec6698bbbf5511614a119846"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_015",
+      "requested_seed": 206673564,
+      "resolved_seed": 206673564,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "ed31330ca8049a408c9d01cdafbec81779f8706f03da271c1736fbb75989a1e4",
+      "actual_kernel": "ed31330ca8049a408c9d01cdafbec81779f8706f03da271c1736fbb75989a1e4"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_016",
+      "requested_seed": 697310558,
+      "resolved_seed": 697310558,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "30f7755548b080a7ede7c213ff03f7c210fc3ee2d94521983069582a30220ba7",
+      "actual_kernel": "30f7755548b080a7ede7c213ff03f7c210fc3ee2d94521983069582a30220ba7"
+    },
+    {
+      "mdp_id": "oeh120_bottleneck_017",
+      "requested_seed": 521918670,
+      "resolved_seed": 521918670,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "9d7f4069210f315c877f536cea321f174b553a75b97bc7d599872946d6f65c1c",
+      "actual_kernel": "9d7f4069210f315c877f536cea321f174b553a75b97bc7d599872946d6f65c1c"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_000",
+      "requested_seed": 489362051,
+      "resolved_seed": 489362051,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "886460e0cf2abe6af6dfee7321bab1e3372d49d0baee87d37e60b632ed14fd9e",
+      "actual_kernel": "886460e0cf2abe6af6dfee7321bab1e3372d49d0baee87d37e60b632ed14fd9e"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_001",
+      "requested_seed": 165950646,
+      "resolved_seed": 165950646,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3c83bfa02af8384084b3460ef0d15f2d99a990976623ea14af859e912e7e7fae",
+      "actual_kernel": "3c83bfa02af8384084b3460ef0d15f2d99a990976623ea14af859e912e7e7fae"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_002",
+      "requested_seed": 1082634920,
+      "resolved_seed": 1082634920,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5236e6f43686b65062dd7422d383f4e3284f68730bb510c46a87e8588a77e1d7",
+      "actual_kernel": "5236e6f43686b65062dd7422d383f4e3284f68730bb510c46a87e8588a77e1d7"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_003",
+      "requested_seed": 738545359,
+      "resolved_seed": 738545359,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "7e2535b2b19bcc200cfad5a6f6d7d5276e70b07131365665b0ae466d4e36f4e2",
+      "actual_kernel": "7e2535b2b19bcc200cfad5a6f6d7d5276e70b07131365665b0ae466d4e36f4e2"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_004",
+      "requested_seed": 381781363,
+      "resolved_seed": 381781363,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "294bbd5cb60f1460bbd6dceb5c5bfeb8b8602b0b7f8b8589799cf33b9810602b",
+      "actual_kernel": "294bbd5cb60f1460bbd6dceb5c5bfeb8b8602b0b7f8b8589799cf33b9810602b"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_005",
+      "requested_seed": 397785698,
+      "resolved_seed": 397785698,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "77ef08afc325b1df4180b2d5ab70b7549030bfaa7fbc7e634c4f2be25f181034",
+      "actual_kernel": "77ef08afc325b1df4180b2d5ab70b7549030bfaa7fbc7e634c4f2be25f181034"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_006",
+      "requested_seed": 577481197,
+      "resolved_seed": 577481197,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "bf1f4f4dd9f4684c6059efd26b775a31935de34a178aa5dda20c2c59c424df32",
+      "actual_kernel": "bf1f4f4dd9f4684c6059efd26b775a31935de34a178aa5dda20c2c59c424df32"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_007",
+      "requested_seed": 151518091,
+      "resolved_seed": 151518091,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "8475971bf4cb916e02cf6fc93a253768c5d3efdd7d728285f84d2b1a0eed236a",
+      "actual_kernel": "8475971bf4cb916e02cf6fc93a253768c5d3efdd7d728285f84d2b1a0eed236a"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_008",
+      "requested_seed": 107696629,
+      "resolved_seed": 107696629,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3be4e261ac7564d141d58072d54cc8556e21dd34fdbac3184900191978545139",
+      "actual_kernel": "3be4e261ac7564d141d58072d54cc8556e21dd34fdbac3184900191978545139"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_009",
+      "requested_seed": 415887271,
+      "resolved_seed": 415887271,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "c1c65a7f91eea6186974a037504e7f682f406d0ad07e8c5580858bcd86ebd2f7",
+      "actual_kernel": "c1c65a7f91eea6186974a037504e7f682f406d0ad07e8c5580858bcd86ebd2f7"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_010",
+      "requested_seed": 585860227,
+      "resolved_seed": 585860227,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "847866c53cf64a8499b60d4a4a8057b5e8a72277f4918b8105c3cce4a2c3e8a8",
+      "actual_kernel": "847866c53cf64a8499b60d4a4a8057b5e8a72277f4918b8105c3cce4a2c3e8a8"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_011",
+      "requested_seed": 842267749,
+      "resolved_seed": 842267749,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "0da4ab59256a50d02ad61ee720558291820c27c5f5d7f10dd02abf05130cdcde",
+      "actual_kernel": "0da4ab59256a50d02ad61ee720558291820c27c5f5d7f10dd02abf05130cdcde"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_012",
+      "requested_seed": 1034530731,
+      "resolved_seed": 1034530731,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "bc25c59001143b371b220d62b15f6c8ccb29b77e4745ad04b1d2d6168e3927fe",
+      "actual_kernel": "bc25c59001143b371b220d62b15f6c8ccb29b77e4745ad04b1d2d6168e3927fe"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_013",
+      "requested_seed": 399094636,
+      "resolved_seed": 399094636,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "f82ad68439d041e624410d48dc9afd0085ac82086f82a51325cb3780d19357e0",
+      "actual_kernel": "f82ad68439d041e624410d48dc9afd0085ac82086f82a51325cb3780d19357e0"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_014",
+      "requested_seed": 379092086,
+      "resolved_seed": 379092086,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "1e27216c13cc8fea4e27bf31fe458084b0317404df0aeaa22620240de038cfd6",
+      "actual_kernel": "1e27216c13cc8fea4e27bf31fe458084b0317404df0aeaa22620240de038cfd6"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_015",
+      "requested_seed": 772060413,
+      "resolved_seed": 772060413,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "56b8fd5f21a40ab467a6447d431edea4c5d158ab99e583c73a1d9f4cd5e9233c",
+      "actual_kernel": "56b8fd5f21a40ab467a6447d431edea4c5d158ab99e583c73a1d9f4cd5e9233c"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_016",
+      "requested_seed": 326275250,
+      "resolved_seed": 326275250,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "5bbef22a4331eff04529a12820523ee2699c1825162e23d6986bf3da6178c17d",
+      "actual_kernel": "5bbef22a4331eff04529a12820523ee2699c1825162e23d6986bf3da6178c17d"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_017",
+      "requested_seed": 944884331,
+      "resolved_seed": 944884331,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "e1c8ad96776a2fdcce238df29fa920eb423a757442a310a5ed9f423d3bc4a1d3",
+      "actual_kernel": "e1c8ad96776a2fdcce238df29fa920eb423a757442a310a5ed9f423d3bc4a1d3"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_018",
+      "requested_seed": 613266934,
+      "resolved_seed": 613266934,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "010cf7363cc5cdfdaf0be9a65a99a49a0ac44737dee6d4695d2136734778e5f1",
+      "actual_kernel": "010cf7363cc5cdfdaf0be9a65a99a49a0ac44737dee6d4695d2136734778e5f1"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_019",
+      "requested_seed": 342322827,
+      "resolved_seed": 342322827,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "1a9e32239c68cefae012856b662ccaae42370cdb64a7dd1f271a7f0420b8dbcd",
+      "actual_kernel": "1a9e32239c68cefae012856b662ccaae42370cdb64a7dd1f271a7f0420b8dbcd"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_020",
+      "requested_seed": 841644095,
+      "resolved_seed": 841644095,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "e324b9688dc20f514774a3a45bc2256c195c3547e387f4a50ca03188b3e841da",
+      "actual_kernel": "e324b9688dc20f514774a3a45bc2256c195c3547e387f4a50ca03188b3e841da"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_021",
+      "requested_seed": 516570743,
+      "resolved_seed": 516570743,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "7a29f5f430ee9feed688c372785b3d52452b71f48054cbecbd87092344539f3f",
+      "actual_kernel": "7a29f5f430ee9feed688c372785b3d52452b71f48054cbecbd87092344539f3f"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_022",
+      "requested_seed": 999562420,
+      "resolved_seed": 999562420,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "597c0a12f515178f6f46dec314c9616152149df6a00c635c719177bb7716b564",
+      "actual_kernel": "597c0a12f515178f6f46dec314c9616152149df6a00c635c719177bb7716b564"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_023",
+      "requested_seed": 960167268,
+      "resolved_seed": 960167268,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "2a9b85e8962358f566a9ff9a529581623c055ce1e0aab63c079b53f9de9cfb02",
+      "actual_kernel": "2a9b85e8962358f566a9ff9a529581623c055ce1e0aab63c079b53f9de9cfb02"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_024",
+      "requested_seed": 214835487,
+      "resolved_seed": 214835487,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3b6a97d6814a359441ea72da40083c30736d3059fb5c31c3911de29f036cf56c",
+      "actual_kernel": "3b6a97d6814a359441ea72da40083c30736d3059fb5c31c3911de29f036cf56c"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_025",
+      "requested_seed": 919780094,
+      "resolved_seed": 919780094,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "a07736b16c4bce6b0f913e9a5b3ebe8b9a66f1065c6263f42857b0f29dbc8302",
+      "actual_kernel": "a07736b16c4bce6b0f913e9a5b3ebe8b9a66f1065c6263f42857b0f29dbc8302"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_026",
+      "requested_seed": 870684299,
+      "resolved_seed": 870684299,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "61f5418a159c65da206bb6004591b9fb77420a8112cc20ca69e501f21e4cc7ab",
+      "actual_kernel": "61f5418a159c65da206bb6004591b9fb77420a8112cc20ca69e501f21e4cc7ab"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_027",
+      "requested_seed": 1030425039,
+      "resolved_seed": 1030425039,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "dbe66118218840d749df021ea9b0c3850b82570916b76593493ca895723c43a6",
+      "actual_kernel": "dbe66118218840d749df021ea9b0c3850b82570916b76593493ca895723c43a6"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_028",
+      "requested_seed": 223211869,
+      "resolved_seed": 223211869,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "c7bba234949b9e902261ae2f1af56029b9d1de34cbe39ea462e592d1de1d4f5c",
+      "actual_kernel": "c7bba234949b9e902261ae2f1af56029b9d1de34cbe39ea462e592d1de1d4f5c"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_029",
+      "requested_seed": 1061045058,
+      "resolved_seed": 1061045058,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "d22134159abd2bb3f00c9cffb62c0fefc2e6855da6df258e60b149c29ac6ab09",
+      "actual_kernel": "d22134159abd2bb3f00c9cffb62c0fefc2e6855da6df258e60b149c29ac6ab09"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_030",
+      "requested_seed": 338192411,
+      "resolved_seed": 338192411,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "021c56c110da4c528b0fd847608e90ca81b68114e07ed1ad3e3b795ca4b6edba",
+      "actual_kernel": "021c56c110da4c528b0fd847608e90ca81b68114e07ed1ad3e3b795ca4b6edba"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_031",
+      "requested_seed": 794210056,
+      "resolved_seed": 794210056,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "07230b79b3571168c88b4422a964be05350c08ff710562051322f7ac2ade1074",
+      "actual_kernel": "07230b79b3571168c88b4422a964be05350c08ff710562051322f7ac2ade1074"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_032",
+      "requested_seed": 706219485,
+      "resolved_seed": 706219485,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "3dd810be7de4b0ddf3d4d72a21a0ca6dad72afaed32fbfaf4b9dd23e6c6de378",
+      "actual_kernel": "3dd810be7de4b0ddf3d4d72a21a0ca6dad72afaed32fbfaf4b9dd23e6c6de378"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_033",
+      "requested_seed": 605649529,
+      "resolved_seed": 605649529,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "acdf4636ed8b99546ff638edea5a923ce0df7741296d7f4a7e10e693f207b377",
+      "actual_kernel": "acdf4636ed8b99546ff638edea5a923ce0df7741296d7f4a7e10e693f207b377"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_034",
+      "requested_seed": 735366796,
+      "resolved_seed": 735366796,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "27d94f1d79c46a287568c71b10d79de9b585f62fcb0f8a15b2060c74d5cd4f67",
+      "actual_kernel": "27d94f1d79c46a287568c71b10d79de9b585f62fcb0f8a15b2060c74d5cd4f67"
+    },
+    {
+      "mdp_id": "oeh120_lock_structured_035",
+      "requested_seed": 545441287,
+      "resolved_seed": 545441287,
+      "dynamic_range_rejections": 0,
+      "requested_kernel": "f0fa0d03787c709100b2815a196482c77a179b68750560bbe1052d760355b0a9",
+      "actual_kernel": "f0fa0d03787c709100b2815a196482c77a179b68750560bbe1052d760355b0a9"
+    }
+  ]
+}

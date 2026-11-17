@@ -1,0 +1,142 @@
+\documentclass[10pt,a4paper]{article}
+% Standalone preview: use only the standard LaTeX class and fonts.
+\setlength{\textwidth}{174mm}
+\setlength{\textheight}{253mm}
+\setlength{\oddsidemargin}{-7.4mm}
+\setlength{\evensidemargin}{-7.4mm}
+\setlength{\topmargin}{-15mm}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\footskip}{10mm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\newcommand{\block}[1]{\multicolumn{3}{l}{\small\textit{#1}}\\}
+\begin{document}
+\section*{Week 8 D1: learners, comparators and metrics}
+\textbf{Owner: Nguyen Quoc Viet. Updated: 11 October 2026.}
+Frozen cohort-7 evidence (4 October), repository baseline \texttt{22b4e9f}.
+This document checks and presents existing results; it introduces no new training or tuning.
+
+\textbf{Two separate questions.} Requirement forecasting asks how much data a learner needs to meet a performance target consistently. Its targets are BC, CFQI and IQL across six budgets. Selection asks which learner to use at budget $x10$; all seven learners below are candidates. The four additional learners have no six-budget requirement labels in this study.
+
+\subsection*{1. Learner settings and information access}
+All use discount $\gamma=.95$ and ten training streams. A budget $xb$ contains $bSA$ transitions, where $S$ and $A$ are the declared state and action counts. The core budgets are $x1,x2,x5,x10,x20,x50$.
+
+{\small
+\begin{tabular}{@{}p{.09\textwidth}p{.53\textwidth}p{.32\textwidth}@{}}\hline
+\textbf{Learner} & \textbf{Configuration and optimization budget} & \textbf{Fit access and role}\\\hline
+BC & Project tabular action frequencies; uniform fallback at unseen/terminal states; no gradient updates. & Logged data; requirement and selection.\\
+CFQI & Project tabular reference; observed-action restriction; at most 100 backups, tolerance $10^{-10}$. & Logged data; requirement and registered fixed selection comparator.\\
+IQL & Project tabular implementation; expectile $.7$, inverse temperature $3$; at most 100 iterations, tolerance $10^{-10}$. & Logged data; requirement and selection.\\
+BCQ & Author discrete learner; one-hot input, two hidden layers of 256, batch 64; 500 updates; threshold $.3$, Adam lr $3\cdot10^{-4}$, $\tau=.005$, eval epsilon $0$. & Logged data; selection at $x10$; CUDA.\\
+CQL & Pinned d3rlpy DiscreteCQL; one-hot input, hidden layers $256\times256$, batch 64; 500 updates; $\alpha=1$, lr $6.25\cdot10^{-5}$, target update every 50 steps. & Logged data; selection at $x10$; CUDA.\\
+SPIBB & Author Pi-b core; $N_{\wedge}=10$, support mask count $>10$. Author stop rule: Q-change norm $\le10^{-9}$; nominal cap 99999, nonconvergence branch after 1000. & Log \textbf{plus true behavior policy $\beta$}; selection at $x10$.\\
+VI-LCB & Project discounted paper-spec port; $c_b=\delta=.05$, 100 iterations; historical $c_b=144$ is a separate configuration. & Log plus terminal-state metadata; selection at $x10$.\\\hline
+\end{tabular}}
+
+\textbf{Why include these learners?} BC provides an imitation reference. CFQI improves values within observed action support. IQL uses expectiles and advantage weights. BCQ restricts unsupported actions; CQL penalizes optimistic values outside the data. SPIBB preserves the behavior policy in low-data regions. VI-LCB applies an uncertainty penalty during value iteration.
+
+\textbf{Source pins.} BC/CFQI/IQL: project tabular functions and frozen source hashes. BCQ: \texttt{sfujim/BCQ@4876f7e}; CQL: \texttt{takuseno/d3rlpy@38c34b6}; SPIBB: \texttt{RomainLaroche/SPIBB@833f32b}; VI-LCB reference: \texttt{Laixishi/Model-based-VI-LCB@37858d3}. Full hashes and source paths are in \texttt{learner\_matrix.csv} and the D1 matrix document.
+
+\textbf{Access disclosure.} All policies are evaluated with the same exact true-MDP scorer after fitting. This does not give every learner the true transition kernel during fitting. SPIBB has known-$\beta$ access; the selector also receives the MDP-family label. Oracle selection uses actual outcomes. Equal data size does not imply equal information, optimization effort, or convergence.
+
+\newpage
+\section*{2. Primary forecast results: compare within blocks}
+The primary panel contains \textbf{84 stochastic MDPs}. Each score first averages five data-collection policies $\times$ three core learners within an MDP, then averages across MDPs. The 36 control MDPs are kept separate. \textbf{Lower IBS and log loss are better.}
+
+{\small\centering
+\begin{tabular}{@{}p{.70\textwidth}rr@{}}\hline
+\textbf{Features / method} & \textbf{IBS} & \textbf{Log loss}\\\hline
+\block{Matched head; pilot-only inputs}
+B2 matched & 0.05473 & 0.62718\\
+B2 + ERI adaptation & 0.05667 & 0.63297\\
+B2 + BWD adaptation & 0.05395 & 0.62117\\
+\textbf{OEH current (108 features)} & \textbf{0.04599} & \textbf{0.56308}\\\hline
+\block{AFT-only head; pilot-only inputs}
+B2 generic & 0.06399 & 0.78239\\
+Coverage adaptation & 0.09720 & 1.12422\\
+Quality adaptation & 0.08479 & 0.96709\\
+Coverage + quality adaptation & 0.06884 & 0.82502\\\hline
+\block{Frequency rule; meta-training labels, no pilot query features}
+Train frequency & 0.10953 & 0.94277\\\hline
+\block{Matched head; privileged true-MDP/reference information}
+B2 + oracle EH & 0.05471 & 0.62664\\
+B2 + TQ/SACo reference & 0.05221 & 0.61416\\
+Published-metrics-only block & 0.06299 & 0.67856\\\hline
+\block{Diagnostic outside registered gate: matched head, pilot inputs}
+Earlier OEH diagnostics & 0.05091 & 0.60792\\\hline
+\block{Diagnostic outside registered gate: unfitted posterior, pilot inputs}
+Raw OEH-B law & 0.09783 & 0.91068\\\hline
+\end{tabular}\par}
+
+\textbf{Matched means the same fitting procedure, not shared fitted weights.} Each row separately fits AFT + direct-threshold + depth-3 multiclass heads, with 200-round capacity; convex weights are chosen using five MDP-grouped OOF folds on seven opened cohorts. AFT-only and frequency rows have different architectures. Privileged rows have additional information unavailable to a pilot-only deployment.
+
+\textbf{B2 has 18 pilot statistics.} These cover data volume/dimensions; state and state-action coverage; visitation entropy and minimum positive counts; trajectory-return mean, standard deviation and IQR; terminal-trajectory fraction; weighted and observed-cell transition entropy; low-count and stochastic-cell fractions; low-/high-coverage entropy; bootstrap return uncertainty and rare-exposure uncertainty. Exact column names are listed in the D1 matrix document.
+
+\textbf{ERI/BWD are adaptations.} ERI adds a quality indicator and eligibility; BWD uses a tabular one-hot/SARSA/transport adaptation. These rows do not reproduce the original authors' complete benchmark tasks. B2 is the project's baseline, not a published SOTA method.
+
+\textbf{What improved?} Against B2 matched, OEH reduces IBS by \textbf{15.97\%} and log loss by \textbf{10.22\%}, using unrounded stored scores. All 22 registered forecast lower bounds are positive in the frozen evidence. This supports forecasting within the studied generator families; it does not establish field-wide SOTA or isolate a single feature's contribution.
+
+\newpage
+\section*{3. Metrics, selection and review limits}
+\textbf{Performance target.} Let $J(\pi)$ be the discounted expected return:
+\[
+ NR(\pi)=\frac{J(\pi)-J_{\rm random}}{J^*-J_{\rm random}},
+ \qquad \hbox{seed success: }NR(\pi)\ge .95.
+\]
+The denominator must be positive. NR is not a probability and is not clipped to $[0,1]$.
+For budget index $j=0,\ldots,5$, let $C_{\ell,j}$ count successful seeds out of ten.
+\[
+ E_{\ell}=\min\{j:C_{\ell,m}\ge8\ \hbox{for every }m\ge j\}.
+\]
+If no such index exists, $E_{\ell}=6$, the class $>x50$. For example, counts $(2,5,8,7,9,10)$ give $x20$: the apparent success at $x5$ does not persist at $x10$. Counts $(10,10,10,10,10,7)$ give $>x50$.
+
+\textbf{Forecast error.} A forecast assigns probabilities $p_0,\ldots,p_6$ to the seven classes. Set $F_j=\sum_{c=0}^{j}p_c$ and let $\mathbf{1}$ denote an indicator:
+\[
+ IBS=\frac{1}{6}\sum_{j=0}^{5}\bigl(F_j-\mathbf{1}\{E_{\ell}\le j\}\bigr)^2,
+ \qquad LL=-\log\bigl(\max(p_{E_{\ell}},10^{-12})\bigr).
+\]
+IBS measures error across six budget thresholds. Log loss penalizes a confident wrong class prediction. The censored class is retained, with six CDF targets equal to zero. Bootstrap resampling is at MDP level; the 1,260 primary forecast tasks are not independent environments. The 22 forecast contrasts use registered simultaneous one-sided 95\% bounds.
+
+\textbf{Selection at $x10$.} Success here is the mean fraction of seeds reaching $NR\ge.95$, rather than the full-suffix requirement label. Values below average 420 primary MDP--behavior groups. Higher is better.
+
+{\small\centering
+\begin{tabular}{@{}lrr@{}}\hline
+\textbf{Rule} & \textbf{Mean NR} & \textbf{Seed success}\\\hline
+Fixed CFQI (registered comparator) & 0.79273 & 41.29\%\\
+OEH current selector & 0.81139 & 47.95\%\\
+Earlier v5 router & 0.81320 & 47.33\%\\
+Random learner & 0.52846 & 24.59\%\\
+Group oracle (outcome access) & 0.83788 & 53.50\%\\\hline
+\end{tabular}\par}
+
+Compared with fixed CFQI, OEH gains \textbf{0.01866 NR} and \textbf{6.67 percentage points} of success; both registered selection lower bounds are positive. Compared with v5, OEH loses 0.00182 NR and gains only 0.62 percentage points of success; that supplementary gate remains \textbf{NO-GO}. The selector uses pilot features, OEH probabilities and an MDP-family label; it is not a pilot-only forecast comparator. The group oracle cannot be deployed without observing outcomes.
+
+\textbf{Cost interpretation.} Primary $x10$ contains 4,200 core runtime records per learner. Mean callback times are BC 0.011261 s, CFQI 0.030134 s, and IQL 0.059505 s. These timers include loading, fitting and exact scoring; they are not isolated fit times or parallel wall-clock totals. External fit/VRAM costs are unavailable. No compute-saving claim follows from these records.
+
+\textbf{Keep negative results and limitations visible.} Cohort-4 supplementary tests and the FourRooms component stress test remain NO-GO. Full-method external validation and feature ablations are not established here. Raw buffers and several historical artifacts are missing; compact consistency checks do not establish end-to-end reproduction or universal learner convergence.
+
+\textbf{Reproducible D1 audit.} Run \texttt{python -m scripts.analysis.export\_week8\_d1 --check}. It verifies sealed hashes and independently recomputes forecast scores: 25,200 predictions, 1,680 MDP score rows, 28 summaries, 22 contrasts, 420 selection groups and 108,000 core jobs. Published bootstrap bounds are not recomputed. D1 technical checks do not substitute for the team's independent statistical review. Full machine-readable outputs accompany this document in \texttt{artifacts/week8/d1\_2026-10-11/}.
+
+\newpage
+\section*{4. Improvement notes --- 12 October 2026}
+\textbf{Retain the current method.} These are development suggestions, not confirmed gains. On the already-opened fourth cohort, grouped validation found a 0.58\% IBS reduction and a 0.37\% log-loss reduction from temperature calibration. Exploratory simultaneous lower bounds were negative, and performance worsened when a family was excluded from the new fitting stage. The original forecasts had already seen these generator families in historical training; this is an adaptation stress test, not full-method validation on a completely unseen family.
+
+\begin{enumerate}
+\item \textbf{Keep simple probability calibration as a candidate.} Fit its parameter on development data, then seal predictions before outcomes in a new cohort. Temperature scaling changes confidence, not the highest-probability class; it cannot repair every incorrect class prediction.
+\item \textbf{Investigate OEH--B2 blending across development cohorts.} Learn weights using grouped validation, rather than writing a family-specific rule after inspecting test outcomes. The small gains observed so far did not survive the family-held-out adaptation check.
+\item \textbf{Improve resolution within $x1$--$x50$.} Finite-budget cases account for a large share of error despite being a minority. Keep the $>x50$ class and report both finite and censored cases. The tested two-stage head was worse than the joint head with the same inputs; do not deploy that configuration or infer that every two-stage design must fail.
+\item \textbf{Evaluate selection on both return and success.} Compare against fixed CFQI and v5, with true-$\beta$/family-label access disclosed. The paired-advantage and conservative-switch probes did not improve both endpoints over the current development rule.
+\item \textbf{Restore complete inputs and run controlled ablations.} Reproduce full historical training before refitting all 108 features. Freeze feature subsets and contrasts before new outcomes, then test generalization on an appropriate external benchmark.
+\end{enumerate}
+
+\textbf{Conditions for adoption.} Select configurations inside MDP-grouped development splits; lock the model and predictions before observing new evaluation outcomes. Preserve the original metrics, data budgets and access rules. Record unsuccessful attempts and measure costs separately. Nested validation does not undo historical reuse of development data.
+
+\textbf{Resource note.} The nested runner took about 41 seconds and wrote approximately 4.5 MB. XGBoost used one CPU thread and no GPU. This was possible because pilot features, forecasts and learner outcomes were already available; it is not the cost of regenerating data or retraining the offline-RL learners. Peak RAM was not measured.
+
+\textbf{Evidence.} The full development report is
+\texttt{NESTED\_EXPERIMENT\_RESULTS\_2026-10-12.md}
+in the repository's \texttt{docs/week8/} directory. Sealed cohort-7 results remain the source of the primary tables in this handout.
+
+\end{document}

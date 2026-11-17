@@ -1,0 +1,58 @@
+{
+  "status": "FINAL_BRIDGE_TEST_PROTOCOL_SEALED_BEFORE_LABELS",
+  "test_labels_read": false,
+  "task_ids": [
+    "MiniGrid-Empty-5x5-v0",
+    "MiniGrid-Empty-6x6-v0",
+    "MiniGrid-Empty-8x8-v0",
+    "MiniGrid-KeyCorridorS3R1-v0",
+    "MiniGrid-LavaCrossingS11N5-v0",
+    "MiniGrid-LavaCrossingS9N1-v0",
+    "MiniGrid-LavaCrossingS9N2-v0",
+    "MiniGrid-LavaCrossingS9N3-v0",
+    "MiniGrid-LavaGapS6-v0",
+    "MiniGrid-LavaGapS7-v0",
+    "MiniGrid-MultiRoom-N2-S4-v0",
+    "MiniGrid-SimpleCrossingS11N5-v0",
+    "MiniGrid-SimpleCrossingS9N2-v0",
+    "MiniGrid-SimpleCrossingS9N3-v0"
+  ],
+  "pilot_groups": 70,
+  "learners": [
+    "behavior_cloning_tabular",
+    "cfqi_tabular",
+    "iql_tabular"
+  ],
+  "label_name_map": {
+    "BC": "behavior_cloning_tabular",
+    "CFQI": "cfqi_tabular",
+    "IQL": "iql_tabular"
+  },
+  "forecasters": [
+    "b2_matched",
+    "oeh_without_direct_oehb"
+  ],
+  "comparison_mode": "reduced",
+  "tau": 0.95,
+  "horizon": 100,
+  "gamma": 0.99,
+  "budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "training_seeds": 10,
+  "sustained_minimum": 8,
+  "source_sha256": {
+    "pilot_manifest": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11",
+    "split_freeze": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c",
+    "b2_predictions": "ba18cd9557ca29a53e193965752c3100a3e047491592394b87b4fce6feaa98f6",
+    "comparison_predictions": "349e9149b72eeb78d18b7685086d7c0011a7445e2523b4347c8efa5a63efad87",
+    "resource_addendum": "1b1bea726cd46e7835e6e8644a0ad0db3fa2bd1cc6f198252ebdb1dad474d7a0",
+    "label_code": "d6093573f0e977b1091a202aba05da7a098aae1a8e3090f13e7f4eb61701d29f",
+    "runner": "50cb8ee3eb56e5779df39700445983fbc71d1f4efce632316ece8712f29f7e29"
+  }
+}

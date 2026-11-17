@@ -1,0 +1,11 @@
+{
+  "status": "SEALED_30_COLUMN_PILOT_FEATURES_NO_TEST_LABELS",
+  "pilot_manifest_sha256": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11",
+  "source_script_sha256": "bbce7e17e15adc7019a91affb0db396640aa1103745047885ef3cb9e9268c15d",
+  "groups": 70,
+  "rows": 210,
+  "feature_columns": 30,
+  "gamma": 0.99,
+  "features_sha256": "b07226babb656d252ff881a246bdc43010f57fb9b27747b184095680d825b9b8",
+  "test_labels_read": false
+}

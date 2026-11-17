@@ -1,0 +1,13 @@
+{
+  "status": "preoutcome_resolved_seed_repair",
+  "at_utc": "2026-10-01T08:23:24.369335+00:00",
+  "old_protocol_sha256": "a77a5474614a4a6a69e5287cb1367bfc56974c18ee1c5a43657b232c1f2106f9",
+  "new_protocol_sha256": "1e3016320038066ca18e593e8927a6f54bcf187e62f33f3ad50b7f77c0987839",
+  "resolved_seed_count": 5,
+  "actual_kernels_new_and_distinct": true,
+  "actual_kernel_audit_sha256": "b4d014184d96cf36a446805d0a845419fb6318d4cb0c6fd6220263ee7fab2bca",
+  "original_protocol_copy_sha256": "a77a5474614a4a6a69e5287cb1367bfc56974c18ee1c5a43657b232c1f2106f9",
+  "original_dataset_seal_copy_sha256": "4a58340efe501e168f55709fa02d53f8c4e04dc5cf7c40e77f708871ead9b7b8",
+  "new_dataset_seal_sha256": "9e0d4f7eb93c5d300e508668c8b27500f87c383808db0db81fdae202daa28f5b",
+  "learner_outcomes_observed": 0
+}

@@ -1,0 +1,7 @@
+algorithm,method,rows,tasks,oeh_rho_same_rows,original_rho,delta_oeh_minus_original,ci95_low_descriptive,ci95_high_descriptive,defined_bootstrap_draws,bootstrap_draws,scope
+behavior_cloning_tabular,TQ original formula,25,5,0.42937693055750364,0.4702699715629801,-0.04089304100547647,-0.12315370553522792,0.0,6732,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"
+behavior_cloning_tabular,SACo original formula,25,5,0.42937693055750364,-0.3476577122287207,0.7770346427862244,0.6568197628545491,1.1735351482000158,6680,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"
+cfqi_tabular,TQ original formula,25,5,0.5964216817503718,0.634543479965344,-0.03812179821497219,-0.19595903961510908,0.23398820517648114,9996,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"
+cfqi_tabular,SACo original formula,25,5,0.5964216817503718,0.013529691803219336,0.5828919899471524,-0.3403682938401892,0.957986965101527,9998,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"
+iql_tabular,TQ original formula,25,5,0.500909720194715,0.6324739599567004,-0.1315642397619854,-0.36373031438425246,0.0,9258,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"
+iql_tabular,SACo original formula,25,5,0.500909720194715,-0.4358149246233896,0.9367246448181046,0.5953105529099058,1.242752017097458,9231,10000,"Exploratory rank transfer, not same-output forecaster or SOTA claim"

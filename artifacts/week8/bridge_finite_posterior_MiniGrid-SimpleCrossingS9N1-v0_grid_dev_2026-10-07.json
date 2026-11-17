@@ -1,0 +1,24 @@
+{
+  "status": "FINITE_POSTERIOR_RESOURCE_SMOKE_DEVELOPMENT_ONLY",
+  "task": "MiniGrid-SimpleCrossingS9N1-v0",
+  "states": 1006,
+  "draws": 1,
+  "seeds": 10,
+  "budgets": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "evaluation_horizon": 100,
+  "sampling": {
+    "draws_requested": 1,
+    "draws_returned": 1,
+    "proposals": 1,
+    "accepted": 1
+  },
+  "runtime_seconds": 288.0125893999939,
+  "test_labels_read": false
+}

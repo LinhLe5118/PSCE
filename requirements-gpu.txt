@@ -1,0 +1,3 @@
+# Optional isolated CUDA environment; keep scientific reference pins.
+-r requirements.txt
+cupy-cuda12x==14.2.0

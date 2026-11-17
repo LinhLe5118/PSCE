@@ -1,0 +1,35 @@
+{
+  "status": "exploratory_three_opened_cohorts_not_independent",
+  "variants_depth_child_rounds": {
+    "shallow_300": [
+      2,
+      10,
+      300
+    ],
+    "depth3_200": [
+      3,
+      10,
+      200
+    ],
+    "depth3_150": [
+      3,
+      5,
+      150
+    ]
+  },
+  "input_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/labels.csv": "4ec6b40333fdb919cddf9d6f2ec06e9212b67efeab7fe3a945f379e00b9d4575",
+    "artifacts/oeh_difficulty_unseen_120_2026-10-01/pilot_features.csv": "a92020f1a25b04c3125e22973655f9dae26bf0dd05ce9bcac1df24b5fe5553be"
+  },
+  "script_sha256": "9aa0440a31b61e7d1edc636dc372be335a4e280a3647cb767961ece03e37fd6e",
+  "artifact_sha256": {
+    "scored.csv": "ec1fdddf7c83e7850162fab59b4a81f17105e92596950d1f0eaddf1a7aab7fb1",
+    "summary.csv": "874ff0e2dd8bf7db294ae4242b57939dc9aa7926cdfb04020d3c578451e05f50"
+  }
+}

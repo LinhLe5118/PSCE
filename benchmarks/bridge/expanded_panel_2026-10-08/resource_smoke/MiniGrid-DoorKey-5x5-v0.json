@@ -1,0 +1,23 @@
+{
+  "status": "EXPANDED_RESOURCE_SMOKE_NO_LABELS",
+  "mdp_id": "MiniGrid-DoorKey-5x5-v0",
+  "policy_family": "structured_random",
+  "states": 1492,
+  "actions": 6,
+  "horizon": 100,
+  "pilot_nonzero_rewards": 0,
+  "pilot_seconds_including_adapter_and_behavior": 22.515612500021234,
+  "one_draw_one_seed_seconds": 114.807904999936,
+  "observed_output_shape": [
+    0,
+    1,
+    6,
+    3
+  ],
+  "methodology": "Not a valid 64-draw timing estimate; report only as lower-bound resource probe",
+  "source_sha256": {
+    "script": "da991e4984300373a706221194a53d65df6f0d27f43d88658647e40da37b41b6",
+    "npz": "c2082d692d856bf3d2c6cf830fd2864e069d51a10e1db47b61288f16d527e103"
+  },
+  "test_labels_read": false
+}

@@ -1,0 +1,2 @@
+# Match the original OEH-v5 scientific runtime.
+numpy==2.5.1

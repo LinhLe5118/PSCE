@@ -1,0 +1,43 @@
+{
+ "name": "external Colosseum trial of OEH current (exploratory, not team-approved)",
+ "registered_at_utc": "2026-10-13T17:22:29.987969+00:00",
+ "learner_outcomes_observed": 0,
+ "task": "seven-class learner-specific data requirement (x1,x2,x5,x10,x20,x50,>x50); event = first budget whose full suffix has >=8/10 seeds with NR>=0.95",
+ "mdps": "Colosseum (NeurIPS 2022) kernels from the authors' sampler, seed 2026; families riverswim, deepsea, frozenlake, simplegrid; stochastic; 16<=|S||A|<=256; project dynamic-range filter; 32 MDPs",
+ "excluded_families": {
+  "mg_doorkey": "excluded by Colosseum authors",
+  "mg_empty, mg_rooms, taxi": "authors' sampler yields |S||A|>256 only"
+ },
+ "logs_and_labels": "project generator, 5 behavior families, pilot x10, 10 training seeds, BC/CFQI/IQL with project hyper-parameters",
+ "forecasters": {
+  "oeh_final": "frozen 108-column field list (protocol c7)",
+  "b2_matched": "18 B2 features",
+  "b2_plus_colosseum": "B2 + log diameter, value norm, log sum reciprocal gaps (privileged)"
+ },
+ "fit": "matched_forecast (AFT + thresholds + depth-3 multiclass, convex OOF weights) on opened cohorts first60, second60, first120, second120, third120, fourth120, seventh120; E1 unavailable",
+ "metrics": [
+  "integrated Brier (six thresholds)",
+  "seven-class log loss"
+ ],
+ "aggregation": "mean of 15 rows within MDP, then mean over MDPs",
+ "inference": "paired whole-MDP bootstrap, 10000 draws, seed 20261014, simultaneous max-t one-sided 95% lower bounds over 4 contrasts",
+ "gate": {
+  "primary": "OEH vs b2_matched: both metrics mean gain>0 and lower bound>0",
+  "secondary": "OEH vs b2_plus_colosseum: same rule"
+ },
+ "no_minimum_relative_gain": true,
+ "descriptive_only": [
+  "by family",
+  "by learner",
+  "within MDP-behavior learner ranking",
+  "hardness-measure rank association",
+  "cohort-7 reproduction check"
+ ],
+ "limitations": [
+  "32 MDPs vs 84 in the paper",
+  "4 of 7 Colosseum families",
+  "trained on 6 of 7 sealed cohorts (no E1)",
+  "OEH-B/OEH-H recomputed with original namespaces",
+  "exploratory; not a team protocol"
+ ]
+}

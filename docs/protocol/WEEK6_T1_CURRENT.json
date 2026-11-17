@@ -1,0 +1,12 @@
+{
+  "current_version": "1.1.0",
+  "protocol": "WEEK6_T1_STATISTICAL_FREEZE_v1.1.0_2026-09-21.md",
+  "manifest": "WEEK6_T1_FREEZE_v1.1.0-r1.sha256.json",
+  "integrity_revision": "r1",
+  "historical_manifest": "WEEK6_T1_FREEZE_v1.1.0.sha256.json",
+  "integrity_repair_note": "WEEK6_T1_INTEGRITY_REPAIR_r1.md",
+  "superseded_versions": ["1.0.0"],
+  "reason": "Primary inference restricted to stochastic dynamics; deterministic controls isolated before any fitting.",
+  "evaluation_opened": false,
+  "execution_go": false
+}

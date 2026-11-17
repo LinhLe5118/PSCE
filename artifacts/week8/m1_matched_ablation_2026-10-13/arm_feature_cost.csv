@@ -1,0 +1,6 @@
+arm,columns,components,sample_groups,mean_seconds_per_group,median_seconds_per_group,estimated_sequential_seconds_600_groups
+b2_matched,18,b2_statistics,40,0.0032284025044646116,0.003092150029260665,1.9370415026787668
+oeh_full_108,108,b2_statistics;oeh3_risk;lcoeh4_crossfit;posterior_fit;oehb_simulation;oehh_horizon,40,31.304233007505538,29.849413499992806,18782.53980450332
+oeh_without_direct_oehb,70,b2_statistics;oeh3_risk;lcoeh4_crossfit;posterior_fit;oehh_horizon,40,8.59604627500812,4.653582000173628,5157.627765004872
+oeh_without_oehh_risk,84,b2_statistics;oeh3_risk;lcoeh4_crossfit;posterior_fit;oehb_simulation,40,26.465890975002548,27.457693549979012,15879.53458500153
+oeh_without_legacy_diagnostics,80,b2_statistics;posterior_fit;oehb_simulation;oehh_horizon,40,27.54975716750487,28.53792659996543,16529.85430050292

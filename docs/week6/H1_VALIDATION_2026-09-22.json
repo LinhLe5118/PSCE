@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-22",
+  "branch": "docs/h1-v4e-formula-freeze",
+  "source_baseline": "8861511",
+  "scope": "H1 formula_theory_handover_and_authorized_T1_packaging_repair",
+  "status": "checks_passed_pdf_build_pending_independent_review_required",
+  "full_suite": {
+    "command": "python -m scripts.testing.run_full_tests",
+    "exit_code": 0,
+    "passed": 763,
+    "seconds": 95.77,
+    "skips": 0,
+    "local_log": "H1_validation_local.log (gitignored)"
+  },
+  "post_final_theory_edit": {
+    "command": "python -m pytest tests/test_h1_formula_freeze.py tests/test_paper_scientific_contract.py -q",
+    "exit_code": 0,
+    "passed": 18
+  },
+  "t1_integrity": {
+    "status": "PASS",
+    "files_verified": 153,
+    "manifest": "docs/protocol/WEEK6_T1_FREEZE_v1.1.0-r1.sha256.json",
+    "sha256": "a21be4d0a51d2a9a8b1bcfbcde6a4270316443e6171eb9b71be4ab64982da395",
+    "old_manifest_and_sidecar_retained": true,
+    "scientific_protocol_matches_original_git_commit": "38abddf64949660d4a9e331e86e30368fd548815",
+    "old_digest_preimage_recovered": false
+  },
+  "h1_integrity": {
+    "status": "PASS",
+    "files_verified": 34,
+    "manifest": "docs/protocol/WEEK6_H1_FREEZE_v1.0.0.sha256.json",
+    "sha256": "1de622f8843dc21b2b050e0e1d588f8e074f7ece91eba07edfc0d7b8017ee264"
+  },
+  "latex": {
+    "parser_command": "pandoc --from=latex --to=native main.tex (paper directory)",
+    "parser_exit_code": 0,
+    "reference_and_citation_tests": "PASS",
+    "pdf_build": "NOT_RUN_no_pdflatex_or_bibtex_available",
+    "tracked_main_pdf": "unchanged_pre_H1_build",
+    "required_handoff": "Compile updated sources and inspect layout on Overleaf or TeX"
+  },
+  "git_diff_check": "PASS",
+  "core_algorithm_changes": false,
+  "statistical_parameter_changes": false,
+  "sealed_evaluation_data_read": false,
+  "new_development_dataset_generated": false,
+  "independent_b2_review_granted": false,
+  "e1_execution_go_granted": false,
+  "confirmation_or_sota_claim": false
+}

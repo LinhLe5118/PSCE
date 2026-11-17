@@ -1,0 +1,44 @@
+{
+  "status": "development_only_two_opened_cohorts_not_confirmation",
+  "scope": "OEH pilot-only versus matched B2 and full-MDP oracle EH on offline difficulty",
+  "stochastic_mdps": 84,
+  "bootstrap_draws": 10000,
+  "joint_contrasts": 4,
+  "simultaneous_critical_value": 1.8829543943571592,
+  "decision_rule": "Each point relative gain >=5% and each joint simultaneous absolute-improvement lower bound >0",
+  "comparisons": {
+    "b2_three_way": {
+      "brier": {
+        "baseline_mean": 0.06898775752996802,
+        "oeh_mean": 0.059166532099123766,
+        "relative_gain": 0.14236185929913658,
+        "absolute_improvement": 0.009821225430844266,
+        "simultaneous_lower_95": 0.0040753457772079935
+      },
+      "logloss": {
+        "baseline_mean": 0.7405032683403908,
+        "oeh_mean": 0.6980889417680706,
+        "relative_gain": 0.05727770340214544,
+        "absolute_improvement": 0.04241432657232035,
+        "simultaneous_lower_95": 0.011692373477274434
+      }
+    },
+    "b2_plus_eh_oracle_three_way": {
+      "brier": {
+        "baseline_mean": 0.06960802904076602,
+        "oeh_mean": 0.059166532099123766,
+        "relative_gain": 0.15000420333015285,
+        "absolute_improvement": 0.01044149694164225,
+        "simultaneous_lower_95": 0.004520056201707233
+      },
+      "logloss": {
+        "baseline_mean": 0.7412796453212358,
+        "oeh_mean": 0.6980889417680706,
+        "relative_gain": 0.058265060730823715,
+        "absolute_improvement": 0.04319070355316525,
+        "simultaneous_lower_95": 0.01124122058530061
+      }
+    }
+  },
+  "development_gate": "GO"
+}

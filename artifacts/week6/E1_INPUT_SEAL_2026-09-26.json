@@ -1,0 +1,15 @@
+{
+  "schema_version": "week6-e1-input-seal-v1",
+  "recorded_at": "2026-09-26T14:08:00Z",
+  "recorded_before_runner_access": true,
+  "run_id": "week6_oehv4e_confirmatory_v1_1",
+  "dataset_dir": "datasets/week6_e1_oehv4e_confirmatory_v1_1",
+  "manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "base_mdps": 120,
+  "logical_datasets": 37800,
+  "physical_buffers": 6600,
+  "source_commit": "725cbdb589d810b4c852b9776f01db0b29afe3dc",
+  "authorization_reference": "user_message_2026-09-26_designating_independent_auditor_and_authorizing_E1",
+  "unified_runner_run_invocations_at_recording": 0,
+  "evaluation_outcomes_observed_at_recording": false
+}

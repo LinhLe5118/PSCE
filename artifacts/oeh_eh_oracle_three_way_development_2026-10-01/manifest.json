@@ -1,0 +1,46 @@
+{
+  "status": "development_only_two_opened_cohorts_not_confirmation",
+  "scope": "offline endpoint transfer; EH has true-MDP oracle features",
+  "e1_oof_weights_aft_direct_multi": [
+    0.2826307624021369,
+    0.0,
+    0.7173692375978631
+  ],
+  "e1_oof_logloss": 0.6768800986661232,
+  "feature_set_eh": [
+    "log_pilot_transitions",
+    "log_state_action_count",
+    "observed_sa_fraction",
+    "observed_state_fraction",
+    "normalized_visitation_entropy",
+    "log1p_min_positive_sa_count",
+    "trajectory_return_mean",
+    "trajectory_return_std",
+    "trajectory_return_iqr",
+    "terminal_trajectory_fraction",
+    "weighted_transition_entropy",
+    "observed_cell_transition_entropy",
+    "low_count_cell_fraction",
+    "empirical_stochastic_cell_fraction",
+    "low_coverage_entropy",
+    "high_coverage_entropy",
+    "bootstrap_return_mean_std",
+    "bootstrap_rare_exposure_mean_std",
+    "stochastic_eh_hbar_h100",
+    "stochastic_eh_min_qvi_k_h100",
+    "stochastic_eh_delta_h100"
+  ],
+  "source_sha256": {
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/e1_oracle_qvi_posthoc_2026-09-30/oracle_diagnostics.csv": "e96934928568bdfb60cdc6062c175beb03821353ce35d9afa3c8ad7ddab1d8f6",
+    "artifacts/independent_difficulty_2026-09-30/labels.csv": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "artifacts/independent_validation_2026-09-30/pilot_features.csv": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "artifacts/independent_difficulty_2026-09-30/oracle_preoutcome.csv": "f943697387abbde9f46688a5bebe9d8ac06f93a2fc68ac469e2ad538ca5d6a1e",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "artifacts/oeh_difficulty_confirmation_2026-10-01/pilot_features.csv": "efb10aa7fc91d934a9de60aebf0a87d67b449406c9b40774babe52a0f3b4b42b",
+    "artifacts/oeh_b2_eh_oracle_second_development_2026-10-01/oracle_descriptors.csv": "c2acdc77530289fc1df97bf4af794bcc1809207955a9279a0f67af881f23ff42",
+    "artifacts/oeh_difficulty_three_way_development_2026-10-01/predictions.csv": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957"
+  },
+  "script_sha256": "1eff70adde833afb5d34fe7323d61630b2c4dda68f0edbfe101497bc7e093602"
+}

@@ -1,0 +1,252 @@
+[
+  {
+    "panel": "stochastic_primary",
+    "method": "iql_tabular",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.04139284435646966,
+    "inner_categorical_frequency_loss": 0.16795519143115245
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "iql_tabular",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.04189014569275858,
+    "inner_categorical_frequency_loss": 0.16645163895346005
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "behavior_cloning_tabular",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.08817225943814046,
+    "inner_categorical_frequency_loss": 0.16230316909576525
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "behavior_cloning_tabular",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.07737452819821136,
+    "inner_categorical_frequency_loss": 0.1518364868175819
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "pib_spibb_n10_author",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.05659292066610231,
+    "inner_categorical_frequency_loss": 0.1711812143590416
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "pib_spibb_n10_author",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.04125998464791804,
+    "inner_categorical_frequency_loss": 0.15528548294396205
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "vi_lcb_cb005_author_empirical",
+    "feature": "B2_OEH3",
+    "return_ridge": 10.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.1370371418853591,
+    "inner_categorical_frequency_loss": 0.18168384783405211
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "vi_lcb_cb005_author_empirical",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 10.0,
+    "success_ridge": 10.0,
+    "inner_return_mse": 0.1448122765211063,
+    "inner_categorical_frequency_loss": 0.17922459663231244
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "discrete_bcq_author",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.08683952870443103,
+    "inner_categorical_frequency_loss": 0.151708593475491
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "discrete_bcq_author",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 10.0,
+    "inner_return_mse": 0.06360303820880767,
+    "inner_categorical_frequency_loss": 0.15061197620517322
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "discrete_cql_d3rlpy",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.15375653610638787,
+    "inner_categorical_frequency_loss": 0.1664848606969142
+  },
+  {
+    "panel": "stochastic_primary",
+    "method": "discrete_cql_d3rlpy",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 10.0,
+    "inner_return_mse": 0.10721274451748963,
+    "inner_categorical_frequency_loss": 0.16902957765252655
+  },
+  {
+    "panel": "stochastic_primary",
+    "library": [
+      "cfqi_tabular",
+      "iql_tabular",
+      "behavior_cloning_tabular",
+      "pib_spibb_n10_author",
+      "vi_lcb_cb005_author_empirical",
+      "discrete_bcq_author",
+      "discrete_cql_d3rlpy"
+    ],
+    "lagrange_breakpoint": 0.47904977642017216,
+    "predicted_joint_gains": [
+      4.969268452347627,
+      9.763877000737573
+    ]
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "iql_tabular",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 0.01,
+    "inner_return_mse": 0.01053531228039831,
+    "inner_categorical_frequency_loss": 0.11186835417484176
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "iql_tabular",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 1.0,
+    "success_ridge": 0.1,
+    "inner_return_mse": 0.011291952341669385,
+    "inner_categorical_frequency_loss": 0.10734537660796133
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "behavior_cloning_tabular",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 0.1,
+    "inner_return_mse": 0.02695228897497996,
+    "inner_categorical_frequency_loss": 0.09187692767716707
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "behavior_cloning_tabular",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 100.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.05177178787620239,
+    "inner_categorical_frequency_loss": 0.09737356593646997
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "pib_spibb_n10_author",
+    "feature": "B2_OEH3",
+    "return_ridge": 10.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.026331843372807886,
+    "inner_categorical_frequency_loss": 0.1271985281913796
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "pib_spibb_n10_author",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 100.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.03397352121143587,
+    "inner_categorical_frequency_loss": 0.12431160382155376
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "vi_lcb_cb005_author_empirical",
+    "feature": "B2_OEH3",
+    "return_ridge": 10.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.043360657856385015,
+    "inner_categorical_frequency_loss": 0.06435449511087274
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "vi_lcb_cb005_author_empirical",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 10.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.04511854941645747,
+    "inner_categorical_frequency_loss": 0.0651655632507505
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "discrete_bcq_author",
+    "feature": "B2_OEH3",
+    "return_ridge": 10.0,
+    "success_ridge": 0.1,
+    "inner_return_mse": 0.059338124473955506,
+    "inner_categorical_frequency_loss": 0.07191702639144712
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "discrete_bcq_author",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 10.0,
+    "success_ridge": 10.0,
+    "inner_return_mse": 0.05591377909008454,
+    "inner_categorical_frequency_loss": 0.0864206263584273
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "discrete_cql_d3rlpy",
+    "feature": "B2_OEH3",
+    "return_ridge": 1.0,
+    "success_ridge": 1.0,
+    "inner_return_mse": 0.051172348065233526,
+    "inner_categorical_frequency_loss": 0.06915025520346813
+  },
+  {
+    "panel": "deterministic_control",
+    "method": "discrete_cql_d3rlpy",
+    "feature": "B2_OEH3_LCOEH4",
+    "return_ridge": 10.0,
+    "success_ridge": 10.0,
+    "inner_return_mse": 0.04864240274089991,
+    "inner_categorical_frequency_loss": 0.06591961619625764
+  },
+  {
+    "panel": "deterministic_control",
+    "library": [
+      "cfqi_tabular",
+      "iql_tabular",
+      "behavior_cloning_tabular",
+      "pib_spibb_n10_author",
+      "vi_lcb_cb005_author_empirical",
+      "discrete_bcq_author",
+      "discrete_cql_d3rlpy"
+    ],
+    "lagrange_breakpoint": null,
+    "predicted_joint_gains": [
+      0.0,
+      0.0
+    ]
+  }
+]

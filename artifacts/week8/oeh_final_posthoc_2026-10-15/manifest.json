@@ -1,0 +1,7 @@
+{
+  "status": "exploratory (labels of the four panels are opened)",
+  "refit_reproduces_sealed_oeh_max_abs_diff": 9.43689570931383e-16,
+  "sources": {
+    "scored": "artifacts/oeh_v2_sealed_test_2026-10-14/scored.csv.gz"
+  }
+}

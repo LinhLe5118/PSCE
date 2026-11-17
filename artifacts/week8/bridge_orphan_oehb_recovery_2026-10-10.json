@@ -1,0 +1,12 @@
+{
+    "phase":  "RECOVERY_ISSUED",
+    "detail":  "Restarted pipeline from retained group checkpoints",
+    "checked_local":  "2026-10-10T04:15:50.2000699+07:00",
+    "orphan_pid":  31260,
+    "former_parent_pid":  12444,
+    "supervisor_pid":  27804,
+    "orphan_cpu_seconds":  17202.8,
+    "idle_checks":  6,
+    "completed_groups":  1,
+    "labels_opened":  false
+}

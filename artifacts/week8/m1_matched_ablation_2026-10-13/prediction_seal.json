@@ -1,0 +1,83 @@
+{
+  "namespace": "week8-m1-feature-lineage-matched-ablation-v1-20261013",
+  "sealed_at_utc": "2026-10-13T16:20:20.163582+00:00",
+  "labels_read": false,
+  "outcome_guard": {
+    "forbidden_files": [
+      "all_core_budget_seed_outcomes.csv",
+      "confirmatory_verdict.json",
+      "contrasts.csv",
+      "execution_complete.json",
+      "horizon_comparison.csv",
+      "horizon_panel.csv",
+      "labels.csv",
+      "mdp_scores.csv",
+      "result_manifest.json",
+      "scored_predictions.csv",
+      "selection_contrasts.csv",
+      "selection_group_outcomes.csv",
+      "selection_summary.csv",
+      "selection_vs_every_learner.csv",
+      "summary.csv"
+    ],
+    "forbidden_dirs": [
+      "execution",
+      "external_execution"
+    ]
+  },
+  "prediction_sha256": "6b4ae25ed86abdb3c1be27472d2d7aa8c94626a7fbc9987caf524249228d7d04",
+  "tuning_sha256": "d13725268832be10f13a36b519f95277f728b727404dcebb987efc4d552db355",
+  "lineage_json_sha256": "7fc7be2d36f18a0f2431a163e23644b48e81cac5cf5b58b29c0253dd21ac51e5",
+  "input_inventory_sha256": "f30a3e978955adbfb6a5716be77f377c945fc8c0082dffa803e5c4d2b7ade108",
+  "input_files": 4262,
+  "source_inventory_sha256": "0b5b035efe36c73087c187028a0e82a61757010dbf7588b215884b580193d0fb",
+  "source_files": 28,
+  "cohort_sha256": {
+    "protocol.json": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "preoutcome_seal.json": "f83aca8c5e855b7a4c412fca5a7489575058f643d5fdcf25b28408c41aff5ea4",
+    "pilot_features.csv": "9a546e16c0e894727026401577c8fcd8d30e0d859498ee1e25cafb5c766bdb63",
+    "horizon_preoutcome.csv": "3005fc44160ba78dec11495cceb7164965e00527344b1d386dfd296cb4d380e0",
+    "predictions_preoutcome.csv": "5a48bb762deecd66e9ba86850331a97f0ac81aa7b0022de6d03b7affe3fd048a"
+  },
+  "meta_training": {
+    "rows": 10800,
+    "mdps": 720,
+    "cohorts": [
+      "e1",
+      "first120",
+      "first60",
+      "fourth120",
+      "second120",
+      "second60",
+      "third120"
+    ]
+  },
+  "query": {
+    "rows": 1800,
+    "mdps": 120,
+    "panels": {
+      "primary": 84,
+      "control": 36
+    }
+  },
+  "procedure": "oeh_final_forecast.matched_forecast(law=False): AFT + direct thresholds + depth3_200 multiclass, MDP-hash five folds, OOF log-loss convex weights, per panel and learner",
+  "reproduces_sealed": {
+    "oeh_full_108": {
+      "sealed_method": "oeh_final",
+      "max_abs_diff": 8.900994097338355e-08
+    },
+    "b2_matched": {
+      "sealed_method": "b2_matched",
+      "max_abs_diff": 3.599109699159442e-08
+    }
+  },
+  "tolerance": 1e-06,
+  "previous_exploratory_max_abs_diff": {
+    "b2_matched": 1.1102230246251565e-16,
+    "oeh_full_108": 1.1102230246251565e-16,
+    "oeh_without_direct_oehb": 1.1102230246251565e-16,
+    "oeh_without_oehh_risk": 1.1102230246251565e-16,
+    "oeh_without_legacy_diagnostics": 1.1102230246251565e-16
+  },
+  "total_prelabel_seconds": 357.87617890001275
+}

@@ -1,0 +1,22 @@
+{
+  "forest": {
+    "rows": 720,
+    "max_abs_diff_law": 2.7755575615628914e-16,
+    "max_abs_diff_distance": 8.881784197001252e-15
+  },
+  "spibb2": {
+    "rows": 324,
+    "max_abs_diff_law": 7.216449660063518e-16,
+    "max_abs_diff_distance": 9.103828801926284e-15
+  },
+  "colosseum2029": {
+    "rows": 1080,
+    "max_abs_diff_law": 3.3306690738754696e-16,
+    "max_abs_diff_distance": 7.993605777301127e-15
+  },
+  "internal": {
+    "rows": 2520,
+    "max_abs_diff_law": 9.43689570931383e-16,
+    "max_abs_diff_distance": 1.0436096431476471e-14
+  }
+}

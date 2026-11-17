@@ -1,0 +1,10 @@
+﻿{
+    "schema":  "preoutcome_execution_environment_amendment_v1",
+    "reason":  "Resume pilot extraction after complete dataset generation by loading archived evaluation imports before frozen prepare()",
+    "learner_outcomes_observed":  0,
+    "forecast_model_or_decision_rule_changed":  false,
+    "recorded_at_utc":  "2026-10-01T14:58:32.4867824Z",
+    "protocol_sha256":  "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+    "dataset_seal_sha256":  "3ca3869fe6127f19003be7bc8f35c369dfd48c1d787e434de8734f85a61d7b74",
+    "wrapper_sha256":  "eb5286c8abfde39d59b3ecac29f97847e694d5d24f8e41a4d2b9e36684eceabf"
+}

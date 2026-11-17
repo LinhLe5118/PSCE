@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-14T11:55:59.669266+00:00",
+  "file": "scripts/analysis/run_spibb_panel_20261014.py",
+  "old_sha256": "0f7ea23ad1dd380d01df0adb429d916c877a8835e289190ab29bc1e69e433585",
+  "new_sha256": "d2aef41a62442aa4bcd8ec45495e392a58021b8ae5283d76c5a85908085bd6b7",
+  "change": "numpy global seed base 20261014000 exceeds 2**32 - 1 (numpy raised ValueError); base changed to 2026101400; the protocol text 'numpy global seed = 20261014000 + index' is superseded by this amendment",
+  "scientific_change": false,
+  "state_at_amendment": "no SPIBB MDP generated (the worker raised before writing)",
+  "learner_outcomes_observed": 0
+}

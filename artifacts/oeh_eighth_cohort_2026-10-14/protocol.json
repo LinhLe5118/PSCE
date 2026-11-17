@@ -1,0 +1,1744 @@
+{
+  "schema": "oeh-eighth-gatekeeping-v1",
+  "namespace": "oeh-eighth-gatekeeping-v1-20261014",
+  "frozen_at_utc": "2026-10-14T11:48:20.637029+00:00",
+  "status": "frozen_before_dataset_buffers_or_learner_outcomes",
+  "panels": {
+    "internal": {
+      "mdps": 168,
+      "families": {
+        "uniform_garnet": 60,
+        "forward_layered": 72,
+        "bottleneck": 36
+      },
+      "recipe": "two fresh kernels per primary evaluation template of the registered recipe (seed retry hash with the namespace); kernels distinct from every opened cohort and from cohort 7; no deterministic controls",
+      "requested_specs": [
+        {
+          "instance_id": "c8_uniform_garnet_000",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 985389475,
+          "ordinal": 2,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_uniform_garnet_001",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 974478526,
+          "ordinal": 6,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_uniform_garnet_002",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 899325249,
+          "ordinal": 9,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_uniform_garnet_003",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1083896286,
+          "ordinal": 13,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_uniform_garnet_004",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 143037457,
+          "ordinal": 17,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_uniform_garnet_005",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 179305303,
+          "ordinal": 22,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_uniform_garnet_006",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 850040579,
+          "ordinal": 26,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_uniform_garnet_007",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1014641266,
+          "ordinal": 29,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_uniform_garnet_008",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 507813040,
+          "ordinal": 33,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_uniform_garnet_009",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 771199582,
+          "ordinal": 37,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_uniform_garnet_010",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 386972576,
+          "ordinal": 42,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_uniform_garnet_011",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1021514089,
+          "ordinal": 46,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_uniform_garnet_012",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 983904414,
+          "ordinal": 49,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_uniform_garnet_013",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 637301912,
+          "ordinal": 53,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_uniform_garnet_014",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 556147575,
+          "ordinal": 57,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_uniform_garnet_015",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 389285075,
+          "ordinal": 62,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_uniform_garnet_016",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 961163264,
+          "ordinal": 66,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_uniform_garnet_017",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 788126667,
+          "ordinal": 69,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "c8_uniform_garnet_018",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 395660671,
+          "ordinal": 73,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "c8_uniform_garnet_019",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 996225827,
+          "ordinal": 77,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "c8_uniform_garnet_020",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 752491688,
+          "ordinal": 82,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "c8_uniform_garnet_021",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 307099259,
+          "ordinal": 86,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "c8_uniform_garnet_022",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 387761666,
+          "ordinal": 89,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "c8_uniform_garnet_023",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 522850654,
+          "ordinal": 93,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "c8_uniform_garnet_024",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 688206412,
+          "ordinal": 97,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "c8_uniform_garnet_025",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 787889833,
+          "ordinal": 102,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "c8_uniform_garnet_026",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 600684611,
+          "ordinal": 106,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "c8_uniform_garnet_027",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 890347258,
+          "ordinal": 109,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "c8_uniform_garnet_028",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 615527549,
+          "ordinal": 113,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "c8_uniform_garnet_029",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 861478457,
+          "ordinal": 117,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "c8_uniform_garnet_030",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 586889227,
+          "ordinal": 2,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_uniform_garnet_031",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1014472333,
+          "ordinal": 6,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_uniform_garnet_032",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 1070125086,
+          "ordinal": 9,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_uniform_garnet_033",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 430191556,
+          "ordinal": 13,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_uniform_garnet_034",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 683443594,
+          "ordinal": 17,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_uniform_garnet_035",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 555529352,
+          "ordinal": 22,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_uniform_garnet_036",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 781056179,
+          "ordinal": 26,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_uniform_garnet_037",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 353840751,
+          "ordinal": 29,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_uniform_garnet_038",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 135128528,
+          "ordinal": 33,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_uniform_garnet_039",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 458616014,
+          "ordinal": 37,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_uniform_garnet_040",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 267572997,
+          "ordinal": 42,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_uniform_garnet_041",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 899616733,
+          "ordinal": 46,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_uniform_garnet_042",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 122529326,
+          "ordinal": 49,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_uniform_garnet_043",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 807028561,
+          "ordinal": 53,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_uniform_garnet_044",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 556080634,
+          "ordinal": 57,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_uniform_garnet_045",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 895663033,
+          "ordinal": 62,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_uniform_garnet_046",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 693819470,
+          "ordinal": 66,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_uniform_garnet_047",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 620946819,
+          "ordinal": 69,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "c8_uniform_garnet_048",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 452455123,
+          "ordinal": 73,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "c8_uniform_garnet_049",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 566971872,
+          "ordinal": 77,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "c8_uniform_garnet_050",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 856909739,
+          "ordinal": 82,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "c8_uniform_garnet_051",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 429201137,
+          "ordinal": 86,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "c8_uniform_garnet_052",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 389360861,
+          "ordinal": 89,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "c8_uniform_garnet_053",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 826013219,
+          "ordinal": 93,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "c8_uniform_garnet_054",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 185146696,
+          "ordinal": 97,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "c8_uniform_garnet_055",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 995250196,
+          "ordinal": 102,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "c8_uniform_garnet_056",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 520934118,
+          "ordinal": 106,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "c8_uniform_garnet_057",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 463933920,
+          "ordinal": 109,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "c8_uniform_garnet_058",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 922098069,
+          "ordinal": 113,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "c8_uniform_garnet_059",
+          "split": "evaluation",
+          "family": "uniform_garnet",
+          "seed": 690561810,
+          "ordinal": 117,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "c8_forward_layered_000",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 788167179,
+          "ordinal": 0,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_forward_layered_001",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1076671199,
+          "ordinal": 4,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_forward_layered_002",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 841482486,
+          "ordinal": 7,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_forward_layered_003",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 783927190,
+          "ordinal": 11,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_forward_layered_004",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 268673616,
+          "ordinal": 14,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_forward_layered_005",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 294948897,
+          "ordinal": 18,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_forward_layered_006",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 812533137,
+          "ordinal": 20,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_forward_layered_007",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 587605670,
+          "ordinal": 24,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_forward_layered_008",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1046111810,
+          "ordinal": 27,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_forward_layered_009",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 689669401,
+          "ordinal": 31,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_forward_layered_010",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1073498224,
+          "ordinal": 34,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_forward_layered_011",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 419262638,
+          "ordinal": 38,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_forward_layered_012",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 317843818,
+          "ordinal": 40,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_forward_layered_013",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 198064584,
+          "ordinal": 44,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_forward_layered_014",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 246161327,
+          "ordinal": 47,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_forward_layered_015",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 612984822,
+          "ordinal": 51,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_forward_layered_016",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 409079289,
+          "ordinal": 54,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_forward_layered_017",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1083212445,
+          "ordinal": 58,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "c8_forward_layered_018",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 528414236,
+          "ordinal": 60,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "c8_forward_layered_019",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 199771779,
+          "ordinal": 64,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "c8_forward_layered_020",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 184639662,
+          "ordinal": 67,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "c8_forward_layered_021",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 295998355,
+          "ordinal": 71,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "c8_forward_layered_022",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 412106342,
+          "ordinal": 74,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "c8_forward_layered_023",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 571056545,
+          "ordinal": 78,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "c8_forward_layered_024",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 713448299,
+          "ordinal": 80,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "c8_forward_layered_025",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 753394893,
+          "ordinal": 84,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "c8_forward_layered_026",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 212473231,
+          "ordinal": 87,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "c8_forward_layered_027",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 924064793,
+          "ordinal": 91,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "c8_forward_layered_028",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 325905892,
+          "ordinal": 94,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "c8_forward_layered_029",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 367542828,
+          "ordinal": 98,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "c8_forward_layered_030",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 904533775,
+          "ordinal": 100,
+          "family_ordinal": 30
+        },
+        {
+          "instance_id": "c8_forward_layered_031",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 394636854,
+          "ordinal": 104,
+          "family_ordinal": 31
+        },
+        {
+          "instance_id": "c8_forward_layered_032",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 212969108,
+          "ordinal": 107,
+          "family_ordinal": 32
+        },
+        {
+          "instance_id": "c8_forward_layered_033",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 632402344,
+          "ordinal": 111,
+          "family_ordinal": 33
+        },
+        {
+          "instance_id": "c8_forward_layered_034",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 398977723,
+          "ordinal": 114,
+          "family_ordinal": 34
+        },
+        {
+          "instance_id": "c8_forward_layered_035",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 226651732,
+          "ordinal": 118,
+          "family_ordinal": 35
+        },
+        {
+          "instance_id": "c8_forward_layered_036",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 638440023,
+          "ordinal": 0,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_forward_layered_037",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1043673603,
+          "ordinal": 4,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_forward_layered_038",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 491716407,
+          "ordinal": 7,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_forward_layered_039",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 543159544,
+          "ordinal": 11,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_forward_layered_040",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 823026139,
+          "ordinal": 14,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_forward_layered_041",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 704994867,
+          "ordinal": 18,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_forward_layered_042",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 266470576,
+          "ordinal": 20,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_forward_layered_043",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1039006763,
+          "ordinal": 24,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_forward_layered_044",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1067018538,
+          "ordinal": 27,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_forward_layered_045",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1076267574,
+          "ordinal": 31,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_forward_layered_046",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 952619077,
+          "ordinal": 34,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_forward_layered_047",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 797633332,
+          "ordinal": 38,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_forward_layered_048",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 820044443,
+          "ordinal": 40,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_forward_layered_049",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 323552640,
+          "ordinal": 44,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_forward_layered_050",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 646750117,
+          "ordinal": 47,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_forward_layered_051",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 257950899,
+          "ordinal": 51,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_forward_layered_052",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 630453212,
+          "ordinal": 54,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_forward_layered_053",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 425949550,
+          "ordinal": 58,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "c8_forward_layered_054",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1070704369,
+          "ordinal": 60,
+          "family_ordinal": 18
+        },
+        {
+          "instance_id": "c8_forward_layered_055",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 457975424,
+          "ordinal": 64,
+          "family_ordinal": 19
+        },
+        {
+          "instance_id": "c8_forward_layered_056",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 902751396,
+          "ordinal": 67,
+          "family_ordinal": 20
+        },
+        {
+          "instance_id": "c8_forward_layered_057",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 340358383,
+          "ordinal": 71,
+          "family_ordinal": 21
+        },
+        {
+          "instance_id": "c8_forward_layered_058",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 707912747,
+          "ordinal": 74,
+          "family_ordinal": 22
+        },
+        {
+          "instance_id": "c8_forward_layered_059",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 445363728,
+          "ordinal": 78,
+          "family_ordinal": 23
+        },
+        {
+          "instance_id": "c8_forward_layered_060",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1053579887,
+          "ordinal": 80,
+          "family_ordinal": 24
+        },
+        {
+          "instance_id": "c8_forward_layered_061",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 462310985,
+          "ordinal": 84,
+          "family_ordinal": 25
+        },
+        {
+          "instance_id": "c8_forward_layered_062",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 480187820,
+          "ordinal": 87,
+          "family_ordinal": 26
+        },
+        {
+          "instance_id": "c8_forward_layered_063",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 190439667,
+          "ordinal": 91,
+          "family_ordinal": 27
+        },
+        {
+          "instance_id": "c8_forward_layered_064",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 590670416,
+          "ordinal": 94,
+          "family_ordinal": 28
+        },
+        {
+          "instance_id": "c8_forward_layered_065",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 458343236,
+          "ordinal": 98,
+          "family_ordinal": 29
+        },
+        {
+          "instance_id": "c8_forward_layered_066",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 718118006,
+          "ordinal": 100,
+          "family_ordinal": 30
+        },
+        {
+          "instance_id": "c8_forward_layered_067",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 1087036376,
+          "ordinal": 104,
+          "family_ordinal": 31
+        },
+        {
+          "instance_id": "c8_forward_layered_068",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 696680655,
+          "ordinal": 107,
+          "family_ordinal": 32
+        },
+        {
+          "instance_id": "c8_forward_layered_069",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 770105164,
+          "ordinal": 111,
+          "family_ordinal": 33
+        },
+        {
+          "instance_id": "c8_forward_layered_070",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 654184981,
+          "ordinal": 114,
+          "family_ordinal": 34
+        },
+        {
+          "instance_id": "c8_forward_layered_071",
+          "split": "evaluation",
+          "family": "forward_layered",
+          "seed": 468389392,
+          "ordinal": 118,
+          "family_ordinal": 35
+        },
+        {
+          "instance_id": "c8_bottleneck_000",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 142877886,
+          "ordinal": 3,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_bottleneck_001",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 407951456,
+          "ordinal": 10,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_bottleneck_002",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 587351956,
+          "ordinal": 16,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_bottleneck_003",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 279601342,
+          "ordinal": 23,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_bottleneck_004",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 295698301,
+          "ordinal": 30,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_bottleneck_005",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 711851944,
+          "ordinal": 36,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_bottleneck_006",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 420264029,
+          "ordinal": 43,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_bottleneck_007",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 104154149,
+          "ordinal": 50,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_bottleneck_008",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 746497220,
+          "ordinal": 56,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_bottleneck_009",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 423888033,
+          "ordinal": 63,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_bottleneck_010",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 993653851,
+          "ordinal": 70,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_bottleneck_011",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 350703560,
+          "ordinal": 76,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_bottleneck_012",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 340433092,
+          "ordinal": 83,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_bottleneck_013",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 178167790,
+          "ordinal": 90,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_bottleneck_014",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1009498130,
+          "ordinal": 96,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_bottleneck_015",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 808347670,
+          "ordinal": 103,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_bottleneck_016",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 202715163,
+          "ordinal": 110,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_bottleneck_017",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 299547850,
+          "ordinal": 116,
+          "family_ordinal": 17
+        },
+        {
+          "instance_id": "c8_bottleneck_018",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 826925452,
+          "ordinal": 3,
+          "family_ordinal": 0
+        },
+        {
+          "instance_id": "c8_bottleneck_019",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 717377016,
+          "ordinal": 10,
+          "family_ordinal": 1
+        },
+        {
+          "instance_id": "c8_bottleneck_020",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 928324118,
+          "ordinal": 16,
+          "family_ordinal": 2
+        },
+        {
+          "instance_id": "c8_bottleneck_021",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 375184240,
+          "ordinal": 23,
+          "family_ordinal": 3
+        },
+        {
+          "instance_id": "c8_bottleneck_022",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 513999334,
+          "ordinal": 30,
+          "family_ordinal": 4
+        },
+        {
+          "instance_id": "c8_bottleneck_023",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1067771994,
+          "ordinal": 36,
+          "family_ordinal": 5
+        },
+        {
+          "instance_id": "c8_bottleneck_024",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 199153558,
+          "ordinal": 43,
+          "family_ordinal": 6
+        },
+        {
+          "instance_id": "c8_bottleneck_025",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 129834306,
+          "ordinal": 50,
+          "family_ordinal": 7
+        },
+        {
+          "instance_id": "c8_bottleneck_026",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 295470950,
+          "ordinal": 56,
+          "family_ordinal": 8
+        },
+        {
+          "instance_id": "c8_bottleneck_027",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1068515037,
+          "ordinal": 63,
+          "family_ordinal": 9
+        },
+        {
+          "instance_id": "c8_bottleneck_028",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1050163158,
+          "ordinal": 70,
+          "family_ordinal": 10
+        },
+        {
+          "instance_id": "c8_bottleneck_029",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 524748875,
+          "ordinal": 76,
+          "family_ordinal": 11
+        },
+        {
+          "instance_id": "c8_bottleneck_030",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 1079799264,
+          "ordinal": 83,
+          "family_ordinal": 12
+        },
+        {
+          "instance_id": "c8_bottleneck_031",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 616435615,
+          "ordinal": 90,
+          "family_ordinal": 13
+        },
+        {
+          "instance_id": "c8_bottleneck_032",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 463816060,
+          "ordinal": 96,
+          "family_ordinal": 14
+        },
+        {
+          "instance_id": "c8_bottleneck_033",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 910769440,
+          "ordinal": 103,
+          "family_ordinal": 15
+        },
+        {
+          "instance_id": "c8_bottleneck_034",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 601687933,
+          "ordinal": 110,
+          "family_ordinal": 16
+        },
+        {
+          "instance_id": "c8_bottleneck_035",
+          "split": "evaluation",
+          "family": "bottleneck",
+          "seed": 729834823,
+          "ordinal": 116,
+          "family_ordinal": 17
+        }
+      ],
+      "kernel_fingerprints": {
+        "c8_uniform_garnet_000": "15929ef8e0dcadc3ddbc42f12b9c2f7f9dacd8799c38ea3065e19a17c5e073a0",
+        "c8_uniform_garnet_001": "253544ae7a2ab014a9fbfebb3ba0b673e2fc20c07bb73f8f62dbd4e82941bf4f",
+        "c8_uniform_garnet_002": "ff5523b7c98578d05e3361c01cceae6cbc3ac53f5aa7f3c6a1f8575868d18c96",
+        "c8_uniform_garnet_003": "8a30a15c468f621bf974c95a1920541b7146e156df2d23c4207f1c4e1dfed33f",
+        "c8_uniform_garnet_004": "1998dc099449198d89c84db9f2a61bb83feb12e75bfee02549d5c74ee60e5a64",
+        "c8_uniform_garnet_005": "e1d0ba896af00fe7b859d2bdd07a9a3f314459d23cddd5e6098b707726b7bafd",
+        "c8_uniform_garnet_006": "27a7c808e72b9c4925f1de668199b8198336507b6a1c31eed799530f011bbf99",
+        "c8_uniform_garnet_007": "22a29ab90c7134a8ebf85bc5de5a59b1c2b0b928bde3cf54d46ba55ef5020a60",
+        "c8_uniform_garnet_008": "96fd840b2c0bc9f9bef149d4e4256c0762b7d01eeccfd019e20b5b81b72e5c69",
+        "c8_uniform_garnet_009": "3ee5ea3129bcf7fbd95798f10180a7da29046bd6776a295e7850ab2f41e4e41a",
+        "c8_uniform_garnet_010": "d76dcc9c10f13b80b9512fe3fdd3cf7421366017a5722c160c4ddc8054fc1f46",
+        "c8_uniform_garnet_011": "e453287938cd90f8b7b8e67f7eb3d3e19af4758b5d2cd3b9c0025ddb8483d79d",
+        "c8_uniform_garnet_012": "cc26a1d8f55d647222bc05fc4a5c245d7046ffc609140e74d2a978a2f64b3b3f",
+        "c8_uniform_garnet_013": "5d3587a53db0db90bfeb7bffc848fdc7c2f8ccaf1320c8595884fc2b97449191",
+        "c8_uniform_garnet_014": "a1550643cce318c57ef764d376d7436965c619419a8c85bc1d0d14215d894bbe",
+        "c8_uniform_garnet_015": "14289d6ea4dd2229bb3677c1c683648168a8a10d72936dbe30550b7f49c3e391",
+        "c8_uniform_garnet_016": "3cb2a5a3fb38343ef85a8ef279c4d4a2f781dc3c994c619ae83470ef1c59270c",
+        "c8_uniform_garnet_017": "6256364864f17a28ab82caa83618c0418da554854fe888b3536b1c42db8b4af4",
+        "c8_uniform_garnet_018": "ba6c6cdb6188894322a8794f4e5b53ca73bc37d5064f3d65b1fe9a954d39bc46",
+        "c8_uniform_garnet_019": "9a8f4322596f3ef1079f48c5d7a5d6eb74a023b09aa093ba8e42ae8c632b695f",
+        "c8_uniform_garnet_020": "c572f7cf77eba4717c1ccb76fdbca0babf235f84ac42aa1a7ef0a784187c1ae8",
+        "c8_uniform_garnet_021": "576d3e568768745e1f1a67411529f6f9af7cb547540475476523b53727cef200",
+        "c8_uniform_garnet_022": "b6f2dbdd7f37b1586c62d0af9b9f908b5ccf77456aa6e9cbe08a9eab8020a6fd",
+        "c8_uniform_garnet_023": "0f369d117c7c10a2dd81e0516779c706d5c03e2cd397c5f4ab5cfe382447c41f",
+        "c8_uniform_garnet_024": "61f7e5b7dffedd15c7d62affd7eba90d70173c9365cee7d8bd903beae428d014",
+        "c8_uniform_garnet_025": "79d93f6ba8c5dd029dc768e1e12f9fa8345476a8470648e1ce7f7c88ab5d1961",
+        "c8_uniform_garnet_026": "1ed9f08be6b0ebbd649d52cdc20511dc6e8b3b7f9927246468e487a26dc585e2",
+        "c8_uniform_garnet_027": "88a34ccf5face8edc2292b02c9121f0670d5ff035da38d9be6baf094fdc237e7",
+        "c8_uniform_garnet_028": "3c5a13fa59b9c6184b2b2d3cd483be927a160574d4e14b26a6db50ae49819177",
+        "c8_uniform_garnet_029": "f71bae525270caaa572e8be2d5b33c272a91f1d805636f68a8eacb3cdfd4d1fc",
+        "c8_uniform_garnet_030": "f527b603ca395d7633ee8a798a1d69084511fd09e21c85c9942ef691366d2611",
+        "c8_uniform_garnet_031": "bd86b3e6b64662bf07ce56ecdf852e0e9a179c149765b767ad85ae7e989f4331",
+        "c8_uniform_garnet_032": "0e93eacab2c94e6c02c6812380bfc6634524d250ea31e3e1de253d32911faefc",
+        "c8_uniform_garnet_033": "719b450536d2fceb7a13e5c716a0eb9035f6cc6d2a10e8a2c3704a8ecac48bbb",
+        "c8_uniform_garnet_034": "784e25beb31b9a4ffb5daab28f4b76419a8a1bb328f10d31bed04c3c7a35f273",
+        "c8_uniform_garnet_035": "e935fe314becfb4d9979aed0be995c03cfc127b70a49beb6d67fa6aca68c1dc2",
+        "c8_uniform_garnet_036": "742ce56040047ef22c6055cf3da572e4cc2d8f96484cff72b53aed09383a8005",
+        "c8_uniform_garnet_037": "90858ed9c00c60bab54e2bdb8333312f2ad4bd605a168c3c0e3b0f2c95b06f89",
+        "c8_uniform_garnet_038": "d8b0755a1e7a9360d4d5c861909115f2d00beb5f011ec686bb7bfba6b427dae3",
+        "c8_uniform_garnet_039": "5f68b4e0db94aee447e663c62ef312e340bea455ebcb71915ba6119515ba6169",
+        "c8_uniform_garnet_040": "388bb4bf628feee9c2042bad5691c166e55524ccc97e64e84ebd16d2297ffeb8",
+        "c8_uniform_garnet_041": "1af8d7291e8e17da0963a3a4685d8544cdaedad2e27642c65bb983c63763d0db",
+        "c8_uniform_garnet_042": "e87d0ac6dcaf7607c1ea42e921b85a8225f016aaea4ccbf0b8ec384e216ae034",
+        "c8_uniform_garnet_043": "edd726bad592bb43e3e389dedf0bdc5d6f0eeea4d960c1f6697ca8a1b486a3d2",
+        "c8_uniform_garnet_044": "0cd5c82c4439e870a2cf069320418c094995e91a42c48d94243ff1a98874c471",
+        "c8_uniform_garnet_045": "d0cb4e89ca66c3a0e0f5f806ef6a7a6cd2bc7da5f36fea16c7b6022d7ea50e5f",
+        "c8_uniform_garnet_046": "e1cd8436b4bb5776b1ea87844075cd5f70bf42a680499d632355ffeb940362d3",
+        "c8_uniform_garnet_047": "a5d891b46dcb71ab34374e7f3c8c91283d78b4e4efdf3fd57568115b8ce75f1c",
+        "c8_uniform_garnet_048": "0caf1e31d03c1559d8c2415385a38e5c0ea518f555cdaf79062001d41cf8118e",
+        "c8_uniform_garnet_049": "f0bc6757ee838177c34c0ecc8ff38df7d11a944e06b5005ff4c5e70e13a75748",
+        "c8_uniform_garnet_050": "b8b25d1260626dc9d8664dbf786831eee639ef7cf4a03dd4c5e7078398162c3c",
+        "c8_uniform_garnet_051": "59e4910689a7daa41bc8896a6dfa3bb721d2713ad4b3d16186dbbcec5d36bb4a",
+        "c8_uniform_garnet_052": "9dc8286bfe5906ca4a5d857017047f94f2f588dac0a5dd81a5ae12e8ed82cc3b",
+        "c8_uniform_garnet_053": "a7cdb8572cc4896de24c603495d5962df1f35b8bec030dff47d6e80cbe3ece9d",
+        "c8_uniform_garnet_054": "9afce35ce6334fbe0ee0c3685078cb901d37eeb15cbad7b6c76deed5f9d43764",
+        "c8_uniform_garnet_055": "a985c281790ea7b0486d47a8a37729a69b3580c5503e38ad00358dc47d3027f1",
+        "c8_uniform_garnet_056": "7f2082eb106dca1d4c6622f96659f18f7ced6f85eb2643896b379c37f67e65a1",
+        "c8_uniform_garnet_057": "22e0980c46a41c8db15893e3eea9accd0893c61a6ffff53d56be921e474231c2",
+        "c8_uniform_garnet_058": "a4a79d1e2a9f7afcc950b8236a9371c2def32f7e8f292a8313b22cc0f46758d8",
+        "c8_uniform_garnet_059": "6c1d9cb0d7b2a619712ff66ba4a3d57edd8ba2a20bdee0159ec97935768e988c",
+        "c8_forward_layered_000": "47fa8740449064ef1ac02d99de4b56d6f10ac7c6ce257202f9cae835896cf7b5",
+        "c8_forward_layered_001": "82cf02439eb616d22f71358d35189c737e415b5208eba92dac4da834e2d84704",
+        "c8_forward_layered_002": "3452f793b55f0b0138e6688b774b76c7756bd7ab5de224085da38ce427b5628f",
+        "c8_forward_layered_003": "a8772185618b6bfe28eb6c9133edde26a2c7d137049b4e64486c506017dc8a3c",
+        "c8_forward_layered_004": "11be5393d94d2d3065f3a8771a6faa2d3f82c143ef0e2d19621f191dc7fdacc6",
+        "c8_forward_layered_005": "125fcbc82bfc2583e744136109f60bbbdffe4d169a8d835affcd94c6a90b7579",
+        "c8_forward_layered_006": "3cae1c3531ffdd1866cd50569dea46b7489b783e917941fb3174509ae4cd8fc4",
+        "c8_forward_layered_007": "f64aed6bc1a6a291142b5800379553aaa076f3b38b72fed37a75daf93ef30064",
+        "c8_forward_layered_008": "e44de736271f4494b0e7f5ba4399dfd9951d72cf7137746f89f76fbe3230b85a",
+        "c8_forward_layered_009": "08aa155e649be0a2e5592019d1529f1a4fd5315849b039ba1e4b687b43d8f795",
+        "c8_forward_layered_010": "fe43dea8745f2f71e595eccbf0a8f82d1713928e10b38d2f8bfd02864e8a882c",
+        "c8_forward_layered_011": "3cfaad9d61a499d086cb4902ae090c7e058bdef9799fd485e0d3897dd8e671e9",
+        "c8_forward_layered_012": "46fe79b7cfa7d580a8124c61b3949a4282fa65cef8a89d729f11328e15acb8ae",
+        "c8_forward_layered_013": "448465729d59b077801b3fa6534cfe3e2bd67c4a35004fa4ae0ab71b74bf0be3",
+        "c8_forward_layered_014": "ccf6156a89009c9a6b60a057897005a2e54134f4132ead2b6006c75b8d8cbd24",
+        "c8_forward_layered_015": "4a06f04f32fde467ce5eddce152a2d1542b20fe066125bce0321e1892780a85f",
+        "c8_forward_layered_016": "a29f403a3c1646120b56540dc7463a44f17c7f26955eb0f6667e95040b624c7f",
+        "c8_forward_layered_017": "c6e69345db2284b2cbeb2b4523770ffb62acd70ed34199a6a7faa23404f1481f",
+        "c8_forward_layered_018": "05b88f4da159f88a9f3fcdb3a6c16fd97333664432b6f876491f8cffebd7bee0",
+        "c8_forward_layered_019": "583046c8067d38f4f3fcd499b6d16dca3266ee68e312b79031d440eeeee3d1ae",
+        "c8_forward_layered_020": "c01543e061d759238f4f65534acc5d043f4c13221fdd9ea9dd0d9c4642da831f",
+        "c8_forward_layered_021": "18417087350b4fe0fc5b858eaad51f2d80f7cf87d6701ecbffce0b9758a4e8da",
+        "c8_forward_layered_022": "9662240fd62c00674dc65f1894ccc44a062020539d131684ae2c3c3c3121c682",
+        "c8_forward_layered_023": "2825cd01a229266bd467a94f54c4806e62e2afe283b4fd9240c5902a4c51d9b4",
+        "c8_forward_layered_024": "1fb72dfa8ce491c3f606214d9e2f771e04717782f0b3a137dca5f88e2badecb7",
+        "c8_forward_layered_025": "dc43ca4642fde9d7d8baa752950778223f72c63e98035214f5cebbe1ca47bfc5",
+        "c8_forward_layered_026": "3b88e05d735ba05effa14e33f8f9bda1613d0352f98740321dbf7d152466b77a",
+        "c8_forward_layered_027": "8976717124a2901b441369d362058c534962b6e610ab9cb55f208572d3d91dec",
+        "c8_forward_layered_028": "b364b46372695b8eabdf842c7ad835068002e446adc7406c908ecb7b859a1efa",
+        "c8_forward_layered_029": "dc70b46581f6ebb4108a8b6536ab2dde99fd9e82a3e6b6b8b68cad1fa1960257",
+        "c8_forward_layered_030": "01f42e9d7ca90cb7430f25b9cf29f29f7da93f0c949fbe7b575811bdb6bcb9f4",
+        "c8_forward_layered_031": "eb91b4df4ff78251a8b9eca59c451c1feabdcaba3083005684ad8ce9af514c6a",
+        "c8_forward_layered_032": "152b8ab8ebbe53ef8ede00be853eda0a37523b75e5672cf10f0d7055d8652186",
+        "c8_forward_layered_033": "a8108df71e8a7bc99b798f33f453bf94f3200b9e300f4f31e07cc3ed8a70872e",
+        "c8_forward_layered_034": "d59dbe995431c06506a6e5ca28e4eff818037bd9970e44b79769ddc84373f382",
+        "c8_forward_layered_035": "a30ed2150b9c6b75a324d6f45777417beaffbf4190deb95ef4a6e668e63f2f37",
+        "c8_forward_layered_036": "740c30ae0d63a597f138adb9509ee25b8798961954386eb6ef69051344706aed",
+        "c8_forward_layered_037": "ea0873adc464c11732e2992f38d0cf8ac208150c0936326ef8b2bfed7a0b73e4",
+        "c8_forward_layered_038": "bf690a5bdef1f41fb0ab50a766ba5b5404d50d43049b2144b2fe627fa5882113",
+        "c8_forward_layered_039": "c9013143ce07ee03af6cbf8fc60f51fd7b04bd48116c4ecfdad17b89ef546b11",
+        "c8_forward_layered_040": "be71762a1d3a9e868139795fb4c95ea6614430990b37255c07dfcea24ea1d763",
+        "c8_forward_layered_041": "4d81a1086cf4e3124d2d7e44396f75d6ffeac567416554f6b631756823960a0b",
+        "c8_forward_layered_042": "d8c260f96e6cd203aed9e768f7b30f00bda90b980c64fcc426f8b973efb0bd8b",
+        "c8_forward_layered_043": "0cfad3786f4e36e6bd0a8b4a70725f033c1807313524bec39af47f7917af0132",
+        "c8_forward_layered_044": "432b946225dc3588cbad71d309227a5b8374f28ec2f6ad1f55b9ce3114950a7f",
+        "c8_forward_layered_045": "ff5130bb6e1883fe3eb3559571990d680410daaa544588ef98ea75a1bdba3882",
+        "c8_forward_layered_046": "090078682bf2b1303b2a70ab169891e0835cb2a870098e2116c0bd5f4d702043",
+        "c8_forward_layered_047": "315763ed439b43fc6e34da34c1281384a258322c403091c30d5019b21b423254",
+        "c8_forward_layered_048": "226f051cf8386771255235ee1fca5586906bbe0dabc85e4dfd682b540cfd0820",
+        "c8_forward_layered_049": "49db2119e796b654600e68edf38d8634ac9348a0a07924282bc8b917fbf983ec",
+        "c8_forward_layered_050": "9cd91a1b28688fd5fcda6454da17abde95003c58d8ed526ee9347c04d2330ebd",
+        "c8_forward_layered_051": "eb7021dba5b43047b0659082bd0c71c40af7614f72af4d8ecf8bf29f44a34165",
+        "c8_forward_layered_052": "857a2b38ae5f89f12c07f39fefdc2c7521db66d36fd993de7411e174bcac7a24",
+        "c8_forward_layered_053": "ae120bfbb1777bd81e0e41dabf3b1847dac44bcfe0b071f8407923abf5b50912",
+        "c8_forward_layered_054": "b8886cedbf4c44b62d7122ef51eee71cbf24b82e7bebe1f8aab892411c338ae4",
+        "c8_forward_layered_055": "6d5c7a910b17c17716178bdca49d7e96a6d6d43c5e5c8ae6982576ec3d424a02",
+        "c8_forward_layered_056": "1540a2e0eedacc301734ea38e37e3e62f72268d95470d4a98a50c4d76ae542bc",
+        "c8_forward_layered_057": "713434900b4f2cc903fc29cad936576268c4b4e8283b3796ded6e5d3a6ef6d0f",
+        "c8_forward_layered_058": "e19ca594c476fa6d5514664bc096443d0e1ea47143a9ba72738e0846b36e48cc",
+        "c8_forward_layered_059": "e40f42569927a21ac9d30737c58c2a03d308b3233554c7b4b19d99a4b6ea9d03",
+        "c8_forward_layered_060": "4710a56c3257c2b6387d2633acadde7097a952304c2a34dae2cf394106f17747",
+        "c8_forward_layered_061": "ee24ef4efc36ffc4bc1db6fd6e0358c6f6c2f3cd184bb508c0f15691b782cdad",
+        "c8_forward_layered_062": "93783309e3b3f761943fcef02d926d39294e3dd7a2828eb644006a8d81cfd832",
+        "c8_forward_layered_063": "dd0489c7ae2760426b5a749f41ff6ca93bf45d024a266446eccebbbebcf5cec4",
+        "c8_forward_layered_064": "b1f36b1f55b393f578eba847e0bbcbfde80bdc9df2e336ca560828ebc2ee3ee4",
+        "c8_forward_layered_065": "b9e26f48271d30e5669d5798cbbe6ee4609731d2f468d802fdf2e17912f13cb8",
+        "c8_forward_layered_066": "de827f9ef9168490425a5ce4f4f5b6d28285e4dd741cc85934c12e23c6a880ff",
+        "c8_forward_layered_067": "f652b352051d5619a9d370849a05a499cd64c6dad8283922b64396cd151eda8d",
+        "c8_forward_layered_068": "8fd0a157af26cb64a3508a57245f868f363ea4fe2d0a27cbaadae5a4dccb45fd",
+        "c8_forward_layered_069": "6ef4f09203d16bcec9e5745e789315e61dee05833dcd3c153ff40782058029ff",
+        "c8_forward_layered_070": "f51ebf0164b7772c63ac259954fb6a7a5513d60ea44419e7b138d460716f3393",
+        "c8_forward_layered_071": "ad493ff4731584df5f618f84f45fbc29a9e9378656504545794d030b16e92edd",
+        "c8_bottleneck_000": "3dfcdfe6b0247e3e9f04753f4aa6e46a2c7837fb093dbc1314c122a6057acb09",
+        "c8_bottleneck_001": "730ac4d90f6fe0a66193832cc82027b01945a55659626bde19768c62cc0115f8",
+        "c8_bottleneck_002": "577c31fb2c3da46b483299bcffbb9ff0b67adf1b9a3e86df9f6732469a27a854",
+        "c8_bottleneck_003": "d18dbb69a91330db729a4c19cbbb8f3f98df7b51cbcfd73342b5dea02ef1def2",
+        "c8_bottleneck_004": "0629f344674079cfab0b8b005761c0e83cabcff9b211ea683ba08f219d4fef80",
+        "c8_bottleneck_005": "08e1c963cdc5c9d62622ce0b1b84a3eb1a50c8d88ba4e70cdc2a7845c8fc02b5",
+        "c8_bottleneck_006": "e094072f4105cbd69bfedd7e08261646313f85c351969bc0aabe1492ad5de6ed",
+        "c8_bottleneck_007": "b5946165f3ea71d982daf9e8de2d0eb6dab7347c85420b1a49b31057cbe74fbc",
+        "c8_bottleneck_008": "03cd28a209a673557f9289c7af23e1c9748c704d2a56889f99cc60cad16573cc",
+        "c8_bottleneck_009": "a00dd4cfffd343557df4045abe6519aec852024659787472fe130ad08a275124",
+        "c8_bottleneck_010": "8a56120016357d6cf0b3a06c6804b6819ab9f89d8e4ce460d6bbb33873473b49",
+        "c8_bottleneck_011": "98ea681862b2855ac01cd69b64553e2de6e254489fb572dc75aceb864fe1e70e",
+        "c8_bottleneck_012": "5130868b01e3c032726e5db688f145f92ced5b27c748c394ad57d26ee448443b",
+        "c8_bottleneck_013": "3573d30487b22b87696843950b94c04516881e0fec5d0f69a37a452da2793274",
+        "c8_bottleneck_014": "dc3baf862817a743e536835495c2968a780a8c7284a23751a0c36f9ea20c91fa",
+        "c8_bottleneck_015": "78f7b5b40c5814813d7026743190aef95209d50e5726ef411e559ae345c4b33c",
+        "c8_bottleneck_016": "b8793575f16661ebdee4aeb6cc37f16f09d1700d9be34412ce5f81072e65e479",
+        "c8_bottleneck_017": "c60697932ce7e0c20f705f25cae5424f07904451ba91bbc5c155a011bb23b8eb",
+        "c8_bottleneck_018": "0eeef90c63fd301a85f941c3683aafb4be99384b035a1276e4235e43a23826f1",
+        "c8_bottleneck_019": "1fa1bf7916492055de6566213e3d843da0f19f1f0ee33b36a1a8398e999cf874",
+        "c8_bottleneck_020": "58392677f7554457f8885f917b6cf9aa0d1d01cfdac304b46340cd1afa182aa1",
+        "c8_bottleneck_021": "98beea80bd3d9cdf181dcd2d782912bc90e6aff938c38e293dbe8fb959b461a2",
+        "c8_bottleneck_022": "c8957d501e0cf09b96c2b5de1204b81ea6e2a674583db31c6c7bae4307fccac8",
+        "c8_bottleneck_023": "c5ef9fe01e4b9d09dc2d8bf53d7806573eb834e4f680298d21059baac9170480",
+        "c8_bottleneck_024": "3b51d0bbe674b6861d65939ee00e0cffb68c54207b1fbc46c33fe06d7634177f",
+        "c8_bottleneck_025": "3f283cd0245a5bd59b35ba37c0ec986e6a575b2abca7d37731d78e7a34a93760",
+        "c8_bottleneck_026": "a08db08082b08dabb4964a7a014bbfd5a8605e42dd5fba0aac0da27b17b20acd",
+        "c8_bottleneck_027": "59ed831662762fc90a634b7b9a68d100dd2bd75d9e2bf08138971a37f3475608",
+        "c8_bottleneck_028": "a0a5c01577828cb9da841858092b56c66e99b5dd216e9c13f3ef82624606fad7",
+        "c8_bottleneck_029": "7df6442e9f0ee1cbbd372679a09254b16560c64acf2e68164a6d5f8faae9411b",
+        "c8_bottleneck_030": "9132633f86f80c97582c293f9a3d0514567823bc193b66343836a581fc19a4af",
+        "c8_bottleneck_031": "8649afff4786eaded4ab20bf6ed096f18f55172b618ef1a62fed63757d9970cc",
+        "c8_bottleneck_032": "f0f9bbb53e7115a4c6417f3feb1bc8b08f6cf05311254df6674fd9768d97a3b4",
+        "c8_bottleneck_033": "a8261adf0f93510eddc51b0556c5650221d45ffcf0c44ff650430b34551eb57f",
+        "c8_bottleneck_034": "10edbff637c02187d226fa6cf9eea2b841428d8d86934eb84e526221586fef41",
+        "c8_bottleneck_035": "4733e7182bed8e8faf4c1e31d36a66825af2c8ec2eaff26da683ff13d28f2f2b"
+      }
+    },
+    "colosseum": {
+      "mdps": 72,
+      "source": "Colosseum (Conserva & Rauber 2022), authors' sample_mdp_parameters, repo 981b344, continuous setting, mean rewards",
+      "families": [
+        "riverswim",
+        "deepsea",
+        "frozenlake",
+        "simplegrid"
+      ],
+      "sampler_seed": 2028,
+      "draws_per_family": 600,
+      "export_cap_per_family": 30,
+      "filters": [
+        "stochastic kernel",
+        "16 <= |S||A| <= 256",
+        "project dynamic-range filter"
+      ],
+      "exclusion": "every kernel of the exploratory (seed 2026) and confirmatory (seed 2027) runs",
+      "selection": "first 18 per family passing the filter, sampler order",
+      "data_seed_base": 9800000,
+      "export": "benchmarks/colosseum/driver/colosseum_export_fast.py"
+    }
+  },
+  "data": {
+    "behaviors": 5,
+    "pilot_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "budgets": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50
+    ],
+    "training_seed_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "core_learners": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular"
+    ],
+    "target": "first complete suffix with >=8/10 seeds normalized return >=0.95; else >x50",
+    "expectile": "team's documented IQL expectile fallback, counted, used only where the archived code raises"
+  },
+  "forecaster": {
+    "meta_training": "the sealed seven-cohort panel of cohort 7 (720 MDPs, 10,800 rows), unchanged",
+    "procedure": "oeh_final_forecast.matched_forecast for every fitted field set; XGBoost-CF as published_survival_120_*",
+    "oeh_final_fields": "protocol.json of cohort 7 (108 columns)"
+  },
+  "candidates": {
+    "oeh_final": "OEH current (108 columns)",
+    "oeh_s": {
+      "rule": "p' = (1-eps) * normalize(p^(1/T)) + eps * pi_learner",
+      "T": 1.25,
+      "eps": 0.05,
+      "pi_learner": {
+        "behavior_cloning_tabular": [
+          0.025793650793650792,
+          0.044444444444444446,
+          0.01904761904761905,
+          0.004761904761904762,
+          0.005555555555555556,
+          0.0031746031746031746,
+          0.8972222222222223
+        ],
+        "cfqi_tabular": [
+          0.022222222222222223,
+          0.031746031746031744,
+          0.04642857142857143,
+          0.08373015873015872,
+          0.13095238095238096,
+          0.21746031746031746,
+          0.46746031746031746
+        ],
+        "iql_tabular": [
+          0.04365079365079365,
+          0.08095238095238096,
+          0.06825396825396825,
+          0.017857142857142856,
+          0.013492063492063493,
+          0.00873015873015873,
+          0.7670634920634921
+        ]
+      }
+    },
+    "oeh_2t": {
+      "rule": "w * [(1-p6) * P(k | finite; OEH 108 fields fitted on finite meta rows), p6] + (1-w) * OEH current; p6 from OEH current",
+      "w": 0.5,
+      "conditional": "cond_full"
+    }
+  },
+  "comparators": {
+    "b2_matched": "B2 18 generic statistics, matched head",
+    "xgboost_cf_18": "adapted published XGBoost-CF survival model on B2 statistics",
+    "b2_plus_eri": "B2 + ERI adaptation (Swazinna et al.)",
+    "prior_oeh_matched": "B2 + legacy OEH3/LCOEH4 and context (no posterior)",
+    "lce_raw": "learning-curve extrapolation from posterior prefix success, no meta-training",
+    "b2_plus_lce": "B2 + LCE quantities, matched head",
+    "b2_plus_cb": "B2 + concentrability / sample-complexity quantities (Li et al. 2022), matched head",
+    "cb_only": "concentrability quantities alone, matched head",
+    "xgboost_cf_108": "architecture control with the OEH inputs (descriptive)"
+  },
+  "gate": {
+    "unit": "MDP; integrated Brier (six thresholds) and seven-class log loss (1e-12 floor), averaged within MDP",
+    "rule": "each step: max-t simultaneous one-sided 95% lower bounds of the absolute improvement, all > 0",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 20261015,
+      "rule": "max-t with the original standard error (run_oeh_120_unseen.analyze)"
+    },
+    "steps": {
+      "step1": {
+        "candidate": "oeh_final",
+        "baselines": [
+          "b2_matched",
+          "xgboost_cf_18"
+        ]
+      },
+      "step2": {
+        "candidate": "oeh_final",
+        "baselines": [
+          "b2_plus_eri",
+          "prior_oeh_matched",
+          "lce_raw",
+          "b2_plus_lce",
+          "b2_plus_cb",
+          "cb_only"
+        ]
+      },
+      "step3": {
+        "candidates": [
+          "oeh_s",
+          "oeh_2t"
+        ],
+        "baseline": "oeh_final"
+      }
+    },
+    "sequence": "step 2 is tested only if step 1 is GO and step 3 only if step 2 is GO; the sequence is applied to each panel separately; a closed step is reported descriptively and labelled",
+    "step3_reading": "a candidate replaces OEH current on a panel only if both of its contrasts pass",
+    "sample_size": "internal 168 MDPs exceeds the ~82 MDPs needed for the Colosseum log-loss effect at critical 1.9; the Colosseum tier repeats the earlier design (72)"
+  },
+  "descriptive": {
+    "decision_regret": {
+      "tau": [
+        0.5,
+        0.8,
+        0.9
+      ],
+      "lambda": [
+        50,
+        100
+      ],
+      "headline": {
+        "tau": 0.8,
+        "lambda": 100
+      },
+      "methods": [
+        "oeh_final",
+        "b2_matched",
+        "xgboost_cf_18",
+        "b2_plus_eri",
+        "prior_oeh_matched",
+        "b2_plus_lce",
+        "oeh_s",
+        "oeh_2t"
+      ],
+      "fixed_rules": [
+        "always_x10",
+        "always_x50",
+        "always_skip"
+      ]
+    },
+    "factorial_blocks": [
+      "b2_matched",
+      "b2_plus_P",
+      "b2_plus_H",
+      "prior_oeh_matched",
+      "oeh_without_legacy_diagnostics",
+      "oeh_without_oehh_risk",
+      "oeh_without_direct_oehb",
+      "oeh_final"
+    ],
+    "by_learner_family": true,
+    "finite_vs_censored": true,
+    "zero_draw_groups": true
+  },
+  "development_sha256": {
+    "scripts/analysis/run_oeh_eighth_cohort_20261014.py": "f0ec06e2e470e60677a7fb8e1d0c444a0c6021b0e1f020659782992dc7308a09",
+    "scripts/analysis/develop_cohort8_candidates_20261014.py": "a14c618a41e378ae9a19870c161c960a1326993d48365befc27dfe492c455927",
+    "scripts/analysis/colosseum_posthoc_20261014.py": "a7d3c9dcc5099b0bfd7cdc66966d0a9d879be4b0e0eebfdd9e14c084deca45dd",
+    "scripts/analysis/oeh_final_forecast.py": "fc9724544ac210c2a20117ffa079a842aa30f55d7f401ce52abde3582f7b0b76",
+    "scripts/analysis/run_oeh_final_120.py": "ce244a3d21d936400f3d3ad5d16993cb239ed40a1fee07ddda5db6135fd783e5",
+    "benchmarks/colosseum/driver/colosseum_export_fast.py": "9ad113cb89f03529c89669f61be5a63f041dfbce6cf215c96fee89ebf670ae61",
+    "benchmarks/colosseum/driver/build_colosseum.py": "14e0c9b3026bba846f55bf3680ced88f2510cd87b4be0a89be36b2f655bff101",
+    "artifacts/week8/cohort8_development_2026-10-14/selection.json": "f440a27b8917f4e5f677d1b8def8944374116b0e9798d7af8aad9526d49257bb",
+    "artifacts/week8/cohort8_development_2026-10-14/rules.json": "68555bf15465616621c105582492e875d8bba2ad6243461981a1b0412d568ea9",
+    "artifacts/week8/cohort8_development_2026-10-14/oof_predictions.csv.gz": "bfc41a5194c574051c18b221e94257eceffc43feb698da40137e7c0a0fdae90e"
+  }
+}

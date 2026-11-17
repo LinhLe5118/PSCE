@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_TQ_SACO_BRIDGE",
+  "reference_code": "ml-jku/OfflineRL commit 8cc8eec (author DQN)",
+  "test_outcomes_already_open": true,
+  "source_sha256": {
+    "pilot_manifest": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11",
+    "labels_manifest": "3ddb1007258bab1d56fec8ebde49ec1adb0fe4a7fd85386fa3334117f0e20cf7",
+    "author_wrapper": "5245bfdfe5529c63770e4db148a610598720aad76d1ab6aa9d1b9cc417f5d64c",
+    "script": "8be860d6d6148007a9ab1b78a2dc2609f25064da26d7c7b5754a48838026e88d"
+  },
+  "task_checkpoints_sha256": {
+    "MiniGrid-Empty-5x5-v0": "800829ef0511d78892e008f6bd94b5d707530e0e6aed1b8803e3185bdc4c0d58",
+    "MiniGrid-Empty-6x6-v0": "e0b456fda1a244803138077dcdd8fe2f1b79caad1c58900f77582d4ff2c8f48c",
+    "MiniGrid-Empty-8x8-v0": "b7504c61c194c750d1c2284cee47df2d075ea4eb7da9b43ce38d0ed3aec8bc7a",
+    "MiniGrid-KeyCorridorS3R1-v0": "55236c2a264e96a223084875aefb7ee6fb7cee074634a4c6b458036dc013c2ac",
+    "MiniGrid-LavaCrossingS11N5-v0": "1acf85cc24b28da40304b91cfe4ec447e7dbf8623762bfc44865607e23d69c00",
+    "MiniGrid-LavaCrossingS9N1-v0": "e5685f372e32be8a1b8404d7d6d6e825fce459a9c5983ef3460dc7ab7a4cc1f0",
+    "MiniGrid-LavaCrossingS9N2-v0": "32be7be5788e115e294a1f8699c2bea9d6e28a521f8076f52abc4aa59c75b7c9",
+    "MiniGrid-LavaCrossingS9N3-v0": "8623d31816db06b7c786793c143ff8c3ef37fe477ba0c41c185a1a36841e8615",
+    "MiniGrid-LavaGapS6-v0": "cac64236c09b6eec8dcf42adf5925f27de36879311b8ee5d4186c4ba00a74f0d",
+    "MiniGrid-LavaGapS7-v0": "dddb98d139c224596cbe7a330fa88839c22bdb9fbc2bb8cd0fa4f8ff40198376",
+    "MiniGrid-MultiRoom-N2-S4-v0": "16a2f30c7baaf4b066f625ea9d5688b9f0a743412520ff329293fb08a72e863b",
+    "MiniGrid-SimpleCrossingS11N5-v0": "0e8b5e5e7b96650a6ffd1dddff561ec9a0dcdcf5b4d94a2fe0153ad9c8648b2a",
+    "MiniGrid-SimpleCrossingS9N2-v0": "cb66ccfc6e2568f6a919a5168301006bfd6eefbb8243ebfa3f242f63a0756aca",
+    "MiniGrid-SimpleCrossingS9N3-v0": "38b31f5825cbac1160ba09009cefdf59d9d09214a3927fa75b9db135a15ce8cb"
+  },
+  "output_sha256": {
+    "raw_scores.csv": "e11da1c872ee75777e8f2a6c05838ee6b4e477180dba08bdbb8c2a943d7b6135",
+    "rank_summary.csv": "918487e5cf312c345c43ab787b865d371d149660ebede73b973ddfed5eb73724"
+  },
+  "warning": "TQ/SACo require true-MDP online/random references and have a different endpoint than E_l; no Brier comparison."
+}

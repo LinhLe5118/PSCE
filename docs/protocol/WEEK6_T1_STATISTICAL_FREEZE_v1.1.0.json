@@ -1,0 +1,337 @@
+{
+  "version": "1.1.0",
+  "date": "2026-09-21",
+  "status": "statistical_decisions_frozen_not_execution_go",
+  "protocol_document": "docs/protocol/WEEK6_T1_STATISTICAL_FREEZE_v1.1.0_2026-09-21.md",
+  "advisor_permission_required": false,
+  "authorization": "User instruction 2026-09-21",
+  "required_execution_gates": [
+    "T1",
+    "H1",
+    "D1",
+    "B2"
+  ],
+  "evaluation_opened_by_t1": false,
+  "new_development_datasets_allowed": false,
+  "cohort": {
+    "base_mdps": 120,
+    "behavior_families": 5,
+    "groups": 600,
+    "family_counts": [
+      30,
+      36,
+      36,
+      18
+    ],
+    "source_profile": "protocol_config.json",
+    "primary": {
+      "base_mdps": 84,
+      "groups": 420,
+      "learner_labels": 1260,
+      "core_fits": 75600,
+      "family_counts": {
+        "uniform_garnet": 30,
+        "forward_layered": 36,
+        "bottleneck": 18
+      }
+    },
+    "controls": {
+      "base_mdps": 36,
+      "groups": 180,
+      "core_fits": 32400,
+      "family_counts": {
+        "lock_structured": 36
+      },
+      "role": "descriptive_only",
+      "bootstrap_seed": 20260922
+    },
+    "classification": {
+      "rule": "registered_family_verified_by_reachable_nonterminal_kernel",
+      "support_tolerance": 1e-12,
+      "min_successors_per_stochastic_row": 2,
+      "min_stochastic_rows": 1,
+      "mismatch": "fail_without_regeneration_or_relabeling",
+      "uses_pilot_entropy": false
+    }
+  },
+  "core_learners": [
+    "cfqi_tabular",
+    "iql_tabular",
+    "behavior_cloning_tabular"
+  ],
+  "pilot_prefixes": [
+    2,
+    5,
+    10
+  ],
+  "training_grid": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "primary_budget": 10,
+  "expected_core_fits": 108000,
+  "feature_sets": {
+    "B0": [
+      "log_pilot_transitions",
+      "log_state_action_count"
+    ],
+    "B1": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction"
+    ],
+    "B2": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "B2_OEH3": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability"
+    ],
+    "B2_OEH3_LC_PMS": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ],
+    "B2_OEH3_LCOEH4": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_log1p_requirement",
+      "lcoeh4_requirement_censored",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ]
+  },
+  "selector": {
+    "components": [
+      "B2_OEH3",
+      "B2_OEH3_LCOEH4"
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ],
+    "ties": [
+      "cfqi_tabular",
+      "iql_tabular",
+      "behavior_cloning_tabular"
+    ],
+    "fallback": "outer_training_best_fixed"
+  },
+  "evaluation": {
+    "design": "new_cohort_nested_meta_learning_no_development_pooling",
+    "outer_folds": 5,
+    "inner_folds": 4,
+    "group": "base_mdp_id",
+    "outer_assignment": "int(sha256(id UTF-8).hexdigest(),16) % 5",
+    "return_ridges": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "survival_ridges": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1
+    ],
+    "best_fixed": "outer_training_mean_seed_then_behavior_then_mdp",
+    "partition_before_any_fit": true,
+    "control_training_in_primary_allowed": false
+  },
+  "confirmatory_family": {
+    "method": "Holm",
+    "alpha": 0.05,
+    "size": 3,
+    "hypotheses": [
+      {
+        "id": "H1",
+        "endpoint": "normalized_return_v4e_minus_fold_best_fixed",
+        "margin": 0.005,
+        "role": "primary"
+      },
+      {
+        "id": "H2",
+        "endpoint": "pooled_log_likelihood_B2_OEH3_LC_PMS_minus_B2",
+        "margin": 0,
+        "role": "secondary_confirmatory"
+      },
+      {
+        "id": "H3",
+        "endpoint": "pooled_log_likelihood_B2_minus_B1",
+        "margin": 0,
+        "role": "secondary_confirmatory"
+      }
+    ],
+    "panel": "stochastic_primary"
+  },
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20260921,
+    "rng": "PCG64",
+    "unit": "base_mdp",
+    "strata": "outer_fold",
+    "refit_meta_models_and_best_fixed": true,
+    "paired_all_endpoints": true,
+    "interval": "basic_95_percent",
+    "p_value": "(1+count(abs(draw-estimate)>=abs(estimate-margin)))/(B+1)",
+    "invalid_draw": "stop_no_confirmatory_claim",
+    "fixed_oof_bootstrap": "descriptive_sensitivity_only",
+    "panel": "stochastic_primary",
+    "clusters": 84
+  },
+  "censoring": {
+    "rule": "first_full_suffix_with_at_least_8_of_10_successes",
+    "success_return": 0.95,
+    "administrative_censoring_at": 50,
+    "early_censoring_allowed": false,
+    "full_grid_brier": true
+  },
+  "execution": {
+    "run_id": "week6_oehv4e_confirmatory_v1_1",
+    "output": "artifacts/week6/oehv4e_confirmatory_v1_1/",
+    "interim_stopping": false,
+    "max_identical_infrastructure_retry": 1,
+    "resume": "verified_missing_jobs_only",
+    "control_failure": "incomplete_controls_primary_claim_only_if_primary_complete",
+    "primary_core_failure": "incomplete_no_primary_pass"
+  },
+  "external_panel": {
+    "methods": [
+      "Pi_b_SPIBB",
+      "VI_LCB",
+      "discrete_BCQ",
+      "discrete_CQL"
+    ],
+    "budget": 10,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "neural_updates": 500,
+    "spibb_N_wedge": 10,
+    "vi_lcb_cb": 0.05,
+    "in_confirmatory_family": false,
+    "sota_claim_allowed": false
+  },
+  "supersedes": "1.0.0"
+}

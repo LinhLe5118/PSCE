@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_EXPLORATORY_ORIGINAL_ERI_AND_AUTHOR_EH_METADATA",
+  "comparison_scope": "original scalar scores versus offline E_l rank; no Brier/log-loss comparison",
+  "test_outcomes_already_open": true,
+  "source_sha256": {
+    "pilot_manifest": "b5f4921c448e7c60c29cc54e78395dd29e27c6a3856b6db972703eced2f68d11",
+    "labels_manifest": "3ddb1007258bab1d56fec8ebde49ec1adb0fe4a7fd85386fa3334117f0e20cf7",
+    "author_sticky_summary": "a2b795f52c7fb75a3bb2e75d0f8c3339f2b1f6ee6804ca569e8341bd5cb3fc8c",
+    "script": "187ed66e48e548e366b8aee0a3e40e190f095f7afec808a144121daa3fa9df82"
+  },
+  "rows": 70,
+  "learner_rows": 210,
+  "author_horizon_warning": "Published EPW/k_min are MDP-based and not matched to our finite-horizon offline learner target.",
+  "output_sha256": {
+    "raw_scores.csv": "e97a98973bdf3d57a1d08f7accccaf203cc48f27bdc793a5c3fee81bde93162e",
+    "rank_summary.csv": "923626d1aa630bc91b29a8c4da6d11f305b735dda191313f312370eb0bdef12e"
+  }
+}

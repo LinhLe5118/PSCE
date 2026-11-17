@@ -1,0 +1,27 @@
+{
+  "status": "development_only_first_fit_second_scored_not_confirmation",
+  "first_open_fits": {
+    "baseline": {
+      "oeh_weight": 0.0,
+      "prior_smoothing": 0.0,
+      "logloss": 0.710891859869661
+    },
+    "candidate": {
+      "oeh_weight": 0.8119141891324743,
+      "prior_smoothing": 0.0,
+      "logloss": 0.6573838118896213
+    }
+  },
+  "prior": [
+    0.025396825396825397,
+    0.05793650793650794,
+    0.046825396825396826,
+    0.030952380952380953,
+    0.047619047619047616,
+    0.08888888888888889,
+    0.7023809523809523
+  ],
+  "source_sha256": "551265cd7bcf34084a2b726d9da6e00cb7ac5141614bc8e99136b9bf2c294957",
+  "e1_labels_sha256": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+  "script_sha256": "62901fe956a5db48dfd2498768eba286dde2c78053b93181512ca1090f82bc77"
+}

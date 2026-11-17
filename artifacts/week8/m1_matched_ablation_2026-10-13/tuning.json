@@ -1,0 +1,282 @@
+{
+  "b2_matched": {
+    "primary/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.028835237897264318,
+        0.12025647676609266,
+        0.850908285336643
+      ],
+      "oof_logloss": 0.2647428754331016,
+      "capacity": "depth3_200"
+    },
+    "primary/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.12331029131743097,
+        0.16636022221803937,
+        0.7103294864645298
+      ],
+      "oof_logloss": 1.1675168719312805,
+      "capacity": "depth3_200"
+    },
+    "primary/iql_tabular": {
+      "aft_direct_multi": [
+        0.07798856817919521,
+        0.017287673223439163,
+        0.9047237585973656
+      ],
+      "oof_logloss": 0.5442102349268935,
+      "capacity": "depth3_200"
+    },
+    "control/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.26627931539159044,
+        0.4767375995417108,
+        0.2569830850666987
+      ],
+      "oof_logloss": 0.2020855577468581,
+      "capacity": "depth3_200"
+    },
+    "control/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.2938773424389531,
+        0.05726865147150876,
+        0.6488540060895381
+      ],
+      "oof_logloss": 0.4634875725756494,
+      "capacity": "depth3_200"
+    },
+    "control/iql_tabular": {
+      "aft_direct_multi": [
+        0.28172039934070287,
+        0.0,
+        0.7182796006592972
+      ],
+      "oof_logloss": 0.21918427979909177,
+      "capacity": "depth3_200"
+    }
+  },
+  "oeh_full_108": {
+    "primary/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.11264868340008687,
+        0.22223797597576173,
+        0.6651133406241514
+      ],
+      "oof_logloss": 0.20355906779327454,
+      "capacity": "depth3_200"
+    },
+    "primary/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.1823492355095088,
+        0.22224052304358702,
+        0.5954102414469042
+      ],
+      "oof_logloss": 1.0837304281305957,
+      "capacity": "depth3_200"
+    },
+    "primary/iql_tabular": {
+      "aft_direct_multi": [
+        0.10727881335058187,
+        0.14718262026070164,
+        0.7455385663887165
+      ],
+      "oof_logloss": 0.4798450351269534,
+      "capacity": "depth3_200"
+    },
+    "control/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.40265086726490273,
+        0.3065066111212095,
+        0.29084252161388774
+      ],
+      "oof_logloss": 0.20684609672231052,
+      "capacity": "depth3_200"
+    },
+    "control/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.47982123899344037,
+        0.08714781993110327,
+        0.4330309410754564
+      ],
+      "oof_logloss": 0.4792983796519933,
+      "capacity": "depth3_200"
+    },
+    "control/iql_tabular": {
+      "aft_direct_multi": [
+        0.36214482592396163,
+        0.0562630807208713,
+        0.5815920933551672
+      ],
+      "oof_logloss": 0.21360322632884157,
+      "capacity": "depth3_200"
+    }
+  },
+  "oeh_without_direct_oehb": {
+    "primary/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.10682769660550559,
+        0.259481957510224,
+        0.6336903458842704
+      ],
+      "oof_logloss": 0.20536260459282565,
+      "capacity": "depth3_200"
+    },
+    "primary/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.17420462711314855,
+        0.22148812148878394,
+        0.6043072513980676
+      ],
+      "oof_logloss": 1.09258670277681,
+      "capacity": "depth3_200"
+    },
+    "primary/iql_tabular": {
+      "aft_direct_multi": [
+        0.11020805738131567,
+        0.227429250775959,
+        0.6623626918427254
+      ],
+      "oof_logloss": 0.4833116447320437,
+      "capacity": "depth3_200"
+    },
+    "control/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.3476406127057227,
+        0.37904163515663175,
+        0.27331775213764553
+      ],
+      "oof_logloss": 0.19623753455041434,
+      "capacity": "depth3_200"
+    },
+    "control/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.4130116664547725,
+        0.17025416936659396,
+        0.41673416417863357
+      ],
+      "oof_logloss": 0.4817476223232436,
+      "capacity": "depth3_200"
+    },
+    "control/iql_tabular": {
+      "aft_direct_multi": [
+        0.2909208341470147,
+        0.035461964284818535,
+        0.6736172015681668
+      ],
+      "oof_logloss": 0.2128398287982731,
+      "capacity": "depth3_200"
+    }
+  },
+  "oeh_without_oehh_risk": {
+    "primary/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.14884771320674395,
+        0.21505171769753684,
+        0.6361005690957192
+      ],
+      "oof_logloss": 0.2201644578670408,
+      "capacity": "depth3_200"
+    },
+    "primary/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.19868695679919446,
+        0.251393322095406,
+        0.5499197211053996
+      ],
+      "oof_logloss": 1.103603491136953,
+      "capacity": "depth3_200"
+    },
+    "primary/iql_tabular": {
+      "aft_direct_multi": [
+        0.0902678849949564,
+        0.2557243664853826,
+        0.654007748519661
+      ],
+      "oof_logloss": 0.49035795176897445,
+      "capacity": "depth3_200"
+    },
+    "control/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.4569035140213562,
+        0.2624136382607862,
+        0.2806828477178577
+      ],
+      "oof_logloss": 0.21023086693061954,
+      "capacity": "depth3_200"
+    },
+    "control/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.43386381149415876,
+        0.07968212688436696,
+        0.4864540616214743
+      ],
+      "oof_logloss": 0.46981242777377213,
+      "capacity": "depth3_200"
+    },
+    "control/iql_tabular": {
+      "aft_direct_multi": [
+        0.3691498207294672,
+        0.028467659016313554,
+        0.6023825202542192
+      ],
+      "oof_logloss": 0.21286852257941596,
+      "capacity": "depth3_200"
+    }
+  },
+  "oeh_without_legacy_diagnostics": {
+    "primary/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.07377034813957249,
+        0.13351832278614012,
+        0.7927113290742874
+      ],
+      "oof_logloss": 0.21656774090444506,
+      "capacity": "depth3_200"
+    },
+    "primary/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.15912930573614714,
+        0.25289089543300164,
+        0.5879797988308512
+      ],
+      "oof_logloss": 1.0903002747793364,
+      "capacity": "depth3_200"
+    },
+    "primary/iql_tabular": {
+      "aft_direct_multi": [
+        0.10277487264988834,
+        0.06561658033685,
+        0.8316085470132617
+      ],
+      "oof_logloss": 0.48708060710385864,
+      "capacity": "depth3_200"
+    },
+    "control/behavior_cloning_tabular": {
+      "aft_direct_multi": [
+        0.3072352649440629,
+        0.34447730490236494,
+        0.3482874301535722
+      ],
+      "oof_logloss": 0.20225582087633254,
+      "capacity": "depth3_200"
+    },
+    "control/cfqi_tabular": {
+      "aft_direct_multi": [
+        0.3931567561729127,
+        0.09062922418512132,
+        0.516214019641966
+      ],
+      "oof_logloss": 0.47119042524917326,
+      "capacity": "depth3_200"
+    },
+    "control/iql_tabular": {
+      "aft_direct_multi": [
+        0.39296150192484774,
+        0.07773489111545463,
+        0.5293036069596977
+      ],
+      "oof_logloss": 0.21421920652476828,
+      "capacity": "depth3_200"
+    }
+  }
+}

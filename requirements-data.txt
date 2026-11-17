@@ -1,0 +1,3 @@
+# Restored CPU data generation and tabular learning; original scientific pins.
+-r requirements.txt
+scipy==1.18.0

@@ -1,0 +1,21 @@
+{
+  "attempt_id": "r34", "candidate_module": "oeh_interaction_gains",
+  "evaluation_reuse": true, "new_mdps_generated": 0, "budget": 10,
+  "bootstrap_draws": 2000, "bootstrap_seed": 20260921, "one_sided_alpha": 0.05,
+  "primary_panel": "stochastic_primary", "endpoints": ["normalized_return", "success_ge_0.95"],
+  "gate": "all_four_paired_point_effects_and_basic_one_sided_lower_bounds_strictly_positive",
+  "confirmation": false,
+  "hypothesis": "Aligned objectives need conditional forecasts capable of nonlinear interactions; include all quadratic interactions without choosing family-specific features",
+  "kernel": {"degree": 2, "offset": 1, "gamma": "inverse_input_dimension", "standardization": "weighted_training_only", "intercept": "weighted_centered_unpenalized"},
+  "model_selection": "original_T1_ridge_grid_grouped_inner_return_MSE_and_categorical_Brier_equivalent_frequency_loss_equal_weight_original_feature_blocks",
+  "routing": "joint_gain_product_supported_deterministic_frontier_no_fixed_weight_no_policy_mixture_reference_fallback",
+  "scope": "posthoc_original_E1_x10_84_stochastic_36_control_no_new_cohort_or_training",
+  "sources": [
+    "code/oeh_interaction_gains.py", "tests/test_oeh_interaction_gains.py", "evaluation/e1_routing.py",
+    "code/return_selection.py", "code/stochastic_evaluation.py", "evaluation/aggregation/folds.py",
+    "evaluation/e1_reuse.py", "evaluation/io.py", "evaluation/withdrawal.py", "config/protocol_config.py",
+    "protocol_config.json", "scripts/training/run_empirical_requirement.py", "scripts/analysis/run_oeh_e1_reuse.py",
+    "tests/test_e1_reuse.py", "tests/test_e1_reuse_seals.py", "tests/test_e1_reuse_runner.py",
+    "tests/test_e1_routing.py", "tests/test_oeh_withdrawal.py"
+  ]
+}

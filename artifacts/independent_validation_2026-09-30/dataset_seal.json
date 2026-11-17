@@ -1,0 +1,8 @@
+{
+  "sealed_at_utc": "2026-09-30T14:23:28.693983+00:00",
+  "protocol_sha256": "cde29a9cc10290e220f0d67dd9ce5ae9edcae5c6096f95bbca8e3f0b1ebe1a81",
+  "sha256": {
+    "datasets/independent_validation_2026-09-30/manifest.json": "e60f90af79174943bc00f6f58e1aba25de343f3835a07043386b6be13044f416",
+    "datasets/independent_validation_2026-09-30/data_only_index.json": "f41e259b7c45c69828ca1aeb1f38200cb66da65788a9eac8b830bc96aee05def"
+  }
+}

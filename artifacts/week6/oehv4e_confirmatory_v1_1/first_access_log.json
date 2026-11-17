@@ -1,0 +1,36 @@
+{
+  "authorization_reference": "user_message_2026-09-26_designating_independent_auditor_and_authorizing_E1",
+  "counts": {
+    "base_mdps": 120,
+    "behavior_groups": 600,
+    "logical_records": 37800,
+    "physical_buffers": 6600,
+    "training_prefixes": 36000
+  },
+  "data_only_index_sha256": "60e5603feaff054cd5a155fcaeb55f812df85eadbcdf39a0c5419647bc29bc07",
+  "dataset_dir": "D:\\\u0110\u1ed3 \u00e1n\\Devoted\\datasets\\week6_e1_oehv4e_confirmatory_v1_1",
+  "dynamics_audit_sha256": "cf1b7f7fe56e293c9848cf2d9d6743c99cd9ba3c51f5b91ff02f9b64bcca69db",
+  "expected_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "first_access_utc": "2026-09-26T14:11:03.796912+00:00",
+  "observed_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "run_id": "week6_oehv4e_confirmatory_v1_1",
+  "source_commit": "725cbdb589d810b4c852b9776f01db0b29afe3dc",
+  "source_sha256": {
+    "docs/protocol/WEEK6_T1_FREEZE_v1.1.0-r1.sha256.json": "28fe4fd5f155c5c2717f0ea9d69b0ad713f1ed5fb752946e4190181aba7f613c",
+    "evaluation/e1_access.py": "d29c6be1ae4aafac63d6fd6bb57481b15bf8971c86d6a9e532ebed8b2723848c",
+    "evaluation/e1_external.py": "50c52afa764ba5423b958973910eb4253651035d18afa7c3200676947c97f5eb",
+    "evaluation/e1_pipeline.py": "6c89d5c545197aa7bff068f67c22ae858d28d5103042b5f3dbef6a6f2ca1ae2c",
+    "scripts/data/generate_week6_e1_bundle.py": "0475ae895711727902e82b0d636617e10dc764f5d701b251c3c05730933d2303",
+    "scripts/testing/probe_e1_external_adapter.py": "9bd7131c0879411bb8fd79a9d3410452a11b69575dcf8dde031aae9de23753da",
+    "scripts/testing/probe_e1_external_components.py": "cce3372c081d16eb25465baa8d2033dd42b736fbd36631e3bcf1793a83106c8d",
+    "scripts/training/run_week6_e1.py": "c0ba9c33d5d035a6900b11ef4dcb3e8b3b22e16583cd3d5ef64dbdffe4465a30",
+    "tests/test_e1_access.py": "12c6e8ab6a3d9a9960879e5a2b59509c1ebef6d7245d73b1db41dc09f7ff711e",
+    "tests/test_e1_external_provenance.py": "bfd1dcfcb5bdd7b3be6e032f684e2861f3b634970b845c5558484a69a11c41b7",
+    "tests/test_e1_failure_partition.py": "ebd751d5aae6d79733dc06c89cab7bfa7623a2622c61e908f5f3421771a4cee2",
+    "tests/test_e1_generator_gate.py": "0892c1eb4d1d0aee0d6c1f66a6397dd8fc76daa4d18b74ab8d485615e31f5fd8",
+    "tests/test_e1_pipeline_adapter.py": "4049c6ff0d1e7e43e961d31e50155e5a5609101e76c1010e1a98cad72792b93d",
+    "tests/test_e1_selector_partition.py": "f95fa71ebb904148dca59183940a8c87afb6325caea3c0f1b37431644e3713c1"
+  },
+  "status": "verified",
+  "verified_at_utc": "2026-09-26T14:11:16.370963+00:00"
+}

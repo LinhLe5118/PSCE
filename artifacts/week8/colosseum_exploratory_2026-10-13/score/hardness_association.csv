@@ -1,0 +1,13 @@
+learner,measure,spearman
+behavior_cloning_tabular,diameter,0.41442709367000125
+behavior_cloning_tabular,value_norm,-0.44835099650272986
+behavior_cloning_tabular,suboptimal_gaps,0.28984106455331343
+cfqi_tabular,diameter,0.5475754577436017
+cfqi_tabular,value_norm,-0.413916762284917
+cfqi_tabular,suboptimal_gaps,0.1477085721597359
+iql_tabular,diameter,0.5347080834998001
+iql_tabular,value_norm,-0.33174899374127376
+iql_tabular,suboptimal_gaps,0.06956954634782345
+behavior_cloning_tabular,oeh_final_expected_event,0.7098229493304282
+cfqi_tabular,oeh_final_expected_event,0.8770080930235133
+iql_tabular,oeh_final_expected_event,0.8315764782457464

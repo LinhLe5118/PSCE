@@ -1,0 +1,1280 @@
+{
+  "schema": "oeh-fifth-panel-v1",
+  "namespace": "oeh-fifth-panel-v1-20261015",
+  "frozen_at_utc": "2026-10-15T03:48:37.301219+00:00",
+  "status": "frozen_before_any_panel_data_or_learner_outcomes",
+  "method": "OEH final method = oeh_v2_spec.json via scripts/analysis/oeh_pipeline.py (unchanged since the four-panel test)",
+  "oeh_spec": {
+    "schema": "oeh-v2-spec-v1",
+    "status": "frozen",
+    "frozen_at_utc": "2026-10-14T16:25:01.937373+00:00",
+    "definition": "scripts/analysis/oeh_v2_forecast.py:v2_law",
+    "base_head": "oeh_ensemble",
+    "parameters": {
+      "q_oeh": "finite_only_head",
+      "q_robust": "legacy_finite",
+      "lambda_max": 1.0,
+      "eps_max": 0.02,
+      "d0": 3.0
+    },
+    "distance": "mean distance to the 10 nearest meta-training primary rows in standardized B2 statistics, per MDP-behavior group",
+    "selected_in": "artifacts/week8/oeh_v2_development_2026-10-14/heads",
+    "m2": "stopped at step 0 (prior_diagnosis/): the continuation rule was not met",
+    "m3": {
+      "rule": [
+        "external score of the re-selected v2 lower than without M3",
+        "SPIBB (rel IBS + rel LL)/2 lower than without M3",
+        "internal rel IBS and rel LL vs OEH current each <= +0.02"
+      ],
+      "without": {
+        "by_panel": {
+          "cohort7": [
+            0.004929276792311255,
+            0.018051342608216503
+          ],
+          "cohort8": [
+            0.0006933517658458399,
+            0.006452080896266255
+          ],
+          "colosseum2027": [
+            -0.06461828797190627,
+            -0.11156388856078958
+          ],
+          "colosseum2028": [
+            -0.06945191980496623,
+            -0.09772463138159992
+          ],
+          "spibb": [
+            -0.03134973405723851,
+            -0.01843385220101068
+          ],
+          "internal": [
+            0.002093143131145059,
+            0.010388744143398299
+          ]
+        },
+        "external_score": -0.06552371899625187,
+        "spibb_score": -0.024891793129124595
+      },
+      "with": {
+        "by_panel": {
+          "cohort7": [
+            -0.015483828607276928,
+            0.008862501231342579
+          ],
+          "cohort8": [
+            0.012753185707956582,
+            0.006998366116294008
+          ],
+          "colosseum2027": [
+            -0.028165230684146114,
+            -0.08033415446976633
+          ],
+          "colosseum2028": [
+            -0.05881104169827589,
+            -0.09442753725176845
+          ],
+          "spibb": [
+            0.01025257605451757,
+            0.01308599635552632
+          ],
+          "internal": [
+            0.0034220647430349693,
+            0.007631033296097378
+          ]
+        },
+        "external_score": -0.03973323194898548,
+        "spibb_score": 0.011669286205021945
+      },
+      "checks": {
+        "external_lower": false,
+        "spibb_lower": false,
+        "internal_within_2pct": true
+      },
+      "adopted": false,
+      "oeh_current_refit_on_augmented_panel": {
+        "by_panel": {
+          "cohort7": [
+            -0.02502960630699358,
+            -0.006965652904399877
+          ],
+          "cohort8": [
+            0.00109730981739653,
+            -0.0019803790234621532
+          ],
+          "colosseum2027": [
+            0.0023494309534917157,
+            0.0067183287222143395
+          ],
+          "colosseum2028": [
+            -0.007634522761508111,
+            0.0015452957080088758
+          ],
+          "spibb": [
+            0.032804507112023984,
+            0.010894005535496465
+          ],
+          "internal": [
+            -0.0075365142857956036,
+            -0.00367232674835527
+          ]
+        },
+        "external_score": 0.007779507544954545,
+        "spibb_score": 0.021849256323760224
+      }
+    },
+    "extra_training_cohorts": [],
+    "source_sha256": {
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/rules.json": "8fc00959c61a0ff387a6481ba28640950adfb786505c32ce265fb01b7821928d",
+      "artifacts/week8/oeh_v2_development_2026-10-14/rules_m2_m3.json": "147b069684821a331420a4a182375ffdc497d8f626d561e4434df5732611c1e3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/selection.json": "8cf815fc2b167c0645e0f3445253d6264e7be45918a778cfd9731eb2e659c4b3",
+      "artifacts/week8/oeh_v2_development_2026-10-14/heads/grid.csv": "fb9f0b343525f29276a37209f0cf8126dbc70dd9bc1186f4ffa79ee5ecf0fd08",
+      "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+      "scripts/analysis/develop_oeh_v2_heads_20261014.py": "ed80349323362d7c06d67dd075bfd71ae85d0b70c40eef2601ae9e965159cf24"
+    }
+  },
+  "oeh_spec_sha256": "6f78edec6e8ba74dd0151f6739b52b90f9d65c49802aefc1efd2a82600bfc4d7",
+  "panels": {
+    "frozenlake": {
+      "mdps": 36,
+      "candidates": 160,
+      "source": "Gymnasium 1.0.0 FrozenLakeEnv + generate_random_map, is_slippery=True",
+      "candidates_list": [
+        {
+          "size": 6,
+          "p": 0.944,
+          "map_seed": 297357850
+        },
+        {
+          "size": 8,
+          "p": 0.943,
+          "map_seed": 876299974
+        },
+        {
+          "size": 7,
+          "p": 0.853,
+          "map_seed": 405258327
+        },
+        {
+          "size": 6,
+          "p": 0.942,
+          "map_seed": 164048192
+        },
+        {
+          "size": 6,
+          "p": 0.942,
+          "map_seed": 1831850926
+        },
+        {
+          "size": 6,
+          "p": 0.871,
+          "map_seed": 565118963
+        },
+        {
+          "size": 6,
+          "p": 0.763,
+          "map_seed": 275821683
+        },
+        {
+          "size": 4,
+          "p": 0.851,
+          "map_seed": 722217444
+        },
+        {
+          "size": 7,
+          "p": 0.76,
+          "map_seed": 1068413582
+        },
+        {
+          "size": 5,
+          "p": 0.781,
+          "map_seed": 935017511
+        },
+        {
+          "size": 6,
+          "p": 0.779,
+          "map_seed": 1419535068
+        },
+        {
+          "size": 8,
+          "p": 0.783,
+          "map_seed": 763943755
+        },
+        {
+          "size": 4,
+          "p": 0.929,
+          "map_seed": 466444532
+        },
+        {
+          "size": 7,
+          "p": 0.895,
+          "map_seed": 1292347150
+        },
+        {
+          "size": 5,
+          "p": 0.798,
+          "map_seed": 1373121638
+        },
+        {
+          "size": 7,
+          "p": 0.934,
+          "map_seed": 104236110
+        },
+        {
+          "size": 7,
+          "p": 0.862,
+          "map_seed": 744167169
+        },
+        {
+          "size": 7,
+          "p": 0.943,
+          "map_seed": 677726025
+        },
+        {
+          "size": 4,
+          "p": 0.846,
+          "map_seed": 1602228412
+        },
+        {
+          "size": 5,
+          "p": 0.945,
+          "map_seed": 1203464526
+        },
+        {
+          "size": 5,
+          "p": 0.847,
+          "map_seed": 1924015158
+        },
+        {
+          "size": 7,
+          "p": 0.758,
+          "map_seed": 1834960265
+        },
+        {
+          "size": 7,
+          "p": 0.803,
+          "map_seed": 495401610
+        },
+        {
+          "size": 4,
+          "p": 0.861,
+          "map_seed": 1727871658
+        },
+        {
+          "size": 7,
+          "p": 0.783,
+          "map_seed": 659254444
+        },
+        {
+          "size": 7,
+          "p": 0.866,
+          "map_seed": 1645327310
+        },
+        {
+          "size": 4,
+          "p": 0.888,
+          "map_seed": 1557440194
+        },
+        {
+          "size": 5,
+          "p": 0.92,
+          "map_seed": 1582291390
+        },
+        {
+          "size": 7,
+          "p": 0.892,
+          "map_seed": 1560513238
+        },
+        {
+          "size": 8,
+          "p": 0.783,
+          "map_seed": 982186529
+        },
+        {
+          "size": 6,
+          "p": 0.837,
+          "map_seed": 1514563487
+        },
+        {
+          "size": 4,
+          "p": 0.817,
+          "map_seed": 407573544
+        },
+        {
+          "size": 5,
+          "p": 0.932,
+          "map_seed": 1891116809
+        },
+        {
+          "size": 8,
+          "p": 0.849,
+          "map_seed": 2116823902
+        },
+        {
+          "size": 4,
+          "p": 0.928,
+          "map_seed": 1350092179
+        },
+        {
+          "size": 4,
+          "p": 0.927,
+          "map_seed": 644449395
+        },
+        {
+          "size": 4,
+          "p": 0.768,
+          "map_seed": 1588531459
+        },
+        {
+          "size": 5,
+          "p": 0.786,
+          "map_seed": 770562831
+        },
+        {
+          "size": 5,
+          "p": 0.771,
+          "map_seed": 386495593
+        },
+        {
+          "size": 5,
+          "p": 0.881,
+          "map_seed": 1383958523
+        },
+        {
+          "size": 7,
+          "p": 0.833,
+          "map_seed": 26479197
+        },
+        {
+          "size": 6,
+          "p": 0.832,
+          "map_seed": 90191135
+        },
+        {
+          "size": 5,
+          "p": 0.872,
+          "map_seed": 1974185964
+        },
+        {
+          "size": 8,
+          "p": 0.766,
+          "map_seed": 1040499329
+        },
+        {
+          "size": 7,
+          "p": 0.863,
+          "map_seed": 1372730472
+        },
+        {
+          "size": 4,
+          "p": 0.802,
+          "map_seed": 1308346677
+        },
+        {
+          "size": 4,
+          "p": 0.811,
+          "map_seed": 1912295466
+        },
+        {
+          "size": 8,
+          "p": 0.807,
+          "map_seed": 137743519
+        },
+        {
+          "size": 5,
+          "p": 0.835,
+          "map_seed": 1738913124
+        },
+        {
+          "size": 7,
+          "p": 0.928,
+          "map_seed": 1220972339
+        },
+        {
+          "size": 7,
+          "p": 0.837,
+          "map_seed": 775509616
+        },
+        {
+          "size": 8,
+          "p": 0.81,
+          "map_seed": 479298540
+        },
+        {
+          "size": 4,
+          "p": 0.884,
+          "map_seed": 387288783
+        },
+        {
+          "size": 4,
+          "p": 0.824,
+          "map_seed": 1936103006
+        },
+        {
+          "size": 5,
+          "p": 0.815,
+          "map_seed": 863720559
+        },
+        {
+          "size": 6,
+          "p": 0.751,
+          "map_seed": 1920711369
+        },
+        {
+          "size": 5,
+          "p": 0.939,
+          "map_seed": 1338561805
+        },
+        {
+          "size": 6,
+          "p": 0.755,
+          "map_seed": 1637993294
+        },
+        {
+          "size": 8,
+          "p": 0.812,
+          "map_seed": 378235876
+        },
+        {
+          "size": 8,
+          "p": 0.857,
+          "map_seed": 1859440831
+        },
+        {
+          "size": 7,
+          "p": 0.876,
+          "map_seed": 1253842408
+        },
+        {
+          "size": 8,
+          "p": 0.772,
+          "map_seed": 652233859
+        },
+        {
+          "size": 6,
+          "p": 0.832,
+          "map_seed": 711555864
+        },
+        {
+          "size": 8,
+          "p": 0.77,
+          "map_seed": 1768159808
+        },
+        {
+          "size": 7,
+          "p": 0.908,
+          "map_seed": 18710222
+        },
+        {
+          "size": 6,
+          "p": 0.899,
+          "map_seed": 877841469
+        },
+        {
+          "size": 4,
+          "p": 0.868,
+          "map_seed": 386111583
+        },
+        {
+          "size": 7,
+          "p": 0.863,
+          "map_seed": 13363213
+        },
+        {
+          "size": 4,
+          "p": 0.885,
+          "map_seed": 2109138960
+        },
+        {
+          "size": 6,
+          "p": 0.851,
+          "map_seed": 2136007259
+        },
+        {
+          "size": 7,
+          "p": 0.78,
+          "map_seed": 27066220
+        },
+        {
+          "size": 4,
+          "p": 0.766,
+          "map_seed": 105227930
+        },
+        {
+          "size": 7,
+          "p": 0.909,
+          "map_seed": 974629122
+        },
+        {
+          "size": 4,
+          "p": 0.773,
+          "map_seed": 953729966
+        },
+        {
+          "size": 7,
+          "p": 0.828,
+          "map_seed": 1359997697
+        },
+        {
+          "size": 5,
+          "p": 0.802,
+          "map_seed": 427773307
+        },
+        {
+          "size": 7,
+          "p": 0.887,
+          "map_seed": 8138464
+        },
+        {
+          "size": 7,
+          "p": 0.873,
+          "map_seed": 806871839
+        },
+        {
+          "size": 5,
+          "p": 0.935,
+          "map_seed": 705812264
+        },
+        {
+          "size": 7,
+          "p": 0.758,
+          "map_seed": 792962803
+        },
+        {
+          "size": 4,
+          "p": 0.863,
+          "map_seed": 682023947
+        },
+        {
+          "size": 8,
+          "p": 0.855,
+          "map_seed": 148230170
+        },
+        {
+          "size": 7,
+          "p": 0.909,
+          "map_seed": 99080521
+        },
+        {
+          "size": 5,
+          "p": 0.895,
+          "map_seed": 415300733
+        },
+        {
+          "size": 4,
+          "p": 0.782,
+          "map_seed": 36993413
+        },
+        {
+          "size": 6,
+          "p": 0.869,
+          "map_seed": 37314625
+        },
+        {
+          "size": 4,
+          "p": 0.928,
+          "map_seed": 1855788496
+        },
+        {
+          "size": 6,
+          "p": 0.907,
+          "map_seed": 1039766987
+        },
+        {
+          "size": 5,
+          "p": 0.868,
+          "map_seed": 1460610089
+        },
+        {
+          "size": 6,
+          "p": 0.846,
+          "map_seed": 123422108
+        },
+        {
+          "size": 8,
+          "p": 0.826,
+          "map_seed": 1486534240
+        },
+        {
+          "size": 7,
+          "p": 0.76,
+          "map_seed": 1242934938
+        },
+        {
+          "size": 7,
+          "p": 0.786,
+          "map_seed": 1186818750
+        },
+        {
+          "size": 4,
+          "p": 0.765,
+          "map_seed": 1396071670
+        },
+        {
+          "size": 7,
+          "p": 0.927,
+          "map_seed": 166503460
+        },
+        {
+          "size": 8,
+          "p": 0.907,
+          "map_seed": 244724271
+        },
+        {
+          "size": 7,
+          "p": 0.823,
+          "map_seed": 1610444668
+        },
+        {
+          "size": 7,
+          "p": 0.789,
+          "map_seed": 1458926020
+        },
+        {
+          "size": 7,
+          "p": 0.829,
+          "map_seed": 818400740
+        },
+        {
+          "size": 8,
+          "p": 0.933,
+          "map_seed": 1608404780
+        },
+        {
+          "size": 7,
+          "p": 0.885,
+          "map_seed": 214340121
+        },
+        {
+          "size": 5,
+          "p": 0.886,
+          "map_seed": 1764188909
+        },
+        {
+          "size": 7,
+          "p": 0.892,
+          "map_seed": 346326819
+        },
+        {
+          "size": 6,
+          "p": 0.884,
+          "map_seed": 260102566
+        },
+        {
+          "size": 4,
+          "p": 0.875,
+          "map_seed": 548181594
+        },
+        {
+          "size": 5,
+          "p": 0.85,
+          "map_seed": 2061609523
+        },
+        {
+          "size": 6,
+          "p": 0.757,
+          "map_seed": 1279136128
+        },
+        {
+          "size": 7,
+          "p": 0.76,
+          "map_seed": 378709032
+        },
+        {
+          "size": 5,
+          "p": 0.897,
+          "map_seed": 378446857
+        },
+        {
+          "size": 8,
+          "p": 0.842,
+          "map_seed": 1812456779
+        },
+        {
+          "size": 7,
+          "p": 0.891,
+          "map_seed": 984719867
+        },
+        {
+          "size": 8,
+          "p": 0.767,
+          "map_seed": 546254391
+        },
+        {
+          "size": 4,
+          "p": 0.786,
+          "map_seed": 2005540766
+        },
+        {
+          "size": 6,
+          "p": 0.772,
+          "map_seed": 1350951472
+        },
+        {
+          "size": 6,
+          "p": 0.795,
+          "map_seed": 1702949897
+        },
+        {
+          "size": 5,
+          "p": 0.843,
+          "map_seed": 1516574644
+        },
+        {
+          "size": 4,
+          "p": 0.928,
+          "map_seed": 1994642443
+        },
+        {
+          "size": 8,
+          "p": 0.766,
+          "map_seed": 907691204
+        },
+        {
+          "size": 8,
+          "p": 0.855,
+          "map_seed": 412197422
+        },
+        {
+          "size": 4,
+          "p": 0.901,
+          "map_seed": 770271551
+        },
+        {
+          "size": 7,
+          "p": 0.918,
+          "map_seed": 560512427
+        },
+        {
+          "size": 7,
+          "p": 0.824,
+          "map_seed": 1806221126
+        },
+        {
+          "size": 7,
+          "p": 0.79,
+          "map_seed": 1148216872
+        },
+        {
+          "size": 8,
+          "p": 0.856,
+          "map_seed": 1937451172
+        },
+        {
+          "size": 4,
+          "p": 0.94,
+          "map_seed": 1318591068
+        },
+        {
+          "size": 6,
+          "p": 0.836,
+          "map_seed": 216459812
+        },
+        {
+          "size": 7,
+          "p": 0.821,
+          "map_seed": 1696056630
+        },
+        {
+          "size": 8,
+          "p": 0.853,
+          "map_seed": 547807695
+        },
+        {
+          "size": 8,
+          "p": 0.883,
+          "map_seed": 141077272
+        },
+        {
+          "size": 5,
+          "p": 0.945,
+          "map_seed": 817754332
+        },
+        {
+          "size": 6,
+          "p": 0.795,
+          "map_seed": 839584629
+        },
+        {
+          "size": 8,
+          "p": 0.85,
+          "map_seed": 448444238
+        },
+        {
+          "size": 6,
+          "p": 0.841,
+          "map_seed": 2049760801
+        },
+        {
+          "size": 6,
+          "p": 0.862,
+          "map_seed": 483665450
+        },
+        {
+          "size": 5,
+          "p": 0.813,
+          "map_seed": 1173001251
+        },
+        {
+          "size": 5,
+          "p": 0.874,
+          "map_seed": 1851831749
+        },
+        {
+          "size": 5,
+          "p": 0.776,
+          "map_seed": 524824897
+        },
+        {
+          "size": 8,
+          "p": 0.868,
+          "map_seed": 1076583630
+        },
+        {
+          "size": 7,
+          "p": 0.817,
+          "map_seed": 817875847
+        },
+        {
+          "size": 6,
+          "p": 0.95,
+          "map_seed": 1945426370
+        },
+        {
+          "size": 4,
+          "p": 0.856,
+          "map_seed": 241069597
+        },
+        {
+          "size": 5,
+          "p": 0.874,
+          "map_seed": 2023701486
+        },
+        {
+          "size": 6,
+          "p": 0.799,
+          "map_seed": 578277594
+        },
+        {
+          "size": 7,
+          "p": 0.763,
+          "map_seed": 851222246
+        },
+        {
+          "size": 6,
+          "p": 0.835,
+          "map_seed": 173654836
+        },
+        {
+          "size": 4,
+          "p": 0.8,
+          "map_seed": 2121319556
+        },
+        {
+          "size": 5,
+          "p": 0.901,
+          "map_seed": 1315700520
+        },
+        {
+          "size": 6,
+          "p": 0.804,
+          "map_seed": 944701735
+        },
+        {
+          "size": 8,
+          "p": 0.844,
+          "map_seed": 1985834130
+        },
+        {
+          "size": 8,
+          "p": 0.823,
+          "map_seed": 669463200
+        },
+        {
+          "size": 8,
+          "p": 0.89,
+          "map_seed": 1922026861
+        },
+        {
+          "size": 8,
+          "p": 0.788,
+          "map_seed": 1172235411
+        },
+        {
+          "size": 7,
+          "p": 0.825,
+          "map_seed": 1236841901
+        },
+        {
+          "size": 6,
+          "p": 0.859,
+          "map_seed": 1362049564
+        },
+        {
+          "size": 7,
+          "p": 0.77,
+          "map_seed": 1301786563
+        },
+        {
+          "size": 7,
+          "p": 0.804,
+          "map_seed": 347728369
+        },
+        {
+          "size": 6,
+          "p": 0.778,
+          "map_seed": 17134998
+        },
+        {
+          "size": 6,
+          "p": 0.812,
+          "map_seed": 1082887826
+        },
+        {
+          "size": 5,
+          "p": 0.763,
+          "map_seed": 1858027192
+        },
+        {
+          "size": 5,
+          "p": 0.754,
+          "map_seed": 305951774
+        }
+      ],
+      "data_seed_base": 9993000
+    },
+    "gambler": {
+      "mdps": 36,
+      "candidates": 60,
+      "source": "Sutton & Barto (2018), Example 4.3 (gambler's problem); stake min(k, s, N - s), k = 1..N//2",
+      "candidates_list": [
+        {
+          "N": 14,
+          "p_h": 0.41
+        },
+        {
+          "N": 14,
+          "p_h": 0.437
+        },
+        {
+          "N": 16,
+          "p_h": 0.55
+        },
+        {
+          "N": 8,
+          "p_h": 0.37
+        },
+        {
+          "N": 12,
+          "p_h": 0.291
+        },
+        {
+          "N": 20,
+          "p_h": 0.461
+        },
+        {
+          "N": 18,
+          "p_h": 0.339
+        },
+        {
+          "N": 19,
+          "p_h": 0.424
+        },
+        {
+          "N": 19,
+          "p_h": 0.478
+        },
+        {
+          "N": 18,
+          "p_h": 0.408
+        },
+        {
+          "N": 20,
+          "p_h": 0.258
+        },
+        {
+          "N": 9,
+          "p_h": 0.432
+        },
+        {
+          "N": 19,
+          "p_h": 0.498
+        },
+        {
+          "N": 12,
+          "p_h": 0.305
+        },
+        {
+          "N": 15,
+          "p_h": 0.261
+        },
+        {
+          "N": 10,
+          "p_h": 0.26
+        },
+        {
+          "N": 19,
+          "p_h": 0.408
+        },
+        {
+          "N": 19,
+          "p_h": 0.469
+        },
+        {
+          "N": 12,
+          "p_h": 0.388
+        },
+        {
+          "N": 9,
+          "p_h": 0.44
+        },
+        {
+          "N": 15,
+          "p_h": 0.49
+        },
+        {
+          "N": 13,
+          "p_h": 0.409
+        },
+        {
+          "N": 15,
+          "p_h": 0.546
+        },
+        {
+          "N": 13,
+          "p_h": 0.517
+        },
+        {
+          "N": 10,
+          "p_h": 0.495
+        },
+        {
+          "N": 8,
+          "p_h": 0.547
+        },
+        {
+          "N": 10,
+          "p_h": 0.499
+        },
+        {
+          "N": 15,
+          "p_h": 0.415
+        },
+        {
+          "N": 18,
+          "p_h": 0.253
+        },
+        {
+          "N": 15,
+          "p_h": 0.537
+        },
+        {
+          "N": 10,
+          "p_h": 0.368
+        },
+        {
+          "N": 8,
+          "p_h": 0.447
+        },
+        {
+          "N": 11,
+          "p_h": 0.365
+        },
+        {
+          "N": 9,
+          "p_h": 0.463
+        },
+        {
+          "N": 18,
+          "p_h": 0.473
+        },
+        {
+          "N": 16,
+          "p_h": 0.518
+        },
+        {
+          "N": 17,
+          "p_h": 0.434
+        },
+        {
+          "N": 15,
+          "p_h": 0.372
+        },
+        {
+          "N": 10,
+          "p_h": 0.392
+        },
+        {
+          "N": 15,
+          "p_h": 0.334
+        },
+        {
+          "N": 14,
+          "p_h": 0.295
+        },
+        {
+          "N": 10,
+          "p_h": 0.318
+        },
+        {
+          "N": 13,
+          "p_h": 0.283
+        },
+        {
+          "N": 14,
+          "p_h": 0.547
+        },
+        {
+          "N": 20,
+          "p_h": 0.479
+        },
+        {
+          "N": 12,
+          "p_h": 0.524
+        },
+        {
+          "N": 18,
+          "p_h": 0.326
+        },
+        {
+          "N": 12,
+          "p_h": 0.483
+        },
+        {
+          "N": 15,
+          "p_h": 0.253
+        },
+        {
+          "N": 20,
+          "p_h": 0.387
+        },
+        {
+          "N": 18,
+          "p_h": 0.383
+        },
+        {
+          "N": 17,
+          "p_h": 0.411
+        },
+        {
+          "N": 8,
+          "p_h": 0.351
+        },
+        {
+          "N": 16,
+          "p_h": 0.359
+        },
+        {
+          "N": 18,
+          "p_h": 0.415
+        },
+        {
+          "N": 17,
+          "p_h": 0.345
+        },
+        {
+          "N": 9,
+          "p_h": 0.387
+        },
+        {
+          "N": 15,
+          "p_h": 0.46
+        },
+        {
+          "N": 9,
+          "p_h": 0.338
+        },
+        {
+          "N": 8,
+          "p_h": 0.451
+        }
+      ],
+      "data_seed_base": 9996000
+    }
+  },
+  "conversion": "episodic to continuing: terminal states restart from the initial distribution (FrozenLake: start cell; gambler: uniform over capitals 1..N-1); reward kept on entry; rewards in [0, 1]",
+  "selection": "first `mdps` candidates in list order passing the project's dynamic-range filter",
+  "data": {
+    "behaviors": 5,
+    "pilot_multipliers": [
+      2,
+      5,
+      10
+    ],
+    "budgets": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200
+    ],
+    "training_seeds": 10,
+    "learners": [
+      "behavior_cloning_tabular",
+      "cfqi_tabular",
+      "iql_tabular"
+    ],
+    "primary_label": "first six budgets (sustained 8/10 seeds at NR >= 0.95), seven classes"
+  },
+  "gate": {
+    "family": [
+      [
+        "robust",
+        "oeh",
+        "pooled",
+        "brier"
+      ],
+      [
+        "robust",
+        "oeh",
+        "pooled",
+        "log_loss"
+      ]
+    ],
+    "unit": "MDP (72 pooled, equal weight)",
+    "bootstrap": {
+      "draws": 10000,
+      "seed": 20261115,
+      "rule": "max-t with the original standard error"
+    },
+    "go": "both simultaneous lower bounds > 0"
+  },
+  "descriptive": {
+    "methods": {
+      "oeh": "OEH (final method, oeh_v2_spec.json)",
+      "oeh_full_head": "full 108-field head alone (no shift gate)",
+      "robust": "B2 + diagnostics (registered comparator)",
+      "b2_matched": "B2",
+      "xgboost_cf_18": "adapted XGBoost-CF on B2",
+      "b2_plus_lce": "B2 + LCE",
+      "b2_plus_cb": "B2 + CB",
+      "lce_raw": "LCE",
+      "knn_analog": "k-NN analog on B2 (k = 25)",
+      "logistic": "multinomial logistic regression on B2",
+      "oeh_without_horizon": "OEH built without the OEH-H block (G4, G5)"
+    },
+    "per_family": true,
+    "per_learner": true,
+    "gain_by_distance": true,
+    "murphy": true,
+    "decision_regret": {
+      "tau": 0.8,
+      "lambda": 100
+    }
+  },
+  "disclosures": [
+    "Feasibility only: dynamic-range pass rates were checked on development draws with numpy seed 1 (FrozenLake 12/40, gambler 40/40 after the continuing conversion; 0/40 for the episodic gambler, which motivated the conversion); no learner was run on any FrozenLake or gambler MDP before this freeze.",
+    "A generation and pilot-input dry run on development draws (seed 1) checked the pipeline without learners.",
+    "The OEH specification and the entry point were fixed before this protocol; the entry point reproduces the sealed four-panel forecasts exactly (artifacts/week8/oeh_pipeline_reproduction_2026-10-15)."
+  ],
+  "source_sha256": {
+    "scripts/analysis/run_oeh_fifth_panel_20261015.py": "2a49f534cdfd1608aeef7c0e5359af5a2f9a54100688d04b755218751fb863a0",
+    "scripts/analysis/oeh_pipeline.py": "aa6a3e0e9eb1a5ac40446d72ff57c6025846107ab9bc745bf02a21d41023c15b",
+    "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+    "scripts/analysis/oeh_generic_baselines.py": "6d010cb393400a9e01e92603f775864015238d58a688bb940eb38dc32ea07066",
+    "scripts/analysis/run_oeh_eighth_cohort_20261014.py": "4c291620e478d284a0bbd84e6d7984d0da41c306ee41a508fed1e3e070f2a4c9"
+  }
+}

@@ -1,0 +1,28 @@
+\subsection{Shift gate}
+\label{sec:v2}
+On development panels from other groups' procedures, the full head kept recognizing insufficient data but placed finite requirements worse than simpler forecasters (Section~\ref{sec:development}). The gate therefore keeps the full head's censored probability $p_6$ and moves the finite part toward the robust head as the pilot leaves the training distribution. Let $d$ be the mean distance of the pilot's standardized B2 statistics to its ten nearest meta-training rows, $\lambda(d)=\lambda_{\max}\min(1,d/d_0)$ and $\varepsilon(d)=\varepsilon_{\max}\min(1,d/d_0)$. With $q_O$ the law of the finite-only full head, $q_R$ the renormalized finite part of the robust head and $\bar p_l$ the learner's meta-training class frequencies,
+\begin{equation}
+p^{\OEH}=(1-\varepsilon)\bigl[(1-p_6)\bigl((1-\lambda)q_O+\lambda q_R\bigr),\;p_6\bigr]+\varepsilon\,\bar p_l .
+\label{eq:v2}
+\end{equation}
+The options for $q_O$ and $q_R$ and $(\lambda_{\max},\varepsilon_{\max},d_0)$ were chosen on opened development panels by a rule written before any fit (Section~\ref{sec:setup}): $\lambda_{\max}=1$, $\varepsilon_{\max}=0.02$, $d_0=3$.
+
+\subsection{Guarantees}
+\label{sec:theory}
+Both bracketed forecasters in Eq.~\eqref{eq:v2} share $p_6$, so $p^{\OEH}$ is a mixture of three complete forecasters with weights that depend only on $d$.
+
+\begin{proposition}[Per-forecast bound]
+\label{prop:gate}
+For every pilot and outcome $y$, under any shift, the IBS and the LL of $p^{\OEH}$ are at most the $d$-weighted average of its three components' scores; $-\log p^{\OEH}_y\le-\log(\varepsilon(d)\bar p_{l,y})$; and on a censored row the LL exceeds that of the full head by at most $-\log(1-\varepsilon_{\max})\le0.0203$ nat.
+\end{proposition}
+\noindent Both scores are convex in the probability vector, so the bound is Jensen's inequality (supplement). It limits what the gate can lose; it does not say that the gate helps.
+
+Forecasts are meant to drive budget decisions. Suppose a practitioner collects budget $b_a$ and trains, paying $b_a$ plus a penalty $\kappa$ if $E_l>a$, or skips, paying $\kappa$ if $E_l\le5$. For a cumulative forecast $F$ the expected costs are $C(a;F)=b_a+\kappa(1-F_a)$ and $C(\mathrm{skip};F)=\kappa F_5$, and $a(F)$ minimizes them. Let $F^\star=\Pr(E_l\le\cdot\mid\mathcal G)$ for an information set $\mathcal G$ to which $F$ is measurable.
+
+\begin{theorem}[Regret from scoring]
+\label{thm:regret}
+On every row, $C(a(F);F^\star)-C(a(F^\star);F^\star)\le2\kappa\max_j|F_j-F^\star_j|$, and in expectation the regret is at most $2\kappa\sqrt{6\,\Delta}$, where $\Delta$ is the excess IBS of $F$ over $F^\star$.
+\end{theorem}
+\noindent\emph{Proof sketch.} Each cost differs between $F$ and $F^\star$ by at most $\kappa\|F-F^\star\|_\infty$, and $a(F)$ minimizes $C(\cdot;F)$, which gives the row bound. The cross term of the Brier decomposition vanishes by conditioning on $\mathcal G$, so $\mathbb E\|F-F^\star\|_2^2=6\Delta$; Jensen's inequality completes the proof. The supplement proves variants for the registered threshold rule (a margin bound) and for the excess log loss ($\kappa\sqrt{2\Delta_{\rm LL}}$, via Pinsker's inequality). The bounds hold on all final panels but are loose (Section~\ref{sec:cost}); they link the \emph{ordering} of probabilistic scores to the ordering of decision regret.
+
+\textbf{What is not claimed.} The fitted trees are locally constant, so if the features converge off every split threshold the heads' outputs become constant. Two B2 statistics grow without bound with the pilot, however, so $d\to\infty$ and the gate saturates at the robust head's finite law. \OEH{} is therefore \emph{not} a consistent estimator of the requirement law; its limit is the heads' output at the boundary of the training range (supplement).

@@ -1,0 +1,54 @@
+# Scope of final OEH comparisons
+
+Updated 2026-10-09. The [current evidence ledger](../docs/week8/CURRENT_EVIDENCE_AND_RETIREMENT_2026-10-09.md) is the entry point for active results and retired claims. The [T1 terminology protocol](../docs/week8/T1_DIFFICULTY_AWARE_PROTOCOL_v1.1.0_2026-10-05.md) defines difficulty and claim scope. A numerical row is meaningful only with its prediction target, information access, and implementation status.
+
+**Comparison correction recorded 2026-10-07:** The historical [T1 v1.2.0 comparator addendum](../docs/week8/T1_COMPARATOR_ADDENDUM_v1.2.0_2026-10-07.md) identified B2 as internal and ERI/BWD rows as group adaptations. The forecast table is a controlled feature comparison, not a ranking against published end-to-end methods. Mateos-Melero et al.'s published performance predictor is the nearest candidate for a direct literature transfer, subject to representation, access, target-conversion, and reproduction preflight. Until such an arm runs on the same `E_l` target and access budget, no result here establishes superiority over an original author method. The sealed cohort numbers remain unchanged.
+
+**Current comparator decision (2026-10-08):** [T1 v1.3.0](../docs/week8/T1_COMPARATOR_DECISION_v1.3.0_2026-10-08.md) excludes BWD from the active table and conclusions because its continuous-action geometry does not transfer unchanged to tabular discrete actions. The historical sealed artifact and its 22 registered contrasts remain available; dropping BWD after outcome inspection does not create a new registered gate. The current table reports B2, B2+ERI, and OEH, with privileged scores separate.
+
+The [D1 literature audit and run plan](../docs/week8/D1_ORIGINAL_METHODS_AUDIT_AND_RUN_PLAN_2026-10-07.md) records additional candidates and the result-table contract: original author scores for ranking when defined, a separately labeled Mateos-Melero transfer if preflight succeeds, internal feature/ablation rows, and privileged EH. No end-to-end external-author forecast comparison is available yet.
+
+**Difficulty/SOTA audit (2026-10-08):** [D3](../docs/week8/D3_STOCHASTIC_TABULAR_DIFFICULTY_SOTA_AUDIT_2026-10-08.md) checks the closest published performance predictors and tabular sample-complexity papers against the actual seven-class requirement target. It reports a sealed full-OEH versus original-score rank audit on the 84-MDP stochastic panel and an exploratory reduced-OEH versus original-score rank audit on BRIDGE. This dated audit preceded the completed five-task fresh BRIDGE full-OEH test and adapted XGBoost-CF comparison; use the current ledger for present status. There is still no verified original offline-RL author system that emits the identical seven-class target.
+
+**BRIDGE scope correction (2026-10-09):** The completed 14-task BRIDGE run compares [internal B2 with a reduced OEH ablation](../artifacts/week8/bridge_reduced_test_analysis_2026-10-07/INTERPRETATION_SCOPE.md). It uses published MDPs and team-generated offline logs and labels. Brier and log loss favor reduced OEH for CFQI and IQL but favor B2 for BC; budget-decision success does not improve. A full-OEH reanalysis of these 14 tasks is queued, but the labels are already opened, so it is exploratory. A separate [five-task Atari full-OEH test](../docs/week8/BRIDGE_FRESH_FULL_RESULT_2026-10-08.md) completed a prelabel seal and found mixed results including unfavorable IQL. Another five previously unopened BRIDGE tasks are running under a distinct follow-up protocol. Neither the reduced 14-task row nor the original authors' online BRIDGE return is a same-endpoint, original-author offline forecaster comparison.
+
+**Eighth-cohort comparator set (2026-10-14):** the [eighth-cohort protocol](../artifacts/oeh_eighth_cohort_2026-10-14/protocol.json) gates OEH in a fixed sequence: step 1 against B2 matched and the adapted XGBoost-CF/18; step 2 against B2 + ERI, B2 + legacy diagnostics (`prior_oeh_matched`, no posterior), learning-curve extrapolation (LCE: raw, and B2 + LCE) and concentrability quantities of offline sample-complexity bounds (CB: alone, and B2 + CB); step 3 OEH-S and OEH-2T against OEH. All fitted rows use the sealed 720-MDP meta-training panel and `matched_forecast` (XGBoost-CF as in `published_survival_120_*`). LCE and CB are group-built from the pilot, not reproductions of an external system. On the first Colosseum panel the authors' TQ/SACo (ml-jku/OfflineRL @ 8cc8eec) is privileged (reference data from the true MDP). Results per panel: [cohort-8 record](../docs/week8/COHORT8_SPIBB_DEVELOPMENT_2026-10-14.md).
+
+| Row (added 14/10) | Role | Information and implementation |
+|---|---|---|
+| XGBoost-CF/18 | Step-1 comparator | Published survival formulation adapted to the seven-class target, 18 B2 inputs |
+| B2 + legacy diagnostics | Step-2 comparator; strongest pilot-only descriptor outside the generator | OEH3/LCOEH4 and cross-learner context; no posterior |
+| LCE raw / B2 + LCE | Step-2 comparators | Logistic extrapolation of posterior prefix success at x1..x10; raw needs no meta-training |
+| CB / B2 + CB | Step-2 comparators | Single-policy and clipped concentrability and intrinsic bound on the posterior-mean model (Li et al. 2022 form) |
+| OEH-S, OEH-2T | Step-3 candidates, not adopted | Tempered prior mixture (T=1.25, eps=0.05); two-stage blend (w=0.5), chosen on opened meta data |
+| B2 + Colosseum hardness | First Colosseum panel, registered | Diameter, value norm, sub-optimality gaps of the true MDP (privileged) |
+
+## Claim audit for the current paper
+
+| Candidate claim | Supported wording | Missing for a broader claim |
+|---|---|---|
+| Forecasting advantage | OEH improves Brier and log loss over internal B2 with positive simultaneous bounds on the seventh cohort's 84 stochastic MDPs. The historical gate had 22 positive bounds, including the now-excluded BWD adaptation; the other 20 also retain positive bounds under that original correction. | End-to-end reproductions of other authors' methods on the same censored target and an independent full-method environment family. |
+| Learner-choice advantage | The frozen selector beats the best fixed learner among seven recorded implementations, CFQI, on both registered endpoints with positive simultaneous lower bounds. | A positive comparison with the registered internal v5 router and matched implementations of published policy-selection systems. |
+| Literature-wide state of the art | No such claim is made. | A common task, dataset, information budget, implementation and statistical protocol across external methods. |
+
+| Transfer to kernels designed by others (added 14/10) | On two Colosseum panels OEH improves integrated Brier over B2 and XGBoost-CF/18 with positive simultaneous bounds; it recognizes insufficient data and stays calibrated, but its finite-budget law is worse than B2's and its log-loss advantage is not established when panels are pooled. | A sealed test of a head that keeps OEH's censoring probability and a better finite-budget law; a panel with independent logging behavior that passes (SPIBB step 1 is NO-GO). |
+
+TQ/SACo was introduced as a dataset-characterization measure, not as a seven-class learner-requirement forecaster ([original paper](https://proceedings.mlr.press/v199/schweighofer22a.html)). Published offline policy selection under uncertainty ranks policy prospects from a fixed dataset, rather than choosing a learner from our pilot ([original paper](https://proceedings.mlr.press/v151/yang22a.html)). These are related ideas, but their published scores cannot be compared numerically with our Brier or x10 selector scores as an SOTA leaderboard.
+
+| Row | Final role | Information and implementation |
+|---|---|---|
+| B2 matched | Internal generic-feature control | Same pilot and same three-part forecaster as OEH |
+| B2 + ERI adaptation | Controlled literature-derived feature arm | Pilot-derived feature adaptation to the censored requirement target; not the published ERI task end to end |
+| B2 + BWD adaptation | Excluded from current comparison; historical artifact only | Pilot-derived tabular feature adaptation did not preserve the original continuous-action geometry or target |
+| Coverage and quality adaptations | Tier 1 forecast comparators, reported separately from matched rows | Pilot-only signals fitted with AFT only in the current code; not exact published TQ/SACo normalizations or a matched-head comparison |
+| B2 + oracle EH | Tier 2 diagnostic | True-MDP descriptor; original EH theorems concern interactive learners |
+| B2 + TQ/SACo author-code reference | Tier 2 forecast comparator | Author-code metrics and reference datasets generated from the true MDP; same fitted head, privileged inputs |
+| Published-metrics-only block | Tier 2 diagnostic | Available published descriptors under matched fitting; access may differ from pilot-only deployment |
+| Fixed learners CFQI, IQL, BC, BCQ, CQL, SPIBB, VI-LCB | Supplementary selection controls | Registered project, author-code, and library implementations at matched MDP–behavior–seed identities |
+| OEH-v5 router | Supplementary selection control | Earlier project router with the same selection endpoint; registered before final outcomes; the final ExtraTrees selector also uses a synthetic MDP-family label |
+
+The final paper may focus on forecasting and keep selection in a short secondary section. If it makes a selection claim, it must report the v5 result. Comparing only with fixed learners would omit a registered same-task control. Conversely, the v5 router is not a censored-requirement forecaster and does not belong in the main Brier/log-loss table.
+
+The seventh-cohort Tier 1, Tier 2, and combined forecast gates are GO: all 22 contrasts have positive simultaneous lower bounds in artifacts/oeh_confirmatory_unseen_120_2026-10-04/contrasts.csv. Its registered two-endpoint selection gate against fixed CFQI is GO, while its supplementary comparison with v5 is NO-GO; see confirmatory_verdict.json in the same directory. The fourth-cohort Tier 2, combined, and selection gates were NO-GO under their earlier protocol; those verdicts remain in artifacts/oeh_final_unseen_120_2026-10-02/result_manifest.json. Matched-head improvements over feature adaptations do not establish literature-wide SOTA against the original authors' different tasks. Oracle EH rank correlations with this offline event do not test the online EH sample-complexity theorems.
+
+Primary work and theoretical context: [TQ/SACo](https://proceedings.mlr.press/v199/schweighofer22a.html), [stochastic EH](https://proceedings.iclr.cc/paper_files/paper/2024/hash/3e18f7152b5e1696e73722dc5121b6f2-Abstract-Conference.html), [offline gap bounds](https://proceedings.neurips.cc/paper_files/paper/2022/hash/5f5f7b6080dcadced61cf5d96f7c6dde-Abstract-Conference.html), [AFT](https://arxiv.org/abs/2006.04920), and the full bibliography in references.bib.

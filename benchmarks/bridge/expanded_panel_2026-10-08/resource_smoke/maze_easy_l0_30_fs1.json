@@ -1,0 +1,23 @@
+{
+  "status": "EXPANDED_RESOURCE_SMOKE_NO_LABELS",
+  "mdp_id": "maze_easy_l0_30_fs1",
+  "policy_family": "structured_random",
+  "states": 1229,
+  "actions": 9,
+  "horizon": 30,
+  "pilot_nonzero_rewards": 828,
+  "pilot_seconds_including_adapter_and_behavior": 1.995975499972701,
+  "one_draw_one_seed_seconds": 71.87502699997276,
+  "observed_output_shape": [
+    1,
+    1,
+    6,
+    3
+  ],
+  "methodology": "Not a valid 64-draw timing estimate; report only as lower-bound resource probe",
+  "source_sha256": {
+    "script": "da991e4984300373a706221194a53d65df6f0d27f43d88658647e40da37b41b6",
+    "npz": "234a0256b7693159caf3363843e4e5d1866e26d44ec0c3d9a08151edd2e3b013"
+  },
+  "test_labels_read": false
+}

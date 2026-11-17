@@ -1,0 +1,50 @@
+{
+  "status": "DEVELOPMENT_BEHAVIOR_SUITE_SMOKE_ONLY",
+  "task": "MiniGrid-LavaGapS5-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "848cc54e90c1981e900c414211ab012d60894051414e348d6d6426747c095822",
+  "fit_seconds": 0.16562660003546625,
+  "total_seconds": 0.2925670000258833,
+  "behaviors": [
+    {
+      "family": "q_star_softmax",
+      "uses_q_star_for_behavior_generation": true,
+      "probability_sha256": "3b15f6b034de6d9bed32d9f40b71bb6d3cc2fbecc260205f04b7102d784b0368",
+      "pilot_transitions": 6780,
+      "nonzero_rewards": 40,
+      "terminals": 40
+    },
+    {
+      "family": "perturbed_reward",
+      "uses_q_star_for_behavior_generation": false,
+      "probability_sha256": "fd2a459aa3618b31cf5aa13b76b57badd85d71532534f15ebb6ea5ab9839d368",
+      "pilot_transitions": 6780,
+      "nonzero_rewards": 0,
+      "terminals": 3
+    },
+    {
+      "family": "structured_random",
+      "uses_q_star_for_behavior_generation": false,
+      "probability_sha256": "7e4a5e9e1be17c008aa5aef32c0358d383f64e7b9879c406a2cfb3f57535879d",
+      "pilot_transitions": 6780,
+      "nonzero_rewards": 0,
+      "terminals": 4
+    },
+    {
+      "family": "two_policy_mixture",
+      "uses_q_star_for_behavior_generation": false,
+      "probability_sha256": "567423b0bad21ed3e3a69345790ed42a7d8f4bc3d7f2fb6c10d14de74241abbb",
+      "pilot_transitions": 6780,
+      "nonzero_rewards": 0,
+      "terminals": 44
+    },
+    {
+      "family": "shifted_dynamics",
+      "uses_q_star_for_behavior_generation": false,
+      "probability_sha256": "f5fe44024314981fcd93c458400a64fa3ddd7ac6c739e0fd878e8be9567aadcc",
+      "pilot_transitions": 6780,
+      "nonzero_rewards": 782,
+      "terminals": 795
+    }
+  ]
+}

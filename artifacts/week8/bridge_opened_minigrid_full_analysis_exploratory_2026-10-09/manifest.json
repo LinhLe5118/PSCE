@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE_POST_OUTCOME_EXPLORATORY_14_MINIGRID",
+  "tasks": 14,
+  "rows_per_method": 210,
+  "labels_already_opened_before_full_oeh_run": true,
+  "metrics": [
+    "integrated_brier",
+    "seven_class_log_loss",
+    "same_row_original_scalar_rank"
+  ],
+  "rank_warning": "Original scalar scores have different endpoints and information access; ERI direction is descriptive, not a prediction that larger ERI implies less offline data. No scalar score has seven-class Brier/log loss.",
+  "source_sha256": {
+    "full": "64f0b20ce17d127d0b6369c071b3fc25e11064a78232ff5801ca169fd56eee74",
+    "b2": "a945825dc4988bcf4e1f527e9e5b4cce487cb0669eeb81db7e6fe06b75499218",
+    "reduced": "0ca97c697fbd0afc0ab0041cbbb2fe63941c3cbfa0a0de33264760dcce32273d",
+    "labels": "3ddb1007258bab1d56fec8ebde49ec1adb0fe4a7fd85386fa3334117f0e20cf7",
+    "tq_saco": "e11da1c872ee75777e8f2a6c05838ee6b4e477180dba08bdbb8c2a943d7b6135",
+    "eri_eh": "e97a98973bdf3d57a1d08f7accccaf203cc48f27bdc793a5c3fee81bde93162e",
+    "script": "5e6bd69c8acc082f464288ac65d3ee311609a84ce583f1b82c3e83377bce7bce"
+  },
+  "output_sha256": {
+    "scored.csv": "41470411d663badc8abfbc919ee152b431fa45b760fa4f6533cc39c437bee79f",
+    "summary.csv": "65d4e57d56ea6a0fe59f6fff79cc291b41898ddbff9fbd14adf5cc5d3f00dd69",
+    "paired_task_bootstrap.csv": "13c838e03984817f5f3dbf9dad9cf0e664b91971e3c678d90009e4a9aa8167c6",
+    "original_score_rank.csv": "faa03f26e9cbceb8068a363b0a4ffc41a11c1446db1f294897d7b7368110a357"
+  }
+}

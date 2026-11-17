@@ -1,0 +1,37 @@
+{
+  "status": "PRELABEL_PUBLISHED_SURVIVAL_COMPARATOR_ADDENDUM_FROZEN",
+  "protocol_sha256": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+  "test_labels_read": false,
+  "reason": "Use the same predeclared four forecaster arms as the first fresh BRIDGE panel on five new tasks.",
+  "published_source": {
+    "paper": "https://arxiv.org/html/2601.22259v2",
+    "repository": "https://github.com/dain20000222/TabularFM4Survival",
+    "commit": "b27d69c27a5c39b87822b1aebf838e3dd900000e",
+    "source_file": "static/static_xgboost_final.py"
+  },
+  "forecast_comparisons": [
+    {
+      "method": "published_xgboost_cf_2026_adapted_b2",
+      "role": "published survival formulation adapted to seven classes with 18 generic pilot features",
+      "prelabel_predictions": "artifacts/week8/bridge_expanded_published_xgboost_cf_preoutcome_2026-10-08/predictions_before_label_read.csv"
+    },
+    {
+      "method": "xgboost_cf_2026_full108_architecture_control",
+      "role": "same-108-input architecture control, dependent on OEH descriptors",
+      "prelabel_predictions": "artifacts/week8/bridge_expanded_published_xgboost_cf_full108_preoutcome_2026-10-08/predictions_before_label_read.csv"
+    }
+  ],
+  "fixed_test_grid": "five new published BRIDGE MDPs x five behaviors x BC/CFQI/IQL x six budgets and a right-censored class",
+  "metrics": [
+    "ordinal cumulative Brier",
+    "seven-class log loss",
+    "MDP-cluster paired differences",
+    "runtime"
+  ],
+  "interpretation_limits": [
+    "Published survival method is not offline-RL SOTA; its endpoint is adapted.",
+    "Full-input control reuses OEH descriptors and is not independent.",
+    "Five MDP-cluster intervals are descriptive; two BRIDGE cohorts are not a pre-registered simultaneous gate.",
+    "No postlabel change to arms or task list."
+  ]
+}

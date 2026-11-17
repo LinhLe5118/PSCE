@@ -1,0 +1,16 @@
+% D1 learner settings, not a retuned experiment
+\begin{table*}[t]
+\centering\small
+\caption{Registered learner implementations. Core learners define the six-budget requirement; all seven enter selection at $x10$. All use $\gamma=.95$ and ten training streams. SPIBB receives true logging behavior.}
+\label{tab:d1-learners}
+\begin{tabular}{lp{0.43\textwidth}p{0.31\textwidth}}\toprule
+Learner & Configuration and optimization budget & Fit information and task role\\\midrule
+BC & Logged-action frequencies; uniform fallback; no gradient updates & Log only; requirement and selection\\
+CFQI & At most 100 backups, tolerance $10^{-10}$; observed-action restriction & Log only; requirement and selection\\
+IQL & Expectile $.7$, inverse temperature $3$; at most 100 iterations, tolerance $10^{-10}$ & Log only; requirement and selection\\
+BCQ & Author discrete learner; one-hot, $256\times256$, batch 64, threshold $.3$, 500 updates & Log only; selection at $x10$\\
+CQL & Pinned d3rlpy; one-hot, $256\times256$, batch 64, $\alpha=1$, 500 updates & Log only; selection at $x10$\\
+SPIBB & Author Pi-b core; $N_\wedge=10$; author policy-iteration stop rule & Log plus true $\beta$; selection at $x10$\\
+VI-LCB & Discounted paper-spec port; $c_b=\delta=.05$, 100 iterations & Log plus terminal metadata; selection at $x10$\\
+\bottomrule\end{tabular}
+\end{table*}

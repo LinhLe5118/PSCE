@@ -1,0 +1,114 @@
+{
+  "labels": {
+    "primary_rows": 1260,
+    "primary_censored": 900,
+    "primary_censored_fraction": 0.7142857142857143,
+    "nonmonotone_success_count_fraction": 0.21031746031746032,
+    "censored_by_learner": {
+      "BC": 0.9071428571428571,
+      "CFQI": 0.4595238095238095,
+      "IQL": 0.7761904761904762
+    },
+    "censored_by_family": {
+      "Bottleneck": 0.8629629629629629,
+      "Forward-layered": 0.6796296296296296,
+      "Garnet": 0.6666666666666666
+    },
+    "censored_by_behavior": {
+      "perturbed_reward": 0.7341269841269841,
+      "q_star_softmax": 0.4126984126984127,
+      "shifted_dynamics": 0.6904761904761905,
+      "structured_random": 0.8492063492063492,
+      "two_policy_mixture": 0.8849206349206349
+    },
+    "control_censored_fraction": 0.7351851851851852,
+    "state_action_sizes_primary": {
+      "min": 32,
+      "max": 256
+    },
+    "sum_SA_all": 9676,
+    "example_group": {
+      "BC": {
+        "counts": [
+          2,
+          3,
+          2,
+          2,
+          2,
+          1
+        ],
+        "event": ">x50"
+      },
+      "CFQI": {
+        "counts": [
+          6,
+          7,
+          8,
+          10,
+          10,
+          10
+        ],
+        "event": "x5"
+      },
+      "IQL": {
+        "counts": [
+          4,
+          6,
+          7,
+          10,
+          10,
+          10
+        ],
+        "event": "x10"
+      }
+    }
+  },
+  "error_share": {
+    "finite_row_fraction": 0.2857142857142857,
+    "finite_share_of_total_ibs": 0.7373924849023145,
+    "finite_share_of_total_ll": 0.8139237914484125,
+    "cfqi_share_of_total_ibs": 0.5609580695429751,
+    "cfqi_share_of_total_ll": 0.6378458272188126,
+    "oeh_final_finite_mean_ibs": 0.11869165356983748,
+    "oeh_final_finite_mean_ll": 1.6040610304214138,
+    "oeh_final_censored_mean_ibs": 0.016907858891965506,
+    "oeh_final_censored_mean_ll": 0.1466857698286547,
+    "b2_matched_finite_mean_ibs": 0.13916274615706328,
+    "b2_matched_finite_mean_ll": 1.7652640829869815,
+    "b2_matched_censored_mean_ibs": 0.020952516549315518,
+    "b2_matched_censored_mean_ll": 0.17194520943750252
+  },
+  "selection_verdict": {
+    "status": "complete",
+    "protocol_sha256": "c7d6a9ec3900c2113a04c311e35ce294bf9ba6d0fa5250e07f514bfbae995a18",
+    "preoutcome_seal_sha256": "f83aca8c5e855b7a4c412fca5a7489575058f643d5fdcf25b28408c41aff5ea4",
+    "external_benchmark_result_sha256": "39ee5364572441cc985bd09a86269562234066ad3a2f7acaf0668f6d2905e30a",
+    "difficulty_lower_only": {
+      "tier1": "GO",
+      "tier2_privileged": "GO",
+      "all_registered": "GO"
+    },
+    "selection_vs_fixed_cfqi": {
+      "gate": "GO",
+      "success_gain": 0.06666666666666668,
+      "success_lower_95": 0.04261904761904764,
+      "return_gain": 0.018655871490489324,
+      "return_lower_95": 0.010341189040331556,
+      "simultaneous_critical": 1.9463706297471557,
+      "mdps": 84
+    },
+    "selection_vs_best_fixed_and_v5_descriptive": {
+      "best_fixed": "fixed:cfqi_tabular",
+      "critical": 2.2031652353561326,
+      "gate": "NO-GO",
+      "choice_counts": {
+        "cfqi_tabular": 306,
+        "discrete_bcq_author": 104,
+        "discrete_cql_d3rlpy": 10
+      }
+    },
+    "horizon_study_rows": 30,
+    "note": "positive lower bound is required; no 5-percent point-improvement cutoff"
+  },
+  "fourrooms": {}
+}

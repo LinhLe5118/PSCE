@@ -1,0 +1,9 @@
+{
+  "groups": 600,
+  "rows": 1800,
+  "protocol_sha256": "cf137948f1affd1f299725314e63619d767a946ea71c8f542527627300e0ec62",
+  "dataset_manifest_sha256": "433216ee57c8c660fd70a0838b7cee2a4779867a2acd549bbe541bd9a135fc5f",
+  "pilot_features_sha256": "6c3f0ab31eb34dcf4a6b744462dc5878216a462bed4cdf61ce40076cf2fab522",
+  "merge_script_sha256": "6740e95ce10bc9ae576829fbd2239aaf1c7f3c0f27a280e962c852395e7ba654",
+  "learner_outcomes_observed": 0
+}

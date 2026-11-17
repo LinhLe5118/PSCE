@@ -1,0 +1,35 @@
+{
+  "status": "FRESH_PRELABEL_SEAL_READY",
+  "tasks": [
+    "MiniGrid-DoorKey-5x5-v0",
+    "MiniGrid-Empty-16x16-v0",
+    "breakout_20_fs30",
+    "maze_easy_l0_30_fs1",
+    "space_invaders_10_fs30"
+  ],
+  "pilot_groups": 25,
+  "prediction_rows_per_method": 75,
+  "original_score_rows": 25,
+  "sha256": {
+    "posterior_memory_addendum": "2b49edd859654b6ae8ecbabdec5fe06b52c5d44120d31337b79cdc3c496828e6",
+    "oehb_manifest": "10969f59f32891c891d8c8c34c37ae9630ab3c57f6a6bf4b40b01d41c264f9d7",
+    "oeh_full_manifest": "744950af24fae0791f43303b0221857999f20efde6295caac92e9b319db20bb8",
+    "oeh_full_predictions": "b5306d433ac76ae19b899ea34be59fe2d88c2b3c147ea25bce51d28ba2c84779",
+    "b2_internal_manifest": "3a4602e4d6cf8e46d53a62984ec4c146d85fa3ea60590054bb5f4e6dc618c193",
+    "b2_internal_predictions": "0630f2d60a785f128e67d311f545774b6e5fabfbdd14308aedd158f18ba7f942",
+    "published_cf_manifest": "d991c5959aca0792e06ce3b3f06ace2c6c81e0937d224fcd66f6d1b3a35ed1af",
+    "published_cf_predictions": "5ee1f361100e2d53113b4d4edf1547c74b80bf9763c4b8101587e5b7b9becae2",
+    "published_cf_full108_manifest": "03d3cf56a42914ebe78649a44da91f5eba84dbd7a5cf43a4e54f40b287c1fd38",
+    "published_cf_full108_predictions": "954fbfb1e4640881a7eaca1c0006df43dab00faae7b9888135d327961528f7de",
+    "original_manifest": "744d266d7e29b079123e74f14a3e34315e509c20375583b1f34861c2022ae24b",
+    "original_scores": "59b57102240477a514b542d6f9eb30844b85e233cbea1fee5987f361b0fe0c6e",
+    "pilot_manifest": "219029a448fa5014d73bfd587d4477edcfb5cdda58165864ffe1d18dba0ecc25",
+    "protocol": "da02852fa257f687e8b6176f56899b34da8fa11fd35ac34e9e714482f48b568e",
+    "reward_interpretation_addendum": "33b7a3deb58dcd81f0c6bcba156d540502b8d047904b43551adfac92f9eb4849",
+    "published_survival_comparator_addendum": "b34057874d646a9ac97740d88b07c63828f9e955a7acf98e41e6cd42fabaad7f",
+    "implementation_addendum": "4485c4dbbb15aba9cf4a551e433d6d2963ff2aeb2e19895a17f8fea5d021c643",
+    "label_kernel": "f164e5963db40b48a22e9233204dc9d4a8eb7ba7b349624c435af0c74ff8d3aa",
+    "label_runner": "05dcb3ff165966bf34a4e63273cd3b89558b6256d8c7b8324b1fc85cb45a5ca7"
+  },
+  "test_labels_read": false
+}

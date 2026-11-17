@@ -1,0 +1,46 @@
+{
+ "name": "confirmatory Colosseum test of OEH current (fresh MDPs)",
+ "frozen_at_utc": "2026-10-13T18:34:04.144505+00:00",
+ "new_mdps_generated": 0,
+ "learner_outcomes_observed": 0,
+ "motivation": "exploratory run (32 MDPs) gave OEH vs B2 Brier GO and log-loss lower bound -0.021; its effect (mean log-loss gain 0.089, MDP-level SE about 0.062) implies about 50 MDPs for a positive simultaneous bound; 72 are used",
+ "exploratory_evidence_sha256": {
+  "protocol_colosseum.json": "cae7c17911fca3a46849b998f68d61ad30dc3fb469d05c33fed5b873fe1ae649",
+  "protocol_colosseum_amendment_1.json": "00054e371516eecd6bdd9d8e520aae1dfb4c04ea0e2e9d0eeded7bb57b323bd5",
+  "colosseum_predictions_preoutcome.csv": "a24c24de02aeface79f0d2c1be94f4ceff4048879272e0fb14de7890f8c118b4",
+  "colosseum_labels.csv": "8e75216f236e521202e96e250277c36a85c5bfbeadff558df18a2d3b0108991c"
+ },
+ "mdps": {
+  "source": "Colosseum (Conserva & Rauber, NeurIPS 2022), authors' sample_mdp_parameters, continuous setting",
+  "families": [
+   "riverswim",
+   "deepsea",
+   "frozenlake",
+   "simplegrid"
+  ],
+  "sampler_seed": 2027,
+  "draws_per_family": 600,
+  "export_cap_per_family": 30,
+  "filters": [
+   "stochastic kernel",
+   "16 <= |S||A| <= 256",
+   "project dynamic-range filter"
+  ],
+  "exclusion": "any kernel identical to the 32 exploratory MDPs",
+  "selection": "first 18 per family in sampler order -> 72 MDPs (fewer only if a family runs out; reported)",
+  "data_seed_base": 9500000
+ },
+ "unchanged_from_exploratory": [
+  "project generator, 5 behaviors, pilot x10, 10 training seeds, BC/CFQI/IQL hyper-parameters, label rule",
+  "forecaster: sealed seven-cohort meta-training via expanded_meta; no refit choices, no tuning",
+  "comparators: oeh_final (108), b2_matched (18), b2_plus_colosseum (B2 + log diameter, value norm, log gaps)",
+  "team's documented expectile fix applied only where the archived IQL raises",
+  "metrics, MDP-level aggregation, 10,000 whole-MDP bootstrap, simultaneous max-t one-sided 95% bounds"
+ ],
+ "gate": {
+  "primary": "OEH vs b2_matched: mean gain > 0 and simultaneous lower bound > 0 for BOTH integrated Brier and seven-class log loss",
+  "secondary": "OEH vs b2_plus_colosseum: same rule",
+  "no_minimum_relative_gain": true
+ },
+ "reporting": "report GO or NO-GO as computed; descriptive analyses (family, learner, finite vs censored, posterior-draw failures) do not change the verdict; no re-run on these MDPs after outcomes"
+}

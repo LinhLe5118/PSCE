@@ -1,0 +1,2 @@
+# Optional Word reference exporter; isolated from scientific dependencies.
+python-docx==1.2.0

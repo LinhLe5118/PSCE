@@ -1,0 +1,62 @@
+{
+  "status": "descriptive",
+  "decision": "Linh, 15/10/2026: option (a), OEH-F naming, supplement only",
+  "created_utc": "2026-10-15T15:27:15.804073+00:00",
+  "renames": [
+    [
+      "Full OEH (exploratory)",
+      "OEH-F (exploratory)"
+    ],
+    [
+      "Reduced OEH",
+      "OEH-F without direct OEH-B"
+    ],
+    [
+      "Full OEH",
+      "OEH-F"
+    ],
+    [
+      "full OEH",
+      "OEH-F"
+    ],
+    [
+      "\\OEH{}'s",
+      "OEH-F's"
+    ],
+    [
+      "\\OEH{}",
+      "OEH-F"
+    ],
+    [
+      "OEH's",
+      "OEH-F's"
+    ],
+    [
+      "& CF/18 & OEH & CF/18 & OEH\\\\",
+      "& CF/18 & OEH-F & CF/18 & OEH-F\\\\"
+    ],
+    [
+      "MiniGrid-14 was opened before the full run",
+      "MiniGrid-14 was opened before OEH-F was run on it"
+    ],
+    [
+      "\\section{Completed BRIDGE follow-up scores}",
+      "\\subsection{All scores}"
+    ]
+  ],
+  "inputs_sha256": {
+    "artifacts/week8/difficulty_common_metric_final_2026-10-09/manifest.json": "b5b8552793e56a5ca9133f731a74d02c7ca2c9fa82f3e80f3a723c74942a34ab",
+    "artifacts/week8/difficulty_common_metric_final_2026-10-09/summary.csv": "4d44adf0639107eafb2834c31748fe34f25982b8f91e99b39d5e3d02a47813ef",
+    "artifacts/week8/difficulty_common_metric_final_2026-10-09/paired.csv": "d9e46885bc414b73f8d3d18b6b8bd566e9f7d8f1e5e9ca3532da6ee559dd844e",
+    "artifacts/week8/bridge_expanded_full_oehb_preoutcome_2026-10-08/manifest.json": "10969f59f32891c891d8c8c34c37ae9630ab3c57f6a6bf4b40b01d41c264f9d7"
+  },
+  "audit_status": "ALL_PANELS_COMMON_METRIC_VERIFIED",
+  "outputs_sha256": {
+    "paper/sections/supplement_bridge_oehf.tex": "f2dac1677e68b266889ed3121463f8707fffb9c8f52a984b10efff0ea9c97c4e"
+  },
+  "source_sha256": {
+    "scripts/analysis/bridge_supplement_oehf_20261015.py": "6499b1a7eeccba84a8a9e30c92b29d6d116cdeddd7f118f0fe421447b565a55e",
+    "scripts/analysis/finalize_verified_manuscripts.py": "199bebff1a86ad3ee0978a646af02bb12d9ffb0f0938017e649c613cf50de83c",
+    "scripts/analysis/verify_common_difficulty_metrics.py": "7066305bfe9237347e64e5b45539be2ac406eb9c76271973ca16241ea83bc568"
+  }
+}

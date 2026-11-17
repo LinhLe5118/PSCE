@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETE_FRESH_BRIDGE_ATARI_FULL_OEH_TRANSFER",
+  "tasks": 5,
+  "behaviors_per_task": 5,
+  "learners": 3,
+  "rows_per_forecaster": 75,
+  "role": "third-party published MDPs; team-generated offline pilots and labels",
+  "source_sha256": {
+    "protocol": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+    "prelabel_seal": "b4a207dbb6d6a4dbcc4028098f925e240aa211696b432a3b3b6be24621e63fbf",
+    "full_forecast_manifest": "db4521876cfc7db2f6661910716b772046f0122925edfcdde5dbeb39f5547a70",
+    "b2_internal_manifest": "3708d28fa68ebc0cc50a66e4c8a255f20ccca6e85a1b92f7fc8ff9c60fb7e087",
+    "published_cf_manifest": "eb75b8c3c8759a6b01f2c8ba030abecae88715e2f74558d31bd90efdfbf71887",
+    "published_cf_full108_manifest": "918d641c88da6eb509923007312d82f4515d73ed86e53ae218cfdfa20f243583",
+    "original_scores_manifest": "f21c2e12604427cc9aa49ccd1a4e997b8be777a2f5b4809c3901e58cc829d63d",
+    "labels_manifest": "44f86b447e00496172dca3e50206be6e2075daece371df52802a7435dd65a0bc"
+  },
+  "source_script_sha256": "3238815ec4da8517428efff39261763834f4515c877605d9320d36426db1df55",
+  "output_sha256": {
+    "scored.csv": "ee1d763debf89cc47046585c57d466eb65ff9d72b4d7c5dacd7ecc90d04e0cb2",
+    "summary.csv": "ea3c9cb3c58026dee0b577d51c67402e19efe4d175c2fb7354ec89922a9c406f",
+    "paired_task_bootstrap.csv": "09430a80d0c8e6ecc5ea79821732a5dccd8b775ef237bb91121b59af228f9a10",
+    "original_rank_comparison.csv": "c6f808a5d4050ea6ec0466e42eb77e26e92b749088893cc8f54831017101ed93",
+    "original_rank_paired_transfer.csv": "b0e9ae07f8c626f5c618f787f0a750e415c6940d8fcdb2adf34d1492f6b0f125",
+    "RESULTS.md": "ed4fe910ef25f05c08a74bfcb1cfa57affcd84ba19eebf0be70a3d0fc2ef6ea9"
+  }
+}

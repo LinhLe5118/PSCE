@@ -1,0 +1,41 @@
+{
+  "status": "DEVELOPMENT_RANGE_FILTER_PREFLIGHT_ONLY",
+  "task": "MiniGrid-SimpleCrossingS9N1-v0",
+  "exclude_from_independent_test": true,
+  "source_npz_sha256": "e52f1d0f8d58bbdcb68a332ce6c863506ca9d259b294b12916a14d04b83b9607",
+  "script_sha256": "94ac3b37c788f657e4570a955028a6f6679b68f2e315c661b1756c554eb7c95d",
+  "states": 1006,
+  "gamma": 0.99,
+  "filter_minimum_dynamic_range": 0.2,
+  "filter_reason": "Transfer the absolute 0.01/(1-0.95)=0.2 filter from synthetic training rather than recomputing it as 1.0 at BRIDGE gamma=0.99",
+  "primitive_draws": 1,
+  "primitive_seeds": 1,
+  "primitive_budgets": [
+    10
+  ],
+  "posterior_sampling": {
+    "draws_requested": 1,
+    "draws_returned": 1,
+    "proposals": 1,
+    "accepted": 1
+  },
+  "returned_normalized_shape": [
+    1,
+    1,
+    1,
+    3
+  ],
+  "returned_normalized": [
+    [
+      [
+        [
+          0.5059675542492065,
+          -0.0446861043962058,
+          -0.04742443538917173
+        ]
+      ]
+    ]
+  ],
+  "elapsed_seconds": 55.67269849998411,
+  "warning": "Development-only protocol adaptation; no full 64-draw forecast or test outcome."
+}

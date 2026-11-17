@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-14T15:36:23.530279+00:00",
+  "state": "M1/M4/M6 selected (heads/selection.json); M3 cohort generating; prior diagnosis running; no M2/M3 outcome seen",
+  "m3": {
+    "augmentation": "meta-training = 720 sealed MDPs + 168-MDP behavior cohort (ratio_baseline, epsilon_star, random_mixture)",
+    "procedure": "refit every head of heads/ on the augmented panel; re-run the identical M1 x M4 grid and selection rules",
+    "adopt_if": [
+      "external score of the re-selected v2 lower than without M3",
+      "SPIBB (rel IBS + rel LL)/2 lower than without M3",
+      "internal rel IBS and rel LL vs OEH current each <= +0.02"
+    ],
+    "also_report": "OEH current refit on the augmented panel (does M3 alone help?)"
+  },
+  "m2": {
+    "step0": "prior_diagnosis: raw OEH-B law and per-budget success calibration under reward_prior exchangeable vs unseen_zero (same seeds)",
+    "continue_if": "exchangeable improves raw-law log loss by >= 5% relative on at least two of the three external panels without worsening the internal panel by > 5%; otherwise stop M2 and record the cause as open",
+    "if_continued": "Bayesian averaging over the two reward priors with weights from the pilot marginal likelihood requires re-running OEH-B on the whole meta panel; decided after step 0"
+  }
+}

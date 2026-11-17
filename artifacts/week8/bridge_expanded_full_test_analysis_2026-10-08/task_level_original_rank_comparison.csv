@@ -1,0 +1,19 @@
+algorithm,method,access,defined_tasks,spearman_task_mean_score_vs_mean_event,scope
+behavior_cloning_tabular,OEH expected event,pilot_only,5,0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+behavior_cloning_tabular,ERI original formula,pilot_only,5,0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+behavior_cloning_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,5,-0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+behavior_cloning_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,5,0.0,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+behavior_cloning_tabular,EH author EPW,privileged_author_MDP_summary,5,0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+behavior_cloning_tabular,EH author k_min,privileged_author_MDP_summary,5,,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,OEH expected event,pilot_only,5,0.8207826816681233,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,ERI original formula,pilot_only,5,0.6155870112510925,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,5,-0.8207826816681233,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,5,-0.20519567041703082,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,EH author EPW,privileged_author_MDP_summary,5,0.6155870112510925,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+cfqi_tabular,EH author k_min,privileged_author_MDP_summary,5,,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,OEH expected event,pilot_only,5,0.8660254037844386,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,ERI original formula,pilot_only,5,0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,TQ original formula / author DQN reference,privileged_true_MDP_online_reference,5,-0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,SACo original formula / author DQN reference,privileged_true_MDP_online_reference,5,0.0,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,EH author EPW,privileged_author_MDP_summary,5,0.28867513459481287,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal
+iql_tabular,EH author k_min,privileged_author_MDP_summary,5,,Five-task descriptive rank after averaging five behaviors per MDP; censored class remains ordinal

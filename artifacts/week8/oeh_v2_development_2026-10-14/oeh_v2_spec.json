@@ -1,0 +1,129 @@
+{
+  "schema": "oeh-v2-spec-v1",
+  "status": "frozen",
+  "frozen_at_utc": "2026-10-14T16:25:01.937373+00:00",
+  "definition": "scripts/analysis/oeh_v2_forecast.py:v2_law",
+  "base_head": "oeh_ensemble",
+  "parameters": {
+    "q_oeh": "finite_only_head",
+    "q_robust": "legacy_finite",
+    "lambda_max": 1.0,
+    "eps_max": 0.02,
+    "d0": 3.0
+  },
+  "distance": "mean distance to the 10 nearest meta-training primary rows in standardized B2 statistics, per MDP-behavior group",
+  "selected_in": "artifacts/week8/oeh_v2_development_2026-10-14/heads",
+  "m2": "stopped at step 0 (prior_diagnosis/): the continuation rule was not met",
+  "m3": {
+    "rule": [
+      "external score of the re-selected v2 lower than without M3",
+      "SPIBB (rel IBS + rel LL)/2 lower than without M3",
+      "internal rel IBS and rel LL vs OEH current each <= +0.02"
+    ],
+    "without": {
+      "by_panel": {
+        "cohort7": [
+          0.004929276792311255,
+          0.018051342608216503
+        ],
+        "cohort8": [
+          0.0006933517658458399,
+          0.006452080896266255
+        ],
+        "colosseum2027": [
+          -0.06461828797190627,
+          -0.11156388856078958
+        ],
+        "colosseum2028": [
+          -0.06945191980496623,
+          -0.09772463138159992
+        ],
+        "spibb": [
+          -0.03134973405723851,
+          -0.01843385220101068
+        ],
+        "internal": [
+          0.002093143131145059,
+          0.010388744143398299
+        ]
+      },
+      "external_score": -0.06552371899625187,
+      "spibb_score": -0.024891793129124595
+    },
+    "with": {
+      "by_panel": {
+        "cohort7": [
+          -0.015483828607276928,
+          0.008862501231342579
+        ],
+        "cohort8": [
+          0.012753185707956582,
+          0.006998366116294008
+        ],
+        "colosseum2027": [
+          -0.028165230684146114,
+          -0.08033415446976633
+        ],
+        "colosseum2028": [
+          -0.05881104169827589,
+          -0.09442753725176845
+        ],
+        "spibb": [
+          0.01025257605451757,
+          0.01308599635552632
+        ],
+        "internal": [
+          0.0034220647430349693,
+          0.007631033296097378
+        ]
+      },
+      "external_score": -0.03973323194898548,
+      "spibb_score": 0.011669286205021945
+    },
+    "checks": {
+      "external_lower": false,
+      "spibb_lower": false,
+      "internal_within_2pct": true
+    },
+    "adopted": false,
+    "oeh_current_refit_on_augmented_panel": {
+      "by_panel": {
+        "cohort7": [
+          -0.02502960630699358,
+          -0.006965652904399877
+        ],
+        "cohort8": [
+          0.00109730981739653,
+          -0.0019803790234621532
+        ],
+        "colosseum2027": [
+          0.0023494309534917157,
+          0.0067183287222143395
+        ],
+        "colosseum2028": [
+          -0.007634522761508111,
+          0.0015452957080088758
+        ],
+        "spibb": [
+          0.032804507112023984,
+          0.010894005535496465
+        ],
+        "internal": [
+          -0.0075365142857956036,
+          -0.00367232674835527
+        ]
+      },
+      "external_score": 0.007779507544954545,
+      "spibb_score": 0.021849256323760224
+    }
+  },
+  "extra_training_cohorts": [],
+  "source_sha256": {
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/rules.json": "8fc00959c61a0ff387a6481ba28640950adfb786505c32ce265fb01b7821928d",
+    "artifacts/week8/oeh_v2_development_2026-10-14/rules_m2_m3.json": "147b069684821a331420a4a182375ffdc497d8f626d561e4434df5732611c1e3",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/selection.json": "8cf815fc2b167c0645e0f3445253d6264e7be45918a778cfd9731eb2e659c4b3",
+    "artifacts/week8/oeh_v2_development_2026-10-14/heads/grid.csv": "fb9f0b343525f29276a37209f0cf8126dbc70dd9bc1186f4ffa79ee5ecf0fd08",
+    "scripts/analysis/oeh_v2_forecast.py": "4377e9910463a17f96e5aa913c88cba6e49225738ef4dc344fc3de33e3426624",
+    "scripts/analysis/develop_oeh_v2_heads_20261014.py": "ed80349323362d7c06d67dd075bfd71ae85d0b70c40eef2601ae9e965159cf24"
+  }
+}

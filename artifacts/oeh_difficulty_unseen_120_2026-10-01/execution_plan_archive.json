@@ -1,0 +1,8 @@
+{
+  "schema": "byte_exact_execution_plan_archive_v1",
+  "raw_sha256": "9db43ca30fa1058724cc353dbbb8044badb2d507c3b7d525a3ac0a18b9f8ac4d",
+  "gzip_sha256": "6b69060f2254a1c9c3cfe31be0fa039d4861f1e8e6d1ce5ad19eb29d56ca7b33",
+  "raw_bytes": 42699932,
+  "gzip_bytes": 1022758,
+  "restored_sha256_verified": true
+}

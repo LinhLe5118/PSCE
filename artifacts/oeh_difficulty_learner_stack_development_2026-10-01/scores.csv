@@ -1,0 +1,9 @@
+cohort,panel,method,mdps,integrated_brier,seven_class_log_loss
+first_open,control,b2_three_way,18,0.04037914861879624,0.40125165663349727
+first_open,control,oeh_three_way,18,0.04078952205687314,0.4097966541224833
+first_open,primary,b2_three_way,42,0.06901040971323719,0.7024092658375954
+first_open,primary,oeh_three_way,42,0.058748831050078325,0.6544842621509233
+second_open,control,b2_three_way,18,0.029429775668781473,0.330898332854871
+second_open,control,oeh_three_way,18,0.025494561016815298,0.3226740248904031
+second_open,primary,b2_three_way,42,0.06879046621361803,0.7651284462029273
+second_open,primary,oeh_three_way,42,0.059586944493063045,0.7361842219470995

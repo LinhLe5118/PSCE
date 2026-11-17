@@ -1,0 +1,39 @@
+{
+  "status": "posthoc_descriptive",
+  "task": "T2 prefix + FQE baseline",
+  "created_utc": "2026-10-15T08:16:59.723822+00:00",
+  "spec": {
+    "path": "docs/week8/T2_PREFIX_FQE_SPEC_2026-10-15.md",
+    "sha256": "eae2f09a7b28e4a928a03fca399404322c679e0e3c2fc5fb83d778e8d80fb4b9"
+  },
+  "meta_training_feature_coverage": 1.0,
+  "inputs_sha256": {
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/cohort7.csv.gz": "66c500920c64cd307f952b05607e1eea55ae54a73470844369dd67ba965f6cad",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/cohort8.csv.gz": "a4b797bd42bde6d4b786366b3d1eee7d4d00d5f2fa5a845d5eacafc3d66d1688",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/colosseum2027.csv.gz": "f0b0f3e7383b50b929da6908082647b10abf25b6ec07d0bf2eab40afe8357d6f",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/colosseum2028.csv.gz": "9f970d9ca7bf1c7b9a0e34c7220bed956e269032b16e95cf745ff05a1289094b",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/colosseum2029.csv.gz": "806a8a757975cbc0ed01e5b1a6f7969a5ed1aac1fa986fa8c2b96c3576f8f87b",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/forest.csv.gz": "1effa82344543c464d2d4405d3b28f91d0578e13b871d4fec9be44dde6dade60",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/frozenlake.csv.gz": "8d355479a7c6bbbe7daad9977412645bbc32accb1e31a62fc61f6c06512efa10",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/gambler.csv.gz": "fc9dd535908343f3490211777fbd3af8de5ca8b2fedba10341c9459141f13d1b",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/internal.csv.gz": "fe8eb9512489c14e61454575fd1cde5fea965cb9d893ddf71d397a3a936b1b2b",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_e1.csv.gz": "6f765d7fa9a87a54ad130c7236b375210c68e7f6e60fb078f28d8a684354d8c0",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_first120.csv.gz": "417245cfdd51e2f525954d68389b39f07c2c85df269bf071b5dde3f9f004f8ab",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_first60.csv.gz": "2d1183512caf7dec14c795eed5223cfb5dcbfd39829f302eca71034da0856716",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_fourth120.csv.gz": "a1e648863fcd36693f5fb7d5397b3141ce5d75cba87c1998a5d723014b560e7a",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_second120.csv.gz": "daff79ab1572b82860490de74145c8b3f79db60eed72137769214a0508e0b48f",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_second60.csv.gz": "cdd8af2225ff89123444bd3afa0ca8bb07c22e459abdccda3af5c0424ab1ec9b",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/meta_third120.csv.gz": "4daa7f167b195355c3a8c30fe90c3426abbe8a2867b6a4f2c0709e879d12c07a",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/spibb.csv.gz": "8011035dcb628a9d902d6212a5e8502de668757a7cf990172a503365c674753a",
+    "artifacts/week8/baseline_prefix_fqe_2026-10-15/features/spibb2.csv.gz": "ddbf477144008ac290269807fe14f016265d55a8a5f5b2d2a48cf7edde623fe0"
+  },
+  "outputs_sha256": {
+    "scores_rows.csv.gz": "f84af77e93fd4a81422b9b7080156468b1367b2e69773ea423d10e54668611b9",
+    "development_log.csv": "87e0e0b08296c11dd0ad6c016456170f6ae3025e07345e1427bdcd9e3c541061",
+    "scores_by_panel.csv": "17a8ccb6cf800819b9b2aff91c525d1904186a816f246cd61bbdf2e35cc75f33",
+    "gains.csv": "4519fd544bd0f6820737026cc7932c4fa9647727ff70612ecfb66a37a5148081"
+  },
+  "source_sha256": {
+    "scripts/analysis/baseline_prefix_fqe.py": "903e564a5ce75d493cb5af0424a1f8241fc8c44129e78479106b687938a0393d"
+  }
+}

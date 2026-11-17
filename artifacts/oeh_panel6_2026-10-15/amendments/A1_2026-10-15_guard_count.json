@@ -1,0 +1,13 @@
+{
+  "amendment": "A1",
+  "status": "APPROVED by Linh on 2026-10-15, before any panel data or learner outcome",
+  "protocol_sha256": "49c270716da6fffeac05147a39b47dfcc0dfcfe63557b36b65b03794e43031f5",
+  "file": "scripts/analysis/run_oeh_panel6_20261015.py",
+  "frozen_sha256": "2419610acb776869a166fc1104e205a424ee35325e10cd0b67bd9db274e990f3",
+  "old_sha256": "2419610acb776869a166fc1104e205a424ee35325e10cd0b67bd9db274e990f3",
+  "new_sha256": "89851189623efa42a2db42f811a72fd9fd9147c57aeef5b0e229bd7248e920cc",
+  "change": "the guard in select() that checks the earlier kernels were found counted distinct signatures (threshold 800); it now counts kernel files (threshold 800)",
+  "reason": "884 earlier kernel files are found, but only 749 distinct signatures: the 120 Colosseum 2029 kernels are stored twice (artifacts/.../colosseum2029/kernels and D:/Tools/colosseum_work/trial/data/v2test) and 7 FrozenLake maps coincide. The guard only checks that PANEL6_EARLIER_ROOT points at the main checkout; 800 was meant as a file count.",
+  "impact": "none on candidates, selection rule, compared signatures (the same 749), data, forecasts, gates or analysis",
+  "observed_before": "prepare --panel mdpp stopped inside select() before any kernel was selected or any data generated; no learner was run"
+}

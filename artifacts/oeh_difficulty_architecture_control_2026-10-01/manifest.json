@@ -1,0 +1,21 @@
+{
+  "status": "development_only_open_60_mdp_not_independent_confirmation",
+  "purpose": "architecture-matched B2 ablation; no OEH mechanism features",
+  "promoted": false,
+  "weight_on_direct": 0.47474412074808564,
+  "e1_oof_logloss": 0.73627079887286,
+  "input_sha256": {
+    "e1_labels": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "e1_features": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "development_labels": "78b986720f1c846ceb4f77a24a1ceff3bdd45c9b89f86bca2732f6edf80c9d12",
+    "development_features": "cd56f109a1704367eeab67ea02a22bdf2b6ce95345b01d9c2dc70b261efe6484",
+    "e1_aft_predictions": "dbe98211fb96b6e2b74cb096d889d0e39773ba94d1a5dcd42ec2f8141f205814",
+    "fresh_aft_predictions": "25d001c6a7d7b6eaaf325d98799fdf7c52ab62fe9f93eb3bffb4a04200022bb1",
+    "fresh_direct_predictions": "2831d7eea5ef2075f3ffc83f93d1a2d9e2a3bd934430036c19dea79192fe0f28"
+  },
+  "script_sha256": "9cdca5b793d30295795e9fa5a611f156f2f7761a6d17f8d4cf8eeb6a3741dd79",
+  "artifact_sha256": {
+    "predictions.csv": "bf6955cab1716de9b3dfdf49b19c249aaa2260480ac6f19f97511d8ad7938caf",
+    "scores.csv": "589b19ccd62eddf8b8893beaad77b18754d4838c937cbd930ec1abb04ae0f640"
+  }
+}

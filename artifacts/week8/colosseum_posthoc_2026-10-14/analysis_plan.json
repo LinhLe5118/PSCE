@@ -1,0 +1,97 @@
+{
+  "namespace": "week8-colosseum-posthoc-v1-20261014",
+  "frozen_at_utc": "2026-10-14T09:40:23.798844+00:00",
+  "post_hoc": true,
+  "status_at_freeze": "Colosseum labels opened 2026-10-14T02:05Z and scored by the handover (primary GO/GO, cohort-7 comparator set NO-GO tier 1). During code review, before this plan, the registered contrasts were rescored with the team's max-t rule from the handover's MDP scores: primary still GO (log-loss lower bound +0.0003); this is reported, not chosen. The count of zero-draw OEH-B groups (42/360) was read from the pre-outcome OEH-B files; no loss by draw status had been computed.",
+  "analyses": {
+    "A_rescore": "registered primary 4 contrasts and the 18 comparator contrasts under the team rule (critical = 0.95 quantile of max_j (mean*_j - mean_j)/se_j with the original se; seeds 20261014 and 20261004 as in the handover), next to the handover's per-draw rule",
+    "B_xgboost_cf": "adapted XGBoost-CF/18 and /108 exactly as published_survival_120_* (per learner, primary meta-training stratum, median imputation, 100 trees depth 3, seed 42); main post-hoc family = OEH vs {B2 matched, XGBoost-CF/18} x {IBS, LL}, team max-t, 10000 draws, seed 20261014; XGBoost-CF/108 reported as architecture control",
+    "C_block_factorial": {
+      "factors": {
+        "P": [
+          "G2",
+          "G3",
+          "G6"
+        ],
+        "H": [
+          "G4",
+          "G5"
+        ],
+        "L": [
+          "G7",
+          "G8"
+        ]
+      },
+      "arms": {
+        "b2_matched": 18,
+        "b2_plus_P": 56,
+        "b2_plus_H": 42,
+        "b2_plus_L": 46,
+        "oeh_without_legacy_diagnostics": 80,
+        "oeh_without_oehh_risk": 84,
+        "oeh_without_direct_oehb": 70,
+        "oeh_full_108": 108
+      },
+      "m1_arms_defined_before_colosseum_labels": "2026-10-13T16:20Z",
+      "new_arms_defined_now": [
+        "b2_plus_P",
+        "b2_plus_H",
+        "b2_plus_L"
+      ],
+      "value": "v(S) = loss(B2) - loss(B2+S), per MDP, then Shapley over P/H/L; MDP bootstrap percentile 95%, descriptive; pooled, per learner, per family"
+    },
+    "D_decision": {
+      "policy": "smallest budget x_k with forecast P(E<=k) >= tau, otherwise skip",
+      "cost": "collect: x_k (+ lambda if E > k); skip: lambda if E < 6 else 0; oracle: x_E if E < 6 else 0; regret = cost - oracle",
+      "tau": [
+        0.5,
+        0.8,
+        0.9
+      ],
+      "lambda": [
+        50,
+        100
+      ],
+      "lambda_miss": "equal to lambda",
+      "methods": [
+        "oeh_final",
+        "b2_matched",
+        "b2_plus_eri",
+        "prior_oeh_matched",
+        "xgboost_cf_18",
+        "xgboost_cf_108"
+      ],
+      "fixed_rules": [
+        "always_x10",
+        "always_x50",
+        "always_skip"
+      ],
+      "panels": [
+        "colosseum_confirm_72",
+        "cohort7_primary_84 (exploratory)"
+      ],
+      "aggregate": "mean over rows within MDP, then over MDPs; OEH minus method per MDP, percentile 95% from 10000 MDP draws, seed 20261014"
+    },
+    "E_zero_draw": "OEH-B groups whose posterior sampler accepted no draw: rows, label mix, OEH/B2 scores and probability of the true class, by family and draw status (descriptive)",
+    "F_cost": "OEH-B runtime per MDP-behavior group against |S||A| for cohort 7, Colosseum (355/360 groups ran with multi-threaded OpenBLAS) and the two full-OEH BRIDGE panels"
+  },
+  "not_run": [
+    "learning-curve extrapolation baseline (needs Colosseum curve features)",
+    "leave-one-family-out, OEH-S, OEH-2T, new sealed cohort (need new protocol decisions)",
+    "learner choice by expected cost"
+  ],
+  "sealed_inputs_sha256": {
+    "protocol_colosseum.json": "dd9771576d50c99ba37ceffbd68f5195164b5b41356b03baf20e5d3677b4d3b8",
+    "colosseum_preoutcome_seal.json": "e9e7b19eb41fb6bef676a02602a831eef108b1d24b92080ff3336c25b6586a32",
+    "colosseum_predictions_preoutcome.csv": "200871d8f6615b48ebae7f9136ebcce182481728728ae2ce10aa08304dee302a",
+    "colosseum_pilot_features.csv": "0dbb87202415416bedb74de7f8296f50611ea33e7229354bce68fa0640cfbe94",
+    "colosseum_horizon.csv": "21caaa3b9b9619fcaf6bcc7359296d8bfc33d08f3affdad9a7e1eb933587feed",
+    "comparator_predictions.csv": "00baae82e05c09a45e5d850d4e1fdd911c1d747a55b6fb4fa7d3376003e3431a",
+    "protocol_colosseum_amendment_1_comparators.json": "e420e4aee2fcbb923ef7d073d66035cef04d0001a2759ec6423f6bdc95f0566b",
+    "colosseum_labels.csv": "bc937c70e70f688563b28a9f50e6411aff8bced4a2437a0b502a39e287b261d5"
+  },
+  "source_sha256": {
+    "scripts/analysis/colosseum_posthoc_20261014.py": "a7d3c9dcc5099b0bfd7cdc66966d0a9d879be4b0e0eebfdd9e14c084deca45dd",
+    "scripts/analysis/m1_feature_lineage.py": "d8bcbb637a740a579f4b2cf49410b02f47c6ce7772a44cf1f2bc7fcd6e926770"
+  }
+}

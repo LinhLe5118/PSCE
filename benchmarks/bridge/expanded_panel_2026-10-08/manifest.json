@@ -1,0 +1,30 @@
+{
+  "status": "EXPANDED_BRIDGE_METADATA_SCREEN_FROZEN_BEFORE_NEW_LABELS",
+  "rule": "all 155 published sticky MDPs; exclude prior outcome-opened tasks; S<=3000; dense P/R<=512 MiB; H<=100; published reward minimum >= 0",
+  "source": "https://zenodo.org/records/12556298",
+  "task_names": [
+    "MiniGrid-DoorKey-5x5-v0",
+    "MiniGrid-Empty-16x16-v0",
+    "breakout_20_fs30",
+    "maze_easy_l0_30_fs1",
+    "space_invaders_10_fs30"
+  ],
+  "task_count": 5,
+  "counts_by_decision": {
+    "NEGATIVE_REWARD_OUTSIDE_CURRENT_POSTERIOR": 4,
+    "PRIOR_OUTCOME_OPENED": 21,
+    "RESOURCE_CAP": 125,
+    "SELECTED_PRELABEL": 5
+  },
+  "source_sha256": {
+    "summary.csv": "ae571806316e25df695f96bcf0006828f3b617bd2fc277377956da1730f401da",
+    "summary_sticky.csv": "a2b795f52c7fb75a3bb2e75d0f8c3339f2b1f6ee6804ca569e8341bd5cb3fc8c",
+    "old_split": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c",
+    "fresh_protocol": "389d53f0a2e342db20d1254afeabc84c1348dcac84061adb03048caecc82fb03",
+    "screen_script": "7a176946fab43796ef1bbae17c141cfa8066fa497f8f899d08a64f879ba96102",
+    "inventory": "d4d99f04055e6d4030c13628289b1e41cb09e6aeaffab7977e6be36e22ba19c1",
+    "candidate_registry": "1b26d5278a01c2d34128717cb4e807587702513151f1731d60bdac0d1b930575"
+  },
+  "test_labels_read": false,
+  "note": "Metadata screen only; NPZ/reward/adaptor/runtime preflight may still exclude a task."
+}

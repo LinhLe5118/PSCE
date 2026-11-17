@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "b5bc0ecc0fc5917c902d181ebba87e1331b3b85d4f3a0893e8e550d3d6bca272",
+  "sealed_at_utc": "2026-09-30T18:58:34.371721+00:00",
+  "sha256": {
+    "datasets/oeh_difficulty_confirmation_2026-10-01/manifest.json": "311ea76d2dd1f6118a4a04170d451e039a6f80a711ab890c5350c8846f2688ef",
+    "datasets/oeh_difficulty_confirmation_2026-10-01/data_only_index.json": "66129968b03b2c00bd337ea0bcced6444e5a8694ce3b81a0931fa2212bd795d6"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PUBLISHED_ONLINE_METADATA_REANALYSIS_NOT_OFFLINE_OEH_RESULT",
+  "source_url": "https://zenodo.org/records/12556298",
+  "paper_url": "https://aima.cs.berkeley.edu/~russell/papers/iclr24-horizon.pdf",
+  "source_sha256": "a2b795f52c7fb75a3bb2e75d0f8c3339f2b1f6ee6804ca569e8341bd5cb3fc8c",
+  "mdps": 155,
+  "origin_counts": {
+    "atari": 67,
+    "procgen": 55,
+    "minigrid": 33
+  },
+  "finite_sample_complexity_counts_from_v1_1_1_csv": {
+    "ppo": 96,
+    "dqn": 76,
+    "sqirl": 69,
+    "gorp": 27
+  },
+  "both_finite_pairwise_from_v1_1_1_csv": {
+    "sqirl/ppo": {
+      "both_finite": 67,
+      "rho": 0.832697546154251,
+      "median_ratio": 1.3750025
+    },
+    "sqirl/dqn": {
+      "both_finite": 59,
+      "rho": 0.5649605302361117,
+      "median_ratio": 1.0
+    },
+    "ppo/dqn": {
+      "both_finite": 67,
+      "rho": 0.4825080038899554,
+      "median_ratio": 0.5874125874125874
+    }
+  },
+  "paper_reported_table_2": {
+    "ppo": 98,
+    "dqn": 78,
+    "sqirl": 77,
+    "gorp": 29
+  },
+  "paper_reported_table_3": {
+    "sqirl/ppo": {
+      "rho": 0.8,
+      "median_ratio": 1.19
+    },
+    "sqirl/dqn": {
+      "rho": 0.56,
+      "median_ratio": 0.85
+    },
+    "ppo/dqn": {
+      "rho": 0.55,
+      "median_ratio": 0.56
+    }
+  },
+  "interpretation": "CSV finite-counts and pairwise statistics are a version/field audit only. Any mismatch with the paper must be investigated before claiming an exact reproduction. The paper evaluates online learner sample complexity, whereas OEH evaluates offline seven-class learner requirement on team-generated logs."
+}

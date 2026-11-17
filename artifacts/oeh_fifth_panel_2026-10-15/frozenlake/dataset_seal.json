@@ -1,0 +1,618 @@
+{
+  "protocol_sha256": "ba8f1babaa59928a2929ca6642c50a5ee23ffe5691991ca379afc147273c4fc9",
+  "sealed_at_utc": "2026-10-15T04:15:37.861663+00:00",
+  "learner_outcomes_observed": 0,
+  "instances": 36,
+  "buffers": 1980,
+  "selection": [
+    {
+      "mdp_id": "frozenlake_000",
+      "size": 6,
+      "p": 0.944,
+      "map_seed": 297357850,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_001",
+      "size": 8,
+      "p": 0.943,
+      "map_seed": 876299974,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_002",
+      "size": 7,
+      "p": 0.853,
+      "map_seed": 405258327,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_003",
+      "size": 6,
+      "p": 0.942,
+      "map_seed": 164048192,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_004",
+      "size": 6,
+      "p": 0.942,
+      "map_seed": 1831850926,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_005",
+      "size": 6,
+      "p": 0.871,
+      "map_seed": 565118963,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_006",
+      "size": 6,
+      "p": 0.763,
+      "map_seed": 275821683,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_007",
+      "size": 4,
+      "p": 0.851,
+      "map_seed": 722217444,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_008",
+      "size": 7,
+      "p": 0.76,
+      "map_seed": 1068413582,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_009",
+      "size": 5,
+      "p": 0.781,
+      "map_seed": 935017511,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_010",
+      "size": 6,
+      "p": 0.779,
+      "map_seed": 1419535068,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_011",
+      "size": 8,
+      "p": 0.783,
+      "map_seed": 763943755,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_012",
+      "size": 4,
+      "p": 0.929,
+      "map_seed": 466444532,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_013",
+      "size": 7,
+      "p": 0.895,
+      "map_seed": 1292347150,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_014",
+      "size": 5,
+      "p": 0.798,
+      "map_seed": 1373121638,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_015",
+      "size": 7,
+      "p": 0.934,
+      "map_seed": 104236110,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_016",
+      "size": 7,
+      "p": 0.862,
+      "map_seed": 744167169,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_017",
+      "size": 7,
+      "p": 0.943,
+      "map_seed": 677726025,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_018",
+      "size": 4,
+      "p": 0.846,
+      "map_seed": 1602228412,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_019",
+      "size": 5,
+      "p": 0.945,
+      "map_seed": 1203464526,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_020",
+      "size": 5,
+      "p": 0.847,
+      "map_seed": 1924015158,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_021",
+      "size": 7,
+      "p": 0.758,
+      "map_seed": 1834960265,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_022",
+      "size": 7,
+      "p": 0.803,
+      "map_seed": 495401610,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_023",
+      "size": 4,
+      "p": 0.861,
+      "map_seed": 1727871658,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_024",
+      "size": 7,
+      "p": 0.783,
+      "map_seed": 659254444,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_025",
+      "size": 7,
+      "p": 0.866,
+      "map_seed": 1645327310,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_026",
+      "size": 4,
+      "p": 0.888,
+      "map_seed": 1557440194,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_027",
+      "size": 5,
+      "p": 0.92,
+      "map_seed": 1582291390,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_028",
+      "size": 7,
+      "p": 0.892,
+      "map_seed": 1560513238,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_029",
+      "size": 8,
+      "p": 0.783,
+      "map_seed": 982186529,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_030",
+      "size": 6,
+      "p": 0.837,
+      "map_seed": 1514563487,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_031",
+      "size": 4,
+      "p": 0.817,
+      "map_seed": 407573544,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_032",
+      "size": 5,
+      "p": 0.932,
+      "map_seed": 1891116809,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_033",
+      "size": 8,
+      "p": 0.849,
+      "map_seed": 2116823902,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_034",
+      "size": 4,
+      "p": 0.928,
+      "map_seed": 1350092179,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_035",
+      "size": 4,
+      "p": 0.927,
+      "map_seed": 644449395,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_036",
+      "size": 4,
+      "p": 0.768,
+      "map_seed": 1588531459,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_037",
+      "size": 5,
+      "p": 0.786,
+      "map_seed": 770562831,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_038",
+      "size": 5,
+      "p": 0.771,
+      "map_seed": 386495593,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_039",
+      "size": 5,
+      "p": 0.881,
+      "map_seed": 1383958523,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_040",
+      "size": 7,
+      "p": 0.833,
+      "map_seed": 26479197,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_041",
+      "size": 6,
+      "p": 0.832,
+      "map_seed": 90191135,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_042",
+      "size": 5,
+      "p": 0.872,
+      "map_seed": 1974185964,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_043",
+      "size": 8,
+      "p": 0.766,
+      "map_seed": 1040499329,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_044",
+      "size": 7,
+      "p": 0.863,
+      "map_seed": 1372730472,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_045",
+      "size": 4,
+      "p": 0.802,
+      "map_seed": 1308346677,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_046",
+      "size": 4,
+      "p": 0.811,
+      "map_seed": 1912295466,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_047",
+      "size": 8,
+      "p": 0.807,
+      "map_seed": 137743519,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_048",
+      "size": 5,
+      "p": 0.835,
+      "map_seed": 1738913124,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_049",
+      "size": 7,
+      "p": 0.928,
+      "map_seed": 1220972339,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_050",
+      "size": 7,
+      "p": 0.837,
+      "map_seed": 775509616,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_051",
+      "size": 8,
+      "p": 0.81,
+      "map_seed": 479298540,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_052",
+      "size": 4,
+      "p": 0.884,
+      "map_seed": 387288783,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_053",
+      "size": 4,
+      "p": 0.824,
+      "map_seed": 1936103006,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_054",
+      "size": 5,
+      "p": 0.815,
+      "map_seed": 863720559,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_055",
+      "size": 6,
+      "p": 0.751,
+      "map_seed": 1920711369,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_056",
+      "size": 5,
+      "p": 0.939,
+      "map_seed": 1338561805,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_057",
+      "size": 6,
+      "p": 0.755,
+      "map_seed": 1637993294,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_058",
+      "size": 8,
+      "p": 0.812,
+      "map_seed": 378235876,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_059",
+      "size": 8,
+      "p": 0.857,
+      "map_seed": 1859440831,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_060",
+      "size": 7,
+      "p": 0.876,
+      "map_seed": 1253842408,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_061",
+      "size": 8,
+      "p": 0.772,
+      "map_seed": 652233859,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_062",
+      "size": 6,
+      "p": 0.832,
+      "map_seed": 711555864,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_063",
+      "size": 8,
+      "p": 0.77,
+      "map_seed": 1768159808,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_064",
+      "size": 7,
+      "p": 0.908,
+      "map_seed": 18710222,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_065",
+      "size": 6,
+      "p": 0.899,
+      "map_seed": 877841469,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_066",
+      "size": 4,
+      "p": 0.868,
+      "map_seed": 386111583,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_067",
+      "size": 7,
+      "p": 0.863,
+      "map_seed": 13363213,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_068",
+      "size": 4,
+      "p": 0.885,
+      "map_seed": 2109138960,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_069",
+      "size": 6,
+      "p": 0.851,
+      "map_seed": 2136007259,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_070",
+      "size": 7,
+      "p": 0.78,
+      "map_seed": 27066220,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_071",
+      "size": 4,
+      "p": 0.766,
+      "map_seed": 105227930,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_072",
+      "size": 7,
+      "p": 0.909,
+      "map_seed": 974629122,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_073",
+      "size": 4,
+      "p": 0.773,
+      "map_seed": 953729966,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_074",
+      "size": 7,
+      "p": 0.828,
+      "map_seed": 1359997697,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_075",
+      "size": 5,
+      "p": 0.802,
+      "map_seed": 427773307,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_076",
+      "size": 7,
+      "p": 0.887,
+      "map_seed": 8138464,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_077",
+      "size": 7,
+      "p": 0.873,
+      "map_seed": 806871839,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_078",
+      "size": 5,
+      "p": 0.935,
+      "map_seed": 705812264,
+      "passes_filter": true
+    },
+    {
+      "mdp_id": "frozenlake_079",
+      "size": 7,
+      "p": 0.758,
+      "map_seed": 792962803,
+      "passes_filter": false
+    },
+    {
+      "mdp_id": "frozenlake_080",
+      "size": 4,
+      "p": 0.863,
+      "map_seed": 682023947,
+      "passes_filter": true
+    }
+  ],
+  "kernels_sha256": {
+    "frozenlake_000": "8b850c5318fa9b50ce47583cdd7700d4d676a02516f619b2affb616a528f210f",
+    "frozenlake_003": "0cd1b7dc2baed091681e0ea15a4a8c0c45f16a3d14ed3c458b4f0fe164e9c1a3",
+    "frozenlake_004": "56829043a310504e19cd7f5e77a8f6d834c118d399072c18828a0dd244cd7872",
+    "frozenlake_007": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_009": "34270c971a6d6e9ff4a03fd6d16baa4cb232fd78d9c1595d733b6511923a4428",
+    "frozenlake_012": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_014": "bbee4b544e3157f8852c0ac19e9427367bdba3c08478c40e4117a9cf72c4795e",
+    "frozenlake_017": "252bdb3f79facc6c4d12942e2eafa687d79e9ed61cd8a8ce242ccd80e0f8bbbf",
+    "frozenlake_018": "31887070c3dc7fe66e8779d11cbcea5701b2b71cbe0f79a52e66d8693c144399",
+    "frozenlake_019": "f939e5fb47159c6166a224b5c54738e8caab4aefc250f5daae2d41ad670a30c6",
+    "frozenlake_020": "8559a6081d9cd706ebc3c3adb5d694dee528f4aec5a691d3eddea2ec31ed5c15",
+    "frozenlake_023": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_025": "38c6c311f186ca91c2eea91a6348fb892abed716e06f2a41102ec69321c35724",
+    "frozenlake_027": "0be9c3b2b11104bfec4b795a981c273ec4bfe19d434aa4834536d5e1a9c30e12",
+    "frozenlake_030": "624f2f716d0134cfca4aee8c8f491472575384a552c3c47035b564cf40395f20",
+    "frozenlake_031": "b64fa96143a9f16ddfb0f1c279fdd3afb1293766680beee1e700f7489fb2d9ec",
+    "frozenlake_032": "2ae748abec0f8769c406611080b7a7ddab30638e566281461a786c25b3514eea",
+    "frozenlake_034": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_035": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_036": "fe9605a022bcc8db643c9cd73ac0a474dfd0b2744352a10a2cb0dd61ddf54168",
+    "frozenlake_037": "c2ee9a763fc4f27a000f4164fca014788663af086ef85e45eb312cf582d8b1da",
+    "frozenlake_038": "2816a19530260fa353e3d8d5af86eb755ffd82546af9f15e7dd73780cbeccd45",
+    "frozenlake_042": "12d736cd8f7989ae4502dfa0e8ba201e0dcbad35a2fe367e2664970386f02fcd",
+    "frozenlake_046": "ca7d006870fa9ba94f3ce33f4a250a7a1de09d69902a2a4f2e54b641a5c25bc7",
+    "frozenlake_048": "1d224fad9da0b9a0b4ef342a912d09f6500feef08db2a04800a9da0a7f3b85b2",
+    "frozenlake_049": "caa3327cf6da359877f590f7d54e28be868001f30df8bdf166991a24a7fd8b0d",
+    "frozenlake_052": "23e6759f1a5ff011bf63b82a9614ee90f6dddc9168b924e21a885c5ab19c7f0e",
+    "frozenlake_053": "37372b06f20857b8c2c6478d45c5094a59a813da571658b46b08a5d8c6a0187f",
+    "frozenlake_056": "50588fbe67a29975d7bfe0de3348e993959a9b02fccf029fe904115727acaafd",
+    "frozenlake_064": "c5aec9e0261d8e5e2012188f2182f80dc05e452cd11f36ad823274b7107f491d",
+    "frozenlake_068": "c99833765fe0858c9c99b13033d6ce2a94fd4fe0fa53e8224aabb9070fa0858e",
+    "frozenlake_071": "07d587580ec9e7c80aab7a59811a20ecee607fca50d6adf114afd6902c798aca",
+    "frozenlake_072": "74ce0c0328f522ee2f7cd0bf5e57e7af140bcef8350222fa85410af8a201b558",
+    "frozenlake_073": "2322f386cf2e0c7a70f2bbc82dc428e664d3ae590602ede8172071d4e5dcf7d6",
+    "frozenlake_078": "971428bfe928719c805ca5b4083b05fb0e9711fc192f694cd545c40fa7c9f357",
+    "frozenlake_080": "f480b193267e903dc46978c82d2068351a000a6fba92fe665d783df7841176a4"
+  },
+  "sha256": {
+    "datasets/oeh_fifth_panel_2026-10-15/frozenlake/manifest.json": "4e83dd4e0f8a6e176872b989e19af6fecb2225bc7627051c6a0067f6f18dfa1d",
+    "datasets/oeh_fifth_panel_2026-10-15/frozenlake/data_only_index.json": "a9f51ebb277ca4c588e15177b1cd9a5b042a5f1c74c65c96d0ad84dd6b44f4a9"
+  }
+}

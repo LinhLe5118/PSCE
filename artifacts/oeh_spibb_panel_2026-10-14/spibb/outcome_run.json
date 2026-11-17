@@ -1,0 +1,9 @@
+{
+  "jobs": 19440,
+  "seconds": 335.08371160016395,
+  "completed_at_utc": "2026-10-14T13:47:18.453928+00:00",
+  "preoutcome_seal_sha256": "bbcf1e398061888c9d541cd299b0d50af9c10b7d3625a5bb8edfbfc97f249991",
+  "mdps_with_expectile_fallback": 0,
+  "outcomes_sha256": "6046d1895cdffec99a49d56624a68d45ce9579eff5902c9bd9184c5523473ef6",
+  "labels_sha256": "521a6c6fab151de9316536927b001a9b76001eb02f09f948cc0d96e74c263b94"
+}

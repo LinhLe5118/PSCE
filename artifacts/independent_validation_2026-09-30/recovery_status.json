@@ -1,0 +1,7 @@
+﻿{
+    "phase":  "evaluating_direct",
+    "detail":  "Started sealed evaluate through elevated direct Python session after both launchers failed before job creation; original launcher failure artifacts retained.",
+    "session_id":  53489,
+    "at_utc":  "2026-09-30T18:12:01.8892222Z",
+    "choices_seal_sha256":  "66afe163e7e8f88c4cf00c66b8cf1752274ad35212d873986fb94c3a10aa4d4a"
+}

@@ -1,0 +1,689 @@
+{
+  "schema": "oeh-difficulty-confirmation-v2",
+  "status": "frozen_before_new_data_or_outcomes",
+  "namespace": "oeh-difficulty-independent-v2-20261001",
+  "requested_specs": [
+    {
+      "instance_id": "difficulty2_uniform_garnet_000",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 851153796,
+      "ordinal": 9,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_001",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1089121867,
+      "ordinal": 13,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_002",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 496656381,
+      "ordinal": 22,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_003",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 987107149,
+      "ordinal": 26,
+      "family_ordinal": 6
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_004",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 485411195,
+      "ordinal": 33,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_005",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 230576091,
+      "ordinal": 42,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_006",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 996143230,
+      "ordinal": 66,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_007",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 179227051,
+      "ordinal": 69,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_008",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 449157834,
+      "ordinal": 77,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_009",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1024218233,
+      "ordinal": 89,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_010",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 548773989,
+      "ordinal": 93,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_011",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 1004323842,
+      "ordinal": 97,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_012",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 123329513,
+      "ordinal": 102,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_013",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 521482919,
+      "ordinal": 113,
+      "family_ordinal": 28
+    },
+    {
+      "instance_id": "difficulty2_uniform_garnet_014",
+      "split": "evaluation",
+      "family": "uniform_garnet",
+      "seed": 124241417,
+      "ordinal": 117,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_000",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 689353227,
+      "ordinal": 4,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_001",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 853311183,
+      "ordinal": 7,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_002",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 375852999,
+      "ordinal": 24,
+      "family_ordinal": 7
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_003",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 139025271,
+      "ordinal": 27,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_004",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 931973108,
+      "ordinal": 31,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_005",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 769967253,
+      "ordinal": 34,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_006",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 724571545,
+      "ordinal": 38,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_007",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 828377261,
+      "ordinal": 47,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_008",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 584355957,
+      "ordinal": 64,
+      "family_ordinal": 19
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_009",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 190304000,
+      "ordinal": 67,
+      "family_ordinal": 20
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_010",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 216269502,
+      "ordinal": 71,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_011",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 733075163,
+      "ordinal": 74,
+      "family_ordinal": 22
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_012",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 948012709,
+      "ordinal": 80,
+      "family_ordinal": 24
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_013",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 114357723,
+      "ordinal": 84,
+      "family_ordinal": 25
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_014",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 351395072,
+      "ordinal": 87,
+      "family_ordinal": 26
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_015",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 322570782,
+      "ordinal": 98,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_016",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 837478874,
+      "ordinal": 107,
+      "family_ordinal": 32
+    },
+    {
+      "instance_id": "difficulty2_forward_layered_017",
+      "split": "evaluation",
+      "family": "forward_layered",
+      "seed": 889578503,
+      "ordinal": 118,
+      "family_ordinal": 35
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_000",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 826516015,
+      "ordinal": 3,
+      "family_ordinal": 0
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_001",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 996942118,
+      "ordinal": 16,
+      "family_ordinal": 2
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_002",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 755422663,
+      "ordinal": 23,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_003",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 406079748,
+      "ordinal": 30,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_004",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 194208393,
+      "ordinal": 36,
+      "family_ordinal": 5
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_005",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 143210353,
+      "ordinal": 63,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_006",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 1068634562,
+      "ordinal": 90,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_007",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 296457763,
+      "ordinal": 103,
+      "family_ordinal": 15
+    },
+    {
+      "instance_id": "difficulty2_bottleneck_008",
+      "split": "evaluation",
+      "family": "bottleneck",
+      "seed": 996245784,
+      "ordinal": 116,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_000",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 798289716,
+      "ordinal": 5,
+      "family_ordinal": 1
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_001",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 505814397,
+      "ordinal": 12,
+      "family_ordinal": 3
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_002",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 1064588142,
+      "ordinal": 15,
+      "family_ordinal": 4
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_003",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 957086525,
+      "ordinal": 28,
+      "family_ordinal": 8
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_004",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 742725484,
+      "ordinal": 32,
+      "family_ordinal": 9
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_005",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 909146480,
+      "ordinal": 35,
+      "family_ordinal": 10
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_006",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 775274898,
+      "ordinal": 39,
+      "family_ordinal": 11
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_007",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 449435862,
+      "ordinal": 45,
+      "family_ordinal": 13
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_008",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 122909223,
+      "ordinal": 48,
+      "family_ordinal": 14
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_009",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 733456424,
+      "ordinal": 55,
+      "family_ordinal": 16
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_010",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 807416895,
+      "ordinal": 59,
+      "family_ordinal": 17
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_011",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 468378595,
+      "ordinal": 61,
+      "family_ordinal": 18
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_012",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 878011976,
+      "ordinal": 72,
+      "family_ordinal": 21
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_013",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 584595987,
+      "ordinal": 79,
+      "family_ordinal": 23
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_014",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 570383067,
+      "ordinal": 92,
+      "family_ordinal": 27
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_015",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 832016069,
+      "ordinal": 99,
+      "family_ordinal": 29
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_016",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 566577432,
+      "ordinal": 101,
+      "family_ordinal": 30
+    },
+    {
+      "instance_id": "difficulty2_lock_structured_017",
+      "split": "evaluation",
+      "family": "lock_structured",
+      "seed": 114722200,
+      "ordinal": 108,
+      "family_ordinal": 32
+    }
+  ],
+  "family_counts": {
+    "uniform_garnet": 15,
+    "forward_layered": 18,
+    "bottleneck": 9,
+    "lock_structured": 18
+  },
+  "mdp_count": 60,
+  "primary_count": 42,
+  "pilot_multipliers": [
+    2,
+    5,
+    10
+  ],
+  "grid": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "training_seed_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "behavior_families": 5,
+  "core_methods": [
+    "behavior_cloning_tabular",
+    "cfqi_tabular",
+    "iql_tabular"
+  ],
+  "expected_jobs": 54000,
+  "target": "first complete suffix with at least 8/10 seeds at normalized return >=0.95; else >x50",
+  "candidate": "global E1-out-of-fold logloss-weighted blend of direct six-threshold OEH and original OEH+AFT",
+  "direct_weight": 0.3949538105369853,
+  "direct_features": [
+    "log_pilot_transitions",
+    "log_state_action_count",
+    "observed_sa_fraction",
+    "observed_state_fraction",
+    "normalized_visitation_entropy",
+    "log1p_min_positive_sa_count",
+    "trajectory_return_mean",
+    "trajectory_return_std",
+    "trajectory_return_iqr",
+    "terminal_trajectory_fraction",
+    "weighted_transition_entropy",
+    "observed_cell_transition_entropy",
+    "low_count_cell_fraction",
+    "empirical_stochastic_cell_fraction",
+    "low_coverage_entropy",
+    "high_coverage_entropy",
+    "bootstrap_return_mean_std",
+    "bootstrap_rare_exposure_mean_std",
+    "oeh3_log1p_requirement",
+    "oeh3_selected_qvi_fraction",
+    "oeh3_risk_at_pilot",
+    "oeh3_policy_instability",
+    "lcoeh4_risk_at_pilot",
+    "lcoeh4_contraction_rate",
+    "lcoeh4_pessimistic_return",
+    "lcoeh4_return_se",
+    "lcoeh4_validation_support_mass",
+    "lcoeh4_trajectory_independence_fraction"
+  ],
+  "aft_features": {
+    "coverage_adaptation": [
+      "log_state_action_count",
+      "log_pilot_transitions",
+      "observed_sa_fraction",
+      "observed_state_fraction"
+    ],
+    "quality_adaptation": [
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction"
+    ],
+    "coverage_quality_adaptation": [
+      "log_state_action_count",
+      "log_pilot_transitions",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction"
+    ],
+    "b2_generic": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std"
+    ],
+    "b2_plus_oeh": [
+      "log_pilot_transitions",
+      "log_state_action_count",
+      "observed_sa_fraction",
+      "observed_state_fraction",
+      "normalized_visitation_entropy",
+      "log1p_min_positive_sa_count",
+      "trajectory_return_mean",
+      "trajectory_return_std",
+      "trajectory_return_iqr",
+      "terminal_trajectory_fraction",
+      "weighted_transition_entropy",
+      "observed_cell_transition_entropy",
+      "low_count_cell_fraction",
+      "empirical_stochastic_cell_fraction",
+      "low_coverage_entropy",
+      "high_coverage_entropy",
+      "bootstrap_return_mean_std",
+      "bootstrap_rare_exposure_mean_std",
+      "oeh3_log1p_requirement",
+      "oeh3_selected_qvi_fraction",
+      "oeh3_risk_at_pilot",
+      "oeh3_policy_instability",
+      "lcoeh4_log1p_requirement",
+      "lcoeh4_requirement_censored",
+      "lcoeh4_risk_at_pilot",
+      "lcoeh4_contraction_rate",
+      "lcoeh4_pessimistic_return",
+      "lcoeh4_return_se",
+      "lcoeh4_validation_support_mass",
+      "lcoeh4_trajectory_independence_fraction"
+    ]
+  },
+  "fit": {
+    "direct": "same frozen binary XGBoost for six thresholds",
+    "aft": {
+      "objective": "survival:aft",
+      "eval_metric": "aft-nloglik",
+      "aft_loss_distribution": "normal",
+      "aft_loss_distribution_scale": 1.2,
+      "tree_method": "hist",
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "min_child_weight": 5,
+      "lambda": 1,
+      "seed": 20260930,
+      "nthread": 1,
+      "verbosity": 0
+    },
+    "rounds": 200
+  },
+  "comparators": [
+    "train_frequency",
+    "coverage_adaptation",
+    "quality_adaptation",
+    "coverage_quality_adaptation",
+    "b2_generic",
+    "b2_plus_oeh",
+    "oeh_blend"
+  ],
+  "primary_gate": "positive simultaneous one-sided 95% MDP-bootstrap lower bounds for five data-only baselines by two proper scores",
+  "bootstrap": {
+    "draws": 2000,
+    "seed": 20261001,
+    "method": "max studentized centered error over ten contrasts"
+  },
+  "controls": "reported separately; no control-based candidate selection",
+  "scope": "tabular adaptations of published data-quality ideas plus generic B2; no exact EH/TQ/SACo or literature-wide SOTA claim",
+  "e1_reuse": "meta-training/development only; any later 120-MDP analysis is descriptive",
+  "original_generator_sha256": "f66b0b2fd00a15bdc76bc3076bc1c74ec93a19cee49e39f1d881756f1ec04f7c",
+  "source_sha256": {
+    "scripts/analysis/confirm_oeh_difficulty.py": "ba9dec6417dd7b71a9120c84df16912d73d013b5f09562621940e95c56e821a5",
+    "scripts/analysis/develop_oeh_blend.py": "8ae6b18e534fd1b8c84a0ea80d4beb2e4fd75c82d591e5cf7a91d8a5e4d19d72",
+    "scripts/analysis/develop_oeh_difficulty.py": "9b55f3ac839201aa4453d5284a42ebcee748b372eb044bf8fc2928bd7b0f9a82",
+    "scripts/analysis/independent_difficulty.py": "c07b739450f8b872432d25f5f562c9cf25b8b89fb6c4410e927517fec34f9f1b",
+    "scripts/analysis/compare_difficulty.py": "8f3863b549ebb2fe0ef92e34ac74cf9346e9be1488d7ed5ec14c570ce04e727e",
+    "scripts/analysis/compare_e1_dataset_signals.py": "9e34f2423cd68f0b2bcf097a79d679857e7fb3dc5e5fa8e056de1385d9763da9",
+    "scripts/analysis/run_unseen_validation.py": "09830f39de1b1b52070db1eea0a9028c1e1e880074f6072e7e7432384f25c155",
+    "artifacts/difficulty_e1_posthoc_2026-09-30/labels.csv": "0b33cddb85add318650695853a54f65407841b74d66c29c30fdc1d6bbb0fc7fe",
+    "artifacts/week6/oehv4e_confirmatory_v1_1/pilot_features/features.csv": "16ad504f9875f4a4ff91e71e848471283aa80caaf2ce2615293385774a4f84c9",
+    "artifacts/oeh_difficulty_blend_development_2026-10-01/manifest.json": "ab2249fd762cd8a0306eea7cabc23af2f53947453a3cbcc9f42e7a141a67cf62",
+    "datasets/week6_e1_oehv4e_confirmatory_v1_1/manifest.json": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+    "tmp/oeh_development_2026-09-30/evaluation/e1_pipeline.py": "6c89d5c545197aa7bff068f67c22ae858d28d5103042b5f3dbef6a6f2ca1ae2c",
+    "tmp/oeh_development_2026-09-30/scripts/data/generate_offline_datasets.py": "6925435939b13496c313859837f49ec4a80996dbdacb01c5dc3b796b311ffbe3",
+    "tmp/oeh_development_2026-09-30/environments/benchmark_environments.py": "d874582eb2131647379654c9856e1dfb0e0c978625e692fe58e86a554c5e7296"
+  }
+}

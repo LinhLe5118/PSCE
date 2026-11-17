@@ -1,0 +1,26 @@
+{
+  "status": "FRESH_PANEL_METADATA_FROZEN_NO_LABELS",
+  "source": "https://zenodo.org/records/12556298",
+  "source_version": "v1.1.1",
+  "rule": "base Atari/Procgen; sticky S<=1200; H<=40; exclude all old development/test tasks; no outcome columns",
+  "task_names": [
+    "atlantis_10_fs30",
+    "atlantis_20_fs30",
+    "breakout_10_fs30",
+    "freeway_10_fs30",
+    "fruitbot_easy_l0_40_fs8",
+    "fruitbot_easy_l2_40_fs8",
+    "pong_20_fs30",
+    "qbert_10_fs30"
+  ],
+  "task_count": 8,
+  "old_split_sha256": "9dc1b0bda9cffe20661c19fa76e54026da87a73097fb1175e749226c47948a9c",
+  "source_metadata_md5": {
+    "summary.csv": "79259199613118464d36aad8d9b5867d",
+    "summary_sticky.csv": "eecc01108e0509c43b76c906883c7399"
+  },
+  "registry_sha256": "fa8942d18cf1e712571b75f995d1112b38cfa4b269bcb03af596d7a68c14c742",
+  "source_script_sha256": "d7f12b37e4f46350258788b0011a44e561331d96a2b21a47471e05d22bcf0df9",
+  "test_labels_read": false,
+  "warning": "Metadata candidate panel only; adapter, Markov/horizon equivalence, full OEH runtime and preoutcome seal still required before any labels."
+}

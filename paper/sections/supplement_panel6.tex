@@ -1,0 +1,28 @@
+\section{Test 3: MDP Playground and labmaze}
+\label{supp:panel6}
+\textbf{Design.} The protocol (\url{artifacts/oeh_panel6_2026-10-15/protocol.json}, SHA-256 \texttt{49c27071\ldots}) was committed before any data existed, after a reviewed draft and a dry run on 12 development MDPs per family that checked only that no class would exceed 80\% of the labels (largest class: 51\% and 59\%; no forecast scored). Data seeds start at 70{,}000{,}000 and 72{,}000{,}000; the 3{,}264 planned seeds overlap neither each other nor the 24{,}378 seeds of earlier panels. MDP Playground kernels are exported from the library and checked against its \texttt{step()} by exact binomial tests with a Bonferroni correction; labmaze provides layouts, and moves succeed with probability $p\sim U(0.7,0.95)$ (otherwise one of the other three directions), with a goal reward of 1. One amendment, approved before any data existed, changed a guard against earlier kernels to count files (884) instead of distinct signatures (749), because two earlier panels share one kernel set; it affects no candidate, rule, data, forecast or analysis. Fifteen methods were sealed with the forecasts, and TabPFN v2 was sealed separately before the label step, which ran only after an explicit authorization naming this panel. The refitted ensemble weights equal those of the sealed cohort-7 forecaster exactly. Median shift distances are 4.0 (MDP Playground; 71\% of groups at $d\ge3$) and 3.0 (labmaze; 50\%).
+
+\textbf{Labels.} Censored shares are 84\%, 22\% and 46\% for BC, CFQI and IQL on MDP Playground, and 82\%, 32\% and 66\% on labmaze.
+
+\begin{table}[t]
+\centering
+\caption{Test 3 by learner (IBS; lower is better; best per row in bold).}
+\label{tab:panel6-learner}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Family / learner & \OEH{} & OEH-F & Robust & B2 & B2 + prefix/FQE & LCE raw\\
+\midrule
+MDPP / BC & .0456 & .0477 & \textbf{.0328} & .1010 & .0393 & .0749\\
+MDPP / CFQI & .1971 & .1684 & .1984 & .2197 & .1993 & \textbf{.1391}\\
+MDPP / IQL & .1100 & .1150 & .1367 & .2015 & .1657 & \textbf{.0517}\\
+labmaze / BC & .0361 & \textbf{.0359} & .0485 & .1155 & .0479 & .0759\\
+labmaze / CFQI & \textbf{.1365} & .1392 & .1853 & .1834 & .1710 & .1543\\
+labmaze / IQL & \textbf{.0575} & .0580 & .0822 & .0990 & .0883 & .1579\\
+\bottomrule
+\end{tabular}}
+\end{table}
+
+\textbf{Descriptive comparisons.} Table~\ref{tab:panel6-learner} and Fig.~2 of the main text summarize the comparators. Pooled over 192 MDPs, the relative improvements of \OEH{} on the full endpoint (IBS / LL) are: B2 36.7\% / 19.9\%; B2 + prefix/FQE 18.1\% / 4.6\%; TabPFN v2 on B2 31.4\% / 13.5\%; robust head 14.8\% / 7.4\%; S4 8.0\% / 5.0\%; OEH-F $-3.3\%$ / $-3.6\%$; LCE raw 10.9\% (interval including zero) / 22.1\%; XGBoost-CF on the 108 OEH columns $-4.5\%$ / 24.8\%. In the Murphy decomposition averaged over the six thresholds, \OEH{} and OEH-F resolve about twice as much as B2 (0.120--0.128 against 0.056--0.063), while their reliability is worse than that of B2 and B2 + prefix/FQE on MDP Playground (0.031 against 0.021 and 0.016). Removing OEH-H from \OEH{} worsens the pooled IBS by $0.0048$ $[0.0023,0.0074]$, with an LL interval including zero. With $\tau=0.99$, a label variant registered descriptively, \OEH{} scores .0964 / .989 against .1254 / 1.102 for B2 + prefix/FQE and .1554 / 1.233 for B2.

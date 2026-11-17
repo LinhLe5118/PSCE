@@ -1,0 +1,38 @@
+\section{Theory and Robustness of OEH}
+\label{supp:v2}
+\textbf{Proposition 1 (consistency of the raw OEH-B law).} Assume that every state--action pair reachable under the logging behavior is visited infinitely often as the pilot grows, that the fitted Dirichlet concentration grows more slowly than the counts, that rewards are deterministic per key, that the learner's normalized return equals the 0.95 threshold with probability zero at every budget, and that the true MDP passes the dynamic-range filter with margin. Then, as the pilot grows and the number of posterior draws tends to infinity, the raw OEH-B class probabilities converge almost surely to the true requirement law of the learner. \emph{Sketch.} Each posterior row concentrates on its empirical frequencies, which converge to the true kernel; the class probability is the expectation of a bounded indicator that is continuous in the MDP at the true one; weak convergence of the posterior gives convergence of the posterior average, with Monte Carlo error $O_p(B^{-1/2})$. The statement concerns the law, not a single ten-seed label; at the pilot size $x10$ it is far from the asymptotic regime, and unobserved high rewards violate the deterministic-reward assumption at finite size, which is why a fitted head is used.
+
+\textbf{Proposition 2 (per-forecast bound of OEH).} Let $h_O=[(1-p_6)q_O,\,p_6]$ and $h_R=[(1-p_6)q_R,\,p_6]$. Since both share $p_6$, Eq.~(7) of the main text equals
+\begin{equation*}
+p^{\OEH}=(1-\varepsilon)(1-\lambda)\,h_O+(1-\varepsilon)\lambda\,h_R+\varepsilon\,\bar p_l,
+\end{equation*}
+with $\lambda=\lambda(d)$, $\varepsilon=\varepsilon(d)$ functions of the pilot only. For every outcome $y$ and every pilot, under any distribution shift: (i) for $L$ the log loss or the integrated Brier score, $L(p^{\OEH})\le(1-\varepsilon)(1-\lambda)L(h_O)+(1-\varepsilon)\lambda L(h_R)+\varepsilon L(\bar p_l)$; (ii) $-\log p^{\OEH}_y\le-\log(\varepsilon\,\bar p_{l,y})$, and for the censored class $-\log p^{\OEH}_6\le-\log p_6-\log(1-\varepsilon)$, at most $0.0203$ nat above the full head for $\varepsilon\le0.02$; (iii) for a finite class, $-\log p^{\OEH}_y\le-\log(1-\varepsilon)+\min\{-\log h_{O,y}-\log(1-\lambda),\,-\log h_{R,y}-\log\lambda\}$. \emph{Proof.} Both losses are convex in the probability vector (the cumulative probabilities in the Brier score are linear in it), so (i) is Jensen's inequality; (ii) and (iii) follow from $p^{\OEH}_y\ge\varepsilon\bar p_{l,y}$, $p^{\OEH}_y\ge(1-\varepsilon)(1-\lambda)h_{O,y}$ and $p^{\OEH}_y\ge(1-\varepsilon)\lambda h_{R,y}$. A numerical check is in \texttt{tests/test\_oeh\_v2.py}.
+
+Bound (ii) explains the only learner cells of the sealed test in which \OEH{} is significantly worse than the full head: on SPIBB-2 every BC and IQL row is censored, and \OEH{} loses 0.001 and 0.003 nat there.
+
+\textbf{Robustness of the sealed test (descriptive).} Table~\ref{tab:v2robust} reports per-panel gains of OEH with 95\% $t$ intervals over MDPs and the pooled external gain with one panel left out. A panel-stratified bootstrap of the pooled external contrasts gives the same intervals to the third decimal, and a log-loss floor of 0.01 instead of $10^{-12}$ changes no conclusion. The step-1 margin over the robust head (B2 + D) is carried by the forest panel; the step-2 margin over the full head is not.
+
+\begin{table}[t]
+\centering
+\caption{Gain of \OEH{} (positive favors \OEH{}), mean with 95\% interval.}
+\label{tab:v2robust}
+\footnotesize
+\setlength{\tabcolsep}{2pt}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+& \multicolumn{2}{c}{vs robust head} & \multicolumn{2}{c}{vs full head}\\
+Panel & IBS & LL & IBS & LL\\
+\midrule
+Internal & $.0021$ [$.0003,.0039$] & $.017$ [$.006,.028$] & $-.0001$ [$-.0006,.0004$] & $.000$ [$-.006,.006$]\\
+Colosseum 2029 & $.0074$ [$-.0055,.0204$] & $.040$ [$-.013,.094$] & $.0073$ [$.0036,.0111$] & $.118$ [$.063,.174$]\\
+SPIBB-2 & $.0001$ [$-.0007,.0009$] & $-.004$ [$-.013,.006$] & $-.0002$ [$-.0009,.0005$] & $-.006$ [$-.018,.006$]\\
+Forest & $.0697$ [$.0479,.0915$] & $.232$ [$.143,.321$] & $.0119$ [$.0071,.0166$] & $.150$ [$.092,.208$]\\
+\midrule
+Pooled external & $.0171$ [$.0100,.0241$] & $.060$ [$.032,.088$] & $.0047$ [$.0030,.0064$] & $.066$ [$.043,.090$]\\
+\quad without Colosseum & $.0215$ [$.0131,.0299$] & $.069$ [$.036,.102$] & $.0035$ [$.0018,.0053$] & $.042$ [$.020,.065$]\\
+\quad without SPIBB-2 & $.0323$ [$.0195,.0452$] & $.117$ [$.066,.167$] & $.0091$ [$.0062,.0121$] & $.131$ [$.091,.172$]\\
+\quad without forest & $.0030$ [$-.0022,.0082$] & $.014$ [$-.009,.036$] & $.0028$ [$.0012,.0045$] & $.044$ [$.019,.069$]\\
+\bottomrule
+\end{tabular}}
+\end{table}

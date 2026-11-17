@@ -1,0 +1,83 @@
+{
+  "artifact_manifest_sha256": "356d045754da2669d2e804d2a464b65e0be2d2e7e194cbd745c61e8e372b72a9",
+  "attempt_id": "r44",
+  "compile": {
+    "command": "python -m compileall -q config environments scripts code evaluation pilot tests paper",
+    "exit_code": 0
+  },
+  "confirmation": false,
+  "coverage": {
+    "branch": true,
+    "command": "python -m coverage report",
+    "exit_code": 0,
+    "percent": 82.91507546826696,
+    "required_minimum": 82
+  },
+  "exporter_sha256": "a7ee0bd05e76c3368f95ea6055acb626ebfca8b75b928d1f177b5e94840d6dde",
+  "full_suite": {
+    "command": "python -m coverage run -m scripts.testing.run_full_tests",
+    "exit_code": 0,
+    "passed": 887,
+    "runtime_seconds": 705.67,
+    "skipped": 0,
+    "subtests_passed": 357
+  },
+  "human_review": {
+    "R1": "pending",
+    "R2": "pending"
+  },
+  "input_archive_publication": "not_performed; automatic approval review rejected an unapproved 174MB original-input payload",
+  "new_mdps_generated": 0,
+  "original_manifest_sha256": "1b93d48cde5a5ab69a7d3a365e01583807df2876812ee338bd62227c260ec2de",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "prior_remote_failure": {
+    "failed_checks": 2,
+    "head_sha": "bb900157c09bf68c03f2d2b802dc7cfbc6211743",
+    "reason": "17_original_E1_inputs_are_not_distributed_in_Git",
+    "runs": [
+      36559198539,
+      36559193920
+    ],
+    "subtests_passed": 357,
+    "tests_passed": 887
+  },
+  "published_artifact_checks": {
+    "command": "python -m coverage run --append -m pytest -q tests/test_e1_upgrade_seals.py",
+    "exit_code": 0,
+    "passed": 2,
+    "runtime_seconds": 5.06,
+    "scope": "full_original_E1_CSV_and_manifest_audit_performed_locally_before_publication",
+    "skipped": 0,
+    "test_source_sha256_at_run": "293f440c48752388afa096c7055d1942910a5e4dc9bbb44d8effc100d69e4a69"
+  },
+  "published_bundle_checks": {
+    "command": "python -m pytest -q tests/test_e1_upgrade_seals.py",
+    "exit_code": 0,
+    "isolated_without_local_only_inputs": true,
+    "original_local_only_raw_files_read": false,
+    "passed": 2,
+    "runtime_seconds": 0.52,
+    "scope": "published_source_raw_bootstrap_reference_hash_records_6000_seed_grid_and_independent_aggregation",
+    "test_source_sha256": "dc32fa0a68c3fb14d491aa9d4510464c72a05f9567394250ea24604a7827132c"
+  },
+  "python": "3.12.7",
+  "remote_checks_recorded_at_commit": false,
+  "remote_checks_url": "https://github.com/LinhLe5118/Devoted/pull/44",
+  "remote_validation_scope": "published_bundle_and_unit_tests; full_original_input_byte_checks_local_only",
+  "scientific_source_hashes": {
+    "code/oeh_library_gains.py": "fbdc6a2096af31aeb87cfa532cad1ba2b0e5977d0202ef5c99d630cc0cd3d121",
+    "docs/protocol/OEH_LIBRARY_GAINS_R44_2026-09-29.json": "ba06d8e4ce433006d7d2b5380d56a6bbfc2c95085c20d0247b2ceef7562721a6",
+    "evaluation/e1_upgrade.py": "5be699e556564099b5fb8c56471565b8c9f3d5c44c3f7f5dfbdc9d1d2dcb4414",
+    "scripts/analysis/run_oeh_upgrade.py": "dcff73da4bd14f78c092bb14d6551a11ebd80631e7fa3cd587f1668d2c2d1100",
+    "tests/test_e1_upgrade.py": "e871cd82d0230d6594ceffdc3a7d077b166f1c0ce5ec7c4ded1d743f51fb5ad1",
+    "tests/test_oeh_library_gains.py": "14e88d65224c4f11e73ad39ccb119ee89ba7f51c355a04f51f44fa14892f7677"
+  },
+  "screen_pass": true,
+  "smoke": {
+    "behavior_families": 5,
+    "command": "python -m scripts.data.generate_offline_datasets --smoke-test",
+    "exit_code": 0,
+    "fixture_environments": 14,
+    "research_cohort_generated": false
+  }
+}

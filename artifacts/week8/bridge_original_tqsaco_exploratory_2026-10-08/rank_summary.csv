@@ -1,0 +1,7 @@
+algorithm,method,access,rows,mdps,defined_fraction,spearman_score_vs_harder_event,note
+behavior_cloning_tabular,"TQ original formula, authors' DQN reference",privileged_true_MDP_online_reference,55,11,0.7857142857142857,-0.482307549963488,"exploratory; scalar score, not a seven-class forecast"
+behavior_cloning_tabular,"SACo original formula, authors' replay reference",privileged_true_MDP_online_reference,70,14,1.0,0.16994238128711853,"exploratory; scalar score, not a seven-class forecast"
+cfqi_tabular,"TQ original formula, authors' DQN reference",privileged_true_MDP_online_reference,55,11,0.7857142857142857,-0.5553199273466,"exploratory; scalar score, not a seven-class forecast"
+cfqi_tabular,"SACo original formula, authors' replay reference",privileged_true_MDP_online_reference,70,14,1.0,-0.5045141240105858,"exploratory; scalar score, not a seven-class forecast"
+iql_tabular,"TQ original formula, authors' DQN reference",privileged_true_MDP_online_reference,55,11,0.7857142857142857,-0.5765303747031502,"exploratory; scalar score, not a seven-class forecast"
+iql_tabular,"SACo original formula, authors' replay reference",privileged_true_MDP_online_reference,70,14,1.0,0.12986994501014446,"exploratory; scalar score, not a seven-class forecast"

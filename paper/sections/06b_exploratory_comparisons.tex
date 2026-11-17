@@ -1,0 +1,21 @@
+\subsection{Exploratory Feature and Survival Comparisons}
+\label{sec:exploratory-comparisons}
+After the cohort-7 labels had been opened, we ran a same-head feature ablation on that cohort. It is \emph{exploratory}, even though this analysis wrote predictions before reading the labels again. Omitting direct OEH-B summaries leaves other posterior-dependent descriptors in place and is not a complete no-posterior experiment. Omitting OEH-H/risk improves BC's Brier point estimate ($0.01739$ versus $0.01888$ for OEH-F), while worsening CFQI ($0.07848$ versus $0.07739$) and IQL ($0.04303$ versus $0.04169$); paired MDP intervals for the isolated block change include zero. The result does not establish that every block is necessary. OEH-F's Brier is below matched B2 for all three learners in this opened-label analysis, at a higher measured forecast-runner time (261.5 versus 67.6 seconds); that timing excludes pilot collection and posterior feature construction.
+
+We also adapted the published XGBoost-CF discrete-time survival formulation \cite{kim2026survival} to the same seven-class requirement endpoint. Table~\ref{tab:survival} shows both an 18-feature pilot input and a 108-feature architecture control using the OEH descriptors. Both arms were chosen after these cohort labels were opened, so all intervals and scores are exploratory. OEH-F has lower Brier than the 18-feature arm for all learners, but the paired BC interval includes zero. With identical OEH descriptors, XGBoost-CF has a lower BC Brier point estimate than OEH ($0.01729$ versus $0.01888$), again with an interval crossing zero. Gains over generic features therefore cannot all be credited to the fitted OEH head. XGBoost-CF assigned zero probability to the observed class in some rows; the registered $10^{-12}$ log-loss floor strongly affects that metric, so Brier is reported alongside it. This is a published \emph{survival} method adapted by us, not an offline-RL forecasting method from the literature.
+
+\begin{table*}[t]
+\centering\small
+\caption{Exploratory seven-class forecast comparison on the opened 84-MDP stochastic panel. XGBoost-CF is a published survival formulation adapted to our target. The 108-feature arm reuses OEH descriptors and isolates the prediction-head choice. Brier/log loss; lower is better.}
+\label{tab:survival}
+\begin{tabular}{lcccccc}
+\toprule
+& \multicolumn{2}{c}{Full OEH} & \multicolumn{2}{c}{XGBoost-CF, 18 features} & \multicolumn{2}{c}{XGBoost-CF, 108 features}\\
+Learner & Brier & Log loss & Brier & Log loss & Brier & Log loss\\
+\midrule
+BC & 0.01888 & 0.17719 & 0.02470 & 0.27043 & \textbf{0.01729} & 0.21662\\
+CFQI & \textbf{0.07739} & \textbf{1.07747} & 0.09361 & 1.52866 & 0.08073 & 1.20638\\
+IQL & \textbf{0.04169} & \textbf{0.43458} & 0.05376 & 1.77331 & 0.04479 & 1.23418\\
+\bottomrule
+\end{tabular}
+\end{table*}

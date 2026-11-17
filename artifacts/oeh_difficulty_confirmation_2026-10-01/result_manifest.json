@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-09-30T19:57:14.711561+00:00",
+  "protocol_sha256": "b5bc0ecc0fc5917c902d181ebba87e1331b3b85d4f3a0893e8e550d3d6bca272",
+  "preoutcome_seal_sha256": "3fa86f25a9b3270a51ac9f01461a18b2f0d06703ccb0ee3d25de0db8c8381f4f",
+  "execution_plan_sha256": "6bae9f5215d1000eb94c404165bd5c1c86bd37799b188519495352862d41d415",
+  "jobs": 54000,
+  "mdps": 60,
+  "stochastic_primary_mdps": 42,
+  "simultaneous_critical_value": 2.34819527227039,
+  "difficulty_gate": "GO",
+  "scope": "tabular adaptations of published data-quality ideas plus generic B2; no exact EH/TQ/SACo or literature-wide SOTA claim",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "f53cf444e1e9cc5e9d2fa1dfaee423603b82c43e7e3d62fa1bee845d41cd2786",
+    "labels.csv": "d8edecb88eb9925b95329e34ec6d8cc6daa5f5f0a52a75c66e3bf3a1a269ec8f",
+    "scored_predictions.csv": "b6f6a5b1b300a9d75f89e65da1999f60b8b204962cae06fb873ab19d0650e481",
+    "mdp_scores.csv": "0b9cdf77b1f291908de79b77c7dd18c2c18b7bfa68770e90f9c573cf94a509d6",
+    "summary.csv": "b22135e56345b700cc89099ee16c260e00367ed445c93e7c78712f6f41c31f9e",
+    "contrasts.csv": "6176fca5a89c0cccd7f992d369fb81fae27583913807e8651b13e2f8592803cb"
+  }
+}

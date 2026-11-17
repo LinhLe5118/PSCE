@@ -1,0 +1,68 @@
+{
+  "status": "ALL_PANELS_COMMON_METRIC_VERIFIED",
+  "metric": "mean of six cumulative squared errors; seven-class negative log probability",
+  "output": {
+    "summary_sha256": "4d44adf0639107eafb2834c31748fe34f25982b8f91e99b39d5e3d02a47813ef",
+    "paired_sha256": "d9e46885bc414b73f8d3d18b6b8bd566e9f7d8f1e5e9ca3532da6ee559dd844e",
+    "report_sha256": "049094bd10f1b41322666d694e3b5ede7d20780d0a474efe3ca36161d288b9f1"
+  },
+  "source": [
+    {
+      "panel": "internal120_stochastic_primary",
+      "manifest_sha256": "63f8e5b281d07e83a2a0ef24fe7ec237074a9da83b7b0f0d54239dd344dbdd15",
+      "scored_sha256": "7cc579e67ad09ca9edab75097b33af1d5689fe0112eba82c3d7e61e9da43d63a",
+      "tasks": 84,
+      "freshness": "preoutcome_sealed_within_generator",
+      "verified_source_chain": [
+        "protocol.json",
+        "preoutcome_seal.json",
+        "labels.csv",
+        "artifacts\\week8\\published_xgboost_cf_120_exploratory_2026-10-08\\scored.csv",
+        "artifacts\\week8\\published_xgboost_cf_120_full108_architecture_2026-10-08\\scored.csv"
+      ]
+    },
+    {
+      "panel": "bridge_fresh_atari_5",
+      "manifest_sha256": "2318bac9d2b567917403bce3436afbcd8aa8c3c93bfafb13a9a0a3857cebb026",
+      "scored_sha256": "ee1d763debf89cc47046585c57d466eb65ff9d72b4d7c5dacd7ecc90d04e0cb2",
+      "tasks": 5,
+      "freshness": "prelabel_sealed_new_published_mdps",
+      "verified_source_chain": [
+        "benchmarks\\bridge\\fresh_panel_2026-10-08\\protocol.json",
+        "benchmarks\\bridge\\fresh_panel_2026-10-08\\prelabel_seal.json",
+        "artifacts\\week8\\bridge_fresh_test_labels_2026-10-08\\manifest.json",
+        "artifacts\\week8\\bridge_fresh_test_labels_2026-10-08\\labels.csv"
+      ]
+    },
+    {
+      "panel": "bridge_expanded_prospective_5",
+      "manifest_sha256": "aedb4cb75044a0e33048cbc4a0aa7f2860884036fcc113f14b9b3793a4d024cd",
+      "scored_sha256": "107bc789e05873da1a072d70783393af6434be56bef5e52512942abfd150fa0f",
+      "tasks": 5,
+      "freshness": "separate_followup_prelabel_seal",
+      "verified_source_chain": [
+        "benchmarks\\bridge\\expanded_panel_2026-10-08\\protocol.json",
+        "benchmarks\\bridge\\expanded_panel_2026-10-08\\prelabel_seal.json",
+        "artifacts\\week8\\bridge_expanded_test_labels_2026-10-08\\manifest.json",
+        "artifacts\\week8\\bridge_expanded_test_labels_2026-10-08\\labels.csv"
+      ]
+    },
+    {
+      "panel": "bridge_opened_minigrid_14_exploratory",
+      "manifest_sha256": "183ddbf163981e5154b50bb12cb0112486787dcc8011db096a5028b3b3bcf890",
+      "scored_sha256": "41470411d663badc8abfbc919ee152b431fa45b760fa4f6533cc39c437bee79f",
+      "tasks": 14,
+      "freshness": "post_outcome_exploratory",
+      "verified_source_chain": [
+        "artifacts\\week8\\bridge_opened_minigrid_full_forecast_exploratory_2026-10-09\\manifest.json",
+        "artifacts\\week8\\bridge_b2_forecast_preoutcome_2026-10-07\\manifest.json",
+        "artifacts\\week8\\bridge_reduced_forecast_preoutcome_2026-10-07\\manifest.json",
+        "artifacts\\week8\\bridge_reduced_test_labels_2026-10-07\\manifest.json",
+        "artifacts\\week8\\bridge_reduced_test_labels_2026-10-07\\labels.csv"
+      ]
+    }
+  ],
+  "missing": [],
+  "panel_aggregation": "separate; no pooled BRIDGE confirmatory claim",
+  "source_script_sha256": "7066305bfe9237347e64e5b45539be2ac406eb9c76271973ca16241ea83bc568"
+}

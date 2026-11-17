@@ -1,0 +1,23 @@
+{
+  "status": "EXPANDED_RESOURCE_SMOKE_NO_LABELS",
+  "mdp_id": "MiniGrid-Empty-16x16-v0",
+  "policy_family": "structured_random",
+  "states": 2296,
+  "actions": 3,
+  "horizon": 100,
+  "pilot_nonzero_rewards": 0,
+  "pilot_seconds_including_adapter_and_behavior": 66.29930810001679,
+  "one_draw_one_seed_seconds": 8.666860900004394,
+  "observed_output_shape": [
+    0,
+    1,
+    6,
+    3
+  ],
+  "methodology": "Not a valid 64-draw timing estimate; report only as lower-bound resource probe",
+  "source_sha256": {
+    "script": "da991e4984300373a706221194a53d65df6f0d27f43d88658647e40da37b41b6",
+    "npz": "a361150641f0b2591f8c78ab6a0f3b399c8c2782b2d08904fb2a1b5d2659046e"
+  },
+  "test_labels_read": false
+}

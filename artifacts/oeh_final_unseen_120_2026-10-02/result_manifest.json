@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "completed_at_utc": "2026-10-02T20:59:43.096613+00:00",
+  "protocol_sha256": "7049647f10ed022ada448de389ecdf33c0fc266ed96fe46614bef406e9c31413",
+  "preoutcome_seal_sha256": "6c7018fbed45855a9ae2a1f8c5452807ba96bb1e387e512bdda6f738a4214951",
+  "execution_plan_sha256": "35c6e6935316efe0451deb567a731de5481ed4395a8bcf218f2c4551ed01d54d",
+  "jobs": 108000,
+  "mdps": 120,
+  "stochastic_primary_mdps": 84,
+  "simultaneous_critical_value": 2.5315284416844275,
+  "difficulty_gate": "NO-GO",
+  "scope": "new untouched kernels; six opened cohorts are meta-training only; EH is an oracle descriptor, not the published online theorem",
+  "artifact_sha256": {
+    "all_core_budget_seed_outcomes.csv": "e940bc2d9edc4c75dc84526a5887b1b91cb5e098b7f9f3f3c304ffbcc4e704ad",
+    "labels.csv": "735061c4b39558522a9fc96a409417016eb16a6ca5e14aeea557acd153c6a8b6",
+    "scored_predictions.csv": "27d5f3fcbe7b736e9785c937cee7515fdaef6e253b6dbab77c5c9a5958370dc8",
+    "mdp_scores.csv": "a2a6167abe0951d1a28214fd25bec176b1085db4677d9dd735a3fb52f7c4fbe5",
+    "summary.csv": "ac50971e0610b880c3f04024b23de70c5084226bd7a9f64415d73ed17b964eba",
+    "contrasts.csv": "d96d9f8044315b83f7c2876c0dd8f3aa69e54b4ecf9d4e9b036d7824be3e8719"
+  },
+  "tier_verdicts": {
+    "tier1": "GO",
+    "tier2": "NO-GO",
+    "all_comparators": "NO-GO"
+  },
+  "selection_gate": "NO-GO",
+  "selection": {
+    "best_fixed": "fixed:cfqi_tabular",
+    "critical": 2.203517593112442,
+    "gate": "NO-GO",
+    "choice_counts": {
+      "cfqi_tabular": 388,
+      "discrete_bcq_author": 23,
+      "vi_lcb_cb005_author_empirical": 4,
+      "discrete_cql_d3rlpy": 4,
+      "iql_tabular": 1
+    }
+  },
+  "horizon_study_rows": 30
+}

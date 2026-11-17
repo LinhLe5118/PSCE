@@ -1,0 +1,34 @@
+{
+  "status": "development_draws_only",
+  "rule": "stop before freeze if the most frequent class holds more than 80% of a family's labels (fixed before the run)",
+  "mdps_per_family": 12,
+  "dev_seed": 1,
+  "degenerate_families": [],
+  "verdict": "PROCEED",
+  "versions": {
+    "mdpp": {
+      "python": "3.12.7",
+      "numpy": "2.5.4",
+      "mdp_playground": "1.0.0",
+      "labmaze": "1.0.6",
+      "gymnasium": "1.4.0"
+    },
+    "labmaze": {
+      "python": "3.12.7",
+      "numpy": "2.5.4",
+      "mdp_playground": "1.0.0",
+      "labmaze": "1.0.6",
+      "gymnasium": "1.4.0"
+    }
+  },
+  "created_utc": "2026-10-15T14:08:00.468430+00:00",
+  "forecasts_scored": 0,
+  "outputs_sha256": {
+    "labels.csv": "602960bf33104b6baa698c998e45d8d28a33f1a19a6adda1cb944e4a6f7a027b",
+    "class_shares.csv": "04ab4e4abaa849b78e5431f61e448b87bdcca203c45899ccda211dc44bf8f31c",
+    "class_counts_by_learner.csv": "ebd6859c17e226423eccd7aab8fe7dc789b9ef5c1a99c576580c881ce9175d12"
+  },
+  "source_sha256": {
+    "scripts/analysis/run_oeh_panel6_20261015.py": "2419610acb776869a166fc1104e205a424ee35325e10cd0b67bd9db274e990f3"
+  }
+}
