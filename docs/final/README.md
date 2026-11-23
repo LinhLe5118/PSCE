@@ -5,7 +5,7 @@ kept unchanged under the evidence rules.
 
 Read in this order:
 
-1. [METHOD.md](METHOD.md): the problem, the label, the baseline B2 and the six blocks of OEH with their frozen settings.
+1. [METHOD.md](METHOD.md): the problem, the label, the Baseline and the six blocks of OEH with their frozen settings.
 2. [DATA.md](DATA.md): the sources, behavior policies and collection steps, and how the data are split between
    meta-training, development and the final tests.
 3. [FINAL_TESTS.md](FINAL_TESTS.md): protocols, seals, amendments and registered results of the three final tests, and

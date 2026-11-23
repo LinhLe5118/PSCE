@@ -25,14 +25,14 @@ SOURCES = {"internal": "project generator (new MDPs)", "colosseum2029": "Colosse
 DESIGN = {
     "Test 1": ("Fixed sequence of three steps; a step is tested only if the previous one passed. Step 1: OEH against the "
                "robust head on the pooled external MDPs. Step 2: OEH against the full head, at most 2% worse inside the "
-               "generator and better outside it. Step 3: OEH against B2, XGBoost-CF/18, LCE, B2 + LCE, CB and B2 + CB, "
+               "generator and better outside it. Step 3: OEH against the Baseline, XGBoost-CF/18, LCE, Baseline + LCE, CB and Baseline + CB, "
                "inside and outside the generator. Scores: IBS and LL over all budgets."),
     "Test 2": ("Registered after Test 1 on two sources that played no part in development, although the Gymnasium "
                "FrozenLake maps resemble the Colosseum FrozenLake grids used in development. One family: OEH against the "
                "robust head on the 72 pooled MDPs, IBS and LL over all budgets."),
     "Test 3": ("Registered after Test 2 with new questions only; the contrast that failed in Test 2 is not tested again. "
                "Scores on the budgets from the pilot size up (IBS≥ and LLext). Fixed sequence: F1, OEH against "
-               "B2 + prefix/FQE; F2, OEH against B2. F3 estimates the regret of the registered budget decision against both, "
+               "Baseline + prefix/FQE; F2, OEH against the Baseline. F3 estimates the regret of the registered budget decision against both, "
                "with no pass rule."),
 }
 
@@ -95,12 +95,12 @@ def build() -> str:
                       f"(status: {a['status']}{when}). Problem: {a.get('problem', a.get('reason', '')).rstrip('.')}. "
                       f"Change: {a['change'].rstrip('.')}.", ""]
     results = {test: load_json(ART / t["folder"] / "result.json") for test, t in TESTS.items()}
-    lines += ["## Registered results", "", *registered_table(results), "",
+    lines += ["## Registered results", "", *[row.replace(" vs B2", " vs Baseline") for row in registered_table(results)], "",
               "## What the evidence supports", "",
-              "- Against generic pilot statistics (B2, the same heads on the 18 statistics), OEH is better in the registered "
-              "comparisons of Test 1 and Test 3. On Test 2 its log loss is lower than B2's, but that comparison was not "
+              "- Against generic pilot statistics (the Baseline, the same heads on the 18 statistics), OEH is better in the registered "
+              "comparisons of Test 1 and Test 3. On Test 2 its log loss is lower than the Baseline's, but that comparison was not "
               "registered there and its IBS difference cannot be separated from zero.",
-              "- Against the strongest baseline that also uses pilot diagnostics (the robust head), the advantage depends on "
+              "- Against the strongest baseline that also uses pilot learning curves (the robust head), the advantage depends on "
               "the source: Test 1 passed, with most of its margin from the forest model; Test 2 did not pass.",
               "- On Test 3, the full head alone, without the gate, scored better than OEH (descriptive, not registered).",
               "- Every MDP is small and tabular (at most 256 state–action pairs); each label is itself estimated from ten "

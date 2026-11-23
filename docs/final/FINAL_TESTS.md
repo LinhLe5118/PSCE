@@ -17,7 +17,7 @@ Every test uses the same frozen method: the specification [`oeh_v2_spec.json`](.
 
 Folder: [`artifacts/oeh_v2_sealed_test_2026-10-14`](../../artifacts/oeh_v2_sealed_test_2026-10-14/). Bootstrap seed 20261101.
 
-Fixed sequence of three steps; a step is tested only if the previous one passed. Step 1: OEH against the robust head on the pooled external MDPs. Step 2: OEH against the full head, at most 2% worse inside the generator and better outside it. Step 3: OEH against B2, XGBoost-CF/18, LCE, B2 + LCE, CB and B2 + CB, inside and outside the generator. Scores: IBS and LL over all budgets.
+Fixed sequence of three steps; a step is tested only if the previous one passed. Step 1: OEH against the robust head on the pooled external MDPs. Step 2: OEH against the full head, at most 2% worse inside the generator and better outside it. Step 3: OEH against the Baseline, XGBoost-CF/18, LCE, Baseline + LCE, CB and Baseline + CB, inside and outside the generator. Scores: IBS and LL over all budgets.
 
 | Source | MDPs | Cases | Forecasts sealed | Labels opened |
 |---|---:|---:|---|---|
@@ -49,7 +49,7 @@ Protocol frozen 2026-10-15 03:48 UTC (SHA-256 `ba8f1babaa59…`); registered ana
 
 Folder: [`artifacts/oeh_panel6_2026-10-15`](../../artifacts/oeh_panel6_2026-10-15/). Bootstrap seed 20261216.
 
-Registered after Test 2 with new questions only; the contrast that failed in Test 2 is not tested again. Scores on the budgets from the pilot size up (IBS≥ and LLext). Fixed sequence: F1, OEH against B2 + prefix/FQE; F2, OEH against B2. F3 estimates the regret of the registered budget decision against both, with no pass rule.
+Registered after Test 2 with new questions only; the contrast that failed in Test 2 is not tested again. Scores on the budgets from the pilot size up (IBS≥ and LLext). Fixed sequence: F1, OEH against Baseline + prefix/FQE; F2, OEH against the Baseline. F3 estimates the regret of the registered budget decision against both, with no pass rule.
 
 | Source | MDPs | Cases | Forecasts sealed | Labels opened |
 |---|---:|---:|---|---|
@@ -71,43 +71,43 @@ Amendment [`amendments/A1_2026-10-15_guard_count.json`](../../artifacts/oeh_pane
 | Test 1 | step 2 | OEH vs full head, internal noninferiority | LL | +0.0115 | +0.0045 | GO |
 | Test 1 | step 2 | OEH vs full head, external | IBS | +0.0047 | +0.0028 | GO |
 | Test 1 | step 2 | OEH vs full head, external | LL | +0.0662 | +0.0398 | GO |
-| Test 1 | step 3 | OEH vs B2, internal | IBS | +0.0089 | +0.0046 | GO |
-| Test 1 | step 3 | OEH vs B2, internal | LL | +0.0512 | +0.0294 | GO |
+| Test 1 | step 3 | OEH vs Baseline, internal | IBS | +0.0089 | +0.0046 | GO |
+| Test 1 | step 3 | OEH vs Baseline, internal | LL | +0.0512 | +0.0294 | GO |
 | Test 1 | step 3 | OEH vs XGBoost-CF/18, internal | IBS | +0.0120 | +0.0074 | GO |
 | Test 1 | step 3 | OEH vs XGBoost-CF/18, internal | LL | +0.5594 | +0.3428 | GO |
 | Test 1 | step 3 | OEH vs LCE, internal | IBS | +0.0604 | +0.0449 | GO |
 | Test 1 | step 3 | OEH vs LCE, internal | LL | +0.6343 | +0.5185 | GO |
-| Test 1 | step 3 | OEH vs B2 + LCE, internal | IBS | +0.0069 | +0.0028 | GO |
-| Test 1 | step 3 | OEH vs B2 + LCE, internal | LL | +0.0348 | +0.0134 | GO |
+| Test 1 | step 3 | OEH vs Baseline + LCE, internal | IBS | +0.0069 | +0.0028 | GO |
+| Test 1 | step 3 | OEH vs Baseline + LCE, internal | LL | +0.0348 | +0.0134 | GO |
 | Test 1 | step 3 | OEH vs CB, internal | IBS | +0.0441 | +0.0327 | GO |
 | Test 1 | step 3 | OEH vs CB, internal | LL | +0.2419 | +0.1939 | GO |
-| Test 1 | step 3 | OEH vs B2 + CB, internal | IBS | +0.0084 | +0.0043 | GO |
-| Test 1 | step 3 | OEH vs B2 + CB, internal | LL | +0.0444 | +0.0238 | GO |
-| Test 1 | step 3 | OEH vs B2, external | IBS | +0.0401 | +0.0259 | GO |
-| Test 1 | step 3 | OEH vs B2, external | LL | +0.1827 | +0.1231 | GO |
+| Test 1 | step 3 | OEH vs Baseline + CB, internal | IBS | +0.0084 | +0.0043 | GO |
+| Test 1 | step 3 | OEH vs Baseline + CB, internal | LL | +0.0444 | +0.0238 | GO |
+| Test 1 | step 3 | OEH vs Baseline, external | IBS | +0.0401 | +0.0259 | GO |
+| Test 1 | step 3 | OEH vs Baseline, external | LL | +0.1827 | +0.1231 | GO |
 | Test 1 | step 3 | OEH vs XGBoost-CF/18, external | IBS | +0.0457 | +0.0297 | GO |
 | Test 1 | step 3 | OEH vs XGBoost-CF/18, external | LL | +0.3187 | +0.1879 | GO |
 | Test 1 | step 3 | OEH vs LCE, external | IBS | +0.0293 | +0.0101 | GO |
 | Test 1 | step 3 | OEH vs LCE, external | LL | +0.2445 | +0.1282 | GO |
-| Test 1 | step 3 | OEH vs B2 + LCE, external | IBS | +0.0171 | +0.0088 | GO |
-| Test 1 | step 3 | OEH vs B2 + LCE, external | LL | +0.0867 | +0.0478 | GO |
+| Test 1 | step 3 | OEH vs Baseline + LCE, external | IBS | +0.0171 | +0.0088 | GO |
+| Test 1 | step 3 | OEH vs Baseline + LCE, external | LL | +0.0867 | +0.0478 | GO |
 | Test 1 | step 3 | OEH vs CB, external | IBS | +0.0512 | +0.0357 | GO |
 | Test 1 | step 3 | OEH vs CB, external | LL | +0.3866 | +0.3087 | GO |
-| Test 1 | step 3 | OEH vs B2 + CB, external | IBS | +0.0322 | +0.0206 | GO |
-| Test 1 | step 3 | OEH vs B2 + CB, external | LL | +0.1421 | +0.0954 | GO |
+| Test 1 | step 3 | OEH vs Baseline + CB, external | IBS | +0.0322 | +0.0206 | GO |
+| Test 1 | step 3 | OEH vs Baseline + CB, external | LL | +0.1421 | +0.0954 | GO |
 | Test 2 | single family | OEH vs robust head | IBS | -0.0017 | -0.0067 | NO-GO |
 | Test 2 | single family | OEH vs robust head | LL | +0.0117 | -0.0196 | NO-GO |
-| Test 3 | F1 | OEH vs B2 + prefix/FQE | IBS≥ | +0.0315 | +0.0247 | GO |
-| Test 3 | F1 | OEH vs B2 + prefix/FQE | LLext | +0.1034 | +0.0808 | GO |
-| Test 3 | F2 | OEH vs B2 | IBS≥ | +0.0714 | +0.0616 | GO |
-| Test 3 | F2 | OEH vs B2 | LLext | +0.2322 | +0.2025 | GO |
-| Test 3 | F3 | OEH vs B2 + prefix/FQE | regret | +2.6125 | +1.2854 | estimate, no pass rule |
-| Test 3 | F3 | OEH vs B2 | regret | +7.9097 | +6.1332 | estimate, no pass rule |
+| Test 3 | F1 | OEH vs Baseline + prefix/FQE | IBS≥ | +0.0315 | +0.0247 | GO |
+| Test 3 | F1 | OEH vs Baseline + prefix/FQE | LLext | +0.1034 | +0.0808 | GO |
+| Test 3 | F2 | OEH vs Baseline | IBS≥ | +0.0714 | +0.0616 | GO |
+| Test 3 | F2 | OEH vs Baseline | LLext | +0.2322 | +0.2025 | GO |
+| Test 3 | F3 | OEH vs Baseline + prefix/FQE | regret | +2.6125 | +1.2854 | estimate, no pass rule |
+| Test 3 | F3 | OEH vs Baseline | regret | +7.9097 | +6.1332 | estimate, no pass rule |
 
 ## What the evidence supports
 
-- Against generic pilot statistics (B2, the same heads on the 18 statistics), OEH is better in the registered comparisons of Test 1 and Test 3. On Test 2 its log loss is lower than B2's, but that comparison was not registered there and its IBS difference cannot be separated from zero.
-- Against the strongest baseline that also uses pilot diagnostics (the robust head), the advantage depends on the source: Test 1 passed, with most of its margin from the forest model; Test 2 did not pass.
+- Against generic pilot statistics (the Baseline, the same heads on the 18 statistics), OEH is better in the registered comparisons of Test 1 and Test 3. On Test 2 its log loss is lower than the Baseline's, but that comparison was not registered there and its IBS difference cannot be separated from zero.
+- Against the strongest baseline that also uses pilot learning curves (the robust head), the advantage depends on the source: Test 1 passed, with most of its margin from the forest model; Test 2 did not pass.
 - On Test 3, the full head alone, without the gate, scored better than OEH (descriptive, not registered).
 - Every MDP is small and tabular (at most 256 state–action pairs); each label is itself estimated from ten runs on a grid of six budgets.
 - The ablation, net-cost, learner-level and calibration analyses were run after the labels were opened; they are post hoc. `python -m scripts.reproduce` recomputes them.

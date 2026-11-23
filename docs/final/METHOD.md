@@ -21,23 +21,24 @@ This page describes the final method as frozen on 14/10/2026 and used in the thr
 
 ## Baseline and the idea of OEH
 
-The baseline **B2** describes the pilot by 18 generic statistics and turns them into a forecast with the same
-forecasting head as OEH. B2 and the full head of OEH therefore differ only in their inputs. B2 leaves three gaps:
+The **Baseline** (called B2 in older records) describes the pilot by 18 generic statistics and turns them into a
+forecast with the same forecasting head as OEH. The Baseline and the full head of OEH therefore differ only in their
+inputs. The Baseline leaves three gaps:
 its statistics describe the log, not how a particular learner reacts to it; a small pilot leaves much of the MDP
 unseen; and a fitted forecaster can be unreliable on pilots unlike its training data. OEH adds evidence obtained by
 **running the learner itself**, in MDPs sampled from a posterior fitted to the pilot and on parts of the pilot, a
-planning-risk measure adapted from the effective horizon of Laidlaw et al. (2023), and a gate for unfamiliar pilots.
+logged-data version of the effective horizon of Laidlaw et al. (2023), and a gate for unfamiliar pilots.
 
 ## The six blocks
 
 | Block | Input | Output | Builds on |
 |---|---|---|---|
-| 1. Generic statistics (B2) | pilot | 18 statistics (group G1) | trajectory quality and state–action coverage (Schweighofer et al., 2022), trajectory bootstrap |
-| 2. Learner simulation | pilot, learner | class distribution of the learner in sampled MDPs (G2, G3, G6) | posterior predictive distribution (Gelman et al.) |
-| 3. Planning risk | posterior mean model | offline horizon `h_H` and risk profiles (G4, G5) | effective horizon (Laidlaw et al., 2023, 2024) |
-| 4. Pilot diagnostics | pilot | action-identification risk and cross-fitted learner diagnostics (G7, G8) | empirical Bernstein bound; learning-curve extrapolation |
+| 1. Generic statistics | pilot | 18 statistics (group G1) | trajectory quality and state–action coverage (Schweighofer et al., 2022), trajectory bootstrap |
+| 2. Sampled-MDP training | pilot, learner | class distribution of the learner in sampled MDPs (G2, G3, G6) | posterior predictive distribution (Gelman et al.) |
+| 3. Effective horizon | posterior mean model | offline horizon `h_H` and risk profiles (G4, G5) | effective horizon (Laidlaw et al., 2023, 2024) |
+| 4. Pilot learning curve | pilot | cross-fitted learning curve of each learner and action-identification risk (G7, G8) | empirical Bernstein bound; learning-curve extrapolation |
 | 5. Forecasting heads | 108 features | full head `p`, finite-only head `qO`, robust head `qR` | XGBoost AFT, ordinal threshold models, stacking |
-| 6. Shift gate | heads, distance `d` | final forecast | nearest-neighbor outlier score, dataset shift |
+| 6. Novelty gate | heads, distance `d` | final forecast | nearest-neighbor outlier score, dataset shift |
 
 **Block 1.** Size and coverage (6), trajectory return (4), transition randomness (6) and two trajectory-bootstrap
 spreads with 200 replicates. Coverage is normalized by `|S||A|`, which is public, instead of by reference datasets.
@@ -61,7 +62,7 @@ number of transitions on a logarithmic scale, not a number of lookahead steps.
 **Block 4.** Without any fitted model: an action-identification risk from the empirical Bernstein inequality in the
 empirical model of the pilot (4 features), and the learner cross-fitted on five folds of the pilot prefixes `x2`,
 `x5`, `x10` and scored on the held-out fold, summarized by a power law of the shortfall (6 features per learner).
-Each case also carries the diagnostics of the other learners.
+Each case also carries the learning curves of the other learners.
 
 **Block 5.** A head averages three XGBoost models (200 rounds each): an accelerated-failure-time model with normal
 errors and scale 1.2 on interval-censored budgets (depth 2, learning rate 0.05, minimum child weight 5); six binary
@@ -71,7 +72,7 @@ the cases of an MDP together. The **full head** uses all 108 features on all met
 head** uses them on the cases with a finite label; the **robust head** uses the 46 features of groups G1, G7 and G8.
 Each head is fitted separately for each learner.
 
-**Block 6.** `d` is the mean distance of the pilot's standardized B2 statistics to its ten nearest meta-training
+**Block 6.** `d` is the mean distance of the pilot's standardized generic statistics to its ten nearest meta-training
 cases. The forecast is
 
 ```
