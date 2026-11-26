@@ -1,6 +1,6 @@
 # PSCE: estimating the sample complexity of an offline RL learner before training
 
-This repository accompanies the article *Quantifying Data Efficiency in Offline RL: Estimating Sample Complexity Prior to Policy Training* by Thi Hai Linh Le, Trong Hung Do, Quoc Viet Nguyen, Quoc Viet Tran and Duy Hung Phan (FPT University, 2026). It contains the method, the data, the sealed evidence of the three final tests and the command that reproduces the results (release v1.1; v1.1 renames the method's parts in the documentation, and the code and data are those of v1.0).
+This repository accompanies the article *Quantifying Data Efficiency in Offline RL: Estimating Sample Complexity Prior to Policy Training* by Thi Hai Linh Le, Trong Hung Do, Quoc Viet Nguyen, Quoc Viet Tran and Duy Hung Phan (FPT University, 2026). It contains the method, the data, the sealed evidence of the three final tests and the command that reproduces the results (release v1.2; v1.1 and v1.2 rename the method's parts in the documentation, and the code and data are those of v1.0).
 
 **Names.** The article calls the method **PSCE** (pre-training sample complexity estimator). The code and the artifacts keep the names used during development:
 
@@ -11,7 +11,7 @@ This repository accompanies the article *Quantifying Data Efficiency in Offline 
 | robust head | `prior_oeh_matched` |
 | Baseline | B2: `b2_matched`, `FEATURES_B2` |
 | sampled-MDP training (Block 2) | OEH-B: `oeh_b_groups`, `direct_oehb` |
-| effective horizon `h_H` (Block 3) | OEH-H: `horizon`, `oehh` |
+| lookahead budget `h_H` (Block 3) | OEH-H: `horizon`, `oehh` |
 | pilot learning curve (Block 4) | legacy diagnostics, D: feature groups G7–G8 |
 | novelty gate and distance `d` (Block 6) | shift gate: `v2_law`; `lambda_max`, `eps_max`, `d0` in `oeh_v2_spec.json` |
 | empirical sample complexity (the label) | data requirement, `event` |
@@ -47,7 +47,7 @@ A *problem* is a small tabular MDP (at most 256 state–action pairs) together w
 |---|---|---|
 | 1. Generic statistics | 18 statistics of the pilot: size, coverage, returns, transition randomness, bootstrap spreads | `scripts/analysis/run_oeh_eighth_cohort_20261014.py` (`pilot_features`), field list `FEATURES_B2` in `scripts/analysis/compare_difficulty.py` |
 | 2. Sampled-MDP training | Dirichlet posterior over the MDP and behavior; repeats the labeling experiment with the actual learner in 64 drawn MDPs | `code/oeh/posterior.py`, `code/oeh/predictive.py`, `code/oeh/tabular.py` |
-| 3. Effective horizon | Offline counterpart of the effective horizon (`h_H`) in the posterior mean model | `code/oeh/horizon.py` |
+| 3. Lookahead budget | Offline counterpart of the effective horizon of Laidlaw et al.: the logged budget (`h_H`) from which lookahead ranks the actions, in the posterior mean model | `code/oeh/horizon.py` |
 | 4. Pilot learning curve | The learner cross-fitted on folds of the pilot prefixes (learning curve) and an action-identification risk | computed with Block 1 in `pilot_features` (fields `oeh3_*` and `lcoeh4_*`, listed in `OEH_MECHANISM` of `scripts/analysis/develop_oeh_difficulty.py`) |
 | 5. Forecasting heads | Full head (108 features), finite-only head, robust head (generic statistics + pilot learning curve), each an average of three XGBoost models | `scripts/analysis/oeh_final_forecast.py` (`matched_forecast`) |
 | 6. Novelty gate | Combines the heads by the distance of the pilot to the meta-training MDPs | `scripts/analysis/oeh_v2_forecast.py` (`v2_law`) |
@@ -116,7 +116,7 @@ python -m scripts.analysis.verify_oeh         # audit of the published evidence 
 |---|---|---|
 | `scripts/analysis/oeh_pipeline.py` | Single entry point of OEH | yes |
 | `scripts/reproduce/` | Reproduction command of the final results | yes |
-| `code/oeh/` | Blocks 2 and 3: posterior, sampled-MDP training, tabular learners with exact evaluation, effective horizon | yes |
+| `code/oeh/` | Blocks 2 and 3: posterior, sampled-MDP training, tabular learners with exact evaluation, lookahead budget | yes |
 | `scripts/analysis/run_oeh_v2_sealed_test_20261014.py`, `run_oeh_fifth_panel_20261015.py`, `run_oeh_panel6_20261015.py` | Runners of Tests 1–3: freeze the protocol, generate the data, seal the forecasts, open the labels, run the registered analysis | yes |
 | `scripts/analysis/posthoc_20261028/`, `posthoc_20261101/` | The post hoc scripts that first produced the ablation, net-cost, learner-level and calibration numbers of the thesis; `scripts/reproduce` recomputes them | record |
 | `artifacts/` | Protocols, seals, forecasts, labels and scores, one folder per experiment; see [artifacts/README.md](artifacts/README.md) for which folders the final pipeline reads | partly |
@@ -132,7 +132,7 @@ Earlier sealed tests, failed cohorts and abandoned candidates stay in `artifacts
 
 ## Names in the code and in the writing
 
-Names in writing changed twice. The current names are those of the thesis and of the journal article (where the method
+Names in writing changed several times. The current names are those of the thesis and of the journal article (where the method
 is called PSCE); older records use the earlier names given in brackets.
 
 | Writing (thesis, article; earlier name) | Code and artifacts |
@@ -142,7 +142,7 @@ is called PSCE); older records use the earlier names given in brackets.
 | Robust head | `legacy` (Test 1), `robust` (Tests 2–3); field set `prior_oeh_matched` |
 | Baseline (B2) | `b2_matched` |
 | Sampled-MDP training, Block 2 (learner simulation) | OEH-B, `oeh_b_groups`, `direct_oehb` |
-| Effective horizon `h_H`, Block 3 (planning risk) | OEH-H, `horizon`, `oehh` |
+| Lookahead budget `h_H`, Block 3 (effective horizon, planning risk) | OEH-H, `horizon`, `oehh` |
 | Pilot learning curve, Block 4 (pilot diagnostics) | legacy diagnostics, D, feature groups G7–G8 |
 | Novelty gate and distance `d`, Block 6 (shift gate, shift distance) | `v2_law`, gate settings `lambda_max`, `eps_max`, `d0` in `oeh_v2_spec.json` |
 | Test 1 / Test 2 / Test 3 | four-panel sealed test / fifth panel / panel 6 |

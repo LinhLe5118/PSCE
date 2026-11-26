@@ -27,7 +27,8 @@ inputs. The Baseline leaves three gaps:
 its statistics describe the log, not how a particular learner reacts to it; a small pilot leaves much of the MDP
 unseen; and a fitted forecaster can be unreliable on pilots unlike its training data. OEH adds evidence obtained by
 **running the learner itself**, in MDPs sampled from a posterior fitted to the pilot and on parts of the pilot, a
-logged-data version of the effective horizon of Laidlaw et al. (2023), and a gate for unfamiliar pilots.
+lookahead budget that carries the effective horizon of Laidlaw et al. (2023) over to logged data, and a gate for
+unfamiliar pilots.
 
 ## The six blocks
 
@@ -35,7 +36,7 @@ logged-data version of the effective horizon of Laidlaw et al. (2023), and a gat
 |---|---|---|---|
 | 1. Generic statistics | pilot | 18 statistics (group G1) | trajectory quality and state–action coverage (Schweighofer et al., 2022), trajectory bootstrap |
 | 2. Sampled-MDP training | pilot, learner | class distribution of the learner in sampled MDPs (G2, G3, G6) | posterior predictive distribution (Gelman et al.) |
-| 3. Effective horizon | posterior mean model | offline horizon `h_H` and risk profiles (G4, G5) | effective horizon (Laidlaw et al., 2023, 2024) |
+| 3. Lookahead budget | posterior mean model | lookahead budget `h_H` and risk profiles (G4, G5) | effective horizon (Laidlaw et al., 2023, 2024) |
 | 4. Pilot learning curve | pilot | cross-fitted learning curve of each learner and action-identification risk (G7, G8) | empirical Bernstein bound; learning-curve extrapolation |
 | 5. Forecasting heads | 108 features | full head `p`, finite-only head `qO`, robust head `qR` | XGBoost AFT, ordinal threshold models, stacking |
 | 6. Novelty gate | heads, distance `d` | final forecast | nearest-neighbor outlier score, dataset shift |
